@@ -18,6 +18,8 @@ export * from "./healthStatus";
 export * from "./language";
 export * from "./savedPair";
 export * from "./savePairRequest";
+export * from "./scoringMethodInfo";
+export * from "./scoringMethodInfoStatus";
 export * from "./translatedChunk";
 export * from "./translatedChunkAlternativesItem";
 export * from "./translatedPassage";

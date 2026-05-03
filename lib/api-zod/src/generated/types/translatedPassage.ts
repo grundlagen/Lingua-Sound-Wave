@@ -19,4 +19,7 @@ export interface TranslatedPassage {
   chunksDropped: number;
   averageSimilarity: number;
   elapsedMs: number;
+  /** Id of the acoustic judge used for ranking */
+  scoringMethod: string;
+  scoringMethodLabel: string;
 }

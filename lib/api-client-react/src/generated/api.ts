@@ -27,6 +27,7 @@ import type {
   Language,
   SavePairRequest,
   SavedPair,
+  ScoringMethodInfo,
   TranslatePassageRequest,
   TranslatedPassage,
   TtsRequest,
@@ -382,6 +383,84 @@ export const useComparePhrases = <
 > => {
   return useMutation(getComparePhrasesMutationOptions(options));
 };
+
+/**
+ * Each method is a different "judge" that scores how similar two audio
+clips sound. Methods can be selected per request via `scoringMethod`.
+
+ * @summary List acoustic similarity scoring methods
+ */
+export const getGetScoringMethodsUrl = () => {
+  return `/api/homophones/methods`;
+};
+
+export const getScoringMethods = async (
+  options?: RequestInit,
+): Promise<ScoringMethodInfo[]> => {
+  return customFetch<ScoringMethodInfo[]>(getGetScoringMethodsUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetScoringMethodsQueryKey = () => {
+  return [`/api/homophones/methods`] as const;
+};
+
+export const getGetScoringMethodsQueryOptions = <
+  TData = Awaited<ReturnType<typeof getScoringMethods>>,
+  TError = ErrorType<unknown>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getScoringMethods>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey = queryOptions?.queryKey ?? getGetScoringMethodsQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getScoringMethods>>
+  > = ({ signal }) => getScoringMethods({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getScoringMethods>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetScoringMethodsQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getScoringMethods>>
+>;
+export type GetScoringMethodsQueryError = ErrorType<unknown>;
+
+/**
+ * @summary List acoustic similarity scoring methods
+ */
+
+export function useGetScoringMethods<
+  TData = Awaited<ReturnType<typeof getScoringMethods>>,
+  TError = ErrorType<unknown>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getScoringMethods>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetScoringMethodsQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
 
 /**
  * Splits the passage into sentence-sized chunks. For each chunk, generates

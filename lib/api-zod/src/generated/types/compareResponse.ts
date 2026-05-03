@@ -15,4 +15,6 @@ export interface CompareResponse {
   similarity: number;
   dtwDistance: number;
   verdict: string;
+  scoringMethod: string;
+  scoringMethodLabel: string;
 }

@@ -15,6 +15,33 @@ export interface Language {
   nativeName: string;
 }
 
+/**
+ * ready = usable now; lazy = will load model on first use; error = unavailable
+ */
+export type ScoringMethodInfoStatus =
+  (typeof ScoringMethodInfoStatus)[keyof typeof ScoringMethodInfoStatus];
+
+export const ScoringMethodInfoStatus = {
+  ready: "ready",
+  lazy: "lazy",
+  error: "error",
+} as const;
+
+/**
+ * A named acoustic similarity judge that can be selected per request via `scoringMethod`.
+ */
+export interface ScoringMethodInfo {
+  /** Stable identifier (e.g. "mfcc-dtw", "wav2vec2-mean-cos", "wav2vec2-dtw") */
+  id: string;
+  /** Human-readable name */
+  label: string;
+  /** How this method judges similarity */
+  description: string;
+  /** ready = usable now; lazy = will load model on first use; error = unavailable */
+  status: ScoringMethodInfoStatus;
+  statusDetail?: string;
+}
+
 export interface FeaturedPair {
   sourcePhrase: string;
   sourceLanguage: string;
@@ -59,6 +86,8 @@ export interface DiscoverRequest {
   candidateCount?: number;
   /** Minimum acoustic similarity (0-1) to return */
   minSimilarity?: number;
+  /** Acoustic judge id (see /homophones/methods). Defaults to "mfcc-dtw". */
+  scoringMethod?: string;
 }
 
 export interface AcousticMatch {
@@ -84,6 +113,8 @@ export interface DiscoverResponse {
   /** Number of candidates whose TTS or feature extraction failed */
   candidatesFailed: number;
   elapsedMs: number;
+  scoringMethod: string;
+  scoringMethodLabel: string;
 }
 
 export interface TtsRequest {
@@ -112,6 +143,8 @@ export interface CompareRequest {
    */
   phrase2: string;
   language2?: string;
+  /** Acoustic judge id (see /homophones/methods). Defaults to "mfcc-dtw". */
+  scoringMethod?: string;
 }
 
 export interface CompareResponse {
@@ -122,6 +155,8 @@ export interface CompareResponse {
   similarity: number;
   dtwDistance: number;
   verdict: string;
+  scoringMethod: string;
+  scoringMethodLabel: string;
 }
 
 export interface TranslatePassageRequest {
@@ -147,6 +182,8 @@ export interface TranslatePassageRequest {
    * @maximum 40
    */
   maxChunks?: number;
+  /** Acoustic judge id (see /homophones/methods). Defaults to "mfcc-dtw". */
+  scoringMethod?: string;
 }
 
 export type TranslatedChunkAlternativesItem = {
@@ -187,6 +224,9 @@ export interface TranslatedPassage {
   chunksDropped: number;
   averageSimilarity: number;
   elapsedMs: number;
+  /** Id of the acoustic judge used for ranking */
+  scoringMethod: string;
+  scoringMethodLabel: string;
 }
 
 export interface SavePairRequest {

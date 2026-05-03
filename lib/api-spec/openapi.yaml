@@ -91,6 +91,24 @@ paths:
               schema:
                 $ref: "#/components/schemas/CompareResponse"
 
+  /homophones/methods:
+    get:
+      operationId: getScoringMethods
+      tags: [homophones]
+      summary: List acoustic similarity scoring methods
+      description: |
+        Each method is a different "judge" that scores how similar two audio
+        clips sound. Methods can be selected per request via `scoringMethod`.
+      responses:
+        "200":
+          description: Available scoring methods
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ScoringMethodInfo"
+
   /homophones/translate:
     post:
       operationId: translatePassage
@@ -217,6 +235,27 @@ components:
           type: string
       required: [code, name, nativeName]
 
+    ScoringMethodInfo:
+      type: object
+      description: A named acoustic similarity judge that can be selected per request via `scoringMethod`.
+      properties:
+        id:
+          type: string
+          description: Stable identifier (e.g. "mfcc-dtw", "wav2vec2-mean-cos", "wav2vec2-dtw")
+        label:
+          type: string
+          description: Human-readable name
+        description:
+          type: string
+          description: How this method judges similarity
+        status:
+          type: string
+          enum: [ready, lazy, error]
+          description: ready = usable now; lazy = will load model on first use; error = unavailable
+        statusDetail:
+          type: string
+      required: [id, label, description, status]
+
     FeaturedPair:
       type: object
       properties:
@@ -304,6 +343,9 @@ components:
           type: number
           description: Minimum acoustic similarity (0-1) to return
           default: 0.55
+        scoringMethod:
+          type: string
+          description: Acoustic judge id (see /homophones/methods). Defaults to "mfcc-dtw".
       required:
         - phrase
         - sourceLanguage
@@ -362,6 +404,10 @@ components:
           description: Number of candidates whose TTS or feature extraction failed
         elapsedMs:
           type: number
+        scoringMethod:
+          type: string
+        scoringMethodLabel:
+          type: string
       required:
         - sourcePhrase
         - sourceLanguage
@@ -372,6 +418,8 @@ components:
         - candidatesEvaluated
         - candidatesFailed
         - elapsedMs
+        - scoringMethod
+        - scoringMethodLabel
 
     TtsRequest:
       type: object
@@ -406,6 +454,9 @@ components:
           maxLength: 200
         language2:
           type: string
+        scoringMethod:
+          type: string
+          description: Acoustic judge id (see /homophones/methods). Defaults to "mfcc-dtw".
       required: [phrase1, phrase2]
 
     CompareResponse:
@@ -425,6 +476,10 @@ components:
           type: number
         verdict:
           type: string
+        scoringMethod:
+          type: string
+        scoringMethodLabel:
+          type: string
       required:
         - phrase1
         - phrase2
@@ -433,6 +488,8 @@ components:
         - similarity
         - dtwDistance
         - verdict
+        - scoringMethod
+        - scoringMethodLabel
 
     TranslatePassageRequest:
       type: object
@@ -460,6 +517,9 @@ components:
           maximum: 40
           default: 30
           description: Hard cap on chunk count (excess chunks are dropped with a warning)
+        scoringMethod:
+          type: string
+          description: Acoustic judge id (see /homophones/methods). Defaults to "mfcc-dtw".
       required:
         - passage
         - sourceLanguage
@@ -542,6 +602,11 @@ components:
           type: number
         elapsedMs:
           type: number
+        scoringMethod:
+          type: string
+          description: Id of the acoustic judge used for ranking
+        scoringMethodLabel:
+          type: string
       required:
         - sourceLanguage
         - sourceLanguageName
@@ -553,6 +618,8 @@ components:
         - chunksDropped
         - averageSimilarity
         - elapsedMs
+        - scoringMethod
+        - scoringMethodLabel
 
     SavePairRequest:
       type: object

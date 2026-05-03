@@ -19,4 +19,6 @@ export interface DiscoverResponse {
   /** Number of candidates whose TTS or feature extraction failed */
   candidatesFailed: number;
   elapsedMs: number;
+  scoringMethod: string;
+  scoringMethodLabel: string;
 }

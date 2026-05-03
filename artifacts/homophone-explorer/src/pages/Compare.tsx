@@ -8,12 +8,14 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useComparePhrases, useGetLanguages } from "@workspace/api-client-react";
 import { AudioCard } from "@/components/AudioCard";
 import { SimilarityMeter } from "@/components/SimilarityMeter";
+import { MethodSelector } from "@/components/MethodSelector";
 
 export function ComparePage() {
   const [p1, setP1] = useState("knee how");
   const [l1, setL1] = useState("en");
   const [p2, setP2] = useState("你好");
   const [l2, setL2] = useState("zh");
+  const [scoringMethod, setScoringMethod] = useState("mfcc-dtw");
 
   const { data: languages = [] } = useGetLanguages();
   const compare = useComparePhrases();
@@ -21,7 +23,7 @@ export function ComparePage() {
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     compare.mutate({
-      data: { phrase1: p1, language1: l1, phrase2: p2, language2: l2 },
+      data: { phrase1: p1, language1: l1, phrase2: p2, language2: l2, scoringMethod },
     });
   };
 
@@ -55,6 +57,7 @@ export function ComparePage() {
               </Select>
             </div>
           </div>
+          <MethodSelector value={scoringMethod} onChange={setScoringMethod} testId="select-method-compare" />
           <Button
             type="submit"
             size="lg"
@@ -89,8 +92,9 @@ export function ComparePage() {
               <div className="text-sm text-muted-foreground">{compare.data.verdict}</div>
             </div>
             <SimilarityMeter value={compare.data.similarity} showLabel={false} />
-            <div className="text-xs text-muted-foreground">
-              DTW distance: <span className="tabular-nums">{compare.data.dtwDistance.toFixed(4)}</span>
+            <div className="text-xs text-muted-foreground flex flex-wrap gap-x-3">
+              <span>distance: <span className="tabular-nums">{compare.data.dtwDistance.toFixed(4)}</span></span>
+              <span>· judged by <span className="font-medium">{compare.data.scoringMethodLabel}</span></span>
             </div>
           </div>
           <div className="grid gap-4 md:grid-cols-2">

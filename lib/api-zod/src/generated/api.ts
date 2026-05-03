@@ -50,6 +50,12 @@ export const DiscoverHomophonesBody = zod.object({
     .number()
     .default(discoverHomophonesBodyMinSimilarityDefault)
     .describe("Minimum acoustic similarity (0-1) to return"),
+  scoringMethod: zod
+    .string()
+    .optional()
+    .describe(
+      'Acoustic judge id (see \/homophones\/methods). Defaults to \"mfcc-dtw\".',
+    ),
 });
 
 export const DiscoverHomophonesResponse = zod.object({
@@ -117,6 +123,8 @@ export const DiscoverHomophonesResponse = zod.object({
     .number()
     .describe("Number of candidates whose TTS or feature extraction failed"),
   elapsedMs: zod.number(),
+  scoringMethod: zod.string(),
+  scoringMethodLabel: zod.string(),
 });
 
 /**
@@ -169,6 +177,12 @@ export const ComparePhrasesBody = zod.object({
   language1: zod.string().optional(),
   phrase2: zod.string().min(1).max(comparePhrasesBodyPhrase2Max),
   language2: zod.string().optional(),
+  scoringMethod: zod
+    .string()
+    .optional()
+    .describe(
+      'Acoustic judge id (see \/homophones\/methods). Defaults to \"mfcc-dtw\".',
+    ),
 });
 
 export const ComparePhrasesResponse = zod.object({
@@ -219,7 +233,38 @@ export const ComparePhrasesResponse = zod.object({
   similarity: zod.number(),
   dtwDistance: zod.number(),
   verdict: zod.string(),
+  scoringMethod: zod.string(),
+  scoringMethodLabel: zod.string(),
 });
+
+/**
+ * Each method is a different "judge" that scores how similar two audio
+clips sound. Methods can be selected per request via `scoringMethod`.
+
+ * @summary List acoustic similarity scoring methods
+ */
+export const GetScoringMethodsResponseItem = zod
+  .object({
+    id: zod
+      .string()
+      .describe(
+        'Stable identifier (e.g. \"mfcc-dtw\", \"wav2vec2-mean-cos\", \"wav2vec2-dtw\")',
+      ),
+    label: zod.string().describe("Human-readable name"),
+    description: zod.string().describe("How this method judges similarity"),
+    status: zod
+      .enum(["ready", "lazy", "error"])
+      .describe(
+        "ready = usable now; lazy = will load model on first use; error = unavailable",
+      ),
+    statusDetail: zod.string().optional(),
+  })
+  .describe(
+    "A named acoustic similarity judge that can be selected per request via `scoringMethod`.",
+  );
+export const GetScoringMethodsResponse = zod.array(
+  GetScoringMethodsResponseItem,
+);
 
 /**
  * Splits the passage into sentence-sized chunks. For each chunk, generates
@@ -265,6 +310,12 @@ export const TranslatePassageBody = zod.object({
     .default(translatePassageBodyMaxChunksDefault)
     .describe(
       "Hard cap on chunk count (excess chunks are dropped with a warning)",
+    ),
+  scoringMethod: zod
+    .string()
+    .optional()
+    .describe(
+      'Acoustic judge id (see \/homophones\/methods). Defaults to \"mfcc-dtw\".',
     ),
 });
 
@@ -366,6 +417,10 @@ export const TranslatePassageResponse = zod.object({
     .describe("Chunks dropped because they exceeded maxChunks"),
   averageSimilarity: zod.number(),
   elapsedMs: zod.number(),
+  scoringMethod: zod
+    .string()
+    .describe("Id of the acoustic judge used for ranking"),
+  scoringMethodLabel: zod.string(),
 });
 
 /**

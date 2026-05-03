@@ -10,6 +10,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
+    "@huggingface/transformers": "^4.2.0",
     "@workspace/api-zod": "workspace:*",
     "@workspace/db": "workspace:*",
     "@workspace/integrations-openai-ai-server": "workspace:*",
@@ -18,8 +19,10 @@
     "drizzle-orm": "catalog:",
     "express": "^5",
     "fft.js": "^4.0.4",
+    "onnxruntime-node": "^1.25.1",
     "pino": "^9",
-    "pino-http": "^10"
+    "pino-http": "^10",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.10",

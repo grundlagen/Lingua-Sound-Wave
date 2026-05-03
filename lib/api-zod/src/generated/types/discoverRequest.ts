@@ -24,4 +24,6 @@ export interface DiscoverRequest {
   candidateCount?: number;
   /** Minimum acoustic similarity (0-1) to return */
   minSimilarity?: number;
+  /** Acoustic judge id (see /homophones/methods). Defaults to "mfcc-dtw". */
+  scoringMethod?: string;
 }

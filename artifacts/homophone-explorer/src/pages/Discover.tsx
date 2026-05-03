@@ -15,6 +15,7 @@ import type { DiscoverResponse } from "@workspace/api-client-react";
 import { LanguageMultiselect } from "@/components/LanguageMultiselect";
 import { AudioCard } from "@/components/AudioCard";
 import { MatchCard } from "@/components/MatchCard";
+import { MethodSelector } from "@/components/MethodSelector";
 
 export function DiscoverPage() {
   const [phrase, setPhrase] = useState("knee how");
@@ -22,6 +23,7 @@ export function DiscoverPage() {
   const [targets, setTargets] = useState<string[]>([]);
   const [minSim, setMinSim] = useState(0.55);
   const [count, setCount] = useState(24);
+  const [scoringMethod, setScoringMethod] = useState("mfcc-dtw");
   const [result, setResult] = useState<DiscoverResponse | null>(null);
   const requestIdRef = useRef(0);
 
@@ -42,6 +44,7 @@ export function DiscoverPage() {
           targetLanguages: useTargets && targets.length > 0 ? targets : undefined,
           minSimilarity: minSim,
           candidateCount: count,
+          scoringMethod,
         },
       },
       {
@@ -134,10 +137,11 @@ export function DiscoverPage() {
               />
             </div>
           </div>
+          <MethodSelector value={scoringMethod} onChange={setScoringMethod} testId="select-method-discover" />
           <div className="flex items-center justify-between gap-4 pt-2">
             <p className="text-xs text-muted-foreground">
-              We synthesize real TTS audio for each candidate and compare with MFCC + Dynamic Time
-              Warping. Search takes ~30–90s.
+              We synthesize real TTS audio for each candidate and rank by your chosen acoustic judge.
+              Search takes ~30–90s (longer with neural methods on first call).
             </p>
             <Button
               type="submit"
@@ -216,8 +220,11 @@ function ResultsView({ result }: { result: DiscoverResponse }) {
               {result.sourceLanguageName} · "{result.sourceMeaning}"
             </div>
           </div>
-          <div className="text-xs text-muted-foreground">
-            {result.matches.length} match{result.matches.length === 1 ? "" : "es"} · {result.candidatesEvaluated} candidates · {(result.elapsedMs / 1000).toFixed(1)}s
+          <div className="text-xs text-muted-foreground text-right">
+            <div>
+              {result.matches.length} match{result.matches.length === 1 ? "" : "es"} · {result.candidatesEvaluated} candidates · {(result.elapsedMs / 1000).toFixed(1)}s
+            </div>
+            <div data-testid="result-method">judged by <span className="font-medium">{result.scoringMethodLabel}</span></div>
           </div>
         </div>
         <AudioCard

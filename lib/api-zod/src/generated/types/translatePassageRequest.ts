@@ -29,4 +29,6 @@ export interface TranslatePassageRequest {
    * @maximum 40
    */
   maxChunks?: number;
+  /** Acoustic judge id (see /homophones/methods). Defaults to "mfcc-dtw". */
+  scoringMethod?: string;
 }

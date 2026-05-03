@@ -43,6 +43,22 @@ export function float32ToWav(samples: Float32Array, sampleRate: number): Buffer 
   return buffer;
 }
 
+/** Linear-interpolation resample. Cheap; adequate for speech features (we don't need anti-aliased downsampling for ~24k→16k). */
+export function resample(samples: Float32Array, srcRate: number, dstRate: number): Float32Array {
+  if (srcRate === dstRate) return samples;
+  const ratio = srcRate / dstRate;
+  const len = Math.max(1, Math.floor(samples.length / ratio));
+  const out = new Float32Array(len);
+  for (let i = 0; i < len; i++) {
+    const x = i * ratio;
+    const i0 = Math.floor(x);
+    const i1 = Math.min(samples.length - 1, i0 + 1);
+    const frac = x - i0;
+    out[i] = samples[i0]! * (1 - frac) + samples[i1]! * frac;
+  }
+  return out;
+}
+
 /** Trim leading/trailing silence based on RMS energy. */
 export function trimSilence(samples: Float32Array, sampleRate: number, threshold = 0.005): Float32Array {
   const win = Math.max(1, Math.floor(sampleRate * 0.02));

@@ -16,13 +16,17 @@ import {
 import { LANGUAGES, languageName } from "../lib/languages";
 import { FEATURED_PAIRS } from "../lib/featured";
 import { synthesize, toAudioPayload, type SynthesizedAudio } from "../lib/tts";
-import { dtwDistance, distanceToSimilarity } from "../lib/dsp";
 import { mapWithLimit } from "../lib/concurrency";
+import { getScoringMethod, listScoringMethods } from "../lib/scoring";
 
 const router: IRouter = Router();
 
 router.get("/homophones/languages", (_req, res) => {
   res.json(LANGUAGES);
+});
+
+router.get("/homophones/methods", (_req, res) => {
+  res.json(listScoringMethods());
 });
 
 router.get("/homophones/featured", (_req, res) => {
@@ -107,10 +111,11 @@ router.post("/homophones/tts", async (req, res) => {
 
 router.post("/homophones/compare", async (req, res) => {
   const body = CompareRequest.parse(req.body);
+  const method = getScoringMethod(body.scoringMethod);
   try {
     const [a1, a2] = await Promise.all([synthesize(body.phrase1), synthesize(body.phrase2)]);
-    const d = dtwDistance(a1.features.mfcc, a2.features.mfcc);
-    const sim = distanceToSimilarity(d);
+    const r = await method.score(a1, a2);
+    const sim = r.similarity;
     const verdict =
       sim > 0.85
         ? "Near-identical acoustic match"
@@ -125,12 +130,14 @@ router.post("/homophones/compare", async (req, res) => {
       audio1: toAudioPayload(a1),
       audio2: toAudioPayload(a2),
       similarity: sim,
-      dtwDistance: d,
+      dtwDistance: r.distance,
       verdict,
+      scoringMethod: method.id,
+      scoringMethodLabel: method.label,
     });
     res.json(payload);
   } catch (err) {
-    req.log.error({ err }, "compare: failed");
+    req.log.error({ err, method: method.id }, "compare: failed");
     res.status(502).json({ error: "Comparison failed", detail: String(err instanceof Error ? err.message : err) });
   }
 });
@@ -318,6 +325,7 @@ router.post("/homophones/translate", async (req, res) => {
   const start = Date.now();
   const numCandidates = body.candidatesPerChunk ?? 2;
   const maxChunks = body.maxChunks ?? 30;
+  const method = getScoringMethod(body.scoringMethod);
   const allChunks = chunkPassage(body.passage);
   const chunks = allChunks.slice(0, maxChunks);
   const dropped = allChunks.length - chunks.length;
@@ -329,7 +337,10 @@ router.post("/homophones/translate", async (req, res) => {
     req.log.warn({ dropped, total: allChunks.length, kept: chunks.length }, "translate: chunks dropped past maxChunks");
   }
 
-  req.log.info({ chunks: chunks.length, candidatesPerChunk: numCandidates }, "translate: starting passage translation");
+  req.log.info(
+    { chunks: chunks.length, candidatesPerChunk: numCandidates, method: method.id },
+    "translate: starting passage translation",
+  );
 
   const results = await mapWithLimit(chunks, 4, async (chunk, i) => {
     try {
@@ -363,14 +374,15 @@ router.post("/homophones/translate", async (req, res) => {
         }),
       );
 
-      const scored = homophoneAudios
-        .filter((h): h is { spec: { phrase: string; gloss: string }; audio: SynthesizedAudio; error: null } => h.audio !== null)
-        .map((h) => {
-          const d = dtwDistance(sourceAudio.features.mfcc, h.audio.features.mfcc);
-          const sim = distanceToSimilarity(d);
-          return { spec: h.spec, audio: h.audio, d, sim };
-        })
-        .sort((a, b) => b.sim - a.sim);
+      const scoredRaw = await Promise.all(
+        homophoneAudios
+          .filter((h): h is { spec: { phrase: string; gloss: string }; audio: SynthesizedAudio; error: null } => h.audio !== null)
+          .map(async (h) => {
+            const r = await method.score(sourceAudio, h.audio);
+            return { spec: h.spec, audio: h.audio, d: r.distance, sim: r.similarity };
+          }),
+      );
+      const scored = scoredRaw.sort((a, b) => b.sim - a.sim);
 
       if (scored.length === 0) {
         return {
@@ -437,6 +449,8 @@ router.post("/homophones/translate", async (req, res) => {
     chunksDropped: dropped,
     averageSimilarity: avg,
     elapsedMs: Date.now() - start,
+    scoringMethod: method.id,
+    scoringMethodLabel: method.label,
   });
   res.json(payload);
 });
@@ -444,6 +458,7 @@ router.post("/homophones/translate", async (req, res) => {
 router.post("/homophones/discover", async (req, res) => {
   const body = DiscoverRequest.parse(req.body);
   const start = Date.now();
+  const method = getScoringMethod(body.scoringMethod);
   const targets =
     body.targetLanguages && body.targetLanguages.length > 0
       ? body.targetLanguages
@@ -488,9 +503,8 @@ router.post("/homophones/discover", async (req, res) => {
   const synthResults = await mapWithLimit<CandidateSpec, Ok | Err>(candidates, 6, async (c) => {
     try {
       const audio = await synthesize(c.phrase);
-      const d = dtwDistance(sourceAudio.features.mfcc, audio.features.mfcc);
-      const sim = distanceToSimilarity(d);
-      return { c, audio, d, sim };
+      const r = await method.score(sourceAudio, audio);
+      return { c, audio, d: r.distance, sim: r.similarity };
     } catch (e) {
       return { c, error: e instanceof Error ? e.message : String(e) };
     }
@@ -535,6 +549,8 @@ router.post("/homophones/discover", async (req, res) => {
     candidatesEvaluated: candidates.length,
     candidatesFailed: failures.length,
     elapsedMs: Date.now() - start,
+    scoringMethod: method.id,
+    scoringMethodLabel: method.label,
   });
   res.json(payload);
 });

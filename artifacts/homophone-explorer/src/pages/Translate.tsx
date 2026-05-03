@@ -15,6 +15,7 @@ import {
 } from "@workspace/api-client-react";
 import { AudioCard } from "@/components/AudioCard";
 import { SimilarityMeter } from "@/components/SimilarityMeter";
+import { MethodSelector } from "@/components/MethodSelector";
 
 const SAMPLE_PASSAGES: { label: string; sourceLanguage: string; text: string }[] = [
   {
@@ -45,6 +46,7 @@ export function TranslatePage() {
   const [sourceLang, setSourceLang] = useState("en");
   const [targetLang, setTargetLang] = useState("fr");
   const [candidates, setCandidates] = useState(2);
+  const [scoringMethod, setScoringMethod] = useState("mfcc-dtw");
   const [result, setResult] = useState<TranslatedPassage | null>(null);
   const requestIdRef = useRef(0);
   const [staleError, setStaleError] = useState<string | null>(null);
@@ -67,6 +69,7 @@ export function TranslatePage() {
           sourceLanguage: sourceLang,
           targetLanguage: targetLang,
           candidatesPerChunk: candidates,
+          scoringMethod,
         },
       },
       {
@@ -168,6 +171,8 @@ export function TranslatePage() {
             </div>
           </div>
 
+          <MethodSelector value={scoringMethod} onChange={setScoringMethod} testId="select-method-translate" />
+
           <Button
             type="submit"
             size="lg"
@@ -212,6 +217,9 @@ function TranslationResult({ result }: { result: TranslatedPassage }) {
             </div>
             <div className="text-lg font-semibold">
               {result.chunks.length} chunks · {(result.elapsedMs / 1000).toFixed(1)}s
+            </div>
+            <div className="text-xs text-muted-foreground mt-1" data-testid="result-method">
+              judged by <span className="font-medium">{result.scoringMethodLabel}</span>
             </div>
           </div>
           <div className="space-y-1 min-w-[200px]">

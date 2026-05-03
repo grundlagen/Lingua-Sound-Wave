@@ -19,4 +19,6 @@ export interface CompareRequest {
    */
   phrase2: string;
   language2?: string;
+  /** Acoustic judge id (see /homophones/methods). Defaults to "mfcc-dtw". */
+  scoringMethod?: string;
 }
