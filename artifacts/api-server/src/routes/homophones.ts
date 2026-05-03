@@ -114,7 +114,12 @@ router.post("/homophones/compare", async (req, res) => {
   const method = getScoringMethod(body.scoringMethod);
   try {
     const [a1, a2] = await Promise.all([synthesize(body.phrase1), synthesize(body.phrase2)]);
-    const r = await method.score(a1, a2);
+    const lang1 = body.language1 ?? "";
+    const lang2 = body.language2 ?? "";
+    const r = await method.score(
+      { ...a1, text: body.phrase1, language: lang1, languageName: lang1 ? languageName(lang1) : "" },
+      { ...a2, text: body.phrase2, language: lang2, languageName: lang2 ? languageName(lang2) : "" },
+    );
     const sim = r.similarity;
     const verdict =
       sim > 0.85
@@ -378,7 +383,10 @@ router.post("/homophones/translate", async (req, res) => {
         homophoneAudios
           .filter((h): h is { spec: { phrase: string; gloss: string }; audio: SynthesizedAudio; error: null } => h.audio !== null)
           .map(async (h) => {
-            const r = await method.score(sourceAudio, h.audio);
+            const r = await method.score(
+              { ...sourceAudio, text: chunk, language: body.sourceLanguage, languageName: languageName(body.sourceLanguage) },
+              { ...h.audio, text: h.spec.phrase, language: body.targetLanguage, languageName: languageName(body.targetLanguage) },
+            );
             return { spec: h.spec, audio: h.audio, d: r.distance, sim: r.similarity };
           }),
       );
@@ -503,7 +511,10 @@ router.post("/homophones/discover", async (req, res) => {
   const synthResults = await mapWithLimit<CandidateSpec, Ok | Err>(candidates, 6, async (c) => {
     try {
       const audio = await synthesize(c.phrase);
-      const r = await method.score(sourceAudio, audio);
+      const r = await method.score(
+        { ...sourceAudio, text: body.phrase, language: body.sourceLanguage, languageName: languageName(body.sourceLanguage) },
+        { ...audio, text: c.phrase, language: c.language, languageName: languageName(c.language) },
+      );
       return { c, audio, d: r.distance, sim: r.similarity };
     } catch (e) {
       return { c, error: e instanceof Error ? e.message : String(e) };

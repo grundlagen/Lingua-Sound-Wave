@@ -1,10 +1,16 @@
 import { dtwDistance, distanceToSimilarity, type AcousticFeatures } from "./dsp";
 import { computeWav2VecFrames, meanPoolEmbedding, getWav2VecStatus } from "./wav2vec";
+import { phonemeChainScore } from "./phoneme";
 
 export interface ScoreInput {
   samples: Float32Array;
   sampleRate: number;
   features: AcousticFeatures;
+  // Optional textual context — populated by callers that have it on hand.
+  // Phoneme-based methods require these; audio-only methods ignore them.
+  text?: string;
+  language?: string;
+  languageName?: string;
 }
 
 export interface ScoreResult {
@@ -90,17 +96,34 @@ const WAV2VEC2_DTW: ScoringMethod = {
   },
 };
 
-// NOTE: An "allophone-chain" side-project method (small ~50ms MFCC units →
-// nearest-neighbor chain with explicit gap handling) was prototyped and
-// removed after testing showed it failed to discriminate. The free chain with
-// reuse let unrelated TTS clips pull cheap voice-floor matches across the
-// candidate's inventory, so the gap threshold rarely fired and negatives and
-// positives collapsed into the same ~50–60% band (mean(neg)=54.7%,
-// mean(pos)=58.9%, only +4.2 pts of separation; H1 "knee how"↔你好 scored
-// 44.6%, lower than several translations). To revive: enforce no-reuse and
-// monotonic ordering, or move to G2P+IPA phoneme units.
+// NOTE: An earlier "allophone-chain" method (small ~50ms MFCC units → free
+// nearest-neighbor chain with gap penalty) failed to discriminate because
+// single-voice TTS gave every source unit a cheap voice-floor match in the
+// candidate's inventory, so the gap threshold rarely fired. That motivated
+// moving to symbolic IPA space (PHONEME_CHAIN below), where there is no
+// voice-floor noise.
 
-const ALL_METHODS: ScoringMethod[] = [MFCC_DTW, WAV2VEC2_MEAN_COS, WAV2VEC2_DTW];
+// ---- Method 4: phoneme chain (G2P → IPA → featural alignment + variants) ----
+
+const PHONEME_CHAIN: ScoringMethod = {
+  id: "phoneme-chain",
+  label: "Phoneme chain (IPA + featural alignment + variant chaining)",
+  description:
+    "Linguistically-informed cross-lingual matcher. Skips audio entirely: an LLM converts each phrase to IPA along with up to 3 alternate pronunciation variants (fast-speech, schwa reduction, devoicing, dialect substitutions). IPA strings are aligned with weighted Needleman–Wunsch using a phonetic feature distance (place/manner/voicing for consonants; height/backness/rounding for vowels) plus equivalence-class shortcuts (rhotic family, l-vocalization, TH-fronting, sibilant family, voicing pairs, schwa↔reduced vowels, nasal place mismatches). Picks the best alignment across all source-variant × target-variant chains. First call per phrase ≈1–2s LLM; cached afterwards.",
+  status: "ready",
+  async score(src, cand) {
+    if (!src.text || !cand.text || !src.language || !cand.language) {
+      return { distance: 1.5, similarity: 0, method: this.id };
+    }
+    const r = await phonemeChainScore(
+      src.text, src.language, src.languageName ?? src.language,
+      cand.text, cand.language, cand.languageName ?? cand.language,
+    );
+    return { distance: r.distance, similarity: r.similarity, method: this.id };
+  },
+};
+
+const ALL_METHODS: ScoringMethod[] = [MFCC_DTW, WAV2VEC2_MEAN_COS, WAV2VEC2_DTW, PHONEME_CHAIN];
 
 export const DEFAULT_METHOD_ID = "mfcc-dtw";
 
@@ -112,7 +135,7 @@ export function getScoringMethod(id: string | undefined | null): ScoringMethod {
 export function listScoringMethods(): ScoringMethodInfo[] {
   const w2v = getWav2VecStatus();
   return ALL_METHODS.map((m) => {
-    if (m.id === "mfcc-dtw") {
+    if (m.id === "mfcc-dtw" || m.id === "phoneme-chain") {
       return { id: m.id, label: m.label, description: m.description, status: "ready" as const };
     }
     if (w2v.lastError) {
