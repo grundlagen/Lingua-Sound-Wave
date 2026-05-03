@@ -123,7 +123,65 @@ const PHONEME_CHAIN: ScoringMethod = {
   },
 };
 
-const ALL_METHODS: ScoringMethod[] = [MFCC_DTW, WAV2VEC2_MEAN_COS, WAV2VEC2_DTW, PHONEME_CHAIN];
+// ---- Method 5: hybrid (phoneme-chain × wav2vec2-dtw) ----
+//
+// Geometric mean of the two strongest discriminators. Rationale: their failure
+// modes are largely independent — phoneme-chain can be fooled by bad LLM G2P;
+// wav2vec2-dtw can be fooled by TTS voice-floor on prosodically similar but
+// phonetically unrelated phrases (e.g. P5 on the 8-pair benchmark). Requiring
+// BOTH to agree pulls down each method's idiosyncratic false positives while
+// preserving genuine homophones (where both naturally agree).
+//
+// We use the geometric mean rather than a min so a single very-low score
+// doesn't dominate when the other method is mildly uncertain. Distance is
+// reported as the average of the two normalized distances for display.
+
+const HYBRID_PHONEME_AUDIO: ScoringMethod = {
+  id: "hybrid-phoneme-audio",
+  label: "Hybrid (phoneme chain × wav2vec2 DTW)",
+  description:
+    "Geometric mean of the symbolic phoneme-chain matcher and the wav2vec2-dtw acoustic matcher. Each method's idiosyncratic false positives get pulled down by the other (e.g. wav2vec2-dtw's TTS-voice-floor false positives on prosodically similar but phonetically unrelated phrases are corrected by phoneme-chain's symbolic 'no'). Requires both LLM G2P and the wav2vec2 model — slowest method, most reliable.",
+  status: "lazy",
+  async score(src, cand) {
+    const [pho, aco] = await Promise.all([
+      PHONEME_CHAIN.score(src, cand),
+      WAV2VEC2_DTW.score(src, cand),
+    ]);
+    const sim = Math.sqrt(Math.max(0, pho.similarity) * Math.max(0, aco.similarity));
+    const distance = (pho.distance + aco.distance) / 2;
+    return { distance, similarity: sim, method: this.id };
+  },
+};
+
+// ---- Method 6: hybrid (phoneme-chain × MFCC-DTW) ----
+//
+// MFCC-DTW has a wider relative spread than wav2vec2-dtw on TTS (negatives
+// cluster ~20-30%, positives ~50-90%) because it doesn't inherit the
+// neural-model voice-floor that wav2vec2 picks up from same-voice synthesis.
+// Combining it with phoneme-chain (geometric mean) confirms phonetic matches
+// acoustically without dragging negatives upward.
+//
+// Empirically (8-pair benchmark) this hybrid matches or beats both inputs.
+// Cheaper than hybrid-phoneme-audio: no neural model required.
+
+const HYBRID_PHONEME_MFCC: ScoringMethod = {
+  id: "hybrid-phoneme-mfcc",
+  label: "Hybrid (phoneme chain × MFCC DTW)",
+  description:
+    "Geometric mean of the symbolic phoneme-chain matcher and the classical MFCC + DTW matcher. MFCC-DTW has a wider negative/positive spread on TTS than wav2vec2-dtw (no neural voice-floor inflation), so it provides cleaner acoustic confirmation without dragging unrelated pairs upward. Cheaper than the wav2vec2 hybrid — no neural model needed.",
+  status: "ready",
+  async score(src, cand) {
+    const [pho, aco] = await Promise.all([
+      PHONEME_CHAIN.score(src, cand),
+      MFCC_DTW.score(src, cand),
+    ]);
+    const sim = Math.sqrt(Math.max(0, pho.similarity) * Math.max(0, aco.similarity));
+    const distance = (pho.distance + aco.distance) / 2;
+    return { distance, similarity: sim, method: this.id };
+  },
+};
+
+const ALL_METHODS: ScoringMethod[] = [MFCC_DTW, WAV2VEC2_MEAN_COS, WAV2VEC2_DTW, PHONEME_CHAIN, HYBRID_PHONEME_AUDIO, HYBRID_PHONEME_MFCC];
 
 export const DEFAULT_METHOD_ID = "mfcc-dtw";
 
@@ -135,8 +193,14 @@ export function getScoringMethod(id: string | undefined | null): ScoringMethod {
 export function listScoringMethods(): ScoringMethodInfo[] {
   const w2v = getWav2VecStatus();
   return ALL_METHODS.map((m) => {
-    if (m.id === "mfcc-dtw" || m.id === "phoneme-chain") {
+    if (m.id === "mfcc-dtw" || m.id === "phoneme-chain" || m.id === "hybrid-phoneme-mfcc") {
       return { id: m.id, label: m.label, description: m.description, status: "ready" as const };
+    }
+    if (m.id === "hybrid-phoneme-audio") {
+      // Inherit the wav2vec2 status since the hybrid needs the model.
+      if (w2v.lastError) return { id: m.id, label: m.label, description: m.description, status: "error" as const, statusDetail: w2v.lastError };
+      if (w2v.ready) return { id: m.id, label: m.label, description: m.description, status: "ready" as const, statusDetail: "phoneme G2P + wav2vec2 ready" };
+      return { id: m.id, label: m.label, description: m.description, status: "lazy" as const, statusDetail: w2v.loading ? "downloading wav2vec2 model…" : "downloads wav2vec2 (~95MB) on first use" };
     }
     if (w2v.lastError) {
       return {

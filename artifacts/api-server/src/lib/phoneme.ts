@@ -186,6 +186,15 @@ const C_PLACE_W = 0.40, C_MANNER_W = 0.40, C_VOICE_W = 0.20;
 const V_HEIGHT_W = 0.40, V_BACK_W = 0.40, V_ROUND_W = 0.20;
 const CV_CROSS_COST = 1.0;
 const GAP_COST = 0.5;
+// Cheap-to-delete offglides: the second element of common diphthongs (e.g. the
+// "ʊ" in /oʊ/ or the "ɪ" in /eɪ/) often vanishes in the target language's
+// counterpart (e.g. Japanese /o/ vs English /oʊ/). Charging a full gap penalty
+// over-counts these cases.
+const OFFGLIDE_GAP_COST = 0.12;
+const OFFGLIDES = new Set(["ʊ", "ɪ", "j", "w"]);
+function gapCost(token: string): number {
+  return OFFGLIDES.has(token) ? OFFGLIDE_GAP_COST : GAP_COST;
+}
 
 export function substitutionCost(a: string, b: string): number {
   if (a === b) return 0;
@@ -210,16 +219,16 @@ export function substitutionCost(a: string, b: string): number {
 export function alignCost(a: string[], b: string[]): { cost: number; aligned: number } {
   const n = a.length, m = b.length;
   if (n === 0 && m === 0) return { cost: 0, aligned: 0 };
-  if (n === 0) return { cost: m * GAP_COST, aligned: m };
-  if (m === 0) return { cost: n * GAP_COST, aligned: n };
+  if (n === 0) return { cost: b.reduce((s, t) => s + gapCost(t), 0), aligned: m };
+  if (m === 0) return { cost: a.reduce((s, t) => s + gapCost(t), 0), aligned: n };
   const dp: number[][] = Array.from({ length: n + 1 }, () => new Array<number>(m + 1).fill(0));
-  for (let i = 1; i <= n; i++) dp[i]![0] = i * GAP_COST;
-  for (let j = 1; j <= m; j++) dp[0]![j] = j * GAP_COST;
+  for (let i = 1; i <= n; i++) dp[i]![0] = dp[i - 1]![0]! + gapCost(a[i - 1]!);
+  for (let j = 1; j <= m; j++) dp[0]![j] = dp[0]![j - 1]! + gapCost(b[j - 1]!);
   for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= m; j++) {
       const sub = dp[i - 1]![j - 1]! + substitutionCost(a[i - 1]!, b[j - 1]!);
-      const del = dp[i - 1]![j]! + GAP_COST;
-      const ins = dp[i]![j - 1]! + GAP_COST;
+      const del = dp[i - 1]![j]! + gapCost(a[i - 1]!);
+      const ins = dp[i]![j - 1]! + gapCost(b[j - 1]!);
       dp[i]![j] = Math.min(sub, del, ins);
     }
   }
