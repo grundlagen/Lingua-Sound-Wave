@@ -2,11 +2,12 @@ import { Switch, Route, Router as WouterRouter, Link, useLocation } from "wouter
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { Waves, GitCompare, Bookmark } from "lucide-react";
+import { Waves, GitCompare, Bookmark, Languages } from "lucide-react";
 import NotFound from "@/pages/not-found";
 import { DiscoverPage } from "@/pages/Discover";
 import { ComparePage } from "@/pages/Compare";
 import { SavedPage } from "@/pages/Saved";
+import { TranslatePage } from "@/pages/Translate";
 import { setBaseUrl } from "@workspace/api-client-react";
 import { cn } from "@/lib/utils";
 
@@ -52,6 +53,7 @@ function Shell() {
           </div>
           <nav className="flex items-center gap-1">
             <NavLink href="/" icon={Waves}>Discover</NavLink>
+            <NavLink href="/translate" icon={Languages}>Translate</NavLink>
             <NavLink href="/compare" icon={GitCompare}>Compare</NavLink>
             <NavLink href="/saved" icon={Bookmark}>Saved</NavLink>
           </nav>
@@ -60,6 +62,7 @@ function Shell() {
       <main className="container mx-auto px-4 py-6 max-w-6xl">
         <Switch>
           <Route path="/" component={DiscoverPage} />
+          <Route path="/translate" component={TranslatePage} />
           <Route path="/compare" component={ComparePage} />
           <Route path="/saved" component={SavedPage} />
           <Route component={NotFound} />

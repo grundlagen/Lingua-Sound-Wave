@@ -91,6 +91,31 @@ paths:
               schema:
                 $ref: "#/components/schemas/CompareResponse"
 
+  /homophones/translate:
+    post:
+      operationId: translatePassage
+      tags: [homophones]
+      summary: Semantic + homophonic translation of a passage
+      description: |
+        Splits the passage into sentence-sized chunks. For each chunk, generates
+        both a literal SEMANTIC translation in the target language and a
+        HOMOPHONIC rendering — a real-target-language phrase whose synthesized
+        audio sounds like the source chunk. Each homophonic candidate is
+        verified with MFCC + DTW against the source TTS audio.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TranslatePassageRequest"
+      responses:
+        "200":
+          description: Per-chunk semantic + homophonic translations
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TranslatedPassage"
+
   /homophones/saved:
     get:
       operationId: getSavedPairs
@@ -408,6 +433,126 @@ components:
         - similarity
         - dtwDistance
         - verdict
+
+    TranslatePassageRequest:
+      type: object
+      properties:
+        passage:
+          type: string
+          minLength: 1
+          maxLength: 4000
+          description: Source passage (any length up to 4000 chars; chunked internally)
+        sourceLanguage:
+          type: string
+          minLength: 2
+        targetLanguage:
+          type: string
+          minLength: 2
+        candidatesPerChunk:
+          type: integer
+          minimum: 1
+          maximum: 4
+          default: 2
+          description: Number of homophonic candidates to generate and rank per chunk
+        maxChunks:
+          type: integer
+          minimum: 1
+          maximum: 40
+          default: 30
+          description: Hard cap on chunk count (excess chunks are dropped with a warning)
+      required:
+        - passage
+        - sourceLanguage
+        - targetLanguage
+
+    TranslatedChunk:
+      type: object
+      properties:
+        index:
+          type: integer
+        sourceText:
+          type: string
+        semanticTranslation:
+          type: string
+          description: Literal meaning-preserving translation in the target language
+        homophonic:
+          type: string
+          description: Best target-language phrase that sounds like the source chunk
+        homophonicGloss:
+          type: string
+          description: Literal English meaning of the homophonic rendering (often nonsense)
+        similarity:
+          type: number
+          description: Acoustic similarity (0-1) of best homophonic candidate vs source
+        dtwDistance:
+          type: number
+        sourceAudio:
+          $ref: "#/components/schemas/AudioPayload"
+        homophonicAudio:
+          $ref: "#/components/schemas/AudioPayload"
+        alternatives:
+          type: array
+          description: Other homophonic candidates considered, ranked by similarity (excluding the chosen one)
+          items:
+            type: object
+            properties:
+              phrase:
+                type: string
+              gloss:
+                type: string
+              similarity:
+                type: number
+            required: [phrase, gloss, similarity]
+        error:
+          type: string
+          description: Set if this chunk failed to process
+      required:
+        - index
+        - sourceText
+        - semanticTranslation
+        - homophonic
+        - homophonicGloss
+        - similarity
+        - dtwDistance
+        - alternatives
+
+    TranslatedPassage:
+      type: object
+      properties:
+        sourceLanguage:
+          type: string
+        sourceLanguageName:
+          type: string
+        targetLanguage:
+          type: string
+        targetLanguageName:
+          type: string
+        chunks:
+          type: array
+          items:
+            $ref: "#/components/schemas/TranslatedChunk"
+        chunksAttempted:
+          type: integer
+        chunksFailed:
+          type: integer
+        chunksDropped:
+          type: integer
+          description: Chunks dropped because they exceeded maxChunks
+        averageSimilarity:
+          type: number
+        elapsedMs:
+          type: number
+      required:
+        - sourceLanguage
+        - sourceLanguageName
+        - targetLanguage
+        - targetLanguageName
+        - chunks
+        - chunksAttempted
+        - chunksFailed
+        - chunksDropped
+        - averageSimilarity
+        - elapsedMs
 
     SavePairRequest:
       type: object

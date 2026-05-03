@@ -27,6 +27,8 @@ import type {
   Language,
   SavePairRequest,
   SavedPair,
+  TranslatePassageRequest,
+  TranslatedPassage,
   TtsRequest,
   TtsResponse,
 } from "./api.schemas";
@@ -379,6 +381,98 @@ export const useComparePhrases = <
   TContext
 > => {
   return useMutation(getComparePhrasesMutationOptions(options));
+};
+
+/**
+ * Splits the passage into sentence-sized chunks. For each chunk, generates
+both a literal SEMANTIC translation in the target language and a
+HOMOPHONIC rendering — a real-target-language phrase whose synthesized
+audio sounds like the source chunk. Each homophonic candidate is
+verified with MFCC + DTW against the source TTS audio.
+
+ * @summary Semantic + homophonic translation of a passage
+ */
+export const getTranslatePassageUrl = () => {
+  return `/api/homophones/translate`;
+};
+
+export const translatePassage = async (
+  translatePassageRequest: TranslatePassageRequest,
+  options?: RequestInit,
+): Promise<TranslatedPassage> => {
+  return customFetch<TranslatedPassage>(getTranslatePassageUrl(), {
+    ...options,
+    method: "POST",
+    headers: { "Content-Type": "application/json", ...options?.headers },
+    body: JSON.stringify(translatePassageRequest),
+  });
+};
+
+export const getTranslatePassageMutationOptions = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof translatePassage>>,
+    TError,
+    { data: BodyType<TranslatePassageRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationOptions<
+  Awaited<ReturnType<typeof translatePassage>>,
+  TError,
+  { data: BodyType<TranslatePassageRequest> },
+  TContext
+> => {
+  const mutationKey = ["translatePassage"];
+  const { mutation: mutationOptions, request: requestOptions } = options
+    ? options.mutation &&
+      "mutationKey" in options.mutation &&
+      options.mutation.mutationKey
+      ? options
+      : { ...options, mutation: { ...options.mutation, mutationKey } }
+    : { mutation: { mutationKey }, request: undefined };
+
+  const mutationFn: MutationFunction<
+    Awaited<ReturnType<typeof translatePassage>>,
+    { data: BodyType<TranslatePassageRequest> }
+  > = (props) => {
+    const { data } = props ?? {};
+
+    return translatePassage(data, requestOptions);
+  };
+
+  return { mutationFn, ...mutationOptions };
+};
+
+export type TranslatePassageMutationResult = NonNullable<
+  Awaited<ReturnType<typeof translatePassage>>
+>;
+export type TranslatePassageMutationBody = BodyType<TranslatePassageRequest>;
+export type TranslatePassageMutationError = ErrorType<unknown>;
+
+/**
+ * @summary Semantic + homophonic translation of a passage
+ */
+export const useTranslatePassage = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof translatePassage>>,
+    TError,
+    { data: BodyType<TranslatePassageRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationResult<
+  Awaited<ReturnType<typeof translatePassage>>,
+  TError,
+  { data: BodyType<TranslatePassageRequest> },
+  TContext
+> => {
+  return useMutation(getTranslatePassageMutationOptions(options));
 };
 
 /**

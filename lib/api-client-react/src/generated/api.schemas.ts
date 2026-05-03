@@ -124,6 +124,71 @@ export interface CompareResponse {
   verdict: string;
 }
 
+export interface TranslatePassageRequest {
+  /**
+   * Source passage (any length up to 4000 chars; chunked internally)
+   * @minLength 1
+   * @maxLength 4000
+   */
+  passage: string;
+  /** @minLength 2 */
+  sourceLanguage: string;
+  /** @minLength 2 */
+  targetLanguage: string;
+  /**
+   * Number of homophonic candidates to generate and rank per chunk
+   * @minimum 1
+   * @maximum 4
+   */
+  candidatesPerChunk?: number;
+  /**
+   * Hard cap on chunk count (excess chunks are dropped with a warning)
+   * @minimum 1
+   * @maximum 40
+   */
+  maxChunks?: number;
+}
+
+export type TranslatedChunkAlternativesItem = {
+  phrase: string;
+  gloss: string;
+  similarity: number;
+};
+
+export interface TranslatedChunk {
+  index: number;
+  sourceText: string;
+  /** Literal meaning-preserving translation in the target language */
+  semanticTranslation: string;
+  /** Best target-language phrase that sounds like the source chunk */
+  homophonic: string;
+  /** Literal English meaning of the homophonic rendering (often nonsense) */
+  homophonicGloss: string;
+  /** Acoustic similarity (0-1) of best homophonic candidate vs source */
+  similarity: number;
+  dtwDistance: number;
+  sourceAudio?: AudioPayload;
+  homophonicAudio?: AudioPayload;
+  /** Other homophonic candidates considered, ranked by similarity (excluding the chosen one) */
+  alternatives: TranslatedChunkAlternativesItem[];
+  /** Set if this chunk failed to process */
+  error?: string;
+}
+
+export interface TranslatedPassage {
+  sourceLanguage: string;
+  sourceLanguageName: string;
+  targetLanguage: string;
+  targetLanguageName: string;
+  chunks: TranslatedChunk[];
+  chunksAttempted: number;
+  chunksFailed: number;
+  /** Chunks dropped because they exceeded maxChunks */
+  chunksDropped: number;
+  averageSimilarity: number;
+  elapsedMs: number;
+}
+
 export interface SavePairRequest {
   sourcePhrase: string;
   sourceLanguage: string;

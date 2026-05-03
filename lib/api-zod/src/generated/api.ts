@@ -222,6 +222,153 @@ export const ComparePhrasesResponse = zod.object({
 });
 
 /**
+ * Splits the passage into sentence-sized chunks. For each chunk, generates
+both a literal SEMANTIC translation in the target language and a
+HOMOPHONIC rendering — a real-target-language phrase whose synthesized
+audio sounds like the source chunk. Each homophonic candidate is
+verified with MFCC + DTW against the source TTS audio.
+
+ * @summary Semantic + homophonic translation of a passage
+ */
+export const translatePassageBodyPassageMax = 4000;
+
+export const translatePassageBodySourceLanguageMin = 2;
+
+export const translatePassageBodyTargetLanguageMin = 2;
+
+export const translatePassageBodyCandidatesPerChunkDefault = 2;
+export const translatePassageBodyCandidatesPerChunkMax = 4;
+
+export const translatePassageBodyMaxChunksDefault = 30;
+export const translatePassageBodyMaxChunksMax = 40;
+
+export const TranslatePassageBody = zod.object({
+  passage: zod
+    .string()
+    .min(1)
+    .max(translatePassageBodyPassageMax)
+    .describe(
+      "Source passage (any length up to 4000 chars; chunked internally)",
+    ),
+  sourceLanguage: zod.string().min(translatePassageBodySourceLanguageMin),
+  targetLanguage: zod.string().min(translatePassageBodyTargetLanguageMin),
+  candidatesPerChunk: zod
+    .number()
+    .min(1)
+    .max(translatePassageBodyCandidatesPerChunkMax)
+    .default(translatePassageBodyCandidatesPerChunkDefault)
+    .describe("Number of homophonic candidates to generate and rank per chunk"),
+  maxChunks: zod
+    .number()
+    .min(1)
+    .max(translatePassageBodyMaxChunksMax)
+    .default(translatePassageBodyMaxChunksDefault)
+    .describe(
+      "Hard cap on chunk count (excess chunks are dropped with a warning)",
+    ),
+});
+
+export const TranslatePassageResponse = zod.object({
+  sourceLanguage: zod.string(),
+  sourceLanguageName: zod.string(),
+  targetLanguage: zod.string(),
+  targetLanguageName: zod.string(),
+  chunks: zod.array(
+    zod.object({
+      index: zod.number(),
+      sourceText: zod.string(),
+      semanticTranslation: zod
+        .string()
+        .describe(
+          "Literal meaning-preserving translation in the target language",
+        ),
+      homophonic: zod
+        .string()
+        .describe(
+          "Best target-language phrase that sounds like the source chunk",
+        ),
+      homophonicGloss: zod
+        .string()
+        .describe(
+          "Literal English meaning of the homophonic rendering (often nonsense)",
+        ),
+      similarity: zod
+        .number()
+        .describe(
+          "Acoustic similarity (0-1) of best homophonic candidate vs source",
+        ),
+      dtwDistance: zod.number(),
+      sourceAudio: zod
+        .object({
+          wavBase64: zod
+            .string()
+            .describe("WAV-encoded audio for browser playback"),
+          sampleRate: zod.number(),
+          durationMs: zod.number(),
+          waveform: zod
+            .array(zod.number())
+            .describe("Downsampled waveform peaks for visualization"),
+          melSpectrogram: zod
+            .array(zod.array(zod.number()))
+            .describe(
+              "Mel-spectrogram frames (rows are frames, columns are mel bins)",
+            ),
+          melMin: zod.number(),
+          melMax: zod.number(),
+        })
+        .optional()
+        .describe(
+          "Encoded audio + numeric features extracted server-side from raw TTS PCM",
+        ),
+      homophonicAudio: zod
+        .object({
+          wavBase64: zod
+            .string()
+            .describe("WAV-encoded audio for browser playback"),
+          sampleRate: zod.number(),
+          durationMs: zod.number(),
+          waveform: zod
+            .array(zod.number())
+            .describe("Downsampled waveform peaks for visualization"),
+          melSpectrogram: zod
+            .array(zod.array(zod.number()))
+            .describe(
+              "Mel-spectrogram frames (rows are frames, columns are mel bins)",
+            ),
+          melMin: zod.number(),
+          melMax: zod.number(),
+        })
+        .optional()
+        .describe(
+          "Encoded audio + numeric features extracted server-side from raw TTS PCM",
+        ),
+      alternatives: zod
+        .array(
+          zod.object({
+            phrase: zod.string(),
+            gloss: zod.string(),
+            similarity: zod.number(),
+          }),
+        )
+        .describe(
+          "Other homophonic candidates considered, ranked by similarity (excluding the chosen one)",
+        ),
+      error: zod
+        .string()
+        .optional()
+        .describe("Set if this chunk failed to process"),
+    }),
+  ),
+  chunksAttempted: zod.number(),
+  chunksFailed: zod.number(),
+  chunksDropped: zod
+    .number()
+    .describe("Chunks dropped because they exceeded maxChunks"),
+  averageSimilarity: zod.number(),
+  elapsedMs: zod.number(),
+});
+
+/**
  * @summary Get saved homophone pairs
  */
 export const GetSavedPairsResponseItem = zod.object({

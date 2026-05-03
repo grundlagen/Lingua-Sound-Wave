@@ -10,11 +10,14 @@ import {
   ComparePhrasesBody as CompareRequest,
   ComparePhrasesResponse as CompareResponse,
   SavePairBody as SavePairRequest,
+  TranslatePassageBody as TranslateRequest,
+  TranslatePassageResponse as TranslateResponse,
 } from "@workspace/api-zod";
 import { LANGUAGES, languageName } from "../lib/languages";
 import { FEATURED_PAIRS } from "../lib/featured";
-import { synthesize, toAudioPayload } from "../lib/tts";
+import { synthesize, toAudioPayload, type SynthesizedAudio } from "../lib/tts";
 import { dtwDistance, distanceToSimilarity } from "../lib/dsp";
+import { mapWithLimit } from "../lib/concurrency";
 
 const router: IRouter = Router();
 
@@ -210,23 +213,233 @@ async function describeMeaning(phrase: string, language: string): Promise<string
   }
 }
 
-async function mapWithLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
-  const results: R[] = new Array(items.length);
-  let idx = 0;
-  const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
-    while (true) {
-      const i = idx++;
-      if (i >= items.length) return;
-      try {
-        results[i] = await fn(items[i]!);
-      } catch (err) {
-        results[i] = err as R;
+// ---- Passage chunking + homophonic translation ----
+
+/** Split a passage into sentence-ish chunks, balancing readable units. */
+function chunkPassage(text: string): string[] {
+  const cleaned = text.replace(/\s+/g, " ").trim();
+  if (!cleaned) return [];
+  // Split on common terminators (Latin + CJK + Spanish), keeping the punctuation.
+  const re = /[^.!?。！？؟…]+[.!?。！？؟…]+|[^.!?。！？؟…]+$/g;
+  const raw = cleaned.match(re) ?? [cleaned];
+  const out: string[] = [];
+  for (let s of raw) {
+    s = s.trim();
+    if (!s) continue;
+    // If a sentence is very long, split on commas/semicolons to keep chunks ≤ ~120 chars.
+    if (s.length <= 140) {
+      out.push(s);
+    } else {
+      const parts = s.split(/(?<=[,;:、，；])\s+/);
+      let buf = "";
+      for (const p of parts) {
+        if ((buf + " " + p).trim().length > 140 && buf) {
+          out.push(buf.trim());
+          buf = p;
+        } else {
+          buf = buf ? buf + " " + p : p;
+        }
       }
+      if (buf.trim()) out.push(buf.trim());
+    }
+  }
+  return out;
+}
+
+interface ChunkLLMResult {
+  semantic: string;
+  homophones: { phrase: string; gloss: string }[];
+}
+
+async function translateChunkLLM(
+  chunk: string,
+  sourceLanguage: string,
+  targetLanguage: string,
+  numCandidates: number,
+): Promise<ChunkLLMResult> {
+  const sourceName = languageName(sourceLanguage);
+  const targetName = languageName(targetLanguage);
+  const prompt = `You are a master of literary translation AND of homophonic translation (the art of writing real text in one language whose spoken sound mimics text in another, regardless of meaning — like the French nonsense-French of "Mots d'Heures: Gousses, Rames" mimicking English "Mother Goose Rhymes").
+
+Source chunk (in ${sourceName}, code ${sourceLanguage}):
+"""${chunk}"""
+
+Target language: ${targetName} (code ${targetLanguage})
+
+Produce two things:
+
+1. "semantic": a faithful, natural meaning-preserving translation of the source chunk into ${targetName}.
+
+2. "homophones": ${numCandidates} candidate HOMOPHONIC renderings — each is real, well-formed text in ${targetName} (using only ${targetName} words / orthography) whose NATURAL SPOKEN PRONUNCIATION by a native ${targetName} speaker sounds as much as possible like the source chunk when spoken aloud. The homophonic rendering's literal meaning will usually be unrelated nonsense — that is expected and desirable. It must NOT be a translation; it must SOUND like the source.
+
+Rules for homophonic candidates:
+- Use only real ${targetName} words. No invented words. Punctuation OK.
+- Match the syllable count and stress pattern of the source as closely as possible.
+- Multi-word combinations are encouraged.
+- Each candidate should be a different attempt (different word choices), not a tiny variation.
+- Provide a literal English "gloss" of the homophonic candidate's meaning.
+
+Return strict JSON:
+{
+  "semantic": "...",
+  "homophones": [
+    {"phrase": "...", "gloss": "literal English meaning"},
+    ...
+  ]
+}`;
+
+  const completion = await openai.chat.completions.create({
+    model: "gpt-5.4",
+    messages: [
+      { role: "system", content: "You are a meticulous translator and homophonic-translation expert. Return strict JSON only." },
+      { role: "user", content: prompt },
+    ],
+    response_format: { type: "json_object" },
+  });
+  const txt = completion.choices[0]?.message?.content ?? "{}";
+  const parsed = JSON.parse(txt) as { semantic?: unknown; homophones?: unknown };
+  const semantic = typeof parsed.semantic === "string" ? parsed.semantic.trim() : "";
+  const arr = Array.isArray(parsed.homophones) ? parsed.homophones : [];
+  const homophones = arr
+    .filter((h): h is { phrase: string; gloss?: string } =>
+      typeof h === "object" && h !== null && typeof (h as { phrase?: unknown }).phrase === "string",
+    )
+    .map((h) => ({
+      phrase: h.phrase.trim(),
+      gloss: typeof h.gloss === "string" ? h.gloss.trim() : "",
+    }))
+    .filter((h) => h.phrase.length > 0)
+    .slice(0, numCandidates);
+  return { semantic, homophones };
+}
+
+router.post("/homophones/translate", async (req, res) => {
+  const body = TranslateRequest.parse(req.body);
+  const start = Date.now();
+  const numCandidates = body.candidatesPerChunk ?? 2;
+  const maxChunks = body.maxChunks ?? 30;
+  const allChunks = chunkPassage(body.passage);
+  const chunks = allChunks.slice(0, maxChunks);
+  const dropped = allChunks.length - chunks.length;
+  if (chunks.length === 0) {
+    res.status(400).json({ error: "Passage is empty after normalization" });
+    return;
+  }
+  if (dropped > 0) {
+    req.log.warn({ dropped, total: allChunks.length, kept: chunks.length }, "translate: chunks dropped past maxChunks");
+  }
+
+  req.log.info({ chunks: chunks.length, candidatesPerChunk: numCandidates }, "translate: starting passage translation");
+
+  const results = await mapWithLimit(chunks, 4, async (chunk, i) => {
+    try {
+      const llm = await translateChunkLLM(chunk, body.sourceLanguage, body.targetLanguage, numCandidates);
+      let sourceAudio: SynthesizedAudio;
+      let homophoneAudios: { spec: { phrase: string; gloss: string }; audio: SynthesizedAudio | null; error: string | null }[];
+      try {
+        sourceAudio = await synthesize(chunk);
+      } catch (e) {
+        return {
+          index: i,
+          sourceText: chunk,
+          semanticTranslation: llm.semantic || "(translation failed)",
+          homophonic: "",
+          homophonicGloss: "",
+          similarity: 0,
+          dtwDistance: 0,
+          alternatives: [],
+          error: `source TTS failed: ${e instanceof Error ? e.message : String(e)}`,
+        };
+      }
+
+      homophoneAudios = await Promise.all(
+        llm.homophones.map(async (spec) => {
+          try {
+            const a = await synthesize(spec.phrase);
+            return { spec, audio: a, error: null };
+          } catch (e) {
+            return { spec, audio: null, error: e instanceof Error ? e.message : String(e) };
+          }
+        }),
+      );
+
+      const scored = homophoneAudios
+        .filter((h): h is { spec: { phrase: string; gloss: string }; audio: SynthesizedAudio; error: null } => h.audio !== null)
+        .map((h) => {
+          const d = dtwDistance(sourceAudio.features.mfcc, h.audio.features.mfcc);
+          const sim = distanceToSimilarity(d);
+          return { spec: h.spec, audio: h.audio, d, sim };
+        })
+        .sort((a, b) => b.sim - a.sim);
+
+      if (scored.length === 0) {
+        return {
+          index: i,
+          sourceText: chunk,
+          semanticTranslation: llm.semantic || "",
+          homophonic: "",
+          homophonicGloss: "",
+          similarity: 0,
+          dtwDistance: 0,
+          sourceAudio: toAudioPayload(sourceAudio),
+          alternatives: [],
+          error: "All homophonic candidate syntheses failed",
+        };
+      }
+
+      const best = scored[0]!;
+      const alternatives = scored.slice(1).map((s) => ({
+        phrase: s.spec.phrase,
+        gloss: s.spec.gloss,
+        similarity: s.sim,
+      }));
+
+      return {
+        index: i,
+        sourceText: chunk,
+        semanticTranslation: llm.semantic || "",
+        homophonic: best.spec.phrase,
+        homophonicGloss: best.spec.gloss,
+        similarity: best.sim,
+        dtwDistance: best.d,
+        sourceAudio: toAudioPayload(sourceAudio),
+        homophonicAudio: toAudioPayload(best.audio),
+        alternatives,
+      };
+    } catch (e) {
+      req.log.warn({ err: e, chunk }, "translate: chunk failed entirely");
+      return {
+        index: i,
+        sourceText: chunk,
+        semanticTranslation: "",
+        homophonic: "",
+        homophonicGloss: "",
+        similarity: 0,
+        dtwDistance: 0,
+        alternatives: [],
+        error: e instanceof Error ? e.message : String(e),
+      };
     }
   });
-  await Promise.all(workers);
-  return results;
-}
+
+  const failed = results.filter((r) => "error" in r && r.error).length;
+  const sims = results.filter((r) => !r.error && r.similarity > 0).map((r) => r.similarity);
+  const avg = sims.length > 0 ? sims.reduce((a, b) => a + b, 0) / sims.length : 0;
+
+  const payload = TranslateResponse.parse({
+    sourceLanguage: body.sourceLanguage,
+    sourceLanguageName: languageName(body.sourceLanguage),
+    targetLanguage: body.targetLanguage,
+    targetLanguageName: languageName(body.targetLanguage),
+    chunks: results,
+    chunksAttempted: chunks.length,
+    chunksFailed: failed,
+    chunksDropped: dropped,
+    averageSimilarity: avg,
+    elapsedMs: Date.now() - start,
+  });
+  res.json(payload);
+});
 
 router.post("/homophones/discover", async (req, res) => {
   const body = DiscoverRequest.parse(req.body);
