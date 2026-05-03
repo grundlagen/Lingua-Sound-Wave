@@ -42,9 +42,16 @@ export interface AudioPayload {
 }
 
 export interface DiscoverRequest {
-  /** Source phrase (single word or multi-word) */
+  /**
+   * Source phrase (single word or multi-word)
+   * @minLength 1
+   * @maxLength 200
+   */
   phrase: string;
-  /** ISO code of source language (e.g. "en", "fr", "ja") */
+  /**
+   * ISO code of source language (e.g. "en", "fr", "ja")
+   * @minLength 2
+   */
   sourceLanguage: string;
   /** Optional restriction to specific target languages */
   targetLanguages?: string[];
@@ -74,10 +81,16 @@ export interface DiscoverResponse {
   sourceAudio: AudioPayload;
   matches: AcousticMatch[];
   candidatesEvaluated: number;
+  /** Number of candidates whose TTS or feature extraction failed */
+  candidatesFailed: number;
   elapsedMs: number;
 }
 
 export interface TtsRequest {
+  /**
+   * @minLength 1
+   * @maxLength 500
+   */
   text: string;
   voice?: string;
 }
@@ -87,8 +100,16 @@ export interface TtsResponse {
 }
 
 export interface CompareRequest {
+  /**
+   * @minLength 1
+   * @maxLength 200
+   */
   phrase1: string;
   language1?: string;
+  /**
+   * @minLength 1
+   * @maxLength 200
+   */
   phrase2: string;
   language2?: string;
 }

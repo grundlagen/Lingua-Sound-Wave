@@ -16,5 +16,7 @@ export interface DiscoverResponse {
   sourceAudio: AudioPayload;
   matches: AcousticMatch[];
   candidatesEvaluated: number;
+  /** Number of candidates whose TTS or feature extraction failed */
+  candidatesFailed: number;
   elapsedMs: number;
 }

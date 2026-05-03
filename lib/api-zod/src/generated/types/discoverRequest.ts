@@ -7,9 +7,16 @@
  */
 
 export interface DiscoverRequest {
-  /** Source phrase (single word or multi-word) */
+  /**
+   * Source phrase (single word or multi-word)
+   * @minLength 1
+   * @maxLength 200
+   */
   phrase: string;
-  /** ISO code of source language (e.g. "en", "fr", "ja") */
+  /**
+   * ISO code of source language (e.g. "en", "fr", "ja")
+   * @minLength 2
+   */
   sourceLanguage: string;
   /** Optional restriction to specific target languages */
   targetLanguages?: string[];

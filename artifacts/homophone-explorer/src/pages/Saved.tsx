@@ -50,6 +50,7 @@ export function SavedPage() {
               variant="ghost"
               onClick={() => del.mutate({ id: p.id })}
               disabled={del.isPending}
+              aria-label={`Delete saved pair ${p.sourcePhrase} and ${p.matchPhrase}`}
               data-testid={`delete-${p.id}`}
             >
               <Trash2 className="h-4 w-4" />

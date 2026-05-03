@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Search, Loader2, Sparkles, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -23,42 +23,46 @@ export function DiscoverPage() {
   const [minSim, setMinSim] = useState(0.55);
   const [count, setCount] = useState(24);
   const [result, setResult] = useState<DiscoverResponse | null>(null);
+  const requestIdRef = useRef(0);
 
   const { data: languages = [] } = useGetLanguages();
   const { data: featured = [] } = useGetFeaturedPairs();
-  const discover = useDiscoverHomophones({
-    mutation: {
-      onSuccess: (data) => setResult(data),
-    },
-  });
+  const discover = useDiscoverHomophones();
+
+  const runSearch = (p: string, sl: string, useTargets: boolean) => {
+    const trimmed = p.trim();
+    if (!trimmed) return;
+    const myId = ++requestIdRef.current;
+    setResult(null);
+    discover.mutate(
+      {
+        data: {
+          phrase: trimmed,
+          sourceLanguage: sl,
+          targetLanguages: useTargets && targets.length > 0 ? targets : undefined,
+          minSimilarity: minSim,
+          candidateCount: count,
+        },
+      },
+      {
+        onSuccess: (data) => {
+          // Ignore stale responses if a newer search has started.
+          if (myId !== requestIdRef.current) return;
+          setResult(data);
+        },
+      },
+    );
+  };
 
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!phrase.trim()) return;
-    setResult(null);
-    discover.mutate({
-      data: {
-        phrase: phrase.trim(),
-        sourceLanguage: sourceLang,
-        targetLanguages: targets.length > 0 ? targets : undefined,
-        minSimilarity: minSim,
-        candidateCount: count,
-      },
-    });
+    runSearch(phrase, sourceLang, true);
   };
 
   const tryFeatured = (sourcePhrase: string, sourceLanguage: string) => {
     setPhrase(sourcePhrase);
     setSourceLang(sourceLanguage);
-    setResult(null);
-    discover.mutate({
-      data: {
-        phrase: sourcePhrase,
-        sourceLanguage,
-        minSimilarity: minSim,
-        candidateCount: count,
-      },
-    });
+    runSearch(sourcePhrase, sourceLanguage, false);
   };
 
   return (
@@ -164,7 +168,7 @@ export function DiscoverPage() {
 
       {discover.error ? (
         <Card className="p-4 border-destructive bg-destructive/5 text-sm text-destructive" data-testid="error-state">
-          {String(discover.error)}
+          {discover.error instanceof Error ? discover.error.message : String(discover.error)}
         </Card>
       ) : null}
 

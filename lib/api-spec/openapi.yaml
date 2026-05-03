@@ -259,9 +259,12 @@ components:
       properties:
         phrase:
           type: string
+          minLength: 1
+          maxLength: 200
           description: Source phrase (single word or multi-word)
         sourceLanguage:
           type: string
+          minLength: 2
           description: ISO code of source language (e.g. "en", "fr", "ja")
         targetLanguages:
           type: array
@@ -329,6 +332,9 @@ components:
             $ref: "#/components/schemas/AcousticMatch"
         candidatesEvaluated:
           type: integer
+        candidatesFailed:
+          type: integer
+          description: Number of candidates whose TTS or feature extraction failed
         elapsedMs:
           type: number
       required:
@@ -339,6 +345,7 @@ components:
         - sourceAudio
         - matches
         - candidatesEvaluated
+        - candidatesFailed
         - elapsedMs
 
     TtsRequest:
@@ -346,6 +353,8 @@ components:
       properties:
         text:
           type: string
+          minLength: 1
+          maxLength: 500
         voice:
           type: string
       required: [text]
@@ -362,10 +371,14 @@ components:
       properties:
         phrase1:
           type: string
+          minLength: 1
+          maxLength: 200
         language1:
           type: string
         phrase2:
           type: string
+          minLength: 1
+          maxLength: 200
         language2:
           type: string
       required: [phrase1, phrase2]

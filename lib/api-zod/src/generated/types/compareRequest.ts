@@ -7,8 +7,16 @@
  */
 
 export interface CompareRequest {
+  /**
+   * @minLength 1
+   * @maxLength 200
+   */
   phrase1: string;
   language1?: string;
+  /**
+   * @minLength 1
+   * @maxLength 200
+   */
   phrase2: string;
   language2?: string;
 }

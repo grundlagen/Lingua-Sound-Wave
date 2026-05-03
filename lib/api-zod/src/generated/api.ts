@@ -21,13 +21,22 @@ MFCC + Dynamic Time Warping on actual TTS audio — not text or IPA).
 
  * @summary Discover acoustic homophones for a phrase
  */
+export const discoverHomophonesBodyPhraseMax = 200;
+
+export const discoverHomophonesBodySourceLanguageMin = 2;
+
 export const discoverHomophonesBodyCandidateCountDefault = 32;
 export const discoverHomophonesBodyMinSimilarityDefault = 0.55;
 
 export const DiscoverHomophonesBody = zod.object({
-  phrase: zod.string().describe("Source phrase (single word or multi-word)"),
+  phrase: zod
+    .string()
+    .min(1)
+    .max(discoverHomophonesBodyPhraseMax)
+    .describe("Source phrase (single word or multi-word)"),
   sourceLanguage: zod
     .string()
+    .min(discoverHomophonesBodySourceLanguageMin)
     .describe('ISO code of source language (e.g. \"en\", \"fr\", \"ja\")'),
   targetLanguages: zod
     .array(zod.string())
@@ -104,14 +113,19 @@ export const DiscoverHomophonesResponse = zod.object({
     }),
   ),
   candidatesEvaluated: zod.number(),
+  candidatesFailed: zod
+    .number()
+    .describe("Number of candidates whose TTS or feature extraction failed"),
   elapsedMs: zod.number(),
 });
 
 /**
  * @summary Generate TTS audio for a phrase
  */
+export const synthesizeSpeechBodyTextMax = 500;
+
 export const SynthesizeSpeechBody = zod.object({
-  text: zod.string(),
+  text: zod.string().min(1).max(synthesizeSpeechBodyTextMax),
   voice: zod.string().optional(),
 });
 
@@ -146,10 +160,14 @@ similarity score.
 
  * @summary Compare two phrases acoustically
  */
+export const comparePhrasesBodyPhrase1Max = 200;
+
+export const comparePhrasesBodyPhrase2Max = 200;
+
 export const ComparePhrasesBody = zod.object({
-  phrase1: zod.string(),
+  phrase1: zod.string().min(1).max(comparePhrasesBodyPhrase1Max),
   language1: zod.string().optional(),
-  phrase2: zod.string(),
+  phrase2: zod.string().min(1).max(comparePhrasesBodyPhrase2Max),
   language2: zod.string().optional(),
 });
 

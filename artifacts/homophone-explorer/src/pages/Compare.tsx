@@ -55,7 +55,15 @@ export function ComparePage() {
               </Select>
             </div>
           </div>
-          <Button type="submit" size="lg" disabled={compare.isPending || !p1.trim() || !p2.trim()} data-testid="button-compare">
+          <Button
+            type="submit"
+            size="lg"
+            disabled={compare.isPending || !p1.trim() || !p2.trim()}
+            onClick={(e) => {
+              if (!p1.trim() || !p2.trim()) e.preventDefault();
+            }}
+            data-testid="button-compare"
+          >
             {compare.isPending ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <GitCompare className="mr-2 h-4 w-4" />}
             {compare.isPending ? "Comparing…" : "Compare audio"}
           </Button>
@@ -63,8 +71,8 @@ export function ComparePage() {
       </Card>
 
       {compare.error ? (
-        <Card className="p-4 border-destructive bg-destructive/5 text-sm text-destructive">
-          {String(compare.error)}
+        <Card className="p-4 border-destructive bg-destructive/5 text-sm text-destructive" data-testid="compare-error">
+          {compare.error instanceof Error ? compare.error.message : String(compare.error)}
         </Card>
       ) : null}
 

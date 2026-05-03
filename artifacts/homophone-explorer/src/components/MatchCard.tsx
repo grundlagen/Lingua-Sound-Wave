@@ -5,7 +5,8 @@ import { Badge } from "@/components/ui/badge";
 import { AudioCard } from "./AudioCard";
 import { SimilarityMeter } from "./SimilarityMeter";
 import type { AcousticMatch, AudioPayload } from "@workspace/api-client-react";
-import { useSavePair } from "@workspace/api-client-react";
+import { useSavePair, getGetSavedPairsQueryKey } from "@workspace/api-client-react";
+import { useQueryClient } from "@tanstack/react-query";
 import { useToast } from "@/hooks/use-toast";
 
 interface Props {
@@ -17,7 +18,12 @@ interface Props {
 export function MatchCard({ source, match, onSaved }: Props) {
   const [saved, setSaved] = useState(false);
   const { toast } = useToast();
-  const save = useSavePair();
+  const qc = useQueryClient();
+  const save = useSavePair({
+    mutation: {
+      onSuccess: () => qc.invalidateQueries({ queryKey: getGetSavedPairsQueryKey() }),
+    },
+  });
 
   const onSave = async () => {
     try {
@@ -37,7 +43,8 @@ export function MatchCard({ source, match, onSaved }: Props) {
       toast({ title: "Saved", description: `${source.phrase} ↔ ${match.phrase}` });
       onSaved?.();
     } catch (err) {
-      toast({ title: "Save failed", description: String(err), variant: "destructive" });
+      const msg = err instanceof Error ? err.message : String(err);
+      toast({ title: "Save failed", description: msg, variant: "destructive" });
     }
   };
 
@@ -63,6 +70,7 @@ export function MatchCard({ source, match, onSaved }: Props) {
           variant="outline"
           onClick={onSave}
           disabled={saved || save.isPending}
+          aria-label={saved ? `Saved ${match.phrase}` : `Save ${match.phrase}`}
           data-testid={`save-${match.languageCode}`}
         >
           {saved ? <BookmarkCheck className="h-4 w-4 text-emerald-600" /> : <Bookmark className="h-4 w-4" />}

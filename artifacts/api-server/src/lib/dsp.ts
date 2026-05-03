@@ -90,7 +90,8 @@ const FRAME_MS = 25;
 const HOP_MS = 10;
 const N_MELS = 40;
 const N_MFCC = 13;
-const FFT_SIZE = 512; // covers 25ms at 16-24kHz
+// FFT_SIZE must be >= frameLen. At 24kHz, 25ms = 600 samples → use 1024.
+const FFT_SIZE = 1024;
 
 function hzToMel(f: number): number {
   return 2595 * Math.log10(1 + f / 700);
@@ -200,7 +201,9 @@ export function extractFeatures(samples: Float32Array, sampleRate: number): Acou
       if (lg > melMax) melMax = lg;
     }
     mels.push(logMel);
-    const mfcc = dctII(melE.map((v) => Math.log(v + 1e-10)) as unknown as Float32Array, N_MFCC);
+    const logE = new Float32Array(N_MELS);
+    for (let m = 0; m < N_MELS; m++) logE[m] = Math.log(melE[m]! + 1e-10);
+    const mfcc = dctII(logE, N_MFCC);
     // CMN: subtract mean later
     mfccFrames.push(mfcc);
   }
@@ -268,34 +271,53 @@ function cosineDistance(a: Float32Array, b: Float32Array): number {
   return 1 - cos; // [0, 2]
 }
 
-/** Unconstrained DTW. Returns path-length-normalized cosine distance in [0, 2]. */
+/** Unconstrained DTW. Returns the average per-step cosine distance along the optimal warping path (∈ [0, 2]). */
 export function dtwDistance(a: Float32Array[], b: Float32Array[]): number {
   if (a.length === 0 || b.length === 0) return 2;
-  const n = a.length,
-    m = b.length;
+  const n = a.length;
+  const m = b.length;
   const INF = Number.POSITIVE_INFINITY;
-  const prev = new Float64Array(m + 1).fill(INF);
-  const curr = new Float64Array(m + 1).fill(INF);
-  prev[0] = 0;
+  // Track cumulative cost AND the path length used to reach each cell so we
+  // can normalize by actual path length, not by the (n+m) upper bound.
+  const prevCost = new Float64Array(m + 1).fill(INF);
+  const currCost = new Float64Array(m + 1).fill(INF);
+  const prevLen = new Int32Array(m + 1);
+  const currLen = new Int32Array(m + 1);
+  prevCost[0] = 0;
   for (let i = 1; i <= n; i++) {
-    curr[0] = INF;
+    currCost[0] = INF;
+    currLen[0] = 0;
     for (let j = 1; j <= m; j++) {
       const cost = cosineDistance(a[i - 1]!, b[j - 1]!);
-      const m1 = prev[j]!;
-      const m2 = curr[j - 1]!;
-      const m3 = prev[j - 1]!;
-      curr[j] = cost + Math.min(m1, m2, m3);
+      const cDel = prevCost[j]!; // (i-1, j) — vertical
+      const cIns = currCost[j - 1]!; // (i, j-1) — horizontal
+      const cDia = prevCost[j - 1]!; // (i-1, j-1) — diagonal
+      let best = cDia;
+      let bestLen = prevLen[j - 1]!;
+      if (cDel < best) { best = cDel; bestLen = prevLen[j]!; }
+      if (cIns < best) { best = cIns; bestLen = currLen[j - 1]!; }
+      currCost[j] = cost + best;
+      currLen[j] = bestLen + 1;
     }
-    prev.set(curr);
+    prevCost.set(currCost);
+    prevLen.set(currLen);
   }
-  const total = prev[m]!;
-  return total / (n + m);
+  const total = prevCost[m]!;
+  const len = prevLen[m]!;
+  if (!isFinite(total) || len <= 0) return 2;
+  return total / len;
 }
 
-/** Convert raw DTW distance to a [0,1] similarity score, calibrated empirically. */
+/** Convert raw DTW distance (avg per-step cosine distance, [0,2]) to a [0,1] similarity score. */
 export function distanceToSimilarity(d: number): number {
-  // Calibrated against same-text TTS pairs (~0.05-0.10) and unrelated pairs (~0.5-0.8).
-  // Identical → ~0.85; near-identical phonetic match → ~0.7+; unrelated → <0.3.
-  const sim = Math.exp(-d * 3.5);
+  // Calibrated against TTS anchor pairs:
+  //   "hello"/"hello"           d≈0.07 → sim≈0.89  (TTS noise floor)
+  //   "knee how"/"你好"          d≈0.07 → sim≈0.89  (true cross-lingual homophone)
+  //   "so"/"saw"                d≈0.05 → sim≈0.95
+  //   "hello"/"halo"            d≈0.45 → sim≈0.20  (loosely similar)
+  //   "hello"/"banana republic" d≈0.52 → sim≈0.15  (unrelated)
+  // The 0.04 floor accounts for irreducible TTS reproducibility noise.
+  const adjusted = Math.max(0, d - 0.04);
+  const sim = Math.exp(-adjusted * 4.0);
   return Math.max(0, Math.min(1, sim));
 }

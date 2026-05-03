@@ -7,6 +7,10 @@
  */
 
 export interface TtsRequest {
+  /**
+   * @minLength 1
+   * @maxLength 500
+   */
   text: string;
   voice?: string;
 }

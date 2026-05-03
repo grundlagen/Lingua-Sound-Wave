@@ -48,6 +48,7 @@ export function AudioCard({ audio, label, sublabel, accent = "#6366f1", testId }
           onClick={toggle}
           className="rounded-full"
           style={{ background: accent }}
+          aria-label={playing ? `Pause ${label}` : `Play ${label}`}
           data-testid={testId ? `${testId}-play` : "audio-play"}
         >
           {playing ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}

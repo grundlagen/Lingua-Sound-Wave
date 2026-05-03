@@ -270,15 +270,35 @@ router.post("/homophones/discover", async (req, res) => {
   req.log.info({ count: candidates.length }, "discover: candidates ready, synthesizing TTS");
 
   // Step 2: synthesize each candidate (concurrency limited)
-  const synthResults = await mapWithLimit(candidates, 6, async (c) => {
-    const audio = await synthesize(c.phrase);
-    const d = dtwDistance(sourceAudio.features.mfcc, audio.features.mfcc);
-    const sim = distanceToSimilarity(d);
-    return { c, audio, d, sim };
+  type Ok = { c: CandidateSpec; audio: Awaited<ReturnType<typeof synthesize>>; d: number; sim: number };
+  type Err = { c: CandidateSpec; error: string };
+  const synthResults = await mapWithLimit<CandidateSpec, Ok | Err>(candidates, 6, async (c) => {
+    try {
+      const audio = await synthesize(c.phrase);
+      const d = dtwDistance(sourceAudio.features.mfcc, audio.features.mfcc);
+      const sim = distanceToSimilarity(d);
+      return { c, audio, d, sim };
+    } catch (e) {
+      return { c, error: e instanceof Error ? e.message : String(e) };
+    }
   });
 
-  const matches = synthResults
-    .filter((r): r is { c: CandidateSpec; audio: Awaited<ReturnType<typeof synthesize>>; d: number; sim: number } => r != null && !(r instanceof Error) && typeof (r as { sim?: unknown }).sim === "number")
+  const failures = synthResults.filter((r): r is Err => "error" in r);
+  if (failures.length > 0) {
+    req.log.warn({ failed: failures.length, sample: failures.slice(0, 3) }, "discover: some candidate syntheses failed");
+  }
+
+  const oks = synthResults.filter((r): r is Ok => "sim" in r);
+  if (oks.length === 0 && candidates.length > 0) {
+    res.status(502).json({
+      error: "All candidate syntheses failed",
+      detail: failures[0]?.error ?? "unknown error",
+      candidatesAttempted: candidates.length,
+    });
+    return;
+  }
+
+  const matches = oks
     .filter((r) => r.sim >= minSim)
     .sort((a, b) => b.sim - a.sim)
     .map((r) => ({
@@ -300,6 +320,7 @@ router.post("/homophones/discover", async (req, res) => {
     sourceAudio: toAudioPayload(sourceAudio),
     matches,
     candidatesEvaluated: candidates.length,
+    candidatesFailed: failures.length,
     elapsedMs: Date.now() - start,
   });
   res.json(payload);
