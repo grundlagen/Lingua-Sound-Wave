@@ -20,3 +20,5 @@
 export * from "./conversations";
 export * from "./messages";
 export * from "./saved-pairs";
+export * from "./homophone-reservoir";
+export * from "./mining-jobs";

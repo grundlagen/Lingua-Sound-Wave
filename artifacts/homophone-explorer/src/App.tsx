@@ -2,12 +2,14 @@ import { Switch, Route, Router as WouterRouter, Link, useLocation } from "wouter
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { Waves, GitCompare, Bookmark, Languages } from "lucide-react";
+import { Waves, GitCompare, Bookmark, Languages, Database, FlaskConical } from "lucide-react";
 import NotFound from "@/pages/not-found";
 import { DiscoverPage } from "@/pages/Discover";
 import { ComparePage } from "@/pages/Compare";
 import { SavedPage } from "@/pages/Saved";
 import { TranslatePage } from "@/pages/Translate";
+import { ReservoirPage } from "@/pages/Reservoir";
+import { FlitLabPage } from "@/pages/FlitLab";
 import { setBaseUrl } from "@workspace/api-client-react";
 import { cn } from "@/lib/utils";
 
@@ -55,6 +57,8 @@ function Shell() {
             <NavLink href="/" icon={Waves}>Discover</NavLink>
             <NavLink href="/translate" icon={Languages}>Translate</NavLink>
             <NavLink href="/compare" icon={GitCompare}>Compare</NavLink>
+            <NavLink href="/reservoir" icon={Database}>Reservoir</NavLink>
+            <NavLink href="/flit" icon={FlaskConical}>Flit Lab</NavLink>
             <NavLink href="/saved" icon={Bookmark}>Saved</NavLink>
           </nav>
         </div>
@@ -64,6 +68,8 @@ function Shell() {
           <Route path="/" component={DiscoverPage} />
           <Route path="/translate" component={TranslatePage} />
           <Route path="/compare" component={ComparePage} />
+          <Route path="/reservoir" component={ReservoirPage} />
+          <Route path="/flit" component={FlitLabPage} />
           <Route path="/saved" component={SavedPage} />
           <Route component={NotFound} />
         </Switch>

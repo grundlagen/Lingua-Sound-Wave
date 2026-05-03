@@ -273,3 +273,196 @@ export interface DeleteConfirmation {
   success: boolean;
   id: number;
 }
+
+export interface ReservoirComponentScore {
+  id: string;
+  label: string;
+  similarity: number;
+  distance: number;
+}
+
+export type ReservoirPairTier =
+  (typeof ReservoirPairTier)[keyof typeof ReservoirPairTier];
+
+export const ReservoirPairTier = {
+  S: "S",
+  A: "A",
+  B: "B",
+} as const;
+
+export interface ReservoirPair {
+  id: number;
+  enPhrase: string;
+  frPhrase: string;
+  enGloss: string;
+  frGloss: string;
+  similarity: number;
+  enCoherence: number;
+  frCoherence: number;
+  tier: ReservoirPairTier;
+  source: string;
+  seed: string;
+  rationale: string;
+  componentScores: ReservoirComponentScore[];
+  createdAt: string;
+}
+
+export type ReservoirStatsTierCounts = {
+  S: number;
+  A: number;
+  B: number;
+};
+
+export interface ReservoirStats {
+  total: number;
+  target: number;
+  tierCounts: ReservoirStatsTierCounts;
+  averageSimilarity: number;
+  seedCount: number;
+}
+
+export interface MineStartRequest {
+  /**
+   * @minimum 1
+   * @maximum 1000
+   */
+  maxSeeds?: number;
+}
+
+export type MiningJobTierCounts = {
+  S: number;
+  A: number;
+  B: number;
+};
+
+export interface MiningJob {
+  id: number;
+  status: string;
+  startedAt: string;
+  finishedAt?: string | null;
+  totalsAttempted: number;
+  totalsInserted: number;
+  totalsSkipped: number;
+  totalsFailed: number;
+  tierCounts: MiningJobTierCounts;
+  currentSeed: string;
+  lastError: string;
+}
+
+export interface MiningStatus {
+  activeJobId: number | null;
+  job?: MiningJob | null;
+}
+
+export type FlitRequestLanguage =
+  (typeof FlitRequestLanguage)[keyof typeof FlitRequestLanguage];
+
+export const FlitRequestLanguage = {
+  en: "en",
+  fr: "fr",
+} as const;
+
+export interface FlitRequest {
+  /**
+   * @minLength 1
+   * @maxLength 500
+   */
+  text: string;
+  language: FlitRequestLanguage;
+  /**
+   * @minimum 1
+   * @maximum 8
+   */
+  inputParaphrases?: number;
+  /**
+   * @minimum 1
+   * @maximum 6
+   */
+  targetRenderings?: number;
+  /**
+   * @minimum 1
+   * @maximum 8
+   */
+  topK?: number;
+}
+
+export interface FlitParaphrase {
+  text: string;
+  gloss: string;
+}
+
+export interface FlitCandidate {
+  inputParaphrase: string;
+  inputParaphraseGloss: string;
+  targetText: string;
+  targetGloss: string;
+  similarity: number;
+  componentScores: ReservoirComponentScore[];
+  semanticOK: boolean;
+  semanticNote: string;
+}
+
+export type FlitResponseInputLanguage =
+  (typeof FlitResponseInputLanguage)[keyof typeof FlitResponseInputLanguage];
+
+export const FlitResponseInputLanguage = {
+  en: "en",
+  fr: "fr",
+} as const;
+
+export type FlitResponseTargetLanguage =
+  (typeof FlitResponseTargetLanguage)[keyof typeof FlitResponseTargetLanguage];
+
+export const FlitResponseTargetLanguage = {
+  en: "en",
+  fr: "fr",
+} as const;
+
+export interface FlitResponse {
+  inputLanguage: FlitResponseInputLanguage;
+  targetLanguage: FlitResponseTargetLanguage;
+  inputText: string;
+  inputMeaning: string;
+  inputParaphrases: FlitParaphrase[];
+  candidates: FlitCandidate[];
+  best?: FlitCandidate | null;
+  attempted: number;
+  elapsedMs: number;
+}
+
+export type ListReservoirPairsParams = {
+  tier?: ListReservoirPairsTier;
+  /**
+   * @minimum 0
+   * @maximum 1
+   */
+  minSim?: number;
+  search?: string;
+  /**
+   * @minimum 1
+   * @maximum 500
+   */
+  limit?: number;
+};
+
+export type ListReservoirPairsTier =
+  (typeof ListReservoirPairsTier)[keyof typeof ListReservoirPairsTier];
+
+export const ListReservoirPairsTier = {
+  S: "S",
+  A: "A",
+  B: "B",
+} as const;
+
+export type StartReservoirMining202 = {
+  jobId: number;
+};
+
+export type StartReservoirMining409 = {
+  error: string;
+};
+
+export type CancelReservoirMining200 = {
+  success: boolean;
+  jobId: number;
+};

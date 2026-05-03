@@ -534,3 +534,219 @@ export const GetLanguagesResponseItem = zod.object({
   nativeName: zod.string(),
 });
 export const GetLanguagesResponse = zod.array(GetLanguagesResponseItem);
+
+/**
+ * @summary List EN↔FR reservoir pairs (filterable)
+ */
+export const listReservoirPairsQueryMinSimMin = 0;
+export const listReservoirPairsQueryMinSimMax = 1;
+
+export const listReservoirPairsQueryLimitDefault = 100;
+export const listReservoirPairsQueryLimitMax = 500;
+
+export const ListReservoirPairsQueryParams = zod.object({
+  tier: zod.enum(["S", "A", "B"]).optional(),
+  minSim: zod.coerce
+    .number()
+    .min(listReservoirPairsQueryMinSimMin)
+    .max(listReservoirPairsQueryMinSimMax)
+    .optional(),
+  search: zod.coerce.string().optional(),
+  limit: zod.coerce
+    .number()
+    .min(1)
+    .max(listReservoirPairsQueryLimitMax)
+    .default(listReservoirPairsQueryLimitDefault),
+});
+
+export const ListReservoirPairsResponseItem = zod.object({
+  id: zod.number(),
+  enPhrase: zod.string(),
+  frPhrase: zod.string(),
+  enGloss: zod.string(),
+  frGloss: zod.string(),
+  similarity: zod.number(),
+  enCoherence: zod.number(),
+  frCoherence: zod.number(),
+  tier: zod.enum(["S", "A", "B"]),
+  source: zod.string(),
+  seed: zod.string(),
+  rationale: zod.string(),
+  componentScores: zod.array(
+    zod.object({
+      id: zod.string(),
+      label: zod.string(),
+      similarity: zod.number(),
+      distance: zod.number(),
+    }),
+  ),
+  createdAt: zod.string(),
+});
+export const ListReservoirPairsResponse = zod.array(
+  ListReservoirPairsResponseItem,
+);
+
+/**
+ * @summary Delete one reservoir pair
+ */
+export const DeleteReservoirPairParams = zod.object({
+  id: zod.coerce.number(),
+});
+
+export const DeleteReservoirPairResponse = zod.object({
+  success: zod.boolean(),
+  id: zod.number(),
+});
+
+/**
+ * @summary Tier counts and totals for the reservoir
+ */
+export const GetReservoirStatsResponse = zod.object({
+  total: zod.number(),
+  target: zod.number(),
+  tierCounts: zod.object({
+    S: zod.number(),
+    A: zod.number(),
+    B: zod.number(),
+  }),
+  averageSimilarity: zod.number(),
+  seedCount: zod.number(),
+});
+
+/**
+ * @summary Start an EN↔FR mining job
+ */
+export const startReservoirMiningBodyMaxSeedsMax = 1000;
+
+export const StartReservoirMiningBody = zod.object({
+  maxSeeds: zod
+    .number()
+    .min(1)
+    .max(startReservoirMiningBodyMaxSeedsMax)
+    .optional(),
+});
+
+/**
+ * @summary Cancel the running mining job
+ */
+export const CancelReservoirMiningResponse = zod.object({
+  success: zod.boolean(),
+  jobId: zod.number(),
+});
+
+/**
+ * @summary Latest mining job + active job id (poll every 2s)
+ */
+export const GetReservoirMiningStatusResponse = zod.object({
+  activeJobId: zod.number().nullable(),
+  job: zod
+    .object({
+      id: zod.number(),
+      status: zod.string(),
+      startedAt: zod.string(),
+      finishedAt: zod.string().nullish(),
+      totalsAttempted: zod.number(),
+      totalsInserted: zod.number(),
+      totalsSkipped: zod.number(),
+      totalsFailed: zod.number(),
+      tierCounts: zod.object({
+        S: zod.number(),
+        A: zod.number(),
+        B: zod.number(),
+      }),
+      currentSeed: zod.string(),
+      lastError: zod.string(),
+    })
+    .nullish(),
+});
+
+/**
+ * Generates N paraphrases of the input, M target-language sound-alike
+renderings per paraphrase, scores all N×M cross-product pairs, and
+semantic-verifies the top-K finalists.
+
+ * @summary Run the Flit pipeline on an EN or FR input
+ */
+export const runFlitBodyTextMax = 500;
+
+export const runFlitBodyInputParaphrasesDefault = 6;
+export const runFlitBodyInputParaphrasesMax = 8;
+
+export const runFlitBodyTargetRenderingsDefault = 4;
+export const runFlitBodyTargetRenderingsMax = 6;
+
+export const runFlitBodyTopKDefault = 5;
+export const runFlitBodyTopKMax = 8;
+
+export const RunFlitBody = zod.object({
+  text: zod.string().min(1).max(runFlitBodyTextMax),
+  language: zod.enum(["en", "fr"]),
+  inputParaphrases: zod
+    .number()
+    .min(1)
+    .max(runFlitBodyInputParaphrasesMax)
+    .default(runFlitBodyInputParaphrasesDefault),
+  targetRenderings: zod
+    .number()
+    .min(1)
+    .max(runFlitBodyTargetRenderingsMax)
+    .default(runFlitBodyTargetRenderingsDefault),
+  topK: zod
+    .number()
+    .min(1)
+    .max(runFlitBodyTopKMax)
+    .default(runFlitBodyTopKDefault),
+});
+
+export const RunFlitResponse = zod.object({
+  inputLanguage: zod.enum(["en", "fr"]),
+  targetLanguage: zod.enum(["en", "fr"]),
+  inputText: zod.string(),
+  inputMeaning: zod.string(),
+  inputParaphrases: zod.array(
+    zod.object({
+      text: zod.string(),
+      gloss: zod.string(),
+    }),
+  ),
+  candidates: zod.array(
+    zod.object({
+      inputParaphrase: zod.string(),
+      inputParaphraseGloss: zod.string(),
+      targetText: zod.string(),
+      targetGloss: zod.string(),
+      similarity: zod.number(),
+      componentScores: zod.array(
+        zod.object({
+          id: zod.string(),
+          label: zod.string(),
+          similarity: zod.number(),
+          distance: zod.number(),
+        }),
+      ),
+      semanticOK: zod.boolean(),
+      semanticNote: zod.string(),
+    }),
+  ),
+  best: zod
+    .object({
+      inputParaphrase: zod.string(),
+      inputParaphraseGloss: zod.string(),
+      targetText: zod.string(),
+      targetGloss: zod.string(),
+      similarity: zod.number(),
+      componentScores: zod.array(
+        zod.object({
+          id: zod.string(),
+          label: zod.string(),
+          similarity: zod.number(),
+          distance: zod.number(),
+        }),
+      ),
+      semanticOK: zod.boolean(),
+      semanticNote: zod.string(),
+    })
+    .nullish(),
+  attempted: zod.number(),
+  elapsedMs: zod.number(),
+});

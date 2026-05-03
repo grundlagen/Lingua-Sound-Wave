@@ -12,6 +12,10 @@ tags:
     description: Health operations
   - name: homophones
     description: Cross-lingual acoustic homophone discovery
+  - name: reservoir
+    description: Persistent EN↔FR homophone reservoir (mined corpus + tier grading)
+  - name: flit
+    description: Flit lab — meaning-preserving cross-lingual sound-alike rendering
 paths:
   /healthz:
     get:
@@ -214,6 +218,149 @@ paths:
                 type: array
                 items:
                   $ref: "#/components/schemas/Language"
+
+  /reservoir/pairs:
+    get:
+      operationId: listReservoirPairs
+      tags: [reservoir]
+      summary: List EN↔FR reservoir pairs (filterable)
+      parameters:
+        - in: query
+          name: tier
+          schema: { type: string, enum: [S, A, B] }
+        - in: query
+          name: minSim
+          schema: { type: number, minimum: 0, maximum: 1 }
+        - in: query
+          name: search
+          schema: { type: string }
+        - in: query
+          name: limit
+          schema: { type: integer, minimum: 1, maximum: 500, default: 100 }
+      responses:
+        "200":
+          description: Reservoir rows ranked by similarity
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ReservoirPair"
+
+  /reservoir/pairs/{id}:
+    delete:
+      operationId: deleteReservoirPair
+      tags: [reservoir]
+      summary: Delete one reservoir pair
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema: { type: integer }
+      responses:
+        "200":
+          description: Deleted
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DeleteConfirmation"
+
+  /reservoir/stats:
+    get:
+      operationId: getReservoirStats
+      tags: [reservoir]
+      summary: Tier counts and totals for the reservoir
+      responses:
+        "200":
+          description: Stats
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ReservoirStats"
+
+  /reservoir/mine/start:
+    post:
+      operationId: startReservoirMining
+      tags: [reservoir]
+      summary: Start an EN↔FR mining job
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/MineStartRequest"
+      responses:
+        "202":
+          description: Job started
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  jobId: { type: integer }
+                required: [jobId]
+        "409":
+          description: Already running
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error: { type: string }
+                required: [error]
+
+  /reservoir/mine/cancel:
+    post:
+      operationId: cancelReservoirMining
+      tags: [reservoir]
+      summary: Cancel the running mining job
+      responses:
+        "200":
+          description: Cancelled
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success: { type: boolean }
+                  jobId: { type: integer }
+                required: [success, jobId]
+
+  /reservoir/mine/status:
+    get:
+      operationId: getReservoirMiningStatus
+      tags: [reservoir]
+      summary: Latest mining job + active job id (poll every 2s)
+      responses:
+        "200":
+          description: Status
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MiningStatus"
+
+  /flit/run:
+    post:
+      operationId: runFlit
+      tags: [flit]
+      summary: Run the Flit pipeline on an EN or FR input
+      description: |
+        Generates N paraphrases of the input, M target-language sound-alike
+        renderings per paraphrase, scores all N×M cross-product pairs, and
+        semantic-verifies the top-K finalists.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/FlitRequest"
+      responses:
+        "200":
+          description: Flit result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FlitResponse"
 
 components:
   schemas:
@@ -720,3 +867,185 @@ components:
         id:
           type: integer
       required: [success, id]
+
+    ReservoirComponentScore:
+      type: object
+      properties:
+        id: { type: string }
+        label: { type: string }
+        similarity: { type: number }
+        distance: { type: number }
+      required: [id, label, similarity, distance]
+
+    ReservoirPair:
+      type: object
+      properties:
+        id: { type: integer }
+        enPhrase: { type: string }
+        frPhrase: { type: string }
+        enGloss: { type: string }
+        frGloss: { type: string }
+        similarity: { type: number }
+        enCoherence: { type: integer }
+        frCoherence: { type: integer }
+        tier: { type: string, enum: [S, A, B] }
+        source: { type: string }
+        seed: { type: string }
+        rationale: { type: string }
+        componentScores:
+          type: array
+          items:
+            $ref: "#/components/schemas/ReservoirComponentScore"
+        createdAt: { type: string }
+      required:
+        - id
+        - enPhrase
+        - frPhrase
+        - enGloss
+        - frGloss
+        - similarity
+        - enCoherence
+        - frCoherence
+        - tier
+        - source
+        - seed
+        - rationale
+        - componentScores
+        - createdAt
+
+    ReservoirStats:
+      type: object
+      properties:
+        total: { type: integer }
+        target: { type: integer }
+        tierCounts:
+          type: object
+          properties:
+            S: { type: integer }
+            A: { type: integer }
+            B: { type: integer }
+          required: [S, A, B]
+        averageSimilarity: { type: number }
+        seedCount: { type: integer }
+      required: [total, target, tierCounts, averageSimilarity, seedCount]
+
+    MineStartRequest:
+      type: object
+      properties:
+        maxSeeds: { type: integer, minimum: 1, maximum: 1000 }
+
+    MiningJob:
+      type: object
+      properties:
+        id: { type: integer }
+        status: { type: string }
+        startedAt: { type: string }
+        finishedAt: { type: string, nullable: true }
+        totalsAttempted: { type: integer }
+        totalsInserted: { type: integer }
+        totalsSkipped: { type: integer }
+        totalsFailed: { type: integer }
+        tierCounts:
+          type: object
+          properties:
+            S: { type: integer }
+            A: { type: integer }
+            B: { type: integer }
+          required: [S, A, B]
+        currentSeed: { type: string }
+        lastError: { type: string }
+      required:
+        - id
+        - status
+        - startedAt
+        - totalsAttempted
+        - totalsInserted
+        - totalsSkipped
+        - totalsFailed
+        - tierCounts
+        - currentSeed
+        - lastError
+
+    MiningStatus:
+      type: object
+      properties:
+        activeJobId:
+          type: integer
+          nullable: true
+        job:
+          allOf:
+            - $ref: "#/components/schemas/MiningJob"
+          nullable: true
+      required: [activeJobId]
+
+    FlitRequest:
+      type: object
+      properties:
+        text: { type: string, minLength: 1, maxLength: 500 }
+        language: { type: string, enum: [en, fr] }
+        inputParaphrases: { type: integer, minimum: 1, maximum: 8, default: 6 }
+        targetRenderings: { type: integer, minimum: 1, maximum: 6, default: 4 }
+        topK: { type: integer, minimum: 1, maximum: 8, default: 5 }
+      required: [text, language]
+
+    FlitParaphrase:
+      type: object
+      properties:
+        text: { type: string }
+        gloss: { type: string }
+      required: [text, gloss]
+
+    FlitCandidate:
+      type: object
+      properties:
+        inputParaphrase: { type: string }
+        inputParaphraseGloss: { type: string }
+        targetText: { type: string }
+        targetGloss: { type: string }
+        similarity: { type: number }
+        componentScores:
+          type: array
+          items:
+            $ref: "#/components/schemas/ReservoirComponentScore"
+        semanticOK: { type: boolean }
+        semanticNote: { type: string }
+      required:
+        - inputParaphrase
+        - inputParaphraseGloss
+        - targetText
+        - targetGloss
+        - similarity
+        - componentScores
+        - semanticOK
+        - semanticNote
+
+    FlitResponse:
+      type: object
+      properties:
+        inputLanguage: { type: string, enum: [en, fr] }
+        targetLanguage: { type: string, enum: [en, fr] }
+        inputText: { type: string }
+        inputMeaning: { type: string }
+        inputParaphrases:
+          type: array
+          items:
+            $ref: "#/components/schemas/FlitParaphrase"
+        candidates:
+          type: array
+          items:
+            $ref: "#/components/schemas/FlitCandidate"
+        best:
+          allOf:
+            - $ref: "#/components/schemas/FlitCandidate"
+          nullable: true
+        attempted: { type: integer }
+        elapsedMs: { type: number }
+      required:
+        - inputLanguage
+        - targetLanguage
+        - inputText
+        - inputMeaning
+        - inputParaphrases
+        - candidates
+        - attempted
+        - elapsedMs

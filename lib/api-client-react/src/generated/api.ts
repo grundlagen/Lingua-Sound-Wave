@@ -17,17 +17,27 @@ import type {
 } from "@tanstack/react-query";
 
 import type {
+  CancelReservoirMining200,
   CompareRequest,
   CompareResponse,
   DeleteConfirmation,
   DiscoverRequest,
   DiscoverResponse,
   FeaturedPair,
+  FlitRequest,
+  FlitResponse,
   HealthStatus,
   Language,
+  ListReservoirPairsParams,
+  MineStartRequest,
+  MiningStatus,
+  ReservoirPair,
+  ReservoirStats,
   SavePairRequest,
   SavedPair,
   ScoringMethodInfo,
+  StartReservoirMining202,
+  StartReservoirMining409,
   TranslatePassageRequest,
   TranslatedPassage,
   TtsRequest,
@@ -948,3 +958,593 @@ export function useGetLanguages<
 
   return { ...query, queryKey: queryOptions.queryKey };
 }
+
+/**
+ * @summary List EN↔FR reservoir pairs (filterable)
+ */
+export const getListReservoirPairsUrl = (params?: ListReservoirPairsParams) => {
+  const normalizedParams = new URLSearchParams();
+
+  Object.entries(params || {}).forEach(([key, value]) => {
+    if (value !== undefined) {
+      normalizedParams.append(key, value === null ? "null" : value.toString());
+    }
+  });
+
+  const stringifiedParams = normalizedParams.toString();
+
+  return stringifiedParams.length > 0
+    ? `/api/reservoir/pairs?${stringifiedParams}`
+    : `/api/reservoir/pairs`;
+};
+
+export const listReservoirPairs = async (
+  params?: ListReservoirPairsParams,
+  options?: RequestInit,
+): Promise<ReservoirPair[]> => {
+  return customFetch<ReservoirPair[]>(getListReservoirPairsUrl(params), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getListReservoirPairsQueryKey = (
+  params?: ListReservoirPairsParams,
+) => {
+  return [`/api/reservoir/pairs`, ...(params ? [params] : [])] as const;
+};
+
+export const getListReservoirPairsQueryOptions = <
+  TData = Awaited<ReturnType<typeof listReservoirPairs>>,
+  TError = ErrorType<unknown>,
+>(
+  params?: ListReservoirPairsParams,
+  options?: {
+    query?: UseQueryOptions<
+      Awaited<ReturnType<typeof listReservoirPairs>>,
+      TError,
+      TData
+    >;
+    request?: SecondParameter<typeof customFetch>;
+  },
+) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey =
+    queryOptions?.queryKey ?? getListReservoirPairsQueryKey(params);
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof listReservoirPairs>>
+  > = ({ signal }) => listReservoirPairs(params, { signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof listReservoirPairs>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type ListReservoirPairsQueryResult = NonNullable<
+  Awaited<ReturnType<typeof listReservoirPairs>>
+>;
+export type ListReservoirPairsQueryError = ErrorType<unknown>;
+
+/**
+ * @summary List EN↔FR reservoir pairs (filterable)
+ */
+
+export function useListReservoirPairs<
+  TData = Awaited<ReturnType<typeof listReservoirPairs>>,
+  TError = ErrorType<unknown>,
+>(
+  params?: ListReservoirPairsParams,
+  options?: {
+    query?: UseQueryOptions<
+      Awaited<ReturnType<typeof listReservoirPairs>>,
+      TError,
+      TData
+    >;
+    request?: SecondParameter<typeof customFetch>;
+  },
+): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getListReservoirPairsQueryOptions(params, options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * @summary Delete one reservoir pair
+ */
+export const getDeleteReservoirPairUrl = (id: number) => {
+  return `/api/reservoir/pairs/${id}`;
+};
+
+export const deleteReservoirPair = async (
+  id: number,
+  options?: RequestInit,
+): Promise<DeleteConfirmation> => {
+  return customFetch<DeleteConfirmation>(getDeleteReservoirPairUrl(id), {
+    ...options,
+    method: "DELETE",
+  });
+};
+
+export const getDeleteReservoirPairMutationOptions = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof deleteReservoirPair>>,
+    TError,
+    { id: number },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationOptions<
+  Awaited<ReturnType<typeof deleteReservoirPair>>,
+  TError,
+  { id: number },
+  TContext
+> => {
+  const mutationKey = ["deleteReservoirPair"];
+  const { mutation: mutationOptions, request: requestOptions } = options
+    ? options.mutation &&
+      "mutationKey" in options.mutation &&
+      options.mutation.mutationKey
+      ? options
+      : { ...options, mutation: { ...options.mutation, mutationKey } }
+    : { mutation: { mutationKey }, request: undefined };
+
+  const mutationFn: MutationFunction<
+    Awaited<ReturnType<typeof deleteReservoirPair>>,
+    { id: number }
+  > = (props) => {
+    const { id } = props ?? {};
+
+    return deleteReservoirPair(id, requestOptions);
+  };
+
+  return { mutationFn, ...mutationOptions };
+};
+
+export type DeleteReservoirPairMutationResult = NonNullable<
+  Awaited<ReturnType<typeof deleteReservoirPair>>
+>;
+
+export type DeleteReservoirPairMutationError = ErrorType<unknown>;
+
+/**
+ * @summary Delete one reservoir pair
+ */
+export const useDeleteReservoirPair = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof deleteReservoirPair>>,
+    TError,
+    { id: number },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationResult<
+  Awaited<ReturnType<typeof deleteReservoirPair>>,
+  TError,
+  { id: number },
+  TContext
+> => {
+  return useMutation(getDeleteReservoirPairMutationOptions(options));
+};
+
+/**
+ * @summary Tier counts and totals for the reservoir
+ */
+export const getGetReservoirStatsUrl = () => {
+  return `/api/reservoir/stats`;
+};
+
+export const getReservoirStats = async (
+  options?: RequestInit,
+): Promise<ReservoirStats> => {
+  return customFetch<ReservoirStats>(getGetReservoirStatsUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetReservoirStatsQueryKey = () => {
+  return [`/api/reservoir/stats`] as const;
+};
+
+export const getGetReservoirStatsQueryOptions = <
+  TData = Awaited<ReturnType<typeof getReservoirStats>>,
+  TError = ErrorType<unknown>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getReservoirStats>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey = queryOptions?.queryKey ?? getGetReservoirStatsQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getReservoirStats>>
+  > = ({ signal }) => getReservoirStats({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getReservoirStats>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetReservoirStatsQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getReservoirStats>>
+>;
+export type GetReservoirStatsQueryError = ErrorType<unknown>;
+
+/**
+ * @summary Tier counts and totals for the reservoir
+ */
+
+export function useGetReservoirStats<
+  TData = Awaited<ReturnType<typeof getReservoirStats>>,
+  TError = ErrorType<unknown>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getReservoirStats>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetReservoirStatsQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * @summary Start an EN↔FR mining job
+ */
+export const getStartReservoirMiningUrl = () => {
+  return `/api/reservoir/mine/start`;
+};
+
+export const startReservoirMining = async (
+  mineStartRequest?: MineStartRequest,
+  options?: RequestInit,
+): Promise<StartReservoirMining202> => {
+  return customFetch<StartReservoirMining202>(getStartReservoirMiningUrl(), {
+    ...options,
+    method: "POST",
+    headers: { "Content-Type": "application/json", ...options?.headers },
+    body: JSON.stringify(mineStartRequest),
+  });
+};
+
+export const getStartReservoirMiningMutationOptions = <
+  TError = ErrorType<StartReservoirMining409>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof startReservoirMining>>,
+    TError,
+    { data: BodyType<MineStartRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationOptions<
+  Awaited<ReturnType<typeof startReservoirMining>>,
+  TError,
+  { data: BodyType<MineStartRequest> },
+  TContext
+> => {
+  const mutationKey = ["startReservoirMining"];
+  const { mutation: mutationOptions, request: requestOptions } = options
+    ? options.mutation &&
+      "mutationKey" in options.mutation &&
+      options.mutation.mutationKey
+      ? options
+      : { ...options, mutation: { ...options.mutation, mutationKey } }
+    : { mutation: { mutationKey }, request: undefined };
+
+  const mutationFn: MutationFunction<
+    Awaited<ReturnType<typeof startReservoirMining>>,
+    { data: BodyType<MineStartRequest> }
+  > = (props) => {
+    const { data } = props ?? {};
+
+    return startReservoirMining(data, requestOptions);
+  };
+
+  return { mutationFn, ...mutationOptions };
+};
+
+export type StartReservoirMiningMutationResult = NonNullable<
+  Awaited<ReturnType<typeof startReservoirMining>>
+>;
+export type StartReservoirMiningMutationBody = BodyType<MineStartRequest>;
+export type StartReservoirMiningMutationError =
+  ErrorType<StartReservoirMining409>;
+
+/**
+ * @summary Start an EN↔FR mining job
+ */
+export const useStartReservoirMining = <
+  TError = ErrorType<StartReservoirMining409>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof startReservoirMining>>,
+    TError,
+    { data: BodyType<MineStartRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationResult<
+  Awaited<ReturnType<typeof startReservoirMining>>,
+  TError,
+  { data: BodyType<MineStartRequest> },
+  TContext
+> => {
+  return useMutation(getStartReservoirMiningMutationOptions(options));
+};
+
+/**
+ * @summary Cancel the running mining job
+ */
+export const getCancelReservoirMiningUrl = () => {
+  return `/api/reservoir/mine/cancel`;
+};
+
+export const cancelReservoirMining = async (
+  options?: RequestInit,
+): Promise<CancelReservoirMining200> => {
+  return customFetch<CancelReservoirMining200>(getCancelReservoirMiningUrl(), {
+    ...options,
+    method: "POST",
+  });
+};
+
+export const getCancelReservoirMiningMutationOptions = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof cancelReservoirMining>>,
+    TError,
+    void,
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationOptions<
+  Awaited<ReturnType<typeof cancelReservoirMining>>,
+  TError,
+  void,
+  TContext
+> => {
+  const mutationKey = ["cancelReservoirMining"];
+  const { mutation: mutationOptions, request: requestOptions } = options
+    ? options.mutation &&
+      "mutationKey" in options.mutation &&
+      options.mutation.mutationKey
+      ? options
+      : { ...options, mutation: { ...options.mutation, mutationKey } }
+    : { mutation: { mutationKey }, request: undefined };
+
+  const mutationFn: MutationFunction<
+    Awaited<ReturnType<typeof cancelReservoirMining>>,
+    void
+  > = () => {
+    return cancelReservoirMining(requestOptions);
+  };
+
+  return { mutationFn, ...mutationOptions };
+};
+
+export type CancelReservoirMiningMutationResult = NonNullable<
+  Awaited<ReturnType<typeof cancelReservoirMining>>
+>;
+
+export type CancelReservoirMiningMutationError = ErrorType<unknown>;
+
+/**
+ * @summary Cancel the running mining job
+ */
+export const useCancelReservoirMining = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof cancelReservoirMining>>,
+    TError,
+    void,
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationResult<
+  Awaited<ReturnType<typeof cancelReservoirMining>>,
+  TError,
+  void,
+  TContext
+> => {
+  return useMutation(getCancelReservoirMiningMutationOptions(options));
+};
+
+/**
+ * @summary Latest mining job + active job id (poll every 2s)
+ */
+export const getGetReservoirMiningStatusUrl = () => {
+  return `/api/reservoir/mine/status`;
+};
+
+export const getReservoirMiningStatus = async (
+  options?: RequestInit,
+): Promise<MiningStatus> => {
+  return customFetch<MiningStatus>(getGetReservoirMiningStatusUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetReservoirMiningStatusQueryKey = () => {
+  return [`/api/reservoir/mine/status`] as const;
+};
+
+export const getGetReservoirMiningStatusQueryOptions = <
+  TData = Awaited<ReturnType<typeof getReservoirMiningStatus>>,
+  TError = ErrorType<unknown>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getReservoirMiningStatus>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey =
+    queryOptions?.queryKey ?? getGetReservoirMiningStatusQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getReservoirMiningStatus>>
+  > = ({ signal }) => getReservoirMiningStatus({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getReservoirMiningStatus>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetReservoirMiningStatusQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getReservoirMiningStatus>>
+>;
+export type GetReservoirMiningStatusQueryError = ErrorType<unknown>;
+
+/**
+ * @summary Latest mining job + active job id (poll every 2s)
+ */
+
+export function useGetReservoirMiningStatus<
+  TData = Awaited<ReturnType<typeof getReservoirMiningStatus>>,
+  TError = ErrorType<unknown>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getReservoirMiningStatus>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetReservoirMiningStatusQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Generates N paraphrases of the input, M target-language sound-alike
+renderings per paraphrase, scores all N×M cross-product pairs, and
+semantic-verifies the top-K finalists.
+
+ * @summary Run the Flit pipeline on an EN or FR input
+ */
+export const getRunFlitUrl = () => {
+  return `/api/flit/run`;
+};
+
+export const runFlit = async (
+  flitRequest: FlitRequest,
+  options?: RequestInit,
+): Promise<FlitResponse> => {
+  return customFetch<FlitResponse>(getRunFlitUrl(), {
+    ...options,
+    method: "POST",
+    headers: { "Content-Type": "application/json", ...options?.headers },
+    body: JSON.stringify(flitRequest),
+  });
+};
+
+export const getRunFlitMutationOptions = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof runFlit>>,
+    TError,
+    { data: BodyType<FlitRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationOptions<
+  Awaited<ReturnType<typeof runFlit>>,
+  TError,
+  { data: BodyType<FlitRequest> },
+  TContext
+> => {
+  const mutationKey = ["runFlit"];
+  const { mutation: mutationOptions, request: requestOptions } = options
+    ? options.mutation &&
+      "mutationKey" in options.mutation &&
+      options.mutation.mutationKey
+      ? options
+      : { ...options, mutation: { ...options.mutation, mutationKey } }
+    : { mutation: { mutationKey }, request: undefined };
+
+  const mutationFn: MutationFunction<
+    Awaited<ReturnType<typeof runFlit>>,
+    { data: BodyType<FlitRequest> }
+  > = (props) => {
+    const { data } = props ?? {};
+
+    return runFlit(data, requestOptions);
+  };
+
+  return { mutationFn, ...mutationOptions };
+};
+
+export type RunFlitMutationResult = NonNullable<
+  Awaited<ReturnType<typeof runFlit>>
+>;
+export type RunFlitMutationBody = BodyType<FlitRequest>;
+export type RunFlitMutationError = ErrorType<unknown>;
+
+/**
+ * @summary Run the Flit pipeline on an EN or FR input
+ */
+export const useRunFlit = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof runFlit>>,
+    TError,
+    { data: BodyType<FlitRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationResult<
+  Awaited<ReturnType<typeof runFlit>>,
+  TError,
+  { data: BodyType<FlitRequest> },
+  TContext
+> => {
+  return useMutation(getRunFlitMutationOptions(options));
+};
