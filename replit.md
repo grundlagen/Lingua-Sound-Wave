@@ -66,3 +66,24 @@ Honest finding: hybrids underperform phoneme-chain alone on this benchmark — n
 ### ScoreInput
 
 `ScoreInput` (in `lib/scoring.ts`) carries optional `text`, `language`, `languageName` alongside the audio fields. Phoneme-based methods require these; audio-only methods ignore them. Call sites in `routes/homophones.ts` (compare, translate, discover) populate them via spread.
+
+### Reservoir (EN↔FR persistent corpus)
+
+A growing tiered corpus of EN↔FR homophone pairs, target size ~2,500. Tables: `homophone_reservoir` (one row per scored pair, with `tier` S/A/B and full `componentScores`) and `mining_jobs` (background mining state, idempotent — single active job at a time).
+
+- **Seeds**: `artifacts/api-server/src/lib/seed-corpus.ts` ships 240 hand-curated EN↔FR seed pairs (proverbs, food, geography, common nouns, idioms). Loaded once into `homophone_reservoir` on first mining run.
+- **Mining**: `artifacts/api-server/src/lib/reservoir-mining.ts` runs in-process, scored via `hybrid-phoneme-audio`. Each job pulls a batch of unscored seeds + LLM-suggested expansions, scores both directions (EN→FR and FR→EN), grades into tier S (≥0.92), A (≥0.85), B (≥0.75), drops the rest. Idempotent on `(text_en, text_fr)` — re-runs are cheap.
+- **Tier grader**: `artifacts/api-server/src/lib/tier-grader.ts` — pure scoring→tier mapping, used by both the miner and ad-hoc requests.
+- **Routes**: `artifacts/api-server/src/routes/reservoir.ts` exposes `GET /api/reservoir` (filter by tier, paginated), `POST /api/reservoir/mining/start`, `GET /api/reservoir/mining/status` (frontend polls every 2s while a job is active).
+- **UI**: `artifacts/homophone-explorer/src/pages/Reservoir.tsx` — mining controls, live status, tier-filtered browse. Polling key uses `getGetReservoirMiningStatusQueryKey()` so React Query refetches across remounts.
+
+### Flit Lab
+
+Cross-lingual sound-alike paraphraser. Given input text in EN or FR, produces meaning-preserving renderings in the *other* language that *sound like* the input. Pipeline (`artifacts/api-server/src/lib/flit.ts`):
+
+1. **Input rejog**: LLM generates N semantic-preserving paraphrases of the input (each with a literal gloss).
+2. **Target rendering**: For each input paraphrase, LLM proposes M sound-alike candidates in the target language, also with glosses.
+3. **Cross-product score**: Every (paraphrase × candidate) pair scored by `hybrid-phoneme-audio`. Top-K by similarity.
+4. **Semantic verify**: A second LLM pass checks that each top candidate's gloss is consistent with the input's meaning, setting `semanticOK` + a short note. Sound-alikes that drift in meaning are kept but flagged (not dropped) so users can see why.
+
+Routes: `POST /api/flit/run` ({text, language, inputParaphrases, targetRenderings, topK}). UI: `artifacts/homophone-explorer/src/pages/FlitLab.tsx` with presets and sliders.

@@ -243,4 +243,26 @@ export function currentJobId(): number | null {
   return active ? active.id : null;
 }
 
+/**
+ * On server startup, mark any `running` jobs in the DB as `failed`.
+ * The in-process `active` tracker is empty after a restart, so any DB row
+ * still in `running` state is an orphan from a previous process.
+ */
+export async function recoverOrphanedJobs(): Promise<number> {
+  const result = await db
+    .update(miningJobsTable)
+    .set({
+      status: "failed",
+      finishedAt: new Date(),
+      lastError: "Server restarted while job was running",
+      currentSeed: null,
+    })
+    .where(eq(miningJobsTable.status, "running"))
+    .returning({ id: miningJobsTable.id });
+  if (result.length > 0) {
+    logger.warn({ orphanedJobIds: result.map((r) => r.id) }, "mining: marked orphaned jobs as failed");
+  }
+  return result.length;
+}
+
 export { SEED_CORPUS };
