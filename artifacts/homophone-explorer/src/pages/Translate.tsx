@@ -16,6 +16,7 @@ import {
 import { AudioCard } from "@/components/AudioCard";
 import { SimilarityMeter } from "@/components/SimilarityMeter";
 import { MethodSelector } from "@/components/MethodSelector";
+import { ComponentScores } from "@/components/ComponentScores";
 
 const SAMPLE_PASSAGES: { label: string; sourceLanguage: string; text: string }[] = [
   {
@@ -46,7 +47,7 @@ export function TranslatePage() {
   const [sourceLang, setSourceLang] = useState("en");
   const [targetLang, setTargetLang] = useState("fr");
   const [candidates, setCandidates] = useState(2);
-  const [scoringMethod, setScoringMethod] = useState("mfcc-dtw");
+  const [scoringMethod, setScoringMethod] = useState("hybrid-phoneme-audio");
   const [result, setResult] = useState<TranslatedPassage | null>(null);
   const requestIdRef = useRef(0);
   const [staleError, setStaleError] = useState<string | null>(null);
@@ -249,8 +250,11 @@ function TranslationResult({ result }: { result: TranslatedPassage }) {
             {chunk.error ? (
               <span className="text-xs text-destructive">⚠ {chunk.error}</span>
             ) : (
-              <div className="flex items-center gap-3">
-                <span className="text-xs text-muted-foreground">acoustic match</span>
+              <div className="flex items-center gap-3 flex-wrap">
+                {chunk.componentScores && chunk.componentScores.length > 0 ? (
+                  <ComponentScores components={chunk.componentScores} size="sm" testId={`chunk-${chunk.index}-components`} />
+                ) : null}
+                <span className="text-xs text-muted-foreground">combined</span>
                 <span className="text-lg font-semibold tabular-nums" data-testid={`chunk-${chunk.index}-sim`}>
                   {(chunk.similarity * 100).toFixed(1)}%
                 </span>

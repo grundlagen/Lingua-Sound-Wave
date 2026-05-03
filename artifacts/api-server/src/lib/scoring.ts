@@ -13,10 +13,19 @@ export interface ScoreInput {
   languageName?: string;
 }
 
+export interface ComponentScore {
+  id: string;
+  label: string;
+  similarity: number;
+  distance: number;
+}
+
 export interface ScoreResult {
   distance: number;
   similarity: number;
   method: string;
+  /** Per-component sub-scores when this is a hybrid method. */
+  components?: ComponentScore[];
 }
 
 export interface ScoringMethodInfo {
@@ -138,9 +147,9 @@ const PHONEME_CHAIN: ScoringMethod = {
 
 const HYBRID_PHONEME_AUDIO: ScoringMethod = {
   id: "hybrid-phoneme-audio",
-  label: "Hybrid (phoneme chain × wav2vec2 DTW)",
+  label: "DTW + Phoneme (combined)",
   description:
-    "Geometric mean of the symbolic phoneme-chain matcher and the wav2vec2-dtw acoustic matcher. Each method's idiosyncratic false positives get pulled down by the other (e.g. wav2vec2-dtw's TTS-voice-floor false positives on prosodically similar but phonetically unrelated phrases are corrected by phoneme-chain's symbolic 'no'). Requires both LLM G2P and the wav2vec2 model — slowest method, most reliable.",
+    "Runs both judges in parallel and shows their individual scores plus a combined verdict. Phoneme-chain (symbolic IPA matcher) catches wav2vec2-dtw's TTS-voice-floor false positives; wav2vec2-dtw (neural acoustic matcher) provides independent acoustic confirmation. The headline number is the geometric mean of the two — both must agree for a high score. Recommended default. Requires LLM G2P and the wav2vec2 model (~95MB downloaded on first use).",
   status: "lazy",
   async score(src, cand) {
     const [pho, aco] = await Promise.all([
@@ -149,7 +158,15 @@ const HYBRID_PHONEME_AUDIO: ScoringMethod = {
     ]);
     const sim = Math.sqrt(Math.max(0, pho.similarity) * Math.max(0, aco.similarity));
     const distance = (pho.distance + aco.distance) / 2;
-    return { distance, similarity: sim, method: this.id };
+    return {
+      distance,
+      similarity: sim,
+      method: this.id,
+      components: [
+        { id: PHONEME_CHAIN.id, label: "Phoneme chain (symbolic)", similarity: pho.similarity, distance: pho.distance },
+        { id: WAV2VEC2_DTW.id, label: "wav2vec2 DTW (acoustic)", similarity: aco.similarity, distance: aco.distance },
+      ],
+    };
   },
 };
 
@@ -166,9 +183,9 @@ const HYBRID_PHONEME_AUDIO: ScoringMethod = {
 
 const HYBRID_PHONEME_MFCC: ScoringMethod = {
   id: "hybrid-phoneme-mfcc",
-  label: "Hybrid (phoneme chain × MFCC DTW)",
+  label: "MFCC-DTW + Phoneme (combined, no model download)",
   description:
-    "Geometric mean of the symbolic phoneme-chain matcher and the classical MFCC + DTW matcher. MFCC-DTW has a wider negative/positive spread on TTS than wav2vec2-dtw (no neural voice-floor inflation), so it provides cleaner acoustic confirmation without dragging unrelated pairs upward. Cheaper than the wav2vec2 hybrid — no neural model needed.",
+    "Runs phoneme-chain and classical MFCC + DTW in parallel and shows both individual scores plus a combined verdict (geometric mean). Cheaper alternative to the wav2vec2 hybrid — no neural model download required.",
   status: "ready",
   async score(src, cand) {
     const [pho, aco] = await Promise.all([
@@ -177,17 +194,25 @@ const HYBRID_PHONEME_MFCC: ScoringMethod = {
     ]);
     const sim = Math.sqrt(Math.max(0, pho.similarity) * Math.max(0, aco.similarity));
     const distance = (pho.distance + aco.distance) / 2;
-    return { distance, similarity: sim, method: this.id };
+    return {
+      distance,
+      similarity: sim,
+      method: this.id,
+      components: [
+        { id: PHONEME_CHAIN.id, label: "Phoneme chain (symbolic)", similarity: pho.similarity, distance: pho.distance },
+        { id: MFCC_DTW.id, label: "MFCC DTW (acoustic)", similarity: aco.similarity, distance: aco.distance },
+      ],
+    };
   },
 };
 
 const ALL_METHODS: ScoringMethod[] = [MFCC_DTW, WAV2VEC2_MEAN_COS, WAV2VEC2_DTW, PHONEME_CHAIN, HYBRID_PHONEME_AUDIO, HYBRID_PHONEME_MFCC];
 
-export const DEFAULT_METHOD_ID = "mfcc-dtw";
+export const DEFAULT_METHOD_ID = "hybrid-phoneme-audio";
 
 export function getScoringMethod(id: string | undefined | null): ScoringMethod {
-  if (!id) return MFCC_DTW;
-  return ALL_METHODS.find((m) => m.id === id) ?? MFCC_DTW;
+  if (!id) return HYBRID_PHONEME_AUDIO;
+  return ALL_METHODS.find((m) => m.id === id) ?? HYBRID_PHONEME_AUDIO;
 }
 
 export function listScoringMethods(): ScoringMethodInfo[] {

@@ -10,6 +10,7 @@ export * from "./acousticMatch";
 export * from "./audioPayload";
 export * from "./compareRequest";
 export * from "./compareResponse";
+export * from "./componentScore";
 export * from "./deleteConfirmation";
 export * from "./discoverRequest";
 export * from "./discoverResponse";

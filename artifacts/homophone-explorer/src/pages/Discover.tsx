@@ -23,7 +23,7 @@ export function DiscoverPage() {
   const [targets, setTargets] = useState<string[]>([]);
   const [minSim, setMinSim] = useState(0.55);
   const [count, setCount] = useState(24);
-  const [scoringMethod, setScoringMethod] = useState("mfcc-dtw");
+  const [scoringMethod, setScoringMethod] = useState("hybrid-phoneme-audio");
   const [result, setResult] = useState<DiscoverResponse | null>(null);
   const requestIdRef = useRef(0);
 

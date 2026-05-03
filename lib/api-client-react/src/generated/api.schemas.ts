@@ -90,6 +90,16 @@ export interface DiscoverRequest {
   scoringMethod?: string;
 }
 
+/**
+ * Sub-score from one component of a hybrid scoring method
+ */
+export interface ComponentScore {
+  id: string;
+  label: string;
+  similarity: number;
+  distance: number;
+}
+
 export interface AcousticMatch {
   phrase: string;
   language: string;
@@ -100,6 +110,8 @@ export interface AcousticMatch {
   similarity: number;
   dtwDistance: number;
   audio: AudioPayload;
+  /** Per-component scores when a hybrid scoring method is used */
+  componentScores?: ComponentScore[];
 }
 
 export interface DiscoverResponse {
@@ -157,6 +169,8 @@ export interface CompareResponse {
   verdict: string;
   scoringMethod: string;
   scoringMethodLabel: string;
+  /** Per-component scores when a hybrid scoring method is used */
+  componentScores?: ComponentScore[];
 }
 
 export interface TranslatePassageRequest {
@@ -208,6 +222,8 @@ export interface TranslatedChunk {
   homophonicAudio?: AudioPayload;
   /** Other homophonic candidates considered, ranked by similarity (excluding the chosen one) */
   alternatives: TranslatedChunkAlternativesItem[];
+  /** Per-component scores when a hybrid scoring method is used (best-candidate only) */
+  componentScores?: ComponentScore[];
   /** Set if this chunk failed to process */
   error?: string;
 }

@@ -6,6 +6,7 @@
  * OpenAPI spec version: 0.1.0
  */
 import type { AudioPayload } from "./audioPayload";
+import type { ComponentScore } from "./componentScore";
 
 export interface CompareResponse {
   phrase1: string;
@@ -17,4 +18,6 @@ export interface CompareResponse {
   verdict: string;
   scoringMethod: string;
   scoringMethodLabel: string;
+  /** Per-component scores when a hybrid scoring method is used */
+  componentScores?: ComponentScore[];
 }

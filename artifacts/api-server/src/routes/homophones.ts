@@ -17,7 +17,7 @@ import { LANGUAGES, languageName } from "../lib/languages";
 import { FEATURED_PAIRS } from "../lib/featured";
 import { synthesize, toAudioPayload, type SynthesizedAudio } from "../lib/tts";
 import { mapWithLimit } from "../lib/concurrency";
-import { getScoringMethod, listScoringMethods } from "../lib/scoring";
+import { getScoringMethod, listScoringMethods, type ComponentScore as ComponentScoreT } from "../lib/scoring";
 
 const router: IRouter = Router();
 
@@ -139,6 +139,7 @@ router.post("/homophones/compare", async (req, res) => {
       verdict,
       scoringMethod: method.id,
       scoringMethodLabel: method.label,
+      ...(r.components ? { componentScores: r.components } : {}),
     });
     res.json(payload);
   } catch (err) {
@@ -387,7 +388,7 @@ router.post("/homophones/translate", async (req, res) => {
               { ...sourceAudio, text: chunk, language: body.sourceLanguage, languageName: languageName(body.sourceLanguage) },
               { ...h.audio, text: h.spec.phrase, language: body.targetLanguage, languageName: languageName(body.targetLanguage) },
             );
-            return { spec: h.spec, audio: h.audio, d: r.distance, sim: r.similarity };
+            return { spec: h.spec, audio: h.audio, d: r.distance, sim: r.similarity, components: r.components };
           }),
       );
       const scored = scoredRaw.sort((a, b) => b.sim - a.sim);
@@ -425,6 +426,7 @@ router.post("/homophones/translate", async (req, res) => {
         sourceAudio: toAudioPayload(sourceAudio),
         homophonicAudio: toAudioPayload(best.audio),
         alternatives,
+        ...(best.components ? { componentScores: best.components } : {}),
       };
     } catch (e) {
       req.log.warn({ err: e, chunk }, "translate: chunk failed entirely");
@@ -506,7 +508,7 @@ router.post("/homophones/discover", async (req, res) => {
   req.log.info({ count: candidates.length }, "discover: candidates ready, synthesizing TTS");
 
   // Step 2: synthesize each candidate (concurrency limited)
-  type Ok = { c: CandidateSpec; audio: Awaited<ReturnType<typeof synthesize>>; d: number; sim: number };
+  type Ok = { c: CandidateSpec; audio: Awaited<ReturnType<typeof synthesize>>; d: number; sim: number; components?: ComponentScoreT[] };
   type Err = { c: CandidateSpec; error: string };
   const synthResults = await mapWithLimit<CandidateSpec, Ok | Err>(candidates, 6, async (c) => {
     try {
@@ -515,7 +517,7 @@ router.post("/homophones/discover", async (req, res) => {
         { ...sourceAudio, text: body.phrase, language: body.sourceLanguage, languageName: languageName(body.sourceLanguage) },
         { ...audio, text: c.phrase, language: c.language, languageName: languageName(c.language) },
       );
-      return { c, audio, d: r.distance, sim: r.similarity };
+      return { c, audio, d: r.distance, sim: r.similarity, components: r.components };
     } catch (e) {
       return { c, error: e instanceof Error ? e.message : String(e) };
     }
@@ -548,6 +550,7 @@ router.post("/homophones/discover", async (req, res) => {
       similarity: r.sim,
       dtwDistance: r.d,
       audio: toAudioPayload(r.audio),
+      ...(r.components ? { componentScores: r.components } : {}),
     }));
 
   const payload = DiscoverResponse.parse({

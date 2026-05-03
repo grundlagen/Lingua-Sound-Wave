@@ -9,13 +9,14 @@ import { useComparePhrases, useGetLanguages } from "@workspace/api-client-react"
 import { AudioCard } from "@/components/AudioCard";
 import { SimilarityMeter } from "@/components/SimilarityMeter";
 import { MethodSelector } from "@/components/MethodSelector";
+import { ComponentScores } from "@/components/ComponentScores";
 
 export function ComparePage() {
   const [p1, setP1] = useState("knee how");
   const [l1, setL1] = useState("en");
   const [p2, setP2] = useState("你好");
   const [l2, setL2] = useState("zh");
-  const [scoringMethod, setScoringMethod] = useState("mfcc-dtw");
+  const [scoringMethod, setScoringMethod] = useState("hybrid-phoneme-audio");
 
   const { data: languages = [] } = useGetLanguages();
   const compare = useComparePhrases();
@@ -92,6 +93,14 @@ export function ComparePage() {
               <div className="text-sm text-muted-foreground">{compare.data.verdict}</div>
             </div>
             <SimilarityMeter value={compare.data.similarity} showLabel={false} />
+            {compare.data.componentScores && compare.data.componentScores.length > 0 ? (
+              <div className="pt-1">
+                <div className="text-[10px] uppercase tracking-wide text-muted-foreground mb-1.5">
+                  Per-judge breakdown
+                </div>
+                <ComponentScores components={compare.data.componentScores} testId="compare-components" />
+              </div>
+            ) : null}
             <div className="text-xs text-muted-foreground flex flex-wrap gap-x-3">
               <span>distance: <span className="tabular-nums">{compare.data.dtwDistance.toFixed(4)}</span></span>
               <span>· judged by <span className="font-medium">{compare.data.scoringMethodLabel}</span></span>

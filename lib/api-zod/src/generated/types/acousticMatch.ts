@@ -6,6 +6,7 @@
  * OpenAPI spec version: 0.1.0
  */
 import type { AudioPayload } from "./audioPayload";
+import type { ComponentScore } from "./componentScore";
 
 export interface AcousticMatch {
   phrase: string;
@@ -17,4 +18,6 @@ export interface AcousticMatch {
   similarity: number;
   dtwDistance: number;
   audio: AudioPayload;
+  /** Per-component scores when a hybrid scoring method is used */
+  componentScores?: ComponentScore[];
 }

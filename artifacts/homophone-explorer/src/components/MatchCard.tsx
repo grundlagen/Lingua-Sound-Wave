@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { AudioCard } from "./AudioCard";
 import { SimilarityMeter } from "./SimilarityMeter";
+import { ComponentScores } from "./ComponentScores";
 import type { AcousticMatch, AudioPayload } from "@workspace/api-client-react";
 import { useSavePair, getGetSavedPairsQueryKey } from "@workspace/api-client-react";
 import { useQueryClient } from "@tanstack/react-query";
@@ -77,6 +78,9 @@ export function MatchCard({ source, match, onSaved }: Props) {
         </Button>
       </div>
       <SimilarityMeter value={match.similarity} />
+      {match.componentScores && match.componentScores.length > 0 ? (
+        <ComponentScores components={match.componentScores} size="sm" testId={`match-components-${match.languageCode}`} />
+      ) : null}
       <AudioCard
         audio={match.audio}
         label={match.phrase}

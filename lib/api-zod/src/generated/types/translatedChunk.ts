@@ -6,6 +6,7 @@
  * OpenAPI spec version: 0.1.0
  */
 import type { AudioPayload } from "./audioPayload";
+import type { ComponentScore } from "./componentScore";
 import type { TranslatedChunkAlternativesItem } from "./translatedChunkAlternativesItem";
 
 export interface TranslatedChunk {
@@ -24,6 +25,8 @@ export interface TranslatedChunk {
   homophonicAudio?: AudioPayload;
   /** Other homophonic candidates considered, ranked by similarity (excluding the chosen one) */
   alternatives: TranslatedChunkAlternativesItem[];
+  /** Per-component scores when a hybrid scoring method is used (best-candidate only) */
+  componentScores?: ComponentScore[];
   /** Set if this chunk failed to process */
   error?: string;
 }

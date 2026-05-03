@@ -116,6 +116,21 @@ export const DiscoverHomophonesResponse = zod.object({
         .describe(
           "Encoded audio + numeric features extracted server-side from raw TTS PCM",
         ),
+      componentScores: zod
+        .array(
+          zod
+            .object({
+              id: zod.string(),
+              label: zod.string(),
+              similarity: zod.number(),
+              distance: zod.number(),
+            })
+            .describe(
+              "Sub-score from one component of a hybrid scoring method",
+            ),
+        )
+        .optional()
+        .describe("Per-component scores when a hybrid scoring method is used"),
     }),
   ),
   candidatesEvaluated: zod.number(),
@@ -235,6 +250,19 @@ export const ComparePhrasesResponse = zod.object({
   verdict: zod.string(),
   scoringMethod: zod.string(),
   scoringMethodLabel: zod.string(),
+  componentScores: zod
+    .array(
+      zod
+        .object({
+          id: zod.string(),
+          label: zod.string(),
+          similarity: zod.number(),
+          distance: zod.number(),
+        })
+        .describe("Sub-score from one component of a hybrid scoring method"),
+    )
+    .optional()
+    .describe("Per-component scores when a hybrid scoring method is used"),
 });
 
 /**
@@ -403,6 +431,23 @@ export const TranslatePassageResponse = zod.object({
         )
         .describe(
           "Other homophonic candidates considered, ranked by similarity (excluding the chosen one)",
+        ),
+      componentScores: zod
+        .array(
+          zod
+            .object({
+              id: zod.string(),
+              label: zod.string(),
+              similarity: zod.number(),
+              distance: zod.number(),
+            })
+            .describe(
+              "Sub-score from one component of a hybrid scoring method",
+            ),
+        )
+        .optional()
+        .describe(
+          "Per-component scores when a hybrid scoring method is used (best-candidate only)",
         ),
       error: zod
         .string()

@@ -350,6 +350,20 @@ components:
         - phrase
         - sourceLanguage
 
+    ComponentScore:
+      type: object
+      description: Sub-score from one component of a hybrid scoring method
+      properties:
+        id:
+          type: string
+        label:
+          type: string
+        similarity:
+          type: number
+        distance:
+          type: number
+      required: [id, label, similarity, distance]
+
     AcousticMatch:
       type: object
       properties:
@@ -370,6 +384,11 @@ components:
           type: number
         audio:
           $ref: "#/components/schemas/AudioPayload"
+        componentScores:
+          type: array
+          description: Per-component scores when a hybrid scoring method is used
+          items:
+            $ref: "#/components/schemas/ComponentScore"
       required:
         - phrase
         - language
@@ -480,6 +499,11 @@ components:
           type: string
         scoringMethodLabel:
           type: string
+        componentScores:
+          type: array
+          description: Per-component scores when a hybrid scoring method is used
+          items:
+            $ref: "#/components/schemas/ComponentScore"
       required:
         - phrase1
         - phrase2
@@ -563,6 +587,11 @@ components:
               similarity:
                 type: number
             required: [phrase, gloss, similarity]
+        componentScores:
+          type: array
+          description: Per-component scores when a hybrid scoring method is used (best-candidate only)
+          items:
+            $ref: "#/components/schemas/ComponentScore"
         error:
           type: string
           description: Set if this chunk failed to process

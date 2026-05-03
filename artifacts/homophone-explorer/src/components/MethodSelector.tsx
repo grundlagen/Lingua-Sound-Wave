@@ -19,7 +19,7 @@ export function MethodSelector({ value, onChange, testId }: Props) {
   const selected = methods.find((m) => m.id === value);
   return (
     <div className="space-y-2">
-      <Label>Acoustic judge (scoring method)</Label>
+      <Label>Scoring method</Label>
       <Select value={value} onValueChange={onChange}>
         <SelectTrigger data-testid={testId ?? "select-method"}>
           <SelectValue placeholder="Choose a scoring method" />
@@ -27,10 +27,14 @@ export function MethodSelector({ value, onChange, testId }: Props) {
         <SelectContent className="max-w-[480px]">
           {methods.map((m) => {
             const badge = STATUS_BADGE[m.status];
+            const recommended = m.id === "hybrid-phoneme-audio";
             return (
               <SelectItem key={m.id} value={m.id} data-testid={`method-opt-${m.id}`}>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 flex-wrap">
                   <span className="font-medium">{m.label}</span>
+                  {recommended ? (
+                    <span className="text-[10px] px-1.5 py-0.5 rounded border bg-primary/10 text-primary border-primary/30">recommended</span>
+                  ) : null}
                   <span className={`text-[10px] px-1.5 py-0.5 rounded border ${badge.cls}`}>{badge.label}</span>
                 </div>
               </SelectItem>
