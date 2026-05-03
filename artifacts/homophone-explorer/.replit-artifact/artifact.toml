@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Cross-Lingual Homophone Explorer"
+version = "1.0.0"
+id = "artifacts/homophone-explorer"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24589
+
+[services.development]
+run = "pnpm --filter @workspace/homophone-explorer run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/homophone-explorer", "run", "build" ]
+publicDir = "artifacts/homophone-explorer/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24589"
+BASE_PATH = "/"

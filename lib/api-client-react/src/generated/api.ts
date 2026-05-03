@@ -5,18 +5,34 @@
  * API specification
  * OpenAPI spec version: 0.1.0
  */
-import { useQuery } from "@tanstack/react-query";
+import { useMutation, useQuery } from "@tanstack/react-query";
 import type {
+  MutationFunction,
   QueryFunction,
   QueryKey,
+  UseMutationOptions,
+  UseMutationResult,
   UseQueryOptions,
   UseQueryResult,
 } from "@tanstack/react-query";
 
-import type { HealthStatus } from "./api.schemas";
+import type {
+  CompareRequest,
+  CompareResponse,
+  DeleteConfirmation,
+  DiscoverRequest,
+  DiscoverResponse,
+  FeaturedPair,
+  HealthStatus,
+  Language,
+  SavePairRequest,
+  SavedPair,
+  TtsRequest,
+  TtsResponse,
+} from "./api.schemas";
 
 import { customFetch } from "../custom-fetch";
-import type { ErrorType } from "../custom-fetch";
+import type { ErrorType, BodyType } from "../custom-fetch";
 
 type AwaitedInput<T> = PromiseLike<T> | T;
 
@@ -25,7 +41,6 @@ type Awaited<O> = O extends AwaitedInput<infer T> ? T : never;
 type SecondParameter<T extends (...args: never) => unknown> = Parameters<T>[1];
 
 /**
- * Returns server health status
  * @summary Health check
  */
 export const getHealthCheckUrl = () => {
@@ -92,6 +107,667 @@ export function useHealthCheck<
   request?: SecondParameter<typeof customFetch>;
 }): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
   const queryOptions = getHealthCheckQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Given a source phrase in any language, finds phrases in other languages
+whose synthesized audio is acoustically near-identical (measured via
+MFCC + Dynamic Time Warping on actual TTS audio — not text or IPA).
+
+ * @summary Discover acoustic homophones for a phrase
+ */
+export const getDiscoverHomophonesUrl = () => {
+  return `/api/homophones/discover`;
+};
+
+export const discoverHomophones = async (
+  discoverRequest: DiscoverRequest,
+  options?: RequestInit,
+): Promise<DiscoverResponse> => {
+  return customFetch<DiscoverResponse>(getDiscoverHomophonesUrl(), {
+    ...options,
+    method: "POST",
+    headers: { "Content-Type": "application/json", ...options?.headers },
+    body: JSON.stringify(discoverRequest),
+  });
+};
+
+export const getDiscoverHomophonesMutationOptions = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof discoverHomophones>>,
+    TError,
+    { data: BodyType<DiscoverRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationOptions<
+  Awaited<ReturnType<typeof discoverHomophones>>,
+  TError,
+  { data: BodyType<DiscoverRequest> },
+  TContext
+> => {
+  const mutationKey = ["discoverHomophones"];
+  const { mutation: mutationOptions, request: requestOptions } = options
+    ? options.mutation &&
+      "mutationKey" in options.mutation &&
+      options.mutation.mutationKey
+      ? options
+      : { ...options, mutation: { ...options.mutation, mutationKey } }
+    : { mutation: { mutationKey }, request: undefined };
+
+  const mutationFn: MutationFunction<
+    Awaited<ReturnType<typeof discoverHomophones>>,
+    { data: BodyType<DiscoverRequest> }
+  > = (props) => {
+    const { data } = props ?? {};
+
+    return discoverHomophones(data, requestOptions);
+  };
+
+  return { mutationFn, ...mutationOptions };
+};
+
+export type DiscoverHomophonesMutationResult = NonNullable<
+  Awaited<ReturnType<typeof discoverHomophones>>
+>;
+export type DiscoverHomophonesMutationBody = BodyType<DiscoverRequest>;
+export type DiscoverHomophonesMutationError = ErrorType<unknown>;
+
+/**
+ * @summary Discover acoustic homophones for a phrase
+ */
+export const useDiscoverHomophones = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof discoverHomophones>>,
+    TError,
+    { data: BodyType<DiscoverRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationResult<
+  Awaited<ReturnType<typeof discoverHomophones>>,
+  TError,
+  { data: BodyType<DiscoverRequest> },
+  TContext
+> => {
+  return useMutation(getDiscoverHomophonesMutationOptions(options));
+};
+
+/**
+ * @summary Generate TTS audio for a phrase
+ */
+export const getSynthesizeSpeechUrl = () => {
+  return `/api/homophones/tts`;
+};
+
+export const synthesizeSpeech = async (
+  ttsRequest: TtsRequest,
+  options?: RequestInit,
+): Promise<TtsResponse> => {
+  return customFetch<TtsResponse>(getSynthesizeSpeechUrl(), {
+    ...options,
+    method: "POST",
+    headers: { "Content-Type": "application/json", ...options?.headers },
+    body: JSON.stringify(ttsRequest),
+  });
+};
+
+export const getSynthesizeSpeechMutationOptions = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof synthesizeSpeech>>,
+    TError,
+    { data: BodyType<TtsRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationOptions<
+  Awaited<ReturnType<typeof synthesizeSpeech>>,
+  TError,
+  { data: BodyType<TtsRequest> },
+  TContext
+> => {
+  const mutationKey = ["synthesizeSpeech"];
+  const { mutation: mutationOptions, request: requestOptions } = options
+    ? options.mutation &&
+      "mutationKey" in options.mutation &&
+      options.mutation.mutationKey
+      ? options
+      : { ...options, mutation: { ...options.mutation, mutationKey } }
+    : { mutation: { mutationKey }, request: undefined };
+
+  const mutationFn: MutationFunction<
+    Awaited<ReturnType<typeof synthesizeSpeech>>,
+    { data: BodyType<TtsRequest> }
+  > = (props) => {
+    const { data } = props ?? {};
+
+    return synthesizeSpeech(data, requestOptions);
+  };
+
+  return { mutationFn, ...mutationOptions };
+};
+
+export type SynthesizeSpeechMutationResult = NonNullable<
+  Awaited<ReturnType<typeof synthesizeSpeech>>
+>;
+export type SynthesizeSpeechMutationBody = BodyType<TtsRequest>;
+export type SynthesizeSpeechMutationError = ErrorType<unknown>;
+
+/**
+ * @summary Generate TTS audio for a phrase
+ */
+export const useSynthesizeSpeech = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof synthesizeSpeech>>,
+    TError,
+    { data: BodyType<TtsRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationResult<
+  Awaited<ReturnType<typeof synthesizeSpeech>>,
+  TError,
+  { data: BodyType<TtsRequest> },
+  TContext
+> => {
+  return useMutation(getSynthesizeSpeechMutationOptions(options));
+};
+
+/**
+ * Synthesizes both phrases via TTS and compares them with MFCC + DTW.
+Returns audio for both, waveforms, mel-spectrograms, and the acoustic
+similarity score.
+
+ * @summary Compare two phrases acoustically
+ */
+export const getComparePhrasesUrl = () => {
+  return `/api/homophones/compare`;
+};
+
+export const comparePhrases = async (
+  compareRequest: CompareRequest,
+  options?: RequestInit,
+): Promise<CompareResponse> => {
+  return customFetch<CompareResponse>(getComparePhrasesUrl(), {
+    ...options,
+    method: "POST",
+    headers: { "Content-Type": "application/json", ...options?.headers },
+    body: JSON.stringify(compareRequest),
+  });
+};
+
+export const getComparePhrasesMutationOptions = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof comparePhrases>>,
+    TError,
+    { data: BodyType<CompareRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationOptions<
+  Awaited<ReturnType<typeof comparePhrases>>,
+  TError,
+  { data: BodyType<CompareRequest> },
+  TContext
+> => {
+  const mutationKey = ["comparePhrases"];
+  const { mutation: mutationOptions, request: requestOptions } = options
+    ? options.mutation &&
+      "mutationKey" in options.mutation &&
+      options.mutation.mutationKey
+      ? options
+      : { ...options, mutation: { ...options.mutation, mutationKey } }
+    : { mutation: { mutationKey }, request: undefined };
+
+  const mutationFn: MutationFunction<
+    Awaited<ReturnType<typeof comparePhrases>>,
+    { data: BodyType<CompareRequest> }
+  > = (props) => {
+    const { data } = props ?? {};
+
+    return comparePhrases(data, requestOptions);
+  };
+
+  return { mutationFn, ...mutationOptions };
+};
+
+export type ComparePhrasesMutationResult = NonNullable<
+  Awaited<ReturnType<typeof comparePhrases>>
+>;
+export type ComparePhrasesMutationBody = BodyType<CompareRequest>;
+export type ComparePhrasesMutationError = ErrorType<unknown>;
+
+/**
+ * @summary Compare two phrases acoustically
+ */
+export const useComparePhrases = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof comparePhrases>>,
+    TError,
+    { data: BodyType<CompareRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationResult<
+  Awaited<ReturnType<typeof comparePhrases>>,
+  TError,
+  { data: BodyType<CompareRequest> },
+  TContext
+> => {
+  return useMutation(getComparePhrasesMutationOptions(options));
+};
+
+/**
+ * @summary Get saved homophone pairs
+ */
+export const getGetSavedPairsUrl = () => {
+  return `/api/homophones/saved`;
+};
+
+export const getSavedPairs = async (
+  options?: RequestInit,
+): Promise<SavedPair[]> => {
+  return customFetch<SavedPair[]>(getGetSavedPairsUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetSavedPairsQueryKey = () => {
+  return [`/api/homophones/saved`] as const;
+};
+
+export const getGetSavedPairsQueryOptions = <
+  TData = Awaited<ReturnType<typeof getSavedPairs>>,
+  TError = ErrorType<unknown>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getSavedPairs>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey = queryOptions?.queryKey ?? getGetSavedPairsQueryKey();
+
+  const queryFn: QueryFunction<Awaited<ReturnType<typeof getSavedPairs>>> = ({
+    signal,
+  }) => getSavedPairs({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getSavedPairs>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetSavedPairsQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getSavedPairs>>
+>;
+export type GetSavedPairsQueryError = ErrorType<unknown>;
+
+/**
+ * @summary Get saved homophone pairs
+ */
+
+export function useGetSavedPairs<
+  TData = Awaited<ReturnType<typeof getSavedPairs>>,
+  TError = ErrorType<unknown>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getSavedPairs>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetSavedPairsQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * @summary Save a homophone pair
+ */
+export const getSavePairUrl = () => {
+  return `/api/homophones/saved`;
+};
+
+export const savePair = async (
+  savePairRequest: SavePairRequest,
+  options?: RequestInit,
+): Promise<SavedPair> => {
+  return customFetch<SavedPair>(getSavePairUrl(), {
+    ...options,
+    method: "POST",
+    headers: { "Content-Type": "application/json", ...options?.headers },
+    body: JSON.stringify(savePairRequest),
+  });
+};
+
+export const getSavePairMutationOptions = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof savePair>>,
+    TError,
+    { data: BodyType<SavePairRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationOptions<
+  Awaited<ReturnType<typeof savePair>>,
+  TError,
+  { data: BodyType<SavePairRequest> },
+  TContext
+> => {
+  const mutationKey = ["savePair"];
+  const { mutation: mutationOptions, request: requestOptions } = options
+    ? options.mutation &&
+      "mutationKey" in options.mutation &&
+      options.mutation.mutationKey
+      ? options
+      : { ...options, mutation: { ...options.mutation, mutationKey } }
+    : { mutation: { mutationKey }, request: undefined };
+
+  const mutationFn: MutationFunction<
+    Awaited<ReturnType<typeof savePair>>,
+    { data: BodyType<SavePairRequest> }
+  > = (props) => {
+    const { data } = props ?? {};
+
+    return savePair(data, requestOptions);
+  };
+
+  return { mutationFn, ...mutationOptions };
+};
+
+export type SavePairMutationResult = NonNullable<
+  Awaited<ReturnType<typeof savePair>>
+>;
+export type SavePairMutationBody = BodyType<SavePairRequest>;
+export type SavePairMutationError = ErrorType<unknown>;
+
+/**
+ * @summary Save a homophone pair
+ */
+export const useSavePair = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof savePair>>,
+    TError,
+    { data: BodyType<SavePairRequest> },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationResult<
+  Awaited<ReturnType<typeof savePair>>,
+  TError,
+  { data: BodyType<SavePairRequest> },
+  TContext
+> => {
+  return useMutation(getSavePairMutationOptions(options));
+};
+
+/**
+ * @summary Delete a saved pair
+ */
+export const getDeleteSavedPairUrl = (id: number) => {
+  return `/api/homophones/saved/${id}`;
+};
+
+export const deleteSavedPair = async (
+  id: number,
+  options?: RequestInit,
+): Promise<DeleteConfirmation> => {
+  return customFetch<DeleteConfirmation>(getDeleteSavedPairUrl(id), {
+    ...options,
+    method: "DELETE",
+  });
+};
+
+export const getDeleteSavedPairMutationOptions = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof deleteSavedPair>>,
+    TError,
+    { id: number },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationOptions<
+  Awaited<ReturnType<typeof deleteSavedPair>>,
+  TError,
+  { id: number },
+  TContext
+> => {
+  const mutationKey = ["deleteSavedPair"];
+  const { mutation: mutationOptions, request: requestOptions } = options
+    ? options.mutation &&
+      "mutationKey" in options.mutation &&
+      options.mutation.mutationKey
+      ? options
+      : { ...options, mutation: { ...options.mutation, mutationKey } }
+    : { mutation: { mutationKey }, request: undefined };
+
+  const mutationFn: MutationFunction<
+    Awaited<ReturnType<typeof deleteSavedPair>>,
+    { id: number }
+  > = (props) => {
+    const { id } = props ?? {};
+
+    return deleteSavedPair(id, requestOptions);
+  };
+
+  return { mutationFn, ...mutationOptions };
+};
+
+export type DeleteSavedPairMutationResult = NonNullable<
+  Awaited<ReturnType<typeof deleteSavedPair>>
+>;
+
+export type DeleteSavedPairMutationError = ErrorType<unknown>;
+
+/**
+ * @summary Delete a saved pair
+ */
+export const useDeleteSavedPair = <
+  TError = ErrorType<unknown>,
+  TContext = unknown,
+>(options?: {
+  mutation?: UseMutationOptions<
+    Awaited<ReturnType<typeof deleteSavedPair>>,
+    TError,
+    { id: number },
+    TContext
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseMutationResult<
+  Awaited<ReturnType<typeof deleteSavedPair>>,
+  TError,
+  { id: number },
+  TContext
+> => {
+  return useMutation(getDeleteSavedPairMutationOptions(options));
+};
+
+/**
+ * @summary Get curated featured cross-lingual homophone pairs
+ */
+export const getGetFeaturedPairsUrl = () => {
+  return `/api/homophones/featured`;
+};
+
+export const getFeaturedPairs = async (
+  options?: RequestInit,
+): Promise<FeaturedPair[]> => {
+  return customFetch<FeaturedPair[]>(getGetFeaturedPairsUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetFeaturedPairsQueryKey = () => {
+  return [`/api/homophones/featured`] as const;
+};
+
+export const getGetFeaturedPairsQueryOptions = <
+  TData = Awaited<ReturnType<typeof getFeaturedPairs>>,
+  TError = ErrorType<unknown>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getFeaturedPairs>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey = queryOptions?.queryKey ?? getGetFeaturedPairsQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getFeaturedPairs>>
+  > = ({ signal }) => getFeaturedPairs({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getFeaturedPairs>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetFeaturedPairsQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getFeaturedPairs>>
+>;
+export type GetFeaturedPairsQueryError = ErrorType<unknown>;
+
+/**
+ * @summary Get curated featured cross-lingual homophone pairs
+ */
+
+export function useGetFeaturedPairs<
+  TData = Awaited<ReturnType<typeof getFeaturedPairs>>,
+  TError = ErrorType<unknown>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getFeaturedPairs>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetFeaturedPairsQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * @summary Get supported language list
+ */
+export const getGetLanguagesUrl = () => {
+  return `/api/homophones/languages`;
+};
+
+export const getLanguages = async (
+  options?: RequestInit,
+): Promise<Language[]> => {
+  return customFetch<Language[]>(getGetLanguagesUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetLanguagesQueryKey = () => {
+  return [`/api/homophones/languages`] as const;
+};
+
+export const getGetLanguagesQueryOptions = <
+  TData = Awaited<ReturnType<typeof getLanguages>>,
+  TError = ErrorType<unknown>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getLanguages>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey = queryOptions?.queryKey ?? getGetLanguagesQueryKey();
+
+  const queryFn: QueryFunction<Awaited<ReturnType<typeof getLanguages>>> = ({
+    signal,
+  }) => getLanguages({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getLanguages>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetLanguagesQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getLanguages>>
+>;
+export type GetLanguagesQueryError = ErrorType<unknown>;
+
+/**
+ * @summary Get supported language list
+ */
+
+export function useGetLanguages<
+  TData = Awaited<ReturnType<typeof getLanguages>>,
+  TError = ErrorType<unknown>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getLanguages>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetLanguagesQueryOptions(options);
 
   const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
     queryKey: QueryKey;

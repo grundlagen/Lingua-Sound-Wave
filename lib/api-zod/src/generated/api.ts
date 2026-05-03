@@ -8,9 +8,264 @@
 import * as zod from "zod";
 
 /**
- * Returns server health status
  * @summary Health check
  */
 export const HealthCheckResponse = zod.object({
   status: zod.string(),
 });
+
+/**
+ * Given a source phrase in any language, finds phrases in other languages
+whose synthesized audio is acoustically near-identical (measured via
+MFCC + Dynamic Time Warping on actual TTS audio — not text or IPA).
+
+ * @summary Discover acoustic homophones for a phrase
+ */
+export const discoverHomophonesBodyCandidateCountDefault = 32;
+export const discoverHomophonesBodyMinSimilarityDefault = 0.55;
+
+export const DiscoverHomophonesBody = zod.object({
+  phrase: zod.string().describe("Source phrase (single word or multi-word)"),
+  sourceLanguage: zod
+    .string()
+    .describe('ISO code of source language (e.g. \"en\", \"fr\", \"ja\")'),
+  targetLanguages: zod
+    .array(zod.string())
+    .optional()
+    .describe("Optional restriction to specific target languages"),
+  candidateCount: zod
+    .number()
+    .default(discoverHomophonesBodyCandidateCountDefault)
+    .describe("Number of LLM-generated candidates to evaluate"),
+  minSimilarity: zod
+    .number()
+    .default(discoverHomophonesBodyMinSimilarityDefault)
+    .describe("Minimum acoustic similarity (0-1) to return"),
+});
+
+export const DiscoverHomophonesResponse = zod.object({
+  sourcePhrase: zod.string(),
+  sourceLanguage: zod.string(),
+  sourceLanguageName: zod.string(),
+  sourceMeaning: zod.string(),
+  sourceAudio: zod
+    .object({
+      wavBase64: zod
+        .string()
+        .describe("WAV-encoded audio for browser playback"),
+      sampleRate: zod.number(),
+      durationMs: zod.number(),
+      waveform: zod
+        .array(zod.number())
+        .describe("Downsampled waveform peaks for visualization"),
+      melSpectrogram: zod
+        .array(zod.array(zod.number()))
+        .describe(
+          "Mel-spectrogram frames (rows are frames, columns are mel bins)",
+        ),
+      melMin: zod.number(),
+      melMax: zod.number(),
+    })
+    .describe(
+      "Encoded audio + numeric features extracted server-side from raw TTS PCM",
+    ),
+  matches: zod.array(
+    zod.object({
+      phrase: zod.string(),
+      language: zod.string(),
+      languageCode: zod.string(),
+      meaning: zod.string(),
+      notes: zod.string(),
+      similarity: zod
+        .number()
+        .describe("0-1 acoustic similarity from MFCC+DTW"),
+      dtwDistance: zod.number(),
+      audio: zod
+        .object({
+          wavBase64: zod
+            .string()
+            .describe("WAV-encoded audio for browser playback"),
+          sampleRate: zod.number(),
+          durationMs: zod.number(),
+          waveform: zod
+            .array(zod.number())
+            .describe("Downsampled waveform peaks for visualization"),
+          melSpectrogram: zod
+            .array(zod.array(zod.number()))
+            .describe(
+              "Mel-spectrogram frames (rows are frames, columns are mel bins)",
+            ),
+          melMin: zod.number(),
+          melMax: zod.number(),
+        })
+        .describe(
+          "Encoded audio + numeric features extracted server-side from raw TTS PCM",
+        ),
+    }),
+  ),
+  candidatesEvaluated: zod.number(),
+  elapsedMs: zod.number(),
+});
+
+/**
+ * @summary Generate TTS audio for a phrase
+ */
+export const SynthesizeSpeechBody = zod.object({
+  text: zod.string(),
+  voice: zod.string().optional(),
+});
+
+export const SynthesizeSpeechResponse = zod.object({
+  audio: zod
+    .object({
+      wavBase64: zod
+        .string()
+        .describe("WAV-encoded audio for browser playback"),
+      sampleRate: zod.number(),
+      durationMs: zod.number(),
+      waveform: zod
+        .array(zod.number())
+        .describe("Downsampled waveform peaks for visualization"),
+      melSpectrogram: zod
+        .array(zod.array(zod.number()))
+        .describe(
+          "Mel-spectrogram frames (rows are frames, columns are mel bins)",
+        ),
+      melMin: zod.number(),
+      melMax: zod.number(),
+    })
+    .describe(
+      "Encoded audio + numeric features extracted server-side from raw TTS PCM",
+    ),
+});
+
+/**
+ * Synthesizes both phrases via TTS and compares them with MFCC + DTW.
+Returns audio for both, waveforms, mel-spectrograms, and the acoustic
+similarity score.
+
+ * @summary Compare two phrases acoustically
+ */
+export const ComparePhrasesBody = zod.object({
+  phrase1: zod.string(),
+  language1: zod.string().optional(),
+  phrase2: zod.string(),
+  language2: zod.string().optional(),
+});
+
+export const ComparePhrasesResponse = zod.object({
+  phrase1: zod.string(),
+  phrase2: zod.string(),
+  audio1: zod
+    .object({
+      wavBase64: zod
+        .string()
+        .describe("WAV-encoded audio for browser playback"),
+      sampleRate: zod.number(),
+      durationMs: zod.number(),
+      waveform: zod
+        .array(zod.number())
+        .describe("Downsampled waveform peaks for visualization"),
+      melSpectrogram: zod
+        .array(zod.array(zod.number()))
+        .describe(
+          "Mel-spectrogram frames (rows are frames, columns are mel bins)",
+        ),
+      melMin: zod.number(),
+      melMax: zod.number(),
+    })
+    .describe(
+      "Encoded audio + numeric features extracted server-side from raw TTS PCM",
+    ),
+  audio2: zod
+    .object({
+      wavBase64: zod
+        .string()
+        .describe("WAV-encoded audio for browser playback"),
+      sampleRate: zod.number(),
+      durationMs: zod.number(),
+      waveform: zod
+        .array(zod.number())
+        .describe("Downsampled waveform peaks for visualization"),
+      melSpectrogram: zod
+        .array(zod.array(zod.number()))
+        .describe(
+          "Mel-spectrogram frames (rows are frames, columns are mel bins)",
+        ),
+      melMin: zod.number(),
+      melMax: zod.number(),
+    })
+    .describe(
+      "Encoded audio + numeric features extracted server-side from raw TTS PCM",
+    ),
+  similarity: zod.number(),
+  dtwDistance: zod.number(),
+  verdict: zod.string(),
+});
+
+/**
+ * @summary Get saved homophone pairs
+ */
+export const GetSavedPairsResponseItem = zod.object({
+  id: zod.number(),
+  sourcePhrase: zod.string(),
+  sourceLanguage: zod.string(),
+  sourceMeaning: zod.string(),
+  matchPhrase: zod.string(),
+  matchLanguage: zod.string(),
+  matchMeaning: zod.string(),
+  similarity: zod.number(),
+  notes: zod.string().optional(),
+  createdAt: zod.string(),
+});
+export const GetSavedPairsResponse = zod.array(GetSavedPairsResponseItem);
+
+/**
+ * @summary Save a homophone pair
+ */
+export const SavePairBody = zod.object({
+  sourcePhrase: zod.string(),
+  sourceLanguage: zod.string(),
+  sourceMeaning: zod.string(),
+  matchPhrase: zod.string(),
+  matchLanguage: zod.string(),
+  matchMeaning: zod.string(),
+  similarity: zod.number(),
+  notes: zod.string().optional(),
+});
+
+/**
+ * @summary Delete a saved pair
+ */
+export const DeleteSavedPairParams = zod.object({
+  id: zod.coerce.number(),
+});
+
+export const DeleteSavedPairResponse = zod.object({
+  success: zod.boolean(),
+  id: zod.number(),
+});
+
+/**
+ * @summary Get curated featured cross-lingual homophone pairs
+ */
+export const GetFeaturedPairsResponseItem = zod.object({
+  sourcePhrase: zod.string(),
+  sourceLanguage: zod.string(),
+  sourceMeaning: zod.string(),
+  matchPhrase: zod.string(),
+  matchLanguage: zod.string(),
+  matchMeaning: zod.string(),
+  description: zod.string(),
+});
+export const GetFeaturedPairsResponse = zod.array(GetFeaturedPairsResponseItem);
+
+/**
+ * @summary Get supported language list
+ */
+export const GetLanguagesResponseItem = zod.object({
+  code: zod.string(),
+  name: zod.string(),
+  nativeName: zod.string(),
+});
+export const GetLanguagesResponse = zod.array(GetLanguagesResponseItem);

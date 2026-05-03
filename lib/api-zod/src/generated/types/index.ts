@@ -6,4 +6,17 @@
  * OpenAPI spec version: 0.1.0
  */
 
+export * from "./acousticMatch";
+export * from "./audioPayload";
+export * from "./compareRequest";
+export * from "./compareResponse";
+export * from "./deleteConfirmation";
+export * from "./discoverRequest";
+export * from "./discoverResponse";
+export * from "./featuredPair";
 export * from "./healthStatus";
+export * from "./language";
+export * from "./savedPair";
+export * from "./savePairRequest";
+export * from "./ttsRequest";
+export * from "./ttsResponse";

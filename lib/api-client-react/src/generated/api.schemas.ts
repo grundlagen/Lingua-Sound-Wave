@@ -8,3 +8,126 @@
 export interface HealthStatus {
   status: string;
 }
+
+export interface Language {
+  code: string;
+  name: string;
+  nativeName: string;
+}
+
+export interface FeaturedPair {
+  sourcePhrase: string;
+  sourceLanguage: string;
+  sourceMeaning: string;
+  matchPhrase: string;
+  matchLanguage: string;
+  matchMeaning: string;
+  description: string;
+}
+
+/**
+ * Encoded audio + numeric features extracted server-side from raw TTS PCM
+ */
+export interface AudioPayload {
+  /** WAV-encoded audio for browser playback */
+  wavBase64: string;
+  sampleRate: number;
+  durationMs: number;
+  /** Downsampled waveform peaks for visualization */
+  waveform: number[];
+  /** Mel-spectrogram frames (rows are frames, columns are mel bins) */
+  melSpectrogram: number[][];
+  melMin: number;
+  melMax: number;
+}
+
+export interface DiscoverRequest {
+  /** Source phrase (single word or multi-word) */
+  phrase: string;
+  /** ISO code of source language (e.g. "en", "fr", "ja") */
+  sourceLanguage: string;
+  /** Optional restriction to specific target languages */
+  targetLanguages?: string[];
+  /** Number of LLM-generated candidates to evaluate */
+  candidateCount?: number;
+  /** Minimum acoustic similarity (0-1) to return */
+  minSimilarity?: number;
+}
+
+export interface AcousticMatch {
+  phrase: string;
+  language: string;
+  languageCode: string;
+  meaning: string;
+  notes: string;
+  /** 0-1 acoustic similarity from MFCC+DTW */
+  similarity: number;
+  dtwDistance: number;
+  audio: AudioPayload;
+}
+
+export interface DiscoverResponse {
+  sourcePhrase: string;
+  sourceLanguage: string;
+  sourceLanguageName: string;
+  sourceMeaning: string;
+  sourceAudio: AudioPayload;
+  matches: AcousticMatch[];
+  candidatesEvaluated: number;
+  elapsedMs: number;
+}
+
+export interface TtsRequest {
+  text: string;
+  voice?: string;
+}
+
+export interface TtsResponse {
+  audio: AudioPayload;
+}
+
+export interface CompareRequest {
+  phrase1: string;
+  language1?: string;
+  phrase2: string;
+  language2?: string;
+}
+
+export interface CompareResponse {
+  phrase1: string;
+  phrase2: string;
+  audio1: AudioPayload;
+  audio2: AudioPayload;
+  similarity: number;
+  dtwDistance: number;
+  verdict: string;
+}
+
+export interface SavePairRequest {
+  sourcePhrase: string;
+  sourceLanguage: string;
+  sourceMeaning: string;
+  matchPhrase: string;
+  matchLanguage: string;
+  matchMeaning: string;
+  similarity: number;
+  notes?: string;
+}
+
+export interface SavedPair {
+  id: number;
+  sourcePhrase: string;
+  sourceLanguage: string;
+  sourceMeaning: string;
+  matchPhrase: string;
+  matchLanguage: string;
+  matchMeaning: string;
+  similarity: number;
+  notes?: string;
+  createdAt: string;
+}
+
+export interface DeleteConfirmation {
+  success: boolean;
+  id: number;
+}

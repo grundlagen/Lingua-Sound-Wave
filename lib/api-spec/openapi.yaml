@@ -10,13 +10,14 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: homophones
+    description: Cross-lingual acoustic homophone discovery
 paths:
   /healthz:
     get:
       operationId: healthCheck
       tags: [health]
       summary: Health check
-      description: Returns server health status
       responses:
         "200":
           description: Healthy
@@ -24,6 +25,153 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+
+  /homophones/discover:
+    post:
+      operationId: discoverHomophones
+      tags: [homophones]
+      summary: Discover acoustic homophones for a phrase
+      description: |
+        Given a source phrase in any language, finds phrases in other languages
+        whose synthesized audio is acoustically near-identical (measured via
+        MFCC + Dynamic Time Warping on actual TTS audio — not text or IPA).
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/DiscoverRequest"
+      responses:
+        "200":
+          description: Acoustic homophone discovery result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DiscoverResponse"
+
+  /homophones/tts:
+    post:
+      operationId: synthesizeSpeech
+      tags: [homophones]
+      summary: Generate TTS audio for a phrase
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TtsRequest"
+      responses:
+        "200":
+          description: Audio data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TtsResponse"
+
+  /homophones/compare:
+    post:
+      operationId: comparePhrases
+      tags: [homophones]
+      summary: Compare two phrases acoustically
+      description: |
+        Synthesizes both phrases via TTS and compares them with MFCC + DTW.
+        Returns audio for both, waveforms, mel-spectrograms, and the acoustic
+        similarity score.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CompareRequest"
+      responses:
+        "200":
+          description: Acoustic comparison result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CompareResponse"
+
+  /homophones/saved:
+    get:
+      operationId: getSavedPairs
+      tags: [homophones]
+      summary: Get saved homophone pairs
+      responses:
+        "200":
+          description: Saved pairs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SavedPair"
+    post:
+      operationId: savePair
+      tags: [homophones]
+      summary: Save a homophone pair
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SavePairRequest"
+      responses:
+        "201":
+          description: Saved pair
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SavedPair"
+
+  /homophones/saved/{id}:
+    delete:
+      operationId: deleteSavedPair
+      tags: [homophones]
+      summary: Delete a saved pair
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Deletion result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DeleteConfirmation"
+
+  /homophones/featured:
+    get:
+      operationId: getFeaturedPairs
+      tags: [homophones]
+      summary: Get curated featured cross-lingual homophone pairs
+      responses:
+        "200":
+          description: Featured examples
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/FeaturedPair"
+
+  /homophones/languages:
+    get:
+      operationId: getLanguages
+      tags: [homophones]
+      summary: Get supported language list
+      responses:
+        "200":
+          description: Languages
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Language"
+
 components:
   schemas:
     HealthStatus:
@@ -31,6 +179,290 @@ components:
       properties:
         status:
           type: string
-      required:
-        - status
+      required: [status]
 
+    Language:
+      type: object
+      properties:
+        code:
+          type: string
+        name:
+          type: string
+        nativeName:
+          type: string
+      required: [code, name, nativeName]
+
+    FeaturedPair:
+      type: object
+      properties:
+        sourcePhrase:
+          type: string
+        sourceLanguage:
+          type: string
+        sourceMeaning:
+          type: string
+        matchPhrase:
+          type: string
+        matchLanguage:
+          type: string
+        matchMeaning:
+          type: string
+        description:
+          type: string
+      required:
+        - sourcePhrase
+        - sourceLanguage
+        - sourceMeaning
+        - matchPhrase
+        - matchLanguage
+        - matchMeaning
+        - description
+
+    AudioPayload:
+      type: object
+      description: Encoded audio + numeric features extracted server-side from raw TTS PCM
+      properties:
+        wavBase64:
+          type: string
+          description: WAV-encoded audio for browser playback
+        sampleRate:
+          type: integer
+        durationMs:
+          type: number
+        waveform:
+          type: array
+          description: Downsampled waveform peaks for visualization
+          items:
+            type: number
+        melSpectrogram:
+          type: array
+          description: Mel-spectrogram frames (rows are frames, columns are mel bins)
+          items:
+            type: array
+            items:
+              type: number
+        melMin:
+          type: number
+        melMax:
+          type: number
+      required:
+        - wavBase64
+        - sampleRate
+        - durationMs
+        - waveform
+        - melSpectrogram
+        - melMin
+        - melMax
+
+    DiscoverRequest:
+      type: object
+      properties:
+        phrase:
+          type: string
+          description: Source phrase (single word or multi-word)
+        sourceLanguage:
+          type: string
+          description: ISO code of source language (e.g. "en", "fr", "ja")
+        targetLanguages:
+          type: array
+          description: Optional restriction to specific target languages
+          items:
+            type: string
+        candidateCount:
+          type: integer
+          description: Number of LLM-generated candidates to evaluate
+          default: 32
+        minSimilarity:
+          type: number
+          description: Minimum acoustic similarity (0-1) to return
+          default: 0.55
+      required:
+        - phrase
+        - sourceLanguage
+
+    AcousticMatch:
+      type: object
+      properties:
+        phrase:
+          type: string
+        language:
+          type: string
+        languageCode:
+          type: string
+        meaning:
+          type: string
+        notes:
+          type: string
+        similarity:
+          type: number
+          description: 0-1 acoustic similarity from MFCC+DTW
+        dtwDistance:
+          type: number
+        audio:
+          $ref: "#/components/schemas/AudioPayload"
+      required:
+        - phrase
+        - language
+        - languageCode
+        - meaning
+        - notes
+        - similarity
+        - dtwDistance
+        - audio
+
+    DiscoverResponse:
+      type: object
+      properties:
+        sourcePhrase:
+          type: string
+        sourceLanguage:
+          type: string
+        sourceLanguageName:
+          type: string
+        sourceMeaning:
+          type: string
+        sourceAudio:
+          $ref: "#/components/schemas/AudioPayload"
+        matches:
+          type: array
+          items:
+            $ref: "#/components/schemas/AcousticMatch"
+        candidatesEvaluated:
+          type: integer
+        elapsedMs:
+          type: number
+      required:
+        - sourcePhrase
+        - sourceLanguage
+        - sourceLanguageName
+        - sourceMeaning
+        - sourceAudio
+        - matches
+        - candidatesEvaluated
+        - elapsedMs
+
+    TtsRequest:
+      type: object
+      properties:
+        text:
+          type: string
+        voice:
+          type: string
+      required: [text]
+
+    TtsResponse:
+      type: object
+      properties:
+        audio:
+          $ref: "#/components/schemas/AudioPayload"
+      required: [audio]
+
+    CompareRequest:
+      type: object
+      properties:
+        phrase1:
+          type: string
+        language1:
+          type: string
+        phrase2:
+          type: string
+        language2:
+          type: string
+      required: [phrase1, phrase2]
+
+    CompareResponse:
+      type: object
+      properties:
+        phrase1:
+          type: string
+        phrase2:
+          type: string
+        audio1:
+          $ref: "#/components/schemas/AudioPayload"
+        audio2:
+          $ref: "#/components/schemas/AudioPayload"
+        similarity:
+          type: number
+        dtwDistance:
+          type: number
+        verdict:
+          type: string
+      required:
+        - phrase1
+        - phrase2
+        - audio1
+        - audio2
+        - similarity
+        - dtwDistance
+        - verdict
+
+    SavePairRequest:
+      type: object
+      properties:
+        sourcePhrase:
+          type: string
+        sourceLanguage:
+          type: string
+        sourceMeaning:
+          type: string
+        matchPhrase:
+          type: string
+        matchLanguage:
+          type: string
+        matchMeaning:
+          type: string
+        similarity:
+          type: number
+        notes:
+          type: string
+      required:
+        - sourcePhrase
+        - sourceLanguage
+        - sourceMeaning
+        - matchPhrase
+        - matchLanguage
+        - matchMeaning
+        - similarity
+
+    SavedPair:
+      type: object
+      properties:
+        id:
+          type: integer
+        sourcePhrase:
+          type: string
+        sourceLanguage:
+          type: string
+        sourceMeaning:
+          type: string
+        matchPhrase:
+          type: string
+        matchLanguage:
+          type: string
+        matchMeaning:
+          type: string
+        similarity:
+          type: number
+        notes:
+          type: string
+        createdAt:
+          type: string
+      required:
+        - id
+        - sourcePhrase
+        - sourceLanguage
+        - sourceMeaning
+        - matchPhrase
+        - matchLanguage
+        - matchMeaning
+        - similarity
+        - createdAt
+
+    DeleteConfirmation:
+      type: object
+      properties:
+        success:
+          type: boolean
+        id:
+          type: integer
+      required: [success, id]
