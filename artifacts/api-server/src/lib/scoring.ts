@@ -90,6 +90,16 @@ const WAV2VEC2_DTW: ScoringMethod = {
   },
 };
 
+// NOTE: An "allophone-chain" side-project method (small ~50ms MFCC units →
+// nearest-neighbor chain with explicit gap handling) was prototyped and
+// removed after testing showed it failed to discriminate. The free chain with
+// reuse let unrelated TTS clips pull cheap voice-floor matches across the
+// candidate's inventory, so the gap threshold rarely fired and negatives and
+// positives collapsed into the same ~50–60% band (mean(neg)=54.7%,
+// mean(pos)=58.9%, only +4.2 pts of separation; H1 "knee how"↔你好 scored
+// 44.6%, lower than several translations). To revive: enforce no-reuse and
+// monotonic ordering, or move to G2P+IPA phoneme units.
+
 const ALL_METHODS: ScoringMethod[] = [MFCC_DTW, WAV2VEC2_MEAN_COS, WAV2VEC2_DTW];
 
 export const DEFAULT_METHOD_ID = "mfcc-dtw";
