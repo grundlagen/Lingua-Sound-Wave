@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "LsaANhlAUaun_gRi6pTfm"
+uri = "file://scripts/poem-benchmark-report.md"
+type = "text"
+title = "Poem benchmark — independent oracle report"
