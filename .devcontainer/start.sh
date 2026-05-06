@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
-set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 
-export PORT=5000
-export BASE_PATH=/
-export DATABASE_URL=postgresql://postgres:postgres@localhost:5432/dev
+# Don't start if already running
+lsof -ti:5173 >/dev/null 2>&1 && echo "UI already running on :5173" && exit 0
 
-# Ensure postgres is running (for DB projects)
 sudo service postgresql start 2>/dev/null || true
 
-# Start API server in background
-echo "Starting API server on :5000..."
-(cd "$(dirname "$0")/.." && cd artifacts/api-server && PORT=5000 BASE_PATH=/ pnpm dev 2>&1 | sed 's/^/[api] /') &
-
-# Start UI dev server
-echo "Starting homophone-explorer on :5173..."
-(cd "$(dirname "$0")/.." && cd artifacts/homophone-explorer && PORT=5173 BASE_PATH=/ pnpm dev 2>&1 | sed 's/^/[ui]  /') &
-
-wait
+if command -v tmux &>/dev/null; then
+  tmux new-session -d -s dev -x 220 -y 50 2>/dev/null || true
+  tmux send-keys -t dev "cd $ROOT/artifacts/api-server && PORT=8080 BASE_PATH=/ pnpm dev" Enter
+  tmux split-window -h -t dev
+  tmux send-keys -t dev "cd $ROOT/artifacts/homophone-explorer && PORT=5173 BASE_PATH=/ API_PROXY_TARGET=http://localhost:8080 pnpm dev" Enter
+  tmux attach -t dev
+else
+  (cd "$ROOT/artifacts/api-server" && PORT=8080 BASE_PATH=/ pnpm dev 2>&1 | sed 's/^/[api] /') &
+  (cd "$ROOT/artifacts/homophone-explorer"        && PORT=5173 BASE_PATH=/ API_PROXY_TARGET=http://localhost:8080 pnpm dev 2>&1 | sed 's/^/[ui]  /') &
+  wait
+fi

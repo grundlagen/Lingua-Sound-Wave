@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start API",
+      "type": "shell",
+      "command": "PORT=8080 BASE_PATH=/ pnpm dev",
+      "options": {"cwd": "${workspaceFolder}/artifacts/api-server"},
+      "group": "build",
+      "presentation": {"panel": "dedicated", "reveal": "always"}
+    },
+    {
+      "label": "Start UI",
+      "type": "shell",
+      "command": "PORT=5173 BASE_PATH=/ API_PROXY_TARGET=http://localhost:8080 pnpm dev",
+      "options": {"cwd": "${workspaceFolder}/artifacts/homophone-explorer"},
+      "group": "build",
+      "presentation": {"panel": "dedicated", "reveal": "always"}
+    },
+    {
+      "label": "Start All",
+      "dependsOn": ["Start API", "Start UI"],
+      "group": {"kind": "build", "isDefault": true}
+    }
+  ]
+}

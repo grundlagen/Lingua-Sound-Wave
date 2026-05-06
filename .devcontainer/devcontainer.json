@@ -8,15 +8,16 @@
   },
   "containerEnv": {
     "DATABASE_URL": "postgresql://postgres:postgres@localhost:5432/dev",
-    "PORT": "5000",
-    "BASE_PATH": "/"
+    "PORT": "5173",
+    "BASE_PATH": "/",
+    "API_PROXY_TARGET": "http://localhost:8080"
   },
-  "postCreateCommand": "npm install -g pnpm@latest && pnpm install && sudo service postgresql start && sleep 2 && sudo -u postgres psql -c "CREATE DATABASE dev;" 2>/dev/null || true && pnpm -C lib/db push --force",
-  "postStartCommand": "bash .devcontainer/start.sh",
-  "forwardPorts": [5000, 5173],
+  "postCreateCommand": "npm install -g pnpm@latest && pnpm install && sudo service postgresql start && sleep 2 && sudo -u postgres psql -c "CREATE DATABASE dev;" 2>/dev/null; pnpm -C lib/db push --force; echo ready",
+  "postAttachCommand": "bash .devcontainer/start.sh",
+  "forwardPorts": [5173, 8080],
   "portsAttributes": {
-    "5173": {"label": "Frontend", "onAutoForward": "openBrowser"},
-    "5000": {"label": "API"}
+    "5173": {"label": "App UI", "onAutoForward": "openBrowser", "visibility": "private"},
+    "8080": {"label": "API", "onAutoForward": "silent", "visibility": "private"}
   },
   "customizations": {
     "vscode": {
