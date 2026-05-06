@@ -1,0 +1,21 @@
+{
+  "name": "Lingua-Sound-Wave",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-24-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/postgresql:1": {}
+  },
+  "postCreateCommand": "npm install -g pnpm@latest && pnpm install",
+  "forwardPorts": [3000, 5000, 5001, 8080],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "Prisma.prisma",
+        "mtxr.sqltools"
+      ]
+    }
+  }
+}
