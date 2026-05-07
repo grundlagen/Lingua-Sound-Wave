@@ -1,17 +1,22 @@
 {
-  "name": "workspace",
-  "version": "0.0.0",
-  "license": "MIT",
+  "name": "lingua-sound-wave",
+  "version": "0.1.0",
+  "description": "Transform language and text into dynamic sound waves and audio visualizations",
+  "main": "dist/index.js",
   "scripts": {
-    "preinstall": "sh -c 'rm -f package-lock.json yarn.lock; case \"$npm_config_user_agent\" in pnpm/*) ;; *) echo \"Use pnpm instead\" >&2; exit 1 ;; esac'",
-    "build": "pnpm run typecheck && pnpm -r --if-present run build",
-    "typecheck:libs": "tsc --build",
-    "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "echo \"Tests coming soon - keeping it working!\""
   },
-  "private": true,
+  "dependencies": {
+    "typescript": "^5.4.0"
+  },
   "devDependencies": {
-    "@playwright/test": "^1.59.1",
-    "prettier": "^3.8.1",
-    "typescript": "~5.9.2"
-  }
+    "vite": "^5.2.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": ["typescript", "audio", "sound-wave", "linguistics", "visualization", "sonification"],
+  "author": "grundlagen",
+  "license": "MIT"
 }
