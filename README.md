@@ -82,5 +82,3 @@ MIT
 - [ ] 3D visuals
 - [ ] Multi-lang support
 - [ ] Mobile release
-
-*Built with ❤️ by grundlagen - keeping what works, adding new stuff automatically.*
