@@ -84,7 +84,3 @@ MIT
 - [ ] Mobile release
 
 *Built with ❤️ by grundlagen - keeping what works, adding new stuff automatically.*
-
----
-
-*This README was autonomously generated and enhanced by Grok to bootstrap the project while preserving any existing working code.*
