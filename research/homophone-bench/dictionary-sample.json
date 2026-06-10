@@ -1,0 +1,2866 @@
+[
+ {
+  "en": "to",
+  "fr": "tout",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "tuː",
+  "fr_ipa": "tu"
+ },
+ {
+  "en": "for",
+  "fr": "fort",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "fɔːɹ",
+  "fr_ipa": "fɔʁ"
+ },
+ {
+  "en": "be",
+  "fr": "by",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "biː",
+  "fr_ipa": "bi"
+ },
+ {
+  "en": "or",
+  "fr": "hors",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "ɔːɹ",
+  "fr_ipa": "ɔʁ"
+ },
+ {
+  "en": "we",
+  "fr": "oui",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "wiː",
+  "fr_ipa": "wi"
+ },
+ {
+  "en": "me",
+  "fr": "mis",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "miː",
+  "fr_ipa": "mi"
+ },
+ {
+  "en": "do",
+  "fr": "doux",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "duː",
+  "fr_ipa": "du"
+ },
+ {
+  "en": "new",
+  "fr": "nous",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "nuː",
+  "fr_ipa": "nu"
+ },
+ {
+  "en": "see",
+  "fr": "si",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "siː",
+  "fr_ipa": "si"
+ },
+ {
+  "en": "two",
+  "fr": "tout",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "tuː",
+  "fr_ipa": "tu"
+ },
+ {
+  "en": "too",
+  "fr": "tout",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "tuː",
+  "fr_ipa": "tu"
+ },
+ {
+  "en": "feel",
+  "fr": "fils",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "fiːl",
+  "fr_ipa": "fil"
+ },
+ {
+  "en": "set",
+  "fr": "cette",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "sɛt",
+  "fr_ipa": "sɛt"
+ },
+ {
+  "en": "group",
+  "fr": "groupe",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "ɡɹuːp",
+  "fr_ipa": "ɡʁup"
+ },
+ {
+  "en": "mean",
+  "fr": "mine",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "miːn",
+  "fr_ipa": "min"
+ },
+ {
+  "en": "tell",
+  "fr": "tel",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "tɛl",
+  "fr_ipa": "tɛl"
+ },
+ {
+  "en": "call",
+  "fr": "col",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "kɔːl",
+  "fr_ipa": "kɔl"
+ },
+ {
+  "en": "men",
+  "fr": "mène",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "mɛn",
+  "fr_ipa": "mɛn"
+ },
+ {
+  "en": "less",
+  "fr": "laisse",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "lɛs",
+  "fr_ipa": "lɛs"
+ },
+ {
+  "en": "least",
+  "fr": "liste",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "liːst",
+  "fr_ipa": "list"
+ },
+ {
+  "en": "true",
+  "fr": "trou",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "tɹuː",
+  "fr_ipa": "tʁu"
+ },
+ {
+  "en": "air",
+  "fr": "ère",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "ɛɹ",
+  "fr_ipa": "ɛʁ"
+ },
+ {
+  "en": "due",
+  "fr": "doux",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "duː",
+  "fr_ipa": "du"
+ },
+ {
+  "en": "form",
+  "fr": "forme",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "fɔːɹm",
+  "fr_ipa": "fɔʁm"
+ },
+ {
+  "en": "west",
+  "fr": "ouest",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "wɛst",
+  "fr_ipa": "wɛst"
+ },
+ {
+  "en": "former",
+  "fr": "forme",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "fɔːɹmɚ",
+  "fr_ipa": "fɔʁm"
+ },
+ {
+  "en": "rest",
+  "fr": "reste",
+  "score": 1.0,
+  "tier": "S",
+  "en_ipa": "ɹɛst",
+  "fr_ipa": "ʁɛst"
+ },
+ {
+  "en": "media",
+  "fr": "midi",
+  "score": 0.864,
+  "tier": "A",
+  "en_ipa": "miːdiːə",
+  "fr_ipa": "midi"
+ },
+ {
+  "en": "like",
+  "fr": "lac",
+  "score": 0.833,
+  "tier": "A",
+  "en_ipa": "laɪk",
+  "fr_ipa": "lak"
+ },
+ {
+  "en": "guys",
+  "fr": "gaz",
+  "score": 0.833,
+  "tier": "A",
+  "en_ipa": "ɡaɪz",
+  "fr_ipa": "ɡaz"
+ },
+ {
+  "en": "fine",
+  "fr": "fans",
+  "score": 0.833,
+  "tier": "A",
+  "en_ipa": "faɪn",
+  "fr_ipa": "fan"
+ },
+ {
+  "en": "shows",
+  "fr": "choses",
+  "score": 0.833,
+  "tier": "A",
+  "en_ipa": "ʃoʊz",
+  "fr_ipa": "ʃoz"
+ },
+ {
+  "en": "pretty",
+  "fr": "prix",
+  "score": 0.816,
+  "tier": "A",
+  "en_ipa": "pɹɪɾi",
+  "fr_ipa": "pʁi"
+ },
+ {
+  "en": "process",
+  "fr": "princesse",
+  "score": 0.812,
+  "tier": "A",
+  "en_ipa": "pɹɑːsɛs",
+  "fr_ipa": "pʁɛ̃sɛs"
+ },
+ {
+  "en": "next",
+  "fr": "texte",
+  "score": 0.798,
+  "tier": "A",
+  "en_ipa": "nɛkst",
+  "fr_ipa": "tɛkst"
+ },
+ {
+  "en": "by",
+  "fr": "bas",
+  "score": 0.786,
+  "tier": "A",
+  "en_ipa": "baɪ",
+  "fr_ipa": "ba"
+ },
+ {
+  "en": "my",
+  "fr": "ma",
+  "score": 0.786,
+  "tier": "A",
+  "en_ipa": "maɪ",
+  "fr_ipa": "ma-"
+ },
+ {
+  "en": "out",
+  "fr": "hâte",
+  "score": 0.786,
+  "tier": "A",
+  "en_ipa": "aʊt",
+  "fr_ipa": "aːt"
+ },
+ {
+  "en": "no",
+  "fr": "nos",
+  "score": 0.786,
+  "tier": "A",
+  "en_ipa": "noʊ",
+  "fr_ipa": "no"
+ },
+ {
+  "en": "know",
+  "fr": "nos",
+  "score": 0.786,
+  "tier": "A",
+  "en_ipa": "noʊ",
+  "fr_ipa": "no"
+ },
+ {
+  "en": "may",
+  "fr": "mes",
+  "score": 0.786,
+  "tier": "A",
+  "en_ipa": "meɪ",
+  "fr_ipa": "me-"
+ },
+ {
+  "en": "day",
+  "fr": "des",
+  "score": 0.786,
+  "tier": "A",
+  "en_ipa": "deɪ",
+  "fr_ipa": "de-"
+ },
+ {
+  "en": "say",
+  "fr": "ses",
+  "score": 0.786,
+  "tier": "A",
+  "en_ipa": "seɪ",
+  "fr_ipa": "se-"
+ },
+ {
+  "en": "show",
+  "fr": "chaud",
+  "score": 0.786,
+  "tier": "A",
+  "en_ipa": "ʃoʊ",
+  "fr_ipa": "ʃo"
+ },
+ {
+  "en": "power",
+  "fr": "pas",
+  "score": 0.786,
+  "tier": "A",
+  "en_ipa": "paʊɚ",
+  "fr_ipa": "pa"
+ },
+ {
+  "en": "guy",
+  "fr": "gars",
+  "score": 0.786,
+  "tier": "A",
+  "en_ipa": "ɡaɪ",
+  "fr_ipa": "ɡa"
+ },
+ {
+  "en": "low",
+  "fr": "lot",
+  "score": 0.786,
+  "tier": "A",
+  "en_ipa": "loʊ",
+  "fr_ipa": "lo"
+ },
+ {
+  "en": "buy",
+  "fr": "bas",
+  "score": 0.786,
+  "tier": "A",
+  "en_ipa": "baɪ",
+  "fr_ipa": "ba"
+ },
+ {
+  "en": "much",
+  "fr": "match",
+  "score": 0.785,
+  "tier": "A",
+  "en_ipa": "mʌtʃ",
+  "fr_ipa": "matʃ"
+ },
+ {
+  "en": "still",
+  "fr": "style",
+  "score": 0.785,
+  "tier": "A",
+  "en_ipa": "stɪl",
+  "fr_ipa": "stil"
+ },
+ {
+  "en": "city",
+  "fr": "syrie",
+  "score": 0.785,
+  "tier": "A",
+  "en_ipa": "sɪɾi",
+  "fr_ipa": "siʁi"
+ },
+ {
+  "en": "course",
+  "fr": "corse",
+  "score": 0.785,
+  "tier": "A",
+  "en_ipa": "koːɹs",
+  "fr_ipa": "kɔʁs"
+ },
+ {
+  "en": "class",
+  "fr": "classe",
+  "score": 0.785,
+  "tier": "A",
+  "en_ipa": "klæs",
+  "fr_ipa": "klas"
+ },
+ {
+  "en": "six",
+  "fr": "sexe",
+  "score": 0.785,
+  "tier": "A",
+  "en_ipa": "sɪks",
+  "fr_ipa": "sɛks"
+ },
+ {
+  "en": "list",
+  "fr": "liste",
+  "score": 0.785,
+  "tier": "A",
+  "en_ipa": "lɪst",
+  "fr_ipa": "list"
+ },
+ {
+  "en": "clear",
+  "fr": "clair",
+  "score": 0.785,
+  "tier": "A",
+  "en_ipa": "klɪɹ",
+  "fr_ipa": "klɛʁ"
+ },
+ {
+  "en": "force",
+  "fr": "forces",
+  "score": 0.785,
+  "tier": "A",
+  "en_ipa": "foːɹs",
+  "fr_ipa": "fɔʁs"
+ },
+ {
+  "en": "any",
+  "fr": "ennemi",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "ɛni",
+  "fr_ipa": "ɛnmi"
+ },
+ {
+  "en": "said",
+  "fr": "suède",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "sɛd",
+  "fr_ipa": "syɛd"
+ },
+ {
+  "en": "very",
+  "fr": "vers",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "vɛɹi",
+  "fr_ipa": "vɛʁ"
+ },
+ {
+  "en": "many",
+  "fr": "mène",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "mɛni",
+  "fr_ipa": "mɛn"
+ },
+ {
+  "en": "best",
+  "fr": "baisse",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "bɛst",
+  "fr_ipa": "bɛs"
+ },
+ {
+  "en": "better",
+  "fr": "bière",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "bɛɾɚ",
+  "fr_ipa": "bjɛʁ"
+ },
+ {
+  "en": "keep",
+  "fr": "équipe",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "kiːp",
+  "fr_ipa": "ekip"
+ },
+ {
+  "en": "free",
+  "fr": "fruits",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "fɹiː",
+  "fr_ipa": "fʁyi"
+ },
+ {
+  "en": "let",
+  "fr": "lettre",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "lɛt",
+  "fr_ipa": "lɛtʁ"
+ },
+ {
+  "en": "called",
+  "fr": "code",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "kɔːld",
+  "fr_ipa": "kɔd"
+ },
+ {
+  "en": "care",
+  "fr": "clair",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "kɛɹ",
+  "fr_ipa": "klɛʁ"
+ },
+ {
+  "en": "four",
+  "fr": "forêt",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "foːɹ",
+  "fr_ipa": "foʁɛ"
+ },
+ {
+  "en": "seen",
+  "fr": "sinon",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "siːn",
+  "fr_ipa": "sinɔ̃"
+ },
+ {
+  "en": "small",
+  "fr": "sol",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "smɔːl",
+  "fr_ipa": "sɔl"
+ },
+ {
+  "en": "yes",
+  "fr": "pièces",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "jɛs",
+  "fr_ipa": "pjɛs"
+ },
+ {
+  "en": "order",
+  "fr": "ordre",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "ɔːɹdɚ",
+  "fr_ipa": "ɔʁdʁ"
+ },
+ {
+  "en": "says",
+  "fr": "saison",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "sɛz",
+  "fr_ipa": "sɛzɔ̃"
+ },
+ {
+  "en": "means",
+  "fr": "mise",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "miːnz",
+  "fr_ipa": "miz"
+ },
+ {
+  "en": "court",
+  "fr": "côte",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "koːɹt",
+  "fr_ipa": "koːt"
+ },
+ {
+  "en": "leave",
+  "fr": "livre",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "liːv",
+  "fr_ipa": "livʁ"
+ },
+ {
+  "en": "north",
+  "fr": "nord",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "nɔːɹθ",
+  "fr_ipa": "nɔʁ"
+ },
+ {
+  "en": "self",
+  "fr": "celle",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "sɛlf",
+  "fr_ipa": "sɛl"
+ },
+ {
+  "en": "field",
+  "fr": "fils",
+  "score": 0.781,
+  "tier": "A",
+  "en_ipa": "fiːld",
+  "fr_ipa": "fil"
+ },
+ {
+  "en": "last",
+  "fr": "liste",
+  "score": 0.77,
+  "tier": "B",
+  "en_ipa": "læst",
+  "fr_ipa": "list"
+ },
+ {
+  "en": "money",
+  "fr": "mini",
+  "score": 0.77,
+  "tier": "B",
+  "en_ipa": "mʌni",
+  "fr_ipa": "mini"
+ },
+ {
+  "en": "past",
+  "fr": "piste",
+  "score": 0.77,
+  "tier": "B",
+  "en_ipa": "pæst",
+  "fr_ipa": "pist"
+ },
+ {
+  "en": "short",
+  "fr": "sorte",
+  "score": 0.77,
+  "tier": "B",
+  "en_ipa": "ʃɔːɹt",
+  "fr_ipa": "sɔʁt"
+ },
+ {
+  "en": "plan",
+  "fr": "pleine",
+  "score": 0.77,
+  "tier": "B",
+  "en_ipa": "plæn",
+  "fr_ipa": "plɛn"
+ },
+ {
+  "en": "street",
+  "fr": "triste",
+  "score": 0.763,
+  "tier": "B",
+  "en_ipa": "stɹiːt",
+  "fr_ipa": "tʁist"
+ },
+ {
+  "en": "based",
+  "fr": "best",
+  "score": 0.758,
+  "tier": "B",
+  "en_ipa": "beɪst",
+  "fr_ipa": "bɛst"
+ },
+ {
+  "en": "post",
+  "fr": "poste",
+  "score": 0.758,
+  "tier": "B",
+  "en_ipa": "poʊst",
+  "fr_ipa": "pɔst"
+ },
+ {
+  "en": "looks",
+  "fr": "luxe",
+  "score": 0.755,
+  "tier": "B",
+  "en_ipa": "lʊks",
+  "fr_ipa": "lyks"
+ },
+ {
+  "en": "part",
+  "fr": "porte",
+  "score": 0.748,
+  "tier": "B",
+  "en_ipa": "pɑːɹt",
+  "fr_ipa": "pɔʁt"
+ },
+ {
+  "en": "point",
+  "fr": "pote",
+  "score": 0.748,
+  "tier": "B",
+  "en_ipa": "pɔɪnt",
+  "fr_ipa": "pɔt"
+ },
+ {
+  "en": "try",
+  "fr": "traces",
+  "score": 0.748,
+  "tier": "B",
+  "en_ipa": "tɹaɪ",
+  "fr_ipa": "tʁas"
+ },
+ {
+  "en": "quite",
+  "fr": "quoi",
+  "score": 0.748,
+  "tier": "B",
+  "en_ipa": "kwaɪt",
+  "fr_ipa": "kwa"
+ },
+ {
+  "en": "place",
+  "fr": "places",
+  "score": 0.743,
+  "tier": "B",
+  "en_ipa": "pleɪs",
+  "fr_ipa": "plas"
+ },
+ {
+  "en": "makes",
+  "fr": "max",
+  "score": 0.743,
+  "tier": "B",
+  "en_ipa": "meɪks",
+  "fr_ipa": "maks"
+ },
+ {
+  "en": "close",
+  "fr": "classe",
+  "score": 0.743,
+  "tier": "B",
+  "en_ipa": "kloʊs",
+  "fr_ipa": "klas"
+ },
+ {
+  "en": "control",
+  "fr": "contrôle",
+  "score": 0.741,
+  "tier": "B",
+  "en_ipa": "kəntɹoʊl",
+  "fr_ipa": "kɔ̃tʁoːl"
+ },
+ {
+  "en": "please",
+  "fr": "prise",
+  "score": 0.74,
+  "tier": "B",
+  "en_ipa": "pliːz",
+  "fr_ipa": "pʁiz"
+ },
+ {
+  "en": "black",
+  "fr": "bloc",
+  "score": 0.74,
+  "tier": "B",
+  "en_ipa": "blæk",
+  "fr_ipa": "blɔk"
+ },
+ {
+  "en": "car",
+  "fr": "quart",
+  "score": 0.74,
+  "tier": "B",
+  "en_ipa": "kɑːɹ",
+  "fr_ipa": "kaʁ"
+ },
+ {
+  "en": "lost",
+  "fr": "liste",
+  "score": 0.74,
+  "tier": "B",
+  "en_ipa": "lɔst",
+  "fr_ipa": "list"
+ },
+ {
+  "en": "non",
+  "fr": "nan",
+  "score": 0.74,
+  "tier": "B",
+  "en_ipa": "nɑːn",
+  "fr_ipa": "nan"
+ },
+ {
+  "en": "cost",
+  "fr": "poste",
+  "score": 0.74,
+  "tier": "B",
+  "en_ipa": "kɔst",
+  "fr_ipa": "pɔst"
+ },
+ {
+  "en": "not",
+  "fr": "nantes",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "nɑːt",
+  "fr_ipa": "nɑ̃t"
+ },
+ {
+  "en": "more",
+  "fr": "mort",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "moːɹ",
+  "fr_ipa": "mɔʁ"
+ },
+ {
+  "en": "been",
+  "fr": "ben",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "bɪn",
+  "fr_ipa": "bɛn"
+ },
+ {
+  "en": "could",
+  "fr": "code",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "kʊd",
+  "fr_ipa": "kɔd"
+ },
+ {
+  "en": "back",
+  "fr": "bac",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "bæk",
+  "fr_ipa": "bak"
+ },
+ {
+  "en": "year",
+  "fr": "hier",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "jɪɹ",
+  "fr_ipa": "jɛʁ"
+ },
+ {
+  "en": "put",
+  "fr": "pote",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "pʊt",
+  "fr_ipa": "pɔt"
+ },
+ {
+  "en": "full",
+  "fr": "folle",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "fʊl",
+  "fr_ipa": "fɔl"
+ },
+ {
+  "en": "run",
+  "fr": "rhône",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "ɹʌn",
+  "fr_ipa": "ʁoːn"
+ },
+ {
+  "en": "fuck",
+  "fr": "fac",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "fʌk",
+  "fr_ipa": "fak"
+ },
+ {
+  "en": "matter",
+  "fr": "marre",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "mæɾɚ",
+  "fr_ipa": "maʁ"
+ },
+ {
+  "en": "bit",
+  "fr": "bête",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "bɪt",
+  "fr_ipa": "bɛt"
+ },
+ {
+  "en": "cause",
+  "fr": "causes",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "kɔːz",
+  "fr_ipa": "koz"
+ },
+ {
+  "en": "turn",
+  "fr": "tonnes",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "tɜːn",
+  "fr_ipa": "tɔn"
+ },
+ {
+  "en": "act",
+  "fr": "acte",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "ækt",
+  "fr_ipa": "akt"
+ },
+ {
+  "en": "fun",
+  "fr": "fans",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "fʌn",
+  "fr_ipa": "fan"
+ },
+ {
+  "en": "easy",
+  "fr": "ici",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "iːzi",
+  "fr_ipa": "isi"
+ },
+ {
+  "en": "cut",
+  "fr": "côte",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "kʌt",
+  "fr_ipa": "koːt"
+ },
+ {
+  "en": "term",
+  "fr": "thème",
+  "score": 0.73,
+  "tier": "B",
+  "en_ipa": "tɜːm",
+  "fr_ipa": "tɛm"
+ },
+ {
+  "en": "baby",
+  "fr": "by",
+  "score": 0.728,
+  "tier": "B",
+  "en_ipa": "beɪbi",
+  "fr_ipa": "bi"
+ },
+ {
+  "en": "price",
+  "fr": "presse",
+  "score": 0.728,
+  "tier": "B",
+  "en_ipa": "pɹaɪs",
+  "fr_ipa": "pʁɛs"
+ },
+ {
+  "en": "went",
+  "fr": "ouest",
+  "score": 0.726,
+  "tier": "B",
+  "en_ipa": "wɛnt",
+  "fr_ipa": "wɛst"
+ },
+ {
+  "en": "story",
+  "fr": "historique",
+  "score": 0.726,
+  "tier": "B",
+  "en_ipa": "stoːɹi",
+  "fr_ipa": "istoʁik"
+ },
+ {
+  "en": "party",
+  "fr": "paris",
+  "score": 0.725,
+  "tier": "B",
+  "en_ipa": "pɑːɹɾi",
+  "fr_ipa": "paʁi"
+ },
+ {
+  "en": "march",
+  "fr": "match",
+  "score": 0.725,
+  "tier": "B",
+  "en_ipa": "mɑːɹtʃ",
+  "fr_ipa": "matʃ"
+ },
+ {
+  "en": "later",
+  "fr": "légère",
+  "score": 0.719,
+  "tier": "B",
+  "en_ipa": "leɪɾɚ",
+  "fr_ipa": "leʒɛʁ"
+ },
+ {
+  "en": "program",
+  "fr": "programme",
+  "score": 0.718,
+  "tier": "B",
+  "en_ipa": "pɹoʊɡɹæm",
+  "fr_ipa": "pʁɔɡʁam"
+ },
+ {
+  "en": "on",
+  "fr": "bonne",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ɔn",
+  "fr_ipa": "bɔn"
+ },
+ {
+  "en": "all",
+  "fr": "sol",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ɔːl",
+  "fr_ipa": "sɔl"
+ },
+ {
+  "en": "when",
+  "fr": "ouais",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "wɛn",
+  "fr_ipa": "wɛ"
+ },
+ {
+  "en": "their",
+  "fr": "air",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ðɛɹ",
+  "fr_ipa": "ɛʁ"
+ },
+ {
+  "en": "there",
+  "fr": "air",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ðɛɹ",
+  "fr_ipa": "ɛʁ"
+ },
+ {
+  "en": "get",
+  "fr": "êtes",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ɡɛt",
+  "fr_ipa": "ɛt"
+ },
+ {
+  "en": "she",
+  "fr": "chine",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ʃiː",
+  "fr_ipa": "ʃin"
+ },
+ {
+  "en": "them",
+  "fr": "aime",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ðɛm",
+  "fr_ipa": "ɛm"
+ },
+ {
+  "en": "then",
+  "fr": "haine",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ðɛn",
+  "fr_ipa": "ɛn"
+ },
+ {
+  "en": "well",
+  "fr": "elle",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "wɛl",
+  "fr_ipa": "ɛl"
+ },
+ {
+  "en": "where",
+  "fr": "air",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "wɛɹ",
+  "fr_ipa": "ɛʁ"
+ },
+ {
+  "en": "need",
+  "fr": "ni",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "niːd",
+  "fr_ipa": "ni"
+ },
+ {
+  "en": "off",
+  "fr": "offre",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ɔf",
+  "fr_ipa": "ɔfʁ"
+ },
+ {
+  "en": "never",
+  "fr": "genève",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "nɛvɚ",
+  "fr_ipa": "ʒənɛv"
+ },
+ {
+  "en": "use",
+  "fr": "you",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "juːs",
+  "fr_ipa": "ju"
+ },
+ {
+  "en": "end",
+  "fr": "aide",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ɛnd",
+  "fr_ipa": "ɛd"
+ },
+ {
+  "en": "team",
+  "fr": "estime",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "tiːm",
+  "fr_ipa": "ɛstim"
+ },
+ {
+  "en": "ever",
+  "fr": "rêve",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ɛvɚ",
+  "fr_ipa": "ʁɛv"
+ },
+ {
+  "en": "few",
+  "fr": "fou",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "fjuː",
+  "fr_ipa": "fu"
+ },
+ {
+  "en": "getting",
+  "fr": "guerre",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ɡɛɾɪŋ",
+  "fr_ipa": "ɡɛʁ"
+ },
+ {
+  "en": "week",
+  "fr": "oui",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "wiːk",
+  "fr_ipa": "wi"
+ },
+ {
+  "en": "read",
+  "fr": "rapide",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ɹiːd",
+  "fr_ipa": "ʁapid"
+ },
+ {
+  "en": "yet",
+  "fr": "inquiète",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "jɛt",
+  "fr_ipa": "ɛ̃kjɛt"
+ },
+ {
+  "en": "water",
+  "fr": "or",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "wɔːɾɚ",
+  "fr_ipa": "ɔʁ"
+ },
+ {
+  "en": "head",
+  "fr": "aide",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "hɛd",
+  "fr_ipa": "ɛd"
+ },
+ {
+  "en": "law",
+  "fr": "lors",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "lɔː",
+  "fr_ipa": "lɔʁ"
+ },
+ {
+  "en": "war",
+  "fr": "or",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "wɔːɹ",
+  "fr_ipa": "ɔʁ"
+ },
+ {
+  "en": "news",
+  "fr": "nous",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "nuːz",
+  "fr_ipa": "nu"
+ },
+ {
+  "en": "early",
+  "fr": "lit",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ɜːli",
+  "fr_ipa": "li"
+ },
+ {
+  "en": "level",
+  "fr": "lève",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "lɛvəl",
+  "fr_ipa": "lɛv"
+ },
+ {
+  "en": "death",
+  "fr": "dès",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "dɛθ",
+  "fr_ipa": "dɛ"
+ },
+ {
+  "en": "food",
+  "fr": "fou",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "fuːd",
+  "fr_ipa": "fu"
+ },
+ {
+  "en": "else",
+  "fr": "elle",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ɛls",
+  "fr_ipa": "ɛl"
+ },
+ {
+  "en": "friend",
+  "fr": "frais",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "fɹɛnd",
+  "fr_ipa": "fʁɛ"
+ },
+ {
+  "en": "members",
+  "fr": "même",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "mɛmbɚz",
+  "fr_ipa": "mɛm"
+ },
+ {
+  "en": "move",
+  "fr": "mouvement",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "muːv",
+  "fr_ipa": "muvmɑ̃"
+ },
+ {
+  "en": "saw",
+  "fr": "sommes",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "sɔː",
+  "fr_ipa": "sɔm"
+ },
+ {
+  "en": "deal",
+  "fr": "il",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "diːl",
+  "fr_ipa": "il"
+ },
+ {
+  "en": "red",
+  "fr": "aide",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ɹɛd",
+  "fr_ipa": "ɛd"
+ },
+ {
+  "en": "soon",
+  "fr": "sous",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "suːn",
+  "fr_ipa": "su"
+ },
+ {
+  "en": "whether",
+  "fr": "ouais",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "wɛðɚ",
+  "fr_ipa": "wɛ"
+ },
+ {
+  "en": "check",
+  "fr": "échec",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "tʃɛk",
+  "fr_ipa": "eʃɛk"
+ },
+ {
+  "en": "meet",
+  "fr": "minutes",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "miːt",
+  "fr_ipa": "minyt"
+ },
+ {
+  "en": "seems",
+  "fr": "simon",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "siːmz",
+  "fr_ipa": "simɔ̃"
+ },
+ {
+  "en": "re",
+  "fr": "rien",
+  "score": 0.716,
+  "tier": "B",
+  "en_ipa": "ɹiː",
+  "fr_ipa": "ʁiɛ̃"
+ },
+ {
+  "en": "problem",
+  "fr": "problème",
+  "score": 0.712,
+  "tier": "B",
+  "en_ipa": "pɹɑːbləm",
+  "fr_ipa": "pʁɔblɛm"
+ },
+ {
+  "en": "but",
+  "fr": "bête",
+  "score": 0.71,
+  "tier": "B",
+  "en_ipa": "bʌt",
+  "fr_ipa": "bɛt"
+ },
+ {
+  "en": "some",
+  "fr": "sommes",
+  "score": 0.71,
+  "tier": "B",
+  "en_ipa": "sʌm",
+  "fr_ipa": "sɔm"
+ },
+ {
+  "en": "these",
+  "fr": "disent",
+  "score": 0.71,
+  "tier": "B",
+  "en_ipa": "ðiːz",
+  "fr_ipa": "diz"
+ },
+ {
+  "en": "should",
+  "fr": "chaude",
+  "score": 0.71,
+  "tier": "B",
+  "en_ipa": "ʃʊd",
+  "fr_ipa": "ʃod"
+ },
+ {
+  "en": "through",
+  "fr": "trou",
+  "score": 0.71,
+  "tier": "B",
+  "en_ipa": "θɹuː",
+  "fr_ipa": "tʁu"
+ },
+ {
+  "en": "love",
+  "fr": "lève",
+  "score": 0.71,
+  "tier": "B",
+  "en_ipa": "lʌv",
+  "fr_ipa": "lɛv"
+ },
+ {
+  "en": "man",
+  "fr": "mène",
+  "score": 0.71,
+  "tier": "B",
+  "en_ipa": "mæn",
+  "fr_ipa": "mɛn"
+ },
+ {
+  "en": "come",
+  "fr": "comme",
+  "score": 0.71,
+  "tier": "B",
+  "en_ipa": "kʌm",
+  "fr_ipa": "kɔm"
+ },
+ {
+  "en": "does",
+  "fr": "disent",
+  "score": 0.71,
+  "tier": "B",
+  "en_ipa": "dʌz",
+  "fr_ipa": "diz"
+ },
+ {
+  "en": "done",
+  "fr": "donne",
+  "score": 0.71,
+  "tier": "B",
+  "en_ipa": "dʌn",
+  "fr_ipa": "dɔn"
+ },
+ {
+  "en": "girl",
+  "fr": "gueule",
+  "score": 0.71,
+  "tier": "B",
+  "en_ipa": "ɡɜːl",
+  "fr_ipa": "ɡœl"
+ },
+ {
+  "en": "son",
+  "fr": "scène",
+  "score": 0.71,
+  "tier": "B",
+  "en_ipa": "sʌn",
+  "fr_ipa": "sɛn"
+ },
+ {
+  "en": "summer",
+  "fr": "sommes",
+  "score": 0.71,
+  "tier": "B",
+  "en_ipa": "sʌmɚ",
+  "fr_ipa": "sɔm"
+ },
+ {
+  "en": "local",
+  "fr": "locale",
+  "score": 0.707,
+  "tier": "B",
+  "en_ipa": "loʊkəl",
+  "fr_ipa": "lokal"
+ },
+ {
+  "en": "make",
+  "fr": "mec",
+  "score": 0.702,
+  "tier": "B",
+  "en_ipa": "meɪk",
+  "fr_ipa": "mɛk"
+ },
+ {
+  "en": "days",
+  "fr": "disent",
+  "score": 0.702,
+  "tier": "B",
+  "en_ipa": "deɪz",
+  "fr_ipa": "diz"
+ },
+ {
+  "en": "play",
+  "fr": "plaît",
+  "score": 0.702,
+  "tier": "B",
+  "en_ipa": "pleɪ",
+  "fr_ipa": "plɛ"
+ },
+ {
+  "en": "case",
+  "fr": "caisse",
+  "score": 0.702,
+  "tier": "B",
+  "en_ipa": "keɪs",
+  "fr_ipa": "kɛs"
+ },
+ {
+  "en": "came",
+  "fr": "kim",
+  "score": 0.702,
+  "tier": "B",
+  "en_ipa": "keɪm",
+  "fr_ipa": "kim"
+ },
+ {
+  "en": "main",
+  "fr": "mène",
+  "score": 0.702,
+  "tier": "B",
+  "en_ipa": "meɪn",
+  "fr_ipa": "mɛn"
+ },
+ {
+  "en": "our",
+  "fr": "ah",
+  "score": 0.7,
+  "tier": "B",
+  "en_ipa": "aʊɚ",
+  "fr_ipa": "a"
+ },
+ {
+  "en": "bad",
+  "fr": "bande",
+  "score": 0.7,
+  "tier": "B",
+  "en_ipa": "bæd",
+  "fr_ipa": "bɑ̃d"
+ },
+ {
+  "en": "oh",
+  "fr": "au",
+  "score": 0.7,
+  "tier": "B",
+  "en_ipa": "oʊ",
+  "fr_ipa": "o"
+ },
+ {
+  "en": "series",
+  "fr": "surprise",
+  "score": 0.7,
+  "tier": "B",
+  "en_ipa": "sɪɹiz",
+  "fr_ipa": "syʁpʁiz"
+ },
+ {
+  "en": "made",
+  "fr": "méthode",
+  "score": 0.695,
+  "tier": "B",
+  "en_ipa": "meɪd",
+  "fr_ipa": "metɔd"
+ },
+ {
+  "en": "every",
+  "fr": "esprit",
+  "score": 0.695,
+  "tier": "B",
+  "en_ipa": "ɛvɹi",
+  "fr_ipa": "ɛspʁi"
+ },
+ {
+  "en": "system",
+  "fr": "système",
+  "score": 0.694,
+  "tier": "B",
+  "en_ipa": "sɪstəm",
+  "fr_ipa": "sistɛm"
+ },
+ {
+  "en": "example",
+  "fr": "exemple",
+  "score": 0.694,
+  "tier": "B",
+  "en_ipa": "ɛɡzæmpəl",
+  "fr_ipa": "ɛɡzɑ̃pl"
+ },
+ {
+  "en": "around",
+  "fr": "rendent",
+  "score": 0.693,
+  "tier": "B",
+  "en_ipa": "ɚɹaʊnd",
+  "fr_ipa": "ʁɑ̃d"
+ },
+ {
+  "en": "night",
+  "fr": "nantes",
+  "score": 0.692,
+  "tier": "B",
+  "en_ipa": "naɪt",
+  "fr_ipa": "nɑ̃t"
+ },
+ {
+  "en": "your",
+  "fr": "hier",
+  "score": 0.69,
+  "tier": "B",
+  "en_ipa": "jʊɹ",
+  "fr_ipa": "jɛʁ"
+ },
+ {
+  "en": "good",
+  "fr": "guide",
+  "score": 0.69,
+  "tier": "B",
+  "en_ipa": "ɡʊd",
+  "fr_ipa": "ɡid"
+ },
+ {
+  "en": "look",
+  "fr": "luc",
+  "score": 0.69,
+  "tier": "B",
+  "en_ipa": "lʊk",
+  "fr_ipa": "lyk"
+ },
+ {
+  "en": "sure",
+  "fr": "cher",
+  "score": 0.69,
+  "tier": "B",
+  "en_ipa": "ʃʊɹ",
+  "fr_ipa": "ʃɛʁ"
+ },
+ {
+  "en": "shit",
+  "fr": "chute",
+  "score": 0.69,
+  "tier": "B",
+  "en_ipa": "ʃɪt",
+  "fr_ipa": "ʃyt"
+ },
+ {
+  "en": "room",
+  "fr": "rome",
+  "score": 0.69,
+  "tier": "B",
+  "en_ipa": "ɹuːm",
+  "fr_ipa": "ʁɔm"
+ },
+ {
+  "en": "wrong",
+  "fr": "rock",
+  "score": 0.69,
+  "tier": "B",
+  "en_ipa": "ɹɔŋ",
+  "fr_ipa": "ʁɔk"
+ },
+ {
+  "en": "near",
+  "fr": "nord",
+  "score": 0.69,
+  "tier": "B",
+  "en_ipa": "nɪɹ",
+  "fr_ipa": "nɔʁ"
+ },
+ {
+  "en": "right",
+  "fr": "raconte",
+  "score": 0.689,
+  "tier": "B",
+  "en_ipa": "ɹaɪt",
+  "fr_ipa": "ʁakɔ̃t"
+ },
+ {
+  "en": "start",
+  "fr": "sorte",
+  "score": 0.689,
+  "tier": "B",
+  "en_ipa": "stɑːɹt",
+  "fr_ipa": "sɔʁt"
+ },
+ {
+  "en": "country",
+  "fr": "compris",
+  "score": 0.686,
+  "tier": "B",
+  "en_ipa": "kʌntɹi",
+  "fr_ipa": "kɔ̃pʁi"
+ },
+ {
+  "en": "report",
+  "fr": "rapporte",
+  "score": 0.686,
+  "tier": "B",
+  "en_ipa": "ɹᵻpoːɹt",
+  "fr_ipa": "ʁapɔʁt"
+ },
+ {
+  "en": "major",
+  "fr": "ménage",
+  "score": 0.684,
+  "tier": "B",
+  "en_ipa": "meɪdʒɚ",
+  "fr_ipa": "menaʒ"
+ },
+ {
+  "en": "game",
+  "fr": "gamme",
+  "score": 0.683,
+  "tier": "B",
+  "en_ipa": "ɡeɪm",
+  "fr_ipa": "ɡam"
+ },
+ {
+  "en": "might",
+  "fr": "masse",
+  "score": 0.683,
+  "tier": "B",
+  "en_ipa": "maɪt",
+  "fr_ipa": "mas"
+ },
+ {
+  "en": "face",
+  "fr": "fasse",
+  "score": 0.683,
+  "tier": "B",
+  "en_ipa": "feɪs",
+  "fr_ipa": "fas"
+ },
+ {
+  "en": "south",
+  "fr": "sache",
+  "score": 0.683,
+  "tier": "B",
+  "en_ipa": "saʊθ",
+  "fr_ipa": "saʃ"
+ },
+ {
+  "en": "known",
+  "fr": "nan",
+  "score": 0.683,
+  "tier": "B",
+  "en_ipa": "noʊn",
+  "fr_ipa": "nan"
+ },
+ {
+  "en": "phone",
+  "fr": "fans",
+  "score": 0.683,
+  "tier": "B",
+  "en_ipa": "foʊn",
+  "fr_ipa": "fan"
+ },
+ {
+  "en": "road",
+  "fr": "rhône",
+  "score": 0.683,
+  "tier": "B",
+  "en_ipa": "ɹoʊd",
+  "fr_ipa": "ʁoːn"
+ },
+ {
+  "en": "fight",
+  "fr": "face",
+  "score": 0.683,
+  "tier": "B",
+  "en_ipa": "faɪt",
+  "fr_ipa": "fas"
+ },
+ {
+  "en": "three",
+  "fr": "prix",
+  "score": 0.681,
+  "tier": "B",
+  "en_ipa": "θɹiː",
+  "fr_ipa": "pʁi"
+ },
+ {
+  "en": "thought",
+  "fr": "pote",
+  "score": 0.681,
+  "tier": "B",
+  "en_ipa": "θɔːt",
+  "fr_ipa": "pɔt"
+ },
+ {
+  "en": "god",
+  "fr": "guide",
+  "score": 0.681,
+  "tier": "B",
+  "en_ipa": "ɡɑːd",
+  "fr_ipa": "ɡid"
+ },
+ {
+  "en": "top",
+  "fr": "type",
+  "score": 0.681,
+  "tier": "B",
+  "en_ipa": "tɑːp",
+  "fr_ipa": "tip"
+ },
+ {
+  "en": "far",
+  "fr": "faire",
+  "score": 0.681,
+  "tier": "B",
+  "en_ipa": "fɑːɹ",
+  "fr_ipa": "fɛʁ"
+ },
+ {
+  "en": "so",
+  "fr": "sauf",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "soʊ",
+  "fr_ipa": "sof"
+ },
+ {
+  "en": "time",
+  "fr": "ta",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "taɪm",
+  "fr_ipa": "ta-"
+ },
+ {
+  "en": "now",
+  "fr": "nan",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "naʊ",
+  "fr_ipa": "nan"
+ },
+ {
+  "en": "go",
+  "fr": "gauche",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "ɡoʊ",
+  "fr_ipa": "ɡoʃ"
+ },
+ {
+  "en": "take",
+  "fr": "tes",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "teɪk",
+  "fr_ipa": "te-"
+ },
+ {
+  "en": "life",
+  "fr": "la",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "laɪf",
+  "fr_ipa": "la-"
+ },
+ {
+  "en": "same",
+  "fr": "ses",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "seɪm",
+  "fr_ipa": "se-"
+ },
+ {
+  "en": "both",
+  "fr": "beau",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "boʊθ",
+  "fr_ipa": "bo"
+ },
+ {
+  "en": "name",
+  "fr": "né",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "neɪm",
+  "fr_ipa": "ne"
+ },
+ {
+  "en": "live",
+  "fr": "la",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "laɪv",
+  "fr_ipa": "la-"
+ },
+ {
+  "en": "side",
+  "fr": "ça",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "saɪd",
+  "fr_ipa": "sa"
+ },
+ {
+  "en": "line",
+  "fr": "la",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "laɪn",
+  "fr_ipa": "la-"
+ },
+ {
+  "en": "area",
+  "fr": "air",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "ɛɹiə",
+  "fr_ipa": "ɛʁ"
+ },
+ {
+  "en": "late",
+  "fr": "les",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "leɪt",
+  "fr_ipa": "le-"
+ },
+ {
+  "en": "light",
+  "fr": "la",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "laɪt",
+  "fr_ipa": "la-"
+ },
+ {
+  "en": "fire",
+  "fr": "femme",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "faɪɚ",
+  "fr_ipa": "fam"
+ },
+ {
+  "en": "type",
+  "fr": "ta",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "taɪp",
+  "fr_ipa": "ta-"
+ },
+ {
+  "en": "town",
+  "fr": "ta",
+  "score": 0.68,
+  "tier": "B",
+  "en_ipa": "taʊn",
+  "fr_ipa": "ta-"
+ },
+ {
+  "en": "kids",
+  "fr": "quinze",
+  "score": 0.678,
+  "tier": "B",
+  "en_ipa": "kɪdz",
+  "fr_ipa": "kɛ̃z"
+ },
+ {
+  "en": "experience",
+  "fr": "expérience",
+  "score": 0.678,
+  "tier": "B",
+  "en_ipa": "ɛkspiəɹɪəns",
+  "fr_ipa": "ɛkspeʁjɑ̃s"
+ },
+ {
+  "en": "energy",
+  "fr": "ennemi",
+  "score": 0.677,
+  "tier": "B",
+  "en_ipa": "ɛnɚdʒi",
+  "fr_ipa": "ɛnmi"
+ },
+ {
+  "en": "started",
+  "fr": "stade",
+  "score": 0.675,
+  "tier": "B",
+  "en_ipa": "stɑːɹɾᵻd",
+  "fr_ipa": "stad"
+ },
+ {
+  "en": "down",
+  "fr": "dame",
+  "score": 0.673,
+  "tier": "B",
+  "en_ipa": "daʊn",
+  "fr_ipa": "dam"
+ },
+ {
+  "en": "five",
+  "fr": "phase",
+  "score": 0.673,
+  "tier": "B",
+  "en_ipa": "faɪv",
+  "fr_ipa": "faz"
+ },
+ {
+  "en": "mind",
+  "fr": "malade",
+  "score": 0.672,
+  "tier": "B",
+  "en_ipa": "maɪnd",
+  "fr_ipa": "malad"
+ },
+ {
+  "en": "book",
+  "fr": "bac",
+  "score": 0.671,
+  "tier": "B",
+  "en_ipa": "bʊk",
+  "fr_ipa": "bak"
+ },
+ {
+  "en": "talk",
+  "fr": "top",
+  "score": 0.671,
+  "tier": "B",
+  "en_ipa": "tɔːk",
+  "fr_ipa": "tɔp"
+ },
+ {
+  "en": "police",
+  "fr": "puisse",
+  "score": 0.671,
+  "tier": "B",
+  "en_ipa": "pəliːs",
+  "fr_ipa": "pyis"
+ },
+ {
+  "en": "song",
+  "fr": "sommes",
+  "score": 0.671,
+  "tier": "B",
+  "en_ipa": "sɔŋ",
+  "fr_ipa": "sɔm"
+ },
+ {
+  "en": "even",
+  "fr": "iphone",
+  "score": 0.67,
+  "tier": "B",
+  "en_ipa": "iːvən",
+  "fr_ipa": "ifɔn"
+ },
+ {
+  "en": "real",
+  "fr": "réel",
+  "score": 0.67,
+  "tier": "B",
+  "en_ipa": "ɹiːəl",
+  "fr_ipa": "ʁeɛl"
+ },
+ {
+  "en": "support",
+  "fr": "sorte",
+  "score": 0.67,
+  "tier": "B",
+  "en_ipa": "səpoːɹt",
+  "fr_ipa": "sɔʁt"
+ },
+ {
+  "en": "study",
+  "fr": "samedi",
+  "score": 0.67,
+  "tier": "B",
+  "en_ipa": "stʌdi",
+  "fr_ipa": "samdi"
+ },
+ {
+  "en": "second",
+  "fr": "sec",
+  "score": 0.668,
+  "tier": "B",
+  "en_ipa": "sɛkənd",
+  "fr_ipa": "sɛk"
+ },
+ {
+  "en": "friends",
+  "fr": "frais",
+  "score": 0.668,
+  "tier": "B",
+  "en_ipa": "fɹɛndz",
+  "fr_ipa": "fʁɛ"
+ },
+ {
+  "en": "pay",
+  "fr": "pp",
+  "score": 0.668,
+  "tier": "B",
+  "en_ipa": "peɪ",
+  "fr_ipa": "pepe"
+ },
+ {
+  "en": "several",
+  "fr": "celle",
+  "score": 0.668,
+  "tier": "B",
+  "en_ipa": "sɛvɹəl",
+  "fr_ipa": "sɛl"
+ },
+ {
+  "en": "morning",
+  "fr": "mort",
+  "score": 0.668,
+  "tier": "B",
+  "en_ipa": "mɔːɹnɪŋ",
+  "fr_ipa": "mɔʁ"
+ },
+ {
+  "en": "data",
+  "fr": "dr",
+  "score": 0.667,
+  "tier": "B",
+  "en_ipa": "deɪɾə",
+  "fr_ipa": "deɛʁ"
+ },
+ {
+  "en": "public",
+  "fr": "publique",
+  "score": 0.665,
+  "tier": "B",
+  "en_ipa": "pʌblɪk",
+  "fr_ipa": "pyblik"
+ },
+ {
+  "en": "from",
+  "fr": "franc",
+  "score": 0.663,
+  "tier": "B",
+  "en_ipa": "fɹʌm",
+  "fr_ipa": "fʁɑ̃"
+ },
+ {
+  "en": "art",
+  "fr": "carte",
+  "score": 0.662,
+  "tier": "B",
+  "en_ipa": "ɑːɹt",
+  "fr_ipa": "kaʁt"
+ },
+ {
+  "en": "dr",
+  "fr": "date",
+  "score": 0.662,
+  "tier": "B",
+  "en_ipa": "dɑːktɚ",
+  "fr_ipa": "dat"
+ },
+ {
+  "en": "history",
+  "fr": "industrie",
+  "score": 0.66,
+  "tier": "B",
+  "en_ipa": "hɪstɚɹi",
+  "fr_ipa": "ɛ̃dystʁi"
+ },
+ {
+  "en": "anyone",
+  "fr": "haine",
+  "score": 0.66,
+  "tier": "B",
+  "en_ipa": "ɛnɪwʌn",
+  "fr_ipa": "ɛn"
+ },
+ {
+  "en": "myself",
+  "fr": "massif",
+  "score": 0.659,
+  "tier": "B",
+  "en_ipa": "maɪsɛlf",
+  "fr_ipa": "masif"
+ },
+ {
+  "en": "first",
+  "fr": "poste",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "fɜːst",
+  "fr_ipa": "pɔst"
+ },
+ {
+  "en": "before",
+  "fr": "bord",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "bᵻfoːɹ",
+  "fr_ipa": "bɔʁ"
+ },
+ {
+  "en": "such",
+  "fr": "sache",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "sʌtʃ",
+  "fr_ipa": "saʃ"
+ },
+ {
+  "en": "since",
+  "fr": "sens",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "sɪns",
+  "fr_ipa": "sɑ̃s"
+ },
+ {
+  "en": "own",
+  "fr": "automne",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "oʊn",
+  "fr_ipa": "otɔn"
+ },
+ {
+  "en": "give",
+  "fr": "grève",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "ɡɪv",
+  "fr_ipa": "ɡʁɛv"
+ },
+ {
+  "en": "mr",
+  "fr": "best",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "mɪstɚ",
+  "fr_ipa": "bɛst"
+ },
+ {
+  "en": "left",
+  "fr": "lève",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "lɛft",
+  "fr_ipa": "lɛv"
+ },
+ {
+  "en": "fact",
+  "fr": "acte",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "fækt",
+  "fr_ipa": "akt"
+ },
+ {
+  "en": "needs",
+  "fr": "nice",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "niːdz",
+  "fr_ipa": "nis"
+ },
+ {
+  "en": "comes",
+  "fr": "quinze",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "kʌmz",
+  "fr_ipa": "kɛ̃z"
+ },
+ {
+  "en": "ask",
+  "fr": "masque",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "æsk",
+  "fr_ipa": "mask"
+ },
+ {
+  "en": "asked",
+  "fr": "acte",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "æskt",
+  "fr_ipa": "akt"
+ },
+ {
+  "en": "works",
+  "fr": "ex",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "wɜːks",
+  "fr_ipa": "ɛks"
+ },
+ {
+  "en": "played",
+  "fr": "plein",
+  "score": 0.655,
+  "tier": "B",
+  "en_ipa": "pleɪd",
+  "fr_ipa": "plɛ̃"
+ },
+ {
+  "en": "special",
+  "fr": "spectacle",
+  "score": 0.653,
+  "tier": "B",
+  "en_ipa": "spɛʃəl",
+  "fr_ipa": "spɛktakl"
+ },
+ {
+  "en": "are",
+  "fr": "art",
+  "score": 0.652,
+  "tier": "B",
+  "en_ipa": "ɑːɹ",
+  "fr_ipa": "aʁ"
+ },
+ {
+  "en": "family",
+  "fr": "folie",
+  "score": 0.65,
+  "tier": "B",
+  "en_ipa": "fæmɪli",
+  "fr_ipa": "foli"
+ },
+ {
+  "en": "president",
+  "fr": "prête",
+  "score": 0.65,
+  "tier": "B",
+  "en_ipa": "pɹɛzɪdənt",
+  "fr_ipa": "pʁɛt"
+ },
+ {
+  "en": "while",
+  "fr": "voile",
+  "score": 0.648,
+  "tier": "B",
+  "en_ipa": "waɪl",
+  "fr_ipa": "vwal"
+ },
+ {
+  "en": "find",
+  "fr": "fans",
+  "score": 0.648,
+  "tier": "B",
+  "en_ipa": "faɪnd",
+  "fr_ipa": "fan"
+ },
+ {
+  "en": "found",
+  "fr": "fans",
+  "score": 0.648,
+  "tier": "B",
+  "en_ipa": "faʊnd",
+  "fr_ipa": "fan"
+ },
+ {
+  "en": "white",
+  "fr": "boîte",
+  "score": 0.648,
+  "tier": "B",
+  "en_ipa": "waɪt",
+  "fr_ipa": "bwat"
+ },
+ {
+  "en": "stay",
+  "fr": "santé",
+  "score": 0.648,
+  "tier": "B",
+  "en_ipa": "steɪ",
+  "fr_ipa": "sɑ̃te"
+ },
+ {
+  "en": "heart",
+  "fr": "carte",
+  "score": 0.648,
+  "tier": "B",
+  "en_ipa": "hɑːɹt",
+  "fr_ipa": "kaʁt"
+ },
+ {
+  "en": "reason",
+  "fr": "rien",
+  "score": 0.646,
+  "tier": "B",
+  "en_ipa": "ɹiːzən",
+  "fr_ipa": "ʁiɛ̃"
+ },
+ {
+  "en": "really",
+  "fr": "rempli",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "ɹiəli",
+  "fr_ipa": "ʁɑ̃pli"
+ },
+ {
+  "en": "being",
+  "fr": "by",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "biːɪŋ",
+  "fr_ipa": "bi"
+ },
+ {
+  "en": "long",
+  "fr": "lors",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "lɔŋ",
+  "fr_ipa": "lɔʁ"
+ },
+ {
+  "en": "used",
+  "fr": "you",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "juːzd",
+  "fr_ipa": "ju"
+ },
+ {
+  "en": "again",
+  "fr": "haine",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "ɐɡɛn",
+  "fr_ipa": "ɛn"
+ },
+ {
+  "en": "company",
+  "fr": "compagnie",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "kʌmpəni",
+  "fr_ipa": "kɔ̃pani"
+ },
+ {
+  "en": "doing",
+  "fr": "doux",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "duːɪŋ",
+  "fr_ipa": "du"
+ },
+ {
+  "en": "believe",
+  "fr": "iv",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "bᵻliːv",
+  "fr_ipa": "iv"
+ },
+ {
+  "en": "trying",
+  "fr": "traces",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "tɹaɪɪŋ",
+  "fr_ipa": "tʁas"
+ },
+ {
+  "en": "body",
+  "fr": "dit",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "bɑːdi",
+  "fr_ipa": "di"
+ },
+ {
+  "en": "yeah",
+  "fr": "hier",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "jɛh",
+  "fr_ipa": "jɛʁ"
+ },
+ {
+  "en": "happy",
+  "fr": "pis",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "hæpi",
+  "fr_ipa": "pi"
+ },
+ {
+  "en": "gonna",
+  "fr": "ne",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "ɡənə",
+  "fr_ipa": "nə-"
+ },
+ {
+  "en": "ready",
+  "fr": "dit",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "ɹɛdi",
+  "fr_ipa": "di"
+ },
+ {
+  "en": "gets",
+  "fr": "gay",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "ɡɛts",
+  "fr_ipa": "ɡɛ"
+ },
+ {
+  "en": "board",
+  "fr": "beau",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "boːɹd",
+  "fr_ipa": "bo"
+ },
+ {
+  "en": "de",
+  "fr": "devant",
+  "score": 0.645,
+  "tier": "B",
+  "en_ipa": "də",
+  "fr_ipa": "dəvɑ̃"
+ },
+ {
+  "en": "lot",
+  "fr": "lutte",
+  "score": 0.641,
+  "tier": "B",
+  "en_ipa": "lɑːt",
+  "fr_ipa": "lyt"
+ },
+ {
+  "en": "what",
+  "fr": "ouest",
+  "score": 0.64,
+  "tier": "B",
+  "en_ipa": "wʌt",
+  "fr_ipa": "wɛst"
+ },
+ {
+  "en": "school",
+  "fr": "scandale",
+  "score": 0.64,
+  "tier": "B",
+  "en_ipa": "skuːl",
+  "fr_ipa": "skɑ̃dal"
+ },
+ {
+  "en": "must",
+  "fr": "best",
+  "score": 0.64,
+  "tier": "B",
+  "en_ipa": "mʌst",
+  "fr_ipa": "bɛst"
+ },
+ {
+  "en": "stop",
+  "fr": "stade",
+  "score": 0.64,
+  "tier": "B",
+  "en_ipa": "stɑːp",
+  "fr_ipa": "stad"
+ },
+ {
+  "en": "social",
+  "fr": "sociale",
+  "score": 0.64,
+  "tier": "B",
+  "en_ipa": "soʊʃəl",
+  "fr_ipa": "sosjal"
+ },
+ {
+  "en": "front",
+  "fr": "france",
+  "score": 0.64,
+  "tier": "B",
+  "en_ipa": "fɹʌnt",
+  "fr_ipa": "fʁɑ̃s"
+ },
+ {
+  "en": "in",
+  "fr": "haine",
+  "score": 0.637,
+  "tier": "B",
+  "en_ipa": "ɪn",
+  "fr_ipa": "ɛn"
+ },
+ {
+  "en": "is",
+  "fr": "aise",
+  "score": 0.637,
+  "tier": "B",
+  "en_ipa": "ɪz",
+  "fr_ipa": "ɛz"
+ },
+ {
+  "en": "it",
+  "fr": "êtes",
+  "score": 0.637,
+  "tier": "B",
+  "en_ipa": "ɪt",
+  "fr_ipa": "ɛt"
+ },
+ {
+  "en": "at",
+  "fr": "hâte",
+  "score": 0.637,
+  "tier": "B",
+  "en_ipa": "æt",
+  "fr_ipa": "aːt"
+ },
+ {
+  "en": "an",
+  "fr": "anne",
+  "score": 0.637,
+  "tier": "B",
+  "en_ipa": "æn",
+  "fr_ipa": "an"
+ },
+ {
+  "en": "were",
+  "fr": "ouais",
+  "score": 0.637,
+  "tier": "B",
+  "en_ipa": "wɜː",
+  "fr_ipa": "wɛ"
+ },
+ {
+  "en": "us",
+  "fr": "as",
+  "score": 0.637,
+  "tier": "B",
+  "en_ipa": "ʌs",
+  "fr_ipa": "as"
+ },
+ {
+  "en": "great",
+  "fr": "grèce",
+  "score": 0.637,
+  "tier": "B",
+  "en_ipa": "ɡɹeɪt",
+  "fr_ipa": "ɡʁɛs"
+ },
+ {
+  "en": "am",
+  "fr": "âme",
+  "score": 0.637,
+  "tier": "B",
+  "en_ipa": "æm",
+  "fr_ipa": "aːm"
+ },
+ {
+  "en": "state",
+  "fr": "stade",
+  "score": 0.637,
+  "tier": "B",
+  "en_ipa": "steɪt",
+  "fr_ipa": "stad"
+ },
+ {
+  "en": "per",
+  "fr": "paix",
+  "score": 0.637,
+  "tier": "B",
+  "en_ipa": "pɜː",
+  "fr_ipa": "pɛ"
+ },
+ {
+  "en": "players",
+  "fr": "place",
+  "score": 0.637,
+  "tier": "B",
+  "en_ipa": "pleɪɚz",
+  "fr_ipa": "plas"
+ },
+ {
+  "en": "final",
+  "fr": "facile",
+  "score": 0.636,
+  "tier": "B",
+  "en_ipa": "faɪnəl",
+  "fr_ipa": "fasil"
+ },
+ {
+  "en": "behind",
+  "fr": "bande",
+  "score": 0.634,
+  "tier": "B",
+  "en_ipa": "bᵻhaɪnd",
+  "fr_ipa": "bɑ̃d"
+ },
+ {
+  "en": "hard",
+  "fr": "garde",
+  "score": 0.633,
+  "tier": "B",
+  "en_ipa": "hɑːɹd",
+  "fr_ipa": "ɡaʁd"
+ },
+ {
+  "en": "wait",
+  "fr": "ouest",
+  "score": 0.633,
+  "tier": "B",
+  "en_ipa": "weɪt",
+  "fr_ipa": "wɛst"
+ },
+ {
+  "en": "age",
+  "fr": "étage",
+  "score": 0.633,
+  "tier": "B",
+  "en_ipa": "eɪdʒ",
+  "fr_ipa": "etaʒ"
+ },
+ {
+  "en": "gave",
+  "fr": "grève",
+  "score": 0.633,
+  "tier": "B",
+  "en_ipa": "ɡeɪv",
+  "fr_ipa": "ɡʁɛv"
+ },
+ {
+  "en": "space",
+  "fr": "six",
+  "score": 0.633,
+  "tier": "B",
+  "en_ipa": "speɪs",
+  "fr_ipa": "sis"
+ },
+ {
+  "en": "open",
+  "fr": "automne",
+  "score": 0.63,
+  "tier": "B",
+  "en_ipa": "oʊpən",
+  "fr_ipa": "otɔn"
+ },
+ {
+  "en": "maybe",
+  "fr": "midi",
+  "score": 0.63,
+  "tier": "B",
+  "en_ipa": "meɪbiː",
+  "fr_ipa": "midi"
+ },
+ {
+  "en": "just",
+  "fr": "déteste",
+  "score": 0.626,
+  "tier": "B",
+  "en_ipa": "dʒʌst",
+  "fr_ipa": "detɛst"
+ },
+ {
+  "en": "help",
+  "fr": "alpes",
+  "score": 0.625,
+  "tier": "B",
+  "en_ipa": "hɛlp",
+  "fr_ipa": "alp"
+ },
+ {
+  "en": "each",
+  "fr": "match",
+  "score": 0.625,
+  "tier": "B",
+  "en_ipa": "iːtʃ",
+  "fr_ipa": "matʃ"
+ },
+ {
+  "en": "big",
+  "fr": "blog",
+  "score": 0.625,
+  "tier": "B",
+  "en_ipa": "bɪɡ",
+  "fr_ipa": "blɔɡ"
+ },
+ {
+  "en": "took",
+  "fr": "truc",
+  "score": 0.625,
+  "tier": "B",
+  "en_ipa": "tʊk",
+  "fr_ipa": "tʁyk"
+ },
+ {
+  "en": "york",
+  "fr": "arc",
+  "score": 0.625,
+  "tier": "B",
+  "en_ipa": "jɔːɹk",
+  "fr_ipa": "aʁk"
+ },
+ {
+  "en": "nice",
+  "fr": "nan",
+  "score": 0.623,
+  "tier": "B",
+  "en_ipa": "naɪs",
+  "fr_ipa": "nan"
+ },
+ {
+  "en": "most",
+  "fr": "poste",
+  "score": 0.622,
+  "tier": "B",
+  "en_ipa": "moʊst",
+  "fr_ipa": "pɔst"
+ },
+ {
+  "en": "season",
+  "fr": "sinon",
+  "score": 0.622,
+  "tier": "B",
+  "en_ipa": "siːzən",
+  "fr_ipa": "sinɔ̃"
+ }
+]
