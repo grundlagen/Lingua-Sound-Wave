@@ -1,6 +1,9 @@
 {
   "parameters": {
-    "seed": 17
+    "seed": 17,
+    "prefer_multi": false,
+    "prefer_partial": false,
+    "partial_threshold": 0.72
   },
   "lines": [
     {
