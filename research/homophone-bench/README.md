@@ -11,6 +11,7 @@ Use the local virtualenv created for this bench:
 .venv/bin/python function_glue.py
 .venv/bin/python finalize.py
 .venv/bin/python compose_lots.py
+.venv/bin/python recursive_poet.py
 .venv/bin/python mapping_web.py
 .venv/bin/python smoke_test.py
 ```
@@ -23,6 +24,7 @@ homophone-bench merge-generative
 homophone-bench function-glue
 homophone-bench finalize
 homophone-bench compose-lots
+homophone-bench recursive-poet
 homophone-bench mapping-web
 homophone-bench smoke
 ```
@@ -33,6 +35,7 @@ homophone-bench smoke
 - `composition-index.json`: indexes by pivot, first/final class, syllables, direction, tier, usability, and source stage.
 - `composition-lots.json`: partial/whole/multi pattern lots for composition.
 - `composition-lines.json` and `composition-lines.tsv`: deterministic dual-line smoke compositions with QC gates.
+- `recursive-poem.json` and `recursive-poem.tsv`: recursive semantic-sound poem candidates.
 - `mapping-web.json` and `mapping-walks.tsv`: typed sound, fragment, and meaning graph with permutation walks.
 - `muse-status.json`: local check for a MUSE/Nemotron reference file.
 

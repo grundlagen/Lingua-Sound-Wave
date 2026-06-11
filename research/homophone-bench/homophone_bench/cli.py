@@ -11,6 +11,7 @@ COMMANDS = {
     "function-glue": "function_glue",
     "finalize": "finalize",
     "compose-lots": "compose_lots",
+    "recursive-poet": "recursive_poet",
     "mapping-web": "mapping_web",
     "smoke": "smoke_test",
 }
