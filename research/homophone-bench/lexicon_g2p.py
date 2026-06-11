@@ -18,11 +18,14 @@ DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
 # strip stress/length/ties/zero-width characters; keep nasal combining tilde
 _DROP = {"ˈ", "ˌ", "‿", ".", "|", "‖", " ", "\t", "-", "_",
-         "‍", "‌", "͡", "͜", "(", ")", "ˑ"}
+         "‍", "‌", "͡", "͜", "(", ")", "ˑ", "ʼ", ",", "ʲ"}
 
 
 def clean_ipa(s: str) -> str:
     s = unicodedata.normalize("NFD", s)
+    # Lexique writes /ɡ/ as ASCII "g", which panphon silently drops —
+    # normalize to the real IPA character before anything else sees it.
+    s = s.replace("g", "ɡ")
     return "".join(ch for ch in s if ch not in _DROP)
 
 
