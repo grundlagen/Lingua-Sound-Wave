@@ -105,9 +105,20 @@ def main() -> None:
         fr_norms = [norm(t) for t in tokens(entry.get("fr", ""))]
         flags = [name for name in ("cognate", "loanword") if entry.get(name)]
         surface = any(en_norm == fr_norm for fr_norm in fr_norms) or any(similarity(en_norm, fr_norm) >= 0.82 for fr_norm in fr_norms)
-        if flags or (surface and len(en_norm) >= 4):
-            weight = 0.95 if "cognate" in flags else 0.88 if "loanword" in flags else 0.72
-            reasons = flags or ["surface_similarity"]
+        if "loanword" in flags:
+            edge("loanword_edge", en_id, fr_id, id=f"loanword:{i}:fwd", loanword_weight=0.88, surface_match=surface)
+            edge("loanword_edge", fr_id, en_id, id=f"loanword:{i}:rev", loanword_weight=0.88, surface_match=surface)
+        if surface and len(en_norm) >= 4:
+            edge("surface_edge", en_id, fr_id, id=f"surface:{i}:fwd", surface_weight=0.72)
+            edge("surface_edge", fr_id, en_id, id=f"surface:{i}:rev", surface_weight=0.72)
+
+        meaning_reasons = []
+        if "cognate" in flags:
+            meaning_reasons.append("cognate")
+
+        if meaning_reasons:
+            weight = 0.95
+            reasons = meaning_reasons
             edge("meaning_edge", en_id, fr_id, id=f"meaning:{i}:fwd", meaning_weight=weight, reasons=reasons)
             edge("meaning_edge", fr_id, en_id, id=f"meaning:{i}:rev", meaning_weight=weight, reasons=reasons)
 
@@ -154,6 +165,8 @@ def main() -> None:
             "sound_edges": sum(1 for e in edges if e["type"] == "sound_edge"),
             "fragment_edges": sum(1 for e in edges if e["type"] == "fragment_edge"),
             "meaning_edges": sum(1 for e in edges if e["type"] == "meaning_edge"),
+            "loanword_edges": sum(1 for e in edges if e["type"] == "loanword_edge"),
+            "surface_edges": sum(1 for e in edges if e["type"] == "surface_edge"),
             "walks": len(walks),
         },
         "nodes": sorted(nodes.values(), key=lambda x: x["id"]),

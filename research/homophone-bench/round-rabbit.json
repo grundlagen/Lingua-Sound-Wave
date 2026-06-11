@@ -1,0 +1,2231 @@
+{
+  "parameters": {
+    "seed": "west air breeze rose prove",
+    "missing_seed_words": [],
+    "max_hops": 2,
+    "components": 8,
+    "per_component": 10,
+    "min_component_weight": 0.7,
+    "selected_components": 6,
+    "rows": 42
+  },
+  "rows": [
+    {
+      "component_id": "en:proves",
+      "semantic_strings": [
+        "en:prove",
+        "en:proves",
+        "fr:prouve"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:prouve",
+      "path": [
+        "fr:prouve"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 5,
+      "attachments": [
+        {
+          "en": "prove",
+          "fr": "prouve",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "proved",
+          "fr": "prouve",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "proves",
+          "fr": "prouve",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "disprove",
+          "fr": "dis prouve",
+          "score": 0.796,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.2_generated_validated",
+          "chunk_recipe": "dɪs+pɹuv"
+        },
+        {
+          "en": "proof",
+          "fr": "prouve",
+          "score": 0.785,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": true,
+      "has_generated": true,
+      "rank_score": 0.9975
+    },
+    {
+      "component_id": "en:western",
+      "semantic_strings": [
+        "en:west",
+        "en:western",
+        "fr:ouest"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:ouest",
+      "path": [
+        "fr:ouest"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 12,
+      "attachments": [
+        {
+          "en": "west",
+          "fr": "ouest",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "southwest",
+          "fr": "cent ouest",
+          "score": 0.933,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "northwest",
+          "fr": "nœud ouest",
+          "score": 0.932,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "northwest",
+          "fr": "notes ouest",
+          "score": 0.858,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "western",
+          "fr": "ouest haines",
+          "score": 0.847,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "quest",
+          "fr": "ouest",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "western",
+          "fr": "ouest",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "worst",
+          "fr": "ouest",
+          "score": 0.785,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "wet",
+          "fr": "ouest",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "waist",
+          "fr": "ouest",
+          "score": 0.758,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "waste",
+          "fr": "ouest",
+          "score": 0.758,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "went",
+          "fr": "ouest",
+          "score": 0.726,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9675
+    },
+    {
+      "component_id": "en:roses",
+      "semantic_strings": [
+        "en:roses",
+        "fr:rose"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:rose",
+      "path": [
+        "fr:rose"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "destroys",
+          "fr": "dissent rose",
+          "score": 0.96,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "rows",
+          "fr": "rose",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.96,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9615
+    },
+    {
+      "component_id": "en:western",
+      "semantic_strings": [
+        "en:west",
+        "en:western",
+        "fr:ouest"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:western",
+      "path": [
+        "en:western"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "western",
+          "fr": "ouais tonnes",
+          "score": 0.96,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "western",
+          "fr": "ouest haines",
+          "score": 0.847,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "western",
+          "fr": "ouest",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.96,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9615
+    },
+    {
+      "component_id": "en:breeze",
+      "semantic_strings": [
+        "en:breeze",
+        "fr:brise"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:brise",
+      "path": [
+        "fr:brise"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 4,
+      "attachments": [
+        {
+          "en": "braes",
+          "fr": "brise",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.2_generated_validated",
+          "chunk_recipe": "bɹ+iz"
+        },
+        {
+          "en": "breeze",
+          "fr": "brise",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "breeds",
+          "fr": "brise",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "bees",
+          "fr": "brise",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": true,
+      "rank_score": 0.9575
+    },
+    {
+      "component_id": "en:air",
+      "semantic_strings": [
+        "en:air",
+        "fr:airs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:air",
+      "path": [
+        "en:air"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "air",
+          "fr": "aires",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "air",
+          "fr": "airs",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "air",
+          "fr": "ère",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9275
+    },
+    {
+      "component_id": "en:air",
+      "semantic_strings": [
+        "en:air",
+        "fr:airs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:airs",
+      "path": [
+        "fr:airs"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "air",
+          "fr": "airs",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "error",
+          "fr": "airs",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "heir",
+          "fr": "airs",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9275
+    },
+    {
+      "component_id": "en:breeze",
+      "semantic_strings": [
+        "en:breeze",
+        "fr:brise"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:breeze",
+      "path": [
+        "en:breeze"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "breeze",
+          "fr": "brise",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "breeze",
+          "fr": "brisées",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "breeze",
+          "fr": "brisés",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9275
+    },
+    {
+      "component_id": "en:proves",
+      "semantic_strings": [
+        "en:prove",
+        "en:proves",
+        "fr:prouve"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:prove",
+      "path": [
+        "en:prove"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "prove",
+          "fr": "prouve",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "prove",
+          "fr": "prouvent",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "prove",
+          "fr": "éprouvent",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9275
+    },
+    {
+      "component_id": "en:western",
+      "semantic_strings": [
+        "en:west",
+        "en:western",
+        "fr:ouest"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:west",
+      "path": [
+        "en:west"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "west",
+          "fr": "ouest",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "west",
+          "fr": "est",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9275
+    },
+    {
+      "component_id": "en:rose",
+      "semantic_strings": [
+        "en:rose",
+        "fr:roses"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:rose",
+      "path": [
+        "en:rose"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "rose",
+          "fr": "roses",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.833,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9024
+    },
+    {
+      "component_id": "en:rose",
+      "semantic_strings": [
+        "en:rose",
+        "fr:roses"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:roses",
+      "path": [
+        "fr:roses"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "rose",
+          "fr": "roses",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "rows",
+          "fr": "roses",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.833,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9024
+    },
+    {
+      "component_id": "en:proves",
+      "semantic_strings": [
+        "en:prove",
+        "en:proves",
+        "fr:prouve"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:proves",
+      "path": [
+        "en:proves"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "proves",
+          "fr": "prouve",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "proves",
+          "fr": "prouvent",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.822,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9008
+    },
+    {
+      "component_id": "en:air",
+      "semantic_strings": [
+        "en:air",
+        "fr:airs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:aires",
+      "path": [
+        "en:air",
+        "fr:aires"
+      ],
+      "path_edge_scores": [
+        1.0
+      ],
+      "attached_count": 4,
+      "attachments": [
+        {
+          "en": "air",
+          "fr": "aires",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "error",
+          "fr": "aires",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "heir",
+          "fr": "aires",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "errors",
+          "fr": "aires aise",
+          "score": 0.785,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.8875
+    },
+    {
+      "component_id": "en:breeze",
+      "semantic_strings": [
+        "en:breeze",
+        "fr:brise"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:braes",
+      "path": [
+        "fr:brise",
+        "en:braes"
+      ],
+      "path_edge_scores": [
+        1.0
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "braes",
+          "fr": "brise",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.2_generated_validated",
+          "chunk_recipe": "bɹ+iz"
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": true,
+      "rank_score": 0.8775
+    },
+    {
+      "component_id": "en:western",
+      "semantic_strings": [
+        "en:west",
+        "en:western",
+        "fr:ouest"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:ouais tonnes",
+      "path": [
+        "en:western",
+        "fr:ouais tonnes"
+      ],
+      "path_edge_scores": [
+        0.96
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "western",
+          "fr": "ouais tonnes",
+          "score": 0.96,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.96,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.8675
+    },
+    {
+      "component_id": "en:air",
+      "semantic_strings": [
+        "en:air",
+        "fr:airs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:error",
+      "path": [
+        "fr:airs",
+        "en:error"
+      ],
+      "path_edge_scores": [
+        1.0
+      ],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "error",
+          "fr": "aires",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "error",
+          "fr": "airs",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "error",
+          "fr": "ère",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8475
+    },
+    {
+      "component_id": "en:air",
+      "semantic_strings": [
+        "en:air",
+        "fr:airs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:heir",
+      "path": [
+        "fr:airs",
+        "en:heir"
+      ],
+      "path_edge_scores": [
+        1.0
+      ],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "heir",
+          "fr": "aires",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "heir",
+          "fr": "airs",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "heir",
+          "fr": "ère",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8475
+    },
+    {
+      "component_id": "en:air",
+      "semantic_strings": [
+        "en:air",
+        "fr:airs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:ère",
+      "path": [
+        "en:air",
+        "fr:ère"
+      ],
+      "path_edge_scores": [
+        1.0
+      ],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "air",
+          "fr": "ère",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "error",
+          "fr": "ère",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "heir",
+          "fr": "ère",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8475
+    },
+    {
+      "component_id": "en:proves",
+      "semantic_strings": [
+        "en:prove",
+        "en:proves",
+        "fr:prouve"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:prouvent",
+      "path": [
+        "en:prove",
+        "fr:prouvent"
+      ],
+      "path_edge_scores": [
+        1.0
+      ],
+      "attached_count": 5,
+      "attachments": [
+        {
+          "en": "prove",
+          "fr": "prouvent",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "approve",
+          "fr": "prouvent",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "proved",
+          "fr": "prouvent",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "proves",
+          "fr": "prouvent",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "proof",
+          "fr": "prouvent",
+          "score": 0.785,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8475
+    },
+    {
+      "component_id": "en:western",
+      "semantic_strings": [
+        "en:west",
+        "en:western",
+        "fr:ouest"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:est",
+      "path": [
+        "en:west",
+        "fr:est"
+      ],
+      "path_edge_scores": [
+        0.781
+      ],
+      "attached_count": 23,
+      "attachments": [
+        {
+          "en": "possessed",
+          "fr": "paix est",
+          "score": 0.98,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "obsessed",
+          "fr": "aubes est",
+          "score": 0.96,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "greatest",
+          "fr": "créent est",
+          "score": 0.955,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "practiced",
+          "fr": "braquent est",
+          "score": 0.955,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "latest",
+          "fr": "laid est",
+          "score": 0.952,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "dentist",
+          "fr": "donnent est",
+          "score": 0.949,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "resist",
+          "fr": "ries est",
+          "score": 0.944,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "eldest",
+          "fr": "elles est",
+          "score": 0.94,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "finest",
+          "fr": "faon est",
+          "score": 0.94,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "modest",
+          "fr": "mot est",
+          "score": 0.94,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "closest",
+          "fr": "clous est",
+          "score": 0.935,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "invest",
+          "fr": "haines est",
+          "score": 0.931,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.98,
+      "has_multi": true,
+      "has_generated": true,
+      "rank_score": 0.8379
+    },
+    {
+      "component_id": "en:western",
+      "semantic_strings": [
+        "en:west",
+        "en:western",
+        "fr:ouest"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:ouest haines",
+      "path": [
+        "en:western",
+        "fr:ouest haines"
+      ],
+      "path_edge_scores": [
+        0.847
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "western",
+          "fr": "ouest haines",
+          "score": 0.847,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.847,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.811
+    },
+    {
+      "component_id": "en:breeze",
+      "semantic_strings": [
+        "en:breeze",
+        "fr:brise"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 2,
+      "node": "fr:bride",
+      "path": [
+        "fr:brise",
+        "en:breeds",
+        "fr:bride"
+      ],
+      "path_edge_scores": [
+        0.822,
+        0.822
+      ],
+      "attached_count": 6,
+      "attachments": [
+        {
+          "en": "brede",
+          "fr": "bride",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.2_generated_validated",
+          "chunk_recipe": "bɹ+id"
+        },
+        {
+          "en": "breed",
+          "fr": "bride",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "breeds",
+          "fr": "bride",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "buried",
+          "fr": "bride",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "briefly",
+          "fr": "bride lies",
+          "score": 0.803,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "brad",
+          "fr": "bride",
+          "score": 0.77,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": true,
+      "has_generated": true,
+      "rank_score": 0.7752
+    },
+    {
+      "component_id": "en:breeze",
+      "semantic_strings": [
+        "en:breeze",
+        "fr:brise"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:bees",
+      "path": [
+        "fr:brise",
+        "en:bees"
+      ],
+      "path_edge_scores": [
+        0.781
+      ],
+      "attached_count": 4,
+      "attachments": [
+        {
+          "en": "bees",
+          "fr": "bise",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "bees",
+          "fr": "bises",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "bees",
+          "fr": "brise",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "bees",
+          "fr": "pise",
+          "score": 0.73,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7709
+    },
+    {
+      "component_id": "en:rose",
+      "semantic_strings": [
+        "en:rose",
+        "fr:roses"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:rows",
+      "path": [
+        "fr:roses",
+        "en:rows"
+      ],
+      "path_edge_scores": [
+        0.833
+      ],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "rows",
+          "fr": "rose",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "rows",
+          "fr": "roses",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.833,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.764
+    },
+    {
+      "component_id": "en:roses",
+      "semantic_strings": [
+        "en:roses",
+        "fr:rose"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:rows",
+      "path": [
+        "fr:rose",
+        "en:rows"
+      ],
+      "path_edge_scores": [
+        0.833
+      ],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "rows",
+          "fr": "rose",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "rows",
+          "fr": "roses",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.833,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.764
+    },
+    {
+      "component_id": "en:proves",
+      "semantic_strings": [
+        "en:prove",
+        "en:proves",
+        "fr:prouve"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:éprouvent",
+      "path": [
+        "en:prove",
+        "fr:éprouvent"
+      ],
+      "path_edge_scores": [
+        0.822
+      ],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "approve",
+          "fr": "éprouvent",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "prove",
+          "fr": "éprouvent",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.833,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7601
+    },
+    {
+      "component_id": "en:breeze",
+      "semantic_strings": [
+        "en:breeze",
+        "fr:brise"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:breeds",
+      "path": [
+        "fr:brise",
+        "en:breeds"
+      ],
+      "path_edge_scores": [
+        0.822
+      ],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "breeds",
+          "fr": "bride",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "breeds",
+          "fr": "brise",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "breeds",
+          "fr": "bridge",
+          "score": 0.81,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.822,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7585
+    },
+    {
+      "component_id": "en:breeze",
+      "semantic_strings": [
+        "en:breeze",
+        "fr:brise"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:brisées",
+      "path": [
+        "en:breeze",
+        "fr:brisées"
+      ],
+      "path_edge_scores": [
+        0.822
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "breeze",
+          "fr": "brisées",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.822,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7585
+    },
+    {
+      "component_id": "en:breeze",
+      "semantic_strings": [
+        "en:breeze",
+        "fr:brise"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:brisés",
+      "path": [
+        "en:breeze",
+        "fr:brisés"
+      ],
+      "path_edge_scores": [
+        0.822
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "breeze",
+          "fr": "brisés",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.822,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7585
+    },
+    {
+      "component_id": "en:proves",
+      "semantic_strings": [
+        "en:prove",
+        "en:proves",
+        "fr:prouve"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:proved",
+      "path": [
+        "fr:prouve",
+        "en:proved"
+      ],
+      "path_edge_scores": [
+        0.822
+      ],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "proved",
+          "fr": "prouve",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "proved",
+          "fr": "prouvent",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.822,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7585
+    },
+    {
+      "component_id": "en:western",
+      "semantic_strings": [
+        "en:west",
+        "en:western",
+        "fr:ouest"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:quest",
+      "path": [
+        "fr:ouest",
+        "en:quest"
+      ],
+      "path_edge_scores": [
+        0.822
+      ],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "quest",
+          "fr": "couette",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "quest",
+          "fr": "ouest",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.822,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7585
+    },
+    {
+      "component_id": "en:rose",
+      "semantic_strings": [
+        "en:rose",
+        "fr:roses"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 2,
+      "node": "fr:rose",
+      "path": [
+        "fr:roses",
+        "en:rows",
+        "fr:rose"
+      ],
+      "path_edge_scores": [
+        0.833,
+        0.833
+      ],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "destroys",
+          "fr": "dissent rose",
+          "score": 0.96,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "rows",
+          "fr": "rose",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.96,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.743
+    },
+    {
+      "component_id": "en:proves",
+      "semantic_strings": [
+        "en:prove",
+        "en:proves",
+        "fr:prouve"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:proof",
+      "path": [
+        "fr:prouve",
+        "en:proof"
+      ],
+      "path_edge_scores": [
+        0.785
+      ],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "proof",
+          "fr": "prouve",
+          "score": 0.785,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "proof",
+          "fr": "prouvent",
+          "score": 0.785,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "proof",
+          "fr": "proue",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.785,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.74
+    },
+    {
+      "component_id": "en:western",
+      "semantic_strings": [
+        "en:west",
+        "en:western",
+        "fr:ouest"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:worst",
+      "path": [
+        "fr:ouest",
+        "en:worst"
+      ],
+      "path_edge_scores": [
+        0.785
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "worst",
+          "fr": "ouest",
+          "score": 0.785,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.785,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.74
+    },
+    {
+      "component_id": "en:western",
+      "semantic_strings": [
+        "en:west",
+        "en:western",
+        "fr:ouest"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:wet",
+      "path": [
+        "fr:ouest",
+        "en:wet"
+      ],
+      "path_edge_scores": [
+        0.781
+      ],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "wet",
+          "fr": "chouettes",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "wet",
+          "fr": "couette",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "wet",
+          "fr": "ouest",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.781,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.738
+    },
+    {
+      "component_id": "en:breeze",
+      "semantic_strings": [
+        "en:breeze",
+        "fr:brise"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 2,
+      "node": "fr:bise",
+      "path": [
+        "fr:brise",
+        "en:bees",
+        "fr:bise"
+      ],
+      "path_edge_scores": [
+        0.781,
+        1.0
+      ],
+      "attached_count": 8,
+      "attachments": [
+        {
+          "en": "bees",
+          "fr": "bise",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "beads",
+          "fr": "bise",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "beams",
+          "fr": "bise",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "beans",
+          "fr": "bise",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "beers",
+          "fr": "bise",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "peas",
+          "fr": "bise",
+          "score": 0.73,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "pease",
+          "fr": "bise",
+          "score": 0.73,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "pees",
+          "fr": "bise",
+          "score": 0.73,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7292
+    },
+    {
+      "component_id": "en:breeze",
+      "semantic_strings": [
+        "en:breeze",
+        "fr:brise"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 2,
+      "node": "fr:bises",
+      "path": [
+        "fr:brise",
+        "en:bees",
+        "fr:bises"
+      ],
+      "path_edge_scores": [
+        0.781,
+        1.0
+      ],
+      "attached_count": 8,
+      "attachments": [
+        {
+          "en": "bees",
+          "fr": "bises",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "beads",
+          "fr": "bises",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "beams",
+          "fr": "bises",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "beans",
+          "fr": "bises",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "beers",
+          "fr": "bises",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "peas",
+          "fr": "bises",
+          "score": 0.73,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "pease",
+          "fr": "bises",
+          "score": 0.73,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "pees",
+          "fr": "bises",
+          "score": 0.73,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7292
+    },
+    {
+      "component_id": "en:western",
+      "semantic_strings": [
+        "en:west",
+        "en:western",
+        "fr:ouest"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:waist",
+      "path": [
+        "fr:ouest",
+        "en:waist"
+      ],
+      "path_edge_scores": [
+        0.758
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "waist",
+          "fr": "ouest",
+          "score": 0.758,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.758,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7265
+    },
+    {
+      "component_id": "en:proves",
+      "semantic_strings": [
+        "en:prove",
+        "en:proves",
+        "fr:prouve"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 2,
+      "node": "en:approve",
+      "path": [
+        "en:prove",
+        "fr:prouvent",
+        "en:approve"
+      ],
+      "path_edge_scores": [
+        1.0,
+        0.822
+      ],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "approve",
+          "fr": "éprouve",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "approve",
+          "fr": "éprouvent",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "approve",
+          "fr": "prouvent",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.833,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7113
+    },
+    {
+      "component_id": "en:roses",
+      "semantic_strings": [
+        "en:roses",
+        "fr:rose"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 2,
+      "node": "fr:roses",
+      "path": [
+        "fr:rose",
+        "en:rows",
+        "fr:roses"
+      ],
+      "path_edge_scores": [
+        0.833,
+        0.833
+      ],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "rose",
+          "fr": "roses",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "rows",
+          "fr": "roses",
+          "score": 0.833,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.833,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.684
+    },
+    {
+      "component_id": "en:proves",
+      "semantic_strings": [
+        "en:prove",
+        "en:proves",
+        "fr:prouve"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 2,
+      "node": "fr:proue",
+      "path": [
+        "fr:prouve",
+        "en:proof",
+        "fr:proue"
+      ],
+      "path_edge_scores": [
+        0.785,
+        0.781
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "proof",
+          "fr": "proue",
+          "score": 0.781,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.781,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.6587
+    }
+  ]
+}

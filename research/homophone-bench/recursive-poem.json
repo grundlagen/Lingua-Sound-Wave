@@ -18,14 +18,14 @@
         "dream",
         "prove"
       ],
-      "candidate_count": 1285,
+      "candidate_count": 933,
       "poem": {
-        "en": "breeze proves rose\nbell dream\nwest air rose\nbreeze proves dream",
-        "fr": "brise prouve roses\nbelle rime\nouest airs roses\nbrise prouve rime",
+        "en": "breeze proves rose\nair dream\nwest air rose\nbreeze proves dream",
+        "fr": "brise prouve roses\nairs rime\nouest airs roses\nbrise prouve rime",
         "lines": [
           {
             "pattern": "breeze proves rose",
-            "score": 1.314,
+            "score": 1.343,
             "en": "breeze proves rose",
             "fr": "brise prouve roses",
             "units": [
@@ -91,7 +91,7 @@
                 "chunk_recipe": "",
                 "meaning_weight": 0.95,
                 "seed_weight": 1.0,
-                "walk_weight": 0.0,
+                "walk_weight": 0.872,
                 "fr_plausibility": 0.695,
                 "en_plausibility": 0.803,
                 "tags": [
@@ -101,10 +101,11 @@
                   "image",
                   "nature"
                 ],
-                "base_score": 0.799,
+                "base_score": 0.8862,
                 "why": [
                   "meaning=0.95",
-                  "seed=1.00"
+                  "seed=1.00",
+                  "walk=0.87"
                 ]
               }
             ],
@@ -117,35 +118,36 @@
             ]
           },
           {
-            "pattern": "bell dream",
-            "score": 1.179,
-            "en": "bell dream",
-            "fr": "belle rime",
+            "pattern": "air dream",
+            "score": 1.23,
+            "en": "air dream",
+            "fr": "airs rime",
             "units": [
               {
-                "id": "dict:49",
-                "en": "bell",
-                "fr": "belle",
+                "id": "dict:1",
+                "en": "air",
+                "fr": "airs",
                 "score": 1.0,
                 "tier": "S",
                 "kind": "whole",
                 "source_stage": "v5.1_reviewed",
                 "chunk_recipe": "",
-                "meaning_weight": 0.72,
+                "meaning_weight": 0.95,
                 "seed_weight": 1.0,
-                "walk_weight": 0.907,
-                "fr_plausibility": 0.885,
-                "en_plausibility": 0.765,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.668,
+                "en_plausibility": 0.895,
                 "tags": [
                   "echo",
                   "image",
+                  "nature",
                   "sound"
                 ],
-                "base_score": 0.9049,
+                "base_score": 0.9556,
                 "why": [
-                  "meaning=0.72",
+                  "meaning=0.95",
                   "seed=1.00",
-                  "walk=0.91"
+                  "walk=0.98"
                 ]
               },
               {
@@ -174,7 +176,7 @@
                 ]
               }
             ],
-            "semantic_mean": 0.36,
+            "semantic_mean": 0.475,
             "sound_mean": 0.891,
             "kinds": [
               "whole",
@@ -183,7 +185,7 @@
           },
           {
             "pattern": "west air rose",
-            "score": 1.397,
+            "score": 1.399,
             "en": "west air rose",
             "fr": "ouest airs roses",
             "units": [
@@ -252,7 +254,7 @@
                 "chunk_recipe": "",
                 "meaning_weight": 0.95,
                 "seed_weight": 1.0,
-                "walk_weight": 0.0,
+                "walk_weight": 0.872,
                 "fr_plausibility": 0.695,
                 "en_plausibility": 0.803,
                 "tags": [
@@ -262,10 +264,11 @@
                   "image",
                   "nature"
                 ],
-                "base_score": 0.799,
+                "base_score": 0.8862,
                 "why": [
                   "meaning=0.95",
-                  "seed=1.00"
+                  "seed=1.00",
+                  "walk=0.87"
                 ]
               }
             ],
@@ -369,7 +372,7 @@
             ]
           }
         ],
-        "semantic_mean": 0.723,
+        "semantic_mean": 0.752,
         "sound_mean": 0.897
       }
     },
@@ -382,23 +385,23 @@
         "brise",
         "ouest",
         "west",
-        "bell",
-        "belle",
-        "prouve",
-        "proves",
         "rose",
         "roses",
+        "prouve",
+        "proves",
         "dream",
-        "rime"
+        "rime",
+        "bell",
+        "prove"
       ],
-      "candidate_count": 1285,
+      "candidate_count": 933,
       "poem": {
-        "en": "breeze proves rose\nbell dream\nwest air rose\nbreeze proves dream",
-        "fr": "brise prouve roses\nbelle rime\nouest airs roses\nbrise prouve rime",
+        "en": "breeze proves rose\nair dream\nwest air rose\nbreeze proves dream",
+        "fr": "brise prouve roses\nairs rime\nouest airs roses\nbrise prouve rime",
         "lines": [
           {
             "pattern": "breeze proves rose",
-            "score": 1.326,
+            "score": 1.355,
             "en": "breeze proves rose",
             "fr": "brise prouve roses",
             "units": [
@@ -464,7 +467,7 @@
                 "chunk_recipe": "",
                 "meaning_weight": 0.95,
                 "seed_weight": 1.0,
-                "walk_weight": 0.0,
+                "walk_weight": 0.872,
                 "fr_plausibility": 0.695,
                 "en_plausibility": 0.803,
                 "tags": [
@@ -474,10 +477,11 @@
                   "image",
                   "nature"
                 ],
-                "base_score": 0.799,
+                "base_score": 0.8862,
                 "why": [
                   "meaning=0.95",
-                  "seed=1.00"
+                  "seed=1.00",
+                  "walk=0.87"
                 ]
               }
             ],
@@ -490,35 +494,36 @@
             ]
           },
           {
-            "pattern": "bell dream",
-            "score": 1.179,
-            "en": "bell dream",
-            "fr": "belle rime",
+            "pattern": "air dream",
+            "score": 1.23,
+            "en": "air dream",
+            "fr": "airs rime",
             "units": [
               {
-                "id": "dict:49",
-                "en": "bell",
-                "fr": "belle",
+                "id": "dict:1",
+                "en": "air",
+                "fr": "airs",
                 "score": 1.0,
                 "tier": "S",
                 "kind": "whole",
                 "source_stage": "v5.1_reviewed",
                 "chunk_recipe": "",
-                "meaning_weight": 0.72,
+                "meaning_weight": 0.95,
                 "seed_weight": 1.0,
-                "walk_weight": 0.907,
-                "fr_plausibility": 0.885,
-                "en_plausibility": 0.765,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.668,
+                "en_plausibility": 0.895,
                 "tags": [
                   "echo",
                   "image",
+                  "nature",
                   "sound"
                 ],
-                "base_score": 0.9049,
+                "base_score": 0.9556,
                 "why": [
-                  "meaning=0.72",
+                  "meaning=0.95",
                   "seed=1.00",
-                  "walk=0.91"
+                  "walk=0.98"
                 ]
               },
               {
@@ -547,7 +552,7 @@
                 ]
               }
             ],
-            "semantic_mean": 0.36,
+            "semantic_mean": 0.475,
             "sound_mean": 0.891,
             "kinds": [
               "whole",
@@ -556,7 +561,7 @@
           },
           {
             "pattern": "west air rose",
-            "score": 1.397,
+            "score": 1.399,
             "en": "west air rose",
             "fr": "ouest airs roses",
             "units": [
@@ -625,7 +630,7 @@
                 "chunk_recipe": "",
                 "meaning_weight": 0.95,
                 "seed_weight": 1.0,
-                "walk_weight": 0.0,
+                "walk_weight": 0.872,
                 "fr_plausibility": 0.695,
                 "en_plausibility": 0.803,
                 "tags": [
@@ -635,10 +640,11 @@
                   "image",
                   "nature"
                 ],
-                "base_score": 0.799,
+                "base_score": 0.8862,
                 "why": [
                   "meaning=0.95",
-                  "seed=1.00"
+                  "seed=1.00",
+                  "walk=0.87"
                 ]
               }
             ],
@@ -742,7 +748,7 @@
             ]
           }
         ],
-        "semantic_mean": 0.723,
+        "semantic_mean": 0.752,
         "sound_mean": 0.897
       }
     },
@@ -757,21 +763,21 @@
         "west",
         "prouve",
         "proves",
-        "bell",
-        "belle",
         "rose",
         "roses",
         "dream",
-        "rime"
+        "rime",
+        "bell",
+        "prove"
       ],
-      "candidate_count": 1285,
+      "candidate_count": 933,
       "poem": {
-        "en": "breeze proves rose\nbell dream\nwest air rose\nbreeze proves dream",
-        "fr": "brise prouve roses\nbelle rime\nouest airs roses\nbrise prouve rime",
+        "en": "breeze proves rose\nair dream\nwest air rose\nbreeze proves dream",
+        "fr": "brise prouve roses\nairs rime\nouest airs roses\nbrise prouve rime",
         "lines": [
           {
             "pattern": "breeze proves rose",
-            "score": 1.326,
+            "score": 1.355,
             "en": "breeze proves rose",
             "fr": "brise prouve roses",
             "units": [
@@ -837,7 +843,7 @@
                 "chunk_recipe": "",
                 "meaning_weight": 0.95,
                 "seed_weight": 1.0,
-                "walk_weight": 0.0,
+                "walk_weight": 0.872,
                 "fr_plausibility": 0.695,
                 "en_plausibility": 0.803,
                 "tags": [
@@ -847,10 +853,11 @@
                   "image",
                   "nature"
                 ],
-                "base_score": 0.799,
+                "base_score": 0.8862,
                 "why": [
                   "meaning=0.95",
-                  "seed=1.00"
+                  "seed=1.00",
+                  "walk=0.87"
                 ]
               }
             ],
@@ -863,35 +870,36 @@
             ]
           },
           {
-            "pattern": "bell dream",
-            "score": 1.179,
-            "en": "bell dream",
-            "fr": "belle rime",
+            "pattern": "air dream",
+            "score": 1.23,
+            "en": "air dream",
+            "fr": "airs rime",
             "units": [
               {
-                "id": "dict:49",
-                "en": "bell",
-                "fr": "belle",
+                "id": "dict:1",
+                "en": "air",
+                "fr": "airs",
                 "score": 1.0,
                 "tier": "S",
                 "kind": "whole",
                 "source_stage": "v5.1_reviewed",
                 "chunk_recipe": "",
-                "meaning_weight": 0.72,
+                "meaning_weight": 0.95,
                 "seed_weight": 1.0,
-                "walk_weight": 0.907,
-                "fr_plausibility": 0.885,
-                "en_plausibility": 0.765,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.668,
+                "en_plausibility": 0.895,
                 "tags": [
                   "echo",
                   "image",
+                  "nature",
                   "sound"
                 ],
-                "base_score": 0.9049,
+                "base_score": 0.9556,
                 "why": [
-                  "meaning=0.72",
+                  "meaning=0.95",
                   "seed=1.00",
-                  "walk=0.91"
+                  "walk=0.98"
                 ]
               },
               {
@@ -920,7 +928,7 @@
                 ]
               }
             ],
-            "semantic_mean": 0.36,
+            "semantic_mean": 0.475,
             "sound_mean": 0.891,
             "kinds": [
               "whole",
@@ -929,7 +937,7 @@
           },
           {
             "pattern": "west air rose",
-            "score": 1.397,
+            "score": 1.399,
             "en": "west air rose",
             "fr": "ouest airs roses",
             "units": [
@@ -998,7 +1006,7 @@
                 "chunk_recipe": "",
                 "meaning_weight": 0.95,
                 "seed_weight": 1.0,
-                "walk_weight": 0.0,
+                "walk_weight": 0.872,
                 "fr_plausibility": 0.695,
                 "en_plausibility": 0.803,
                 "tags": [
@@ -1008,10 +1016,11 @@
                   "image",
                   "nature"
                 ],
-                "base_score": 0.799,
+                "base_score": 0.8862,
                 "why": [
                   "meaning=0.95",
-                  "seed=1.00"
+                  "seed=1.00",
+                  "walk=0.87"
                 ]
               }
             ],
@@ -1115,18 +1124,18 @@
             ]
           }
         ],
-        "semantic_mean": 0.723,
+        "semantic_mean": 0.752,
         "sound_mean": 0.897
       }
     }
   ],
   "final": {
-    "en": "breeze proves rose\nbell dream\nwest air rose\nbreeze proves dream",
-    "fr": "brise prouve roses\nbelle rime\nouest airs roses\nbrise prouve rime",
+    "en": "breeze proves rose\nair dream\nwest air rose\nbreeze proves dream",
+    "fr": "brise prouve roses\nairs rime\nouest airs roses\nbrise prouve rime",
     "lines": [
       {
         "pattern": "breeze proves rose",
-        "score": 1.326,
+        "score": 1.355,
         "en": "breeze proves rose",
         "fr": "brise prouve roses",
         "units": [
@@ -1192,7 +1201,7 @@
             "chunk_recipe": "",
             "meaning_weight": 0.95,
             "seed_weight": 1.0,
-            "walk_weight": 0.0,
+            "walk_weight": 0.872,
             "fr_plausibility": 0.695,
             "en_plausibility": 0.803,
             "tags": [
@@ -1202,10 +1211,11 @@
               "image",
               "nature"
             ],
-            "base_score": 0.799,
+            "base_score": 0.8862,
             "why": [
               "meaning=0.95",
-              "seed=1.00"
+              "seed=1.00",
+              "walk=0.87"
             ]
           }
         ],
@@ -1218,35 +1228,36 @@
         ]
       },
       {
-        "pattern": "bell dream",
-        "score": 1.179,
-        "en": "bell dream",
-        "fr": "belle rime",
+        "pattern": "air dream",
+        "score": 1.23,
+        "en": "air dream",
+        "fr": "airs rime",
         "units": [
           {
-            "id": "dict:49",
-            "en": "bell",
-            "fr": "belle",
+            "id": "dict:1",
+            "en": "air",
+            "fr": "airs",
             "score": 1.0,
             "tier": "S",
             "kind": "whole",
             "source_stage": "v5.1_reviewed",
             "chunk_recipe": "",
-            "meaning_weight": 0.72,
+            "meaning_weight": 0.95,
             "seed_weight": 1.0,
-            "walk_weight": 0.907,
-            "fr_plausibility": 0.885,
-            "en_plausibility": 0.765,
+            "walk_weight": 0.983,
+            "fr_plausibility": 0.668,
+            "en_plausibility": 0.895,
             "tags": [
               "echo",
               "image",
+              "nature",
               "sound"
             ],
-            "base_score": 0.9049,
+            "base_score": 0.9556,
             "why": [
-              "meaning=0.72",
+              "meaning=0.95",
               "seed=1.00",
-              "walk=0.91"
+              "walk=0.98"
             ]
           },
           {
@@ -1275,7 +1286,7 @@
             ]
           }
         ],
-        "semantic_mean": 0.36,
+        "semantic_mean": 0.475,
         "sound_mean": 0.891,
         "kinds": [
           "whole",
@@ -1284,7 +1295,7 @@
       },
       {
         "pattern": "west air rose",
-        "score": 1.397,
+        "score": 1.399,
         "en": "west air rose",
         "fr": "ouest airs roses",
         "units": [
@@ -1353,7 +1364,7 @@
             "chunk_recipe": "",
             "meaning_weight": 0.95,
             "seed_weight": 1.0,
-            "walk_weight": 0.0,
+            "walk_weight": 0.872,
             "fr_plausibility": 0.695,
             "en_plausibility": 0.803,
             "tags": [
@@ -1363,10 +1374,11 @@
               "image",
               "nature"
             ],
-            "base_score": 0.799,
+            "base_score": 0.8862,
             "why": [
               "meaning=0.95",
-              "seed=1.00"
+              "seed=1.00",
+              "walk=0.87"
             ]
           }
         ],
@@ -1470,7 +1482,7 @@
         ]
       }
     ],
-    "semantic_mean": 0.723,
+    "semantic_mean": 0.752,
     "sound_mean": 0.897
   }
 }

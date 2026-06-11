@@ -12,6 +12,7 @@ COMMANDS = {
     "finalize": "finalize",
     "compose-lots": "compose_lots",
     "recursive-poet": "recursive_poet",
+    "round-rabbit": "round_rabbit",
     "mapping-web": "mapping_web",
     "smoke": "smoke_test",
 }

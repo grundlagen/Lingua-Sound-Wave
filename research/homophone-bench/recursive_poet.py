@@ -31,7 +31,7 @@ TOKEN_RE = re.compile(r"[A-Za-zÀ-ÿ']+")
 DEFAULT_THEME = "west air breeze rose bell dream prove"
 DEFAULT_PATTERNS = [
     ("breeze proves rose", ["breeze", "prove3", "rose"]),
-    ("bell dream", ["bell", "dream"]),
+    ("air dream", ["air", "dream"]),
     ("west air rose", ["west", "air", "rose"]),
     ("breeze proves dream", ["breeze", "prove3", "dream"]),
 ]
