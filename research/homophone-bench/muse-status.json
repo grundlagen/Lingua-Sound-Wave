@@ -1,0 +1,11 @@
+{
+  "searched": [
+    "/home/mint/Desktop/projects for coding/Lingua-Sound-Wave/research/homophone-bench",
+    "/home/mint/Downloads"
+  ],
+  "found": [
+    "/home/mint/Downloads/nemotron-3-ultra-550b-a55b Model by NVIDIA _ NVIDIA NIM.pdf"
+  ],
+  "muse_embedding_found": false,
+  "note": "No MUSE-named embedding/file found; Nemotron PDF is tracked as an external reference if present."
+}

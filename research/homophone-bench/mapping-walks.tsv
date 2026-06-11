@@ -1,0 +1,501 @@
+walk_type	sound_score	meaning_weight	next_sound_score	start	sound_fr	echo_en	echo_fr	trace
+sound->meaning->sound	1.0	0.95	1.0	en:air	fr:airs	en:air	fr:aires	en:air -> fr:airs -> en:air -> fr:aires
+sound->meaning->sound	1.0	0.95	1.0	en:beep	fr:bip	en:beep	fr:bip	en:beep -> fr:bip -> en:beep -> fr:bip
+sound->meaning->sound	1.0	0.95	1.0	en:bell	fr:belles	en:belle	fr:bel	en:bell -> fr:belles -> en:belle -> fr:bel
+sound->meaning->sound	1.0	0.95	1.0	en:belle	fr:belles	en:belle	fr:bel	en:belle -> fr:belles -> en:belle -> fr:bel
+sound->meaning->sound	1.0	0.95	1.0	en:boom	fr:booms	en:boom	fr:booms	en:boom -> fr:booms -> en:boom -> fr:booms
+sound->meaning->sound	1.0	0.95	1.0	en:boom	fr:boum	en:boom	fr:booms	en:boom -> fr:boum -> en:boom -> fr:booms
+sound->meaning->sound	1.0	0.95	1.0	en:boutique	fr:boutiques	en:boutique	fr:boutiques	en:boutique -> fr:boutiques -> en:boutique -> fr:boutiques
+sound->meaning->sound	1.0	0.95	1.0	en:braes	fr:brise	en:breeze	fr:brise	en:braes -> fr:brise -> en:breeze -> fr:brise
+sound->meaning->sound	1.0	0.95	1.0	en:breeze	fr:brise	en:breeze	fr:brise	en:breeze -> fr:brise -> en:breeze -> fr:brise
+sound->meaning->sound	1.0	0.95	1.0	en:chef	fr:chefs	en:chef	fr:chefs	en:chef -> fr:chefs -> en:chef -> fr:chefs
+sound->meaning->sound	1.0	0.95	1.0	en:chic	fr:chics	en:chic	fr:chics	en:chic -> fr:chics -> en:chic -> fr:chics
+sound->meaning->sound	1.0	0.95	1.0	en:chute	fr:shoots	en:shoot	fr:choute	en:chute -> fr:shoots -> en:shoot -> fr:choute
+sound->meaning->sound	1.0	0.95	1.0	en:cooper	fr:coupes	en:coupe	fr:coupent	en:cooper -> fr:coupes -> en:coupe -> fr:coupent
+sound->meaning->sound	1.0	0.95	1.0	en:coup	fr:coupes	en:coupe	fr:coupent	en:coup -> fr:coupes -> en:coupe -> fr:coupent
+sound->meaning->sound	1.0	0.95	1.0	en:coupe	fr:coupes	en:coupe	fr:coupent	en:coupe -> fr:coupes -> en:coupe -> fr:coupent
+sound->meaning->sound	1.0	0.95	1.0	en:debt	fr:dette	en:debt	fr:dette	en:debt -> fr:dette -> en:debt -> fr:dette
+sound->meaning->sound	1.0	0.95	1.0	en:debt	fr:dettes	en:debt	fr:dette	en:debt -> fr:dettes -> en:debt -> fr:dette
+sound->meaning->sound	1.0	0.95	1.0	en:enemy	fr:ennemies	en:enemy	fr:ennemies	en:enemy -> fr:ennemies -> en:enemy -> fr:ennemies
+sound->meaning->sound	1.0	0.95	1.0	en:error	fr:airs	en:air	fr:aires	en:error -> fr:airs -> en:air -> fr:aires
+sound->meaning->sound	1.0	0.95	1.0	en:escort	fr:escorte	en:escort	fr:escorte	en:escort -> fr:escorte -> en:escort -> fr:escorte
+sound->meaning->sound	1.0	0.95	1.0	en:esteem	fr:estime	en:esteem	fr:estime	en:esteem -> fr:estime -> en:esteem -> fr:estime
+sound->meaning->sound	1.0	0.95	1.0	en:express	fr:expresse	en:express	fr:expresse	en:express -> fr:expresse -> en:express -> fr:expresse
+sound->meaning->sound	1.0	0.95	1.0	en:form	fr:forme	en:form	fr:forme	en:form -> fr:forme -> en:form -> fr:forme
+sound->meaning->sound	1.0	0.95	1.0	en:form	fr:formes	en:form	fr:forme	en:form -> fr:formes -> en:form -> fr:forme
+sound->meaning->sound	1.0	0.95	1.0	en:former	fr:forme	en:form	fr:forme	en:former -> fr:forme -> en:form -> fr:forme
+sound->meaning->sound	1.0	0.95	1.0	en:former	fr:formes	en:form	fr:forme	en:former -> fr:formes -> en:form -> fr:forme
+sound->meaning->sound	1.0	0.95	1.0	en:fresh	fr:fraîche	en:fresh	fr:fraîche	en:fresh -> fr:fraîche -> en:fresh -> fr:fraîche
+sound->meaning->sound	1.0	0.95	1.0	en:fresh	fr:fraîches	en:fresh	fr:fraîche	en:fresh -> fr:fraîches -> en:fresh -> fr:fraîche
+sound->meaning->sound	1.0	0.95	1.0	en:group	fr:groupe	en:group	fr:groupe	en:group -> fr:groupe -> en:group -> fr:groupe
+sound->meaning->sound	1.0	0.95	1.0	en:group	fr:groupes	en:group	fr:groupe	en:group -> fr:groupes -> en:group -> fr:groupe
+sound->meaning->sound	1.0	0.95	1.0	en:heir	fr:airs	en:air	fr:aires	en:heir -> fr:airs -> en:air -> fr:aires
+sound->meaning->sound	1.0	0.95	1.0	en:jet	fr:jets	en:jet	fr:jets	en:jet -> fr:jets -> en:jet -> fr:jets
+sound->meaning->sound	1.0	0.95	1.0	en:kiwi	fr:kiwis	en:kiwi	fr:kiwis	en:kiwi -> fr:kiwis -> en:kiwi -> fr:kiwis
+sound->meaning->sound	1.0	0.95	1.0	en:league	fr:ligue	en:league	fr:ligue	en:league -> fr:ligue -> en:league -> fr:ligue
+sound->meaning->sound	1.0	0.95	1.0	en:league	fr:ligues	en:league	fr:ligue	en:league -> fr:ligues -> en:league -> fr:ligue
+sound->meaning->sound	1.0	0.95	1.0	en:lord	fr:lords	en:lord	fr:lords	en:lord -> fr:lords -> en:lord -> fr:lords
+sound->meaning->sound	1.0	0.95	1.0	en:moose	fr:mousses	en:mousse	fr:moussent	en:moose -> fr:mousses -> en:mousse -> fr:moussent
+sound->meaning->sound	1.0	0.95	1.0	en:mousse	fr:mousses	en:mousse	fr:moussent	en:mousse -> fr:mousses -> en:mousse -> fr:moussent
+sound->meaning->sound	1.0	0.95	1.0	en:net	fr:nets	en:net	fr:nets	en:net -> fr:nets -> en:net -> fr:nets
+sound->meaning->sound	1.0	0.95	1.0	en:niche	fr:niches	en:niche	fr:niches	en:niche -> fr:niches -> en:niche -> fr:niches
+sound->meaning->sound	1.0	0.95	1.0	en:norm	fr:norme	en:norm	fr:nomment	en:norm -> fr:norme -> en:norm -> fr:nomment
+sound->meaning->sound	1.0	0.95	1.0	en:norm	fr:normes	en:norm	fr:nomment	en:norm -> fr:normes -> en:norm -> fr:nomment
+sound->meaning->sound	1.0	0.95	1.0	en:peace	fr:pisse	en:pees	fr:pise	en:peace -> fr:pisse -> en:pees -> fr:pise
+sound->meaning->sound	1.0	0.95	1.0	en:peace	fr:pisses	en:pees	fr:pise	en:peace -> fr:pisses -> en:pees -> fr:pise
+sound->meaning->sound	1.0	0.95	1.0	en:peak	fr:pic	en:peak	fr:pic	en:peak -> fr:pic -> en:peak -> fr:pic
+sound->meaning->sound	1.0	0.95	1.0	en:peak	fr:pics	en:peak	fr:pic	en:peak -> fr:pics -> en:peak -> fr:pic
+sound->meaning->sound	1.0	0.95	1.0	en:peek	fr:pic	en:peak	fr:pic	en:peek -> fr:pic -> en:peak -> fr:pic
+sound->meaning->sound	1.0	0.95	1.0	en:peek	fr:pics	en:peak	fr:pic	en:peek -> fr:pics -> en:peak -> fr:pic
+sound->meaning->sound	1.0	0.95	1.0	en:pest	fr:peste	en:pest	fr:peste	en:pest -> fr:peste -> en:pest -> fr:peste
+sound->meaning->sound	1.0	0.95	1.0	en:pest	fr:pestes	en:pest	fr:peste	en:pest -> fr:pestes -> en:pest -> fr:peste
+sound->meaning->sound	1.0	0.95	1.0	en:petite	fr:petites	en:petite	fr:petites	en:petite -> fr:petites -> en:petite -> fr:petites
+sound->meaning->sound	1.0	0.95	1.0	en:piece	fr:pisse	en:pees	fr:pise	en:piece -> fr:pisse -> en:pees -> fr:pise
+sound->meaning->sound	1.0	0.95	1.0	en:piece	fr:pisses	en:pees	fr:pise	en:piece -> fr:pisses -> en:pees -> fr:pise
+sound->meaning->sound	1.0	0.95	1.0	en:poof	fr:pouf	en:poof	fr:pouf	en:poof -> fr:pouf -> en:poof -> fr:pouf
+sound->meaning->sound	1.0	0.95	1.0	en:poof	fr:poufs	en:poof	fr:pouf	en:poof -> fr:poufs -> en:poof -> fr:pouf
+sound->meaning->sound	1.0	0.95	1.0	en:press	fr:presse	en:press	fr:presse	en:press -> fr:presse -> en:press -> fr:presse
+sound->meaning->sound	1.0	0.95	1.0	en:prove	fr:prouve	en:prove	fr:prouve	en:prove -> fr:prouve -> en:prove -> fr:prouve
+sound->meaning->sound	1.0	0.95	1.0	en:quiche	fr:quiches	en:quiche	fr:quiches	en:quiche -> fr:quiches -> en:quiche -> fr:quiches
+sound->meaning->sound	1.0	0.95	1.0	en:root	fr:routes	en:route	fr:routes	en:root -> fr:routes -> en:route -> fr:routes
+sound->meaning->sound	1.0	0.95	1.0	en:rouge	fr:rouges	en:rouge	fr:rouges	en:rouge -> fr:rouges -> en:rouge -> fr:rouges
+sound->meaning->sound	1.0	0.95	1.0	en:route	fr:routes	en:route	fr:routes	en:route -> fr:routes -> en:route -> fr:routes
+sound->meaning->sound	1.0	0.95	1.0	en:scoop	fr:scoops	en:scoop	fr:scoops	en:scoop -> fr:scoops -> en:scoop -> fr:scoops
+sound->meaning->sound	1.0	0.95	1.0	en:sec	fr:secs	en:sec	fr:secs	en:sec -> fr:secs -> en:sec -> fr:secs
+sound->meaning->sound	1.0	0.95	1.0	en:secs	fr:sexe	en:sex	fr:sexe	en:secs -> fr:sexe -> en:sex -> fr:sexe
+sound->meaning->sound	1.0	0.95	1.0	en:sect	fr:secte	en:sect	fr:secte	en:sect -> fr:secte -> en:sect -> fr:secte
+sound->meaning->sound	1.0	0.95	1.0	en:sect	fr:sectes	en:sect	fr:secte	en:sect -> fr:sectes -> en:sect -> fr:secte
+sound->meaning->sound	1.0	0.95	1.0	en:sector	fr:secte	en:sect	fr:secte	en:sector -> fr:secte -> en:sect -> fr:secte
+sound->meaning->sound	1.0	0.95	1.0	en:sector	fr:sectes	en:sect	fr:secte	en:sector -> fr:sectes -> en:sect -> fr:secte
+sound->meaning->sound	1.0	0.95	1.0	en:sex	fr:sexe	en:sex	fr:sexe	en:sex -> fr:sexe -> en:sex -> fr:sexe
+sound->meaning->sound	1.0	0.95	1.0	en:sex	fr:sexes	en:sex	fr:sexe	en:sex -> fr:sexes -> en:sex -> fr:sexe
+sound->meaning->sound	1.0	0.95	1.0	en:shoot	fr:shoots	en:shoot	fr:choute	en:shoot -> fr:shoots -> en:shoot -> fr:choute
+sound->meaning->sound	1.0	0.95	1.0	en:ski	fr:skis	en:ski	fr:skie	en:ski -> fr:skis -> en:ski -> fr:skie
+sound->meaning->sound	1.0	0.95	1.0	en:sort	fr:sorte	en:sort	fr:sorte	en:sort -> fr:sorte -> en:sort -> fr:sorte
+sound->meaning->sound	1.0	0.95	1.0	en:sort	fr:sortes	en:sort	fr:sorte	en:sort -> fr:sortes -> en:sort -> fr:sorte
+sound->meaning->sound	1.0	0.95	1.0	en:soup	fr:soupe	en:soup	fr:soupe	en:soup -> fr:soupe -> en:soup -> fr:soupe
+sound->meaning->sound	1.0	0.95	1.0	en:soup	fr:soupes	en:soup	fr:soupe	en:soup -> fr:soupes -> en:soup -> fr:soupe
+sound->meaning->sound	1.0	0.95	1.0	en:step	fr:steppes	en:steppe	fr:steppes	en:step -> fr:steppes -> en:steppe -> fr:steppes
+sound->meaning->sound	1.0	0.95	1.0	en:steppe	fr:steppes	en:steppe	fr:steppes	en:steppe -> fr:steppes -> en:steppe -> fr:steppes
+sound->meaning->sound	1.0	0.95	1.0	en:super	fr:soupe	en:soup	fr:soupe	en:super -> fr:soupe -> en:soup -> fr:soupe
+sound->meaning->sound	1.0	0.95	1.0	en:tea	fr:tees	en:tee	fr:tees	en:tea -> fr:tees -> en:tee -> fr:tees
+sound->meaning->sound	1.0	0.95	1.0	en:technique	fr:techniques	en:technique	fr:techniques	en:technique -> fr:techniques -> en:technique -> fr:techniques
+sound->meaning->sound	1.0	0.95	1.0	en:tee	fr:tees	en:tee	fr:tees	en:tee -> fr:tees -> en:tee -> fr:tees
+sound->meaning->sound	1.0	0.95	1.0	en:tel	fr:tels	en:tel	fr:telle	en:tel -> fr:tels -> en:tel -> fr:telle
+sound->meaning->sound	1.0	0.95	1.0	en:tell	fr:tels	en:tel	fr:telle	en:tell -> fr:tels -> en:tel -> fr:telle
+sound->meaning->sound	1.0	0.95	1.0	en:test	fr:tests	en:test	fr:teste	en:test -> fr:tests -> en:test -> fr:teste
+sound->meaning->sound	1.0	0.95	1.0	en:troop	fr:troupe	en:troop	fr:troupe	en:troop -> fr:troupe -> en:troop -> fr:troupe
+sound->meaning->sound	1.0	0.95	1.0	en:troop	fr:troupes	en:troop	fr:troupe	en:troop -> fr:troupes -> en:troop -> fr:troupe
+sound->meaning->sound	1.0	0.95	1.0	en:troupe	fr:troupes	en:troop	fr:troupe	en:troupe -> fr:troupes -> en:troop -> fr:troupe
+sound->meaning->sound	1.0	0.95	1.0	en:tweed	fr:tweeds	en:tweed	fr:tweeds	en:tweed -> fr:tweeds -> en:tweed -> fr:tweeds
+sound->meaning->sound	1.0	0.95	1.0	en:west	fr:ouest	en:west	fr:ouest	en:west -> fr:ouest -> en:west -> fr:ouest
+sound->meaning->sound	1.0	0.95	1.0	en:yen	fr:yens	en:yen	fr:yens	en:yen -> fr:yens -> en:yen -> fr:yens
+sound->meaning->sound	1.0	0.95	1.0	en:zest	fr:zeste	en:zest	fr:zeste	en:zest -> fr:zeste -> en:zest -> fr:zeste
+sound->meaning->sound	1.0	0.95	1.0	en:zest	fr:zestes	en:zest	fr:zeste	en:zest -> fr:zestes -> en:zest -> fr:zeste
+sound->meaning->sound	1.0	0.95	1.0	en:zoom	fr:zooms	en:zoom	fr:zoome	en:zoom -> fr:zooms -> en:zoom -> fr:zoome
+sound->meaning->sound	1.0	0.95	0.96	en:west	fr:ouest	en:western	fr:ouais tonnes	en:west -> fr:ouest -> en:western -> fr:ouais tonnes
+sound->meaning->sound	1.0	0.88	1.0	en:around	fr:round	en:around	fr:round	en:around -> fr:round -> en:around -> fr:round
+sound->meaning->sound	1.0	0.88	1.0	en:aye	fr:eye	en:aye	fr:eye	en:aye -> fr:eye -> en:aye -> fr:eye
+sound->meaning->sound	1.0	0.88	1.0	en:buy	fr:bye	en:buy	fr:bye	en:buy -> fr:bye -> en:buy -> fr:bye
+sound->meaning->sound	1.0	0.88	1.0	en:buy	fr:bye	en:buyer	fr:bye	en:buy -> fr:bye -> en:buyer -> fr:bye
+sound->meaning->sound	1.0	0.88	1.0	en:buy	fr:bye	en:by	fr:bye	en:buy -> fr:bye -> en:by -> fr:bye
+sound->meaning->sound	1.0	0.88	1.0	en:buyer	fr:bye	en:buy	fr:bye	en:buyer -> fr:bye -> en:buy -> fr:bye
+sound->meaning->sound	1.0	0.88	1.0	en:buyer	fr:bye	en:buyer	fr:bye	en:buyer -> fr:bye -> en:buyer -> fr:bye
+sound->meaning->sound	1.0	0.88	1.0	en:buyer	fr:bye	en:by	fr:bye	en:buyer -> fr:bye -> en:by -> fr:bye
+sound->meaning->sound	1.0	0.88	1.0	en:by	fr:bye	en:buy	fr:bye	en:by -> fr:bye -> en:buy -> fr:bye
+sound->meaning->sound	1.0	0.88	1.0	en:by	fr:bye	en:buyer	fr:bye	en:by -> fr:bye -> en:buyer -> fr:bye
+sound->meaning->sound	1.0	0.88	1.0	en:by	fr:bye	en:by	fr:bye	en:by -> fr:bye -> en:by -> fr:bye
+sound->meaning->sound	1.0	0.88	1.0	en:fairy	fr:ferry	en:fairy	fr:ferry	en:fairy -> fr:ferry -> en:fairy -> fr:ferry
+sound->meaning->sound	1.0	0.88	1.0	en:fool	fr:full	en:fool	fr:foule	en:fool -> fr:full -> en:fool -> fr:foule
+sound->meaning->sound	1.0	0.88	1.0	en:liner	fr:line	en:liner	fr:line	en:liner -> fr:line -> en:liner -> fr:line
+sound->meaning->sound	1.0	0.88	1.0	en:ought	fr:hot	en:ought	fr:hot	en:ought -> fr:hot -> en:ought -> fr:hot
+sound->meaning->sound	1.0	0.88	1.0	en:role	fr:roll	en:role	fr:roll	en:role -> fr:roll -> en:role -> fr:roll
+sound->meaning->sound	1.0	0.88	1.0	en:rumor	fr:room	en:rumor	fr:room	en:rumor -> fr:room -> en:rumor -> fr:room
+sound->meaning->sound	1.0	0.88	1.0	en:sport	fr:spot	en:sought	fr:sotte	en:sport -> fr:spot -> en:sought -> fr:sotte
+sound->meaning->sound	1.0	0.88	1.0	en:sport	fr:spot	en:sport	fr:spot	en:sport -> fr:spot -> en:sport -> fr:spot
+sound->meaning->sound	1.0	0.88	1.0	en:sport	fr:spots	en:sought	fr:sotte	en:sport -> fr:spots -> en:sought -> fr:sotte
+sound->meaning->sound	1.0	0.88	1.0	en:sport	fr:spots	en:sport	fr:spot	en:sport -> fr:spots -> en:sport -> fr:spot
+sound->meaning->sound	1.0	0.88	1.0	en:tea	fr:tee	en:tea	fr:tee	en:tea -> fr:tee -> en:tea -> fr:tee
+sound->meaning->sound	1.0	0.95	0.909	en:nor	fr:nord	en:northern	fr:nos haine	en:nor -> fr:nord -> en:northern -> fr:nos haine
+sound->meaning->sound	1.0	0.88	0.97	en:sport	fr:spots	en:passport	fr:pas pote	en:sport -> fr:spots -> en:passport -> fr:pas pote
+sound->meaning->sound	0.886	0.95	1.0	en:expressed	fr:expresse	en:express	fr:expresse	en:expressed -> fr:expresse -> en:express -> fr:expresse
+sound->meaning->sound	1.0	0.88	0.952	en:chute	fr:shoot	en:shooters	fr:jouent aise	en:chute -> fr:shoot -> en:shooters -> fr:jouent aise
+sound->meaning->sound	1.0	0.88	0.95	en:liner	fr:line	en:in	fr:in	en:liner -> fr:line -> en:in -> fr:in
+sound->meaning->sound	1.0	0.88	0.949	en:around	fr:round	en:founded	fr:fanent aide	en:around -> fr:round -> en:founded -> fr:fanent aide
+sound->meaning->sound	1.0	0.88	0.949	en:rumor	fr:room	en:classroom	fr:clans rhume	en:rumor -> fr:room -> en:classroom -> fr:clans rhume
+sound->meaning->sound	1.0	0.88	0.943	en:role	fr:roll	en:patrol	fr:peut roule	en:role -> fr:roll -> en:patrol -> fr:peut roule
+sound->meaning->sound	0.87	0.95	1.0	en:express	fr:exprès	en:express	fr:expresse	en:express -> fr:exprès -> en:express -> fr:expresse
+sound->meaning->sound	1.0	0.88	0.94	en:rumor	fr:room	en:bedroom	fr:paient rhume	en:rumor -> fr:room -> en:bedroom -> fr:paient rhume
+sound->meaning->sound	1.0	0.88	0.94	en:tea	fr:tee	en:twenty	fr:soin tee	en:tea -> fr:tee -> en:twenty -> fr:soin tee
+sound->meaning->sound	1.0	0.88	0.931	en:rumor	fr:room	en:bathroom	fr:bat rhume	en:rumor -> fr:room -> en:bathroom -> fr:bat rhume
+sound->meaning->sound	1.0	0.88	0.927	en:around	fr:round	en:rounded	fr:round	en:around -> fr:round -> en:rounded -> fr:round
+sound->meaning->sound	0.927	0.88	1.0	en:rounded	fr:round	en:around	fr:round	en:rounded -> fr:round -> en:around -> fr:round
+sound->meaning->sound	1.0	0.88	0.926	en:chute	fr:shoot	en:shooting	fr:jouent in	en:chute -> fr:shoot -> en:shooting -> fr:jouent in
+sound->meaning->sound	0.95	0.88	0.976	en:in	fr:in	en:eastern	fr:hissent haine	en:in -> fr:in -> en:eastern -> fr:hissent haine
+sound->meaning->sound	1.0	0.88	0.925	en:around	fr:round	en:grounded	fr:crânes aide	en:around -> fr:round -> en:grounded -> fr:crânes aide
+sound->meaning->sound	1.0	0.88	0.924	en:buy	fr:bye	en:butterfly	fr:battait la	en:buy -> fr:bye -> en:butterfly -> fr:battait la
+sound->meaning->sound	1.0	0.88	0.924	en:buyer	fr:bye	en:butterfly	fr:battait la	en:buyer -> fr:bye -> en:butterfly -> fr:battait la
+sound->meaning->sound	1.0	0.88	0.924	en:by	fr:bye	en:butterfly	fr:battait la	en:by -> fr:bye -> en:butterfly -> fr:battait la
+sound->meaning->sound	1.0	0.88	0.923	en:around	fr:round	en:responded	fr:ries pannes aide	en:around -> fr:round -> en:responded -> fr:ries pannes aide
+sound->meaning->sound	0.85	0.95	1.0	en:enemies	fr:ennemies	en:enemy	fr:ennemies	en:enemies -> fr:ennemies -> en:enemy -> fr:ennemies
+sound->meaning->sound	1.0	0.95	0.85	en:enemy	fr:ennemies	en:enemies	fr:ennemies	en:enemy -> fr:ennemies -> en:enemies -> fr:ennemies
+sound->meaning->sound	1.0	0.88	0.92	en:sport	fr:spots	en:supportive	fr:sabot ive	en:sport -> fr:spots -> en:supportive -> fr:sabot ive
+sound->meaning->sound	0.85	0.95	1.0	en:stress	fr:stressé	en:stress	fr:stresse	en:stress -> fr:stressé -> en:stress -> fr:stresse
+sound->meaning->sound	1.0	0.88	0.919	en:liner	fr:line	en:lightning	fr:lent naine	en:liner -> fr:line -> en:lightning -> fr:lent naine
+sound->meaning->sound	1.0	0.88	0.918	en:around	fr:round	en:reminder	fr:roman des	en:around -> fr:round -> en:reminder -> fr:roman des
+sound->meaning->sound	1.0	0.88	0.918	en:sport	fr:spots	en:supported	fr:sabot aide	en:sport -> fr:spots -> en:supported -> fr:sabot aide
+sound->meaning->sound	1.0	0.88	0.918	en:sport	fr:spots	en:supporters	fr:sabot aise	en:sport -> fr:spots -> en:supporters -> fr:sabot aise
+sound->meaning->sound	0.94	0.88	0.976	en:an	fr:in	en:eastern	fr:hissent haine	en:an -> fr:in -> en:eastern -> fr:hissent haine
+sound->meaning->sound	1.0	0.88	0.915	en:around	fr:round	en:mounted	fr:mat aide	en:around -> fr:round -> en:mounted -> fr:mat aide
+sound->meaning->sound	1.0	0.88	0.915	en:liner	fr:line	en:deadline	fr:dès lad	en:liner -> fr:line -> en:deadline -> fr:dès lad
+sound->meaning->sound	1.0	0.88	0.913	en:around	fr:round	en:sounded	fr:fanent aide	en:around -> fr:round -> en:sounded -> fr:fanent aide
+sound->meaning->sound	1.0	0.88	0.913	en:liner	fr:line	en:baseline	fr:pays lad	en:liner -> fr:line -> en:baseline -> fr:pays lad
+sound->meaning->sound	0.842	0.95	1.0	en:expressing	fr:expresse	en:express	fr:expresse	en:expressing -> fr:expresse -> en:express -> fr:expresse
+sound->meaning->sound	1.0	0.88	0.911	en:around	fr:round	en:remainder	fr:romain des	en:around -> fr:round -> en:remainder -> fr:romain des
+sound->meaning->sound	1.0	0.88	0.907	en:around	fr:round	en:reminded	fr:romanes aide	en:around -> fr:round -> en:reminded -> fr:romanes aide
+sound->meaning->sound	0.87	0.95	0.966	en:semester	fr:semestre	en:semester	fr:sommets tes	en:semester -> fr:semestre -> en:semester -> fr:sommets tes
+sound->meaning->sound	0.833	0.95	1.0	en:role	fr:rôle	en:role	fr:roll	en:role -> fr:rôle -> en:role -> fr:roll
+sound->meaning->sound	0.833	0.95	1.0	en:role	fr:rôles	en:role	fr:roll	en:role -> fr:rôles -> en:role -> fr:roll
+sound->meaning->sound	0.833	0.95	1.0	en:roll	fr:rôle	en:role	fr:roll	en:roll -> fr:rôle -> en:role -> fr:roll
+sound->meaning->sound	0.833	0.95	1.0	en:roll	fr:rôles	en:role	fr:roll	en:roll -> fr:rôles -> en:role -> fr:roll
+sound->meaning->sound	0.881	0.95	0.947	en:platform	fr:plateforme	en:platform	fr:plat sommes	en:platform -> fr:plateforme -> en:platform -> fr:plat sommes
+sound->meaning->sound	0.881	0.95	0.947	en:platform	fr:plateformes	en:platform	fr:plat sommes	en:platform -> fr:plateformes -> en:platform -> fr:plat sommes
+sound->meaning->sound	0.822	0.95	1.0	en:breeds	fr:brise	en:breeze	fr:brise	en:breeds -> fr:brise -> en:breeze -> fr:brise
+sound->meaning->sound	0.822	0.95	1.0	en:chest	fr:tests	en:test	fr:teste	en:chest -> fr:tests -> en:test -> fr:teste
+sound->meaning->sound	1.0	0.95	0.822	en:cross	fr:crosse	en:crosses	fr:cross	en:cross -> fr:crosse -> en:crosses -> fr:cross
+sound->meaning->sound	0.822	0.95	1.0	en:enemy	fr:ennemie	en:enemy	fr:ennemies	en:enemy -> fr:ennemie -> en:enemy -> fr:ennemies
+sound->meaning->sound	0.822	0.95	1.0	en:enemy	fr:ennemis	en:enemy	fr:ennemies	en:enemy -> fr:ennemis -> en:enemy -> fr:ennemies
+sound->meaning->sound	0.822	0.95	1.0	en:excel	fr:excès	en:excess	fr:ex ès	en:excel -> fr:excès -> en:excess -> fr:ex ès
+sound->meaning->sound	0.822	0.95	1.0	en:excess	fr:excès	en:excess	fr:ex ès	en:excess -> fr:excès -> en:excess -> fr:ex ès
+sound->meaning->sound	0.822	0.95	1.0	en:expressed	fr:exprès	en:express	fr:expresse	en:expressed -> fr:exprès -> en:express -> fr:expresse
+sound->meaning->sound	0.822	0.95	1.0	en:forum	fr:forme	en:form	fr:forme	en:forum -> fr:forme -> en:form -> fr:forme
+sound->meaning->sound	0.822	0.95	1.0	en:forum	fr:formes	en:form	fr:forme	en:forum -> fr:formes -> en:form -> fr:forme
+sound->meaning->sound	1.0	0.95	0.822	en:gean	fr:jean	en:jeans	fr:gin	en:gean -> fr:jean -> en:jeans -> fr:gin
+sound->meaning->sound	1.0	0.95	0.822	en:gene	fr:jean	en:jeans	fr:gin	en:gene -> fr:jean -> en:jeans -> fr:gin
+sound->meaning->sound	1.0	0.95	0.822	en:group	fr:groupe	en:groups	fr:group	en:group -> fr:groupe -> en:groups -> fr:group
+sound->meaning->sound	1.0	0.95	0.822	en:group	fr:groupes	en:groups	fr:group	en:group -> fr:groupes -> en:groups -> fr:group
+sound->meaning->sound	0.822	0.95	1.0	en:groups	fr:groupe	en:group	fr:groupe	en:groups -> fr:groupe -> en:group -> fr:groupe
+sound->meaning->sound	0.822	0.95	1.0	en:groups	fr:groupes	en:group	fr:groupe	en:groups -> fr:groupes -> en:group -> fr:groupe
+sound->meaning->sound	1.0	0.95	0.822	en:liner	fr:line	en:lines	fr:line	en:liner -> fr:line -> en:lines -> fr:line
+sound->meaning->sound	1.0	0.95	0.822	en:prove	fr:prouve	en:proves	fr:prouve	en:prove -> fr:prouve -> en:proves -> fr:prouve
+sound->meaning->sound	0.822	0.95	1.0	en:proved	fr:prouve	en:prove	fr:prouve	en:proved -> fr:prouve -> en:prove -> fr:prouve
+sound->meaning->sound	0.822	0.95	1.0	en:proves	fr:prouve	en:prove	fr:prouve	en:proves -> fr:prouve -> en:prove -> fr:prouve
+sound->meaning->sound	0.822	0.95	1.0	en:quest	fr:ouest	en:west	fr:ouest	en:quest -> fr:ouest -> en:west -> fr:ouest
+sound->meaning->sound	0.822	0.95	1.0	en:reform	fr:formes	en:form	fr:forme	en:reform -> fr:formes -> en:form -> fr:forme
+sound->meaning->sound	1.0	0.95	0.822	en:role	fr:roll	en:rolls	fr:roll	en:role -> fr:roll -> en:rolls -> fr:roll
+sound->meaning->sound	0.822	0.95	1.0	en:sectors	fr:secte	en:sect	fr:secte	en:sectors -> fr:secte -> en:sect -> fr:secte
+sound->meaning->sound	0.822	0.95	1.0	en:sectors	fr:sectes	en:sect	fr:secte	en:sectors -> fr:sectes -> en:sect -> fr:secte
+sound->meaning->sound	0.822	0.95	1.0	en:select	fr:secte	en:sect	fr:secte	en:select -> fr:secte -> en:sect -> fr:secte
+sound->meaning->sound	0.822	0.95	1.0	en:select	fr:sectes	en:sect	fr:secte	en:select -> fr:sectes -> en:sect -> fr:secte
+sound->meaning->sound	0.822	0.95	1.0	en:sexy	fr:sexe	en:sex	fr:sexe	en:sexy -> fr:sexe -> en:sex -> fr:sexe
+sound->meaning->sound	0.822	0.95	1.0	en:sexy	fr:sexes	en:sex	fr:sexe	en:sexy -> fr:sexes -> en:sex -> fr:sexe
+sound->meaning->sound	0.822	0.95	1.0	en:steam	fr:estime	en:esteem	fr:estime	en:steam -> fr:estime -> en:esteem -> fr:estime
+sound->meaning->sound	0.822	0.95	1.0	en:tested	fr:tests	en:test	fr:teste	en:tested -> fr:tests -> en:test -> fr:teste
+sound->meaning->sound	0.822	0.95	1.0	en:text	fr:tests	en:test	fr:teste	en:text -> fr:tests -> en:test -> fr:teste
+sound->meaning->sound	1.0	0.95	0.822	en:troop	fr:troupes	en:troops	fr:troupes	en:troop -> fr:troupes -> en:troops -> fr:troupes
+sound->meaning->sound	0.822	0.95	1.0	en:troops	fr:troupes	en:troop	fr:troupe	en:troops -> fr:troupes -> en:troop -> fr:troupe
+sound->meaning->sound	1.0	0.95	0.822	en:troupe	fr:troupes	en:troops	fr:troupes	en:troupe -> fr:troupes -> en:troops -> fr:troupes
+sound->meaning->sound	0.822	0.95	1.0	en:western	fr:ouest	en:west	fr:ouest	en:western -> fr:ouest -> en:west -> fr:ouest
+sound->meaning->sound	0.821	0.95	1.0	en:excel	fr:excelle	en:excel	fr:ex aile	en:excel -> fr:excelle -> en:excel -> fr:ex aile
+sound->meaning->sound	0.927	0.88	0.952	en:should	fr:shoot	en:shooters	fr:jouent aise	en:should -> fr:shoot -> en:shooters -> fr:jouent aise
+sound->meaning->sound	0.85	0.95	0.956	en:esteem	fr:estimés	en:estimated	fr:estimait aide	en:esteem -> fr:estimés -> en:estimated -> fr:estimait aide
+sound->meaning->sound	0.927	0.88	0.949	en:rounded	fr:round	en:founded	fr:fanent aide	en:rounded -> fr:round -> en:founded -> fr:fanent aide
+sound->meaning->sound	1.0	0.95	0.797	en:leg	fr:legs	en:legacy	fr:lez ceci	en:leg -> fr:legs -> en:legacy -> fr:lez ceci
+sound->meaning->sound	0.847	0.95	0.945	en:costume	fr:costumes	en:costume	fr:cassent hume	en:costume -> fr:costumes -> en:costume -> fr:cassent hume
+sound->meaning->sound	0.838	0.95	0.95	en:context	fr:contexte	en:context	fr:khan texte	en:context -> fr:contexte -> en:context -> fr:khan texte
+sound->meaning->sound	0.838	0.95	0.95	en:context	fr:contextes	en:context	fr:khan texte	en:context -> fr:contextes -> en:context -> fr:khan texte
+sound->meaning->sound	0.785	0.95	1.0	en:best	fr:peste	en:pest	fr:peste	en:best -> fr:peste -> en:pest -> fr:peste
+sound->meaning->sound	0.785	0.95	1.0	en:droop	fr:troupes	en:troop	fr:troupe	en:droop -> fr:troupes -> en:troop -> fr:troupe
+sound->meaning->sound	0.785	0.95	1.0	en:drupe	fr:troupes	en:troop	fr:troupe	en:drupe -> fr:troupes -> en:troop -> fr:troupe
+sound->meaning->sound	1.0	0.95	0.785	en:least	fr:liste	en:list	fr:liste	en:least -> fr:liste -> en:list -> fr:liste
+sound->meaning->sound	1.0	0.95	0.785	en:least	fr:listes	en:list	fr:liste	en:least -> fr:listes -> en:list -> fr:liste
+sound->meaning->sound	0.785	0.95	1.0	en:pissed	fr:peste	en:pest	fr:peste	en:pissed -> fr:peste -> en:pest -> fr:peste
+sound->meaning->sound	0.785	0.95	1.0	en:proof	fr:prouve	en:prove	fr:prouve	en:proof -> fr:prouve -> en:prove -> fr:prouve
+sound->meaning->sound	0.785	0.95	1.0	en:ruby	fr:rubis	en:ruby	fr:roux bis	en:ruby -> fr:rubis -> en:ruby -> fr:roux bis
+sound->meaning->sound	0.785	0.95	1.0	en:sicked	fr:secte	en:sect	fr:secte	en:sicked -> fr:secte -> en:sect -> fr:secte
+sound->meaning->sound	0.785	0.95	1.0	en:sicks	fr:sexe	en:sex	fr:sexe	en:sicks -> fr:sexe -> en:sex -> fr:sexe
+sound->meaning->sound	0.785	0.95	1.0	en:sics	fr:sexe	en:sex	fr:sexe	en:sics -> fr:sexe -> en:sex -> fr:sexe
+sound->meaning->sound	0.785	0.95	1.0	en:six	fr:sexe	en:sex	fr:sexe	en:six -> fr:sexe -> en:sex -> fr:sexe
+sound->meaning->sound	0.785	0.95	1.0	en:six	fr:sexes	en:sex	fr:sexe	en:six -> fr:sexes -> en:sex -> fr:sexe
+sound->meaning->sound	0.785	0.95	1.0	en:sushi	fr:sushis	en:sushi	fr:saoul chie	en:sushi -> fr:sushis -> en:sushi -> fr:saoul chie
+sound->meaning->sound	0.785	0.95	1.0	en:worst	fr:ouest	en:west	fr:ouest	en:worst -> fr:ouest -> en:west -> fr:ouest
+sound->meaning->sound	0.927	0.88	0.927	en:rounded	fr:round	en:rounded	fr:round	en:rounded -> fr:round -> en:rounded -> fr:round
+sound->meaning->sound	0.783	0.95	1.0	en:expression	fr:exprès	en:express	fr:expresse	en:expression -> fr:exprès -> en:express -> fr:expresse
+sound->meaning->sound	0.927	0.88	0.926	en:should	fr:shoot	en:shooting	fr:jouent in	en:should -> fr:shoot -> en:shooting -> fr:jouent in
+sound->meaning->sound	0.927	0.88	0.925	en:rounded	fr:round	en:grounded	fr:crânes aide	en:rounded -> fr:round -> en:grounded -> fr:crânes aide
+sound->meaning->sound	0.822	0.95	0.96	en:quest	fr:ouest	en:western	fr:ouais tonnes	en:quest -> fr:ouest -> en:western -> fr:ouais tonnes
+sound->meaning->sound	0.822	0.95	0.96	en:western	fr:ouest	en:western	fr:ouais tonnes	en:western -> fr:ouest -> en:western -> fr:ouais tonnes
+sound->meaning->sound	0.781	0.95	1.0	en:any	fr:ennemis	en:enemy	fr:ennemies	en:any -> fr:ennemis -> en:enemy -> fr:ennemies
+sound->meaning->sound	0.781	0.95	1.0	en:bees	fr:brise	en:breeze	fr:brise	en:bees -> fr:brise -> en:breeze -> fr:brise
+sound->meaning->sound	0.781	0.95	1.0	en:bells	fr:belles	en:belle	fr:bel	en:bells -> fr:belles -> en:belle -> fr:bel
+sound->meaning->sound	0.781	0.95	1.0	en:belly	fr:belles	en:belle	fr:bel	en:belly -> fr:belles -> en:belle -> fr:bel
+sound->meaning->sound	0.781	0.95	1.0	en:belt	fr:belles	en:belle	fr:bel	en:belt -> fr:belles -> en:belle -> fr:bel
+sound->meaning->sound	0.781	0.95	1.0	en:bloom	fr:boum	en:boom	fr:booms	en:bloom -> fr:boum -> en:boom -> fr:booms
+sound->meaning->sound	0.781	0.95	1.0	en:check	fr:chèques	en:check	fr:tchèque	en:check -> fr:chèques -> en:check -> fr:tchèque
+sound->meaning->sound	0.781	0.95	1.0	en:dealt	fr:dette	en:debt	fr:dette	en:dealt -> fr:dette -> en:debt -> fr:dette
+sound->meaning->sound	0.781	0.95	1.0	en:dealt	fr:dettes	en:debt	fr:dette	en:dealt -> fr:dettes -> en:debt -> fr:dette
+sound->meaning->sound	1.0	0.95	0.781	en:debt	fr:dette	en:debts	fr:dette	en:debt -> fr:dette -> en:debts -> fr:dette
+sound->meaning->sound	1.0	0.95	0.781	en:debt	fr:dettes	en:debts	fr:dette	en:debt -> fr:dettes -> en:debts -> fr:dette
+sound->meaning->sound	0.781	0.95	1.0	en:debts	fr:dette	en:debt	fr:dette	en:debts -> fr:dette -> en:debt -> fr:dette
+sound->meaning->sound	0.781	0.95	1.0	en:debts	fr:dettes	en:debt	fr:dette	en:debts -> fr:dettes -> en:debt -> fr:dette
+sound->meaning->sound	0.781	0.95	1.0	en:dent	fr:dette	en:debt	fr:dette	en:dent -> fr:dette -> en:debt -> fr:dette
+sound->meaning->sound	0.781	0.95	1.0	en:dent	fr:dettes	en:debt	fr:dette	en:dent -> fr:dettes -> en:debt -> fr:dette
+sound->meaning->sound	0.781	0.95	1.0	en:desert	fr:dette	en:debt	fr:dette	en:desert -> fr:dette -> en:debt -> fr:dette
+sound->meaning->sound	0.781	0.95	1.0	en:desert	fr:dettes	en:debt	fr:dette	en:desert -> fr:dettes -> en:debt -> fr:dette
+sound->meaning->sound	0.781	0.95	1.0	en:ex	fr:sexe	en:sex	fr:sexe	en:ex -> fr:sexe -> en:sex -> fr:sexe
+sound->meaning->sound	0.781	0.95	1.0	en:ex	fr:sexes	en:sex	fr:sexe	en:ex -> fr:sexes -> en:sex -> fr:sexe
+sound->meaning->sound	0.781	0.95	1.0	en:fresh	fr:frais	en:fresh	fr:fraîche	en:fresh -> fr:frais -> en:fresh -> fr:fraîche
+sound->meaning->sound	0.781	0.95	1.0	en:fruit	fr:routes	en:route	fr:routes	en:fruit -> fr:routes -> en:route -> fr:routes
+sound->meaning->sound	0.781	0.95	1.0	en:grew	fr:groupe	en:group	fr:groupe	en:grew -> fr:groupe -> en:group -> fr:groupe
+sound->meaning->sound	0.781	0.95	1.0	en:grew	fr:groupes	en:group	fr:groupe	en:grew -> fr:groupes -> en:group -> fr:groupe
+sound->meaning->sound	1.0	0.95	0.781	en:league	fr:ligues	en:leagues	fr:ligues	en:league -> fr:ligues -> en:leagues -> fr:ligues
+sound->meaning->sound	0.781	0.95	1.0	en:leagues	fr:ligues	en:league	fr:ligue	en:leagues -> fr:ligues -> en:league -> fr:ligue
+sound->meaning->sound	1.0	0.95	0.781	en:nor	fr:nord	en:north	fr:nord	en:nor -> fr:nord -> en:north -> fr:nord
+sound->meaning->sound	1.0	0.95	0.781	en:norm	fr:norme	en:norms	fr:nomment	en:norm -> fr:norme -> en:norms -> fr:nomment
+sound->meaning->sound	1.0	0.95	0.781	en:norm	fr:normes	en:norms	fr:nomment	en:norm -> fr:normes -> en:norms -> fr:nomment
+sound->meaning->sound	0.781	0.95	1.0	en:order	fr:ordres	en:order	fr:horde	en:order -> fr:ordres -> en:order -> fr:horde
+sound->meaning->sound	0.781	0.95	1.0	en:peaks	fr:pisse	en:pees	fr:pise	en:peaks -> fr:pisse -> en:pees -> fr:pise
+sound->meaning->sound	0.781	0.95	1.0	en:pieces	fr:pisse	en:pees	fr:pise	en:pieces -> fr:pisse -> en:pees -> fr:pise
+sound->meaning->sound	1.0	0.95	0.781	en:root	fr:route	en:routes	fr:rousse	en:root -> fr:route -> en:routes -> fr:rousse
+sound->meaning->sound	0.781	0.95	1.0	en:roots	fr:routes	en:route	fr:routes	en:roots -> fr:routes -> en:route -> fr:routes
+sound->meaning->sound	0.781	0.95	1.0	en:scheme	fr:skis	en:ski	fr:skie	en:scheme -> fr:skis -> en:ski -> fr:skie
+sound->meaning->sound	0.781	0.95	1.0	en:scoop	fr:coupes	en:coupe	fr:coupent	en:scoop -> fr:coupes -> en:coupe -> fr:coupent
+sound->meaning->sound	0.781	0.95	1.0	en:scoop	fr:soupe	en:soup	fr:soupe	en:scoop -> fr:soupe -> en:soup -> fr:soupe
+sound->meaning->sound	0.781	0.95	1.0	en:shelf	fr:chefs	en:chef	fr:chefs	en:shelf -> fr:chefs -> en:chef -> fr:chefs
+sound->meaning->sound	0.781	0.95	1.0	en:sought	fr:sortes	en:sort	fr:sorte	en:sought -> fr:sortes -> en:sort -> fr:sorte
+sound->meaning->sound	0.882	0.88	0.969	en:stressed	fr:stress	en:distress	fr:dis tresses	en:stressed -> fr:stress -> en:distress -> fr:dis tresses
+sound->meaning->sound	0.781	0.95	1.0	en:tells	fr:tels	en:tel	fr:telle	en:tells -> fr:tels -> en:tel -> fr:telle
+sound->meaning->sound	0.781	0.95	1.0	en:wet	fr:ouest	en:west	fr:ouest	en:wet -> fr:ouest -> en:west -> fr:ouest
+sound->meaning->sound	1.0	0.88	0.85	en:around	fr:round	en:drowned	fr:round	en:around -> fr:round -> en:drowned -> fr:round
+sound->meaning->sound	1.0	0.88	0.85	en:around	fr:round	en:ground	fr:round	en:around -> fr:round -> en:ground -> fr:round
+sound->meaning->sound	1.0	0.88	0.85	en:around	fr:round	en:renowned	fr:round	en:around -> fr:round -> en:renowned -> fr:round
+sound->meaning->sound	1.0	0.88	0.85	en:around	fr:round	en:rounds	fr:round	en:around -> fr:round -> en:rounds -> fr:round
+sound->meaning->sound	1.0	0.88	0.85	en:around	fr:round	en:surround	fr:round	en:around -> fr:round -> en:surround -> fr:round
+sound->meaning->sound	0.85	0.88	1.0	en:drowned	fr:round	en:around	fr:round	en:drowned -> fr:round -> en:around -> fr:round
+sound->meaning->sound	0.85	0.88	1.0	en:ground	fr:round	en:around	fr:round	en:ground -> fr:round -> en:around -> fr:round
+sound->meaning->sound	0.85	0.88	1.0	en:renowned	fr:round	en:around	fr:round	en:renowned -> fr:round -> en:around -> fr:round
+sound->meaning->sound	0.927	0.88	0.923	en:rounded	fr:round	en:responded	fr:ries pannes aide	en:rounded -> fr:round -> en:responded -> fr:ries pannes aide
+sound->meaning->sound	0.85	0.88	1.0	en:rounds	fr:round	en:around	fr:round	en:rounds -> fr:round -> en:around -> fr:round
+sound->meaning->sound	0.85	0.88	1.0	en:surround	fr:round	en:around	fr:round	en:surround -> fr:round -> en:around -> fr:round
+sound->meaning->sound	0.886	0.88	0.959	en:expressed	fr:express	en:expressing	fr:exprès in	en:expressed -> fr:express -> en:expressing -> fr:exprès in
+sound->meaning->sound	0.927	0.88	0.918	en:rounded	fr:round	en:reminder	fr:roman des	en:rounded -> fr:round -> en:reminder -> fr:roman des
+sound->meaning->sound	0.927	0.88	0.915	en:rounded	fr:round	en:mounted	fr:mat aide	en:rounded -> fr:round -> en:mounted -> fr:mat aide
+sound->meaning->sound	1.0	0.72	1.0	en:arrest	fr:reste	en:rest	fr:reste	en:arrest -> fr:reste -> en:rest -> fr:reste
+sound->meaning->sound	1.0	0.72	1.0	en:beck	fr:bec	en:beck	fr:bec	en:beck -> fr:bec -> en:beck -> fr:bec
+sound->meaning->sound	1.0	0.72	1.0	en:bell	fr:bel	en:bell	fr:bel	en:bell -> fr:bel -> en:bell -> fr:bel
+sound->meaning->sound	1.0	0.72	1.0	en:bell	fr:belle	en:bell	fr:bel	en:bell -> fr:belle -> en:bell -> fr:bel
+sound->meaning->sound	1.0	0.72	1.0	en:belle	fr:bel	en:bell	fr:bel	en:belle -> fr:bel -> en:bell -> fr:bel
+sound->meaning->sound	1.0	0.72	1.0	en:bisque	fr:bisque	en:bisque	fr:bisque	en:bisque -> fr:bisque -> en:bisque -> fr:bisque
+sound->meaning->sound	1.0	0.72	1.0	en:bled	fr:bled	en:bled	fr:bled	en:bled -> fr:bled -> en:bled -> fr:bled
+sound->meaning->sound	1.0	0.72	1.0	en:bless	fr:blesse	en:bless	fr:blesse	en:bless -> fr:blesse -> en:bless -> fr:blesse
+sound->meaning->sound	1.0	0.72	1.0	en:born	fr:borne	en:born	fr:bonnes	en:born -> fr:borne -> en:born -> fr:bonnes
+sound->meaning->sound	1.0	0.72	1.0	en:born	fr:bornes	en:borne	fr:bonne	en:born -> fr:bornes -> en:borne -> fr:bonne
+sound->meaning->sound	1.0	0.72	1.0	en:boss	fr:bosse	en:boss	fr:bosse	en:boss -> fr:bosse -> en:boss -> fr:bosse
+sound->meaning->sound	1.0	0.72	1.0	en:bruit	fr:broute	en:brute	fr:broute	en:bruit -> fr:broute -> en:brute -> fr:broute
+sound->meaning->sound	1.0	0.72	1.0	en:brute	fr:broute	en:brute	fr:broute	en:brute -> fr:broute -> en:brute -> fr:broute
+sound->meaning->sound	1.0	0.72	1.0	en:cell	fr:selle	en:sell	fr:selle	en:cell -> fr:selle -> en:sell -> fr:selle
+sound->meaning->sound	1.0	0.72	1.0	en:cell	fr:selle	en:seller	fr:selle	en:cell -> fr:selle -> en:seller -> fr:selle
+sound->meaning->sound	1.0	0.72	1.0	en:cell	fr:selles	en:seller	fr:selle	en:cell -> fr:selles -> en:seller -> fr:selle
+sound->meaning->sound	1.0	0.72	1.0	en:cerise	fr:cerise	en:cerise	fr:cerise	en:cerise -> fr:cerise -> en:cerise -> fr:cerise
+sound->meaning->sound	1.0	0.72	1.0	en:chemise	fr:chemisent	en:chemise	fr:chemisent	en:chemise -> fr:chemisent -> en:chemise -> fr:chemisent
+sound->meaning->sound	1.0	0.72	1.0	en:chemise	fr:chemises	en:chemise	fr:chemisent	en:chemise -> fr:chemises -> en:chemise -> fr:chemisent
+sound->meaning->sound	1.0	0.72	1.0	en:chute	fr:choute	en:chute	fr:choute	en:chute -> fr:choute -> en:chute -> fr:choute
+sound->meaning->sound	1.0	0.72	1.0	en:chute	fr:choutes	en:chute	fr:choute	en:chute -> fr:choutes -> en:chute -> fr:choute
+sound->meaning->sound	1.0	0.72	1.0	en:chute	fr:shoote	en:shoot	fr:choute	en:chute -> fr:shoote -> en:shoot -> fr:choute
+sound->meaning->sound	1.0	0.72	1.0	en:chute	fr:shootes	en:shoot	fr:choute	en:chute -> fr:shootes -> en:shoot -> fr:choute
+sound->meaning->sound	1.0	0.72	1.0	en:coo	fr:cou	en:coup	fr:coupe	en:coo -> fr:cou -> en:coup -> fr:coupe
+sound->meaning->sound	1.0	0.72	1.0	en:coo	fr:coups	en:coup	fr:coupe	en:coo -> fr:coups -> en:coup -> fr:coupe
+sound->meaning->sound	1.0	0.72	1.0	en:cooper	fr:coupe	en:coup	fr:coupe	en:cooper -> fr:coupe -> en:coup -> fr:coupe
+sound->meaning->sound	1.0	0.72	1.0	en:cooper	fr:coupent	en:coupe	fr:coupent	en:cooper -> fr:coupent -> en:coupe -> fr:coupent
+sound->meaning->sound	1.0	0.72	1.0	en:corn	fr:corne	en:corn	fr:conne	en:corn -> fr:corne -> en:corn -> fr:conne
+sound->meaning->sound	1.0	0.72	1.0	en:corn	fr:corne	en:corner	fr:corne	en:corn -> fr:corne -> en:corner -> fr:corne
+sound->meaning->sound	1.0	0.72	1.0	en:corn	fr:cornes	en:corner	fr:corne	en:corn -> fr:cornes -> en:corner -> fr:corne
+sound->meaning->sound	1.0	0.72	1.0	en:corner	fr:corne	en:corn	fr:conne	en:corner -> fr:corne -> en:corn -> fr:conne
+sound->meaning->sound	1.0	0.72	1.0	en:corner	fr:corne	en:corner	fr:corne	en:corner -> fr:corne -> en:corner -> fr:corne
+sound->meaning->sound	1.0	0.72	1.0	en:corner	fr:cornes	en:corner	fr:corne	en:corner -> fr:cornes -> en:corner -> fr:corne
+sound->meaning->sound	1.0	0.72	1.0	en:coup	fr:coupe	en:coup	fr:coupe	en:coup -> fr:coupe -> en:coup -> fr:coupe
+sound->meaning->sound	1.0	0.72	1.0	en:coup	fr:coupent	en:coupe	fr:coupent	en:coup -> fr:coupent -> en:coupe -> fr:coupent
+sound->meaning->sound	1.0	0.72	1.0	en:coupe	fr:coupent	en:coupe	fr:coupent	en:coupe -> fr:coupent -> en:coupe -> fr:coupent
+sound->meaning->sound	1.0	0.72	1.0	en:cross	fr:crosse	en:cross	fr:crosse	en:cross -> fr:crosse -> en:cross -> fr:crosse
+sound->meaning->sound	1.0	0.72	1.0	en:croup	fr:croupe	en:croup	fr:croupe	en:croup -> fr:croupe -> en:croup -> fr:croupe
+sound->meaning->sound	1.0	0.72	1.0	en:cruet	fr:croûte	en:route	fr:routes	en:cruet -> fr:croûte -> en:route -> fr:routes
+sound->meaning->sound	1.0	0.72	1.0	en:douche	fr:douchent	en:douche	fr:douchent	en:douche -> fr:douchent -> en:douche -> fr:douchent
+sound->meaning->sound	1.0	0.72	1.0	en:douche	fr:douches	en:douche	fr:douchent	en:douche -> fr:douches -> en:douche -> fr:douchent
+sound->meaning->sound	1.0	0.72	1.0	en:fair	fr:faire	en:fair	fr:faire	en:fair -> fr:faire -> en:fair -> fr:faire
+sound->meaning->sound	1.0	0.72	1.0	en:fair	fr:faire	en:fare	fr:faire	en:fair -> fr:faire -> en:fare -> fr:faire
+sound->meaning->sound	1.0	0.72	1.0	en:fare	fr:faire	en:fair	fr:faire	en:fare -> fr:faire -> en:fair -> fr:faire
+sound->meaning->sound	1.0	0.72	1.0	en:fare	fr:faire	en:fare	fr:faire	en:fare -> fr:faire -> en:fare -> fr:faire
+sound->meaning->sound	1.0	0.72	1.0	en:fess	fr:fesse	en:fess	fr:fesse	en:fess -> fr:fesse -> en:fess -> fr:fesse
+sound->meaning->sound	1.0	0.72	1.0	en:form	fr:forme	en:former	fr:forme	en:form -> fr:forme -> en:former -> fr:forme
+sound->meaning->sound	1.0	0.72	1.0	en:form	fr:formes	en:former	fr:forme	en:form -> fr:formes -> en:former -> fr:forme
+sound->meaning->sound	1.0	0.72	1.0	en:former	fr:forme	en:former	fr:forme	en:former -> fr:forme -> en:former -> fr:forme
+sound->meaning->sound	1.0	0.72	1.0	en:former	fr:formes	en:former	fr:forme	en:former -> fr:formes -> en:former -> fr:forme
+sound->meaning->sound	1.0	0.72	1.0	en:fort	fr:forte	en:fort	fr:forte	en:fort -> fr:forte -> en:fort -> fr:forte
+sound->meaning->sound	1.0	0.72	1.0	en:greave	fr:grive	en:grieve	fr:grive	en:greave -> fr:grive -> en:grieve -> fr:grive
+sound->meaning->sound	1.0	0.72	1.0	en:grieve	fr:grive	en:grieve	fr:grive	en:grieve -> fr:grive -> en:grieve -> fr:grive
+sound->meaning->sound	1.0	0.72	1.0	en:groom	fr:groom	en:groom	fr:groom	en:groom -> fr:groom -> en:groom -> fr:groom
+sound->meaning->sound	1.0	0.72	1.0	en:groupie	fr:groupies	en:groupie	fr:groupies	en:groupie -> fr:groupies -> en:groupie -> fr:groupies
+sound->meaning->sound	1.0	0.72	1.0	en:jeep	fr:jeep	en:jeep	fr:jeep	en:jeep -> fr:jeep -> en:jeep -> fr:jeep
+sound->meaning->sound	1.0	0.72	1.0	en:kookie	fr:cookie	en:kookie	fr:cookie	en:kookie -> fr:cookie -> en:kookie -> fr:cookie
+sound->meaning->sound	1.0	0.72	1.0	en:kooky	fr:cookie	en:kookie	fr:cookie	en:kooky -> fr:cookie -> en:kookie -> fr:cookie
+sound->meaning->sound	1.0	0.72	1.0	en:lest	fr:lest	en:lest	fr:lest	en:lest -> fr:lest -> en:lest -> fr:lest
+sound->meaning->sound	1.0	0.72	1.0	en:mess	fr:messe	en:mess	fr:messe	en:mess -> fr:messe -> en:mess -> fr:messe
+sound->meaning->sound	1.0	0.72	1.0	en:moose	fr:moussent	en:mousse	fr:moussent	en:moose -> fr:moussent -> en:mousse -> fr:moussent
+sound->meaning->sound	1.0	0.72	1.0	en:mousse	fr:moussent	en:mousse	fr:moussent	en:mousse -> fr:moussent -> en:mousse -> fr:moussent
+sound->meaning->sound	1.0	0.72	1.0	en:petit	fr:petit	en:petit	fr:petit	en:petit -> fr:petit -> en:petit -> fr:petit
+sound->meaning->sound	0.885	0.95	0.885	en:regime	fr:régime	en:regime	fr:régime	en:regime -> fr:régime -> en:regime -> fr:régime
+sound->meaning->sound	0.885	0.95	0.885	en:regime	fr:régimes	en:regime	fr:régime	en:regime -> fr:régimes -> en:regime -> fr:régime
+sound->meaning->sound	1.0	0.72	1.0	en:rest	fr:reste	en:rest	fr:reste	en:rest -> fr:reste -> en:rest -> fr:reste
+sound->meaning->sound	1.0	0.72	1.0	en:roulette	fr:roulette	en:roulette	fr:roulette	en:roulette -> fr:roulette -> en:roulette -> fr:roulette
+sound->meaning->sound	0.927	0.88	0.913	en:rounded	fr:round	en:sounded	fr:fanent aide	en:rounded -> fr:round -> en:sounded -> fr:fanent aide
+sound->meaning->sound	1.0	0.72	1.0	en:rule	fr:roule	en:rule	fr:roule	en:rule -> fr:roule -> en:rule -> fr:roule
+sound->meaning->sound	1.0	0.72	1.0	en:ruler	fr:roule	en:rule	fr:roule	en:ruler -> fr:roule -> en:rule -> fr:roule
+sound->meaning->sound	0.77	0.95	1.0	en:sacked	fr:sectes	en:sect	fr:secte	en:sacked -> fr:sectes -> en:sect -> fr:secte
+sound->meaning->sound	0.77	0.95	1.0	en:sect	fr:sexe	en:sex	fr:sexe	en:sect -> fr:sexe -> en:sex -> fr:sexe
+sound->meaning->sound	0.77	0.95	1.0	en:sect	fr:sexes	en:sex	fr:sexe	en:sect -> fr:sexes -> en:sex -> fr:sexe
+sound->meaning->sound	1.0	0.72	1.0	en:sell	fr:selle	en:sell	fr:selle	en:sell -> fr:selle -> en:sell -> fr:selle
+sound->meaning->sound	1.0	0.72	1.0	en:sell	fr:selle	en:seller	fr:selle	en:sell -> fr:selle -> en:seller -> fr:selle
+sound->meaning->sound	1.0	0.72	1.0	en:sell	fr:selles	en:seller	fr:selle	en:sell -> fr:selles -> en:seller -> fr:selle
+sound->meaning->sound	1.0	0.72	1.0	en:seller	fr:selle	en:sell	fr:selle	en:seller -> fr:selle -> en:sell -> fr:selle
+sound->meaning->sound	1.0	0.72	1.0	en:seller	fr:selle	en:seller	fr:selle	en:seller -> fr:selle -> en:seller -> fr:selle
+sound->meaning->sound	1.0	0.72	1.0	en:seller	fr:selles	en:seller	fr:selle	en:seller -> fr:selles -> en:seller -> fr:selle
+sound->meaning->sound	0.77	0.95	1.0	en:sex	fr:secte	en:sect	fr:secte	en:sex -> fr:secte -> en:sect -> fr:secte
+sound->meaning->sound	0.77	0.95	1.0	en:sex	fr:sectes	en:sect	fr:secte	en:sex -> fr:sectes -> en:sect -> fr:secte
+sound->meaning->sound	1.0	0.72	1.0	en:shoot	fr:choute	en:chute	fr:choute	en:shoot -> fr:choute -> en:chute -> fr:choute
+sound->meaning->sound	1.0	0.72	1.0	en:shoot	fr:choutes	en:chute	fr:choute	en:shoot -> fr:choutes -> en:chute -> fr:choute
+sound->meaning->sound	1.0	0.72	1.0	en:shoot	fr:shoote	en:shoot	fr:choute	en:shoot -> fr:shoote -> en:shoot -> fr:choute
+sound->meaning->sound	1.0	0.72	1.0	en:shoot	fr:shootes	en:shoot	fr:choute	en:shoot -> fr:shootes -> en:shoot -> fr:choute
+sound->meaning->sound	1.0	0.72	1.0	en:sketch	fr:sketchs	en:sketch	fr:sketchs	en:sketch -> fr:sketchs -> en:sketch -> fr:sketchs
+sound->meaning->sound	1.0	0.72	1.0	en:smell	fr:semelle	en:smell	fr:semelle	en:smell -> fr:semelle -> en:smell -> fr:semelle
+sound->meaning->sound	1.0	0.72	1.0	en:speech	fr:speechs	en:speech	fr:speechs	en:speech -> fr:speechs -> en:speech -> fr:speechs
+sound->meaning->sound	1.0	0.72	1.0	en:spleen	fr:spleen	en:spleen	fr:spleen	en:spleen -> fr:spleen -> en:spleen -> fr:spleen
+sound->meaning->sound	1.0	0.95	0.77	en:sport	fr:spots	en:spot	fr:spots	en:sport -> fr:spots -> en:spot -> fr:spots
+sound->meaning->sound	1.0	0.95	0.77	en:stalk	fr:stocks	en:stock	fr:stocks	en:stalk -> fr:stocks -> en:stock -> fr:stocks
+sound->meaning->sound	1.0	0.72	1.0	en:stem	fr:stemm	en:stem	fr:stemm	en:stem -> fr:stemm -> en:stem -> fr:stemm
+sound->meaning->sound	1.0	0.72	1.0	en:stem	fr:stems	en:stem	fr:stemm	en:stem -> fr:stems -> en:stem -> fr:stemm
+sound->meaning->sound	1.0	0.72	1.0	en:stress	fr:stresse	en:stress	fr:stresse	en:stress -> fr:stresse -> en:stress -> fr:stresse
+sound->meaning->sound	0.77	0.95	1.0	en:sucked	fr:sectes	en:sect	fr:secte	en:sucked -> fr:sectes -> en:sect -> fr:secte
+sound->meaning->sound	0.77	0.95	1.0	en:techs	fr:sexe	en:sex	fr:sexe	en:techs -> fr:sexe -> en:sex -> fr:sexe
+sound->meaning->sound	1.0	0.72	1.0	en:tel	fr:telle	en:tell	fr:telle	en:tel -> fr:telle -> en:tell -> fr:telle
+sound->meaning->sound	1.0	0.72	1.0	en:tell	fr:telle	en:tell	fr:telle	en:tell -> fr:telle -> en:tell -> fr:telle
+sound->meaning->sound	1.0	0.72	1.0	en:terrine	fr:terrine	en:terrine	fr:terrine	en:terrine -> fr:terrine -> en:terrine -> fr:terrine
+sound->meaning->sound	1.0	0.72	1.0	en:test	fr:teste	en:test	fr:teste	en:test -> fr:teste -> en:test -> fr:teste
+sound->meaning->sound	1.0	0.72	1.0	en:titi	fr:titi	en:titi	fr:titi	en:titi -> fr:titi -> en:titi -> fr:titi
+sound->meaning->sound	1.0	0.72	1.0	en:tress	fr:tresses	en:tress	fr:tresses	en:tress -> fr:tresses -> en:tress -> fr:tresses
+sound->meaning->sound	1.0	0.72	1.0	en:troop	fr:troupes	en:troupe	fr:troupes	en:troop -> fr:troupes -> en:troupe -> fr:troupes
+sound->meaning->sound	1.0	0.72	1.0	en:troupe	fr:troupes	en:troupe	fr:troupes	en:troupe -> fr:troupes -> en:troupe -> fr:troupes
+sound->meaning->sound	1.0	0.72	1.0	en:vest	fr:veste	en:vest	fr:veste	en:vest -> fr:veste -> en:vest -> fr:veste
+sound->meaning->sound	1.0	0.72	1.0	en:wrest	fr:reste	en:rest	fr:reste	en:wrest -> fr:reste -> en:rest -> fr:reste
+sound->meaning->sound	1.0	0.72	1.0	en:zoom	fr:zoome	en:zoom	fr:zoome	en:zoom -> fr:zoome -> en:zoom -> fr:zoome
+sound->meaning->sound	0.927	0.88	0.911	en:rounded	fr:round	en:remainder	fr:romain des	en:rounded -> fr:round -> en:remainder -> fr:romain des
+sound->meaning->sound	0.822	0.95	0.945	en:dress	fr:adresses	en:addresses	fr:adrets aise	en:dress -> fr:adresses -> en:addresses -> fr:adrets aise
+sound->meaning->sound	0.827	0.95	0.94	en:textile	fr:textiles	en:textile	fr:taxent al	en:textile -> fr:textiles -> en:textile -> fr:taxent al
+sound->meaning->sound	1.0	0.88	0.834	en:liner	fr:line	en:lion	fr:line	en:liner -> fr:line -> en:lion -> fr:line
+sound->meaning->sound	0.834	0.88	1.0	en:lion	fr:line	en:liner	fr:line	en:lion -> fr:line -> en:liner -> fr:line
+sound->meaning->sound	0.927	0.88	0.907	en:rounded	fr:round	en:reminded	fr:romanes aide	en:rounded -> fr:round -> en:reminded -> fr:romanes aide
+sound->meaning->sound	1.0	0.88	0.833	en:buy	fr:bye	en:bike	fr:bac	en:buy -> fr:bye -> en:bike -> fr:bac
+sound->meaning->sound	1.0	0.88	0.833	en:buy	fr:bye	en:bite	fr:batte	en:buy -> fr:bye -> en:bite -> fr:batte
+sound->meaning->sound	1.0	0.88	0.833	en:buyer	fr:bye	en:bike	fr:bac	en:buyer -> fr:bye -> en:bike -> fr:bac
+sound->meaning->sound	1.0	0.88	0.833	en:buyer	fr:bye	en:bite	fr:batte	en:buyer -> fr:bye -> en:bite -> fr:batte
+sound->meaning->sound	1.0	0.88	0.833	en:by	fr:bye	en:bike	fr:bac	en:by -> fr:bye -> en:bike -> fr:bac
+sound->meaning->sound	1.0	0.88	0.833	en:by	fr:bye	en:bite	fr:batte	en:by -> fr:bye -> en:bite -> fr:batte
+sound->meaning->sound	0.763	0.95	1.0	en:pest	fr:tests	en:test	fr:teste	en:pest -> fr:tests -> en:test -> fr:teste
+sound->meaning->sound	0.763	0.95	1.0	en:scoot	fr:scoops	en:scoop	fr:scoops	en:scoot -> fr:scoops -> en:scoop -> fr:scoops
+sound->meaning->sound	0.763	0.95	1.0	en:test	fr:peste	en:pest	fr:peste	en:test -> fr:peste -> en:pest -> fr:peste
+sound->meaning->sound	0.763	0.95	1.0	en:test	fr:pestes	en:pest	fr:peste	en:test -> fr:pestes -> en:pest -> fr:peste
+sound->meaning->sound	0.763	0.95	1.0	en:vest	fr:zeste	en:zest	fr:zeste	en:vest -> fr:zeste -> en:zest -> fr:zeste
+sound->meaning->sound	0.763	0.95	1.0	en:vest	fr:zestes	en:zest	fr:zeste	en:vest -> fr:zestes -> en:zest -> fr:zeste
+sound->meaning->sound	0.833	0.95	0.929	en:guys	fr:gaz	en:gases	fr:gars aise	en:guys -> fr:gaz -> en:gases -> fr:gars aise
+sound->meaning->sound	0.837	0.95	0.924	en:detect	fr:détecte	en:detect	fr:dit acte	en:detect -> fr:détecte -> en:detect -> fr:dit acte
+sound->meaning->sound	0.837	0.95	0.924	en:detector	fr:détecte	en:detect	fr:dit acte	en:detector -> fr:détecte -> en:detect -> fr:dit acte
+sound->meaning->sound	0.798	0.95	0.96	en:confess	fr:confesse	en:confess	fr:con fesses	en:confess -> fr:confesse -> en:confess -> fr:con fesses
+sound->meaning->sound	0.758	0.95	1.0	en:waist	fr:ouest	en:west	fr:ouest	en:waist -> fr:ouest -> en:west -> fr:ouest
+sound->meaning->sound	0.758	0.95	1.0	en:waste	fr:ouest	en:west	fr:ouest	en:waste -> fr:ouest -> en:west -> fr:ouest
+sound->meaning->sound	0.81	0.95	0.945	en:address	fr:adresses	en:addresses	fr:adrets aise	en:address -> fr:adresses -> en:addresses -> fr:adrets aise
+sound->meaning->sound	0.786	0.95	0.969	en:distress	fr:détresse	en:distress	fr:dis tresses	en:distress -> fr:détresse -> en:distress -> fr:dis tresses
+sound->meaning->sound	0.755	0.95	1.0	en:groove	fr:groupes	en:group	fr:groupe	en:groove -> fr:groupes -> en:group -> fr:groupe
+sound->meaning->sound	0.755	0.95	1.0	en:test	fr:zeste	en:zest	fr:zeste	en:test -> fr:zeste -> en:zest -> fr:zeste
+sound->meaning->sound	0.755	0.95	1.0	en:test	fr:zestes	en:zest	fr:zeste	en:test -> fr:zestes -> en:zest -> fr:zeste
+sound->meaning->sound	0.755	0.95	1.0	en:zest	fr:tests	en:test	fr:teste	en:zest -> fr:tests -> en:test -> fr:teste
+sound->meaning->sound	0.793	0.95	0.96	en:march	fr:matchs	en:matches	fr:mat chaise	en:march -> fr:matchs -> en:matches -> fr:mat chaise
+sound->meaning->sound	0.822	0.88	1.0	en:fairly	fr:ferry	en:fairy	fr:ferry	en:fairly -> fr:ferry -> en:fairy -> fr:ferry
+sound->meaning->sound	1.0	0.88	0.822	en:fairy	fr:ferry	en:fairly	fr:ferry	en:fairy -> fr:ferry -> en:fairly -> fr:ferry
+sound->meaning->sound	0.822	0.88	1.0	en:lined	fr:line	en:liner	fr:line	en:lined -> fr:line -> en:liner -> fr:line
+sound->meaning->sound	1.0	0.88	0.822	en:liner	fr:line	en:lined	fr:line	en:liner -> fr:line -> en:lined -> fr:line
+sound->meaning->sound	0.822	0.88	1.0	en:lines	fr:line	en:liner	fr:line	en:lines -> fr:line -> en:liner -> fr:line
+sound->meaning->sound	1.0	0.88	0.822	en:role	fr:roll	en:roles	fr:roll	en:role -> fr:roll -> en:roles -> fr:roll
+sound->meaning->sound	1.0	0.88	0.822	en:role	fr:roll	en:rolled	fr:roll	en:role -> fr:roll -> en:rolled -> fr:roll
+sound->meaning->sound	1.0	0.88	0.822	en:role	fr:roll	en:roller	fr:roll	en:role -> fr:roll -> en:roller -> fr:roll
+sound->meaning->sound	1.0	0.88	0.822	en:role	fr:roll	en:troll	fr:roll	en:role -> fr:roll -> en:troll -> fr:roll
+sound->meaning->sound	0.822	0.88	1.0	en:roles	fr:roll	en:role	fr:roll	en:roles -> fr:roll -> en:role -> fr:roll
+sound->meaning->sound	0.822	0.88	1.0	en:rolled	fr:roll	en:role	fr:roll	en:rolled -> fr:roll -> en:role -> fr:roll
+sound->meaning->sound	0.822	0.88	1.0	en:roller	fr:roll	en:role	fr:roll	en:roller -> fr:roll -> en:role -> fr:roll
+sound->meaning->sound	0.822	0.88	1.0	en:rolls	fr:roll	en:role	fr:roll	en:rolls -> fr:roll -> en:role -> fr:roll
+sound->meaning->sound	0.822	0.88	1.0	en:selfie	fr:self	en:selfie	fr:selles fis	en:selfie -> fr:self -> en:selfie -> fr:selles fis
+sound->meaning->sound	0.822	0.88	1.0	en:sex	fr:sexy	en:sex	fr:sexe	en:sex -> fr:sexy -> en:sex -> fr:sexe
+sound->meaning->sound	1.0	0.88	0.822	en:sport	fr:spot	en:sports	fr:spot	en:sport -> fr:spot -> en:sports -> fr:spot
+sound->meaning->sound	1.0	0.88	0.822	en:sport	fr:spot	en:support	fr:spot	en:sport -> fr:spot -> en:support -> fr:spot
+sound->meaning->sound	1.0	0.88	0.822	en:sport	fr:spots	en:sports	fr:spot	en:sport -> fr:spots -> en:sports -> fr:spot
+sound->meaning->sound	1.0	0.88	0.822	en:sport	fr:spots	en:support	fr:spot	en:sport -> fr:spots -> en:support -> fr:spot
+sound->meaning->sound	0.822	0.88	1.0	en:sports	fr:spot	en:sought	fr:sotte	en:sports -> fr:spot -> en:sought -> fr:sotte
+sound->meaning->sound	0.822	0.88	1.0	en:sports	fr:spot	en:sport	fr:spot	en:sports -> fr:spot -> en:sport -> fr:spot
+sound->meaning->sound	0.822	0.88	1.0	en:sports	fr:spots	en:sought	fr:sotte	en:sports -> fr:spots -> en:sought -> fr:sotte
+sound->meaning->sound	0.822	0.88	1.0	en:sports	fr:spots	en:sport	fr:spot	en:sports -> fr:spots -> en:sport -> fr:spot
+sound->meaning->sound	0.822	0.88	1.0	en:support	fr:spot	en:sought	fr:sotte	en:support -> fr:spot -> en:sought -> fr:sotte
+sound->meaning->sound	0.822	0.88	1.0	en:support	fr:spot	en:sport	fr:spot	en:support -> fr:spot -> en:sport -> fr:spot
+sound->meaning->sound	0.822	0.88	1.0	en:support	fr:spots	en:sought	fr:sotte	en:support -> fr:spots -> en:sought -> fr:sotte
+sound->meaning->sound	0.822	0.88	1.0	en:support	fr:spots	en:sport	fr:spot	en:support -> fr:spots -> en:sport -> fr:spot
+sound->meaning->sound	0.822	0.88	1.0	en:troll	fr:roll	en:role	fr:roll	en:troll -> fr:roll -> en:role -> fr:roll
+sound->meaning->sound	0.816	0.95	0.932	en:concept	fr:concepts	en:concept	fr:cannes opte	en:concept -> fr:concepts -> en:concept -> fr:cannes opte
+sound->meaning->sound	1.0	0.95	0.748	en:gean	fr:jean	en:john	fr:jean	en:gean -> fr:jean -> en:john -> fr:jean
+sound->meaning->sound	1.0	0.95	0.748	en:gene	fr:jean	en:john	fr:jean	en:gene -> fr:jean -> en:john -> fr:jean
+sound->meaning->sound	0.782	0.95	0.966	en:orchestra	fr:orchestre	en:orchestra	fr:hoquets trait	en:orchestra -> fr:orchestre -> en:orchestra -> fr:hoquets trait
+sound->meaning->sound	0.748	0.95	1.0	en:vex	fr:sexe	en:sex	fr:sexe	en:vex -> fr:sexe -> en:sex -> fr:sexe
+sound->meaning->sound	0.748	0.95	1.0	en:vex	fr:sexes	en:sex	fr:sexe	en:vex -> fr:sexes -> en:sex -> fr:sexe
+sound->meaning->sound	0.81	0.95	0.935	en:breeds	fr:bridge	en:bridges	fr:brides aise	en:breeds -> fr:bridge -> en:bridges -> fr:brides aise
+sound->meaning->sound	0.785	0.95	0.96	en:match	fr:matchs	en:matches	fr:mat chaise	en:match -> fr:matchs -> en:matches -> fr:mat chaise
+sound->meaning->sound	0.785	0.95	0.96	en:much	fr:matchs	en:matches	fr:mat chaise	en:much -> fr:matchs -> en:matches -> fr:mat chaise
+sound->meaning->sound	0.785	0.95	0.96	en:worst	fr:ouest	en:western	fr:ouais tonnes	en:worst -> fr:ouest -> en:western -> fr:ouais tonnes
+sound->meaning->sound	0.781	0.95	0.96	en:wet	fr:ouest	en:western	fr:ouais tonnes	en:wet -> fr:ouest -> en:western -> fr:ouais tonnes
+sound->meaning->sound	0.74	0.95	1.0	en:envy	fr:ennemis	en:enemy	fr:ennemies	en:envy -> fr:ennemis -> en:enemy -> fr:ennemies
+sound->meaning->sound	0.87	0.95	0.87	en:except	fr:excepté	en:except	fr:excepté	en:except -> fr:excepté -> en:except -> fr:excepté
+sound->meaning->sound	0.87	0.95	0.87	en:respect	fr:respecte	en:respect	fr:respecte	en:respect -> fr:respecte -> en:respect -> fr:respecte
+sound->meaning->sound	0.81	0.88	1.0	en:sketch	fr:scotch	en:sketch	fr:sketchs	en:sketch -> fr:scotch -> en:sketch -> fr:sketchs
+sound->meaning->sound	0.87	0.95	0.87	en:techniques	fr:technique	en:techniques	fr:technique	en:techniques -> fr:technique -> en:techniques -> fr:technique
+sound->meaning->sound	0.827	0.88	0.98	en:branch	fr:brunch	en:butcher	fr:bout chez	en:branch -> fr:brunch -> en:butcher -> fr:bout chez
+sound->meaning->sound	0.786	0.95	0.947	en:platforms	fr:plateforme	en:platform	fr:plat sommes	en:platforms -> fr:plateforme -> en:platform -> fr:plat sommes
+sound->meaning->sound	0.786	0.95	0.947	en:platforms	fr:plateformes	en:platform	fr:plat sommes	en:platforms -> fr:plateformes -> en:platform -> fr:plat sommes
+sound->meaning->sound	0.842	0.88	0.959	en:expressing	fr:express	en:expressing	fr:exprès in	en:expressing -> fr:express -> en:expressing -> fr:exprès in
+sound->meaning->sound	0.787	0.95	0.943	en:lesbian	fr:lesbienne	en:lesbian	fr:les bine	en:lesbian -> fr:lesbienne -> en:lesbian -> fr:les bine
+sound->meaning->sound	0.787	0.95	0.943	en:lesbian	fr:lesbiennes	en:lesbian	fr:les bine	en:lesbian -> fr:lesbiennes -> en:lesbian -> fr:les bine
+sound->meaning->sound	0.8	0.88	1.0	en:shooter	fr:shooter	en:shoot	fr:choute	en:shooter -> fr:shooter -> en:shoot -> fr:choute
+sound->meaning->sound	0.73	0.95	1.0	en:beak	fr:pic	en:peak	fr:pic	en:beak -> fr:pic -> en:peak -> fr:pic
+sound->meaning->sound	0.73	0.95	1.0	en:beak	fr:pics	en:peak	fr:pic	en:beak -> fr:pics -> en:peak -> fr:pic
+sound->meaning->sound	0.73	0.95	1.0	en:bill	fr:belles	en:belle	fr:bel	en:bill -> fr:belles -> en:belle -> fr:bel
+sound->meaning->sound	1.0	0.88	0.8	en:chute	fr:shoot	en:shooter	fr:shooter	en:chute -> fr:shoot -> en:shooter -> fr:shooter
+sound->meaning->sound	1.0	0.72	0.96	en:dawn	fr:donne	en:done	fr:damne	en:dawn -> fr:donne -> en:done -> fr:damne
+sound->meaning->sound	0.73	0.95	1.0	en:dead	fr:dette	en:debt	fr:dette	en:dead -> fr:dette -> en:debt -> fr:dette
+sound->meaning->sound	0.73	0.95	1.0	en:dead	fr:dettes	en:debt	fr:dette	en:dead -> fr:dettes -> en:debt -> fr:dette
+sound->meaning->sound	1.0	0.72	0.96	en:least	fr:listes	en:listed	fr:laissent aide	en:least -> fr:listes -> en:listed -> fr:laissent aide
+sound->meaning->sound	1.0	0.95	0.73	en:peace	fr:pisse	en:piss	fr:pisse	en:peace -> fr:pisse -> en:piss -> fr:pisse
+sound->meaning->sound	0.73	0.95	1.0	en:peas	fr:pisse	en:pees	fr:pise	en:peas -> fr:pisse -> en:pees -> fr:pise
+sound->meaning->sound	0.73	0.95	1.0	en:peas	fr:pisses	en:pees	fr:pise	en:peas -> fr:pisses -> en:pees -> fr:pise
+sound->meaning->sound	0.73	0.95	1.0	en:pease	fr:pisse	en:pees	fr:pise	en:pease -> fr:pisse -> en:pees -> fr:pise
+sound->meaning->sound	0.73	0.95	1.0	en:pease	fr:pisses	en:pees	fr:pise	en:pease -> fr:pisses -> en:pees -> fr:pise
+sound->meaning->sound	0.73	0.95	1.0	en:peep	fr:bip	en:beep	fr:bip	en:peep -> fr:bip -> en:beep -> fr:bip
+sound->meaning->sound	0.73	0.95	1.0	en:pees	fr:pisse	en:pees	fr:pise	en:pees -> fr:pisse -> en:pees -> fr:pise
+sound->meaning->sound	0.73	0.95	1.0	en:pees	fr:pisses	en:pees	fr:pise	en:pees -> fr:pisses -> en:pees -> fr:pise
+sound->meaning->sound	1.0	0.95	0.73	en:piece	fr:pisse	en:piss	fr:pisse	en:piece -> fr:pisse -> en:piss -> fr:pisse
+sound->meaning->sound	0.73	0.95	1.0	en:piss	fr:pisse	en:pees	fr:pise	en:piss -> fr:pisse -> en:pees -> fr:pise
+sound->meaning->sound	0.73	0.95	1.0	en:till	fr:tels	en:tel	fr:telle	en:till -> fr:tels -> en:tel -> fr:telle
+sound->meaning->sound	1.0	0.88	0.8	en:trawl	fr:troll	en:taller	fr:tollé	en:trawl -> fr:troll -> en:taller -> fr:tollé
+sound->meaning->sound	0.85	0.88	0.949	en:drowned	fr:round	en:founded	fr:fanent aide	en:drowned -> fr:round -> en:founded -> fr:fanent aide
+sound->meaning->sound	0.85	0.88	0.949	en:ground	fr:round	en:founded	fr:fanent aide	en:ground -> fr:round -> en:founded -> fr:fanent aide
+sound->meaning->sound	0.85	0.88	0.949	en:renowned	fr:round	en:founded	fr:fanent aide	en:renowned -> fr:round -> en:founded -> fr:fanent aide
+sound->meaning->sound	0.85	0.88	0.949	en:rounds	fr:round	en:founded	fr:fanent aide	en:rounds -> fr:round -> en:founded -> fr:fanent aide
+sound->meaning->sound	0.85	0.88	0.949	en:surround	fr:round	en:founded	fr:fanent aide	en:surround -> fr:round -> en:founded -> fr:fanent aide
+sound->meaning->sound	0.864	0.95	0.864	en:clone	fr:clones	en:clone	fr:clones	en:clone -> fr:clones -> en:clone -> fr:clones
+sound->meaning->sound	0.728	0.95	1.0	en:energy	fr:ennemies	en:enemy	fr:ennemies	en:energy -> fr:ennemies -> en:enemy -> fr:ennemies
+sound->meaning->sound	0.864	0.95	0.864	en:naive	fr:naïve	en:naive	fr:naïve	en:naive -> fr:naïve -> en:naive -> fr:naïve
+sound->meaning->sound	0.728	0.95	1.0	en:toast	fr:tests	en:test	fr:teste	en:toast -> fr:tests -> en:test -> fr:teste
+sound->meaning->sound	0.726	0.95	1.0	en:went	fr:ouest	en:west	fr:ouest	en:went -> fr:ouest -> en:west -> fr:ouest
