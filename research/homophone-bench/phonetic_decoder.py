@@ -53,14 +53,18 @@ class Node:
         self.words: list[tuple[str, float]] = []  # (word, zipf)
 
 
-def build_trie(min_zipf: float = 0.0) -> Node:
+def build_trie(min_zipf: float = 0.0, lang: str = "fr") -> Node:
     root = Node()
-    fr = load_fr()
+    if lang == "fr":
+        fr = load_fr()
+    else:
+        from lexicon_g2p import load_en
+        fr = load_en()
     n = 0
     for w, prons in fr.items():
         if len(w) < 2:
             continue
-        z = zipf_frequency(w, "fr")
+        z = zipf_frequency(w, lang)
         if z < min_zipf:
             continue
         for p in prons:
@@ -100,7 +104,7 @@ def _sub(q: str, c: str) -> float:
 
 # ------------------------------------------------------------ beam search
 
-def decode(query_ipa: str, root: Node, top_n: int = 5) -> list[dict]:
+def decode(query_ipa: str, root: Node, top_n: int = 5, max_words: int = MAX_WORDS) -> list[dict]:
     """Decode a canonical-IPA query into French word sequences."""
     q = matcher._segs(_canonical(query_ipa))
     if not q:
@@ -117,7 +121,7 @@ def decode(query_ipa: str, root: Node, top_n: int = 5) -> list[dict]:
         for cost, _qp, node, plen, words, wlen, zsum, matched, baddel, maxsub in layer:
             # finish: all query consumed and at a word end
             if qpos == nq:
-                if node.words and len(words) + 1 <= MAX_WORDS:
+                if node.words and len(words) + 1 <= max_words:
                     for w, z in node.words[:4]:
                         seq = words + (w,)
                         sim = 1.0 - cost / max(1, plen)
@@ -143,7 +147,7 @@ def decode(query_ipa: str, root: Node, top_n: int = 5) -> list[dict]:
                     beams[qpos].append((cost + ic, qpos, child, plen + 1,
                                         words, wlen + 1, zsum, matched, baddel, maxsub))
             # word boundary: emit word, return to root
-            if node.words and len(words) + 1 < MAX_WORDS and wlen >= MIN_WORD_SEGS:
+            if node.words and len(words) + 1 < max_words and wlen >= MIN_WORD_SEGS:
                 for w, z in node.words[:4]:
                     nwords = words + (w,)
                     beams[qpos].append((cost, qpos, root, plen, nwords, 0,
@@ -238,9 +242,55 @@ def augment_dictionary():
           f"decoder-additions.tsv")
 
 
+def reverse_augment():
+    """Decode common FR words into EN word sequences (fr -> en direction)."""
+    from wordfreq import top_n_list
+    lex_fr = load_fr()
+    from lexicon_g2p import load_en
+    lex_en = load_en()
+    entries = json.load(open("dictionary-v4.json"))
+    covered = {e["fr"] for e in entries if e["score"] >= 0.90 and not e.get("multiword")}
+    root = build_trie(min_zipf=1.5, lang="en")
+
+    def en_phrase_ipa(phrase):
+        return " ".join((lex_en.get(w) or [""])[0] for w in phrase.split())
+
+    targets = [w for w in top_n_list("fr", 12000)
+               if w.isalpha() and len(w) > 2 and w in lex_fr and w not in covered]
+    new, added = [], 0
+    for i, w in enumerate(targets):
+        cands = decode(lex_fr[w][0], root, top_n=3)
+        for c in cands:
+            if (c["similarity"] >= 0.90 and c["words"] >= 2
+                    and c["coverage"] >= 0.85 and c["expensive_deletions"] == 0
+                    and c["max_substitution"] <= 0.45):
+                tier = ("S" if c["max_substitution"] <= 0.25 and c["coverage"] >= 0.9
+                        else "A")
+                new.append({"en": c["fr"], "fr": w, "score": c["similarity"],
+                            "tier": tier, "rank": 0, "multiword": True,
+                            "decoder": True, "reverse": True, "cognate": False,
+                            "loanword": False, "coverage": c["coverage"],
+                            "max_substitution": c["max_substitution"],
+                            "en_ipa": en_phrase_ipa(c["fr"]).replace(" ", ""),
+                            "fr_ipa": lex_fr[w][0], "en_freq_rank": None})
+                added += 1
+                break
+        if (i + 1) % 1000 == 0:
+            print(f"  reverse {i + 1}/{len(targets)} (+{added})", file=sys.stderr)
+    with open("reverse-additions.json", "w") as f:
+        json.dump(new, f, ensure_ascii=False, indent=0)
+    with open("reverse-additions.tsv", "w") as f:
+        f.write("tier\tscore\tfr\ten_phrase\tfr_ipa\n")
+        for e in sorted(new, key=lambda x: (x["tier"], -x["score"])):
+            f.write(f"{e['tier']}\t{e['score']}\t{e['fr']}\t{e['en']}\t{e['fr_ipa']}\n")
+    print(f"reverse decoder added {added} fr->en entries -> reverse-additions.json/tsv")
+
+
 if __name__ == "__main__":
     if "--augment" in sys.argv:
         augment_dictionary()
+    elif "--reverse" in sys.argv:
+        reverse_augment()
     else:
         from lexicon_g2p import load_en
         lex_en = load_en()
