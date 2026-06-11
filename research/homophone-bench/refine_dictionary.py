@@ -1,4 +1,16 @@
-"""Refined homophone dictionary (v2): quality fixes + multi-word matching.
+"""Refined homophone dictionary (v3): lexicon pronunciations + pair bank.
+
+v3 on top of v2: G2P now comes from curated dictionaries first — Lexique 3
+for French (241k words) and WikiPron for English (65k words, UK accent kept
+alongside espeak US as a second legitimate variant) — recovered from the
+user's prior homophone project (checkcehck repo). espeak remains the
+fallback. The matcher gained an EN<->FR equivalence-cost layer and cheap
+deletions (offglides, schwa, /h/) ported from the production phoneme.ts and
+the user's 2024 notebook rules. The user's 30k-pair historical pair bank is
+scored and merged (provenance-tagged). Liaison variants are tried when
+concatenating multi-word French phrases.
+
+v2 notes below:
 
 Improvements over build_dictionary_full.py, all aimed at "more good entries,
 no poor ones":
@@ -41,6 +53,7 @@ from wordfreq import top_n_list, zipf_frequency
 
 import matcher
 from matcher import _canonical, _variants, _ngram_channel
+from lexicon_g2p import load_en as load_lex_en, load_fr as load_lex_fr, clean_ipa
 
 matcher._vecs = lru_cache(maxsize=None)(matcher._vecs.__wrapped__)
 matcher._segs = lru_cache(maxsize=None)(matcher._segs.__wrapped__)
@@ -216,13 +229,34 @@ def main():
           and w not in FR_PROPER_DROP and w not in FR_ELISION_FRAGMENTS]
     print(f"lexicons: {len(en)} EN x {len(fr)} FR", file=sys.stderr)
 
-    en_ipa, _ = batch_g2p(en, "en-us")
-    fr_ipa, fr_switched = batch_g2p(fr, "fr")
+    en_espeak, _ = batch_g2p(en, "en-us")
+    fr_espeak, fr_switched = batch_g2p(fr, "fr")
     for w, ipa in FR_IPA_OVERRIDES.items():
-        if w in fr_ipa:
-            fr_ipa[w] = clean(ipa)
+        if w in fr_espeak:
+            fr_espeak[w] = clean(ipa)
             fr_switched.discard(w)
     loanwords = fr_switched  # remaining switched words are genuine anglicisms
+
+    # Dictionary pronunciations first (Lexique 3 / WikiPron), espeak as a
+    # second accent variant (EN: UK dictionary + US espeak are both real)
+    # or as fallback for out-of-dictionary words.
+    lex_en, lex_fr = load_lex_en(), load_lex_fr()
+    en_prons: dict[str, list] = {}
+    for w in en:
+        ps = list(lex_en.get(w, []))
+        e = en_espeak.get(w, "")
+        if e and e not in ps:
+            ps.append(e)
+        en_prons[w] = ps[:2]
+    fr_prons: dict[str, list] = {}
+    for w in fr:
+        ps = list(lex_fr.get(w, []))
+        if not ps:
+            e = fr_espeak.get(w, "")
+            ps = [e] if e else []
+        fr_prons[w] = ps[:2]
+    en_ipa = {w: ps[0] for w, ps in en_prons.items() if ps}
+    fr_ipa = {w: ps[0] for w, ps in fr_prons.items() if ps}
 
     # MUSE translations for cognate tagging
     translations: dict[str, set] = defaultdict(set)
@@ -239,19 +273,27 @@ def main():
         tr = translations.get(e, set()) | translations.get(e.rstrip("s"), set())
         return f_ in tr or f_.rstrip("s") in tr
 
-    fr_bg = [bigrams(fr_ipa[w]) for w in fr]
+    fr_bg = [frozenset().union(*(bigrams(p) for p in fr_prons[w])) if fr_prons[w]
+             else frozenset() for w in fr]
     index: dict[str, list[int]] = defaultdict(list)
     for j, bg in enumerate(fr_bg):
         for b in bg:
             index[b].append(j)
     fr_common = [(j, w) for j, w in enumerate(fr)
                  if zipf_frequency(w, "fr") >= MW_MIN_ZIPF and w not in loanwords]
-    fr_seg_len = [len(matcher._segs(_canonical(fr_ipa[w]))) for w in fr]
+    fr_seg_len = [len(matcher._segs(_canonical(fr_ipa[w]))) if w in fr_ipa else 0
+                  for w in fr]
+
+    def combo_multi(q_ps, c_ps):
+        return max(combo(q, c) for q in q_ps for c in c_ps)
 
     entries = []
     for k, w in enumerate(en):
-        qi = en_ipa[w]
-        qb = bigrams(qi)
+        q_ps = en_prons.get(w) or []
+        if not q_ps:
+            continue
+        qi = q_ps[0]
+        qb = frozenset().union(*(bigrams(p) for p in q_ps))
         if not qb:
             continue
         counts: Counter = Counter()
@@ -262,9 +304,9 @@ def main():
         scored = []
         for _dice, j in cands:
             cw = fr[j]
-            if cw == w:
+            if cw == w or not fr_prons.get(cw):
                 continue
-            s = combo(qi, fr_ipa[cw])
+            s = combo_multi(q_ps, fr_prons[cw])
             if s >= B and counts[j] > 0:  # require >=1 shared exact bigram
                 scored.append((s, cw, fr_ipa[cw]))
         scored.sort(reverse=True)
@@ -304,6 +346,14 @@ def main():
                         break
                     ci = fr_ipa[w1] + fr_ipa[w2]
                     s = combo(qi, ci)
+                    # liaison variant: word-final s/x/z -> /z/, d/t -> /t/
+                    segs2 = matcher._segs(_canonical(fr_ipa[w2]))
+                    if segs2 and matcher._vecs(_canonical(fr_ipa[w2]))[0][0] == 1:
+                        lc = "z" if w1[-1] in "sxz" else "t" if w1[-1] in "dt" else ""
+                        if lc:
+                            s2 = combo(qi, fr_ipa[w1] + lc + fr_ipa[w2])
+                            if s2 > s:
+                                s, ci = s2, fr_ipa[w1] + lc + fr_ipa[w2]
                     if s >= A and (best_mw is None or s > best_mw[0]):
                         boundary = fr_seg_len[j1]
                         best_mw = (s, f"{w1} {w2}", ci, boundary)
@@ -337,20 +387,61 @@ def main():
             print(f"  ranked {k + 1}/{len(en)} ({time.time() - t0:.0f}s)",
                   file=sys.stderr)
 
+    # ---- pairbank merge: score the user's historical 30k pair bank ----
+    have = {(e["en"], e["fr"]) for e in entries}
+    pb_added = pb_scored = 0
+    try:
+        import csv
+        with open("data/pairbank.tsv", encoding="utf-8") as f:
+            rdr = csv.DictReader(f, delimiter="\t")
+            seen = set()
+            for row in rdr:
+                if row["tag"] != "homophone" or row["src_lang"] != "en":
+                    continue
+                pe, pf = row["src"].strip().lower(), row["tgt"].strip().lower()
+                if pe == pf or len(pe) < 2 or len(pf) < 2:
+                    continue  # identical loanwords / single letters: trivial
+                if (pe, pf) in seen or (pe, pf) in have:
+                    continue
+                seen.add((pe, pf))
+                if not pe.isalpha() or not pf.isalpha():
+                    continue
+                eps = lex_en.get(pe) or ([en_espeak[pe]] if pe in en_espeak else [])
+                fps = lex_fr.get(pf) or []
+                if not eps or not fps:
+                    continue
+                pb_scored += 1
+                s = combo_multi(eps[:2], fps[:2])
+                if s >= B:
+                    tier = "S" if s >= S else "A" if s >= A else "B"
+                    e = {"en": pe, "fr": pf, "score": round(s, 3), "tier": tier,
+                         "rank": 0, "multiword": False, "boundary_after_segment": None,
+                         "cognate": is_cognate(pe, pf), "loanword": False,
+                         "pairbank": True,
+                         "en_ipa": eps[0], "fr_ipa": fps[0], "en_freq_rank": 10**6}
+                    if tier in "SA":
+                        e.update(alignment_fields(eps[0], fps[0]))
+                    entries.append(e)
+                    pb_added += 1
+    except FileNotFoundError:
+        pass
+    print(f"  pairbank: scored {pb_scored} unseen pairs, merged {pb_added} >= B",
+          file=sys.stderr)
+
     entries.sort(key=lambda e: (-e["score"], e["en_freq_rank"]))
     counts_t = Counter(e["tier"] for e in entries)
     mw = [e for e in entries if e["multiword"]]
     cog = [e for e in entries if e["cognate"] and e["tier"] in "SA"]
-    print(f"\n=== v2 dictionary: {len(entries)} entries from {len(en)} EN words ===")
+    print(f"\n=== v3 dictionary: {len(entries)} entries from {len(en)} EN words ===")
     print(f"  S={counts_t['S']}  A={counts_t['A']}  B={counts_t['B']}")
     print(f"  multiword phrases: {len(mw)} (S/A only by construction)")
     print(f"  cognates (shared sound AND meaning, S/A): {len(cog)}")
     print(f"  loanword-demoted: {sum(1 for e in entries if e['loanword'])}")
     print(f"  took {time.time() - t0:.0f}s")
 
-    with open("dictionary-v2.json", "w") as f:
+    with open("dictionary-v3.json", "w") as f:
         json.dump(entries, f, ensure_ascii=False, indent=0)
-    with open("dictionary-v2.tsv", "w") as f:
+    with open("dictionary-v3.tsv", "w") as f:
         f.write("tier\tscore\ten\tfr\tflags\ten_ipa\tfr_ipa\talignment\n")
         for e in entries:
             flags = ",".join(x for x in [
@@ -359,7 +450,7 @@ def main():
                 "loanword" if e["loanword"] else ""] if x)
             f.write(f"{e['tier']}\t{e['score']}\t{e['en']}\t{e['fr']}\t{flags}"
                     f"\t{e['en_ipa']}\t{e['fr_ipa']}\t{e.get('alignment', '')}\n")
-    print("wrote dictionary-v2.json / dictionary-v2.tsv")
+    print("wrote dictionary-v3.json / dictionary-v3.tsv")
 
 
 if __name__ == "__main__":

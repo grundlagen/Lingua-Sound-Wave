@@ -1,0 +1,556 @@
+tier	score	en	fr	en_ipa	fr_ipa
+S	1.0	form	formes	fɔːm	fɔʁm
+S	1.0	form	forme	fɔːm	fɔʁm
+S	1.0	west	ouest	wɛst	wɛst
+S	1.0	sex	sexes	sɛks	sɛks
+S	1.0	sex	sexe	sɛks	sɛks
+S	1.0	test	tests	tɛst	tɛst
+S	1.0	press	presse	pɹɛs	pʁɛs
+S	1.0	lord	lords	lɔːd	lɔʁ
+S	1.0	sort	sortes	sɔːt	sɔʁt
+S	1.0	sort	sorte	sɔːt	sɔʁt
+S	1.0	fresh	fraîches	fɹɛʃ	fʁɛʃ
+S	1.0	fresh	fraîche	fɹɛʃ	fʁɛʃ
+S	1.0	prove	prouve	pɹuːv	pʁuv
+S	1.0	net	nets	nɛt	nɛt
+S	1.0	enemy	ennemies	ɛnəmi	ɛnəmi
+S	1.0	debt	dettes	dɛt	dɛt
+S	1.0	debt	dette	dɛt	dɛt
+S	1.0	express	expresse	ɛkspɹɛs	ɛkspʁɛs
+S	1.0	route	routes	ɹuːt	ʁut
+S	1.0	peak	pics	piːk	pik
+S	1.0	technique	techniques	tɛkniːk	tɛknik
+S	1.0	boom	boum	buːm	bum
+S	1.0	sec	secs	sɛk	sɛk
+S	1.0	jet	jets	dʒɛt	ʒɛ
+S	1.0	chef	chefs	ʃɛf	ʃɛf
+S	1.0	soup	soupe	suːp	sup
+S	1.0	ski	skis	skiː	ski
+S	1.0	escort	escorte	ɛskɔːɹt	ɛskɔʁt
+S	1.0	norm	normes	nɔːm	nɔʁm
+S	1.0	norm	norme	nɔːm	nɔʁm
+S	1.0	esteem	estime	ɛstiːm	ɛstim
+S	1.0	tel	tels	tɛl	tɛl
+S	1.0	breeze	brise	bɹiːz	bʁiz
+S	1.0	niche	niches	niːʃ	niʃ
+S	1.0	belle	belles	bɛl	bɛl
+S	1.0	yen	yens	jɛn	jɛn
+S	1.0	troop	troupes	tɹuːp	tʁup
+S	1.0	troop	troupe	tɹuːp	tʁup
+S	1.0	rouge	rouges	ɹuːʒ	ʁuʒ
+S	1.0	beep	bip	biːp	bip
+S	1.0	boom	booms	buːm	bum
+S	1.0	boutique	boutiques	buːtiːk	butik
+S	1.0	chic	chics	ʃiːk	ʃik
+S	1.0	shoot	shoots	ʃuːt	ʃut
+S	1.0	coupe	coupes	kuːp	kup
+S	1.0	kiwi	kiwis	kiːwiː	kiwi
+S	1.0	mousse	mousses	muːs	mus
+S	1.0	peak	pic	piːk	pik
+S	1.0	pest	peste	pɛst	pɛst
+S	1.0	pest	pestes	pɛst	pɛst
+S	1.0	petite	petites	pətiːt	pətit
+S	1.0	poof	pouf	puːf	puf
+S	1.0	poof	poufs	puːf	puf
+S	1.0	quiche	quiches	kiːʃ	kiʃ
+S	1.0	scoop	scoops	skuːp	skup
+S	1.0	sect	secte	sɛkt	sɛkt
+S	1.0	sect	sectes	sɛkt	sɛkt
+S	1.0	soup	soupes	suːp	sup
+S	1.0	steppe	steppes	stɛp	stɛp
+S	1.0	tee	tees	tiː	ti
+S	1.0	tweed	tweeds	twiːd	twid
+S	1.0	zest	zeste	zɛst	zɛst
+S	1.0	zest	zestes	zɛst	zɛst
+S	1.0	zoom	zooms	zuːm	zum
+A	0.885	regime	régimes	ɹeɪʒiːm	ʁeʒim
+A	0.885	regime	régime	ɹeɪʒiːm	ʁeʒim
+A	0.881	platform	plateformes	plætfɔːm	platfɔʁm
+A	0.881	platform	plateforme	plætfɔːm	platfɔʁm
+A	0.87	respect	respecte	ɹɪspɛkt	ʁɛspɛkt
+A	0.87	except	excepté	ɛksɛpt	ɛksɛpte
+A	0.87	express	exprès	ɛkspɹɛs	ɛkspʁɛ
+A	0.87	techniques	technique	tɛkniːks	tɛknik
+A	0.87	semester	semestre	səmɛstɐ	səmɛstʁ
+A	0.864	naive	naïve	naɪiːv	naiv
+A	0.864	clone	clones	kləʊn	klon
+A	0.859	transform	transforme	tɹænsfɔːɹm	tʁɑ̃sfɔʁm
+A	0.858	extreme	extrêmes	ɛkstɹiːm	ɛkstʁɛm
+A	0.858	extreme	extrême	ɛkstɹiːm	ɛkstʁɛm
+A	0.85	direct	directs	daɪɹɛkt	diʁɛkt
+A	0.85	direct	directes	daɪɹɛkt	diʁɛkt
+A	0.85	direct	directe	daɪɹɛkt	diʁɛkt
+A	0.85	correct	corrects	kəɹɛkt	kɔʁɛkt
+A	0.85	correct	correcte	kəɹɛkt	koʁɛkt
+A	0.85	stress	stressé	stɹɛs	stʁɛse
+A	0.85	reform	réformes	ɹᵻfɔːɹm	ʁefɔʁm
+A	0.85	reform	réforme	ɹᵻfɔːɹm	ʁefɔʁm
+A	0.85	enemies	ennemies	ɛnəmɪz	ɛnəmi
+A	0.85	prairie	prairies	pɹeəɹi	pʁeʁi
+A	0.847	formal	formelle	fɔːməl	fɔʁmɛl
+A	0.847	formal	formel	fɔːməl	fɔʁmɛl
+A	0.847	strict	strictes	stɹɪkt	stʁikt
+A	0.847	strict	stricte	stɹɪkt	stʁikt
+A	0.847	costume	costumes	kɒstjuːm	kɔstym
+A	0.847	critique	critiques	kɹɪtiːk	kʁitik
+A	0.842	expertise	expertises	ɛkspətiːz	ɛkspɛʁtiz
+A	0.841	suspect	suspecte	sʌspɛkt	syspɛkt
+A	0.838	context	contextes	kɒntɛkst	kɔ̃tɛkst
+A	0.838	context	contexte	kɒntɛkst	kɔ̃tɛkst
+A	0.837	accept	acceptes	ɐksɛpt	aksɛpt
+A	0.837	accept	acceptent	ɐksɛpt	aksɛpt
+A	0.837	accept	accepte	ɐksɛpt	aksɛpt
+A	0.837	detect	détecte	dɪtɛkt	detɛkt
+A	0.836	explode	explose	ɛkspləʊd	ɛksploz
+A	0.833	role	rôles	ɹəʊl	ʁol
+A	0.833	role	rôle	ɹəʊl	ʁol
+A	0.833	rose	roses	ɹoʊz	ʁoz
+A	0.833	zone	zones	zəʊn	zon
+A	0.833	soil	sols	sɔɪl	sɔl
+A	0.833	soil	sol	sɔɪl	sɔl
+A	0.833	pole	pôles	pəʊl	pol
+A	0.833	pole	pôle	pəʊl	pol
+A	0.833	pose	poses	pəʊz	poz
+A	0.833	pose	posent	pəʊz	poz
+A	0.833	dome	dôme	dəʊm	dom
+A	0.833	cone	cône	kəʊn	kon
+A	0.832	exploring	explorer	ɛksplɔːɹɪŋ	ɛksplɔʁe
+A	0.827	library	librairies	laɪbɹəɹi	libʁɛʁi
+A	0.827	library	librairie	laɪbɹəɹi	libʁɛʁi
+A	0.827	textile	textiles	tɛkstaɪl	tɛkstil
+A	0.825	princess	princesses	pɹɪnsɛs	pʁɛ̃sɛs
+A	0.825	princess	princesse	pɹɪnsɛs	pʁɛ̃sɛs
+B	0.822	lives	live	laɪvz	laɪv
+A	0.822	western	ouest	wɛstən	wɛst
+B	0.822	lines	line	laɪnz	laɪn
+A	0.822	forms	formes	fɔːmz	fɔʁm
+A	0.822	forms	forme	fɔːmz	fɔʁm
+A	0.822	steps	step	stɛps	stɛp
+A	0.822	enemy	ennemis	ɛnəmi	ɛnmi
+A	0.822	enemy	ennemie	ɛnəmi	ɛnmi
+A	0.822	tests	test	tɛsts	tɛst
+A	0.822	troops	troupes	tɹuːps	tʁup
+A	0.822	marine	marines	məɹiːn	maʁin
+A	0.822	porn	pornos	pɔːn	pɔʁno
+A	0.822	porn	porno	pɔːn	pɔʁno
+B	0.822	boost	booster	buːst	buste
+A	0.822	spectrum	spectre	spɛktɹəm	spɛktʁ
+B	0.822	rolls	roll	ɹəʊlz	ɹəʊl
+A	0.822	excess	excès	ɛksɛs	ɛksɛ
+A	0.822	sorts	sortes	sɔːts	sɔʁt
+A	0.822	sorts	sorte	sɔːts	sɔʁt
+B	0.822	flows	flow	fləʊz	fləʊ
+A	0.822	jeans	jean	dʒiːnz	dʒin
+A	0.822	jets	jet	dʒɛts	ʒɛ
+A	0.822	lords	lord	lɔːdz	lɔʁ
+A	0.822	shorts	short	ʃɔːts	ʃɔʁt
+A	0.822	proves	prouve	pɹuːvz	pʁuv
+B	0.822	downs	down	daʊnz	daʊn
+A	0.822	crosses	crosse	kɹɒsɪz	kʁɔs
+A	0.822	forge	forges	fɔːdʒ	fɔʁʒ
+A	0.822	norms	normes	nɔːmz	nɔʁm
+A	0.822	norms	norme	nɔːmz	nɔʁm
+A	0.822	torch	torche	tɔːtʃ	tɔʁʃ
+A	0.822	flora	flore	flɔːɹɐ	flɔʁ
+A	0.821	police	polices	pəliːs	pɔlis
+A	0.821	mixed	mixtes	mɪkst	mikst
+A	0.821	mixed	mixte	mɪkst	mikst
+A	0.821	taxi	taxis	tæksi	taksi
+A	0.821	orbit	orbite	ɔːbɪt	ɔʁbit
+A	0.821	debris	débris	dɛbɹiː	debʁi
+B	0.821	whiskey	whisky	wɪski	wiski
+A	0.821	excel	excelle	ɛksɛl	ɛksel
+A	0.816	concept	concepts	kɒnsɛpt	kɔ̃sɛpt
+A	0.81	address	adresses	ɐdɹɛs	adʁɛs
+A	0.81	address	adresse	ɐdɹɛs	adʁɛs
+A	0.81	machine	machines	məʃiːn	maʃin
+A	0.81	affect	affectent	ɐfɛkt	afɛkt
+A	0.81	moral	morales	mɒɹəl	mɔʁal
+A	0.81	moral	morale	mɒɹəl	mɔʁal
+A	0.808	complex	complexes	kɑːmplɛks	kɔ̃plɛks
+A	0.808	complex	complexe	kɑːmplɛks	kɔ̃plɛks
+A	0.798	confess	confesse	kənfɛs	kɔ̃fɛs
+A	0.798	insect	insectes	ɪnsɛkt	ɛ̃sɛkt
+A	0.798	insect	insecte	ɪnsɛkt	ɛ̃sɛkt
+A	0.795	premium	primes	pɹiːmiəm	pʁim
+A	0.795	premium	prime	pɹiːmiəm	pʁim
+A	0.795	premiere	premières	pɹɛmieə	pʁəmjɛʁ
+A	0.795	premiere	première	pɹɛmieə	pʁəmjɛʁ
+A	0.793	class	classes	klɑːs	klas
+A	0.793	class	classe	klɑːs	klas
+A	0.793	star	stars	stɑː	staʁ
+A	0.793	park	parcs	pɑːk	paʁk
+A	0.793	park	parc	pɑːk	paʁk
+A	0.793	mark	marques	mɑːk	maʁk
+A	0.793	mark	marque	mɑːk	maʁk
+A	0.793	vast	vastes	vɑːst	vast
+A	0.793	vast	vaste	vɑːst	vast
+A	0.793	mask	masques	mɑːsk	mask
+A	0.793	mask	masque	mɑːsk	mask
+A	0.787	lesbian	lesbiennes	lɛsbiən	lɛsbjɛn
+A	0.787	lesbian	lesbienne	lɛsbiən	lɛsbjɛn
+A	0.787	explicit	explicites	ɛksplɪsɪt	ɛksplisit
+A	0.787	explicit	explicite	ɛksplɪsɪt	ɛksplisit
+A	0.786	platforms	plateformes	plætfɔːmz	platfɔʁm
+A	0.786	platforms	plateforme	plætfɔːmz	platfɔʁm
+A	0.786	flexible	flexibles	flɛksɪbəl	flɛksibl
+A	0.786	distress	détresse	dɪstɹɛs	detʁɛs
+A	0.786	terrace	terrasses	tɛɹɪs	tɛʁas
+A	0.786	terrace	terrasse	tɛɹɪs	tɛʁas
+A	0.785	list	listes	lɪst	list
+A	0.785	list	liste	lɪst	list
+A	0.785	clear	clairs	kliə	klɛʁ
+A	0.785	force	forces	fɔːs	fɔʁs
+A	0.785	film	films	fɪlm	film
+A	0.785	tax	taxes	tæks	taks
+A	0.785	tax	taxe	tæks	taks
+A	0.785	match	matchs	mætʃ	matʃ
+A	0.785	risk	risques	ɹɪsk	ʁisk
+A	0.785	risk	risque	ɹɪsk	ʁisk
+A	0.785	score	scores	skɔː	skɔʁ
+A	0.785	semi	semis	sɛmi	səmi
+A	0.785	fraud	fraudes	fɹɔːd	fʁod
+A	0.785	rally	rallye	ɹæli	ʁali
+A	0.785	clip	clips	klɪp	klip
+A	0.785	brick	briques	bɹɪk	bʁik
+A	0.785	brick	brique	bɹɪk	bʁik
+A	0.785	disc	disques	dɪsk	disk
+A	0.785	disc	disque	dɪsk	disk
+A	0.785	disk	disques	dɪsk	disk
+A	0.785	disk	disque	dɪsk	disk
+A	0.785	clause	clauses	klɔːz	kloz
+A	0.785	ruby	rubis	ɹuːbi	ʁybi
+A	0.785	sphere	sphères	sfiə	sfɛʁ
+A	0.785	sphere	sphère	sfiə	sfɛʁ
+A	0.785	crab	crabes	kɹæb	kʁab
+A	0.785	crab	crabe	kɹæb	kʁab
+A	0.785	pact	pacte	pækt	pakt
+A	0.785	plaque	plaques	plæk	plak
+A	0.785	sushi	sushis	suːʃi	syʃi
+A	0.785	midi	midis	mɪdi	midi
+A	0.782	orchestra	orchestre	ɔːkɛstɹɐ	ɔʁkɛstʁ
+A	0.781	group	groupes	ɡɹuːp	gʁup
+A	0.781	group	groupe	ɡɹuːp	gʁup
+A	0.781	order	ordres	ɔːdɐ	ɔʁdʁ
+A	0.781	north	nord	nɔːθ	nɔʁ
+A	0.781	check	chèques	tʃɛk	ʃɛk
+A	0.781	letter	lettres	lɛtɐ	lɛtʁ
+A	0.781	fresh	frais	fɹɛʃ	fʁɛ
+B	0.781	ends	end	ɛndz	ɛnd
+B	0.781	shots	shot	ʃɒts	ʃɒt
+B	0.781	balls	ball	bɔːlz	bɔːl
+B	0.781	bills	bill	bɪlz	bɪl
+B	0.781	lets	let	lɛts	lɛt
+B	0.781	kings	king	kɪŋz	kɪŋ
+A	0.781	routes	route	ɹuːts	ʁut
+A	0.781	pets	pet	pɛts	pɛ
+A	0.781	debts	dettes	dɛts	dɛt
+A	0.781	debts	dette	dɛts	dɛt
+B	0.781	shoots	shoot	ʃuːts	ʃut
+B	0.781	pools	pool	puːlz	pul
+A	0.781	nets	net	nɛts	nɛt
+A	0.78	exclusive	exclusives	ɛkskluːsɪv	ɛksklyziv
+B	0.778	fortune	fortunes	fɔːtʃuːn	fɔʁtyn
+B	0.77	stock	stocks	stɒk	stɔk
+B	0.77	spot	spots	spɒt	spɔt
+B	0.77	copy	copies	kɒpi	kɔpi
+B	0.77	elite	élites	ɪliːt	elit
+B	0.77	oral	orales	ɔːɹəl	ɔʁal
+B	0.768	perspective	perspectives	pəspɛktɪv	pɛʁspɛktiv
+B	0.766	explosive	explosifs	ɛkspləʊsɪv	ɛksplozif
+B	0.763	district	districts	dɪstɹɪkt	distʁikt
+B	0.763	domestic	domestiques	dəmɛstɪk	dɔmɛstik
+B	0.763	testing	tests	tɛstɪŋ	tɛst
+B	0.763	terrorist	terroristes	tɛɹəɹɪst	tɛʁɔʁist
+B	0.763	collective	collectives	kəlɛktɪv	kɔlɛktiv
+B	0.763	vector	vecteurs	vɛktɐ	vɛktœʁ
+B	0.761	prince	princes	pɹɪns	pʁɛ̃s
+B	0.76	electric	électriques	ɪlɛktɹɪk	elɛktʁik
+B	0.76	ordinary	ordinaires	ɔːdɪnəɹi	ɔʁdinɛʁ
+B	0.76	selective	sélective	sɪlɛktɪv	selɛktiv
+B	0.76	fortress	forteresse	fɔːtɹəs	fɔʁtəʁɛs
+B	0.76	directive	directives	daɪɹɛktɪv	diʁɛktiv
+B	0.758	post	postes	pəʊst	pɔst
+B	0.758	steak	steaks	steɪk	stɛk
+B	0.756	territorial	territoriales	tɛɹɪtɔːɹɪəl	tɛʁitɔʁjal
+B	0.755	club	clubs	klʌb	klœb
+B	0.755	stand	stands	stænd	stɑ̃d
+B	0.755	plant	plantes	plænt	plɑ̃t
+B	0.755	festival	festivals	fɛstɪvəl	fɛstival
+B	0.755	detective	détective	dɪtɛktɪv	detɛktiv
+B	0.755	antique	antiques	æntiːk	ɑ̃tik
+B	0.753	excuses	excuse	ɛkskjuːsᵻz	ɛkskyz
+B	0.749	blonde	blondes	blɒnd	blɔ̃d
+B	0.748	john	jean	dʒɒn	dʒin
+B	0.748	coast	côtes	kəʊst	kot
+B	0.748	roses	rose	ɹəʊzɪz	ʁoz
+B	0.748	poses	posent	pəʊzɪz	poz
+B	0.748	doses	dose	dəʊsɪz	doz
+B	0.747	technology	technologies	tɛknɒlədʒi	tɛknɔlɔʒi
+B	0.747	extraordinary	extraordinaires	ɛkstɹɔːdɪnəɹi	ɛkstʁaɔʁdinɛʁ
+B	0.747	destiny	destins	dɛstɪni	dɛstɛ̃
+B	0.743	place	places	pleɪs	plas
+B	0.743	slave	slaves	sleɪv	slav
+B	0.743	trace	traces	tɹeɪs	tʁas
+B	0.741	control	contrôles	kəntɹəʊl	kɔ̃tʁol
+B	0.74	pass	passes	pɑːs	pas
+B	0.74	bar	bars	bɑː	baʁ
+B	0.74	arc	arcs	ɑːk	aʁk
+B	0.74	cult	cultes	kʌlt	kylt
+B	0.74	bust	buste	bʌst	byst
+B	0.74	bra	bras	bɹɑː	bʁa
+B	0.74	watt	watts	wɒt	wat
+B	0.738	suspects	suspecte	sʌspɛkts	syspɛkt
+B	0.737	plastic	plastiques	plɑːstɪk	plastik
+B	0.734	movement	mouvements	muːvmənt	muvmɑ̃
+B	0.733	duchess	duchesse	dʌtʃɛs	dyʃɛs
+B	0.73	act	actes	ækt	akt
+B	0.73	fan	fans	fæn	fan
+B	0.73	mass	masses	mæs	mas
+B	0.73	cap	caps	kæp	kap
+B	0.73	duke	ducs	djuːk	dyk
+B	0.73	tube	tubes	tjuːb	tyb
+B	0.73	sauce	sauces	sɔːs	sos
+B	0.73	piss	pisse	pɪs	pis
+B	0.73	axe	axes	æks	aks
+B	0.73	pees	pisses	piːz	pis
+B	0.73	pees	pisse	piːz	pis
+B	0.729	pharmacy	pharmacies	fɑːməsi	faʁmasi
+B	0.728	costumes	costume	kɒstjuːmz	kɔstym
+B	0.728	scripts	script	skɹɪpts	skʁipt
+B	0.726	scores	score	skɔːz	skɔʁ
+B	0.726	reflect	reflètent	ɹɪflɛkt	ʁəflɛt
+B	0.726	cruel	cruels	kɹuːəl	kʁyɛl
+B	0.726	reforms	réformes	ɹᵻfɔːɹmz	ʁefɔʁm
+B	0.724	problem	problèmes	pɹɒbləm	pʁɔblɛm
+B	0.724	crystal	cristal	kɹɪstəl	kʁistal
+B	0.724	parallel	parallèles	pæɹəlɛl	paʁalɛl
+B	0.724	acoustic	acoustique	ɐkuːstɪk	akustik
+B	0.724	doctrine	doctrines	dɒktɹɪn	dɔktʁin
+B	0.724	dynasty	dynastie	dɪnɐsti	dinasti
+B	0.724	cavalry	cavalerie	kævəlɹi	kavalʁi
+B	0.722	lance	lances	lɑːns	lɑ̃s
+B	0.72	strategy	stratégies	stɹætədʒi	stʁateʒi
+B	0.72	excuse	excuses	ɛkskjuːs	ɛkskyz
+B	0.72	exceptional	exceptionnels	ɛksɛpʃənəl	ɛksɛpsjɔnɛl
+B	0.72	accepts	acceptes	ɐksɛpts	aksɛpt
+B	0.72	informal	informel	ɪnfɔːməl	ɛ̃fɔʁmɛl
+B	0.719	unique	uniques	juːniːk	ynik
+B	0.719	gallery	galeries	ɡæləɹi	galʁi
+B	0.719	zombie	zombies	zɒmbi	zɔ̃bi
+B	0.719	sperm	sperme	spɜːm	spɛʁm
+B	0.718	extracted	extraite	ɛkstɹæktɪd	ɛkstʁɛt
+B	0.717	sandwich	sandwichs	sændwɪtʃ	sɑ̃dwitʃ
+B	0.716	northern	nord	nɔːðən	nɔʁ
+B	0.716	indirect	indirects	ɪndaɪɹɛkt	ɛ̃diʁɛkt
+B	0.716	skiing	skis	skiːɪŋ	ski
+B	0.716	prophecy	prophétie	pɹɒfəsi	pʁɔfesi
+B	0.711	magazine	magazines	mæɡɐziːn	magazin
+B	0.71	boy	boys	bɔɪ	bɔj
+B	0.71	ton	tonnes	tʌn	tɔn
+B	0.71	motte	mottes	mɒt	mɔt
+B	0.709	concepts	concept	kɒnsɛpts	kɔ̃sɛpt
+B	0.708	hotel	hôtels	həʊtɛl	otɛl
+B	0.708	dilemma	dilemme	daɪlɛmɐ	dilɛm
+B	0.708	cholesterol	cholestérol	kəlɛstəɹɒl	kɔlɛsteʁɔl
+B	0.706	entrepreneur	entrepreneurs	ɒntɹɪpɹɪnɜː	ɑ̃tʁəpʁənœʁ
+B	0.706	electron	électrons	ɪlɛktɹɒn	elɛktʁɔ̃
+B	0.703	exceptions	exception	ɛksɛpʃənz	ɛksɛpsjɔ̃
+B	0.702	vote	votes	vəʊt	vɔt
+B	0.702	note	notes	nəʊt	nɔt
+B	0.702	excellent	excellentes	ɛksələnt	ɛkselɑ̃t
+B	0.702	mode	modes	məʊd	mɔd
+B	0.702	contrast	contrastes	kɑːntɹæst	kɔ̃tʁast
+B	0.702	dose	doses	dəʊs	doz
+B	0.702	vein	veines	veɪn	vɛn
+B	0.702	splendid	splendide	splɛndɪd	splɑ̃did
+B	0.7	band	bandes	bænd	bɑ̃d
+B	0.7	palm	paume	pɑːm	pom
+B	0.7	bong	bang	bɒŋ	bɑ̃ŋ
+B	0.7	bong	bangs	bɒŋ	bɑ̃ŋ
+B	0.699	sexual	sexuels	sɛkʃuːəl	sɛksɥɛl
+B	0.699	carbon	carbone	kɑːbən	kaʁbɔn
+B	0.699	basket	baskets	bɑːskɪt	baskɛt
+B	0.699	arctic	arctique	ɑːktɪk	aʁktik
+B	0.699	parcel	parcelles	pɑːsəl	paʁsɛl
+B	0.698	industry	industries	ɪndʌstɹi	ɛ̃dystʁi
+B	0.696	movements	mouvements	muːvmənts	muvmɑ̃
+B	0.696	dual	doubles	djuːəl	dubl
+B	0.695	resource	ressources	ɹɪzɔːs	ʁəsuʁs
+B	0.694	system	systèmes	sɪstəm	sistɛm
+B	0.694	stupid	stupides	stjuːpɪd	stypid
+B	0.694	traffic	trafics	tɹæfɪk	tʁafik
+B	0.694	classic	classiques	klæsɪk	klasik
+B	0.694	victim	victimes	vɪktɪm	viktim
+B	0.694	historic	historiques	hɪstɒɹɪk	istɔʁik
+B	0.694	uniform	uniformes	juːnɪfɔːm	ynifɔʁm
+B	0.694	clinic	cliniques	klɪnɪk	klinik
+B	0.694	static	statique	stætɪk	statik
+B	0.694	tablet	tablettes	tæblət	tablɛt
+B	0.694	critic	critiques	kɹɪtɪk	kʁitik
+B	0.694	trilogy	trilogie	tɹɪlədʒi	tʁilɔʒi
+B	0.694	fascist	fascistes	fæʃɪst	faʃist
+B	0.694	pixel	pixels	pɪksəl	piksɛl
+B	0.694	tactic	tactiques	tæktɪk	taktik
+B	0.693	acceptable	acceptables	ɐksɛptəbəl	aksɛptabl
+B	0.691	remark	remarques	ɹᵻmɑːɹk	ʁəmaʁk
+B	0.69	technical	techniques	tɛknɪkəl	tɛknik
+B	0.69	pub	pubs	pʌb	pœb
+B	0.69	collecting	collecte	kəlɛktɪŋ	kɔlɛkt
+B	0.69	frustrated	frustrés	fɹʌstɹeɪtɪd	fʁystʁe
+B	0.689	perspectives	perspective	pəspɛktɪvz	pɛʁspɛktiv
+B	0.688	tornado	tornade	tɔːneɪdəʊ	tɔʁnad
+B	0.687	distinct	distinctes	dɪstɪŋkt	distɛ̃kt
+B	0.687	tragedy	tragédies	tɹædʒədi	tʁaʒedi
+B	0.686	exist	existent	ɛɡzɪst	ɛgzist
+B	0.686	exact	exacts	ɛɡzækt	ɛgzakt
+B	0.686	bridges	bridge	bɹɪdʒɪz	bʁidʒ
+B	0.685	saint	saintes	seɪnt	sɛ̃t
+B	0.685	toxic	toxiques	tɒksɪk	tɔksik
+B	0.685	chronic	chroniques	kɹɒnɪk	kʁɔnik
+B	0.685	colony	colonies	kɒləni	kɔlɔni
+B	0.685	modest	modestes	mɒdəst	mɔdɛst
+B	0.685	prophet	prophètes	pɹɒfɪt	pʁɔfɛt
+B	0.685	eclipse	éclipse	ɪklɪps	eklips
+B	0.683	phase	phases	feɪz	faz
+B	0.683	cape	caps	keɪp	kap
+B	0.683	cave	caves	keɪv	kav
+B	0.68	marines	marine	məɹiːnz	maʁin
+B	0.679	parliament	parlements	pɑːləmənt	paʁləmɑ̃
+B	0.678	experience	expériences	ɛkspiəɹɪəns	ɛkspeʁjɑ̃s
+B	0.678	memorial	mémorial	məmɔːɹɪəl	memɔʁjal
+B	0.678	diploma	diplômes	dɪpləʊmɐ	diplom
+B	0.677	arbitrary	arbitraires	ɑːbɪtɹəɹi	aʁbitʁɛʁ
+B	0.676	machines	machine	məʃiːnz	maʃin
+B	0.676	affects	affectent	ɐfɛkts	afɛkt
+B	0.676	addresses	adresses	ɐdɹɛsɪz	adʁɛs
+B	0.676	insects	insectes	ɪnsɛkts	ɛ̃sɛkt
+B	0.676	lottery	loterie	lɒtəɹi	lɔtʁi
+B	0.675	actress	actrices	æktɹəs	aktʁis
+B	0.674	drama	drames	dɹɑːmɐ	dʁam
+B	0.674	districts	district	dɪstɹɪkts	distʁikt
+B	0.674	terrorists	terroristes	tɛɹəɹɪsts	tɛʁɔʁist
+B	0.674	orthodox	orthodoxes	ɔːθədɒks	ɔʁtɔdɔks
+B	0.674	correspondent	correspondante	kɒɹɪspɒndənt	kɔʁɛspɔ̃dɑ̃t
+B	0.674	correspondence	correspondances	kɒɹɪspɒndəns	kɔʁɛspɔ̃dɑ̃s
+B	0.672	flexibility	flexibilité	flɛksɪbɪlɪti	flɛksibilite
+B	0.672	technician	techniciens	tɛknɪʃən	tɛknisjɛ̃
+B	0.671	estimated	estimés	ɛstɪmeɪtɪd	ɛstime
+B	0.671	null	nuls	nʌl	nyl
+B	0.67	distance	distances	dɪstəns	distɑ̃s
+B	0.67	orange	oranges	ɒɹɪndʒ	ɔʁɑ̃ʒ
+B	0.67	distant	distante	dɪstənt	distɑ̃t
+B	0.67	scandal	scandales	skændəl	skɑ̃dal
+B	0.67	casino	casinos	kɐsiːnəʊ	kazino
+B	0.67	postal	postales	pəʊstəl	pɔstal
+B	0.67	cocktail	cocktails	kɒkteɪl	kɔktɛl
+B	0.67	fringe	frange	fɹɪndʒ	fʁɑ̃ʒ
+B	0.67	patron	patronne	peɪtɹən	patʁɔn
+B	0.67	revolt	révoltes	ɹɪvəʊlt	ʁevɔlt
+B	0.669	artistic	artistiques	ɑːtɪstɪk	aʁtistik
+B	0.667	demo	démo	dɛməʊ	demo
+B	0.667	festivals	festival	fɛstɪvəlz	fɛstival
+B	0.667	café	cafés	kæfeɪ	kafe
+B	0.667	detectives	détective	dɪtɛktɪvz	detɛktiv
+B	0.666	squares	square	skweəz	skwaʁ
+B	0.665	public	publiques	pʌblɪk	pyblik
+B	0.664	professors	professeurs	pɹəfɛsəz	pʁɔfɛsœʁ
+B	0.664	diplomacy	diplomatie	dɪpləʊməsi	diplɔmasi
+B	0.663	lamp	lampes	læmp	lɑ̃p
+B	0.663	transparent	transparentes	tɹænspæɹənt	tʁɑ̃spaʁɑ̃t
+B	0.663	frustration	frustrés	fɹʌstɹeɪʃən	fʁystʁe
+B	0.663	ramp	rampe	ɹæmp	ʁɑ̃p
+B	0.662	contact	contacts	kɑːntækt	kɔ̃takt
+B	0.662	structural	structurelles	stɹʌktʃəɹəl	stʁyktyʁɛl
+B	0.662	compact	compacte	kəmpækt	kɔ̃pakt
+B	0.662	dentist	dentistes	dɛntɪst	dɑ̃tist
+B	0.662	symphony	symphonie	sɪmfəni	sɛ̃fɔni
+B	0.661	infantry	infanterie	ɪnfəntɹi	ɛ̃fɑ̃tʁi
+B	0.66	democracy	démocraties	dɪmɒkɹəsi	demɔkʁasi
+B	0.66	productive	productives	pɹədʌktɪv	pʁɔdyktiv
+B	0.66	sovereign	souveraine	sɒvəɹɪn	suvʁɛn
+B	0.659	refreshing	rafraîchir	ɹɪfɹɛʃɪŋ	ʁafʁɛʃiʁ
+B	0.658	cardiac	cardiaques	kɑːdɪæk	kaʁdjak
+B	0.658	protestant	protestante	pɹɒtɪstənt	pʁɔtɛstɑ̃t
+B	0.657	harmony	harmonie	hɑːməni	aʁmɔni
+B	0.655	protection	protections	pɹətɛkʃən	pʁɔtɛksjɔ̃
+B	0.655	pump	pompes	pʌmp	pɔ̃p
+B	0.655	guild	guilde	ɡɪld	gild
+B	0.655	cube	cubes	kjuːb	kyb
+B	0.655	verb	verbes	vɜːb	vɛʁb
+B	0.654	constant	constantes	kɒnstənt	kɔ̃stɑ̃t
+B	0.653	nuclear	nucléaires	njuːkliə	nykleɛʁ
+B	0.653	origin	origines	ɒɹɪdʒɪn	ɔʁiʒin
+B	0.653	organic	organiques	ɔːɡænɪk	ɔʁganik
+B	0.653	dispute	disputes	dɪspjuːt	dispyt
+B	0.653	tragic	tragiques	tɹædʒɪk	tʁaʒik
+B	0.653	unacceptable	inacceptables	ʌnɐksɛptəbəl	inaksɛptabl
+B	0.653	baptist	baptiste	bæptɪst	batist
+B	0.653	mistress	maîtresses	mɪstɹəs	mɛtʁɛs
+B	0.653	tribune	tribunes	tɹɪbjuːn	tʁibyn
+B	0.653	capsule	capsules	kæpsjuːl	kapsyl
+B	0.652	throne	trône	θɹəʊn	tʁon
+B	0.651	bacteria	bactéries	bæktiəɹɪɐ	bakteʁi
+B	0.649	massage	massages	mæsɑːʒ	masaʒ
+B	0.649	antenna	antennes	æntɛnə	ɑ̃tɛn
+B	0.648	zones	zone	zəʊnz	zon
+B	0.646	interview	interviews	ɪntəvjuː	ɛ̃tɛʁvju
+B	0.646	strategic	stratégiques	stɹətiːdʒɪk	stʁateʒik
+B	0.645	fantastic	fantastiques	fɑːntæstɪk	fɑ̃tastik
+B	0.645	pornography	pornographie	pɔːnɒɡɹəfi	pɔʁnɔgʁafi
+B	0.644	criminal	criminels	kɹɪmɪnəl	kʁiminɛl
+B	0.644	atmosphere	atmosphère	ætməsfiə	atmɔsfɛʁ
+B	0.644	aggressive	agressive	ɐɡɹɛsɪv	agʁɛsiv
+B	0.644	galaxy	galaxies	ɡælɐksi	galaksi
+B	0.644	democrat	démocrates	dɛməkɹæt	demɔkʁat
+B	0.644	discipline	disciplines	dɪsɪplɪn	disiplin
+B	0.644	activist	activistes	æktɪvɪst	aktivist
+B	0.644	diplomat	diplomates	dɪpləmæt	diplɔmat
+B	0.643	album	albums	ælbəm	albɔm
+B	0.643	active	actives	æktɪv	aktiv
+B	0.643	massive	massives	mæsɪv	masiv
+B	0.643	limit	limites	lɪmɪt	limit
+B	0.643	controls	contrôles	kəntɹəʊlz	kɔ̃tʁol
+B	0.643	valid	valides	vælɪd	valid
+B	0.643	civic	civiques	sɪvɪk	sivik
+B	0.643	souk	souks	saʊk	suk
+B	0.642	electrical	électriques	ɪlɛktɹɪkəl	elɛktʁik
+B	0.641	perception	perceptions	pəsɛpʃən	pɛʁsɛpsjɔ̃
+B	0.64	gulf	golfe	ɡʌlf	gɔlf
+B	0.639	philosophy	philosophie	fɪlɒsəfi	filɔzɔfi
+B	0.639	infected	infectés	ɪnfɛktɪd	ɛ̃fɛkte
+B	0.639	rebellion	rébellion	ɹɪbɛliən	ʁebɛljɔ̃
+B	0.639	disciplinary	disciplinaires	dɪsɪplɪnəɹi	disiplinɛʁ
+B	0.637	specific	spécifiques	spəsɪfɪk	spesifik
+B	0.637	dramatic	dramatiques	dɹəmætɪk	dʁamatik
+B	0.637	prescribed	prescrits	pɹɪskɹaɪbd	pʁɛskʁi
+B	0.637	entrepreneurs	entrepreneur	ɒntɹɪpɹɪnɜːz	ɑ̃tʁəpʁənœʁ
+B	0.637	volcanic	volcaniques	vɒlkænɪk	vɔlkanik
+B	0.637	orgasm	orgasme	ɔːɡæzəm	ɔʁgasm
+B	0.636	fragile	fragiles	fɹædʒaɪl	fʁaʒil
+B	0.636	constructive	constructif	kənstɹʌktɪv	kɔ̃stʁyktif
+B	0.634	specialist	spécialistes	spɛʃəlɪst	spesjalist
+B	0.634	intact	intacte	ɪntækt	ɛ̃takt
+B	0.632	prescription	prescriptions	pɹɪskɹɪpʃən	pʁɛskʁipsjɔ̃
+B	0.632	bracelet	bracelets	bɹeɪslət	bʁaslɛ
+B	0.631	ethnic	ethniques	ɛθnɪk	ɛtnik
+B	0.631	probable	probables	pɹɒbəbəl	pʁɔbabl
+B	0.629	tropical	tropicales	tɹɒpɪkəl	tʁɔpikal
+B	0.628	matches	matchs	mætʃɪz	matʃ
+B	0.628	franchise	franchises	fɹɑːntʃaɪz	fʁɑ̃ʃiz
+B	0.628	crystals	cristal	kɹɪstəlz	kʁistal
+B	0.628	telescope	télescope	tɛlɪskəʊp	teleskɔp
+B	0.628	swings	swing	swɪŋz	swiŋ
+B	0.627	connection	connexions	kənɛkʃən	kɔnɛksjɔ̃
+B	0.627	imagery	imagerie	ɪmɪdʒɹi	imaʒʁi
+B	0.627	sandwiches	sandwichs	sændwɪtʃɪz	sɑ̃dwitʃ
+B	0.626	majority	majorité	mədʒɒɹɪti	maʒɔʁite
+B	0.625	impose	imposent	ɪmpəʊz	ɛ̃poz
+B	0.625	coordinated	coordonnées	kəʊɔːdɪneɪtɪd	kɔɔʁdɔne
+B	0.624	dancers	danseuses	dɑːnsəz	dɑ̃søz
+B	0.624	arcade	arcades	ɑːkeɪd	aʁkad
+B	0.622	intellectual	intellectuels	ɪntəlɛktʃuːəl	ɛ̃telɛktɥɛl
+B	0.622	conception	conceptions	kənsɛpʃən	kɔ̃sɛpsjɔ̃
+B	0.621	substance	substances	sʌbstəns	sypstɑ̃s
+B	0.621	oriental	orientales	ɔːɹɪɛntəl	ɔʁjɑ̃tal
+B	0.62	adorable	adorables	ɐdɔːɹəbəl	adɔʁabl

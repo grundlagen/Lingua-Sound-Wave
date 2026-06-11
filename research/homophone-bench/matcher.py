@@ -41,6 +41,59 @@ RHOTIC_MAP = str.maketrans({"ʁ": "ɹ", "ʀ": "ɹ", "ɾ": "ɹ", "ɽ": "ɹ", "r":
 NASAL_SPLIT = {"ɑ̃": "ɑn", "ɛ̃": "ɛn", "ɔ̃": "ɔn", "œ̃": "œn"}
 DIPHTHONG_SMOOTH = {"eɪ": "e", "oʊ": "o", "əʊ": "o", "aɪ": "a", "aʊ": "a", "ɔɪ": "ɔ"}
 
+# ---- EN<->FR equivalence layer (ported from the production phoneme.ts
+# equivalence classes, re-curated for this language pair) ----
+#
+# Substitution costs for phone pairs that legitimately substitute across
+# English and French; used as a floor under the sharpened panphon distance.
+# Deliberately NOT ported from phoneme.ts: the ʃ~s / ʒ~z "sibilant family"
+# merges — those help Mandarin-style comparisons but EN and FR both
+# contrast them (chou/sous must stay apart).
+_EQUIV_RAW: list[tuple[list[str], float]] = [
+    (["l", "ɫ", "w"], 0.20),                  # l-vocalization
+    (["θ", "s", "f", "t"], 0.25),             # TH has no FR counterpart
+    (["ð", "z", "d"], 0.25),
+    (["ŋ", "n"], 0.15),                       # -ing -> FR n
+    (["ŋ", "ɲ"], 0.20), (["ɲ", "n"], 0.15),
+    (["p", "b"], 0.20), (["t", "d"], 0.20), (["k", "ɡ"], 0.20),
+    (["s", "z"], 0.20), (["f", "v"], 0.20), (["ʃ", "ʒ"], 0.20),
+    (["i", "ɪ"], 0.10), (["e", "ɛ"], 0.10),   # FR has no lax vowels
+    (["u", "ʊ"], 0.10), (["o", "ɔ"], 0.10), (["ɔ", "ɒ"], 0.10),
+    (["ɑ", "ɒ"], 0.10), (["a", "ɑ", "ɐ", "æ"], 0.15),
+    (["ə", "ɐ", "ɜ", "ʌ", "ɪ", "ʊ", "ɛ"], 0.15),  # schwa territory
+    (["ɚ", "ə"], 0.05), (["ɚ", "œ"], 0.20),
+    (["œ", "ʌ"], 0.15), (["ø", "œ"], 0.10), (["ø", "e"], 0.20),
+    (["y", "i"], 0.20), (["y", "u"], 0.20),   # FR front-rounded u
+    (["ɥ", "y"], 0.10), (["ɥ", "w"], 0.15),
+    (["j", "i"], 0.20), (["w", "u"], 0.20),   # glide <-> vowel
+    (["v", "w"], 0.20),
+]
+EQUIV: dict[tuple[str, str], float] = {}
+for group, cost in _EQUIV_RAW:
+    for i in range(len(group)):
+        for j in range(i + 1, len(group)):
+            k = tuple(sorted((group[i], group[j])))
+            EQUIV[k] = min(cost, EQUIV.get(k, 1.0))
+
+# Cheap-to-delete segments (per-segment gap costs). Offglides vanish in the
+# other language's monophthong (dough/dos); EN reduced vowels elide in fast
+# speech (fortunate); FR has no /h/ at all (holly/allie).
+CHEAP_GAP = {"ʊ": 0.12, "ɪ": 0.12, "j": 0.15, "w": 0.15,
+             "ə": 0.18, "ɚ": 0.18, "h": 0.12}
+
+
+def _strip_len(seg: str) -> str:
+    return seg.replace("ː", "")
+
+
+def _equiv_floor(sa: str, sb: str) -> float:
+    k = tuple(sorted((_strip_len(sa), _strip_len(sb))))
+    return EQUIV.get(k, 1.0)
+
+
+def _gap_cost(seg: str) -> float:
+    return CHEAP_GAP.get(_strip_len(seg), GAP)
+
 
 def _normalize_ipa(s: str) -> str:
     s = unicodedata.normalize("NFD", s)
@@ -94,7 +147,51 @@ def _segs(ipa: str) -> tuple:
     return tuple(FT.ipa_segs(ipa))
 
 
+def _sub_matrix(segs_a: tuple, va: np.ndarray, segs_b: tuple, vb: np.ndarray) -> np.ndarray:
+    """Sharpened panphon distance, floored by the EN<->FR equivalence table."""
+    sub = np.minimum(1.0, (np.abs(va[:, None, :] - vb[None, :, :]).sum(axis=2) / (2.0 * N_FEATURES)) / SHARPEN)
+    for i, sa in enumerate(segs_a):
+        for j, sb in enumerate(segs_b):
+            f = _equiv_floor(sa, sb)
+            if f < sub[i, j]:
+                sub[i, j] = f
+    return sub
+
+
+def nw_sim_ipa(ipa_a: str, ipa_b: str) -> float:
+    """Featural NW similarity between two (already canonical) IPA strings,
+    with equivalence-floored substitutions and per-segment gap costs."""
+    segs_a, va = _segs(ipa_a), _vecs(ipa_a)
+    segs_b, vb = _segs(ipa_b), _vecs(ipa_b)
+    n, m = len(va), len(vb)
+    if n == 0 or m == 0:
+        return 0.0
+    sub = _sub_matrix(segs_a, va, segs_b, vb)
+    gap_a = [_gap_cost(s) for s in segs_a]
+    gap_b = [_gap_cost(s) for s in segs_b]
+    cost = np.zeros((n + 1, m + 1))
+    length = np.zeros((n + 1, m + 1), dtype=int)
+    for j in range(1, m + 1):
+        cost[0, j] = cost[0, j - 1] + gap_b[j - 1]
+        length[0, j] = j
+    for i in range(1, n + 1):
+        cost[i, 0] = cost[i - 1, 0] + gap_a[i - 1]
+        length[i, 0] = i
+    for i in range(1, n + 1):
+        for j in range(1, m + 1):
+            opts = (
+                (cost[i - 1, j - 1] + sub[i - 1, j - 1], length[i - 1, j - 1]),
+                (cost[i - 1, j] + gap_a[i - 1], length[i - 1, j]),
+                (cost[i, j - 1] + gap_b[j - 1], length[i, j - 1]),
+            )
+            c, l = min(opts, key=lambda t: t[0])
+            cost[i, j] = c
+            length[i, j] = l + 1
+    return 1.0 - cost[n, m] / max(1, length[n, m])
+
+
 def _nw_sim(va: np.ndarray, vb: np.ndarray) -> float:
+    """Back-compat vec-only path (no equivalence floor / cheap gaps)."""
     n, m = len(va), len(vb)
     if n == 0 or m == 0:
         return 0.0
@@ -121,7 +218,7 @@ def _nw_sim(va: np.ndarray, vb: np.ndarray) -> float:
 def _feat_channel(ipa_a: str, ipa_b: str) -> float:
     va = _variants(ipa_a)
     vb = _variants(ipa_b)
-    return max(_nw_sim(_vecs(a), _vecs(b)) for a in va for b in vb)
+    return max(nw_sim_ipa(a, b) for a in va for b in vb)
 
 
 def _ngram_channel(ipa_a: str, ipa_b: str) -> float:
