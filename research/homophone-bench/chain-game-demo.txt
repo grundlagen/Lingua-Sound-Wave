@@ -1,0 +1,28 @@
+
+=== key ===
+  longest alternation chains:
+    [7 hops, q 0.88] en:key = fr:touche ≈ en:douche ~ en:shower ≈ fr:chats ~ en:chat ≈ fr:chat ~ en:chats
+    [7 hops, q 0.88] en:key = fr:touche ≈ en:douche ~ en:shower ≈ fr:chats ~ fr:chat ≈ en:chat ~ en:chats
+    [7 hops, q 0.88] en:key = fr:touche ≈ en:douche ~ en:shower ≈ fr:chats ~ en:chat ≈ fr:chat = en:cat
+    [7 hops, q 0.88] en:key = fr:touche ≈ en:douche ~ en:shower ≈ fr:chats ~ en:chat ≈ fr:chat ~ en:chater
+  loops back home ('= key' endings):
+    (none within depth budget)
+
+=== frog ===
+  longest alternation chains:
+  loops back home ('= key' endings):
+    (none within depth budget)
+
+=== sea ===
+  longest alternation chains:
+    [7 hops, q 0.95] en:sea ≈ fr:si ~ en:si ≈ fr:scient ~ fr:scient in ≈ en:ceding ~ fr:céder ≈ en:cedi
+    [7 hops, q 0.94] en:sea ≈ fr:si ~ en:si ≈ fr:scient ~ fr:scient in ≈ en:seeding = fr:semis ≈ en:semi
+    [7 hops, q 0.93] en:sea ≈ fr:scient ~ fr:scient in ≈ en:seating ~ en:seat ≈ fr:sites ~ fr:site ≈ en:seats
+    [7 hops, q 0.93] en:sea ≈ fr:scient ~ fr:scient in ≈ en:seating ~ en:seat ≈ fr:sites ~ fr:site ≈ en:ct
+  loops back home ('= key' endings):
+    (none within depth budget)
+
+=== bear ===
+  longest alternation chains:
+  loops back home ('= key' endings):
+    (none within depth budget)
