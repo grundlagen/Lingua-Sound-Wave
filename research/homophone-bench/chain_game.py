@@ -35,7 +35,7 @@ MIN_SOUND_HOPS = 2
 SOUND, MEANING = "S", "M"
 
 
-def build_graph():
+def build_graph(min_sound: float = 0.0):
     entries = json.load(open("dictionary-v5.json"))
     edges = defaultdict(list)   # node -> [(node, quality, label, family)]
 
@@ -44,7 +44,7 @@ def build_graph():
         edges[b].append((a, q, label, fam))
 
     for e in entries:
-        if e.get("usable_for_composition"):
+        if e.get("usable_for_composition") and e["score"] >= min_sound:
             add(f"en:{e['en']}", f"fr:{e['fr']}", e["score"], "≈", SOUND)
     try:
         with open("/tmp/muse-en-fr.txt", encoding="utf-8") as f:

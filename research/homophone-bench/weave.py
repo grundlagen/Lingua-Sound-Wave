@@ -88,7 +88,9 @@ def endpoints(edges, sem_neigh, seed):
 
 def main():
     t0 = time.time()
-    edges, sem_neigh = build_graph()
+    s_tier = "--s-tier" in sys.argv
+    suffix = "-S" if s_tier else ""
+    edges, sem_neigh = build_graph(min_sound=0.90 if s_tier else 0.0)
 
     sizes = components(edges)
     n_nodes = len(edges)
@@ -101,7 +103,7 @@ def main():
         "isolates_or_tiny(<=3)": sum(1 for s in sizes if s <= 3),
     }
     print(f"PHASE1 census: {json.dumps(stats)}", flush=True)
-    with open("chain-web-stats.json", "w") as f:
+    with open(f"chain-web-stats{suffix}.json", "w") as f:
         json.dump(stats, f, indent=1)
     if "--stats" in sys.argv:
         return
@@ -110,7 +112,7 @@ def main():
                     if n.startswith("en:") and any(c[3] == SOUND for c in lst)})
     print(f"PHASE2 weaving {len(seeds)} seeds...", flush=True)
     n_edges = n_loops = 0
-    with open("chain-web.tsv", "w") as fw, open("chain-loops.tsv", "w") as fl:
+    with open(f"chain-web{suffix}.tsv", "w") as fw, open(f"chain-loops{suffix}.tsv", "w") as fl:
         fw.write("src\tdst\thops\tquality\tchain\n")
         fl.write("seed\thops\tquality\tloop\n")
         for i, s in enumerate(seeds):
@@ -127,7 +129,7 @@ def main():
 
     stats.update({"seeds": len(seeds), "chain_web_edges": n_edges,
                   "loops": n_loops, "seconds": round(time.time() - t0)})
-    with open("chain-web-stats.json", "w") as f:
+    with open(f"chain-web-stats{suffix}.json", "w") as f:
         json.dump(stats, f, indent=1)
     print(f"DONE {json.dumps(stats)}", flush=True)
 
