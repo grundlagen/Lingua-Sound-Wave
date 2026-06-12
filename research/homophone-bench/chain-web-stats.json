@@ -1,0 +1,8 @@
+{
+ "nodes": 194442,
+ "components": 78,
+ "giant_component": 193634,
+ "giant_fraction": 0.9958,
+ "second_component": 33,
+ "isolates_or_tiny(<=3)": 6
+}
