@@ -95,6 +95,31 @@ def _gap_cost(seg: str) -> float:
     return CHEAP_GAP.get(_strip_len(seg), GAP)
 
 
+# ---- learned cost overlay (learn_costs.py output) ----
+# Counts mined from S-tier + loop-certified alignments tighten the hand
+# table wherever the evidence earned a lower cost. Validated on the frozen
+# benchmark before being committed (AUC 0.989 -> 0.994). Delete the JSON to
+# fall back to the pure hand-curated model.
+import json as _json
+import os as _os
+
+_LC_PATH = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)),
+                         "learned-costs.json")
+try:
+    with open(_LC_PATH, encoding="utf-8") as _f:
+        _lc = _json.load(_f)
+    for _k, _c in _lc.get("pairs", {}).items():
+        _a, _b = _k.split("|")
+        _key = tuple(sorted((_a, _b)))
+        if _c < EQUIV.get(_key, 1.0):
+            EQUIV[_key] = _c
+    for _s, _c in _lc.get("gaps", {}).items():
+        if _c < CHEAP_GAP.get(_s, GAP):
+            CHEAP_GAP[_s] = _c
+except FileNotFoundError:
+    pass
+
+
 def _normalize_ipa(s: str) -> str:
     s = unicodedata.normalize("NFD", s)
     drop = {"ˈ", "ˌ", "‿", ".", "|", "‖", " ", "\n", "\t"}

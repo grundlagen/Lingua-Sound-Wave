@@ -1,0 +1,21 @@
+
+EN original:  the sea is cold
+literal:      la mer froid
+baseline:     dessus colt   (snd 0.92, sem 0.41)
+best variant: 'the sea is chill'
+rendering:    dessus gel   (snd 0.91, sem 0.66)
+semantic gain from paraphrase search: +0.25
+
+EN original:  two men under the moon
+literal:      deux homme sous la lunaire
+baseline:     humain aulnes aumône   (snd 0.89, sem 0.39)
+best variant: 'two men under the moon'
+rendering:    humain aulnes aumône   (snd 0.89, sem 0.39)
+semantic gain from paraphrase search: +0.00
+
+EN original:  she said tell me more
+literal:      elle disait davantage
+baseline:     chies aident herbivores   (snd 0.89, sem 0.17)
+best variant: 'she says tell me more'
+rendering:    chassées terminé   (snd 0.87, sem 0.46)
+semantic gain from paraphrase search: +0.29
