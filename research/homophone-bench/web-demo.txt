@@ -1,0 +1,27 @@
+
+=== en:sea — what it sounds like it means ===
+  0.95  sis              en:sea ≈fr:sis =en:sis
+  0.95  saw              en:sea ≈fr:scie =en:saw
+  0.95  saws             en:sea ≈fr:scies =en:saws
+
+=== en:pain — what it sounds like it means ===
+
+=== en:two — what it sounds like it means ===
+  0.95  coughing         en:two ≈fr:toux =en:coughing
+  0.95  cough            en:two ≈fr:toux =en:cough
+  0.95  coughs           en:two ≈fr:toux =en:coughs
+  0.95  all              en:two ≈fr:tout =en:all
+  0.95  everything       en:two ≈fr:tout =en:everything
+  0.86  hall             en:two ≈fr:tout =en:all ≈fr:hall =en:hall
+  0.86  lobby            en:two ≈fr:tout =en:all ≈fr:hall =en:lobby
+  0.86  halls            en:two ≈fr:tout =en:all ≈fr:halls =en:halls
+  0.70  chests           en:two ≈fr:toux =en:cough ≈fr:coffres =en:chests
+  0.70  safes            en:two ≈fr:toux =en:cough ≈fr:coffres =en:safes
+  0.70  chest            en:two ≈fr:toux =en:cough ≈fr:coffre =en:chest
+  0.70  trunk            en:two ≈fr:toux =en:cough ≈fr:coffre =en:trunk
+
+=== en:share — what it sounds like it means ===
+  0.95  expensive        en:share ≈fr:chères =en:expensive
+  0.95  dear             en:share ≈fr:chère =en:dear
+  0.71  say              en:share ≈fr:chère =en:dear ≈fr:dis =en:say
+  0.71  dis              en:share ≈fr:chère =en:dear ≈fr:dis =en:dis

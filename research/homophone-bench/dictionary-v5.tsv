@@ -10845,3 +10845,945 @@ S	0.925	en_fr	over	vêt	decoder	əʊvɐ	ve	··CV	3	1	2	0.5	0.0	1	1	ə|V	ɐ|V	v|
 S	0.911	en_fr	under	hindi	decoder	ʌndɐ	indi	VCCV	2	2	0	0.0	0.0	0	1	ʌ|V	ɐ|V	i|V	i|V	ʌ:i n:n d:d ɐ:i
 S	0.976	en_fr	about	ébattent	decoder	ɐbaʊt	ebat	VCVC	3	2	1	0.0	0.0	0	1	ɐ|V	t|C	e|V	t|C	ɐ:e b:b a:a t:t
 S	0.952	en_fr	about	épate	decoder	ɐbaʊt	epat	VCVC	3	2	1	0.0	0.0	0	1	ɐ|V	t|C	e|V	t|C	ɐ:e b:p a:a t:t
+S	1.0	en_fr	wrest	reste	decoder	ɹɛst	ʁɛst	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ ɛ:ɛ s:s t:t
+S	1.0	en_fr	wreaks	rixe	decoder	ɹiːks	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	s|C	ɹ|C	s|C	ɹ:ɹ i:i k:k s:s
+S	1.0	en_fr	truce	trousse	decoder	tɹuːs	tʁus	CCVC	1	1	0	0.0	0.0	0	1	t|C	s|C	t|C	s|C	t:t ɹ:ɹ u:u s:s
+S	1.0	en_fr	troupe	troupes	decoder	tɹuːp	tʁup	CCVC	1	1	0	0.0	0.0	0	1	t|C	p|C	t|C	p|C	t:t ɹ:ɹ u:u p:p
+S	1.0	en_fr	tret	traite	decoder	tɹɛt	tʁɛt	CCVC	1	1	0	0.0	0.0	0	1	t|C	t|C	t|C	t|C	t:t ɹ:ɹ ɛ:ɛ t:t
+S	1.0	en_fr	tress	tresses	decoder	tɹɛs	tʁɛs	CCVC	1	1	0	0.0	0.0	0	1	t|C	s|C	t|C	s|C	t:t ɹ:ɹ ɛ:ɛ s:s
+S	1.0	en_fr	trawl	troll	decoder	tɹɔːl	tʁɔl	CCVC	1	1	0	0.0	0.0	0	1	t|C	l|C	t|C	l|C	t:t ɹ:ɹ ɔ:ɔ l:l
+S	1.0	en_fr	titi	titi	decoder	tiːti	titi	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	i|V	t:t i:i t:t i:i
+S	1.0	en_fr	testa	tester	decoder	tɛstɐ	tɛste	CVCCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	t|C	e|V	t:t ɛ:ɛ s:s t:t ɐ:e
+S	1.0	en_fr	terrine	terrine	decoder	tɛɹiːn	tɛʁin	CVCVC	2	2	0	0.0	0.0	0	1	t|C	n|C	t|C	n|C	t:t ɛ:ɛ ɹ:ɹ i:i n:n
+S	1.0	en_fr	tepee	tipi	decoder	tiːpiː	tipi	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	i|V	t:t i:i p:p i:i
+S	1.0	en_fr	teepee	tipi	decoder	tiːpiː	tipi	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	i|V	t:t i:i p:p i:i
+S	1.0	en_fr	taller	tollé	decoder	tɔːlɐ	tɔle	CVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	t|C	e|V	t:t ɔ:ɔ l:l ɐ:e
+S	1.0	en_fr	stree	stries	decoder	stɹiː	stʁi	CCCV	1	1	0	0.0	0.0	0	1	s|C	i|V	s|C	i|V	s:s t:t ɹ:ɹ i:i
+S	1.0	en_fr	streaked	strict	decoder	stɹiːkt	stʁikt	CCCVCC	1	1	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s t:t ɹ:ɹ i:i k:k t:t
+S	1.0	en_fr	stork	stock	decoder	stɔːk	stɔk	CCVC	1	1	0	0.0	0.0	0	1	s|C	k|C	s|C	k|C	s:s t:t ɔ:ɔ k:k
+S	1.0	en_fr	stealer	stylé	decoder	stiːlɐ	stile	CCVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s t:t i:i l:l ɐ:e
+S	1.0	en_fr	spleen	spleen	decoder	spliːn	splin	CCCVC	1	1	0	0.0	0.0	0	1	s|C	n|C	s|C	n|C	s:s p:p l:l i:i n:n
+S	1.0	en_fr	shooter	shooter	decoder	ʃuːtɐ	ʃute	CVCV	2	2	0	0.0	0.0	0	1	ʃ|C	ɐ|V	ʃ|C	e|V	ʃ:ʃ u:u t:t ɐ:e
+S	1.0	en_fr	shiest	schiste	decoder	ʃiːst	ʃist	CVCC	1	1	0	0.0	0.0	0	1	ʃ|C	t|C	ʃ|C	t|C	ʃ:ʃ i:i s:s t:t
+S	1.0	en_fr	settler	sait les	multiword,decoder	sɛtlɐ	sɛ le	CV·CV	2	2	0	0.2	0.2	0	1	s|C	ɐ|V	s|C	e|V	s:s ɛ:ɛ t:· l:l ɐ:e
+S	1.0	en_fr	secs	sexe	decoder	sɛks	sɛks	CVCC	1	1	0	0.0	0.0	0	1	s|C	s|C	s|C	s|C	s:s ɛ:ɛ k:k s:s
+S	1.0	en_fr	rupee	roupies	decoder	ɹuːpiː	ʁupi	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	i|V	ɹ:ɹ u:u p:p i:i
+S	1.0	en_fr	rumen	roumaine	decoder	ɹuːmɛn	ʁumɛn	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	n|C	ɹ|C	n|C	ɹ:ɹ u:u m:m ɛ:ɛ n:n
+S	1.0	en_fr	roulette	roulette	decoder	ɹuːlɛt	ʁulɛt	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ u:u l:l ɛ:ɛ t:t
+S	1.0	en_fr	roost	rouste	decoder	ɹuːst	ʁust	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ u:u s:s t:t
+S	1.0	en_fr	reeks	rixe	decoder	ɹiːks	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	s|C	ɹ|C	s|C	ɹ:ɹ i:i k:k s:s
+S	1.0	en_fr	pled	plaide	decoder	plɛd	plɛd	CCVC	1	1	0	0.0	0.0	0	1	p|C	d|C	p|C	d|C	p:p l:l ɛ:ɛ d:d
+S	1.0	en_fr	phlegm	flemme	decoder	flɛm	flɛm	CCVC	1	1	0	0.0	0.0	0	1	f|C	m|C	f|C	m|C	f:f l:l ɛ:ɛ m:m
+S	1.0	en_fr	petit	petit	decoder	pətiː	pəti	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p ə:ə t:t i:i
+S	1.0	en_fr	peeler	pilé	decoder	piːlɐ	pile	CVCV	2	2	0	0.0	0.0	0	1	p|C	ɐ|V	p|C	e|V	p:p i:i l:l ɐ:e
+S	1.0	en_fr	peaty	pythie	decoder	piːti	piti	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p i:i t:t i:i
+S	1.0	en_fr	moolah	moulé	decoder	muːlɐ	mule	CVCV	2	2	0	0.0	0.0	0	1	m|C	ɐ|V	m|C	e|V	m:m u:u l:l ɐ:e
+S	1.0	en_fr	metre	mité	decoder	miːtɐ	mite	CVCV	2	2	0	0.0	0.0	0	1	m|C	ɐ|V	m|C	e|V	m:m i:i t:t ɐ:e
+S	1.0	en_fr	meanie	mini	decoder	miːni	mini	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m i:i n:n i:i
+S	1.0	en_fr	lulu	loulou	decoder	luːluː	lulu	CVCV	2	2	0	0.0	0.0	0	1	l|C	u|V	l|C	u|V	l:l u:u l:l u:u
+S	1.0	en_fr	lest	lest	decoder	lɛst	lɛst	CVCC	1	1	0	0.0	0.0	0	1	l|C	t|C	l|C	t|C	l:l ɛ:ɛ s:s t:t
+S	1.0	en_fr	kookie	cookie	decoder	kuːki	kuki	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k u:u k:k i:i
+S	1.0	en_fr	jeep	jeep	decoder	dʒiːp	dʒip	CCVC	1	1	0	0.0	0.0	0	1	d|C	p|C	d|C	p|C	d:d ʒ:ʒ i:i p:p
+S	1.0	en_fr	groupie	groupies	decoder	ɡɹuːpi	ɡʁupi	CCVCV	2	2	0	0.0	0.0	0	1	ɡ|C	i|V	ɡ|C	i|V	ɡ:ɡ ɹ:ɹ u:u p:p i:i
+S	1.0	en_fr	groom	groom	decoder	ɡɹuːm	ɡʁum	CCVC	1	1	0	0.0	0.0	0	1	ɡ|C	m|C	ɡ|C	m|C	ɡ:ɡ ɹ:ɹ u:u m:m
+S	1.0	en_fr	grieve	grive	decoder	ɡɹiːv	ɡʁiv	CCVC	1	1	0	0.0	0.0	0	1	ɡ|C	v|C	ɡ|C	v|C	ɡ:ɡ ɹ:ɹ i:i v:v
+S	1.0	en_fr	greave	grive	decoder	ɡɹiːv	ɡʁiv	CCVC	1	1	0	0.0	0.0	0	1	ɡ|C	v|C	ɡ|C	v|C	ɡ:ɡ ɹ:ɹ i:i v:v
+S	1.0	en_fr	frieze	frise	decoder	fɹiːz	fʁiz	CCVC	1	1	0	0.0	0.0	0	1	f|C	z|C	f|C	z|C	f:f ɹ:ɹ i:i z:z
+S	1.0	en_fr	fret	fret	decoder	fɹɛt	fʁɛ	CCV·	1	1	0	0.25	0.25	0	1	f|C	t|C	f|C	ɛ|V	f:f ɹ:ɹ ɛ:ɛ t:·
+S	1.0	en_fr	frees	frise	decoder	fɹiːz	fʁiz	CCVC	1	1	0	0.0	0.0	0	1	f|C	z|C	f|C	z|C	f:f ɹ:ɹ i:i z:z
+S	1.0	en_fr	fraught	frotte	decoder	fɹɔːt	fʁɔt	CCVC	1	1	0	0.0	0.0	0	1	f|C	t|C	f|C	t|C	f:f ɹ:ɹ ɔ:ɔ t:t
+S	1.0	en_fr	forks	fox	decoder	fɔːks	fɔks	CVCC	1	1	0	0.0	0.0	0	1	f|C	s|C	f|C	s|C	f:f ɔ:ɔ k:k s:s
+S	1.0	en_fr	forby	phobie	decoder	fɔːbi	fɔbi	CVCV	2	2	0	0.0	0.0	0	1	f|C	i|V	f|C	i|V	f:f ɔ:ɔ b:b i:i
+S	1.0	en_fr	flues	flouze	decoder	fluːz	fluz	CCVC	1	1	0	0.0	0.0	0	1	f|C	z|C	f|C	z|C	f:f l:l u:u z:z
+S	1.0	en_fr	fila	filer	decoder	fiːlɐ	file	CVCV	2	2	0	0.0	0.0	0	1	f|C	ɐ|V	f|C	e|V	f:f i:i l:l ɐ:e
+S	1.0	en_fr	fetter	fêter	decoder	fɛtɐ	fɛte	CVCV	2	2	0	0.0	0.0	0	1	f|C	ɐ|V	f|C	e|V	f:f ɛ:ɛ t:t ɐ:e
+S	1.0	en_fr	feeler	filer	decoder	fiːlɐ	file	CVCV	2	2	0	0.0	0.0	0	1	f|C	ɐ|V	f|C	e|V	f:f i:i l:l ɐ:e
+S	1.0	en_fr	ester	ester	decoder	ɛstɐ	ɛste	VCCV	2	2	0	0.0	0.0	0	1	ɛ|V	ɐ|V	ɛ|V	e|V	ɛ:ɛ s:s t:t ɐ:e
+S	1.0	en_fr	doormen	domaine	decoder	dɔːmɛn	dɔmɛn	CVCVC	2	2	0	0.0	0.0	0	1	d|C	n|C	d|C	n|C	d:d ɔ:ɔ m:m ɛ:ɛ n:n
+S	1.0	en_fr	dealer	dealer	decoder	diːlɐ	dile	CVCV	2	2	0	0.0	0.0	0	1	d|C	ɐ|V	d|C	e|V	d:d i:i l:l ɐ:e
+S	1.0	en_fr	cruse	crous	decoder	kɹuːs	kʁus	CCVC	1	1	0	0.0	0.0	0	1	k|C	s|C	k|C	s|C	k:k ɹ:ɹ u:u s:s
+S	1.0	en_fr	cruet	croûte	decoder	kɹuːt	kʁut	CCVC	1	1	0	0.0	0.0	0	1	k|C	t|C	k|C	t|C	k:k ɹ:ɹ u:u t:t
+S	1.0	en_fr	croup	croupe	decoder	kɹuːp	kʁup	CCVC	1	1	0	0.0	0.0	0	1	k|C	p|C	k|C	p|C	k:k ɹ:ɹ u:u p:p
+S	1.0	en_fr	creme	crime	decoder	kɹiːm	kʁim	CCVC	1	1	0	0.0	0.0	0	1	k|C	m|C	k|C	m|C	k:k ɹ:ɹ i:i m:m
+S	1.0	en_fr	crees	crise	decoder	kɹiːz	kʁiz	CCVC	1	1	0	0.0	0.0	0	1	k|C	z|C	k|C	z|C	k:k ɹ:ɹ i:i z:z
+S	1.0	en_fr	creek	crique	decoder	kɹiːk	kʁik	CCVC	1	1	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k ɹ:ɹ i:i k:k
+S	1.0	en_fr	crease	crisse	decoder	kɹiːs	kʁis	CCVC	1	1	0	0.0	0.0	0	1	k|C	s|C	k|C	s|C	k:k ɹ:ɹ i:i s:s
+S	1.0	en_fr	creak	crique	decoder	kɹiːk	kʁik	CCVC	1	1	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k ɹ:ɹ i:i k:k
+S	1.0	en_fr	corder	codé	decoder	kɔːdɐ	kɔde	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k ɔ:ɔ d:d ɐ:e
+S	1.0	en_fr	cootie	coutil	decoder	kuːti	kuti	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k u:u t:t i:i
+S	1.0	en_fr	coolly	coulis	decoder	kuːli	kuli	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k u:u l:l i:i
+S	1.0	en_fr	coolie	coulis	decoder	kuːli	kuli	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k u:u l:l i:i
+S	1.0	en_fr	clique	clic	decoder	kliːk	klik	CCVC	1	1	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k l:l i:i k:k
+S	1.0	en_fr	cleek	clic	decoder	kliːk	klik	CCVC	1	1	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k l:l i:i k:k
+S	1.0	en_fr	cleave	clive	decoder	kliːv	kliv	CCVC	1	1	0	0.0	0.0	0	1	k|C	v|C	k|C	v|C	k:k l:l i:i v:v
+S	1.0	en_fr	cerise	cerise	decoder	səɹiːz	səʁiz	CVCVC	2	2	0	0.0	0.0	0	1	s|C	z|C	s|C	z|C	s:s ə:ə ɹ:ɹ i:i z:z
+S	1.0	en_fr	cellar	seller	decoder	sɛlɐ	sɛle	CVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s ɛ:ɛ l:l ɐ:e
+S	1.0	en_fr	cauda	codé	decoder	kɔːdɐ	kɔde	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k ɔ:ɔ d:d ɐ:e
+S	1.0	en_fr	caller	coller	decoder	kɔːlɐ	kɔle	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k ɔ:ɔ l:l ɐ:e
+S	1.0	en_fr	brute	broute	decoder	bɹuːt	bʁut	CCVC	1	1	0	0.0	0.0	0	1	b|C	t|C	b|C	t|C	b:b ɹ:ɹ u:u t:t
+S	1.0	en_fr	bruit	broute	decoder	bɹuːt	bʁut	CCVC	1	1	0	0.0	0.0	0	1	b|C	t|C	b|C	t|C	b:b ɹ:ɹ u:u t:t
+S	1.0	en_fr	breeder	bridé	decoder	bɹiːdɐ	bʁide	CCVCV	2	2	0	0.0	0.0	0	1	b|C	ɐ|V	b|C	e|V	b:b ɹ:ɹ i:i d:d ɐ:e
+S	1.0	en_fr	brede	bride	decoder	bɹiːd	bʁid	CCVC	1	1	0	0.0	0.0	0	1	b|C	d|C	b|C	d|C	b:b ɹ:ɹ i:i d:d
+S	1.0	en_fr	bream	brime	decoder	bɹiːm	bʁim	CCVC	1	1	0	0.0	0.0	0	1	b|C	m|C	b|C	m|C	b:b ɹ:ɹ i:i m:m
+S	1.0	en_fr	braes	brise	decoder	bɹiːz	bʁiz	CCVC	1	1	0	0.0	0.0	0	1	b|C	z|C	b|C	z|C	b:b ɹ:ɹ i:i z:z
+S	1.0	en_fr	bootee	boutis	decoder	buːtiː	buti	CVCV	2	2	0	0.0	0.0	0	1	b|C	i|V	b|C	i|V	b:b u:u t:t i:i
+S	1.0	en_fr	booboo	boubou	decoder	buːbuː	bubu	CVCV	2	2	0	0.0	0.0	0	1	b|C	u|V	b|C	u|V	b:b u:u b:b u:u
+S	1.0	en_fr	bled	bled	decoder	blɛd	blɛd	CCVC	1	1	0	0.0	0.0	0	1	b|C	d|C	b|C	d|C	b:b l:l ɛ:ɛ d:d
+S	1.0	en_fr	bisque	bisque	decoder	biːsk	bisk	CVCC	1	1	0	0.0	0.0	0	1	b|C	k|C	b|C	k|C	b:b i:i s:s k:k
+S	1.0	en_fr	beater	bitter	decoder	biːtɐ	bitɛʁ	CVCV·	2	2	0	0.2	0.2	0	1	b|C	ɐ|V	b|C	ɹ|C	b:b i:i t:t ɐ:ɛ ·:ɹ
+S	1.0	en_fr	baulks	box	decoder	bɔːks	bɔks	CVCC	1	1	0	0.0	0.0	0	1	b|C	s|C	b|C	s|C	b:b ɔ:ɔ k:k s:s
+S	0.988	en_fr	carport	capote	decoder	kɑːpɔːt	kapɔt	CVCVC	2	2	0	0.0	0.0	0	1	k|C	t|C	k|C	t|C	k:k ɑ:a p:p ɔ:ɔ t:t
+S	0.985	en_fr	tarty	tati	decoder	tɑːti	tati	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	i|V	t:t ɑ:a t:t i:i
+S	0.985	en_fr	tarter	tâter	decoder	tɑːtɐ	tate	CVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	t|C	e|V	t:t ɑ:a t:t ɐ:e
+S	0.985	en_fr	tartar	tâter	decoder	tɑːtɐ	tate	CVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	t|C	e|V	t:t ɑ:a t:t ɐ:e
+S	0.985	en_fr	rata	raté	decoder	ɹɑːtɐ	ʁate	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɐ|V	ɹ|C	e|V	ɹ:ɹ ɑ:a t:t ɐ:e
+S	0.985	en_fr	parley	pâli	decoder	pɑːli	pali	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p ɑ:a l:l i:i
+S	0.985	en_fr	parks	pacs	decoder	pɑːks	paks	CVCC	1	1	0	0.0	0.0	0	1	p|C	s|C	p|C	s|C	p:p ɑ:a k:k s:s
+S	0.985	en_fr	parch	patch	decoder	pɑːtʃ	patʃ	CVCC	1	1	0	0.0	0.0	0	1	p|C	ʃ|C	p|C	ʃ|C	p:p ɑ:a t:t ʃ:ʃ
+S	0.985	en_fr	martyr	mater	decoder	mɑːtɐ	mate	CVCV	2	2	0	0.0	0.0	0	1	m|C	ɐ|V	m|C	e|V	m:m ɑ:a t:t ɐ:e
+S	0.985	en_fr	marques	max	decoder	mɑːks	maks	CVCC	1	1	0	0.0	0.0	0	1	m|C	s|C	m|C	s|C	m:m ɑ:a k:k s:s
+S	0.985	en_fr	marquee	maquis	decoder	mɑːkiː	maki	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m ɑ:a k:k i:i
+S	0.985	en_fr	marly	mali	decoder	mɑːli	mali	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m ɑ:a l:l i:i
+S	0.985	en_fr	marks	max	decoder	mɑːks	maks	CVCC	1	1	0	0.0	0.0	0	1	m|C	s|C	m|C	s|C	m:m ɑ:a k:k s:s
+S	0.985	en_fr	larvae	lavis	decoder	lɑːviː	lavi	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	i|V	l:l ɑ:a v:v i:i
+S	0.985	en_fr	khaki	kaki	decoder	kɑːki	kaki	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k ɑ:a k:k i:i
+S	0.985	en_fr	karst	caste	decoder	kɑːst	kast	CVCC	1	1	0	0.0	0.0	0	1	k|C	t|C	k|C	t|C	k:k ɑ:a s:s t:t
+S	0.985	en_fr	crass	crasse	decoder	kɹɑːs	kʁas	CCVC	1	1	0	0.0	0.0	0	1	k|C	s|C	k|C	s|C	k:k ɹ:ɹ ɑ:a s:s
+S	0.985	en_fr	caste	caste	decoder	kɑːst	kast	CVCC	1	1	0	0.0	0.0	0	1	k|C	t|C	k|C	t|C	k:k ɑ:a s:s t:t
+S	0.985	en_fr	cask	casque	decoder	kɑːsk	kask	CVCC	1	1	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k ɑ:a s:s k:k
+S	0.983	en_fr	redressed	rient reste	multiword,decoder	ɹiːdɹɛst	ʁi ʁɛst	CV·CVCC	2	2	0	0.143	0.143	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ i:i d:· ɹ:ɹ ɛ:ɛ s:s t:t
+S	0.983	en_fr	pressmen	près mène	multiword,decoder	pɹɛsmɛn	pʁɛ mɛn	CCV·CVC	2	2	0	0.143	0.143	0	1	p|C	n|C	p|C	n|C	p:p ɹ:ɹ ɛ:ɛ s:· m:m ɛ:ɛ n:n
+S	0.983	en_fr	pectin	pectine	decoder	pɛktɪn	pɛktin	CVCCVC	2	2	0	0.0	0.0	0	1	p|C	n|C	p|C	n|C	p:p ɛ:ɛ k:k t:t ɪ:i n:n
+S	0.983	en_fr	detest	dit est	multiword,decoder	dɪtɛst	di ɛst	CV·VCC	2	2	0	0.167	0.167	0	1	d|C	t|C	d|C	t|C	d:d ɪ:i t:· ɛ:ɛ s:s t:t
+S	0.98	en_fr	vestry	vais tri	multiword,decoder	vɛstɹi	vɛ tʁi	CV·CCV	2	2	0	0.167	0.167	0	1	v|C	i|V	v|C	i|V	v:v ɛ:ɛ s:· t:t ɹ:ɹ i:i
+S	0.98	en_fr	tryst	triste	decoder	tɹɪst	tʁist	CCVCC	1	1	0	0.0	0.0	0	1	t|C	t|C	t|C	t|C	t:t ɹ:ɹ ɪ:i s:s t:t
+S	0.98	en_fr	triste	triste	decoder	tɹɪst	tʁist	CCVCC	1	1	0	0.0	0.0	0	1	t|C	t|C	t|C	t|C	t:t ɹ:ɹ ɪ:i s:s t:t
+S	0.98	en_fr	stiller	stylé	decoder	stɪlɐ	stile	CCVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s t:t ɪ:i l:l ɐ:e
+S	0.98	en_fr	sentry	sain tri	multiword,decoder	sɛntɹi	sɛ̃ tʁi	CVCCCV	2	2	0	0.0	0.0	0	1	s|C	i|V	s|C	i|V	s:s ɛ:ɛ n:n t:t ɹ:ɹ i:i
+S	0.98	en_fr	pressie	précis	decoder	pɹɛsi	pʁesi	CCVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p ɹ:ɹ ɛ:e s:s i:i
+S	0.98	en_fr	preset	pris êtes	multiword,decoder	pɹiːsɛt	pʁi ɛt	CCV·VC	2	2	0	0.167	0.167	0	1	p|C	t|C	p|C	t|C	p:p ɹ:ɹ i:i s:· ɛ:ɛ t:t
+S	0.98	en_fr	meting	meeting	decoder	miːtɪŋ	mitiŋ	CVCVC	2	2	0	0.0	0.0	0	1	m|C	ŋ|C	m|C	ŋ|C	m:m i:i t:t ɪ:i ŋ:ŋ
+S	0.98	en_fr	ferric	ferrique	decoder	fɛɹɪk	fɛʁik	CVCVC	2	2	0	0.0	0.0	0	1	f|C	k|C	f|C	k|C	f:f ɛ:ɛ ɹ:ɹ ɪ:i k:k
+S	0.98	en_fr	exes	excise	decoder	ɛksɪz	ɛksiz	VCCVC	2	2	0	0.0	0.0	0	1	ɛ|V	z|C	ɛ|V	z|C	ɛ:ɛ k:k s:s ɪ:i z:z
+S	0.98	en_fr	eschew	hissent chou	multiword,decoder	ɪstʃuː	is ʃu	VC·CV	2	2	0	0.2	0.2	0	1	ɪ|V	u|V	i|V	u|V	ɪ:i s:s t:· ʃ:ʃ u:u
+S	0.98	en_fr	disport	despote	decoder	dɪspɔːt	dɛspɔt	CVCCVC	2	2	0	0.0	0.0	0	1	d|C	t|C	d|C	t|C	d:d ɪ:ɛ s:s p:p ɔ:ɔ t:t
+S	0.98	en_fr	boric	borique	decoder	bɔːɹɪk	bɔʁik	CVCVC	2	2	0	0.0	0.0	0	1	b|C	k|C	b|C	k|C	b:b ɔ:ɔ ɹ:ɹ ɪ:i k:k
+S	0.976	en_fr	wrestler	raies les	multiword,decoder	ɹɛslɐ	ʁɛ le	CV·CV	2	2	0	0.2	0.2	0	1	ɹ|C	ɐ|V	ɹ|C	e|V	ɹ:ɹ ɛ:ɛ s:· l:l ɐ:e
+S	0.976	en_fr	vender	vin des	multiword,decoder	vɛndɐ	vɛ̃ de	CVCCV	2	2	0	0.0	0.0	0	1	v|C	ɐ|V	v|C	e|V	v:v ɛ:ɛ n:n d:d ɐ:e
+S	0.976	en_fr	treader	traité	decoder	tɹɛdɐ	tʁɛte	CCVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	t|C	e|V	t:t ɹ:ɹ ɛ:ɛ d:t ɐ:e
+S	0.976	en_fr	tracks	trax	decoder	tɹæks	tʁaks	CCVCC	1	1	0	0.0	0.0	0	1	t|C	s|C	t|C	s|C	t:t ɹ:ɹ æ:a k:k s:s
+S	0.976	en_fr	testy	tester	decoder	tɛsti	tɛste	CVCCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	e|V	t:t ɛ:ɛ s:s t:t i:e
+S	0.976	en_fr	steely	stylé	decoder	stiːli	stile	CCVCV	2	2	0	0.0	0.0	0	1	s|C	i|V	s|C	e|V	s:s t:t i:i l:l i:e
+S	0.976	en_fr	stalky	stocker	decoder	stɔːki	stɔke	CCVCV	2	2	0	0.0	0.0	0	1	s|C	i|V	s|C	e|V	s:s t:t ɔ:ɔ k:k i:e
+S	0.976	en_fr	sender	sain des	multiword,decoder	sɛndɐ	sɛ̃ de	CVCCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s ɛ:ɛ n:n d:d ɐ:e
+S	0.976	en_fr	seizes	scies aise	multiword,decoder	siːzɪz	si ɛz	CV·VC	2	2	0	0.2	0.2	0	1	s|C	z|C	s|C	z|C	s:s i:i z:· ɪ:ɛ z:z
+S	0.976	en_fr	secede	ces ides	multiword,decoder	sɛsiːd	sɛ id	CV·VC	2	2	0	0.2	0.2	0	1	s|C	d|C	s|C	d|C	s:s ɛ:ɛ s:· i:i d:d
+S	0.976	en_fr	russet	recettes	decoder	ɹʌsɛt	ʁəsɛt	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ ʌ:ə s:s ɛ:ɛ t:t
+S	0.976	en_fr	resell	ries elle	multiword,decoder	ɹiːsɛl	ʁi ɛl	CV·VC	2	2	0	0.2	0.2	0	1	ɹ|C	l|C	ɹ|C	l|C	ɹ:ɹ i:i s:· ɛ:ɛ l:l
+S	0.976	en_fr	renter	rhin tes	multiword,decoder	ɹɛntɐ	ʁɛ̃ te	CVCCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɐ|V	ɹ|C	e|V	ɹ:ɹ ɛ:ɛ n:n t:t ɐ:e
+S	0.976	en_fr	redrew	rient roues	multiword,decoder	ɹiːdɹuː	ʁi ʁu	CV·CV	2	2	0	0.2	0.2	0	1	ɹ|C	u|V	ɹ|C	u|V	ɹ:ɹ i:i d:· ɹ:ɹ u:u
+S	0.976	en_fr	portly	potelée	decoder	pɔːtli	pɔtle	CVCCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	e|V	p:p ɔ:ɔ t:t l:l i:e
+S	0.976	en_fr	pesty	pester	decoder	pɛsti	pɛste	CVCCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	e|V	p:p ɛ:ɛ s:s t:t i:e
+S	0.976	en_fr	mender	main des	multiword,decoder	mɛndɐ	mɛ̃ de	CVCCV	2	2	0	0.0	0.0	0	1	m|C	ɐ|V	m|C	e|V	m:m ɛ:ɛ n:n d:d ɐ:e
+S	0.976	en_fr	lender	lin des	multiword,decoder	lɛndɐ	lɛ̃ de	CVCCV	2	2	0	0.0	0.0	0	1	l|C	ɐ|V	l|C	e|V	l:l ɛ:ɛ n:n d:d ɐ:e
+S	0.976	en_fr	freaky	friqués	decoder	fɹiːki	fʁike	CCVCV	2	2	0	0.0	0.0	0	1	f|C	i|V	f|C	e|V	f:f ɹ:ɹ i:i k:k i:e
+S	0.976	en_fr	forepeak	phobique	decoder	fɔːpiːk	fɔbik	CVCVC	2	2	0	0.0	0.0	0	1	f|C	k|C	f|C	k|C	f:f ɔ:ɔ p:b i:i k:k
+S	0.976	en_fr	exhort	exode	decoder	ɛɡzɔːt	ɛɡzɔd	VCCVC	2	2	0	0.0	0.0	0	1	ɛ|V	t|C	ɛ|V	d|C	ɛ:ɛ ɡ:ɡ z:z ɔ:ɔ t:d
+S	0.976	en_fr	creepy	crépi	decoder	kɹiːpi	kʁepi	CCVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k ɹ:ɹ i:e p:p i:i
+S	0.976	en_fr	creamy	crimée	decoder	kɹiːmi	kʁime	CCVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	e|V	k:k ɹ:ɹ i:i m:m i:e
+S	0.976	en_fr	cosset	cassette	decoder	kɒsɛt	kasɛt	CVCVC	2	2	0	0.0	0.0	0	1	k|C	t|C	k|C	t|C	k:k ɒ:a s:s ɛ:ɛ t:t
+S	0.976	en_fr	centre	sain tes	multiword,decoder	sɛntɐ	sɛ̃ te	CVCCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s ɛ:ɛ n:n t:t ɐ:e
+S	0.976	en_fr	censure	sain chez	multiword,decoder	sɛnʃɐ	sɛ̃ ʃe	CVCCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s ɛ:ɛ n:n ʃ:ʃ ɐ:e
+S	0.976	en_fr	bender	ben des	multiword,decoder	bɛndɐ	bɛ̃ de	CVCCV	2	2	0	0.0	0.0	0	1	b|C	ɐ|V	b|C	e|V	b:b ɛ:ɛ n:n d:d ɐ:e
+S	0.975	en_fr	yeti	yeti	decoder	jɛti	jeti	CVCV	2	2	0	0.0	0.0	0	1	j|C	i|V	j|C	i|V	j:j ɛ:e t:t i:i
+S	0.975	en_fr	trot	trotte	decoder	tɹɒt	tʁɔt	CCVC	1	1	0	0.0	0.0	0	1	t|C	t|C	t|C	t|C	t:t ɹ:ɹ ɒ:ɔ t:t
+S	0.975	en_fr	titty	titi	decoder	tɪti	titi	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	i|V	t:t ɪ:i t:t i:i
+S	0.975	en_fr	tipi	tipi	decoder	tɪpi	tipi	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	i|V	t:t ɪ:i p:p i:i
+S	0.975	en_fr	tilt	tilt	decoder	tɪlt	tilt	CVCC	1	1	0	0.0	0.0	0	1	t|C	t|C	t|C	t|C	t:t ɪ:i l:l t:t
+S	0.975	en_fr	teller	télé	decoder	tɛlɐ	tele	CVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	t|C	e|V	t:t ɛ:e l:l ɐ:e
+S	0.975	en_fr	swing	swing	decoder	swɪŋ	swiŋ	CCVC	1	1	0	0.0	0.0	0	1	s|C	ŋ|C	s|C	ŋ|C	s:s w:w ɪ:i ŋ:ŋ
+S	0.975	en_fr	sorter	sauter	decoder	sɔːtɐ	sote	CVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s ɔ:o t:t ɐ:e
+S	0.975	en_fr	sorta	sauter	decoder	sɔːtɐ	sote	CVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s ɔ:o t:t ɐ:e
+S	0.975	en_fr	sitter	cité	decoder	sɪtɐ	site	CVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s ɪ:i t:t ɐ:e
+S	0.975	en_fr	sitar	cité	decoder	sɪtɐ	site	CVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s ɪ:i t:t ɐ:e
+S	0.975	en_fr	shimmy	chimie	decoder	ʃɪmi	ʃimi	CVCV	2	2	0	0.0	0.0	0	1	ʃ|C	i|V	ʃ|C	i|V	ʃ:ʃ ɪ:i m:m i:i
+S	0.975	en_fr	sherry	chérie	decoder	ʃɛɹi	ʃeʁi	CVCV	2	2	0	0.0	0.0	0	1	ʃ|C	i|V	ʃ|C	i|V	ʃ:ʃ ɛ:e ɹ:ɹ i:i
+S	0.975	en_fr	schist	schiste	decoder	ʃɪst	ʃist	CVCC	1	1	0	0.0	0.0	0	1	ʃ|C	t|C	ʃ|C	t|C	ʃ:ʃ ɪ:i s:s t:t
+S	0.975	en_fr	ricks	rixe	decoder	ɹɪks	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	s|C	ɹ|C	s|C	ɹ:ɹ ɪ:i k:k s:s
+S	0.975	en_fr	quin	couine	decoder	kwɪn	kwin	CCVC	1	1	0	0.0	0.0	0	1	k|C	n|C	k|C	n|C	k:k w:w ɪ:i n:n
+S	0.975	en_fr	quid	quid	decoder	kwɪd	kwid	CCVC	1	1	0	0.0	0.0	0	1	k|C	d|C	k|C	d|C	k:k w:w ɪ:i d:d
+S	0.975	en_fr	quick	couic	decoder	kwɪk	kwik	CCVC	1	1	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k w:w ɪ:i k:k
+S	0.975	en_fr	prawn	prône	decoder	pɹɔːn	pʁon	CCVC	1	1	0	0.0	0.0	0	1	p|C	n|C	p|C	n|C	p:p ɹ:ɹ ɔ:o n:n
+S	0.975	en_fr	piste	piste	decoder	pɪst	pist	CVCC	1	1	0	0.0	0.0	0	1	p|C	t|C	p|C	t|C	p:p ɪ:i s:s t:t
+S	0.975	en_fr	pillar	pilé	decoder	pɪlɐ	pile	CVCV	2	2	0	0.0	0.0	0	1	p|C	ɐ|V	p|C	e|V	p:p ɪ:i l:l ɐ:e
+S	0.975	en_fr	petter	péter	decoder	pɛtɐ	pete	CVCV	2	2	0	0.0	0.0	0	1	p|C	ɐ|V	p|C	e|V	p:p ɛ:e t:t ɐ:e
+S	0.975	en_fr	perry	péri	decoder	pɛɹi	peʁi	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p ɛ:e ɹ:ɹ i:i
+S	0.975	en_fr	peri	péri	decoder	pɛɹi	peʁi	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p ɛ:e ɹ:ɹ i:i
+S	0.975	en_fr	peppy	pépie	decoder	pɛpi	pepi	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p ɛ:e p:p i:i
+S	0.975	en_fr	middy	midi	decoder	mɪdi	midi	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m ɪ:i d:d i:i
+S	0.975	en_fr	lorry	lorry	decoder	lɒɹi	lɔʁi	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	i|V	l:l ɒ:ɔ ɹ:ɹ i:i
+S	0.975	en_fr	lobby	lobby	decoder	lɒbi	lɔbi	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	i|V	l:l ɒ:ɔ b:b i:i
+S	0.975	en_fr	kris	crisse	decoder	kɹɪs	kʁis	CCVC	1	1	0	0.0	0.0	0	1	k|C	s|C	k|C	s|C	k:k ɹ:ɹ ɪ:i s:s
+S	0.975	en_fr	kopje	copie	decoder	kɒpi	kɔpi	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k ɒ:ɔ p:p i:i
+S	0.975	en_fr	jinn	gin	decoder	dʒɪn	dʒin	CCVC	1	1	0	0.0	0.0	0	1	d|C	n|C	d|C	n|C	d:d ʒ:ʒ ɪ:i n:n
+S	0.975	en_fr	indie	hindi	decoder	ɪndi	indi	VCCV	2	2	0	0.0	0.0	0	1	ɪ|V	i|V	i|V	i|V	ɪ:i n:n d:d i:i
+S	0.975	en_fr	gyp	jeep	decoder	dʒɪp	dʒip	CCVC	1	1	0	0.0	0.0	0	1	d|C	p|C	d|C	p|C	d:d ʒ:ʒ ɪ:i p:p
+S	0.975	en_fr	grot	grotte	decoder	ɡɹɒt	ɡʁɔt	CCVC	1	1	0	0.0	0.0	0	1	ɡ|C	t|C	ɡ|C	t|C	ɡ:ɡ ɹ:ɹ ɒ:ɔ t:t
+S	0.975	en_fr	grippe	grippe	decoder	ɡɹɪp	ɡʁip	CCVC	1	1	0	0.0	0.0	0	1	ɡ|C	p|C	ɡ|C	p|C	ɡ:ɡ ɹ:ɹ ɪ:i p:p
+S	0.975	en_fr	grin	green	decoder	ɡɹɪn	ɡʁin	CCVC	1	1	0	0.0	0.0	0	1	ɡ|C	n|C	ɡ|C	n|C	ɡ:ɡ ɹ:ɹ ɪ:i n:n
+S	0.975	en_fr	grille	grill	decoder	ɡɹɪl	ɡʁil	CCVC	1	1	0	0.0	0.0	0	1	ɡ|C	l|C	ɡ|C	l|C	ɡ:ɡ ɹ:ɹ ɪ:i l:l
+S	0.975	en_fr	gip	jeep	decoder	dʒɪp	dʒip	CCVC	1	1	0	0.0	0.0	0	1	d|C	p|C	d|C	p|C	d:d ʒ:ʒ ɪ:i p:p
+S	0.975	en_fr	frock	froc	decoder	fɹɒk	fʁɔk	CCVC	1	1	0	0.0	0.0	0	1	f|C	k|C	f|C	k|C	f:f ɹ:ɹ ɒ:ɔ k:k
+S	0.975	en_fr	frizz	frise	decoder	fɹɪz	fʁiz	CCVC	1	1	0	0.0	0.0	0	1	f|C	z|C	f|C	z|C	f:f ɹ:ɹ ɪ:i z:z
+S	0.975	en_fr	frit	frites	decoder	fɹɪt	fʁit	CCVC	1	1	0	0.0	0.0	0	1	f|C	t|C	f|C	t|C	f:f ɹ:ɹ ɪ:i t:t
+S	0.975	en_fr	flick	flics	decoder	flɪk	flik	CCVC	1	1	0	0.0	0.0	0	1	f|C	k|C	f|C	k|C	f:f l:l ɪ:i k:k
+S	0.975	en_fr	feller	fêlé	decoder	fɛlɐ	fele	CVCV	2	2	0	0.0	0.0	0	1	f|C	ɐ|V	f|C	e|V	f:f ɛ:e l:l ɐ:e
+S	0.975	en_fr	fellah	fêlé	decoder	fɛlɐ	fele	CVCV	2	2	0	0.0	0.0	0	1	f|C	ɐ|V	f|C	e|V	f:f ɛ:e l:l ɐ:e
+S	0.975	en_fr	fella	fêlé	decoder	fɛlɐ	fele	CVCV	2	2	0	0.0	0.0	0	1	f|C	ɐ|V	f|C	e|V	f:f ɛ:e l:l ɐ:e
+S	0.975	en_fr	ecru	écrou	decoder	ɛkɹuː	ekʁu	VCCV	2	2	0	0.0	0.0	0	1	ɛ|V	u|V	e|V	u|V	ɛ:e k:k ɹ:ɹ u:u
+S	0.975	en_fr	drawl	drôle	decoder	dɹɔːl	dʁol	CCVC	1	1	0	0.0	0.0	0	1	d|C	l|C	d|C	l|C	d:d ɹ:ɹ ɔ:o l:l
+S	0.975	en_fr	deli	délit	decoder	dɛli	deli	CVCV	2	2	0	0.0	0.0	0	1	d|C	i|V	d|C	i|V	d:d ɛ:e l:l i:i
+S	0.975	en_fr	crosse	cross	decoder	kɹɒs	kʁɔs	CCVC	1	1	0	0.0	0.0	0	1	k|C	s|C	k|C	s|C	k:k ɹ:ɹ ɒ:ɔ s:s
+S	0.975	en_fr	crock	croque	decoder	kɹɒk	kʁɔk	CCVC	1	1	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k ɹ:ɹ ɒ:ɔ k:k
+S	0.975	en_fr	crick	crique	decoder	kɹɪk	kʁik	CCVC	1	1	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k ɹ:ɹ ɪ:i k:k
+S	0.975	en_fr	couture	couteau	decoder	kuːtɔː	kuto	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɔ|V	k|C	o|V	k:k u:u t:t ɔ:o
+S	0.975	en_fr	copped	copte	decoder	kɒpt	kɔpt	CVCC	1	1	0	0.0	0.0	0	1	k|C	t|C	k|C	t|C	k:k ɒ:ɔ p:p t:t
+S	0.975	en_fr	commie	commis	decoder	kɒmi	kɔmi	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k ɒ:ɔ m:m i:i
+S	0.975	en_fr	colly	colis	decoder	kɒli	kɔli	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k ɒ:ɔ l:l i:i
+S	0.975	en_fr	collie	colis	decoder	kɒli	kɔli	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k ɒ:ɔ l:l i:i
+S	0.975	en_fr	collar	coller	decoder	kɒlɐ	kɔle	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k ɒ:ɔ l:l ɐ:e
+S	0.975	en_fr	claws	clause	decoder	klɔːz	kloz	CCVC	1	1	0	0.0	0.0	0	1	k|C	z|C	k|C	z|C	k:k l:l ɔ:o z:z
+S	0.975	en_fr	clawed	claude	decoder	klɔːd	klod	CCVC	1	1	0	0.0	0.0	0	1	k|C	d|C	k|C	d|C	k:k l:l ɔ:o d:d
+S	0.975	en_fr	cholla	coller	decoder	kɒlɐ	kɔle	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k ɒ:ɔ l:l ɐ:e
+S	0.975	en_fr	bloc	bloc	decoder	blɒk	blɔk	CCVC	1	1	0	0.0	0.0	0	1	b|C	k|C	b|C	k|C	b:b l:l ɒ:ɔ k:k
+S	0.975	en_fr	benny	béni	decoder	bɛni	beni	CVCV	2	2	0	0.0	0.0	0	1	b|C	i|V	b|C	i|V	b:b ɛ:e n:n i:i
+S	0.975	en_fr	bedder	bédé	decoder	bɛdɐ	bede	CVCV	2	2	0	0.0	0.0	0	1	b|C	ɐ|V	b|C	e|V	b:b ɛ:e d:d ɐ:e
+S	0.97	en_fr	wrapped	rapt	decoder	ɹæpt	ʁapt	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ æ:a p:p t:t
+S	0.97	en_fr	vita	vider	decoder	viːtɐ	vide	CVCV	2	2	0	0.0	0.0	0	1	v|C	ɐ|V	v|C	e|V	v:v i:i t:d ɐ:e
+S	0.97	en_fr	verey	verrez	decoder	vɛɹi	vɛʁe	CVCV	2	2	0	0.0	0.0	0	1	v|C	i|V	v|C	e|V	v:v ɛ:ɛ ɹ:ɹ i:e
+S	0.97	en_fr	truss	traces	decoder	tɹʌs	tʁas	CCVC	1	1	0	0.0	0.0	0	1	t|C	s|C	t|C	s|C	t:t ɹ:ɹ ʌ:a s:s
+S	0.97	en_fr	trues	trousse	decoder	tɹuːz	tʁus	CCVC	1	1	0	0.0	0.0	0	1	t|C	z|C	t|C	s|C	t:t ɹ:ɹ u:u z:s
+S	0.97	en_fr	trews	trousse	decoder	tɹuːz	tʁus	CCVC	1	1	0	0.0	0.0	0	1	t|C	z|C	t|C	s|C	t:t ɹ:ɹ u:u z:s
+S	0.97	en_fr	tread	traite	decoder	tɹɛd	tʁɛt	CCVC	1	1	0	0.0	0.0	0	1	t|C	d|C	t|C	t|C	t:t ɹ:ɹ ɛ:ɛ d:t
+S	0.97	en_fr	tram	trame	decoder	tɹæm	tʁam	CCVC	1	1	0	0.0	0.0	0	1	t|C	m|C	t|C	m|C	t:t ɹ:ɹ æ:a m:m
+S	0.97	en_fr	tourney	tonner	decoder	tɔːni	tɔne	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	e|V	t:t ɔ:ɔ n:n i:e
+S	0.97	en_fr	tooter	douter	decoder	tuːtɐ	dute	CVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	d|C	e|V	t:d u:u t:t ɐ:e
+S	0.97	en_fr	teeter	titi	decoder	tiːtɐ	titi	CVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	t|C	i|V	t:t i:i t:t ɐ:i
+S	0.97	en_fr	tawny	tonner	decoder	tɔːni	tɔne	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	e|V	t:t ɔ:ɔ n:n i:e
+S	0.97	en_fr	tauter	doté	decoder	tɔːtɐ	dɔte	CVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	d|C	e|V	t:d ɔ:ɔ t:t ɐ:e
+S	0.97	en_fr	tardy	tandis	decoder	tɑːdi	tɑ̃di	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	i|V	t:t ɑ:ɑ̃ d:d i:i
+S	0.97	en_fr	talky	toquer	decoder	tɔːki	tɔke	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	e|V	t:t ɔ:ɔ k:k i:e
+S	0.97	en_fr	talkie	toquer	decoder	tɔːki	tɔke	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	e|V	t:t ɔ:ɔ k:k i:e
+S	0.97	en_fr	sylph	self	decoder	sɪlf	sɛlf	CVCC	1	1	0	0.0	0.0	0	1	s|C	f|C	s|C	f|C	s:s ɪ:ɛ l:l f:f
+S	0.97	en_fr	suitor	soudé	decoder	suːtɐ	sude	CVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s u:u t:d ɐ:e
+S	0.97	en_fr	stoup	stups	decoder	stuːp	styp	CCVC	1	1	0	0.0	0.0	0	1	s|C	p|C	s|C	p|C	s:s t:t u:y p:p
+S	0.97	en_fr	stoop	stups	decoder	stuːp	styp	CCVC	1	1	0	0.0	0.0	0	1	s|C	p|C	s|C	p|C	s:s t:t u:y p:p
+S	0.97	en_fr	spat	spath	decoder	spæt	spat	CCVC	1	1	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s p:p æ:a t:t
+S	0.97	en_fr	soupy	souper	decoder	suːpi	supe	CVCV	2	2	0	0.0	0.0	0	1	s|C	i|V	s|C	e|V	s:s u:u p:p i:e
+S	0.97	en_fr	skit	skate	decoder	skɪt	skɛt	CCVC	1	1	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s k:k ɪ:ɛ t:t
+S	0.97	en_fr	silt	celtes	decoder	sɪlt	sɛlt	CVCC	1	1	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s ɪ:ɛ l:l t:t
+S	0.97	en_fr	sics	sexe	decoder	sɪks	sɛks	CVCC	1	1	0	0.0	0.0	0	1	s|C	s|C	s|C	s|C	s:s ɪ:ɛ k:k s:s
+S	0.97	en_fr	sicks	sexe	decoder	sɪks	sɛks	CVCC	1	1	0	0.0	0.0	0	1	s|C	s|C	s|C	s|C	s:s ɪ:ɛ k:k s:s
+S	0.97	en_fr	sicked	secte	decoder	sɪkt	sɛkt	CVCC	1	1	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s ɪ:ɛ k:k t:t
+S	0.97	en_fr	sheila	chili	decoder	ʃiːlɐ	ʃili	CVCV	2	2	0	0.0	0.0	0	1	ʃ|C	ɐ|V	ʃ|C	i|V	ʃ:ʃ i:i l:l ɐ:i
+S	0.97	en_fr	sheeny	chiner	decoder	ʃiːni	ʃine	CVCV	2	2	0	0.0	0.0	0	1	ʃ|C	i|V	ʃ|C	e|V	ʃ:ʃ i:i n:n i:e
+S	0.97	en_fr	setter	synthé	decoder	sɛtɐ	sɛ̃te	CVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s ɛ:ɛ̃ t:t ɐ:e
+S	0.97	en_fr	seeder	cité	decoder	siːdɐ	site	CVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s i:i d:t ɐ:e
+S	0.97	en_fr	sealer	scellé	decoder	siːlɐ	sele	CVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s i:e l:l ɐ:e
+S	0.97	en_fr	scilla	seller	decoder	sɪlɐ	sɛle	CVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s ɪ:ɛ l:l ɐ:e
+S	0.97	en_fr	saucy	ceci	decoder	sɔːsi	səsi	CVCV	2	2	0	0.0	0.0	0	1	s|C	i|V	s|C	i|V	s:s ɔ:ə s:s i:i
+S	0.97	en_fr	rutty	rôti	decoder	ɹʌti	ʁoti	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	i|V	ɹ:ɹ ʌ:o t:t i:i
+S	0.97	en_fr	runny	renie	decoder	ɹʌni	ʁəni	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	i|V	ɹ:ɹ ʌ:ə n:n i:i
+S	0.97	en_fr	rummy	remis	decoder	ɹʌmi	ʁəmi	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	i|V	ɹ:ɹ ʌ:ə m:m i:i
+S	0.97	en_fr	ruddy	redis	decoder	ɹʌdi	ʁədi	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	i|V	ɹ:ɹ ʌ:ə d:d i:i
+S	0.97	en_fr	rudder	rôder	decoder	ɹʌdɐ	ʁode	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɐ|V	ɹ|C	e|V	ɹ:ɹ ʌ:o d:d ɐ:e
+S	0.97	en_fr	rotter	raté	decoder	ɹɒtɐ	ʁate	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɐ|V	ɹ|C	e|V	ɹ:ɹ ɒ:a t:t ɐ:e
+S	0.97	en_fr	ripply	repli	decoder	ɹɪpli	ʁəpli	CVCCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	i|V	ɹ:ɹ ɪ:ə p:p l:l i:i
+S	0.97	en_fr	reedy	rider	decoder	ɹiːdi	ʁide	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	e|V	ɹ:ɹ i:i d:d i:e
+S	0.97	en_fr	recoup	recoupe	decoder	ɹɪkuːp	ʁəkup	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	p|C	ɹ|C	p|C	ɹ:ɹ ɪ:ə k:k u:u p:p
+S	0.97	en_fr	ratter	raté	decoder	ɹætɐ	ʁate	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɐ|V	ɹ|C	e|V	ɹ:ɹ æ:a t:t ɐ:e
+S	0.97	en_fr	rapt	rapt	decoder	ɹæpt	ʁapt	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ æ:a p:p t:t
+S	0.97	en_fr	rapped	rapt	decoder	ɹæpt	ʁapt	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ æ:a p:p t:t
+S	0.97	en_fr	ramie	rami	decoder	ɹæmi	ʁami	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	i|V	ɹ:ɹ æ:a m:m i:i
+S	0.97	en_fr	rale	réel	decoder	ɹeɪl	ʁeɛl	CVVC	2	2	0	0.0	0.0	0	1	ɹ|C	l|C	ɹ|C	l|C	ɹ:ɹ e:e ɪ:ɛ l:l
+S	0.97	en_fr	quack	couac	decoder	kwæk	kwak	CCVC	1	1	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k w:w æ:a k:k
+S	0.97	en_fr	prude	prude	decoder	pɹuːd	pʁyd	CCVC	1	1	0	0.0	0.0	0	1	p|C	d|C	p|C	d|C	p:p ɹ:ɹ u:y d:d
+S	0.97	en_fr	prev	preuve	decoder	pɹɛv	pʁœv	CCVC	1	1	0	0.0	0.0	0	1	p|C	v|C	p|C	v|C	p:p ɹ:ɹ ɛ:œ v:v
+S	0.97	en_fr	plume	plume	decoder	pluːm	plym	CCVC	1	1	0	0.0	0.0	0	1	p|C	m|C	p|C	m|C	p:p l:l u:y m:m
+S	0.97	en_fr	pluck	plaque	decoder	plʌk	plak	CCVC	1	1	0	0.0	0.0	0	1	p|C	k|C	p|C	k|C	p:p l:l ʌ:a k:k
+S	0.97	en_fr	pleas	plisse	decoder	pliːz	plis	CCVC	1	1	0	0.0	0.0	0	1	p|C	z|C	p|C	s|C	p:p l:l i:i z:s
+S	0.97	en_fr	pita	péter	decoder	piːtɐ	pete	CVCV	2	2	0	0.0	0.0	0	1	p|C	ɐ|V	p|C	e|V	p:p i:e t:t ɐ:e
+S	0.97	en_fr	peaky	piquer	decoder	piːki	pike	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	e|V	p:p i:i k:k i:e
+S	0.97	en_fr	pax	pacs	decoder	pæks	paks	CVCC	1	1	0	0.0	0.0	0	1	p|C	s|C	p|C	s|C	p:p æ:a k:k s:s
+S	0.97	en_fr	patty	pâtit	decoder	pæti	pati	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p æ:a t:t i:i
+S	0.97	en_fr	pattie	pâtit	decoder	pæti	pati	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p æ:a t:t i:i
+S	0.97	en_fr	patter	péter	decoder	pætɐ	pete	CVCV	2	2	0	0.0	0.0	0	1	p|C	ɐ|V	p|C	e|V	p:p æ:e t:t ɐ:e
+S	0.97	en_fr	pasha	péché	decoder	pæʃɐ	peʃe	CVCV	2	2	0	0.0	0.0	0	1	p|C	ɐ|V	p|C	e|V	p:p æ:e ʃ:ʃ ɐ:e
+S	0.97	en_fr	parry	pari	decoder	pæɹi	paʁi	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p æ:a ɹ:ɹ i:i
+S	0.97	en_fr	pappy	papy	decoder	pæpi	papi	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p æ:a p:p i:i
+S	0.97	en_fr	pally	pâli	decoder	pæli	pali	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p æ:a l:l i:i
+S	0.97	en_fr	packs	pacs	decoder	pæks	paks	CVCC	1	1	0	0.0	0.0	0	1	p|C	s|C	p|C	s|C	p:p æ:a k:k s:s
+S	0.97	en_fr	noil	noël	decoder	nɔɪl	nɔɛl	CVVC	2	2	0	0.0	0.0	0	1	n|C	l|C	n|C	l|C	n:n ɔ:ɔ ɪ:ɛ l:l
+S	0.97	en_fr	moony	muni	decoder	muːni	myni	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m u:y n:n i:i
+S	0.97	en_fr	meaty	midi	decoder	miːti	midi	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m i:i t:d i:i
+S	0.97	en_fr	matter	mater	decoder	mætɐ	mate	CVCV	2	2	0	0.0	0.0	0	1	m|C	ɐ|V	m|C	e|V	m:m æ:a t:t ɐ:e
+S	0.97	en_fr	massy	messie	decoder	mæsi	mesi	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m æ:e s:s i:i
+S	0.97	en_fr	masque	masque	decoder	mæsk	mask	CVCC	1	1	0	0.0	0.0	0	1	m|C	k|C	m|C	k|C	m:m æ:a s:s k:k
+S	0.97	en_fr	masher	mâcher	decoder	mæʃɐ	maʃe	CVCV	2	2	0	0.0	0.0	0	1	m|C	ɐ|V	m|C	e|V	m:m æ:a ʃ:ʃ ɐ:e
+S	0.97	en_fr	mammy	mamie	decoder	mæmi	mami	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m æ:a m:m i:i
+S	0.97	en_fr	mallee	mali	decoder	mæliː	mali	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m æ:a l:l i:i
+S	0.97	en_fr	madder	médée	decoder	mædɐ	mede	CVCV	2	2	0	0.0	0.0	0	1	m|C	ɐ|V	m|C	e|V	m:m æ:e d:d ɐ:e
+S	0.97	en_fr	macs	max	decoder	mæks	maks	CVCC	1	1	0	0.0	0.0	0	1	m|C	s|C	m|C	s|C	m:m æ:a k:k s:s
+S	0.97	en_fr	macks	max	decoder	mæks	maks	CVCC	1	1	0	0.0	0.0	0	1	m|C	s|C	m|C	s|C	m:m æ:a k:k s:s
+S	0.97	en_fr	looter	lutter	decoder	luːtɐ	lyte	CVCV	2	2	0	0.0	0.0	0	1	l|C	ɐ|V	l|C	e|V	l:l u:y t:t ɐ:e
+S	0.97	en_fr	loopy	loupé	decoder	luːpi	lupe	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	e|V	l:l u:u p:p i:e
+S	0.97	en_fr	looby	lubie	decoder	luːbi	lybi	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	i|V	l:l u:y b:b i:i
+S	0.97	en_fr	lessee	laisser	decoder	lɛsiː	lɛse	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	e|V	l:l ɛ:ɛ s:s i:e
+S	0.97	en_fr	leks	lynx	decoder	lɛks	lɛ̃ks	CVCC	1	1	0	0.0	0.0	0	1	l|C	s|C	l|C	s|C	l:l ɛ:ɛ̃ k:k s:s
+S	0.97	en_fr	latter	latter	decoder	lætɐ	late	CVCV	2	2	0	0.0	0.0	0	1	l|C	ɐ|V	l|C	e|V	l:l æ:a t:t ɐ:e
+S	0.97	en_fr	lassie	lacis	decoder	læsi	lasi	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	i|V	l:l æ:a s:s i:i
+S	0.97	en_fr	laddie	lesdits	decoder	lædi	ledi	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	i|V	l:l æ:e d:d i:i
+S	0.97	en_fr	kauri	corée	decoder	kɔːɹi	kɔʁe	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	e|V	k:k ɔ:ɔ ɹ:ɹ i:e
+S	0.97	en_fr	kasha	cacher	decoder	kæʃɐ	kaʃe	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k æ:a ʃ:ʃ ɐ:e
+S	0.97	en_fr	kaki	kaki	decoder	kæki	kaki	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k æ:a k:k i:i
+S	0.97	en_fr	kadi	caddie	decoder	kædi	kadi	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k æ:a d:d i:i
+S	0.97	en_fr	jock	jack	decoder	dʒɒk	dʒak	CCVC	1	1	0	0.0	0.0	0	1	d|C	k|C	d|C	k|C	d:d ʒ:ʒ ɒ:a k:k
+S	0.97	en_fr	jack	jack	decoder	dʒæk	dʒak	CCVC	1	1	0	0.0	0.0	0	1	d|C	k|C	d|C	k|C	d:d ʒ:ʒ æ:a k:k
+S	0.97	en_fr	frill	frêle	decoder	fɹɪl	fʁɛl	CCVC	1	1	0	0.0	0.0	0	1	f|C	l|C	f|C	l|C	f:f ɹ:ɹ ɪ:ɛ l:l
+S	0.97	en_fr	flute	flûte	decoder	fluːt	flyt	CCVC	1	1	0	0.0	0.0	0	1	f|C	t|C	f|C	t|C	f:f l:l u:y t:t
+S	0.97	en_fr	floored	flotte	decoder	flɔːd	flɔt	CCVC	1	1	0	0.0	0.0	0	1	f|C	d|C	f|C	t|C	f:f l:l ɔ:ɔ d:t
+S	0.97	en_fr	flan	flâne	decoder	flæn	flan	CCVC	1	1	0	0.0	0.0	0	1	f|C	n|C	f|C	n|C	f:f l:l æ:a n:n
+S	0.97	en_fr	flam	flammes	decoder	flæm	flam	CCVC	1	1	0	0.0	0.0	0	1	f|C	m|C	f|C	m|C	f:f l:l æ:a m:m
+S	0.97	en_fr	flak	flaque	decoder	flæk	flak	CCVC	1	1	0	0.0	0.0	0	1	f|C	k|C	f|C	k|C	f:f l:l æ:a k:k
+S	0.97	en_fr	flack	flaque	decoder	flæk	flak	CCVC	1	1	0	0.0	0.0	0	1	f|C	k|C	f|C	k|C	f:f l:l æ:a k:k
+S	0.97	en_fr	fessed	veste	decoder	fɛst	vɛst	CVCC	1	1	0	0.0	0.0	0	1	f|C	t|C	v|C	t|C	f:v ɛ:ɛ s:s t:t
+S	0.97	en_fr	feeder	vider	decoder	fiːdɐ	vide	CVCV	2	2	0	0.0	0.0	0	1	f|C	ɐ|V	v|C	e|V	f:v i:i d:d ɐ:e
+S	0.97	en_fr	faller	voler	decoder	fɔːlɐ	vɔle	CVCV	2	2	0	0.0	0.0	0	1	f|C	ɐ|V	v|C	e|V	f:v ɔ:ɔ l:l ɐ:e
+S	0.97	en_fr	easel	isole	decoder	iːzəl	izɔl	VCVC	2	2	0	0.0	0.0	0	1	i|V	l|C	i|V	l|C	i:i z:z ə:ɔ l:l
+S	0.97	en_fr	drupe	troupes	decoder	dɹuːp	tʁup	CCVC	1	1	0	0.0	0.0	0	1	d|C	p|C	t|C	p|C	d:t ɹ:ɹ u:u p:p
+S	0.97	en_fr	droop	troupes	decoder	dɹuːp	tʁup	CCVC	1	1	0	0.0	0.0	0	1	d|C	p|C	t|C	p|C	d:t ɹ:ɹ u:u p:p
+S	0.97	en_fr	dram	drame	decoder	dɹæm	dʁam	CCVC	1	1	0	0.0	0.0	0	1	d|C	m|C	d|C	m|C	d:d ɹ:ɹ æ:a m:m
+S	0.97	en_fr	dory	doré	decoder	dɔːɹi	dɔʁe	CVCV	2	2	0	0.0	0.0	0	1	d|C	i|V	d|C	e|V	d:d ɔ:ɔ ɹ:ɹ i:e
+S	0.97	en_fr	demy	demi	decoder	dɛmi	dəmi	CVCV	2	2	0	0.0	0.0	0	1	d|C	i|V	d|C	i|V	d:d ɛ:ə m:m i:i
+S	0.97	en_fr	cutter	côté	decoder	kʌtɐ	kote	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k ʌ:o t:t ɐ:e
+S	0.97	en_fr	cutch	coach	decoder	kʌtʃ	kotʃ	CVCC	1	1	0	0.0	0.0	0	1	k|C	ʃ|C	k|C	ʃ|C	k:k ʌ:o t:t ʃ:ʃ
+S	0.97	en_fr	cupped	capte	decoder	kʌpt	kapt	CVCC	1	1	0	0.0	0.0	0	1	k|C	t|C	k|C	t|C	k:k ʌ:a p:p t:t
+S	0.97	en_fr	cuddy	caddie	decoder	kʌdi	kadi	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k ʌ:a d:d i:i
+S	0.97	en_fr	crus	crous	decoder	kɹuːz	kʁus	CCVC	1	1	0	0.0	0.0	0	1	k|C	z|C	k|C	s|C	k:k ɹ:ɹ u:u z:s
+S	0.97	en_fr	cruck	crack	decoder	kɹʌk	kʁak	CCVC	1	1	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k ɹ:ɹ ʌ:a k:k
+S	0.97	en_fr	crewed	croûte	decoder	kɹuːd	kʁut	CCVC	1	1	0	0.0	0.0	0	1	k|C	d|C	k|C	t|C	k:k ɹ:ɹ u:u d:t
+S	0.97	en_fr	cress	grèce	decoder	kɹɛs	ɡʁɛs	CCVC	1	1	0	0.0	0.0	0	1	k|C	s|C	ɡ|C	s|C	k:ɡ ɹ:ɹ ɛ:ɛ s:s
+S	0.97	en_fr	creel	grill	decoder	kɹiːl	ɡʁil	CCVC	1	1	0	0.0	0.0	0	1	k|C	l|C	ɡ|C	l|C	k:ɡ ɹ:ɹ i:i l:l
+S	0.97	en_fr	cred	crête	decoder	kɹɛd	kʁɛt	CCVC	1	1	0	0.0	0.0	0	1	k|C	d|C	k|C	t|C	k:k ɹ:ɹ ɛ:ɛ d:t
+S	0.97	en_fr	cram	crame	decoder	kɹæm	kʁam	CCVC	1	1	0	0.0	0.0	0	1	k|C	m|C	k|C	m|C	k:k ɹ:ɹ æ:a m:m
+S	0.97	en_fr	cotter	côté	decoder	kɒtɐ	kote	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k ɒ:o t:t ɐ:e
+S	0.97	en_fr	cottar	côté	decoder	kɒtɐ	kote	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k ɒ:o t:t ɐ:e
+S	0.97	en_fr	cotta	côté	decoder	kɒtɐ	kote	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k ɒ:o t:t ɐ:e
+S	0.97	en_fr	corrie	carie	decoder	kɒɹi	kaʁi	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k ɒ:a ɹ:ɹ i:i
+S	0.97	en_fr	combe	commet	decoder	kəmɛ	kɔmɛ	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɛ|V	k|C	ɛ|V	k:k ə:ɔ m:m ɛ:ɛ
+S	0.97	en_fr	colour	calé	decoder	kʌlɐ	kale	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k ʌ:a l:l ɐ:e
+S	0.97	en_fr	cocky	kaki	decoder	kɒki	kaki	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k ɒ:a k:k i:i
+S	0.97	en_fr	cluck	claque	decoder	klʌk	klak	CCVC	1	1	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k l:l ʌ:a k:k
+S	0.97	en_fr	clews	cluses	decoder	kluːz	klyz	CCVC	1	1	0	0.0	0.0	0	1	k|C	z|C	k|C	z|C	k:k l:l u:y z:z
+S	0.97	en_fr	claque	claque	decoder	klæk	klak	CCVC	1	1	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k l:l æ:a k:k
+S	0.97	en_fr	clam	clame	decoder	klæm	klam	CCVC	1	1	0	0.0	0.0	0	1	k|C	m|C	k|C	m|C	k:k l:l æ:a m:m
+S	0.97	en_fr	clack	claque	decoder	klæk	klak	CCVC	1	1	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k l:l æ:a k:k
+S	0.97	en_fr	chat	chat	decoder	tʃæt	ʃa	·CV·	1	1	0	0.5	0.5	0	1	t|C	t|C	ʃ|C	a|V	t:· ʃ:ʃ æ:a t:·
+S	0.97	en_fr	cassia	cacher	decoder	kæʃɐ	kaʃe	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k æ:a ʃ:ʃ ɐ:e
+S	0.97	en_fr	calla	calé	decoder	kælɐ	kale	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k æ:a l:l ɐ:e
+S	0.97	en_fr	cadi	caddie	decoder	kædi	kadi	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k æ:a d:d i:i
+S	0.97	en_fr	caddy	caddie	decoder	kædi	kadi	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k æ:a d:d i:i
+S	0.97	en_fr	caddie	caddie	decoder	kædi	kadi	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k æ:a d:d i:i
+S	0.97	en_fr	butty	bâti	decoder	bʌti	bati	CVCV	2	2	0	0.0	0.0	0	1	b|C	i|V	b|C	i|V	b:b ʌ:a t:t i:i
+S	0.97	en_fr	butter	beauté	decoder	bʌtɐ	bote	CVCV	2	2	0	0.0	0.0	0	1	b|C	ɐ|V	b|C	e|V	b:b ʌ:o t:t ɐ:e
+S	0.97	en_fr	busk	basque	decoder	bʌsk	bask	CVCC	1	1	0	0.0	0.0	0	1	b|C	k|C	b|C	k|C	b:b ʌ:a s:s k:k
+S	0.97	en_fr	burry	barrie	decoder	bʌɹi	baʁi	CVCV	2	2	0	0.0	0.0	0	1	b|C	i|V	b|C	i|V	b:b ʌ:a ɹ:ɹ i:i
+S	0.97	en_fr	budge	badge	decoder	bʌdʒ	badʒ	CVCC	1	1	0	0.0	0.0	0	1	b|C	ʒ|C	b|C	ʒ|C	b:b ʌ:a d:d ʒ:ʒ
+S	0.97	en_fr	bruise	brousse	decoder	bɹuːz	bʁus	CCVC	1	1	0	0.0	0.0	0	1	b|C	z|C	b|C	s|C	b:b ɹ:ɹ u:u z:s
+S	0.97	en_fr	broom	brume	decoder	bɹuːm	bʁym	CCVC	1	1	0	0.0	0.0	0	1	b|C	m|C	b|C	m|C	b:b ɹ:ɹ u:y m:m
+S	0.97	en_fr	brood	broute	decoder	bɹuːd	bʁut	CCVC	1	1	0	0.0	0.0	0	1	b|C	d|C	b|C	t|C	b:b ɹ:ɹ u:u d:t
+S	0.97	en_fr	brock	braque	decoder	bɹɒk	bʁak	CCVC	1	1	0	0.0	0.0	0	1	b|C	k|C	b|C	k|C	b:b ɹ:ɹ ɒ:a k:k
+S	0.97	en_fr	broch	braque	decoder	bɹɒk	bʁak	CCVC	1	1	0	0.0	0.0	0	1	b|C	k|C	b|C	k|C	b:b ɹ:ɹ ɒ:a k:k
+S	0.97	en_fr	brews	brousse	decoder	bɹuːz	bʁus	CCVC	1	1	0	0.0	0.0	0	1	b|C	z|C	b|C	s|C	b:b ɹ:ɹ u:u z:s
+S	0.97	en_fr	brewed	broute	decoder	bɹuːd	bʁut	CCVC	1	1	0	0.0	0.0	0	1	b|C	d|C	b|C	t|C	b:b ɹ:ɹ u:u d:t
+S	0.97	en_fr	breve	prive	decoder	bɹiːv	pʁiv	CCVC	1	1	0	0.0	0.0	0	1	b|C	v|C	p|C	v|C	b:p ɹ:ɹ i:i v:v
+S	0.97	en_fr	border	body	decoder	bɔːdɐ	bɔdi	CVCV	2	2	0	0.0	0.0	0	1	b|C	ɐ|V	b|C	i|V	b:b ɔ:ɔ d:d ɐ:i
+S	0.97	en_fr	boarder	body	decoder	bɔːdɐ	bɔdi	CVCV	2	2	0	0.0	0.0	0	1	b|C	ɐ|V	b|C	i|V	b:b ɔ:ɔ d:d ɐ:i
+S	0.97	en_fr	blot	blattes	decoder	blɒt	blat	CCVC	1	1	0	0.0	0.0	0	1	b|C	t|C	b|C	t|C	b:b l:l ɒ:a t:t
+S	0.97	en_fr	beefy	biffer	decoder	biːfi	bife	CVCV	2	2	0	0.0	0.0	0	1	b|C	i|V	b|C	e|V	b:b i:i f:f i:e
+S	0.97	en_fr	beanie	béni	decoder	biːni	beni	CVCV	2	2	0	0.0	0.0	0	1	b|C	i|V	b|C	i|V	b:b i:e n:n i:i
+S	0.97	en_fr	beaked	picte	decoder	biːkt	pikt	CVCC	1	1	0	0.0	0.0	0	1	b|C	t|C	p|C	t|C	b:p i:i k:k t:t
+S	0.97	en_fr	bally	poli	decoder	bɔːli	pɔli	CVCV	2	2	0	0.0	0.0	0	1	b|C	i|V	p|C	i|V	b:p ɔ:ɔ l:l i:i
+S	0.97	en_fr	alter	haleter	decoder	ɒltɐ	alte	VCCV	2	2	0	0.0	0.0	0	1	ɒ|V	ɐ|V	a|V	e|V	ɒ:a l:l t:t ɐ:e
+S	0.97	en_fr	altar	haleter	decoder	ɒltɐ	alte	VCCV	2	2	0	0.0	0.0	0	1	ɒ|V	ɐ|V	a|V	e|V	ɒ:a l:l t:t ɐ:e
+S	0.969	en_fr	tractive	traquent ive	multiword,decoder	tɹæktɪv	tʁak iv	CCVC·VC	2	2	0	0.143	0.143	0	1	t|C	v|C	t|C	v|C	t:t ɹ:ɹ æ:a k:k t:· ɪ:i v:v
+S	0.969	en_fr	disprove	dis prouve	multiword,decoder	dɪspɹuːv	di pʁuv	CV·CCVC	2	2	0	0.143	0.143	0	1	d|C	v|C	d|C	v|C	d:d ɪ:i s:· p:p ɹ:ɹ u:u v:v
+S	0.967	en_fr	pressing	pressing	decoder	pɹɛsɪŋ	pʁesiŋ	CCVCVC	2	2	0	0.0	0.0	0	1	p|C	ŋ|C	p|C	ŋ|C	p:p ɹ:ɹ ɛ:e s:s ɪ:i ŋ:ŋ
+S	0.967	en_fr	pressies	précise	decoder	pɹɛsɪz	pʁesiz	CCVCVC	2	2	0	0.0	0.0	0	1	p|C	z|C	p|C	z|C	p:p ɹ:ɹ ɛ:e s:s ɪ:i z:z
+S	0.967	en_fr	presses	précise	decoder	pɹɛsɪz	pʁesiz	CCVCVC	2	2	0	0.0	0.0	0	1	p|C	z|C	p|C	z|C	p:p ɹ:ɹ ɛ:e s:s ɪ:i z:z
+S	0.967	en_fr	beetroot	but route	multiword,decoder	biːtɹuːt	by ʁut	CV·CVC	2	2	0	0.167	0.167	0	1	b|C	t|C	b|C	t|C	b:b i:y t:· ɹ:ɹ u:u t:t
+S	0.964	en_fr	marcel	mas elle	multiword,decoder	mɑːsɛl	ma ɛl	CV·VC	2	2	0	0.2	0.2	0	1	m|C	l|C	m|C	l|C	m:m ɑ:a s:· ɛ:ɛ l:l
+S	0.964	en_fr	artist	atteste	decoder	ɑːtɪst	atɛst	VCVCC	2	2	0	0.0	0.0	0	1	ɑ|V	t|C	a|V	t|C	ɑ:a t:t ɪ:ɛ s:s t:t
+S	0.963	en_fr	wheeler	huilé	decoder	wiːlɐ	ɥile	CVCV	2	2	0	0.0	0.0	0	1	w|C	ɐ|V	ɥ|C	e|V	w:ɥ i:i l:l ɐ:e
+S	0.963	en_fr	triply	triplé	decoder	tɹɪpli	tʁiple	CCVCCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	e|V	t:t ɹ:ɹ ɪ:i p:p l:l i:e
+S	0.963	en_fr	sissy	ceci	decoder	sɪsi	səsi	CVCV	2	2	0	0.0	0.0	0	1	s|C	i|V	s|C	i|V	s:s ɪ:ə s:s i:i
+S	0.963	en_fr	rickey	requis	decoder	ɹɪki	ʁəki	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	i|V	ɹ:ɹ ɪ:ə k:k i:i
+S	0.963	en_fr	restive	rincent ive	multiword,decoder	ɹɛstɪv	ʁɛ̃s iv	CVC·VC	2	2	0	0.167	0.167	0	1	ɹ|C	v|C	ɹ|C	v|C	ɹ:ɹ ɛ:ɛ̃ s:s t:· ɪ:i v:v
+S	0.963	en_fr	divvy	devis	decoder	dɪvi	dəvi	CVCV	2	2	0	0.0	0.0	0	1	d|C	i|V	d|C	i|V	d:d ɪ:ə v:v i:i
+S	0.963	en_fr	cellist	céleste	decoder	sɛlɪst	selɛst	CVCVCC	2	2	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s ɛ:e l:l ɪ:ɛ s:s t:t
+S	0.963	en_fr	betta	bêta	decoder	bɛtɐ	bɛta	CVCV	2	2	0	0.0	0.0	0	1	b|C	ɐ|V	b|C	a|V	b:b ɛ:ɛ t:t ɐ:a
+S	0.96	en_fr	wrested	rincent aide	multiword,decoder	ɹɛstɪd	ʁɛ̃s ɛd	CVC·VC	2	2	0	0.167	0.167	0	1	ɹ|C	d|C	ɹ|C	d|C	ɹ:ɹ ɛ:ɛ̃ s:s t:· ɪ:ɛ d:d
+S	0.96	en_fr	trestle	trais elle	multiword,decoder	tɹɛsəl	tʁɛ ɛl	CCV·VC	2	2	0	0.167	0.167	0	1	t|C	l|C	t|C	l|C	t:t ɹ:ɹ ɛ:ɛ s:· ə:ɛ l:l
+S	0.96	en_fr	tresses	trais aise	multiword,decoder	tɹɛsɪz	tʁɛ ɛz	CCV·VC	2	2	0	0.167	0.167	0	1	t|C	z|C	t|C	z|C	t:t ɹ:ɹ ɛ:ɛ s:· ɪ:ɛ z:z
+S	0.96	en_fr	tressel	trais elle	multiword,decoder	tɹɛsəl	tʁɛ ɛl	CCV·VC	2	2	0	0.167	0.167	0	1	t|C	l|C	t|C	l|C	t:t ɹ:ɹ ɛ:ɛ s:· ə:ɛ l:l
+S	0.96	en_fr	teston	taies tonnes	multiword,decoder	tɛstən	tɛ tɔn	CV·CVC	2	2	0	0.167	0.167	0	1	t|C	n|C	t|C	n|C	t:t ɛ:ɛ s:· t:t ə:ɔ n:n
+S	0.96	en_fr	testis	taies dix	multiword,decoder	tɛstiz	tɛ dis	CV·CVC	2	2	0	0.167	0.167	0	1	t|C	z|C	t|C	s|C	t:t ɛ:ɛ s:· t:d i:i z:s
+S	0.96	en_fr	testes	taies dix	multiword,decoder	tɛstiːz	tɛ dis	CV·CVC	2	2	0	0.167	0.167	0	1	t|C	z|C	t|C	s|C	t:t ɛ:ɛ s:· t:d i:i z:s
+S	0.96	en_fr	testers	taies thèse	multiword,decoder	tɛstəz	tɛ tɛz	CV·CVC	2	2	0	0.167	0.167	0	1	t|C	z|C	t|C	z|C	t:t ɛ:ɛ s:· t:t ə:ɛ z:z
+S	0.96	en_fr	streaks	strict	decoder	stɹiːks	stʁikt	CCCVCC	1	1	0	0.0	0.0	0	1	s|C	s|C	s|C	t|C	s:s t:t ɹ:ɹ i:i k:k s:t
+S	0.96	en_fr	select	sélect	decoder	sɪlɛkt	selɛkt	CVCVCC	2	2	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s ɪ:e l:l ɛ:ɛ k:k t:t
+S	0.96	en_fr	rested	rincent aide	multiword,decoder	ɹɛstɪd	ʁɛ̃s ɛd	CVC·VC	2	2	0	0.167	0.167	0	1	ɹ|C	d|C	ɹ|C	d|C	ɹ:ɹ ɛ:ɛ̃ s:s t:· ɪ:ɛ d:d
+S	0.96	en_fr	reprove	réprouve	decoder	ɹɪpɹuːv	ʁepʁuv	CVCCVC	2	2	0	0.0	0.0	0	1	ɹ|C	v|C	ɹ|C	v|C	ɹ:ɹ ɪ:e p:p ɹ:ɹ u:u v:v
+S	0.96	en_fr	precess	princesse	decoder	pɹɪsɛs	pʁɛ̃sɛs	CCVCVC	2	2	0	0.0	0.0	0	1	p|C	s|C	p|C	s|C	p:p ɹ:ɹ ɪ:ɛ̃ s:s ɛ:ɛ s:s
+S	0.96	en_fr	menaced	main est	multiword,decoder	mɛnɪst	mɛ̃ ɛst	CVCVCC	2	2	0	0.0	0.0	0	1	m|C	t|C	m|C	t|C	m:m ɛ:ɛ n:n ɪ:ɛ s:s t:t
+S	0.96	en_fr	meatball	met bol	multiword,decoder	miːtbɔːl	mɛ bɔl	CV·CVC	2	2	0	0.167	0.167	0	1	m|C	l|C	m|C	l|C	m:m i:ɛ t:· b:b ɔ:ɔ l:l
+S	0.96	en_fr	lyric	lyrique	decoder	lɪɹɪk	liʁik	CVCVC	2	2	0	0.0	0.0	0	1	l|C	k|C	l|C	k|C	l:l ɪ:i ɹ:ɹ ɪ:i k:k
+S	0.96	en_fr	derrick	derrick	decoder	dɛɹɪk	deʁik	CVCVC	2	2	0	0.0	0.0	0	1	d|C	k|C	d|C	k|C	d:d ɛ:e ɹ:ɹ ɪ:i k:k
+S	0.96	en_fr	conceit	con site	multiword,decoder	kənsiːt	kɔ̃ sit	CVCCVC	2	2	0	0.0	0.0	0	1	k|C	t|C	k|C	t|C	k:k ə:ɔ n:n s:s i:i t:t
+S	0.96	en_fr	concede	con cid	multiword,decoder	kənsiːd	kɔ̃ sid	CVCCVC	2	2	0	0.0	0.0	0	1	k|C	d|C	k|C	d|C	k:k ə:ɔ n:n s:s i:i d:d
+S	0.96	en_fr	censors	sain seize	multiword,decoder	sɛnsəz	sɛ̃ sɛz	CVCCVC	2	2	0	0.0	0.0	0	1	s|C	z|C	s|C	z|C	s:s ɛ:ɛ n:n s:s ə:ɛ z:z
+S	0.96	en_fr	censored	saines aide	multiword,decoder	sɛnsəd	sɛn ɛd	CVC·VC	2	2	0	0.167	0.167	0	1	s|C	d|C	s|C	d|C	s:s ɛ:ɛ n:n s:· ə:ɛ d:d
+S	0.96	en_fr	censers	sain seize	multiword,decoder	sɛnsəz	sɛ̃ sɛz	CVCCVC	2	2	0	0.0	0.0	0	1	s|C	z|C	s|C	z|C	s:s ɛ:ɛ n:n s:s ə:ɛ z:z
+S	0.96	en_fr	bellies	belize	decoder	bɛlɪz	beliz	CVCVC	2	2	0	0.0	0.0	0	1	b|C	z|C	b|C	z|C	b:b ɛ:e l:l ɪ:i z:z
+S	0.956	en_fr	tesla	déceler	decoder	tɛslɐ	desle	CVCCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	d|C	e|V	t:d ɛ:e s:s l:l ɐ:e
+S	0.956	en_fr	terrors	thérèse	decoder	tɛɹəz	teʁɛz	CVCVC	2	2	0	0.0	0.0	0	1	t|C	z|C	t|C	z|C	t:t ɛ:e ɹ:ɹ ə:ɛ z:z
+S	0.956	en_fr	senores	sain ose	multiword,decoder	sɛnɔːz	sɛ̃ oz	CVCVC	2	2	0	0.0	0.0	0	1	s|C	z|C	s|C	z|C	s:s ɛ:ɛ n:n ɔ:o z:z
+S	0.956	en_fr	scrip	scribe	decoder	skɹɪp	skʁib	CCCVC	1	1	0	0.0	0.0	0	1	s|C	p|C	s|C	b|C	s:s k:k ɹ:ɹ ɪ:i p:b
+S	0.956	en_fr	reseal	ries il	multiword,decoder	ɹɪsiːl	ʁi il	CV·VC	2	2	0	0.2	0.2	0	1	ɹ|C	l|C	ɹ|C	l|C	ɹ:ɹ ɪ:i s:· i:i l:l
+S	0.956	en_fr	rennet	rainette	decoder	ɹɛnɪt	ʁenɛt	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ ɛ:e n:n ɪ:ɛ t:t
+S	0.956	en_fr	readies	redisent	decoder	ɹɛdɪz	ʁədiz	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	z|C	ɹ|C	z|C	ɹ:ɹ ɛ:ə d:d ɪ:i z:z
+S	0.956	en_fr	privy	privé	decoder	pɹɪvi	pʁive	CCVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	e|V	p:p ɹ:ɹ ɪ:i v:v i:e
+S	0.956	en_fr	porters	pot aise	multiword,decoder	pɔːtəz	po ɛz	CV·VC	2	2	0	0.2	0.2	0	1	p|C	z|C	p|C	z|C	p:p ɔ:o t:· ə:ɛ z:z
+S	0.956	en_fr	pennis	pénis	decoder	pɛniz	penis	CVCVC	2	2	0	0.0	0.0	0	1	p|C	z|C	p|C	s|C	p:p ɛ:e n:n i:i z:s
+S	0.956	en_fr	peacock	bicoque	decoder	piːkɒk	bikɔk	CVCVC	2	2	0	0.0	0.0	0	1	p|C	k|C	b|C	k|C	p:b i:i k:k ɒ:ɔ k:k
+S	0.956	en_fr	octave	active	decoder	ɒktɪv	aktiv	VCCVC	2	2	0	0.0	0.0	0	1	ɒ|V	v|C	a|V	v|C	ɒ:a k:k t:t ɪ:i v:v
+S	0.956	en_fr	menace	main hisse	multiword,decoder	mɛnɪs	mɛ̃ is	CVCVC	2	2	0	0.0	0.0	0	1	m|C	s|C	m|C	s|C	m:m ɛ:ɛ n:n ɪ:i s:s
+S	0.956	en_fr	grist	christ	decoder	ɡɹɪst	kʁist	CCVCC	1	1	0	0.0	0.0	0	1	ɡ|C	t|C	k|C	t|C	ɡ:k ɹ:ɹ ɪ:i s:s t:t
+S	0.956	en_fr	ferrule	férule	decoder	fɛɹuːl	feʁyl	CVCVC	2	2	0	0.0	0.0	0	1	f|C	l|C	f|C	l|C	f:f ɛ:e ɹ:ɹ u:y l:l
+S	0.956	en_fr	deceive	dis ive	multiword,decoder	dɪsiːv	di iv	CV·VC	2	2	0	0.2	0.2	0	1	d|C	v|C	d|C	v|C	d:d ɪ:i s:· i:i v:v
+S	0.956	en_fr	decease	dis hisse	multiword,decoder	dɪsiːs	di is	CV·VC	2	2	0	0.2	0.2	0	1	d|C	s|C	d|C	s|C	d:d ɪ:i s:· i:i s:s
+S	0.956	en_fr	conic	conique	decoder	kənɪk	kɔnik	CVCVC	2	2	0	0.0	0.0	0	1	k|C	k|C	k|C	k|C	k:k ə:ɔ n:n ɪ:i k:k
+S	0.956	en_fr	centaur	sain taux	multiword,decoder	sɛntɔː	sɛ̃ to	CVCCV	2	2	0	0.0	0.0	0	1	s|C	ɔ|V	s|C	o|V	s:s ɛ:ɛ n:n t:t ɔ:o
+S	0.956	en_fr	cecal	séquelles	decoder	sɛkəl	sekɛl	CVCVC	2	2	0	0.0	0.0	0	1	s|C	l|C	s|C	l|C	s:s ɛ:e k:k ə:ɛ l:l
+S	0.956	en_fr	beckon	bacon	decoder	bɛkən	bekɔn	CVCVC	2	2	0	0.0	0.0	0	1	b|C	n|C	b|C	n|C	b:b ɛ:e k:k ə:ɔ n:n
+S	0.956	en_fr	active	active	decoder	æktɪv	aktiv	VCCVC	2	2	0	0.0	0.0	0	1	æ|V	v|C	a|V	v|C	æ:a k:k t:t ɪ:i v:v
+S	0.955	en_fr	tala	daller	decoder	tɑːlɐ	dale	CVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	d|C	e|V	t:d ɑ:a l:l ɐ:e
+S	0.955	en_fr	start	stade	decoder	stɑːt	stad	CCVC	1	1	0	0.0	0.0	0	1	s|C	t|C	s|C	d|C	s:s t:t ɑ:a t:d
+S	0.955	en_fr	recruit	recrute	decoder	ɹɪkɹuːt	ʁəkʁyt	CVCCVC	2	2	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ ɪ:ə k:k ɹ:ɹ u:y t:t
+S	0.955	en_fr	parlour	palais	decoder	pɑːlɐ	palɛ	CVCV	2	2	0	0.0	0.0	0	1	p|C	ɐ|V	p|C	ɛ|V	p:p ɑ:a l:l ɐ:ɛ
+S	0.955	en_fr	parlor	palais	decoder	pɑːlɐ	palɛ	CVCV	2	2	0	0.0	0.0	0	1	p|C	ɐ|V	p|C	ɛ|V	p:p ɑ:a l:l ɐ:ɛ
+S	0.955	en_fr	palmy	pâmer	decoder	pɑːmi	pame	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	e|V	p:p ɑ:a m:m i:e
+S	0.955	en_fr	marshy	magie	decoder	mɑːʃi	maʒi	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m ɑ:a ʃ:ʒ i:i
+S	0.955	en_fr	lardy	lattis	decoder	lɑːdi	lati	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	i|V	l:l ɑ:a d:t i:i
+S	0.955	en_fr	larder	latter	decoder	lɑːdɐ	late	CVCV	2	2	0	0.0	0.0	0	1	l|C	ɐ|V	l|C	e|V	l:l ɑ:a d:t ɐ:e
+S	0.955	en_fr	kami	camée	decoder	kɑːmi	kame	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	e|V	k:k ɑ:a m:m i:e
+S	0.955	en_fr	kali	calé	decoder	kɑːli	kale	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	e|V	k:k ɑ:a l:l i:e
+S	0.955	en_fr	catarrh	quotas	decoder	kətɑː	kwɔta	C·VCV	2	2	0	0.2	0.0	0	1	k|C	ɑ|V	k|C	a|V	k:k ·:w ə:ɔ t:t ɑ:a
+S	0.955	en_fr	carter	gâté	decoder	kɑːtɐ	ɡate	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	ɡ|C	e|V	k:ɡ ɑ:a t:t ɐ:e
+S	0.955	en_fr	carny	canée	decoder	kɑːni	kane	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	e|V	k:k ɑ:a n:n i:e
+S	0.955	en_fr	carnie	canée	decoder	kɑːni	kane	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	e|V	k:k ɑ:a n:n i:e
+S	0.955	en_fr	carney	canée	decoder	kɑːni	kane	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	e|V	k:k ɑ:a n:n i:e
+S	0.955	en_fr	carder	cadet	decoder	kɑːdɐ	kadɛ	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	ɛ|V	k:k ɑ:a d:d ɐ:ɛ
+S	0.955	en_fr	cadre	cadet	decoder	kɑːdɐ	kadɛ	CVCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	ɛ|V	k:k ɑ:a d:d ɐ:ɛ
+S	0.955	en_fr	arson	assène	decoder	ɑːsən	asɛn	VCVC	2	2	0	0.0	0.0	0	1	ɑ|V	n|C	a|V	n|C	ɑ:a s:s ə:ɛ n:n
+S	0.952	en_fr	wrestle	recèle	decoder	ɹɛsəl	ʁəsɛl	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	l|C	ɹ|C	l|C	ɹ:ɹ ɛ:ə s:s ə:ɛ l:l
+S	0.952	en_fr	trending	train digne	multiword,decoder	tɹɛndɪŋ	tʁɛ̃ diɲ	CCVCCVC	2	2	0	0.0	0.0	0	1	t|C	ŋ|C	t|C	ɲ|C	t:t ɹ:ɹ ɛ:ɛ n:n d:d ɪ:i ŋ:ɲ
+S	0.952	en_fr	treater	traité	decoder	tɹiːtɐ	tʁɛte	CCVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	t|C	e|V	t:t ɹ:ɹ i:ɛ t:t ɐ:e
+S	0.952	en_fr	trashy	trachée	decoder	tɹæʃi	tʁaʃe	CCVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	e|V	t:t ɹ:ɹ æ:a ʃ:ʃ i:e
+S	0.952	en_fr	strep	strip	decoder	stɹɛp	stʁip	CCCVC	1	1	0	0.0	0.0	0	1	s|C	p|C	s|C	p|C	s:s t:t ɹ:ɹ ɛ:i p:p
+S	0.952	en_fr	stellar	stylé	decoder	stɛlɐ	stile	CCVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s t:t ɛ:i l:l ɐ:e
+S	0.952	en_fr	stela	stylé	decoder	stɛlɐ	stile	CCVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s t:t ɛ:i l:l ɐ:e
+S	0.952	en_fr	sext	sixte	decoder	sɛkst	sikst	CVCCC	1	1	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s ɛ:i k:k s:s t:t
+S	0.952	en_fr	sexed	sixte	decoder	sɛkst	sikst	CVCCC	1	1	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s ɛ:i k:k s:s t:t
+S	0.952	en_fr	setters	synthèse	decoder	sɛtəz	sɛ̃tɛz	CVCVC	2	2	0	0.0	0.0	0	1	s|C	z|C	s|C	z|C	s:s ɛ:ɛ̃ t:t ə:ɛ z:z
+S	0.952	en_fr	settees	sottises	decoder	sɛtiːz	sɔtiz	CVCVC	2	2	0	0.0	0.0	0	1	s|C	z|C	s|C	z|C	s:s ɛ:ɔ t:t i:i z:z
+S	0.952	en_fr	senors	sain aise	multiword,decoder	sɛnəz	sɛ̃ ɛz	CVCVC	2	2	0	0.0	0.0	0	1	s|C	z|C	s|C	z|C	s:s ɛ:ɛ n:n ə:ɛ z:z
+S	0.952	en_fr	seeders	scient aise	multiword,decoder	siːdəz	si ɛz	CV·VC	2	2	0	0.2	0.2	0	1	s|C	z|C	s|C	z|C	s:s i:i d:· ə:ɛ z:z
+S	0.952	en_fr	seeded	scient aide	multiword,decoder	siːdɪd	si ɛd	CV·VC	2	2	0	0.2	0.2	0	1	s|C	d|C	s|C	d|C	s:s i:i d:· ɪ:ɛ d:d
+S	0.952	en_fr	seaport	chipote	decoder	siːpɔːt	ʃipɔt	CVCVC	2	2	0	0.0	0.0	0	1	s|C	t|C	ʃ|C	t|C	s:ʃ i:i p:p ɔ:ɔ t:t
+S	0.952	en_fr	screwed	scrute	decoder	skɹuːd	skʁyt	CCCVC	1	1	0	0.0	0.0	0	1	s|C	d|C	s|C	t|C	s:s k:k ɹ:ɹ u:y d:t
+S	0.952	en_fr	routers	ruent aise	multiword,decoder	ɹuːtəz	ʁy ɛz	CV·VC	2	2	0	0.2	0.2	0	1	ɹ|C	z|C	ɹ|C	z|C	ɹ:ɹ u:y t:· ə:ɛ z:z
+S	0.952	en_fr	rooters	ruent aise	multiword,decoder	ɹuːtəz	ʁy ɛz	CV·VC	2	2	0	0.2	0.2	0	1	ɹ|C	z|C	ɹ|C	z|C	ɹ:ɹ u:y t:· ə:ɛ z:z
+S	0.952	en_fr	redly	raies lis	multiword,decoder	ɹɛdli	ʁɛ lis	CV·CV·	2	2	0	0.333	0.333	0	1	ɹ|C	i|V	ɹ|C	s|C	ɹ:ɹ ɛ:ɛ d:· l:l i:i ·:s
+S	0.952	en_fr	redden	redonne	decoder	ɹɛdən	ʁədɔn	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	n|C	ɹ|C	n|C	ɹ:ɹ ɛ:ə d:d ə:ɔ n:n
+S	0.952	en_fr	rebury	repris	decoder	ɹɛbɹi	ʁəpʁi	CVCCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	i|V	ɹ:ɹ ɛ:ə b:p ɹ:ɹ i:i
+S	0.952	en_fr	reason	résonne	decoder	ɹiːzən	ʁezɔn	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	n|C	ɹ|C	n|C	ɹ:ɹ i:e z:z ə:ɔ n:n
+S	0.952	en_fr	racket	raquette	decoder	ɹækɪt	ʁakɛt	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ æ:a k:k ɪ:ɛ t:t
+S	0.952	en_fr	prissy	précis	decoder	pɹɪsi	pʁesi	CCVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p ɹ:ɹ ɪ:e s:s i:i
+S	0.952	en_fr	pretty	prêter	decoder	pɹɪti	pʁɛte	CCVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	e|V	p:p ɹ:ɹ ɪ:ɛ t:t i:e
+S	0.952	en_fr	pretor	prêtons	decoder	pɹɪtɔː	pʁɛtɔ̃	CCVCV	2	2	0	0.0	0.0	0	1	p|C	ɔ|V	p|C	ɔ̃|V	p:p ɹ:ɹ ɪ:ɛ t:t ɔ:ɔ̃
+S	0.952	en_fr	praetor	prêter	decoder	pɹiːtɐ	pʁɛte	CCVCV	2	2	0	0.0	0.0	0	1	p|C	ɐ|V	p|C	e|V	p:p ɹ:ɹ i:ɛ t:t ɐ:e
+S	0.952	en_fr	pleader	plaider	decoder	pliːdɐ	plɛde	CCVCV	2	2	0	0.0	0.0	0	1	p|C	ɐ|V	p|C	e|V	p:p l:l i:ɛ d:d ɐ:e
+S	0.952	en_fr	misty	mais tee	multiword,decoder	mɪsti	mɛ ti	CV·CV	2	2	0	0.2	0.2	0	1	m|C	i|V	m|C	i|V	m:m ɪ:ɛ s:· t:t i:i
+S	0.952	en_fr	metres	mitose	decoder	miːtəz	mitoz	CVCVC	2	2	0	0.0	0.0	0	1	m|C	z|C	m|C	z|C	m:m i:i t:t ə:o z:z
+S	0.952	en_fr	meters	mitose	decoder	miːtəz	mitoz	CVCVC	2	2	0	0.0	0.0	0	1	m|C	z|C	m|C	z|C	m:m i:i t:t ə:o z:z
+S	0.952	en_fr	metered	méthode	decoder	miːtəd	metɔd	CVCVC	2	2	0	0.0	0.0	0	1	m|C	d|C	m|C	d|C	m:m i:e t:t ə:ɔ d:d
+S	0.952	en_fr	messes	mais aise	multiword,decoder	mɛsɪz	mɛ ɛz	CV·VC	2	2	0	0.2	0.2	0	1	m|C	z|C	m|C	z|C	m:m ɛ:ɛ s:· ɪ:ɛ z:z
+S	0.952	en_fr	meetly	met lis	multiword,decoder	miːtli	mɛ lis	CV·CV·	2	2	0	0.333	0.333	0	1	m|C	i|V	m|C	s|C	m:m i:ɛ t:· l:l i:i ·:s
+S	0.952	en_fr	maxed	mixte	decoder	mækst	mikst	CVCCC	1	1	0	0.0	0.0	0	1	m|C	t|C	m|C	t|C	m:m æ:i k:k s:s t:t
+S	0.952	en_fr	leases	lis aise	multiword,decoder	liːsɪz	lis ɛz	CVCVC	2	2	0	0.0	0.0	0	1	l|C	z|C	l|C	z|C	l:l i:i s:s ɪ:ɛ z:z
+S	0.952	en_fr	kukri	cokerie	decoder	kʌkɹi	kɔkʁi	CVCCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k ʌ:ɔ k:k ɹ:ɹ i:i
+S	0.952	en_fr	jeered	djihad	decoder	dʒiəd	dʒiad	CCVVC	2	2	0	0.0	0.0	0	1	d|C	d|C	d|C	d|C	d:d ʒ:ʒ i:i ə:a d:d
+S	0.952	en_fr	greedy	crédit	decoder	ɡɹiːdi	kʁedi	CCVCV	2	2	0	0.0	0.0	0	1	ɡ|C	i|V	k|C	i|V	ɡ:k ɹ:ɹ i:e d:d i:i
+S	0.952	en_fr	freely	frileux	decoder	fɹiːli	fʁilø	CCVCV	2	2	0	0.0	0.0	0	1	f|C	i|V	f|C	ø|V	f:f ɹ:ɹ i:i l:l i:ø
+S	0.952	en_fr	freebie	fripé	decoder	fɹiːbi	fʁipe	CCVCV	2	2	0	0.0	0.0	0	1	f|C	i|V	f|C	e|V	f:f ɹ:ɹ i:i b:p i:e
+S	0.952	en_fr	fender	vin des	multiword,decoder	fɛndɐ	vɛ̃ de	CVCCV	2	2	0	0.0	0.0	0	1	f|C	ɐ|V	v|C	e|V	f:v ɛ:ɛ n:n d:d ɐ:e
+S	0.952	en_fr	faeces	fies hisse	multiword,decoder	fiːsiːz	fi is	CV·VC	2	2	0	0.2	0.2	0	1	f|C	z|C	f|C	s|C	f:f i:i s:· i:i z:s
+S	0.952	en_fr	emcees	aimes hisse	multiword,decoder	ɛmsiːz	ɛm is	VC·VC	2	2	0	0.2	0.2	0	1	ɛ|V	z|C	ɛ|V	s|C	ɛ:ɛ m:m s:· i:i z:s
+S	0.952	en_fr	deport	dépote	decoder	dɪpɔːt	depɔt	CVCVC	2	2	0	0.0	0.0	0	1	d|C	t|C	d|C	t|C	d:d ɪ:e p:p ɔ:ɔ t:t
+S	0.952	en_fr	deacon	déconne	decoder	diːkən	dekɔn	CVCVC	2	2	0	0.0	0.0	0	1	d|C	n|C	d|C	n|C	d:d i:e k:k ə:ɔ n:n
+S	0.952	en_fr	crest	christ	decoder	kɹɛst	kʁist	CCVCC	1	1	0	0.0	0.0	0	1	k|C	t|C	k|C	t|C	k:k ɹ:ɹ ɛ:i s:s t:t
+S	0.952	en_fr	creaky	criquets	decoder	kɹiːki	kʁikɛ	CCVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	ɛ|V	k:k ɹ:ɹ i:i k:k i:ɛ
+S	0.952	en_fr	corset	concède	decoder	kɔːsɛt	kɔ̃sɛd	CVCVC	2	2	0	0.0	0.0	0	1	k|C	t|C	k|C	d|C	k:k ɔ:ɔ̃ s:s ɛ:ɛ t:d
+S	0.952	en_fr	conte	con taie	multiword,decoder	kəntɛ	kɔ̃ tɛ	CVCCV	2	2	0	0.0	0.0	0	1	k|C	ɛ|V	k|C	ɛ|V	k:k ə:ɔ n:n t:t ɛ:ɛ
+S	0.952	en_fr	cinder	sain des	multiword,decoder	sɪndɐ	sɛ̃ de	CVCCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	e|V	s:s ɪ:ɛ n:n d:d ɐ:e
+S	0.952	en_fr	ceded	scient aide	multiword,decoder	siːdɪd	si ɛd	CV·VC	2	2	0	0.2	0.2	0	1	s|C	d|C	s|C	d|C	s:s i:i d:· ɪ:ɛ d:d
+S	0.952	en_fr	cedars	scient aise	multiword,decoder	siːdəz	si ɛz	CV·VC	2	2	0	0.2	0.2	0	1	s|C	z|C	s|C	z|C	s:s i:i d:· ə:ɛ z:z
+S	0.952	en_fr	caress	caresse	decoder	kəɹɛs	kaʁɛs	CVCVC	2	2	0	0.0	0.0	0	1	k|C	s|C	k|C	s|C	k:k ə:a ɹ:ɹ ɛ:ɛ s:s
+S	0.952	en_fr	canal	quenelle	decoder	kənæl	kənɛl	CVCVC	2	2	0	0.0	0.0	0	1	k|C	l|C	k|C	l|C	k:k ə:ə n:n æ:ɛ l:l
+S	0.952	en_fr	callers	colosse	decoder	kɔːləz	kɔlɔs	CVCVC	2	2	0	0.0	0.0	0	1	k|C	z|C	k|C	s|C	k:k ɔ:ɔ l:l ə:ɔ z:s
+S	0.952	en_fr	busty	bas tee	multiword,decoder	bʌsti	ba ti	CV·CV	2	2	0	0.2	0.2	0	1	b|C	i|V	b|C	i|V	b:b ʌ:a s:· t:t i:i
+S	0.952	en_fr	budgie	badger	decoder	bʌdʒi	badʒe	CVCCV	2	2	0	0.0	0.0	0	1	b|C	i|V	b|C	e|V	b:b ʌ:a d:d ʒ:ʒ i:e
+S	0.952	en_fr	breech	bridge	decoder	bɹiːtʃ	bʁidʒ	CCVCC	1	1	0	0.0	0.0	0	1	b|C	ʃ|C	b|C	ʒ|C	b:b ɹ:ɹ i:i t:d ʃ:ʒ
+S	0.952	en_fr	bawdry	poterie	decoder	bɔːdɹi	pɔtʁi	CVCCV	2	2	0	0.0	0.0	0	1	b|C	i|V	p|C	i|V	b:p ɔ:ɔ d:t ɹ:ɹ i:i
+S	0.95	en_fr	routeing	routine	decoder	ɹuːtɪŋ	ʁutin	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	ŋ|C	ɹ|C	n|C	ɹ:ɹ u:u t:t ɪ:i ŋ:n
+S	0.95	en_fr	rooting	routine	decoder	ɹuːtɪŋ	ʁutin	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	ŋ|C	ɹ|C	n|C	ɹ:ɹ u:u t:t ɪ:i ŋ:n
+S	0.95	en_fr	rede	rider	decoder	ɹɪdɛ	ʁide	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɛ|V	ɹ|C	e|V	ɹ:ɹ ɪ:i d:d ɛ:e
+S	0.95	en_fr	piecing	piscine	decoder	piːsɪŋ	pisin	CVCVC	2	2	0	0.0	0.0	0	1	p|C	ŋ|C	p|C	n|C	p:p i:i s:s ɪ:i ŋ:n
+S	0.95	en_fr	olive	olive	decoder	ɒlɪv	ɔliv	VCVC	2	2	0	0.0	0.0	0	1	ɒ|V	v|C	ɔ|V	v|C	ɒ:ɔ l:l ɪ:i v:v
+S	0.95	en_fr	litre	lutter	decoder	liːtɐ	lyte	CVCV	2	2	0	0.0	0.0	0	1	l|C	ɐ|V	l|C	e|V	l:l i:y t:t ɐ:e
+S	0.95	en_fr	lewis	louise	decoder	luːiz	lwiz	CVVC	2	1	1	0.0	0.0	0	1	l|C	z|C	l|C	z|C	l:l u:w i:i z:z
+S	0.95	en_fr	leeks	luxe	decoder	liːks	lyks	CVCC	1	1	0	0.0	0.0	0	1	l|C	s|C	l|C	s|C	l:l i:y k:k s:s
+S	0.95	en_fr	freest	triste	decoder	fɹiːst	tʁist	CCVCC	1	1	0	0.0	0.0	0	1	f|C	t|C	t|C	t|C	f:t ɹ:ɹ i:i s:s t:t
+S	0.95	en_fr	feta	futé	decoder	fiːtɐ	fyte	CVCV	2	2	0	0.0	0.0	0	1	f|C	ɐ|V	f|C	e|V	f:f i:y t:t ɐ:e
+S	0.95	en_fr	epoch	époque	decoder	ɛpɒk	epɔk	VCVC	2	2	0	0.0	0.0	0	1	ɛ|V	k|C	e|V	k|C	ɛ:e p:p ɒ:ɔ k:k
+S	0.95	en_fr	dele	dealer	decoder	dɪlɛ	dile	CVCV	2	2	0	0.0	0.0	0	1	d|C	ɛ|V	d|C	e|V	d:d ɪ:i l:l ɛ:e
+S	0.95	en_fr	corny	connu	decoder	kɔːni	kɔny	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	y|V	k:k ɔ:ɔ n:n i:y
+S	0.95	en_fr	corky	cocu	decoder	kɔːki	kɔky	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	y|V	k:k ɔ:ɔ k:k i:y
+S	0.95	en_fr	calling	colline	decoder	kɔːlɪŋ	kɔlin	CVCVC	2	2	0	0.0	0.0	0	1	k|C	ŋ|C	k|C	n|C	k:k ɔ:ɔ l:l ɪ:i ŋ:n
+S	0.95	en_fr	audit	audit	decoder	ɔːdɪt	odit	VCVC	2	2	0	0.0	0.0	0	1	ɔ|V	t|C	o|V	t|C	ɔ:o d:d ɪ:i t:t
+A	0.946	en_fr	rusty	rester	decoder	ɹʌsti	ʁɛste	CVCCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	e|V	ɹ:ɹ ʌ:ɛ s:s t:t i:e
+A	0.946	en_fr	lording	loden	decoder	lɔːdɪŋ	lɔdɛn	CVCVC	2	2	0	0.0	0.0	0	1	l|C	ŋ|C	l|C	n|C	l:l ɔ:ɔ d:d ɪ:ɛ ŋ:n
+A	0.946	en_fr	lauding	loden	decoder	lɔːdɪŋ	lɔdɛn	CVCVC	2	2	0	0.0	0.0	0	1	l|C	ŋ|C	l|C	n|C	l:l ɔ:ɔ d:d ɪ:ɛ ŋ:n
+A	0.946	en_fr	greeter	greta	decoder	ɡɹiːtɐ	ɡʁeta	CCVCV	2	2	0	0.0	0.0	0	1	ɡ|C	ɐ|V	ɡ|C	a|V	ɡ:ɡ ɹ:ɹ i:e t:t ɐ:a
+A	0.945	en_fr	zippy	zipper	decoder	zɪpi	zipe	CVCV	2	2	0	0.0	0.0	0	1	z|C	i|V	z|C	e|V	z:z ɪ:i p:p i:e
+A	0.945	en_fr	titter	titi	decoder	tɪtɐ	titi	CVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	t|C	i|V	t:t ɪ:i t:t ɐ:i
+A	0.945	en_fr	titre	titi	decoder	tɪtɐ	titi	CVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	t|C	i|V	t:t ɪ:i t:t ɐ:i
+A	0.945	en_fr	tiki	tiquer	decoder	tɪki	tike	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	e|V	t:t ɪ:i k:k i:e
+A	0.945	en_fr	ticked	dicte	decoder	tɪkt	dikt	CVCC	1	1	0	0.0	0.0	0	1	t|C	t|C	d|C	t|C	t:d ɪ:i k:k t:t
+A	0.945	en_fr	telly	télé	decoder	tɛli	tele	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	e|V	t:t ɛ:e l:l i:e
+A	0.945	en_fr	teddy	dédie	decoder	tɛdi	dedi	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	d|C	i|V	t:d ɛ:e d:d i:i
+A	0.945	en_fr	tedder	téter	decoder	tɛdɐ	tete	CVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	t|C	e|V	t:t ɛ:e d:t ɐ:e
+A	0.945	en_fr	sortie	sauter	decoder	sɔːti	sote	CVCV	2	2	0	0.0	0.0	0	1	s|C	i|V	s|C	e|V	s:s ɔ:o t:t i:e
+A	0.945	en_fr	shinny	chiner	decoder	ʃɪni	ʃine	CVCV	2	2	0	0.0	0.0	0	1	ʃ|C	i|V	ʃ|C	e|V	ʃ:ʃ ɪ:i n:n i:e
+A	0.945	en_fr	seesaw	ciseaux	decoder	siːsɔː	sizo	CVCV	2	2	0	0.0	0.0	0	1	s|C	ɔ|V	s|C	o|V	s:s i:i s:z ɔ:o
+A	0.945	en_fr	schiller	chili	decoder	ʃɪlɐ	ʃili	CVCV	2	2	0	0.0	0.0	0	1	ʃ|C	ɐ|V	ʃ|C	i|V	ʃ:ʃ ɪ:i l:l ɐ:i
+A	0.945	en_fr	prick	briques	decoder	pɹɪk	bʁik	CCVC	1	1	0	0.0	0.0	0	1	p|C	k|C	b|C	k|C	p:b ɹ:ɹ ɪ:i k:k
+A	0.945	en_fr	picky	piquer	decoder	pɪki	pike	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	e|V	p:p ɪ:i k:k i:e
+A	0.945	en_fr	otic	attique	decoder	ɒtɪk	atik	VCVC	2	2	0	0.0	0.0	0	1	ɒ|V	k|C	a|V	k|C	ɒ:a t:t ɪ:i k:k
+A	0.945	en_fr	ostler	osselets	decoder	ɒslɐ	ɔslɛ	VCCV	2	2	0	0.0	0.0	0	1	ɒ|V	ɐ|V	ɔ|V	ɛ|V	ɒ:ɔ s:s l:l ɐ:ɛ
+A	0.945	en_fr	mys	maïs	decoder	maɪz	mais	CVVC	2	2	0	0.0	0.0	0	1	m|C	z|C	m|C	s|C	m:m a:a ɪ:i z:s
+A	0.945	en_fr	loppy	lobby	decoder	lɒpi	lɔbi	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	i|V	l:l ɒ:ɔ p:b i:i
+A	0.945	en_fr	lippy	libye	decoder	lɪpi	libi	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	i|V	l:l ɪ:i p:b i:i
+A	0.945	en_fr	limy	limer	decoder	lɪmi	lime	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	e|V	l:l ɪ:i m:m i:e
+A	0.945	en_fr	krill	grill	decoder	kɹɪl	ɡʁil	CCVC	1	1	0	0.0	0.0	0	1	k|C	l|C	ɡ|C	l|C	k:ɡ ɹ:ɹ ɪ:i l:l
+A	0.945	en_fr	kite	caïd	decoder	kaɪt	kaid	CVVC	2	2	0	0.0	0.0	0	1	k|C	t|C	k|C	d|C	k:k a:a ɪ:i t:d
+A	0.945	en_fr	emmet	émettent	decoder	ɛmɪt	emɛt	VCVC	2	2	0	0.0	0.0	0	1	ɛ|V	t|C	e|V	t|C	ɛ:e m:m ɪ:ɛ t:t
+A	0.945	en_fr	eases	isis	decoder	iːzɪz	izis	VCVC	2	2	0	0.0	0.0	0	1	i|V	z|C	i|V	s|C	i:i z:z ɪ:i z:s
+A	0.945	en_fr	drip	trip	decoder	dɹɪp	tʁip	CCVC	1	1	0	0.0	0.0	0	1	d|C	p|C	t|C	p|C	d:t ɹ:ɹ ɪ:i p:p
+A	0.945	en_fr	ditty	titi	decoder	dɪti	titi	CVCV	2	2	0	0.0	0.0	0	1	d|C	i|V	t|C	i|V	d:t ɪ:i t:t i:i
+A	0.945	en_fr	dilly	dealer	decoder	dɪli	dile	CVCV	2	2	0	0.0	0.0	0	1	d|C	i|V	d|C	e|V	d:d ɪ:i l:l i:e
+A	0.945	en_fr	deader	dédie	decoder	dɛdɐ	dedi	CVCV	2	2	0	0.0	0.0	0	1	d|C	ɐ|V	d|C	i|V	d:d ɛ:e d:d ɐ:i
+A	0.945	en_fr	cedi	céder	decoder	sɛdi	sede	CVCV	2	2	0	0.0	0.0	0	1	s|C	i|V	s|C	e|V	s:s ɛ:e d:d i:e
+A	0.945	en_fr	brawn	prône	decoder	bɹɔːn	pʁon	CCVC	1	1	0	0.0	0.0	0	1	b|C	n|C	p|C	n|C	b:p ɹ:ɹ ɔ:o n:n
+A	0.945	en_fr	attic	éthique	decoder	ætɪk	etik	VCVC	2	2	0	0.0	0.0	0	1	æ|V	k|C	e|V	k|C	æ:e t:t ɪ:i k:k
+A	0.945	en_fr	anise	anis	decoder	ænɪs	ani	VCV·	2	2	0	0.25	0.25	0	1	æ|V	s|C	a|V	i|V	æ:a n:n ɪ:i s:·
+A	0.945	en_fr	anis	anise	decoder	ænɪz	aniz	VCVC	2	2	0	0.0	0.0	0	1	æ|V	z|C	a|V	z|C	æ:a n:n ɪ:i z:z
+A	0.945	en_fr	alleys	élise	decoder	ælɪz	eliz	VCVC	2	2	0	0.0	0.0	0	1	æ|V	z|C	e|V	z|C	æ:e l:l ɪ:i z:z
+A	0.944	en_fr	vending	vin digne	multiword,decoder	vɛndɪŋ	vɛ̃ diɲ	CVCCVC	2	2	0	0.0	0.0	0	1	v|C	ŋ|C	v|C	ɲ|C	v:v ɛ:ɛ n:n d:d ɪ:i ŋ:ɲ
+A	0.944	en_fr	treading	training	decoder	tɹɛdɪŋ	tʁɛniŋ	CCVCVC	2	2	0	0.0	0.0	0	1	t|C	ŋ|C	t|C	ŋ|C	t:t ɹ:ɹ ɛ:ɛ d:n ɪ:i ŋ:ŋ
+A	0.944	en_fr	tending	tain digne	multiword,decoder	tɛndɪŋ	tɛ̃ diɲ	CVCCVC	2	2	0	0.0	0.0	0	1	t|C	ŋ|C	t|C	ɲ|C	t:t ɛ:ɛ n:n d:d ɪ:i ŋ:ɲ
+A	0.944	en_fr	sensing	sain signe	multiword,decoder	sɛnsɪŋ	sɛ̃ siɲ	CVCCVC	2	2	0	0.0	0.0	0	1	s|C	ŋ|C	s|C	ɲ|C	s:s ɛ:ɛ n:n s:s ɪ:i ŋ:ɲ
+A	0.944	en_fr	scending	sain digne	multiword,decoder	sɛndɪŋ	sɛ̃ diɲ	CVCCVC	2	2	0	0.0	0.0	0	1	s|C	ŋ|C	s|C	ɲ|C	s:s ɛ:ɛ n:n d:d ɪ:i ŋ:ɲ
+A	0.944	en_fr	rending	rhin digne	multiword,decoder	ɹɛndɪŋ	ʁɛ̃ diɲ	CVCCVC	2	2	0	0.0	0.0	0	1	ɹ|C	ŋ|C	ɹ|C	ɲ|C	ɹ:ɹ ɛ:ɛ n:n d:d ɪ:i ŋ:ɲ
+A	0.944	en_fr	mending	main digne	multiword,decoder	mɛndɪŋ	mɛ̃ diɲ	CVCCVC	2	2	0	0.0	0.0	0	1	m|C	ŋ|C	m|C	ɲ|C	m:m ɛ:ɛ n:n d:d ɪ:i ŋ:ɲ
+A	0.944	en_fr	desist	dis est	multiword,decoder	dɪsɪst	di ɛst	CV·VCC	2	2	0	0.167	0.167	0	1	d|C	t|C	d|C	t|C	d:d ɪ:i s:· ɪ:ɛ s:s t:t
+A	0.94	en_fr	wrecks	rixe	decoder	ɹɛks	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	s|C	ɹ|C	s|C	ɹ:ɹ ɛ:i k:k s:s
+A	0.94	en_fr	wreaked	rixe	decoder	ɹiːkt	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	s|C	ɹ:ɹ i:i k:k t:s
+A	0.94	en_fr	wracks	rixe	decoder	ɹæks	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	s|C	ɹ|C	s|C	ɹ:ɹ æ:i k:k s:s
+A	0.94	en_fr	velour	voler	decoder	vɛlɐ	vɔle	CVCV	2	2	0	0.0	0.0	0	1	v|C	ɐ|V	v|C	e|V	v:v ɛ:ɔ l:l ɐ:e
+A	0.94	en_fr	veldt	volts	decoder	vɛlt	vɔlt	CVCC	1	1	0	0.0	0.0	0	1	v|C	t|C	v|C	t|C	v:v ɛ:ɔ l:l t:t
+A	0.94	en_fr	vela	voler	decoder	vɛlɐ	vɔle	CVCV	2	2	0	0.0	0.0	0	1	v|C	ɐ|V	v|C	e|V	v:v ɛ:ɔ l:l ɐ:e
+A	0.94	en_fr	treen	traîne	decoder	tɹiːn	tʁɛn	CCVC	1	1	0	0.0	0.0	0	1	t|C	n|C	t|C	n|C	t:t ɹ:ɹ i:ɛ n:n
+A	0.94	en_fr	tori	doré	decoder	tɔːɹi	dɔʁe	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	d|C	e|V	t:d ɔ:ɔ ɹ:ɹ i:e
+A	0.94	en_fr	tiller	télé	decoder	tɪlɐ	tele	CVCV	2	2	0	0.0	0.0	0	1	t|C	ɐ|V	t|C	e|V	t:t ɪ:e l:l ɐ:e
+A	0.94	en_fr	techs	sexe	decoder	tɛks	sɛks	CVCC	1	1	0	0.0	0.0	0	1	t|C	s|C	s|C	s|C	t:s ɛ:ɛ k:k s:s
+A	0.94	en_fr	swede	souhaite	decoder	swiːd	swet	CCVC	1	1	0	0.0	0.0	0	1	s|C	d|C	s|C	t|C	s:s w:w i:e d:t
+A	0.94	en_fr	suppress	sofres	decoder	səpɹɛs	sɔfʁɛs	CVCCVC	2	2	0	0.0	0.0	0	1	s|C	s|C	s|C	s|C	s:s ə:ɔ p:f ɹ:ɹ ɛ:ɛ s:s
+A	0.94	en_fr	spree	spray	decoder	spɹiː	spʁɛ	CCCV	1	1	0	0.0	0.0	0	1	s|C	i|V	s|C	ɛ|V	s:s p:p ɹ:ɹ i:ɛ
+A	0.94	en_fr	sped	speed	decoder	spɛd	spid	CCVC	1	1	0	0.0	0.0	0	1	s|C	d|C	s|C	d|C	s:s p:p ɛ:i d:d
+A	0.94	en_fr	sky	skaï	decoder	skaɪ	skaj	CCV·	2	1	1	0.25	0.0	0	1	s|C	ɪ|V	s|C	j|C	s:s k:k a:a ·:j
+A	0.94	en_fr	skid	skate	decoder	skɪd	skɛt	CCVC	1	1	0	0.0	0.0	0	1	s|C	d|C	s|C	t|C	s:s k:k ɪ:ɛ d:t
+A	0.94	en_fr	skep	skip	decoder	skɛp	skip	CCVC	1	1	0	0.0	0.0	0	1	s|C	p|C	s|C	p|C	s:s k:k ɛ:i p:p
+A	0.94	en_fr	skeet	skate	decoder	skiːt	skɛt	CCVC	1	1	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s k:k i:ɛ t:t
+A	0.94	en_fr	skat	skate	decoder	skæt	skɛt	CCVC	1	1	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s k:k æ:ɛ t:t
+A	0.94	en_fr	shelly	chili	decoder	ʃɛli	ʃili	CVCV	2	2	0	0.0	0.0	0	1	ʃ|C	i|V	ʃ|C	i|V	ʃ:ʃ ɛ:i l:l i:i
+A	0.94	en_fr	settee	synthé	decoder	sɛtiː	sɛ̃te	CVCV	2	2	0	0.0	0.0	0	1	s|C	i|V	s|C	e|V	s:s ɛ:ɛ̃ t:t i:e
+A	0.94	en_fr	setae	synthé	decoder	sɛtiː	sɛ̃te	CVCV	2	2	0	0.0	0.0	0	1	s|C	i|V	s|C	e|V	s:s ɛ:ɛ̃ t:t i:e
+A	0.94	en_fr	seedy	cité	decoder	siːdi	site	CVCV	2	2	0	0.0	0.0	0	1	s|C	i|V	s|C	e|V	s:s i:i d:t i:e
+A	0.94	en_fr	seamy	chimie	decoder	siːmi	ʃimi	CVCV	2	2	0	0.0	0.0	0	1	s|C	i|V	ʃ|C	i|V	s:ʃ i:i m:m i:i
+A	0.94	en_fr	scat	skate	decoder	skæt	skɛt	CCVC	1	1	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s k:k æ:ɛ t:t
+A	0.94	en_fr	rusk	risque	decoder	ɹʌsk	ʁisk	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	k|C	ɹ|C	k|C	ɹ:ɹ ʌ:i s:s k:k
+A	0.94	en_fr	rushy	régie	decoder	ɹʌʃi	ʁeʒi	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	i|V	ɹ:ɹ ʌ:e ʃ:ʒ i:i
+A	0.94	en_fr	rusher	rocher	decoder	ɹʌʃɐ	ʁɔʃe	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɐ|V	ɹ|C	e|V	ɹ:ɹ ʌ:ɔ ʃ:ʃ ɐ:e
+A	0.94	en_fr	ruder	rôder	decoder	ɹuːdɐ	ʁode	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɐ|V	ɹ|C	e|V	ɹ:ɹ u:o d:d ɐ:e
+A	0.94	en_fr	rucks	rixe	decoder	ɹʌks	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	s|C	ɹ|C	s|C	ɹ:ɹ ʌ:i k:k s:s
+A	0.94	en_fr	rooter	roter	decoder	ɹuːtɐ	ʁote	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɐ|V	ɹ|C	e|V	ɹ:ɹ u:o t:t ɐ:e
+A	0.94	en_fr	rishi	régie	decoder	ɹiːʃi	ʁeʒi	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	i|V	ɹ:ɹ i:e ʃ:ʒ i:i
+A	0.94	en_fr	reeked	rixe	decoder	ɹiːkt	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	s|C	ɹ:ɹ i:i k:k t:s
+A	0.94	en_fr	reddest	raies est	multiword,decoder	ɹɛdəst	ʁɛ ɛst	CV·VCC	2	2	0	0.167	0.167	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ ɛ:ɛ d:· ə:ɛ s:s t:t
+A	0.94	en_fr	redder	redis	decoder	ɹɛdɐ	ʁədi	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɐ|V	ɹ|C	i|V	ɹ:ɹ ɛ:ə d:d ɐ:i
+A	0.94	en_fr	reaped	rift	decoder	ɹiːpt	ʁift	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ i:i p:f t:t
+A	0.94	en_fr	ratty	raté	decoder	ɹæti	ʁate	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	e|V	ɹ:ɹ æ:a t:t i:e
+A	0.94	en_fr	rasher	rager	decoder	ɹæʃɐ	ʁaʒe	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɐ|V	ɹ|C	e|V	ɹ:ɹ æ:a ʃ:ʒ ɐ:e
+A	0.94	en_fr	rapport	répond	decoder	ɹæpɔː	ʁepɔ̃	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɔ|V	ɹ|C	ɔ̃|V	ɹ:ɹ æ:e p:p ɔ:ɔ̃
+A	0.94	en_fr	raki	raquer	decoder	ɹæki	ʁake	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	e|V	ɹ:ɹ æ:a k:k i:e
+A	0.94	en_fr	racks	rixe	decoder	ɹæks	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	s|C	ɹ|C	s|C	ɹ:ɹ æ:i k:k s:s
+A	0.94	en_fr	pressers	princesse	decoder	pɹɛsəz	pʁɛ̃sɛs	CCVCVC	2	2	0	0.0	0.0	0	1	p|C	z|C	p|C	s|C	p:p ɹ:ɹ ɛ:ɛ̃ s:s ə:ɛ z:s
+A	0.94	en_fr	preen	prennent	decoder	pɹiːn	pʁɛn	CCVC	1	1	0	0.0	0.0	0	1	p|C	n|C	p|C	n|C	p:p ɹ:ɹ i:ɛ n:n
+A	0.94	en_fr	precede	président	decoder	pɹɪsiːd	pʁezidɑ̃	CCVCVC·	2	3	1	0.143	0.143	0	1	p|C	d|C	p|C	ɑ̃|V	p:p ɹ:ɹ ɪ:e s:z i:i d:d ·:ɑ̃
+A	0.94	en_fr	prat	prête	decoder	pɹæt	pʁɛt	CCVC	1	1	0	0.0	0.0	0	1	p|C	t|C	p|C	t|C	p:p ɹ:ɹ æ:ɛ t:t
+A	0.94	en_fr	pleat	plisse	decoder	pliːt	plis	CCVC	1	1	0	0.0	0.0	0	1	p|C	t|C	p|C	s|C	p:p l:l i:i t:s
+A	0.94	en_fr	plead	plaide	decoder	pliːd	plɛd	CCVC	1	1	0	0.0	0.0	0	1	p|C	d|C	p|C	d|C	p:p l:l i:ɛ d:d
+A	0.94	en_fr	pinny	penny	decoder	pɪni	peni	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	i|V	p:p ɪ:e n:n i:i
+A	0.94	en_fr	peeks	fixe	decoder	piːks	fiks	CVCC	1	1	0	0.0	0.0	0	1	p|C	s|C	f|C	s|C	p:f i:i k:k s:s
+A	0.94	en_fr	pecked	picte	decoder	pɛkt	pikt	CVCC	1	1	0	0.0	0.0	0	1	p|C	t|C	p|C	t|C	p:p ɛ:i k:k t:t
+A	0.94	en_fr	pawpaw	pompon	decoder	pɔːpɔː	pɔ̃pɔ̃	CVCV	2	2	0	0.0	0.0	0	1	p|C	ɔ|V	p|C	ɔ̃|V	p:p ɔ:ɔ̃ p:p ɔ:ɔ̃
+A	0.94	en_fr	pander	pan des	multiword,decoder	pændɐ	pɑ̃ de	CVCCV	2	2	0	0.0	0.0	0	1	p|C	ɐ|V	p|C	e|V	p:p æ:ɑ n:n d:d ɐ:e
+A	0.94	en_fr	panda	pan des	multiword,decoder	pændɐ	pɑ̃ de	CVCCV	2	2	0	0.0	0.0	0	1	p|C	ɐ|V	p|C	e|V	p:p æ:ɑ n:n d:d ɐ:e
+A	0.94	en_fr	pallor	palais	decoder	pælɐ	palɛ	CVCV	2	2	0	0.0	0.0	0	1	p|C	ɐ|V	p|C	ɛ|V	p:p æ:a l:l ɐ:ɛ
+A	0.94	en_fr	paddy	pédé	decoder	pædi	pede	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	e|V	p:p æ:e d:d i:e
+A	0.94	en_fr	orcas	occase	decoder	ɔːkəz	ɔkaz	VCVC	2	2	0	0.0	0.0	0	1	ɔ|V	z|C	ɔ|V	z|C	ɔ:ɔ k:k ə:a z:z
+A	0.94	en_fr	missy	messie	decoder	mɪsi	mesi	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m ɪ:e s:s i:i
+A	0.94	en_fr	mise	messie	decoder	mɪsiː	mesi	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m ɪ:e s:s i:i
+A	0.94	en_fr	miller	mêler	decoder	mɪlɐ	mele	CVCV	2	2	0	0.0	0.0	0	1	m|C	ɐ|V	m|C	e|V	m:m ɪ:e l:l ɐ:e
+A	0.94	en_fr	miffy	méfie	decoder	mɪfi	mefi	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m ɪ:e f:f i:i
+A	0.94	en_fr	mealy	mêler	decoder	miːli	mele	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	e|V	m:m i:e l:l i:e
+A	0.94	en_fr	mealie	mêler	decoder	miːli	mele	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	e|V	m:m i:e l:l i:e
+A	0.94	en_fr	mashie	magie	decoder	mæʃi	maʒi	CVCV	2	2	0	0.0	0.0	0	1	m|C	i|V	m|C	i|V	m:m æ:a ʃ:ʒ i:i
+A	0.94	en_fr	loony	luné	decoder	luːni	lyne	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	e|V	l:l u:y n:n i:e
+A	0.94	en_fr	looney	luné	decoder	luːni	lyne	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	e|V	l:l u:y n:n i:e
+A	0.94	en_fr	litter	laiteux	decoder	lɪtɐ	lɛtø	CVCV	2	2	0	0.0	0.0	0	1	l|C	ɐ|V	l|C	ø|V	l:l ɪ:ɛ t:t ɐ:ø
+A	0.94	en_fr	lieder	lisez	decoder	liːdɐ	lize	CVCV	2	2	0	0.0	0.0	0	1	l|C	ɐ|V	l|C	e|V	l:l i:i d:z ɐ:e
+A	0.94	en_fr	licks	lynx	decoder	lɪks	lɛ̃ks	CVCC	1	1	0	0.0	0.0	0	1	l|C	s|C	l|C	s|C	l:l ɪ:ɛ̃ k:k s:s
+A	0.94	en_fr	levee	lever	decoder	lɛviː	ləve	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	e|V	l:l ɛ:ə v:v i:e
+A	0.94	en_fr	leaped	lift	decoder	liːpt	lift	CVCC	1	1	0	0.0	0.0	0	1	l|C	t|C	l|C	t|C	l:l i:i p:f t:t
+A	0.94	en_fr	leaky	ligués	decoder	liːki	liɡe	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	e|V	l:l i:i k:ɡ i:e
+A	0.94	en_fr	lauder	ledit	decoder	lɔːdɐ	lədi	CVCV	2	2	0	0.0	0.0	0	1	l|C	ɐ|V	l|C	i|V	l:l ɔ:ə d:d ɐ:i
+A	0.94	en_fr	ladder	lesdits	decoder	lædɐ	ledi	CVCV	2	2	0	0.0	0.0	0	1	l|C	ɐ|V	l|C	i|V	l:l æ:e d:d ɐ:i
+A	0.94	en_fr	lackey	laqué	decoder	læki	lake	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	e|V	l:l æ:a k:k i:e
+A	0.94	en_fr	joss	jazz	decoder	dʒɒs	dʒaz	CCVC	1	1	0	0.0	0.0	0	1	d|C	s|C	d|C	z|C	d:d ʒ:ʒ ɒ:a s:z
+A	0.94	en_fr	jess	jet	decoder	dʒɛs	ʒɛ	·CV·	1	1	0	0.5	0.5	0	0	d|C	s|C	ʒ|C	ɛ|V	d:· ʒ:ʒ ɛ:ɛ s:·
+A	0.94	en_fr	jefe	jeep	decoder	dʒiːf	dʒip	CCVC	1	1	0	0.0	0.0	0	1	d|C	f|C	d|C	p|C	d:d ʒ:ʒ i:i f:p
+A	0.94	en_fr	honoured	anode	decoder	ɒnəd	anɔd	VCVC	2	2	0	0.0	0.0	0	1	ɒ|V	d|C	a|V	d|C	ɒ:a n:n ə:ɔ d:d
+A	0.94	en_fr	honored	anode	decoder	ɒnəd	anɔd	VCVC	2	2	0	0.0	0.0	0	1	ɒ|V	d|C	a|V	d|C	ɒ:a n:n ə:ɔ d:d
+A	0.94	en_fr	grit	crête	decoder	ɡɹɪt	kʁɛt	CCVC	1	1	0	0.0	0.0	0	1	ɡ|C	t|C	k|C	t|C	ɡ:k ɹ:ɹ ɪ:ɛ t:t
+A	0.94	en_fr	gran	crâne	decoder	ɡɹæn	kʁan	CCVC	1	1	0	0.0	0.0	0	1	ɡ|C	n|C	k|C	n|C	ɡ:k ɹ:ɹ æ:a n:n
+A	0.94	en_fr	geed	gin	decoder	dʒiːd	dʒin	CCVC	1	1	0	0.0	0.0	0	1	d|C	d|C	d|C	n|C	d:d ʒ:ʒ i:i d:n
+A	0.94	en_fr	freeboard	friponne	decoder	fɹiːbɔːd	fʁipɔn	CCVCVC	2	2	0	0.0	0.0	0	1	f|C	d|C	f|C	n|C	f:f ɹ:ɹ i:i b:p ɔ:ɔ d:n
+A	0.94	en_fr	frat	frites	decoder	fɹæt	fʁit	CCVC	1	1	0	0.0	0.0	0	1	f|C	t|C	f|C	t|C	f:f ɹ:ɹ æ:i t:t
+A	0.94	en_fr	forty	voter	decoder	fɔːti	vɔte	CVCV	2	2	0	0.0	0.0	0	1	f|C	i|V	v|C	e|V	f:v ɔ:ɔ t:t i:e
+A	0.94	en_fr	forked	fox	decoder	fɔːkt	fɔks	CVCC	1	1	0	0.0	0.0	0	1	f|C	t|C	f|C	s|C	f:f ɔ:ɔ k:k t:s
+A	0.94	en_fr	foresee	foncé	decoder	fɔːsiː	fɔ̃se	CVCV	2	2	0	0.0	0.0	0	1	f|C	i|V	f|C	e|V	f:f ɔ:ɔ̃ s:s i:e
+A	0.94	en_fr	foresaw	fonçons	decoder	fɔːsɔː	fɔ̃sɔ̃	CVCV	2	2	0	0.0	0.0	0	1	f|C	ɔ|V	f|C	ɔ̃|V	f:f ɔ:ɔ̃ s:s ɔ:ɔ̃
+A	0.94	en_fr	fleece	plisse	decoder	fliːs	plis	CCVC	1	1	0	0.0	0.0	0	1	f|C	s|C	p|C	s|C	f:p l:l i:i s:s
+A	0.94	en_fr	fleck	flics	decoder	flɛk	flik	CCVC	1	1	0	0.0	0.0	0	1	f|C	k|C	f|C	k|C	f:f l:l ɛ:i k:k
+A	0.94	en_fr	fleam	flemme	decoder	fliːm	flɛm	CCVC	1	1	0	0.0	0.0	0	1	f|C	m|C	f|C	m|C	f:f l:l i:ɛ m:m
+A	0.94	en_fr	fenny	fini	decoder	fɛni	fini	CVCV	2	2	0	0.0	0.0	0	1	f|C	i|V	f|C	i|V	f:f ɛ:i n:n i:i
+A	0.94	en_fr	dross	traces	decoder	dɹɒs	tʁas	CCVC	1	1	0	0.0	0.0	0	1	d|C	s|C	t|C	s|C	d:t ɹ:ɹ ɒ:a s:s
+A	0.94	en_fr	drool	drôle	decoder	dɹuːl	dʁol	CCVC	1	1	0	0.0	0.0	0	1	d|C	l|C	d|C	l|C	d:d ɹ:ɹ u:o l:l
+A	0.94	en_fr	dreg	drogue	decoder	dɹɛɡ	dʁɔɡ	CCVC	1	1	0	0.0	0.0	0	1	d|C	ɡ|C	d|C	ɡ|C	d:d ɹ:ɹ ɛ:ɔ ɡ:ɡ
+A	0.94	en_fr	dread	traite	decoder	dɹɛd	tʁɛt	CCVC	1	1	0	0.0	0.0	0	1	d|C	d|C	t|C	t|C	d:t ɹ:ɹ ɛ:ɛ d:t
+A	0.94	en_fr	dorky	toquer	decoder	dɔːki	tɔke	CVCV	2	2	0	0.0	0.0	0	1	d|C	i|V	t|C	e|V	d:t ɔ:ɔ k:k i:e
+A	0.94	en_fr	dorks	docte	decoder	dɔːks	dɔkt	CVCC	1	1	0	0.0	0.0	0	1	d|C	s|C	d|C	t|C	d:d ɔ:ɔ k:k s:t
+A	0.94	en_fr	dissed	test	decoder	dɪst	tɛst	CVCC	1	1	0	0.0	0.0	0	1	d|C	t|C	t|C	t|C	d:t ɪ:ɛ s:s t:t
+A	0.94	en_fr	dippy	dépit	decoder	dɪpi	depi	CVCV	2	2	0	0.0	0.0	0	1	d|C	i|V	d|C	i|V	d:d ɪ:e p:p i:i
+A	0.94	en_fr	derry	terrer	decoder	dɛɹi	tɛʁe	CVCV	2	2	0	0.0	0.0	0	1	d|C	i|V	t|C	e|V	d:t ɛ:ɛ ɹ:ɹ i:e
+A	0.94	en_fr	decked	dicte	decoder	dɛkt	dikt	CVCC	1	1	0	0.0	0.0	0	1	d|C	t|C	d|C	t|C	d:d ɛ:i k:k t:t
+A	0.94	en_fr	debtor	doté	decoder	dɛtɐ	dɔte	CVCV	2	2	0	0.0	0.0	0	1	d|C	ɐ|V	d|C	e|V	d:d ɛ:ɔ t:t ɐ:e
+A	0.94	en_fr	cyst	zeste	decoder	sɪst	zɛst	CVCC	1	1	0	0.0	0.0	0	1	s|C	t|C	z|C	t|C	s:z ɪ:ɛ s:s t:t
+A	0.94	en_fr	cutty	côté	decoder	kʌti	kote	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	e|V	k:k ʌ:o t:t i:e
+A	0.94	en_fr	cully	colis	decoder	kʌli	kɔli	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k ʌ:ɔ l:l i:i
+A	0.94	en_fr	cubby	képi	decoder	kʌbi	kepi	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k ʌ:e b:p i:i
+A	0.94	en_fr	clued	claude	decoder	kluːd	klod	CCVC	1	1	0	0.0	0.0	0	1	k|C	d|C	k|C	d|C	k:k l:l u:o d:d
+A	0.94	en_fr	clot	claude	decoder	klɒt	klod	CCVC	1	1	0	0.0	0.0	0	1	k|C	t|C	k|C	d|C	k:k l:l ɒ:o t:d
+A	0.94	en_fr	cist	zeste	decoder	sɪst	zɛst	CVCC	1	1	0	0.0	0.0	0	1	s|C	t|C	z|C	t|C	s:z ɪ:ɛ s:s t:t
+A	0.94	en_fr	cheep	jeep	decoder	tʃiːp	dʒip	CCVC	1	1	0	0.0	0.0	0	1	t|C	p|C	d|C	p|C	t:d ʃ:ʒ i:i p:p
+A	0.94	en_fr	catty	caddie	decoder	kæti	kadi	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k æ:a t:d i:i
+A	0.94	en_fr	caressed	choristes	decoder	kəɹɛst	kɔʁist	CVCVCC	2	2	0	0.0	0.0	0	1	k|C	t|C	k|C	t|C	k:k ə:ɔ ɹ:ɹ ɛ:i s:s t:t
+A	0.94	en_fr	canny	canée	decoder	kæni	kane	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	e|V	k:k æ:a n:n i:e
+A	0.94	en_fr	candour	khan des	multiword,decoder	kændɐ	kɑ̃ de	CVCCV	2	2	0	0.0	0.0	0	1	k|C	ɐ|V	k|C	e|V	k:k æ:ɑ n:n d:d ɐ:e
+A	0.94	en_fr	cabby	képi	decoder	kæbi	kepi	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k æ:e b:p i:i
+A	0.94	en_fr	cabbie	képi	decoder	kæbi	kepi	CVCV	2	2	0	0.0	0.0	0	1	k|C	i|V	k|C	i|V	k:k æ:e b:p i:i
+A	0.94	en_fr	bucked	pacte	decoder	bʌkt	pakt	CVCC	1	1	0	0.0	0.0	0	1	b|C	t|C	p|C	t|C	b:p ʌ:a k:k t:t
+A	0.94	en_fr	brit	prête	decoder	bɹɪt	pʁɛt	CCVC	1	1	0	0.0	0.0	0	1	b|C	t|C	p|C	t|C	b:p ɹ:ɹ ɪ:ɛ t:t
+A	0.94	en_fr	bris	presse	decoder	bɹɪs	pʁɛs	CCVC	1	1	0	0.0	0.0	0	1	b|C	s|C	p|C	s|C	b:p ɹ:ɹ ɪ:ɛ s:s
+A	0.94	en_fr	brill	prêle	decoder	bɹɪl	pʁɛl	CCVC	1	1	0	0.0	0.0	0	1	b|C	l|C	p|C	l|C	b:p ɹ:ɹ ɪ:ɛ l:l
+A	0.94	en_fr	blued	blues	decoder	bluːd	bluz	CCVC	1	1	0	0.0	0.0	0	1	b|C	d|C	b|C	z|C	b:b l:l u:u d:z
+A	0.94	en_fr	bleat	blettes	decoder	bliːt	blɛt	CCVC	1	1	0	0.0	0.0	0	1	b|C	t|C	b|C	t|C	b:b l:l i:ɛ t:t
+A	0.94	en_fr	becks	box	decoder	bɛks	bɔks	CVCC	1	1	0	0.0	0.0	0	1	b|C	s|C	b|C	s|C	b:b ɛ:ɔ k:k s:s
+A	0.94	en_fr	beamy	mimi	decoder	biːmi	mimi	CVCV	2	2	0	0.0	0.0	0	1	b|C	i|V	m|C	i|V	b:m i:i m:m i:i
+A	0.94	en_fr	beady	midi	decoder	biːdi	midi	CVCV	2	2	0	0.0	0.0	0	1	b|C	i|V	m|C	i|V	b:m i:i d:d i:i
+A	0.94	en_fr	baulked	box	decoder	bɔːkt	bɔks	CVCC	1	1	0	0.0	0.0	0	1	b|C	t|C	b|C	s|C	b:b ɔ:ɔ k:k t:s
+A	0.94	en_fr	aural	oral	decoder	ɔːɹəl	ɔʁal	VCVC	2	2	0	0.0	0.0	0	1	ɔ|V	l|C	ɔ|V	l|C	ɔ:ɔ ɹ:ɹ ə:a l:l
+A	0.94	en_fr	atoll	étale	decoder	ætɒl	etal	VCVC	2	2	0	0.0	0.0	0	1	æ|V	l|C	e|V	l|C	æ:e t:t ɒ:a l:l
+A	0.94	en_fr	artiste	assiste	decoder	ɑːtiːst	asist	VCVCC	2	2	0	0.0	0.0	0	1	ɑ|V	t|C	a|V	t|C	ɑ:a t:s i:i s:s t:t
+A	0.94	en_fr	acne	acné	decoder	ækni	akne	VCCV	2	2	0	0.0	0.0	0	1	æ|V	i|V	a|V	e|V	æ:a k:k n:n i:e
+A	0.94	en_fr	acme	acmé	decoder	ækmi	akme	VCCV	2	2	0	0.0	0.0	0	1	æ|V	i|V	a|V	e|V	æ:a k:k m:m i:e
+A	0.938	en_fr	testing	destine	decoder	tɛstɪŋ	dɛstin	CVCCVC	2	2	0	0.0	0.0	0	1	t|C	ŋ|C	d|C	n|C	t:d ɛ:ɛ s:s t:t ɪ:i ŋ:n
+A	0.938	en_fr	teeny	fini	decoder	tiːni	fini	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	f|C	i|V	t:f i:i n:n i:i
+A	0.938	en_fr	sorest	soft	decoder	sɔːst	sɔft	CVCC	1	1	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s ɔ:ɔ s:f t:t
+A	0.938	en_fr	sorely	folie	decoder	sɔːli	fɔli	CVCV	2	2	0	0.0	0.0	0	1	s|C	i|V	f|C	i|V	s:f ɔ:ɔ l:l i:i
+A	0.938	en_fr	sauced	soft	decoder	sɔːst	sɔft	CVCC	1	1	0	0.0	0.0	0	1	s|C	t|C	s|C	t|C	s:s ɔ:ɔ s:f t:t
+A	0.938	en_fr	quiz	cuisent	decoder	kwɪz	kɥiz	CCVC	1	1	0	0.0	0.0	0	1	k|C	z|C	k|C	z|C	k:k w:ɥ ɪ:i z:z
+A	0.938	en_fr	pleading	plient in	multiword,decoder	pliːdɪŋ	pli in	CCV·VC	2	2	0	0.167	0.167	0	1	p|C	ŋ|C	p|C	n|C	p:p l:l i:i d:· ɪ:i ŋ:n
+A	0.938	en_fr	phoebe	cb	decoder	fiːbiː	sibi	CVCV	2	2	0	0.0	0.0	0	1	f|C	i|V	s|C	i|V	f:s i:i b:b i:i
+A	0.938	en_fr	cling	clean	decoder	klɪŋ	klin	CCVC	1	1	0	0.0	0.0	0	1	k|C	ŋ|C	k|C	n|C	k:k l:l ɪ:i ŋ:n
+A	0.936	en_fr	weaken	lichens	decoder	wiːkən	likɛn	CVCVC	2	2	0	0.0	0.0	0	1	w|C	n|C	l|C	n|C	w:l i:i k:k ə:ɛ n:n
+A	0.936	en_fr	screed	scrute	decoder	skɹiːd	skʁyt	CCCVC	1	1	0	0.0	0.0	0	1	s|C	d|C	s|C	t|C	s:s k:k ɹ:ɹ i:y d:t
+A	0.936	en_fr	pennies	pénis	decoder	pɛnɪz	penis	CVCVC	2	2	0	0.0	0.0	0	1	p|C	z|C	p|C	s|C	p:p ɛ:e n:n ɪ:i z:s
+A	0.936	en_fr	beetle	but elle	multiword,decoder	biːtəl	by ɛl	CV·VC	2	2	0	0.2	0.2	0	1	b|C	l|C	b|C	l|C	b:b i:y t:· ə:ɛ l:l
+A	0.935	en_fr	tali	talus	decoder	tɑːli	taly	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	y|V	t:t ɑ:a l:l i:y
+A	0.933	en_fr	tinny	tenez	decoder	tɪni	təne	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	e|V	t:t ɪ:ə n:n i:e
+A	0.933	en_fr	rete	retint	decoder	ɹɪtɛ	ʁətɛ̃	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɛ|V	ɹ|C	ɛ̃|V	ɹ:ɹ ɪ:ə t:t ɛ:ɛ̃
+A	0.933	en_fr	bussed	peste	decoder	bʌst	pɛst	CVCC	1	1	0	0.0	0.0	0	1	b|C	t|C	p|C	t|C	b:p ʌ:ɛ s:s t:t
+A	0.932	en_fr	ridgy	rient chie	multiword,decoder	ɹɪdʒi	ʁi ʃi	CV·CV	2	2	0	0.2	0.2	0	1	ɹ|C	i|V	ɹ|C	i|V	ɹ:ɹ ɪ:i d:· ʒ:ʃ i:i
+A	0.932	en_fr	redraw	rétro	decoder	ɹiːdɹɔː	ʁetʁo	CVCCV	2	2	0	0.0	0.0	0	1	ɹ|C	ɔ|V	ɹ|C	o|V	ɹ:ɹ i:e d:t ɹ:ɹ ɔ:o
+A	0.932	en_fr	readied	redites	decoder	ɹɛdɪd	ʁədit	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	d|C	ɹ|C	t|C	ɹ:ɹ ɛ:ə d:d ɪ:i d:t
+A	0.932	en_fr	ported	petite	decoder	pɔːtɪd	pətit	CVCVC	2	2	0	0.0	0.0	0	1	p|C	d|C	p|C	t|C	p:p ɔ:ə t:t ɪ:i d:t
+A	0.932	en_fr	porgy	pot chie	multiword,decoder	pɔːdʒi	po ʃi	CV·CV	2	2	0	0.2	0.2	0	1	p|C	i|V	p|C	i|V	p:p ɔ:o d:· ʒ:ʃ i:i
+A	0.932	en_fr	exon	exode	decoder	ɛɡzɒn	ɛɡzɔd	VCCVC	2	2	0	0.0	0.0	0	1	ɛ|V	n|C	ɛ|V	d|C	ɛ:ɛ ɡ:ɡ z:z ɒ:ɔ n:d
+A	0.932	en_fr	endive	haines ive	multiword,decoder	ɛndɪv	ɛn iv	VC·VC	2	2	0	0.2	0.2	0	1	ɛ|V	v|C	ɛ|V	v|C	ɛ:ɛ n:n d:· ɪ:i v:v
+A	0.932	en_fr	doorbell	nobel	decoder	dɔːbɛl	nɔbel	CVCVC	2	2	0	0.0	0.0	0	1	d|C	l|C	n|C	l|C	d:n ɔ:ɔ b:b ɛ:e l:l
+A	0.932	en_fr	disses	dis aise	multiword,decoder	dɪsɪz	di ɛz	CV·VC	2	2	0	0.2	0.2	0	1	d|C	z|C	d|C	z|C	d:d ɪ:i s:· ɪ:ɛ z:z
+A	0.932	en_fr	belling	mailing	decoder	bɛlɪŋ	mɛliŋ	CVCVC	2	2	0	0.0	0.0	0	1	b|C	ŋ|C	m|C	ŋ|C	b:m ɛ:ɛ l:l ɪ:i ŋ:ŋ
+A	0.932	en_fr	bellied	bolide	decoder	bɛlɪd	bɔlid	CVCVC	2	2	0	0.0	0.0	0	1	b|C	d|C	b|C	d|C	b:b ɛ:ɔ l:l ɪ:i d:d
+A	0.932	en_fr	beating	meeting	decoder	biːtɪŋ	mitiŋ	CVCVC	2	2	0	0.0	0.0	0	1	b|C	ŋ|C	m|C	ŋ|C	b:m i:i t:t ɪ:i ŋ:ŋ
+A	0.93	en_fr	arsing	assigne	decoder	ɑːsɪŋ	asiɲ	VCVC	2	2	0	0.0	0.0	0	1	ɑ|V	ŋ|C	a|V	ɲ|C	ɑ:a s:s ɪ:i ŋ:ɲ
+A	0.929	en_fr	wedgie	ouais chie	multiword,decoder	wɛdʒi	wɛ ʃi	CV·CV	2	2	0	0.2	0.2	0	1	w|C	i|V	w|C	i|V	w:w ɛ:ɛ d:· ʒ:ʃ i:i
+A	0.929	en_fr	veggie	fidji	decoder	vɛdʒi	fidʒi	CVCCV	2	2	0	0.0	0.0	0	1	v|C	i|V	f|C	i|V	v:f ɛ:i d:d ʒ:ʒ i:i
+A	0.929	en_fr	treaty	traité	decoder	tɹiːti	tʁɛte	CCVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	e|V	t:t ɹ:ɹ i:ɛ t:t i:e
+A	0.929	en_fr	supers	suppose	decoder	suːpəz	sypoz	CVCVC	2	2	0	0.0	0.0	0	1	s|C	z|C	s|C	z|C	s:s u:y p:p ə:o z:z
+A	0.929	en_fr	straws	stress	decoder	stɹɔːz	stʁɛs	CCCVC	1	1	0	0.0	0.0	0	1	s|C	z|C	s|C	s|C	s:s t:t ɹ:ɹ ɔ:ɛ z:s
+A	0.929	en_fr	stelae	stylé	decoder	stɛliː	stile	CCVCV	2	2	0	0.0	0.0	0	1	s|C	i|V	s|C	e|V	s:s t:t ɛ:i l:l i:e
+A	0.929	en_fr	speller	spolie	decoder	spɛlɐ	spɔli	CCVCV	2	2	0	0.0	0.0	0	1	s|C	ɐ|V	s|C	i|V	s:s p:p ɛ:ɔ l:l ɐ:i
+A	0.929	en_fr	specs	sphinx	decoder	spɛks	sfɛ̃ks	CCVCC	1	1	0	0.0	0.0	0	1	s|C	s|C	s|C	s|C	s:s p:f ɛ:ɛ̃ k:k s:s
+A	0.929	en_fr	specks	sphinx	decoder	spɛks	sfɛ̃ks	CCVCC	1	1	0	0.0	0.0	0	1	s|C	s|C	s|C	s|C	s:s p:f ɛ:ɛ̃ k:k s:s
+A	0.929	en_fr	reseed	réside	decoder	ɹɪsiːd	ʁezid	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	d|C	ɹ|C	d|C	ɹ:ɹ ɪ:e s:z i:i d:d
+A	0.929	en_fr	reckon	ricaine	decoder	ɹɛkən	ʁikɛn	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	n|C	ɹ|C	n|C	ɹ:ɹ ɛ:i k:k ə:ɛ n:n
+A	0.929	en_fr	recede	réside	decoder	ɹɪsiːd	ʁezid	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	d|C	ɹ|C	d|C	ɹ:ɹ ɪ:e s:z i:i d:d
+A	0.929	en_fr	racon	ricaine	decoder	ɹækən	ʁikɛn	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	n|C	ɹ|C	n|C	ɹ:ɹ æ:i k:k ə:ɛ n:n
+A	0.929	en_fr	preppy	brebis	decoder	pɹɛpi	bʁəbi	CCVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	b|C	i|V	p:b ɹ:ɹ ɛ:ə p:b i:i
+A	0.929	en_fr	preach	bridge	decoder	pɹiːtʃ	bʁidʒ	CCVCC	1	1	0	0.0	0.0	0	1	p|C	ʃ|C	b|C	ʒ|C	p:b ɹ:ɹ i:i t:d ʃ:ʒ
+A	0.929	en_fr	meted	mitaine	decoder	miːtɪd	mitɛn	CVCVC	2	2	0	0.0	0.0	0	1	m|C	d|C	m|C	n|C	m:m i:i t:t ɪ:ɛ d:n
+A	0.929	en_fr	meatus	mitose	decoder	miːtəs	mitoz	CVCVC	2	2	0	0.0	0.0	0	1	m|C	s|C	m|C	z|C	m:m i:i t:t ə:o s:z
+A	0.929	en_fr	lessen	lettone	decoder	lɛsən	lɛtɔn	CVCVC	2	2	0	0.0	0.0	0	1	l|C	n|C	l|C	n|C	l:l ɛ:ɛ s:t ə:ɔ n:n
+A	0.929	en_fr	greeny	grainé	decoder	ɡɹiːni	ɡʁɛne	CCVCV	2	2	0	0.0	0.0	0	1	ɡ|C	i|V	ɡ|C	e|V	ɡ:ɡ ɹ:ɹ i:ɛ n:n i:e
+A	0.929	en_fr	foresees	fonceuse	decoder	fɔːsiːz	fɔ̃søz	CVCVC	2	2	0	0.0	0.0	0	1	f|C	z|C	f|C	z|C	f:f ɔ:ɔ̃ s:s i:ø z:z
+A	0.929	en_fr	entomb	aident hume	multiword,decoder	ɛntuːm	ɛd ym	V·CVC	2	2	0	0.2	0.2	0	1	ɛ|V	m|C	ɛ|V	m|C	ɛ:ɛ n:· t:d u:y m:m
+A	0.929	en_fr	deceit	décide	decoder	dɪsiːt	desid	CVCVC	2	2	0	0.0	0.0	0	1	d|C	t|C	d|C	d|C	d:d ɪ:e s:s i:i t:d
+A	0.929	en_fr	canoes	con use	multiword,decoder	kənuːz	kɔ̃ yz	CVCVC	2	2	0	0.0	0.0	0	1	k|C	z|C	k|C	z|C	k:k ə:ɔ n:n u:y z:z
+A	0.929	en_fr	canoed	con août	multiword,decoder	kənuːd	kɔ̃ u	CVCV·	2	2	0	0.2	0.2	0	1	k|C	d|C	k|C	u|V	k:k ə:ɔ n:n u:u d:·
+A	0.929	en_fr	boredom	bonhomme	decoder	bɔːdəm	bɔnɔm	CVCVC	2	2	0	0.0	0.0	0	1	b|C	m|C	b|C	m|C	b:b ɔ:ɔ d:n ə:ɔ m:m
+A	0.929	en_fr	bordered	bond aide	multiword,decoder	bɔːdəd	bɔ̃ ɛd	CVCVC	2	2	0	0.0	0.0	0	1	b|C	d|C	b|C	d|C	b:b ɔ:ɔ d:n ə:ɛ d:d
+A	0.929	en_fr	boarders	bond aise	multiword,decoder	bɔːdəz	bɔ̃ ɛz	CVCVC	2	2	0	0.0	0.0	0	1	b|C	z|C	b|C	z|C	b:b ɔ:ɔ d:n ə:ɛ z:z
+A	0.929	en_fr	balder	voleter	decoder	bɔːldɐ	vɔlte	CVCCV	2	2	0	0.0	0.0	0	1	b|C	ɐ|V	v|C	e|V	b:v ɔ:ɔ l:l d:t ɐ:e
+A	0.929	en_fr	access	axis	decoder	æksɛs	aksis	VCCVC	2	2	0	0.0	0.0	0	1	æ|V	s|C	a|V	s|C	æ:a k:k s:s ɛ:i s:s
+A	0.926	en_fr	sparse	spath	decoder	spɑːs	spat	CCVC	1	1	0	0.0	0.0	0	1	s|C	s|C	s|C	t|C	s:s p:p ɑ:a s:t
+A	0.926	en_fr	seizing	saisine	decoder	siːzɪŋ	sezin	CVCVC	2	2	0	0.0	0.0	0	1	s|C	ŋ|C	s|C	n|C	s:s i:e z:z ɪ:i ŋ:n
+A	0.926	en_fr	seeding	scient in	multiword,decoder	siːdɪŋ	si in	CV·VC	2	2	0	0.2	0.2	0	1	s|C	ŋ|C	s|C	n|C	s:s i:i d:· ɪ:i ŋ:n
+A	0.926	en_fr	ruche	ranch	decoder	ɹʌtʃ	ʁɑ̃tʃ	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	ʃ|C	ɹ|C	ʃ|C	ɹ:ɹ ʌ:ɑ̃ t:t ʃ:ʃ
+A	0.926	en_fr	porting	bottines	decoder	pɔːtɪŋ	bɔtin	CVCVC	2	2	0	0.0	0.0	0	1	p|C	ŋ|C	b|C	n|C	p:b ɔ:ɔ t:t ɪ:i ŋ:n
+A	0.926	en_fr	parky	paquet	decoder	pɑːki	pakɛ	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	ɛ|V	p:p ɑ:a k:k i:ɛ
+A	0.926	en_fr	needy	midi	decoder	niːdi	midi	CVCV	2	2	0	0.0	0.0	0	1	n|C	i|V	m|C	i|V	n:m i:i d:d i:i
+A	0.926	en_fr	neater	mité	decoder	niːtɐ	mite	CVCV	2	2	0	0.0	0.0	0	1	n|C	ɐ|V	m|C	e|V	n:m i:i t:t ɐ:e
+A	0.926	en_fr	marge	match	decoder	mɑːdʒ	matʃ	CVCC	1	1	0	0.0	0.0	0	1	m|C	ʒ|C	m|C	ʃ|C	m:m ɑ:a d:t ʒ:ʃ
+A	0.926	en_fr	madding	médine	decoder	mædɪŋ	medin	CVCVC	2	2	0	0.0	0.0	0	1	m|C	ŋ|C	m|C	n|C	m:m æ:e d:d ɪ:i ŋ:n
+A	0.926	en_fr	foremen	semaine	decoder	fɔːmɛn	smɛn	C·CVC	2	1	1	0.2	0.2	0	1	f|C	n|C	s|C	n|C	f:s ɔ:· m:m ɛ:ɛ n:n
+A	0.926	en_fr	emcee	ensi	decoder	ɛmsiː	ɛnsi	VCCV	2	2	0	0.0	0.0	0	1	ɛ|V	i|V	ɛ|V	i|V	ɛ:ɛ m:n s:s i:i
+A	0.926	en_fr	ceding	scient in	multiword,decoder	siːdɪŋ	si in	CV·VC	2	2	0	0.2	0.2	0	1	s|C	ŋ|C	s|C	n|C	s:s i:i d:· ɪ:i ŋ:n
+A	0.926	en_fr	budding	badine	decoder	bʌdɪŋ	badin	CVCVC	2	2	0	0.0	0.0	0	1	b|C	ŋ|C	b|C	n|C	b:b ʌ:a d:d ɪ:i ŋ:n
+A	0.926	en_fr	boarding	bottines	decoder	bɔːdɪŋ	bɔtin	CVCVC	2	2	0	0.0	0.0	0	1	b|C	ŋ|C	b|C	n|C	b:b ɔ:ɔ d:t ɪ:i ŋ:n
+A	0.926	en_fr	aster	acheter	decoder	ɑːstɐ	aʃte	VCCV	2	2	0	0.0	0.0	0	1	ɑ|V	ɐ|V	a|V	e|V	ɑ:a s:ʃ t:t ɐ:e
+A	0.925	en_fr	suing	swing	decoder	suːɪŋ	swiŋ	CVVC	2	1	1	0.0	0.0	0	1	s|C	ŋ|C	s|C	ŋ|C	s:s u:w ɪ:i ŋ:ŋ
+A	0.925	en_fr	quip	clip	decoder	kwɪp	klip	CCVC	1	1	0	0.0	0.0	0	1	k|C	p|C	k|C	p|C	k:k w:l ɪ:i p:p
+A	0.925	en_fr	inly	inouï	decoder	ɪnli	inwi	VCCV	2	2	0	0.0	0.0	0	1	ɪ|V	i|V	i|V	i|V	ɪ:i n:n l:w i:i
+A	0.925	en_fr	bevy	bévue	decoder	bɛvi	bevy	CVCV	2	2	0	0.0	0.0	0	1	b|C	i|V	b|C	y|V	b:b ɛ:e v:v i:y
+A	0.925	en_fr	bevvy	bévue	decoder	bɛvi	bevy	CVCV	2	2	0	0.0	0.0	0	1	b|C	i|V	b|C	y|V	b:b ɛ:e v:v i:y
+A	0.924	en_fr	fending	vin digne	multiword,decoder	fɛndɪŋ	vɛ̃ diɲ	CVCCVC	2	2	0	0.0	0.0	0	1	f|C	ŋ|C	v|C	ɲ|C	f:v ɛ:ɛ n:n d:d ɪ:i ŋ:ɲ
+A	0.922	en_fr	forlorn	pologne	decoder	fɔːlɔːn	pɔlɔɲ	CVCVC	2	2	0	0.0	0.0	0	1	f|C	n|C	p|C	ɲ|C	f:p ɔ:ɔ l:l ɔ:ɔ n:ɲ
+A	0.922	en_fr	bedding	bedaine	decoder	bɛdɪŋ	bədɛn	CVCVC	2	2	0	0.0	0.0	0	1	b|C	ŋ|C	b|C	n|C	b:b ɛ:ə d:d ɪ:ɛ ŋ:n
+A	0.922	en_fr	bawling	pollen	decoder	bɔːlɪŋ	pɔlɛn	CVCVC	2	2	0	0.0	0.0	0	1	b|C	ŋ|C	p|C	n|C	b:p ɔ:ɔ l:l ɪ:ɛ ŋ:n
+A	0.922	en_fr	balling	pollen	decoder	bɔːlɪŋ	pɔlɛn	CVCVC	2	2	0	0.0	0.0	0	1	b|C	ŋ|C	p|C	n|C	b:p ɔ:ɔ l:l ɪ:ɛ ŋ:n
+A	0.92	en_fr	tiered	tiède	decoder	tiəd	tjɛd	CVVC	2	1	1	0.0	0.0	0	1	t|C	d|C	t|C	d|C	t:t i:j ə:ɛ d:d
+A	0.92	en_fr	remit	rhinite	decoder	ɹiːmɪt	ʁinit	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ i:i m:n ɪ:i t:t
+A	0.92	en_fr	peewee	pilé	decoder	piːwiː	pile	CVCV	2	2	0	0.0	0.0	0	1	p|C	i|V	p|C	e|V	p:p i:i w:l i:e
+A	0.92	en_fr	ochrey	accru	decoder	ɒkɹi	akʁy	VCCV	2	2	0	0.0	0.0	0	1	ɒ|V	i|V	a|V	y|V	ɒ:a k:k ɹ:ɹ i:y
+A	0.92	en_fr	nixed	mixte	decoder	nɪkst	mikst	CVCCC	1	1	0	0.0	0.0	0	1	n|C	t|C	m|C	t|C	n:m ɪ:i k:k s:s t:t
+A	0.92	en_fr	nears	niaise	decoder	niəz	njɛz	CVVC	2	1	1	0.0	0.0	0	1	n|C	z|C	n|C	z|C	n:n i:j ə:ɛ z:z
+A	0.92	en_fr	cleat	quid	decoder	kliːt	kwid	CCVC	1	1	0	0.0	0.0	0	1	k|C	t|C	k|C	d|C	k:k l:w i:i t:d
+A	0.919	en_fr	forelegs	solex	decoder	fɔːlɛɡz	sɔlɛks	CVCVCC	2	2	0	0.0	0.0	0	1	f|C	z|C	s|C	s|C	f:s ɔ:ɔ l:l ɛ:ɛ ɡ:k z:s
+A	0.917	en_fr	larboard	lapone	decoder	lɑːbɔːd	lapɔn	CVCVC	2	2	0	0.0	0.0	0	1	l|C	d|C	l|C	n|C	l:l ɑ:a b:p ɔ:ɔ d:n
+A	0.915	en_fr	spin	speed	decoder	spɪn	spid	CCVC	1	1	0	0.0	0.0	0	1	s|C	n|C	s|C	d|C	s:s p:p ɪ:i n:d
+A	0.915	en_fr	shipped	chips	decoder	ʃɪpt	ʃips	CVCC	1	1	0	0.0	0.0	0	1	ʃ|C	t|C	ʃ|C	s|C	ʃ:ʃ ɪ:i p:p t:s
+A	0.915	en_fr	shade	chiites	decoder	ʃeɪd	ʃiit	CVVC	2	2	0	0.0	0.0	0	1	ʃ|C	d|C	ʃ|C	t|C	ʃ:ʃ e:i ɪ:i d:t
+A	0.915	en_fr	ripped	rift	decoder	ɹɪpt	ʁift	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	t|C	ɹ:ɹ ɪ:i p:f t:t
+A	0.915	en_fr	rigs	rixe	decoder	ɹɪɡz	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	z|C	ɹ|C	s|C	ɹ:ɹ ɪ:i ɡ:k z:s
+A	0.915	en_fr	ricked	rixe	decoder	ɹɪkt	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	s|C	ɹ:ɹ ɪ:i k:k t:s
+A	0.915	en_fr	pix	fixe	decoder	pɪks	fiks	CVCC	1	1	0	0.0	0.0	0	1	p|C	s|C	f|C	s|C	p:f ɪ:i k:k s:s
+A	0.915	en_fr	pics	fixe	decoder	pɪks	fiks	CVCC	1	1	0	0.0	0.0	0	1	p|C	s|C	f|C	s|C	p:f ɪ:i k:k s:s
+A	0.915	en_fr	picks	fixe	decoder	pɪks	fiks	CVCC	1	1	0	0.0	0.0	0	1	p|C	s|C	f|C	s|C	p:f ɪ:i k:k s:s
+A	0.915	en_fr	papaw	pipeau	decoder	pæpɔː	pipo	CVCV	2	2	0	0.0	0.0	0	1	p|C	ɔ|V	p|C	o|V	p:p æ:i p:p ɔ:o
+A	0.915	en_fr	ockers	occase	decoder	ɒkəz	ɔkaz	VCVC	2	2	0	0.0	0.0	0	1	ɒ|V	z|C	ɔ|V	z|C	ɒ:ɔ k:k ə:a z:z
+A	0.915	en_fr	nicked	dicte	decoder	nɪkt	dikt	CVCC	1	1	0	0.0	0.0	0	1	n|C	t|C	d|C	t|C	n:d ɪ:i k:k t:t
+A	0.915	en_fr	nelly	délit	decoder	nɛli	deli	CVCV	2	2	0	0.0	0.0	0	1	n|C	i|V	d|C	i|V	n:d ɛ:e l:l i:i
+A	0.915	en_fr	macaw	mégots	decoder	mækɔː	meɡo	CVCV	2	2	0	0.0	0.0	0	1	m|C	ɔ|V	m|C	o|V	m:m æ:e k:ɡ ɔ:o
+A	0.915	en_fr	lopped	loft	decoder	lɒpt	lɔft	CVCC	1	1	0	0.0	0.0	0	1	l|C	t|C	l|C	t|C	l:l ɒ:ɔ p:f t:t
+A	0.915	en_fr	lipped	lift	decoder	lɪpt	lift	CVCC	1	1	0	0.0	0.0	0	1	l|C	t|C	l|C	t|C	l:l ɪ:i p:f t:t
+A	0.915	en_fr	escheat	égide	decoder	ɛʃiːt	eʒid	VCVC	2	2	0	0.0	0.0	0	1	ɛ|V	t|C	e|V	d|C	ɛ:e ʃ:ʒ i:i t:d
+A	0.915	en_fr	eddies	indice	decoder	ɛdɪz	ɛ̃dis	VCVC	2	2	0	0.0	0.0	0	1	ɛ|V	z|C	ɛ̃|V	s|C	ɛ:ɛ̃ d:d ɪ:i z:s
+A	0.915	en_fr	dicky	tiquer	decoder	dɪki	tike	CVCV	2	2	0	0.0	0.0	0	1	d|C	i|V	t|C	e|V	d:t ɪ:i k:k i:e
+A	0.915	en_fr	dicks	dicte	decoder	dɪks	dikt	CVCC	1	1	0	0.0	0.0	0	1	d|C	s|C	d|C	t|C	d:d ɪ:i k:k s:t
+A	0.915	en_fr	dickie	tiquer	decoder	dɪki	tike	CVCV	2	2	0	0.0	0.0	0	1	d|C	i|V	t|C	e|V	d:t ɪ:i k:k i:e
+A	0.915	en_fr	dickey	tiquer	decoder	dɪki	tike	CVCV	2	2	0	0.0	0.0	0	1	d|C	i|V	t|C	e|V	d:t ɪ:i k:k i:e
+A	0.915	en_fr	chip	jeep	decoder	tʃɪp	dʒip	CCVC	1	1	0	0.0	0.0	0	1	t|C	p|C	d|C	p|C	t:d ʃ:ʒ ɪ:i p:p
+A	0.915	en_fr	chin	gin	decoder	tʃɪn	dʒin	CCVC	1	1	0	0.0	0.0	0	1	t|C	n|C	d|C	n|C	t:d ʃ:ʒ ɪ:i n:n
+A	0.915	en_fr	amice	émises	decoder	æmɪs	emiz	VCVC	2	2	0	0.0	0.0	0	1	æ|V	s|C	e|V	z|C	æ:e m:m ɪ:i s:z
+A	0.914	en_fr	larding	latine	decoder	lɑːdɪŋ	latin	CVCVC	2	2	0	0.0	0.0	0	1	l|C	ŋ|C	l|C	n|C	l:l ɑ:a d:t ɪ:i ŋ:n
+A	0.912	en_fr	techies	déguise	decoder	tɛkɪz	deɡiz	CVCVC	2	2	0	0.0	0.0	0	1	t|C	z|C	d|C	z|C	t:d ɛ:e k:ɡ ɪ:i z:z
+A	0.912	en_fr	penning	bénigne	decoder	pɛnɪŋ	beniɲ	CVCVC	2	2	0	0.0	0.0	0	1	p|C	ŋ|C	b|C	ɲ|C	p:b ɛ:e n:n ɪ:i ŋ:ɲ
+A	0.911	en_fr	treed	traite	decoder	tɹiːd	tʁɛt	CCVC	1	1	0	0.0	0.0	0	1	t|C	d|C	t|C	t|C	t:t ɹ:ɹ i:ɛ d:t
+A	0.911	en_fr	tics	sexe	decoder	tɪks	sɛks	CVCC	1	1	0	0.0	0.0	0	1	t|C	s|C	s|C	s|C	t:s ɪ:ɛ k:k s:s
+A	0.911	en_fr	ticks	sexe	decoder	tɪks	sɛks	CVCC	1	1	0	0.0	0.0	0	1	t|C	s|C	s|C	s|C	t:s ɪ:ɛ k:k s:s
+A	0.911	en_fr	techy	toquer	decoder	tɛki	tɔke	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	e|V	t:t ɛ:ɔ k:k i:e
+A	0.911	en_fr	techie	toquer	decoder	tɛki	tɔke	CVCV	2	2	0	0.0	0.0	0	1	t|C	i|V	t|C	e|V	t:t ɛ:ɔ k:k i:e
+A	0.911	en_fr	swam	souabe	decoder	swæm	swab	CCVC	1	1	0	0.0	0.0	0	1	s|C	m|C	s|C	b|C	s:s w:w æ:a m:b
+A	0.911	en_fr	sheered	géode	decoder	ʃiəd	ʒeɔd	CVVC	2	2	0	0.0	0.0	0	1	ʃ|C	d|C	ʒ|C	d|C	ʃ:ʒ i:e ə:ɔ d:d
+A	0.911	en_fr	sheared	géode	decoder	ʃiəd	ʒeɔd	CVVC	2	2	0	0.0	0.0	0	1	ʃ|C	d|C	ʒ|C	d|C	ʃ:ʒ i:e ə:ɔ d:d
+A	0.911	en_fr	rani	radis	decoder	ɹæni	ʁadi	CVCV	2	2	0	0.0	0.0	0	1	ɹ|C	i|V	ɹ|C	i|V	ɹ:ɹ æ:a n:d i:i
+A	0.911	en_fr	pecs	box	decoder	pɛks	bɔks	CVCC	1	1	0	0.0	0.0	0	1	p|C	s|C	b|C	s|C	p:b ɛ:ɔ k:k s:s
+A	0.911	en_fr	pecks	box	decoder	pɛks	bɔks	CVCC	1	1	0	0.0	0.0	0	1	p|C	s|C	b|C	s|C	p:b ɛ:ɔ k:k s:s
+A	0.911	en_fr	otters	hôtesse	decoder	ɒtəz	otɛs	VCVC	2	2	0	0.0	0.0	0	1	ɒ|V	z|C	o|V	s|C	ɒ:o t:t ə:ɛ z:s
+A	0.911	en_fr	netty	noter	decoder	nɛti	nɔte	CVCV	2	2	0	0.0	0.0	0	1	n|C	i|V	n|C	e|V	n:n ɛ:ɔ t:t i:e
+A	0.911	en_fr	mags	max	decoder	mæɡz	maks	CVCC	1	1	0	0.0	0.0	0	1	m|C	z|C	m|C	s|C	m:m æ:a ɡ:k z:s
+A	0.911	en_fr	lemme	limer	decoder	lɛmi	lime	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	e|V	l:l ɛ:i m:m i:e
+A	0.911	en_fr	legs	lynx	decoder	lɛɡz	lɛ̃ks	CVCC	1	1	0	0.0	0.0	0	1	l|C	z|C	l|C	s|C	l:l ɛ:ɛ̃ ɡ:k z:s
+A	0.911	en_fr	lasso	lasso	decoder	læsuː	laso	CVCV	2	2	0	0.0	0.0	0	1	l|C	u|V	l|C	o|V	l:l æ:a s:s u:o
+A	0.911	en_fr	lapped	laps	decoder	læpt	laps	CVCC	1	1	0	0.0	0.0	0	1	l|C	t|C	l|C	s|C	l:l æ:a p:p t:s
+A	0.911	en_fr	jot	chat	decoder	dʒɒt	ʃa	·CV·	1	1	0	0.5	0.5	0	0	d|C	t|C	ʃ|C	a|V	d:· ʒ:ʃ ɒ:a t:·
+A	0.911	en_fr	jawed	jet	decoder	dʒɔːd	ʒɛ	·CV·	1	1	0	0.5	0.5	0	0	d|C	d|C	ʒ|C	ɛ|V	d:· ʒ:ʒ ɔ:ɛ d:·
+A	0.911	en_fr	honours	ânesse	decoder	ɒnəz	anɛs	VCVC	2	2	0	0.0	0.0	0	1	ɒ|V	z|C	a|V	s|C	ɒ:a n:n ə:ɛ z:s
+A	0.911	en_fr	honors	ânesse	decoder	ɒnəz	anɛs	VCVC	2	2	0	0.0	0.0	0	1	ɒ|V	z|C	a|V	s|C	ɒ:a n:n ə:ɛ z:s
+A	0.911	en_fr	flume	plume	decoder	fluːm	plym	CCVC	1	1	0	0.0	0.0	0	1	f|C	m|C	p|C	m|C	f:p l:l u:y m:m
+A	0.911	en_fr	floss	place	decoder	flɒs	plas	CCVC	1	1	0	0.0	0.0	0	1	f|C	s|C	p|C	s|C	f:p l:l ɒ:a s:s
+A	0.911	en_fr	flees	plisse	decoder	fliːz	plis	CCVC	1	1	0	0.0	0.0	0	1	f|C	z|C	p|C	s|C	f:p l:l i:i z:s
+A	0.911	en_fr	fleas	plisse	decoder	fliːz	plis	CCVC	1	1	0	0.0	0.0	0	1	f|C	z|C	p|C	s|C	f:p l:l i:i z:s
+A	0.911	en_fr	evil	eiffel	decoder	iːvəl	efɛl	VCVC	2	2	0	0.0	0.0	0	1	i|V	l|C	e|V	l|C	i:e v:f ə:ɛ l:l
+A	0.911	en_fr	enter	ensi	decoder	ɛntɐ	ɛnsi	VCCV	2	2	0	0.0	0.0	0	1	ɛ|V	ɐ|V	ɛ|V	i|V	ɛ:ɛ n:n t:s ɐ:i
+A	0.911	en_fr	eating	éteignent	decoder	iːtɪŋ	etɛɲ	VCVC	2	2	0	0.0	0.0	0	1	i|V	ŋ|C	e|V	ɲ|C	i:e t:t ɪ:ɛ ŋ:ɲ
+A	0.911	en_fr	draws	treize	decoder	dɹɔːz	tʁɛz	CCVC	1	1	0	0.0	0.0	0	1	d|C	z|C	t|C	z|C	d:t ɹ:ɹ ɔ:ɛ z:z
+A	0.911	en_fr	drat	traite	decoder	dɹæt	tʁɛt	CCVC	1	1	0	0.0	0.0	0	1	d|C	t|C	t|C	t|C	d:t ɹ:ɹ æ:ɛ t:t
+A	0.911	en_fr	detour	tétons	decoder	diːtɔː	tetɔ̃	CVCV	2	2	0	0.0	0.0	0	1	d|C	ɔ|V	t|C	ɔ̃|V	d:t i:e t:t ɔ:ɔ̃
+A	0.911	en_fr	clem	club	decoder	klɛm	klœb	CCVC	1	1	0	0.0	0.0	0	1	k|C	m|C	k|C	b|C	k:k l:l ɛ:œ m:b
+A	0.911	en_fr	chon	tchad	decoder	tʃɒn	tʃad	CCVC	1	1	0	0.0	0.0	0	1	t|C	n|C	t|C	d|C	t:t ʃ:ʃ ɒ:a n:d
+A	0.911	en_fr	chock	jack	decoder	tʃɒk	dʒak	CCVC	1	1	0	0.0	0.0	0	1	t|C	k|C	d|C	k|C	t:d ʃ:ʒ ɒ:a k:k
+A	0.911	en_fr	choc	jack	decoder	tʃɒk	dʒak	CCVC	1	1	0	0.0	0.0	0	1	t|C	k|C	d|C	k|C	t:d ʃ:ʒ ɒ:a k:k
+A	0.911	en_fr	chit	jet	decoder	tʃɪt	ʒɛ	·CV·	1	1	0	0.5	0.5	0	0	t|C	t|C	ʒ|C	ɛ|V	t:· ʃ:ʒ ɪ:ɛ t:·
+A	0.911	en_fr	chevy	cheveux	decoder	ʃɛvi	ʃəvø	CVCV	2	2	0	0.0	0.0	0	1	ʃ|C	i|V	ʃ|C	ø|V	ʃ:ʃ ɛ:ə v:v i:ø
+A	0.911	en_fr	cadge	catch	decoder	kædʒ	katʃ	CVCC	1	1	0	0.0	0.0	0	1	k|C	ʒ|C	k|C	ʃ|C	k:k æ:a d:t ʒ:ʃ
+A	0.911	en_fr	brawl	prêle	decoder	bɹɔːl	pʁɛl	CCVC	1	1	0	0.0	0.0	0	1	b|C	l|C	p|C	l|C	b:p ɹ:ɹ ɔ:ɛ l:l
+A	0.911	en_fr	bran	prennent	decoder	bɹæn	pʁɛn	CCVC	1	1	0	0.0	0.0	0	1	b|C	n|C	p|C	n|C	b:p ɹ:ɹ æ:ɛ n:n
+A	0.911	en_fr	booby	poupée	decoder	buːbi	pupe	CVCV	2	2	0	0.0	0.0	0	1	b|C	i|V	p|C	e|V	b:p u:u b:p i:e
+A	0.911	en_fr	bloop	plouf	decoder	bluːp	pluf	CCVC	1	1	0	0.0	0.0	0	1	b|C	p|C	p|C	f|C	b:p l:l u:u p:f
+A	0.911	en_fr	blip	plèbe	decoder	blɪp	plɛb	CCVC	1	1	0	0.0	0.0	0	1	b|C	p|C	p|C	b|C	b:p l:l ɪ:ɛ p:b
+A	0.911	en_fr	auras	horace	decoder	ɔːɹəz	ɔʁas	VCVC	2	2	0	0.0	0.0	0	1	ɔ|V	z|C	ɔ|V	s|C	ɔ:ɔ ɹ:ɹ ə:a z:s
+A	0.911	en_fr	atom	atomes	decoder	ætəm	atom	VCVC	2	2	0	0.0	0.0	0	1	æ|V	m|C	a|V	m|C	æ:a t:t ə:o m:m
+A	0.911	en_fr	anti	hindi	decoder	ænti	indi	VCCV	2	2	0	0.0	0.0	0	1	æ|V	i|V	i|V	i|V	æ:i n:n t:d i:i
+A	0.911	en_fr	ante	hindi	decoder	æntiː	indi	VCCV	2	2	0	0.0	0.0	0	1	æ|V	i|V	i|V	i|V	æ:i n:n t:d i:i
+A	0.911	en_fr	annas	ânesse	decoder	ænəz	anɛs	VCVC	2	2	0	0.0	0.0	0	1	æ|V	z|C	a|V	s|C	æ:a n:n ə:ɛ z:s
+A	0.911	en_fr	annal	anal	decoder	ænəl	anal	VCVC	2	2	0	0.0	0.0	0	1	æ|V	l|C	a|V	l|C	æ:a n:n ə:a l:l
+A	0.911	en_fr	actor	axé	decoder	æktɐ	akse	VCCV	2	2	0	0.0	0.0	0	1	æ|V	ɐ|V	a|V	e|V	æ:a k:k t:s ɐ:e
+A	0.91	en_fr	wending	vin digne	multiword,decoder	wɛndɪŋ	vɛ̃ diɲ	CVCCVC	2	2	0	0.0	0.0	0	1	w|C	ŋ|C	v|C	ɲ|C	w:v ɛ:ɛ n:n d:d ɪ:i ŋ:ɲ
+A	0.91	en_fr	reaming	rumine	decoder	ɹiːmɪŋ	ʁymin	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	ŋ|C	ɹ|C	n|C	ɹ:ɹ i:y m:m ɪ:i ŋ:n
+A	0.909	en_fr	shekel	séquelles	decoder	ʃɛkəl	sekɛl	CVCVC	2	2	0	0.0	0.0	0	1	ʃ|C	l|C	s|C	l|C	ʃ:s ɛ:e k:k ə:ɛ l:l
+A	0.909	en_fr	peckers	pégase	decoder	pɛkəz	peɡaz	CVCVC	2	2	0	0.0	0.0	0	1	p|C	z|C	p|C	z|C	p:p ɛ:e k:ɡ ə:a z:z
+A	0.909	en_fr	mission	mycènes	decoder	mɪʃən	misɛn	CVCVC	2	2	0	0.0	0.0	0	1	m|C	n|C	m|C	n|C	m:m ɪ:i ʃ:s ə:ɛ n:n
+A	0.909	en_fr	boarded	bottines	decoder	bɔːdɪd	bɔtin	CVCVC	2	2	0	0.0	0.0	0	1	b|C	d|C	b|C	n|C	b:b ɔ:ɔ d:t ɪ:i d:n
+A	0.909	en_fr	beading	meeting	decoder	biːdɪŋ	mitiŋ	CVCVC	2	2	0	0.0	0.0	0	1	b|C	ŋ|C	m|C	ŋ|C	b:m i:i d:t ɪ:i ŋ:ŋ
+A	0.908	en_fr	oozing	usine	decoder	uːzɪŋ	yzin	VCVC	2	2	0	0.0	0.0	0	1	u|V	ŋ|C	y|V	n|C	u:y z:z ɪ:i ŋ:n
+A	0.908	en_fr	leafy	lisser	decoder	liːfi	lise	CVCV	2	2	0	0.0	0.0	0	1	l|C	i|V	l|C	e|V	l:l i:i f:s i:e
+A	0.906	en_fr	ridding	rient in	multiword,decoder	ɹɪdɪŋ	ʁi in	CV·VC	2	2	0	0.2	0.2	0	1	ɹ|C	ŋ|C	ɹ|C	n|C	ɹ:ɹ ɪ:i d:· ɪ:i ŋ:n
+A	0.905	en_fr	talkers	toquade	decoder	tɔːkəz	tɔkad	CVCVC	2	2	0	0.0	0.0	0	1	t|C	z|C	t|C	d|C	t:t ɔ:ɔ k:k ə:a z:d
+A	0.905	en_fr	seaboard	chipote	decoder	siːbɔːd	ʃipɔt	CVCVC	2	2	0	0.0	0.0	0	1	s|C	d|C	ʃ|C	t|C	s:ʃ i:i b:p ɔ:ɔ d:t
+A	0.905	en_fr	scram	scribe	decoder	skɹæm	skʁib	CCCVC	1	1	0	0.0	0.0	0	1	s|C	m|C	s|C	b|C	s:s k:k ɹ:ɹ æ:i m:b
+A	0.905	en_fr	passion	bichonne	decoder	pæʃən	biʃɔn	CVCVC	2	2	0	0.0	0.0	0	1	p|C	n|C	b|C	n|C	p:b æ:i ʃ:ʃ ə:ɔ n:n
+A	0.905	en_fr	minas	minage	decoder	miːnəz	minaʒ	CVCVC	2	2	0	0.0	0.0	0	1	m|C	z|C	m|C	ʒ|C	m:m i:i n:n ə:a z:ʒ
+A	0.905	en_fr	jeers	djihad	decoder	dʒiəz	dʒiad	CCVVC	2	2	0	0.0	0.0	0	1	d|C	z|C	d|C	d|C	d:d ʒ:ʒ i:i ə:a z:d
+A	0.905	en_fr	exam	exhibe	decoder	ɛɡzæm	ɛɡzib	VCCVC	2	2	0	0.0	0.0	0	1	ɛ|V	m|C	ɛ|V	b|C	ɛ:ɛ ɡ:ɡ z:z æ:i m:b
+A	0.905	en_fr	betas	vitesse	decoder	biːtəz	vitɛs	CVCVC	2	2	0	0.0	0.0	0	1	b|C	z|C	v|C	s|C	b:v i:i t:t ə:ɛ z:s
+A	0.905	en_fr	beaters	vitesse	decoder	biːtəz	vitɛs	CVCVC	2	2	0	0.0	0.0	0	1	b|C	z|C	v|C	s|C	b:v i:i t:t ə:ɛ z:s
+A	0.905	en_fr	acted	accède	decoder	æktɪd	aksɛd	VCCVC	2	2	0	0.0	0.0	0	1	æ|V	d|C	a|V	d|C	æ:a k:k t:s ɪ:ɛ d:d
+A	0.903	en_fr	bring	prennent	decoder	bɹɪŋ	pʁɛn	CCVC	1	1	0	0.0	0.0	0	1	b|C	ŋ|C	p|C	n|C	b:p ɹ:ɹ ɪ:ɛ ŋ:n
+A	0.903	en_fr	anil	agnelle	decoder	ænɪl	aɲɛl	VCVC	2	2	0	0.0	0.0	0	1	æ|V	l|C	a|V	l|C	æ:a n:ɲ ɪ:ɛ l:l
+A	0.902	en_fr	sticks	sphinx	decoder	stɪks	sfɛ̃ks	CCVCC	1	1	0	0.0	0.0	0	1	s|C	s|C	s|C	s|C	s:s t:f ɪ:ɛ̃ k:k s:s
+A	0.902	en_fr	sicken	cigogne	decoder	sɪkən	siɡɔɲ	CVCVC	2	2	0	0.0	0.0	0	1	s|C	n|C	s|C	ɲ|C	s:s ɪ:i k:ɡ ə:ɔ n:ɲ
+A	0.902	en_fr	shedding	jet in	multiword,decoder	ʃɛdɪŋ	ʒɛ in	CV·VC	2	2	0	0.2	0.2	0	1	ʃ|C	ŋ|C	ʒ|C	n|C	ʃ:ʒ ɛ:ɛ d:· ɪ:i ŋ:n
+A	0.902	en_fr	reeding	rétine	decoder	ɹiːdɪŋ	ʁetin	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	ŋ|C	ɹ|C	n|C	ɹ:ɹ i:e d:t ɪ:i ŋ:n
+A	0.902	en_fr	padding	patine	decoder	pædɪŋ	patin	CVCVC	2	2	0	0.0	0.0	0	1	p|C	ŋ|C	p|C	n|C	p:p æ:a d:t ɪ:i ŋ:n
+A	0.902	en_fr	dissing	dizaines	decoder	dɪsɪŋ	dizɛn	CVCVC	2	2	0	0.0	0.0	0	1	d|C	ŋ|C	d|C	n|C	d:d ɪ:i s:z ɪ:ɛ ŋ:n
+A	0.902	en_fr	cording	comptine	decoder	kɔːdɪŋ	kɔ̃tin	CVCVC	2	2	0	0.0	0.0	0	1	k|C	ŋ|C	k|C	n|C	k:k ɔ:ɔ̃ d:t ɪ:i ŋ:n
+A	0.902	en_fr	carding	cantine	decoder	kɑːdɪŋ	kɑ̃tin	CVCVC	2	2	0	0.0	0.0	0	1	k|C	ŋ|C	k|C	n|C	k:k ɑ:ɑ̃ d:t ɪ:i ŋ:n
+A	0.901	en_fr	ninny	mini	decoder	nɪni	mini	CVCV	2	2	0	0.0	0.0	0	1	n|C	i|V	m|C	i|V	n:m ɪ:i n:n i:i
+A	0.9	en_fr	weeks	luxe	decoder	wiːks	lyks	CVCC	1	1	0	0.0	0.0	0	1	w|C	s|C	l|C	s|C	w:l i:y k:k s:s
+A	0.899	en_fr	wracking	ricaine	decoder	ɹækɪŋ	ʁikɛn	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	ŋ|C	ɹ|C	n|C	ɹ:ɹ æ:i k:k ɪ:ɛ ŋ:n
+A	0.899	en_fr	racking	ricaine	decoder	ɹækɪŋ	ʁikɛn	CVCVC	2	2	0	0.0	0.0	0	1	ɹ|C	ŋ|C	ɹ|C	n|C	ɹ:ɹ æ:i k:k ɪ:ɛ ŋ:n
+A	0.899	en_fr	fording	fontaine	decoder	fɔːdɪŋ	fɔ̃tɛn	CVCVC	2	2	0	0.0	0.0	0	1	f|C	ŋ|C	f|C	n|C	f:f ɔ:ɔ̃ d:t ɪ:ɛ ŋ:n
+A	0.899	en_fr	dinky	tain qui	multiword,decoder	dɪŋki	tɛ̃ ki	CVCCV	2	2	0	0.0	0.0	0	1	d|C	i|V	t|C	i|V	d:t ɪ:ɛ ŋ:n k:k i:i
+A	0.897	en_fr	kneading	meeting	decoder	niːdɪŋ	mitiŋ	CVCVC	2	2	0	0.0	0.0	0	1	n|C	ŋ|C	m|C	ŋ|C	n:m i:i d:t ɪ:i ŋ:ŋ
+A	0.896	en_fr	kneader	midi	decoder	niːdɐ	midi	CVCV	2	2	0	0.0	0.0	0	1	n|C	ɐ|V	m|C	i|V	n:m i:i d:d ɐ:i
+A	0.892	en_fr	weeding	leasing	decoder	wiːdɪŋ	liziŋ	CVCVC	2	2	0	0.0	0.0	0	1	w|C	ŋ|C	l|C	ŋ|C	w:l i:i d:z ɪ:i ŋ:ŋ
+A	0.891	en_fr	lection	lexème	decoder	lɛkʃən	lɛksɛm	CVCCVC	2	2	0	0.0	0.0	0	1	l|C	n|C	l|C	m|C	l:l ɛ:ɛ k:k ʃ:s ə:ɛ n:m
+A	0.89	en_fr	dishy	déchu	decoder	dɪʃi	deʃy	CVCV	2	2	0	0.0	0.0	0	1	d|C	i|V	d|C	y|V	d:d ɪ:e ʃ:ʃ i:y
+A	0.887	en_fr	easing	usine	decoder	iːzɪŋ	yzin	VCVC	2	2	0	0.0	0.0	0	1	i|V	ŋ|C	y|V	n|C	i:y z:z ɪ:i ŋ:n
+A	0.887	en_fr	cooing	couine	decoder	kuːɪŋ	kwin	CVVC	2	1	1	0.0	0.0	0	1	k|C	ŋ|C	k|C	n|C	k:k u:w ɪ:i ŋ:n
+A	0.886	en_fr	tissue	tissu	decoder	tɪʃuː	tisy	CVCV	2	2	0	0.0	0.0	0	1	t|C	u|V	t|C	y|V	t:t ɪ:i ʃ:s u:y
+A	0.886	en_fr	nisi	niché	decoder	nɪsi	niʃe	CVCV	2	2	0	0.0	0.0	0	1	n|C	i|V	n|C	e|V	n:n ɪ:i s:ʃ i:e
+A	0.886	en_fr	eggers	écosse	decoder	ɛɡəz	ekɔs	VCVC	2	2	0	0.0	0.0	0	1	ɛ|V	z|C	e|V	s|C	ɛ:e ɡ:k ə:ɔ z:s
+A	0.886	en_fr	amyl	habile	decoder	æmɪl	abil	VCVC	2	2	0	0.0	0.0	0	1	æ|V	l|C	a|V	l|C	æ:a m:b ɪ:i l:l
+A	0.882	en_fr	pecking	béguines	decoder	pɛkɪŋ	beɡin	CVCVC	2	2	0	0.0	0.0	0	1	p|C	ŋ|C	b|C	n|C	p:b ɛ:e k:ɡ ɪ:i ŋ:n
+A	0.881	en_fr	zigs	sexe	decoder	zɪɡz	sɛks	CVCC	1	1	0	0.0	0.0	0	1	z|C	z|C	s|C	s|C	z:s ɪ:ɛ ɡ:k z:s
+A	0.881	en_fr	wrecked	rixe	decoder	ɹɛkt	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	s|C	ɹ:ɹ ɛ:i k:k t:s
+A	0.881	en_fr	wracked	rixe	decoder	ɹækt	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	s|C	ɹ:ɹ æ:i k:k t:s
+A	0.881	en_fr	titian	déchaîne	decoder	tɪʃən	deʃen	CVCVC	2	2	0	0.0	0.0	0	1	t|C	n|C	d|C	n|C	t:d ɪ:e ʃ:ʃ ə:e n:n
+A	0.881	en_fr	span	speed	decoder	spæn	spid	CCVC	1	1	0	0.0	0.0	0	1	s|C	n|C	s|C	d|C	s:s p:p æ:i n:d
+A	0.881	en_fr	rucked	rixe	decoder	ɹʌkt	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	s|C	ɹ:ɹ ʌ:i k:k t:s
+A	0.881	en_fr	rags	rixe	decoder	ɹæɡz	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	z|C	ɹ|C	s|C	ɹ:ɹ æ:i ɡ:k z:s
+A	0.881	en_fr	racked	rixe	decoder	ɹækt	ʁiks	CVCC	1	1	0	0.0	0.0	0	1	ɹ|C	t|C	ɹ|C	s|C	ɹ:ɹ æ:i k:k t:s
+A	0.881	en_fr	nippy	dépit	decoder	nɪpi	depi	CVCV	2	2	0	0.0	0.0	0	1	n|C	i|V	d|C	i|V	n:d ɪ:e p:p i:i
+A	0.881	en_fr	niffy	défi	decoder	nɪfi	defi	CVCV	2	2	0	0.0	0.0	0	1	n|C	i|V	d|C	i|V	n:d ɪ:e f:f i:i
+A	0.881	en_fr	lept	loft	decoder	lɛpt	lɔft	CVCC	1	1	0	0.0	0.0	0	1	l|C	t|C	l|C	t|C	l:l ɛ:ɔ p:f t:t
+A	0.881	en_fr	leapt	loft	decoder	lɛpt	lɔft	CVCC	1	1	0	0.0	0.0	0	1	l|C	t|C	l|C	t|C	l:l ɛ:ɔ p:f t:t
+A	0.881	en_fr	chough	ciao	decoder	tʃəʊ	tʃao	CC·V	2	2	0	0.25	0.25	0	1	t|C	ʊ|V	t|C	o|V	t:t ʃ:ʃ ·:a o:o
+A	0.881	en_fr	chid	jet	decoder	tʃɪd	ʒɛ	·CV·	1	1	0	0.5	0.5	0	0	t|C	d|C	ʒ|C	ɛ|V	t:· ʃ:ʒ ɪ:ɛ d:·
+A	0.881	en_fr	chess	jet	decoder	tʃɛs	ʒɛ	·CV·	1	1	0	0.5	0.5	0	0	t|C	s|C	ʒ|C	ɛ|V	t:· ʃ:ʒ ɛ:ɛ s:·
+A	0.881	en_fr	bugs	box	decoder	bʌɡz	bɔks	CVCC	1	1	0	0.0	0.0	0	1	b|C	z|C	b|C	s|C	b:b ʌ:ɔ ɡ:k z:s
