@@ -1,0 +1,22 @@
+ORIGINAL    the pale moon lights the quiet sea
+HOMOPHONIC  Pâli des riment light soft si     [fr, drift=0.55]
+      pale → pâli  (sound 0.92 · sense 0.63)  «synonym: pallid»
+      moon → des riment  (sound 0.95 · sense 0.34)  «synonym: daydream»
+      lights → light  (sound 0.92 · sense 0.84)
+      quiet → soft  (sound 1.00 · sense 0.52)  «synonym: soft»
+      sea → si  (sound 1.00 · sense 0.53)
+
+ORIGINAL    a small bird sings of love
+HOMOPHONIC  Soft sauvent bête son aiment jaunisse love     [fr, drift=0.55]
+      small → soft  (sound 1.00 · sense 0.65)  «synonym: soft»
+      bird → sauvent bête  (sound 0.94 · sense 0.41)  «poetic: soft bird»
+      sings → son aiment jaunisse  (sound 0.92 · sense 0.47)  «description: surname chinese»
+      love → love  (sound 0.92 · sense 1.00)
+
+ORIGINAL    the cold night holds the world
+HOMOPHONIC  Cool sauvent natte [holds] dominent     [fr, drift=0.55]
+      cold → cool  (sound 1.00 · sense 0.47)  «synonym: cool»
+      night → sauvent natte  (sound 0.96 · sense 0.50)  «poetic: soft night»
+      holds: no transfer
+      world → dominent  (sound 0.94 · sense 0.70)  «synonym: domain»
+
