@@ -184,6 +184,31 @@ def polish(words):
     return s[:1].upper() + s[1:] if s else s
 
 
+def word_options(w, root, voice, model, drift, k=5):
+    """Top-k homophone renderings for one source word (for the LLM arranger)."""
+    anchor = model.encode([w], normalize_embeddings=True, show_progress_bar=False)[0]
+    scored = []
+    for txt, kind in candidates(w):
+        r = subprocess.run(["espeak-ng", "-q", "--ipa", "-v", voice, txt],
+                           capture_output=True, text=True, check=True)
+        ipa = clean_ipa(r.stdout.strip())
+        for c in pd.decode(ipa, root, top_n=6, max_words=8):
+            if c["coverage"] >= 0.78 and c["expensive_deletions"] == 0:
+                v = model.encode([c["fr"]], normalize_embeddings=True,
+                                 show_progress_bar=False)[0]
+                sem = max(0.0, float(np.dot(anchor, v)))
+                scored.append({"tgt": c["fr"], "sound": c["similarity"],
+                               "sem": sem, "blend": c["similarity"] * ((1 - drift) + drift * sem)})
+    scored.sort(key=lambda x: -x["blend"])
+    seen, out = set(), []
+    for s in scored:
+        if s["tgt"] not in seen:
+            seen.add(s["tgt"]); out.append(s)
+        if len(out) >= k:
+            break
+    return out
+
+
 def translate_line(sent, root, voice, model, drift):
     words = [w.lower().strip(".,!?;:\"'") for w in sent.split()]
     rendered, detail = [], []
@@ -225,6 +250,8 @@ def main():
                     help="0 = pure sound (surreal), 1 = hold meaning hard")
     ap.add_argument("--text", default=None)
     ap.add_argument("--show-work", action="store_true")
+    ap.add_argument("--llm", action="store_true",
+                    help="add the LLM fluency layer (needs DEEPSEEK_API_KEY in env)")
     args = ap.parse_args()
 
     text = args.text or sys.stdin.read()
@@ -235,14 +262,40 @@ def main():
     root, voice = build_target_trie(args.pair, None)
     tgt = args.pair.split("-")[1]
 
+    lang_name = {"fr": "French", "es": "Spanish", "ga": "Irish",
+                 "he": "Hebrew", "ar": "Arabic"}.get(tgt, tgt)
+    use_llm = args.llm
+    if args.llm:
+        import llm_layer
+        if not llm_layer.available():
+            out_note = ("  [--llm requested but no key in env; set "
+                        "DEEPSEEK_API_KEY to enable the fluency layer]")
+            use_llm = False
+        else:
+            out_note = f"  [LLM fluency layer: {llm_layer._endpoint()[2]}]"
     out = []
     for ln in lines:
         rendered, detail = translate_line(ln, root, voice, model, args.drift)
         out.append(f"ORIGINAL    {ln.strip()}")
         out.append(f"HOMOPHONIC  {rendered}     [{tgt}, drift={args.drift}]")
+        if use_llm:
+            import llm_layer
+            content = [w.lower().strip(".,!?;:\"'") for w in ln.split()
+                       if w.lower().strip(".,!?;:\"'") not in EN_STOP]
+            opts = [{"src_word": w,
+                     "renderings": word_options(w, root, voice, model, args.drift)}
+                    for w in content if w]
+            opts = [o for o in opts if o["renderings"]]
+            res = llm_layer.arrange_line(ln.strip(), lang_name, opts)
+            if res and res.get("line"):
+                out.append(f"FLUENT      {res['line']}")
+                if res.get("gloss"):
+                    out.append(f"  (gloss: {res['gloss']})")
         if args.show_work:
             out.extend(detail)
         out.append("")
+    if args.llm:
+        out.insert(0, out_note)
     text_out = "\n".join(out)
     print(text_out)
     json.dump(_cache, open(CACHE_PATH, "w"))
