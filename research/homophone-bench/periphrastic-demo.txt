@@ -1,0 +1,14 @@
+
+EN: the pale moon lights the quiet sea and a small bird sings of love in the cold night
+FR: · pâli des riment light · soft si · · soft sauvent bête son aiment jaunisse · love · · cool sauvent natte
+    pale -> pâli   (snd 0.92, sem 0.63)  via synonym 'pallid'
+    moon -> des riment   (snd 0.95, sem 0.34)  via synonym 'daydream'
+    lights -> light   (snd 0.92, sem 0.84)
+    quiet -> soft   (snd 1.00, sem 0.52)  via synonym 'soft'
+    sea -> si   (snd 1.00, sem 0.53)
+    small -> soft   (snd 1.00, sem 0.65)  via synonym 'soft'
+    bird -> sauvent bête   (snd 0.94, sem 0.41)  via poetic 'soft bird'
+    sings -> son aiment jaunisse   (snd 0.92, sem 0.47)  via description 'surname chinese'
+    love -> love   (snd 0.92, sem 1.00)
+    cold -> cool   (snd 1.00, sem 0.47)  via synonym 'cool'
+    night -> sauvent natte   (snd 0.96, sem 0.50)  via poetic 'soft night'
