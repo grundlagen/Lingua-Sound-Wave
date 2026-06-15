@@ -1,0 +1,5483 @@
+[
+{
+"src": "to",
+"tgt": "tu",
+"score": 1.0,
+"src_ipa": "tuː",
+"tgt_ipa": "tu"
+},
+{
+"src": "for",
+"tgt": "flor",
+"score": 0.657,
+"src_ipa": "fɔːɹ",
+"tgt_ipa": "floɾ"
+},
+{
+"src": "this",
+"tgt": "seis",
+"score": 0.633,
+"src_ipa": "ðɪs",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "be",
+"tgt": "vi",
+"score": 1.0,
+"src_ipa": "biː",
+"tgt_ipa": "bi"
+},
+{
+"src": "at",
+"tgt": "et",
+"score": 0.637,
+"src_ipa": "æt",
+"tgt_ipa": "et"
+},
+{
+"src": "he",
+"tgt": "si",
+"score": 0.621,
+"src_ipa": "hiː",
+"tgt_ipa": "si"
+},
+{
+"src": "by",
+"tgt": "vais",
+"score": 0.814,
+"src_ipa": "baɪ",
+"tgt_ipa": "baɪs"
+},
+{
+"src": "but",
+"tgt": "bot",
+"score": 0.73,
+"src_ipa": "bʌt",
+"tgt_ipa": "bot"
+},
+{
+"src": "my",
+"tgt": "may",
+"score": 1.0,
+"src_ipa": "maɪ",
+"tgt_ipa": "maɪ"
+},
+{
+"src": "we",
+"tgt": "wifi",
+"score": 0.791,
+"src_ipa": "wiː",
+"tgt_ipa": "wifi"
+},
+{
+"src": "an",
+"tgt": "en",
+"score": 0.637,
+"src_ipa": "æn",
+"tgt_ipa": "en"
+},
+{
+"src": "so",
+"tgt": "soy",
+"score": 0.725,
+"src_ipa": "soʊ",
+"tgt_ipa": "soɪ"
+},
+{
+"src": "they",
+"tgt": "hey",
+"score": 0.737,
+"src_ipa": "ðeɪ",
+"tgt_ipa": "eɪ"
+},
+{
+"src": "me",
+"tgt": "mi",
+"score": 1.0,
+"src_ipa": "miː",
+"tgt_ipa": "mi"
+},
+{
+"src": "can",
+"tgt": "con",
+"score": 0.69,
+"src_ipa": "kæn",
+"tgt_ipa": "kon"
+},
+{
+"src": "will",
+"tgt": "mail",
+"score": 0.623,
+"src_ipa": "wɪl",
+"tgt_ipa": "maɪl"
+},
+{
+"src": "like",
+"tgt": "live",
+"score": 0.711,
+"src_ipa": "laɪk",
+"tgt_ipa": "laɪβ"
+},
+{
+"src": "up",
+"tgt": "op",
+"score": 0.637,
+"src_ipa": "ʌp",
+"tgt_ipa": "op"
+},
+{
+"src": "out",
+"tgt": "auto",
+"score": 0.781,
+"src_ipa": "aʊt",
+"tgt_ipa": "aʊto"
+},
+{
+"src": "what",
+"tgt": "with",
+"score": 0.71,
+"src_ipa": "wʌt",
+"tgt_ipa": "wit"
+},
+{
+"src": "when",
+"tgt": "cuentan",
+"score": 0.661,
+"src_ipa": "wɛn",
+"tgt_ipa": "kwɛntan"
+},
+{
+"src": "more",
+"tgt": "motor",
+"score": 0.843,
+"src_ipa": "moːɹ",
+"tgt_ipa": "motoɾ"
+},
+{
+"src": "do",
+"tgt": "du",
+"score": 1.0,
+"src_ipa": "duː",
+"tgt_ipa": "du"
+},
+{
+"src": "no",
+"tgt": "nos",
+"score": 0.716,
+"src_ipa": "noʊ",
+"tgt_ipa": "nos"
+},
+{
+"src": "who",
+"tgt": "uh",
+"score": 0.67,
+"src_ipa": "huː",
+"tgt_ipa": "u"
+},
+{
+"src": "time",
+"tgt": "tan",
+"score": 0.67,
+"src_ipa": "taɪm",
+"tgt_ipa": "tan"
+},
+{
+"src": "been",
+"tgt": "ven",
+"score": 0.71,
+"src_ipa": "bɪn",
+"tgt_ipa": "ben"
+},
+{
+"src": "new",
+"tgt": "onu",
+"score": 0.716,
+"src_ipa": "nuː",
+"tgt_ipa": "onu"
+},
+{
+"src": "people",
+"tgt": "apple",
+"score": 0.695,
+"src_ipa": "piːpəl",
+"tgt_ipa": "apəl"
+},
+{
+"src": "how",
+"tgt": "au",
+"score": 0.766,
+"src_ipa": "haʊ",
+"tgt_ipa": "aʊ"
+},
+{
+"src": "some",
+"tgt": "sam",
+"score": 0.73,
+"src_ipa": "sʌm",
+"tgt_ipa": "sam"
+},
+{
+"src": "now",
+"tgt": "au",
+"score": 0.744,
+"src_ipa": "naʊ",
+"tgt_ipa": "aʊ"
+},
+{
+"src": "its",
+"tgt": "tuits",
+"score": 0.66,
+"src_ipa": "ɪts",
+"tgt_ipa": "twits"
+},
+{
+"src": "our",
+"tgt": "au",
+"score": 1.0,
+"src_ipa": "aʊɚ",
+"tgt_ipa": "aʊ"
+},
+{
+"src": "only",
+"tgt": "online",
+"score": 0.679,
+"src_ipa": "oʊnli",
+"tgt_ipa": "online"
+},
+{
+"src": "first",
+"tgt": "est",
+"score": 0.661,
+"src_ipa": "fɜːst",
+"tgt_ipa": "est"
+},
+{
+"src": "into",
+"tgt": "saint",
+"score": 0.624,
+"src_ipa": "ɪntʊ",
+"tgt_ipa": "saɪnt"
+},
+{
+"src": "know",
+"tgt": "no",
+"score": 0.766,
+"src_ipa": "noʊ",
+"tgt_ipa": "no"
+},
+{
+"src": "see",
+"tgt": "si",
+"score": 1.0,
+"src_ipa": "siː",
+"tgt_ipa": "si"
+},
+{
+"src": "two",
+"tgt": "tu",
+"score": 1.0,
+"src_ipa": "tuː",
+"tgt_ipa": "tu"
+},
+{
+"src": "make",
+"tgt": "me",
+"score": 0.682,
+"src_ipa": "meɪk",
+"tgt_ipa": "me"
+},
+{
+"src": "think",
+"tgt": "link",
+"score": 0.628,
+"src_ipa": "θɪŋk",
+"tgt_ipa": "liŋk"
+},
+{
+"src": "any",
+"tgt": "henry",
+"score": 0.809,
+"src_ipa": "ɛni",
+"tgt_ipa": "ɛnɾi"
+},
+{
+"src": "back",
+"tgt": "black",
+"score": 0.655,
+"src_ipa": "bæk",
+"tgt_ipa": "blak"
+},
+{
+"src": "us",
+"tgt": "es",
+"score": 0.637,
+"src_ipa": "ʌs",
+"tgt_ipa": "es"
+},
+{
+"src": "want",
+"tgt": "what",
+"score": 0.646,
+"src_ipa": "wɔnt",
+"tgt_ipa": "wat"
+},
+{
+"src": "go",
+"tgt": "gol",
+"score": 0.683,
+"src_ipa": "ɡoʊ",
+"tgt_ipa": "ɡol"
+},
+{
+"src": "said",
+"tgt": "sed",
+"score": 0.733,
+"src_ipa": "sɛd",
+"tgt_ipa": "sed"
+},
+{
+"src": "way",
+"tgt": "ue",
+"score": 0.766,
+"src_ipa": "weɪ",
+"tgt_ipa": "we"
+},
+{
+"src": "most",
+"tgt": "mostró",
+"score": 0.678,
+"src_ipa": "moʊst",
+"tgt_ipa": "mostɾo"
+},
+{
+"src": "much",
+"tgt": "macho",
+"score": 0.628,
+"src_ipa": "mʌtʃ",
+"tgt_ipa": "matʃo"
+},
+{
+"src": "very",
+"tgt": "free",
+"score": 0.655,
+"src_ipa": "vɛɹi",
+"tgt_ipa": "fɾi"
+},
+{
+"src": "where",
+"tgt": "huir",
+"score": 0.713,
+"src_ipa": "wɛɹ",
+"tgt_ipa": "wiɾ"
+},
+{
+"src": "even",
+"tgt": "in",
+"score": 0.675,
+"src_ipa": "iːvən",
+"tgt_ipa": "in"
+},
+{
+"src": "may",
+"tgt": "me",
+"score": 0.766,
+"src_ipa": "meɪ",
+"tgt_ipa": "me"
+},
+{
+"src": "here",
+"tgt": "air",
+"score": 0.682,
+"src_ipa": "hɪɹ",
+"tgt_ipa": "aɪɾ"
+},
+{
+"src": "need",
+"tgt": "ni",
+"score": 0.757,
+"src_ipa": "niːd",
+"tgt_ipa": "ni"
+},
+{
+"src": "right",
+"tgt": "ray",
+"score": 0.814,
+"src_ipa": "ɹaɪt",
+"tgt_ipa": "raɪ"
+},
+{
+"src": "year",
+"tgt": "air",
+"score": 0.679,
+"src_ipa": "jɪɹ",
+"tgt_ipa": "aɪɾ"
+},
+{
+"src": "being",
+"tgt": "vi",
+"score": 0.683,
+"src_ipa": "biːɪŋ",
+"tgt_ipa": "bi"
+},
+{
+"src": "day",
+"tgt": "de",
+"score": 0.766,
+"src_ipa": "deɪ",
+"tgt_ipa": "de"
+},
+{
+"src": "too",
+"tgt": "tu",
+"score": 1.0,
+"src_ipa": "tuː",
+"tgt_ipa": "tu"
+},
+{
+"src": "going",
+"tgt": "go",
+"score": 0.656,
+"src_ipa": "ɡoʊɪŋ",
+"tgt_ipa": "ɡo"
+},
+{
+"src": "before",
+"tgt": "for",
+"score": 0.781,
+"src_ipa": "bᵻfoːɹ",
+"tgt_ipa": "foɾ"
+},
+{
+"src": "off",
+"tgt": "of",
+"score": 0.642,
+"src_ipa": "ɔf",
+"tgt_ipa": "of"
+},
+{
+"src": "why",
+"tgt": "hay",
+"score": 0.761,
+"src_ipa": "waɪ",
+"tgt_ipa": "aɪ"
+},
+{
+"src": "made",
+"tgt": "me",
+"score": 0.714,
+"src_ipa": "meɪd",
+"tgt_ipa": "me"
+},
+{
+"src": "take",
+"tgt": "te",
+"score": 0.682,
+"src_ipa": "teɪk",
+"tgt_ipa": "te"
+},
+{
+"src": "many",
+"tgt": "mini",
+"score": 0.772,
+"src_ipa": "mɛni",
+"tgt_ipa": "mini"
+},
+{
+"src": "life",
+"tgt": "live",
+"score": 0.77,
+"src_ipa": "laɪf",
+"tgt_ipa": "laɪβ"
+},
+{
+"src": "say",
+"tgt": "seis",
+"score": 0.814,
+"src_ipa": "seɪ",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "down",
+"tgt": "dan",
+"score": 0.818,
+"src_ipa": "daʊn",
+"tgt_ipa": "dan"
+},
+{
+"src": "great",
+"tgt": "green",
+"score": 0.69,
+"src_ipa": "ɡɹeɪt",
+"tgt_ipa": "ɡɾeen"
+},
+{
+"src": "through",
+"tgt": "perú",
+"score": 0.625,
+"src_ipa": "θɹuː",
+"tgt_ipa": "peɾu"
+},
+{
+"src": "last",
+"tgt": "west",
+"score": 0.66,
+"src_ipa": "læst",
+"tgt_ipa": "west"
+},
+{
+"src": "while",
+"tgt": "mail",
+"score": 0.743,
+"src_ipa": "waɪl",
+"tgt_ipa": "maɪl"
+},
+{
+"src": "best",
+"tgt": "post",
+"score": 0.64,
+"src_ipa": "bɛst",
+"tgt_ipa": "post"
+},
+{
+"src": "man",
+"tgt": "min",
+"score": 0.71,
+"src_ipa": "mæn",
+"tgt_ipa": "min"
+},
+{
+"src": "look",
+"tgt": "link",
+"score": 0.625,
+"src_ipa": "lʊk",
+"tgt_ipa": "liŋk"
+},
+{
+"src": "use",
+"tgt": "us",
+"score": 0.761,
+"src_ipa": "juːs",
+"tgt_ipa": "us"
+},
+{
+"src": "same",
+"tgt": "seis",
+"score": 0.743,
+"src_ipa": "seɪm",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "both",
+"tgt": "voz",
+"score": 0.818,
+"src_ipa": "boʊθ",
+"tgt_ipa": "boθ"
+},
+{
+"src": "every",
+"tgt": "henry",
+"score": 0.733,
+"src_ipa": "ɛvɹi",
+"tgt_ipa": "ɛnɾi"
+},
+{
+"src": "come",
+"tgt": "com",
+"score": 0.73,
+"src_ipa": "kʌm",
+"tgt_ipa": "kom"
+},
+{
+"src": "part",
+"tgt": "parte",
+"score": 0.64,
+"src_ipa": "pɑːɹt",
+"tgt_ipa": "paɾte"
+},
+{
+"src": "state",
+"tgt": "test",
+"score": 0.737,
+"src_ipa": "steɪt",
+"tgt_ipa": "test"
+},
+{
+"src": "three",
+"tgt": "free",
+"score": 0.708,
+"src_ipa": "θɹiː",
+"tgt_ipa": "fɾi"
+},
+{
+"src": "around",
+"tgt": "aun",
+"score": 0.663,
+"src_ipa": "ɚɹaʊnd",
+"tgt_ipa": "aʊn"
+},
+{
+"src": "between",
+"tgt": "berlín",
+"score": 0.666,
+"src_ipa": "bᵻtwiːn",
+"tgt_ipa": "beɾlin"
+},
+{
+"src": "better",
+"tgt": "ver",
+"score": 0.733,
+"src_ipa": "bɛɾɚ",
+"tgt_ipa": "beɾ"
+},
+{
+"src": "find",
+"tgt": "saint",
+"score": 0.63,
+"src_ipa": "faɪnd",
+"tgt_ipa": "saɪnt"
+},
+{
+"src": "high",
+"tgt": "hay",
+"score": 0.766,
+"src_ipa": "haɪ",
+"tgt_ipa": "aɪ"
+},
+{
+"src": "little",
+"tgt": "lol",
+"score": 0.645,
+"src_ipa": "lɪɾəl",
+"tgt_ipa": "lol"
+},
+{
+"src": "old",
+"tgt": "world",
+"score": 0.643,
+"src_ipa": "oʊld",
+"tgt_ipa": "woɾld"
+},
+{
+"src": "own",
+"tgt": "on",
+"score": 0.766,
+"src_ipa": "oʊn",
+"tgt_ipa": "on"
+},
+{
+"src": "under",
+"tgt": "and",
+"score": 0.73,
+"src_ipa": "ʌndɚ",
+"tgt_ipa": "and"
+},
+{
+"src": "house",
+"tgt": "causas",
+"score": 0.673,
+"src_ipa": "haʊs",
+"tgt_ipa": "kaʊsas"
+},
+{
+"src": "place",
+"tgt": "pais",
+"score": 0.707,
+"src_ipa": "pleɪs",
+"tgt_ipa": "paɪs"
+},
+{
+"src": "school",
+"tgt": "culo",
+"score": 0.643,
+"src_ipa": "skuːl",
+"tgt_ipa": "kulo"
+},
+{
+"src": "each",
+"tgt": "it",
+"score": 0.716,
+"src_ipa": "iːtʃ",
+"tgt_ipa": "it"
+},
+{
+"src": "against",
+"tgt": "extensa",
+"score": 0.632,
+"src_ipa": "ɐɡɛnst",
+"tgt_ipa": "ekstɛnsa"
+},
+{
+"src": "end",
+"tgt": "ende",
+"score": 0.789,
+"src_ipa": "ɛnd",
+"tgt_ipa": "ɛnde"
+},
+{
+"src": "found",
+"tgt": "fauna",
+"score": 0.784,
+"src_ipa": "faʊnd",
+"tgt_ipa": "faʊna"
+},
+{
+"src": "must",
+"tgt": "post",
+"score": 0.64,
+"src_ipa": "mʌst",
+"tgt_ipa": "post"
+},
+{
+"src": "feel",
+"tgt": "fila",
+"score": 0.781,
+"src_ipa": "fiːl",
+"tgt_ipa": "fila"
+},
+{
+"src": "team",
+"tgt": "tim",
+"score": 1.0,
+"src_ipa": "tiːm",
+"tgt_ipa": "tim"
+},
+{
+"src": "keep",
+"tgt": "kim",
+"score": 0.69,
+"src_ipa": "kiːp",
+"tgt_ipa": "kim"
+},
+{
+"src": "might",
+"tgt": "may",
+"score": 0.814,
+"src_ipa": "maɪt",
+"tgt_ipa": "maɪ"
+},
+{
+"src": "put",
+"tgt": "post",
+"score": 0.673,
+"src_ipa": "pʊt",
+"tgt_ipa": "post"
+},
+{
+"src": "money",
+"tgt": "mini",
+"score": 0.77,
+"src_ipa": "mʌni",
+"tgt_ipa": "mini"
+},
+{
+"src": "free",
+"tgt": "frío",
+"score": 0.781,
+"src_ipa": "fɹiː",
+"tgt_ipa": "fɾio"
+},
+{
+"src": "away",
+"tgt": "hey",
+"score": 0.705,
+"src_ipa": "ɐweɪ",
+"tgt_ipa": "eɪ"
+},
+{
+"src": "city",
+"tgt": "si",
+"score": 0.71,
+"src_ipa": "sɪɾi",
+"tgt_ipa": "si"
+},
+{
+"src": "days",
+"tgt": "de",
+"score": 0.71,
+"src_ipa": "deɪz",
+"tgt_ipa": "de"
+},
+{
+"src": "name",
+"tgt": "new",
+"score": 0.653,
+"src_ipa": "neɪm",
+"tgt_ipa": "new"
+},
+{
+"src": "night",
+"tgt": "not",
+"score": 0.677,
+"src_ipa": "naɪt",
+"tgt_ipa": "not"
+},
+{
+"src": "play",
+"tgt": "ley",
+"score": 0.781,
+"src_ipa": "pleɪ",
+"tgt_ipa": "leɪ"
+},
+{
+"src": "doing",
+"tgt": "du",
+"score": 0.683,
+"src_ipa": "duːɪŋ",
+"tgt_ipa": "du"
+},
+{
+"src": "let",
+"tgt": "lento",
+"score": 0.633,
+"src_ipa": "lɛt",
+"tgt_ipa": "lɛnto"
+},
+{
+"src": "real",
+"tgt": "rival",
+"score": 0.708,
+"src_ipa": "ɹiːəl",
+"tgt_ipa": "riβal"
+},
+{
+"src": "set",
+"tgt": "smith",
+"score": 0.642,
+"src_ipa": "sɛt",
+"tgt_ipa": "smit"
+},
+{
+"src": "done",
+"tgt": "dan",
+"score": 0.73,
+"src_ipa": "dʌn",
+"tgt_ipa": "dan"
+},
+{
+"src": "god",
+"tgt": "good",
+"score": 0.633,
+"src_ipa": "ɡɑːd",
+"tgt_ipa": "ɡood"
+},
+{
+"src": "group",
+"tgt": "grupo",
+"score": 0.822,
+"src_ipa": "ɡɹuːp",
+"tgt_ipa": "ɡɾupo"
+},
+{
+"src": "care",
+"tgt": "querer",
+"score": 0.657,
+"src_ipa": "kɛɹ",
+"tgt_ipa": "keɾeɾ"
+},
+{
+"src": "start",
+"tgt": "star",
+"score": 0.66,
+"src_ipa": "stɑːɹt",
+"tgt_ipa": "staɾ"
+},
+{
+"src": "times",
+"tgt": "tan",
+"score": 0.638,
+"src_ipa": "taɪmz",
+"tgt_ipa": "tan"
+},
+{
+"src": "week",
+"tgt": "tic",
+"score": 0.712,
+"src_ipa": "wiːk",
+"tgt_ipa": "tik"
+},
+{
+"src": "case",
+"tgt": "seis",
+"score": 0.743,
+"src_ipa": "keɪs",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "person",
+"tgt": "pan",
+"score": 0.643,
+"src_ipa": "pɜːsən",
+"tgt_ipa": "pan"
+},
+{
+"src": "today",
+"tgt": "hey",
+"score": 0.672,
+"src_ipa": "tədeɪ",
+"tgt_ipa": "eɪ"
+},
+{
+"src": "change",
+"tgt": "che",
+"score": 0.694,
+"src_ipa": "tʃeɪndʒ",
+"tgt_ipa": "tʃe"
+},
+{
+"src": "full",
+"tgt": "fiel",
+"score": 0.644,
+"src_ipa": "fʊl",
+"tgt_ipa": "fjel"
+},
+{
+"src": "live",
+"tgt": "la",
+"score": 0.682,
+"src_ipa": "laɪv",
+"tgt_ipa": "la"
+},
+{
+"src": "point",
+"tgt": "saint",
+"score": 0.661,
+"src_ipa": "pɔɪnt",
+"tgt_ipa": "saɪnt"
+},
+{
+"src": "read",
+"tgt": "id",
+"score": 0.753,
+"src_ipa": "ɹiːd",
+"tgt_ipa": "id"
+},
+{
+"src": "told",
+"tgt": "world",
+"score": 0.622,
+"src_ipa": "toʊld",
+"tgt_ipa": "woɾld"
+},
+{
+"src": "four",
+"tgt": "for",
+"score": 1.0,
+"src_ipa": "foːɹ",
+"tgt_ipa": "foɾ"
+},
+{
+"src": "hard",
+"tgt": "ford",
+"score": 0.633,
+"src_ipa": "hɑːɹd",
+"tgt_ipa": "foɾd"
+},
+{
+"src": "mean",
+"tgt": "min",
+"score": 1.0,
+"src_ipa": "miːn",
+"tgt_ipa": "min"
+},
+{
+"src": "once",
+"tgt": "fans",
+"score": 0.648,
+"src_ipa": "wʌns",
+"tgt_ipa": "fans"
+},
+{
+"src": "support",
+"tgt": "soporte",
+"score": 0.724,
+"src_ipa": "səpoːɹt",
+"tgt_ipa": "sopoɾte"
+},
+{
+"src": "tell",
+"tgt": "tel",
+"score": 0.733,
+"src_ipa": "tɛl",
+"tgt_ipa": "tel"
+},
+{
+"src": "power",
+"tgt": "paul",
+"score": 0.781,
+"src_ipa": "paʊɚ",
+"tgt_ipa": "paʊl"
+},
+{
+"src": "seen",
+"tgt": "sin",
+"score": 1.0,
+"src_ipa": "siːn",
+"tgt_ipa": "sin"
+},
+{
+"src": "states",
+"tgt": "estés",
+"score": 0.705,
+"src_ipa": "steɪts",
+"tgt_ipa": "estes"
+},
+{
+"src": "stop",
+"tgt": "star",
+"score": 0.632,
+"src_ipa": "stɑːp",
+"tgt_ipa": "staɾ"
+},
+{
+"src": "water",
+"tgt": "huir",
+"score": 0.671,
+"src_ipa": "wɔːɾɚ",
+"tgt_ipa": "wiɾ"
+},
+{
+"src": "based",
+"tgt": "bestia",
+"score": 0.681,
+"src_ipa": "beɪst",
+"tgt_ipa": "bestja"
+},
+{
+"src": "believe",
+"tgt": "bla",
+"score": 0.625,
+"src_ipa": "bᵻliːv",
+"tgt_ipa": "bla"
+},
+{
+"src": "call",
+"tgt": "cual",
+"score": 0.659,
+"src_ipa": "kɔːl",
+"tgt_ipa": "kwal"
+},
+{
+"src": "men",
+"tgt": "mente",
+"score": 0.749,
+"src_ipa": "mɛn",
+"tgt_ipa": "mɛnte"
+},
+{
+"src": "small",
+"tgt": "sol",
+"score": 0.657,
+"src_ipa": "smɔːl",
+"tgt_ipa": "sol"
+},
+{
+"src": "took",
+"tgt": "tic",
+"score": 0.69,
+"src_ipa": "tʊk",
+"tgt_ipa": "tik"
+},
+{
+"src": "white",
+"tgt": "what",
+"score": 0.818,
+"src_ipa": "waɪt",
+"tgt_ipa": "wat"
+},
+{
+"src": "came",
+"tgt": "que",
+"score": 0.682,
+"src_ipa": "keɪm",
+"tgt_ipa": "ke"
+},
+{
+"src": "far",
+"tgt": "for",
+"score": 0.7,
+"src_ipa": "fɑːɹ",
+"tgt_ipa": "foɾ"
+},
+{
+"src": "job",
+"tgt": "jazz",
+"score": 0.637,
+"src_ipa": "dʒɑːb",
+"tgt_ipa": "dʒas"
+},
+{
+"src": "side",
+"tgt": "saint",
+"score": 0.736,
+"src_ipa": "saɪd",
+"tgt_ipa": "saɪnt"
+},
+{
+"src": "try",
+"tgt": "ray",
+"score": 0.814,
+"src_ipa": "tɹaɪ",
+"tgt_ipa": "raɪ"
+},
+{
+"src": "went",
+"tgt": "fuente",
+"score": 0.699,
+"src_ipa": "wɛnt",
+"tgt_ipa": "fwɛnte"
+},
+{
+"src": "yes",
+"tgt": "ios",
+"score": 0.69,
+"src_ipa": "jɛs",
+"tgt_ipa": "jos"
+},
+{
+"src": "later",
+"tgt": "ley",
+"score": 0.809,
+"src_ipa": "leɪɾɚ",
+"tgt_ipa": "leɪ"
+},
+{
+"src": "less",
+"tgt": "les",
+"score": 0.733,
+"src_ipa": "lɛs",
+"tgt_ipa": "les"
+},
+{
+"src": "line",
+"tgt": "latín",
+"score": 0.747,
+"src_ipa": "laɪn",
+"tgt_ipa": "latin"
+},
+{
+"src": "order",
+"tgt": "ford",
+"score": 0.678,
+"src_ipa": "ɔːɹdɚ",
+"tgt_ipa": "foɾd"
+},
+{
+"src": "party",
+"tgt": "pri",
+"score": 0.738,
+"src_ipa": "pɑːɹɾi",
+"tgt_ipa": "pɾi"
+},
+{
+"src": "service",
+"tgt": "seis",
+"score": 0.707,
+"src_ipa": "sɜːvɪs",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "country",
+"tgt": "contra",
+"score": 0.675,
+"src_ipa": "kʌntɹi",
+"tgt_ipa": "kontɾa"
+},
+{
+"src": "open",
+"tgt": "on",
+"score": 0.65,
+"src_ipa": "oʊpən",
+"tgt_ipa": "on"
+},
+{
+"src": "season",
+"tgt": "sin",
+"score": 0.762,
+"src_ipa": "siːzən",
+"tgt_ipa": "sin"
+},
+{
+"src": "thank",
+"tgt": "frank",
+"score": 0.625,
+"src_ipa": "θæŋk",
+"tgt_ipa": "fɾaŋk"
+},
+{
+"src": "children",
+"tgt": "chan",
+"score": 0.643,
+"src_ipa": "tʃɪldɹən",
+"tgt_ipa": "tʃan"
+},
+{
+"src": "trying",
+"tgt": "traigo",
+"score": 0.722,
+"src_ipa": "tɹaɪɪŋ",
+"tgt_ipa": "tɾaɪɣo"
+},
+{
+"src": "area",
+"tgt": "henry",
+"score": 0.657,
+"src_ipa": "ɛɹiə",
+"tgt_ipa": "ɛnɾi"
+},
+{
+"src": "black",
+"tgt": "bla",
+"score": 0.655,
+"src_ipa": "blæk",
+"tgt_ipa": "bla"
+},
+{
+"src": "law",
+"tgt": "lo",
+"score": 0.642,
+"src_ipa": "lɔː",
+"tgt_ipa": "lo"
+},
+{
+"src": "makes",
+"tgt": "mes",
+"score": 0.746,
+"src_ipa": "meɪks",
+"tgt_ipa": "mes"
+},
+{
+"src": "war",
+"tgt": "huir",
+"score": 0.671,
+"src_ipa": "wɔːɹ",
+"tgt_ipa": "wiɾ"
+},
+{
+"src": "whole",
+"tgt": "paul",
+"score": 0.622,
+"src_ipa": "hoʊl",
+"tgt_ipa": "paʊl"
+},
+{
+"src": "car",
+"tgt": "crear",
+"score": 0.639,
+"src_ipa": "kɑːɹ",
+"tgt_ipa": "kɾeaɾ"
+},
+{
+"src": "face",
+"tgt": "seis",
+"score": 0.769,
+"src_ipa": "feɪs",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "kind",
+"tgt": "caiga",
+"score": 0.66,
+"src_ipa": "kaɪnd",
+"tgt_ipa": "kaɪɣa"
+},
+{
+"src": "maybe",
+"tgt": "messi",
+"score": 0.69,
+"src_ipa": "meɪbiː",
+"tgt_ipa": "messi"
+},
+{
+"src": "story",
+"tgt": "histórico",
+"score": 0.688,
+"src_ipa": "stoːɹi",
+"tgt_ipa": "istoɾiko"
+},
+{
+"src": "course",
+"tgt": "cortes",
+"score": 0.791,
+"src_ipa": "koːɹs",
+"tgt_ipa": "koɾtes"
+},
+{
+"src": "important",
+"tgt": "importante",
+"score": 0.704,
+"src_ipa": "ɪmpoːɹtənt",
+"tgt_ipa": "impoɾtante"
+},
+{
+"src": "least",
+"tgt": "lista",
+"score": 0.822,
+"src_ipa": "liːst",
+"tgt_ipa": "lista"
+},
+{
+"src": "means",
+"tgt": "min",
+"score": 0.808,
+"src_ipa": "miːnz",
+"tgt_ipa": "min"
+},
+{
+"src": "news",
+"tgt": "nube",
+"score": 0.625,
+"src_ipa": "nuːz",
+"tgt_ipa": "nuβe"
+},
+{
+"src": "able",
+"tgt": "el",
+"score": 0.65,
+"src_ipa": "eɪbəl",
+"tgt_ipa": "el"
+},
+{
+"src": "early",
+"tgt": "li",
+"score": 0.716,
+"src_ipa": "ɜːli",
+"tgt_ipa": "li"
+},
+{
+"src": "friends",
+"tgt": "frente",
+"score": 0.737,
+"src_ipa": "fɹɛndz",
+"tgt_ipa": "fɾɛnte"
+},
+{
+"src": "local",
+"tgt": "lol",
+"score": 0.713,
+"src_ipa": "loʊkəl",
+"tgt_ipa": "lol"
+},
+{
+"src": "oh",
+"tgt": "hoy",
+"score": 0.629,
+"src_ipa": "oʊ",
+"tgt_ipa": "oɪ"
+},
+{
+"src": "post",
+"tgt": "posts",
+"score": 0.727,
+"src_ipa": "poʊst",
+"tgt_ipa": "posts"
+},
+{
+"src": "social",
+"tgt": "sol",
+"score": 0.713,
+"src_ipa": "soʊʃəl",
+"tgt_ipa": "sol"
+},
+{
+"src": "talk",
+"tgt": "tic",
+"score": 0.671,
+"src_ipa": "tɔːk",
+"tgt_ipa": "tik"
+},
+{
+"src": "court",
+"tgt": "corte",
+"score": 0.828,
+"src_ipa": "koːɹt",
+"tgt_ipa": "koɾte"
+},
+{
+"src": "guys",
+"tgt": "gay",
+"score": 0.808,
+"src_ipa": "ɡaɪz",
+"tgt_ipa": "ɡaɪ"
+},
+{
+"src": "hand",
+"tgt": "and",
+"score": 0.692,
+"src_ipa": "hænd",
+"tgt_ipa": "and"
+},
+{
+"src": "mind",
+"tgt": "may",
+"score": 0.758,
+"src_ipa": "maɪnd",
+"tgt_ipa": "maɪ"
+},
+{
+"src": "body",
+"tgt": "vi",
+"score": 0.676,
+"src_ipa": "bɑːdi",
+"tgt_ipa": "bi"
+},
+{
+"src": "coming",
+"tgt": "kong",
+"score": 0.634,
+"src_ipa": "kʌmɪŋ",
+"tgt_ipa": "koŋ"
+},
+{
+"src": "control",
+"tgt": "controla",
+"score": 0.679,
+"src_ipa": "kəntɹoʊl",
+"tgt_ipa": "kontɾola"
+},
+{
+"src": "death",
+"tgt": "diez",
+"score": 0.691,
+"src_ipa": "dɛθ",
+"tgt_ipa": "djeθ"
+},
+{
+"src": "food",
+"tgt": "ud",
+"score": 0.743,
+"src_ipa": "fuːd",
+"tgt_ipa": "ud"
+},
+{
+"src": "guy",
+"tgt": "gay",
+"score": 1.0,
+"src_ipa": "ɡaɪ",
+"tgt_ipa": "ɡaɪ"
+},
+{
+"src": "hours",
+"tgt": "aun",
+"score": 0.694,
+"src_ipa": "aʊɚz",
+"tgt_ipa": "aʊn"
+},
+{
+"src": "office",
+"tgt": "seis",
+"score": 0.63,
+"src_ipa": "ɑːfɪs",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "pay",
+"tgt": "hey",
+"score": 0.716,
+"src_ipa": "peɪ",
+"tgt_ipa": "eɪ"
+},
+{
+"src": "south",
+"tgt": "san",
+"score": 0.653,
+"src_ipa": "saʊθ",
+"tgt_ipa": "san"
+},
+{
+"src": "true",
+"tgt": "tribu",
+"score": 0.716,
+"src_ipa": "tɹuː",
+"tgt_ipa": "tɾiβu"
+},
+{
+"src": "fuck",
+"tgt": "farc",
+"score": 0.683,
+"src_ipa": "fʌk",
+"tgt_ipa": "faɾk"
+},
+{
+"src": "history",
+"tgt": "triste",
+"score": 0.659,
+"src_ipa": "hɪstɚɹi",
+"tgt_ipa": "tɾiste"
+},
+{
+"src": "known",
+"tgt": "no",
+"score": 0.704,
+"src_ipa": "noʊn",
+"tgt_ipa": "no"
+},
+{
+"src": "large",
+"tgt": "lord",
+"score": 0.627,
+"src_ipa": "lɑːɹdʒ",
+"tgt_ipa": "loɾd"
+},
+{
+"src": "lost",
+"tgt": "west",
+"score": 0.63,
+"src_ipa": "lɔst",
+"tgt_ipa": "west"
+},
+{
+"src": "room",
+"tgt": "rumor",
+"score": 0.738,
+"src_ipa": "ɹuːm",
+"tgt_ipa": "rumoɾ"
+},
+{
+"src": "started",
+"tgt": "star",
+"score": 0.631,
+"src_ipa": "stɑːɹɾᵻd",
+"tgt_ipa": "staɾ"
+},
+{
+"src": "anyone",
+"tgt": "entran",
+"score": 0.668,
+"src_ipa": "ɛnɪwʌn",
+"tgt_ipa": "ɛntɾan"
+},
+{
+"src": "girl",
+"tgt": "gol",
+"score": 0.71,
+"src_ipa": "ɡɜːl",
+"tgt_ipa": "ɡol"
+},
+{
+"src": "john",
+"tgt": "dan",
+"score": 0.684,
+"src_ipa": "dʒɑːn",
+"tgt_ipa": "dan"
+},
+{
+"src": "matter",
+"tgt": "mar",
+"score": 0.73,
+"src_ipa": "mæɾɚ",
+"tgt_ipa": "maɾ"
+},
+{
+"src": "pretty",
+"tgt": "pri",
+"score": 0.868,
+"src_ipa": "pɹɪɾi",
+"tgt_ipa": "pɾi"
+},
+{
+"src": "bit",
+"tgt": "bot",
+"score": 0.671,
+"src_ipa": "bɪt",
+"tgt_ipa": "bot"
+},
+{
+"src": "friend",
+"tgt": "frente",
+"score": 0.768,
+"src_ipa": "fɹɛnd",
+"tgt_ipa": "fɾɛnte"
+},
+{
+"src": "needs",
+"tgt": "ni",
+"score": 0.704,
+"src_ipa": "niːdz",
+"tgt_ipa": "ni"
+},
+{
+"src": "nice",
+"tgt": "vais",
+"score": 0.733,
+"src_ipa": "naɪs",
+"tgt_ipa": "baɪs"
+},
+{
+"src": "playing",
+"tgt": "pleno",
+"score": 0.673,
+"src_ipa": "pleɪɪŋ",
+"tgt_ipa": "pleno"
+},
+{
+"src": "saying",
+"tgt": "seis",
+"score": 0.715,
+"src_ipa": "seɪɪŋ",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "york",
+"tgt": "farc",
+"score": 0.624,
+"src_ipa": "jɔːɹk",
+"tgt_ipa": "faɾk"
+},
+{
+"src": "class",
+"tgt": "clases",
+"score": 0.698,
+"src_ipa": "klæs",
+"tgt_ipa": "klases"
+},
+{
+"src": "close",
+"tgt": "kilos",
+"score": 0.705,
+"src_ipa": "kloʊs",
+"tgt_ipa": "kilos"
+},
+{
+"src": "idea",
+"tgt": "hay",
+"score": 0.665,
+"src_ipa": "aɪdiə",
+"tgt_ipa": "aɪ"
+},
+{
+"src": "looks",
+"tgt": "los",
+"score": 0.64,
+"src_ipa": "lʊks",
+"tgt_ipa": "los"
+},
+{
+"src": "past",
+"tgt": "post",
+"score": 0.755,
+"src_ipa": "pæst",
+"tgt_ipa": "post"
+},
+{
+"src": "due",
+"tgt": "du",
+"score": 1.0,
+"src_ipa": "duː",
+"tgt_ipa": "du"
+},
+{
+"src": "happy",
+"tgt": "papi",
+"score": 0.634,
+"src_ipa": "hæpi",
+"tgt_ipa": "papi"
+},
+{
+"src": "months",
+"tgt": "más",
+"score": 0.631,
+"src_ipa": "mʌnθs",
+"tgt_ipa": "mas"
+},
+{
+"src": "move",
+"tgt": "muy",
+"score": 0.679,
+"src_ipa": "muːv",
+"tgt_ipa": "muj"
+},
+{
+"src": "question",
+"tgt": "cuentan",
+"score": 0.677,
+"src_ipa": "kwɛstʃən",
+"tgt_ipa": "kwɛntan"
+},
+{
+"src": "wait",
+"tgt": "west",
+"score": 0.773,
+"src_ipa": "weɪt",
+"tgt_ipa": "west"
+},
+{
+"src": "data",
+"tgt": "de",
+"score": 0.673,
+"src_ipa": "deɪɾə",
+"tgt_ipa": "de"
+},
+{
+"src": "late",
+"tgt": "ley",
+"score": 0.814,
+"src_ipa": "leɪt",
+"tgt_ipa": "leɪ"
+},
+{
+"src": "leave",
+"tgt": "libre",
+"score": 0.633,
+"src_ipa": "liːv",
+"tgt_ipa": "liβɾe"
+},
+{
+"src": "either",
+"tgt": "ido",
+"score": 0.716,
+"src_ipa": "iːðɚ",
+"tgt_ipa": "iðo"
+},
+{
+"src": "light",
+"tgt": "live",
+"score": 0.733,
+"src_ipa": "laɪt",
+"tgt_ipa": "laɪβ"
+},
+{
+"src": "low",
+"tgt": "lo",
+"score": 0.766,
+"src_ipa": "loʊ",
+"tgt_ipa": "lo"
+},
+{
+"src": "police",
+"tgt": "país",
+"score": 0.708,
+"src_ipa": "pəliːs",
+"tgt_ipa": "pais"
+},
+{
+"src": "short",
+"tgt": "art",
+"score": 0.625,
+"src_ipa": "ʃɔːɹt",
+"tgt_ipa": "aɾt"
+},
+{
+"src": "stay",
+"tgt": "steve",
+"score": 0.707,
+"src_ipa": "steɪ",
+"tgt_ipa": "steβe"
+},
+{
+"src": "taken",
+"tgt": "ten",
+"score": 0.713,
+"src_ipa": "teɪkən",
+"tgt_ipa": "ten"
+},
+{
+"src": "age",
+"tgt": "hey",
+"score": 0.697,
+"src_ipa": "eɪdʒ",
+"tgt_ipa": "eɪ"
+},
+{
+"src": "buy",
+"tgt": "vais",
+"score": 0.814,
+"src_ipa": "baɪ",
+"tgt_ipa": "baɪs"
+},
+{
+"src": "deal",
+"tgt": "dile",
+"score": 0.789,
+"src_ipa": "diːl",
+"tgt_ipa": "dile"
+},
+{
+"src": "reason",
+"tgt": "rincón",
+"score": 0.652,
+"src_ipa": "ɹiːzən",
+"tgt_ipa": "rinkon"
+},
+{
+"src": "red",
+"tgt": "renta",
+"score": 0.621,
+"src_ipa": "ɹɛd",
+"tgt_ipa": "rɛnta"
+},
+{
+"src": "report",
+"tgt": "reporte",
+"score": 0.735,
+"src_ipa": "ɹᵻpoːɹt",
+"tgt_ipa": "repoɾte"
+},
+{
+"src": "soon",
+"tgt": "un",
+"score": 0.76,
+"src_ipa": "suːn",
+"tgt_ipa": "un"
+},
+{
+"src": "turn",
+"tgt": "tan",
+"score": 0.71,
+"src_ipa": "tɜːn",
+"tgt_ipa": "tan"
+},
+{
+"src": "check",
+"tgt": "che",
+"score": 0.657,
+"src_ipa": "tʃɛk",
+"tgt_ipa": "tʃe"
+},
+{
+"src": "form",
+"tgt": "from",
+"score": 0.651,
+"src_ipa": "fɔːɹm",
+"tgt_ipa": "fɾom"
+},
+{
+"src": "heart",
+"tgt": "art",
+"score": 0.7,
+"src_ipa": "hɑːɹt",
+"tgt_ipa": "aɾt"
+},
+{
+"src": "minutes",
+"tgt": "mis",
+"score": 0.63,
+"src_ipa": "mɪnɪts",
+"tgt_ipa": "mis"
+},
+{
+"src": "myself",
+"tgt": "mail",
+"score": 0.685,
+"src_ipa": "maɪsɛlf",
+"tgt_ipa": "maɪl"
+},
+{
+"src": "child",
+"tgt": "chan",
+"score": 0.696,
+"src_ipa": "tʃaɪld",
+"tgt_ipa": "tʃan"
+},
+{
+"src": "fire",
+"tgt": "hay",
+"score": 0.743,
+"src_ipa": "faɪɚ",
+"tgt_ipa": "aɪ"
+},
+{
+"src": "fun",
+"tgt": "fan",
+"score": 0.73,
+"src_ipa": "fʌn",
+"tgt_ipa": "fan"
+},
+{
+"src": "major",
+"tgt": "me",
+"score": 0.668,
+"src_ipa": "meɪdʒɚ",
+"tgt_ipa": "me"
+},
+{
+"src": "media",
+"tgt": "mi",
+"score": 0.645,
+"src_ipa": "miːdiːə",
+"tgt_ipa": "mi"
+},
+{
+"src": "phone",
+"tgt": "for",
+"score": 0.666,
+"src_ipa": "foʊn",
+"tgt_ipa": "foɾ"
+},
+{
+"src": "players",
+"tgt": "pleno",
+"score": 0.673,
+"src_ipa": "pleɪɚz",
+"tgt_ipa": "pleno"
+},
+{
+"src": "behind",
+"tgt": "and",
+"score": 0.627,
+"src_ipa": "bᵻhaɪnd",
+"tgt_ipa": "and"
+},
+{
+"src": "market",
+"tgt": "mark",
+"score": 0.639,
+"src_ipa": "mɑːɹkɪt",
+"tgt_ipa": "maɾk"
+},
+{
+"src": "near",
+"tgt": "air",
+"score": 0.666,
+"src_ipa": "nɪɹ",
+"tgt_ipa": "aɪɾ"
+},
+{
+"src": "plan",
+"tgt": "pan",
+"score": 0.655,
+"src_ipa": "plæn",
+"tgt_ipa": "pan"
+},
+{
+"src": "political",
+"tgt": "apple",
+"score": 0.621,
+"src_ipa": "pəlɪɾɪkəl",
+"tgt_ipa": "apəl"
+},
+{
+"src": "quite",
+"tgt": "cual",
+"score": 0.713,
+"src_ipa": "kwaɪt",
+"tgt_ipa": "kwal"
+},
+{
+"src": "six",
+"tgt": "seis",
+"score": 0.622,
+"src_ipa": "sɪks",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "west",
+"tgt": "est",
+"score": 0.691,
+"src_ipa": "wɛst",
+"tgt_ipa": "est"
+},
+{
+"src": "works",
+"tgt": "ex",
+"score": 0.674,
+"src_ipa": "wɜːks",
+"tgt_ipa": "eks"
+},
+{
+"src": "according",
+"tgt": "récord",
+"score": 0.654,
+"src_ipa": "ɐkoːɹdɪŋ",
+"tgt_ipa": "rekoɾd"
+},
+{
+"src": "final",
+"tgt": "fatal",
+"score": 0.672,
+"src_ipa": "faɪnəl",
+"tgt_ipa": "fatal"
+},
+{
+"src": "former",
+"tgt": "from",
+"score": 0.651,
+"src_ipa": "fɔːɹmɚ",
+"tgt_ipa": "fɾom"
+},
+{
+"src": "front",
+"tgt": "frente",
+"score": 0.688,
+"src_ipa": "fɹʌnt",
+"tgt_ipa": "fɾɛnte"
+},
+{
+"src": "list",
+"tgt": "west",
+"score": 0.645,
+"src_ipa": "lɪst",
+"tgt_ipa": "west"
+},
+{
+"src": "ready",
+"tgt": "di",
+"score": 0.673,
+"src_ipa": "ɹɛdi",
+"tgt_ipa": "di"
+},
+{
+"src": "son",
+"tgt": "san",
+"score": 0.73,
+"src_ipa": "sʌn",
+"tgt_ipa": "san"
+},
+{
+"src": "street",
+"tgt": "distrito",
+"score": 0.704,
+"src_ipa": "stɹiːt",
+"tgt_ipa": "distɾito"
+},
+{
+"src": "meet",
+"tgt": "smith",
+"score": 0.814,
+"src_ipa": "miːt",
+"tgt_ipa": "smit"
+},
+{
+"src": "program",
+"tgt": "programa",
+"score": 0.623,
+"src_ipa": "pɹoʊɡɹæm",
+"tgt_ipa": "pɾoɣɾama"
+},
+{
+"src": "type",
+"tgt": "top",
+"score": 0.677,
+"src_ipa": "taɪp",
+"tgt_ipa": "top"
+},
+{
+"src": "baby",
+"tgt": "vi",
+"score": 0.744,
+"src_ipa": "beɪbi",
+"tgt_ipa": "bi"
+},
+{
+"src": "chance",
+"tgt": "chris",
+"score": 0.693,
+"src_ipa": "tʃæns",
+"tgt_ipa": "tʃɾis"
+},
+{
+"src": "march",
+"tgt": "marcha",
+"score": 0.691,
+"src_ipa": "mɑːɹtʃ",
+"tgt_ipa": "maɾtʃa"
+},
+{
+"src": "process",
+"tgt": "presentes",
+"score": 0.691,
+"src_ipa": "pɹɑːsɛs",
+"tgt_ipa": "pɾesɛntes"
+},
+{
+"src": "gets",
+"tgt": "gas",
+"score": 0.658,
+"src_ipa": "ɡɛts",
+"tgt_ipa": "ɡas"
+},
+{
+"src": "month",
+"tgt": "maíz",
+"score": 0.621,
+"src_ipa": "mʌnθ",
+"tgt_ipa": "maiθ"
+},
+{
+"src": "outside",
+"tgt": "auto",
+"score": 0.682,
+"src_ipa": "aʊtsaɪd",
+"tgt_ipa": "aʊto"
+},
+{
+"src": "students",
+"tgt": "estudiantes",
+"score": 0.639,
+"src_ipa": "stuːdənts",
+"tgt_ipa": "estuðjantes"
+},
+{
+"src": "board",
+"tgt": "ford",
+"score": 0.755,
+"src_ipa": "boːɹd",
+"tgt_ipa": "foɾd"
+},
+{
+"src": "cost",
+"tgt": "costa",
+"score": 0.63,
+"src_ipa": "kɔst",
+"tgt_ipa": "kosta"
+},
+{
+"src": "field",
+"tgt": "fila",
+"score": 0.741,
+"src_ipa": "fiːld",
+"tgt_ipa": "fila"
+},
+{
+"src": "main",
+"tgt": "men",
+"score": 0.818,
+"src_ipa": "meɪn",
+"tgt_ipa": "men"
+},
+{
+"src": "moment",
+"tgt": "montón",
+"score": 0.654,
+"src_ipa": "moʊmənt",
+"tgt_ipa": "monton"
+},
+{
+"src": "road",
+"tgt": "rol",
+"score": 0.663,
+"src_ipa": "ɹoʊd",
+"tgt_ipa": "rol"
+},
+{
+"src": "seems",
+"tgt": "simón",
+"score": 0.7,
+"src_ipa": "siːmz",
+"tgt_ipa": "simon"
+},
+{
+"src": "town",
+"tgt": "tan",
+"score": 0.818,
+"src_ipa": "taʊn",
+"tgt_ipa": "tan"
+},
+{
+"src": "energy",
+"tgt": "ende",
+"score": 0.736,
+"src_ipa": "ɛnɚdʒi",
+"tgt_ipa": "ɛnde"
+},
+{
+"src": "fight",
+"tgt": "fase",
+"score": 0.646,
+"src_ipa": "faɪt",
+"tgt_ipa": "fase"
+},
+{
+"src": "fine",
+"tgt": "fan",
+"score": 0.818,
+"src_ipa": "faɪn",
+"tgt_ipa": "fan"
+},
+{
+"src": "force",
+"tgt": "foros",
+"score": 0.822,
+"src_ipa": "foːɹs",
+"tgt_ipa": "foɾos"
+},
+{
+"src": "hear",
+"tgt": "air",
+"score": 0.682,
+"src_ipa": "hɪɹ",
+"tgt_ipa": "aɪɾ"
+},
+{
+"src": "played",
+"tgt": "pleno",
+"score": 0.685,
+"src_ipa": "pleɪd",
+"tgt_ipa": "pleno"
+},
+{
+"src": "points",
+"tgt": "posts",
+"score": 0.686,
+"src_ipa": "pɔɪnts",
+"tgt_ipa": "posts"
+},
+{
+"src": "price",
+"tgt": "pais",
+"score": 0.844,
+"src_ipa": "pɹaɪs",
+"tgt_ipa": "paɪs"
+},
+{
+"src": "re",
+"tgt": "río",
+"score": 0.716,
+"src_ipa": "ɹiː",
+"tgt_ipa": "rio"
+},
+{
+"src": "rest",
+"tgt": "resto",
+"score": 0.63,
+"src_ipa": "ɹɛst",
+"tgt_ipa": "resto"
+},
+{
+"src": "shows",
+"tgt": "show",
+"score": 0.675,
+"src_ipa": "ʃoʊz",
+"tgt_ipa": "ʃow"
+},
+{
+"src": "space",
+"tgt": "seis",
+"score": 0.822,
+"src_ipa": "speɪs",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "summer",
+"tgt": "sam",
+"score": 0.73,
+"src_ipa": "sʌmɚ",
+"tgt_ipa": "sam"
+},
+{
+"src": "term",
+"tgt": "tom",
+"score": 0.71,
+"src_ipa": "tɜːm",
+"tgt_ipa": "tom"
+},
+{
+"src": "wife",
+"tgt": "what",
+"score": 0.676,
+"src_ipa": "waɪf",
+"tgt_ipa": "wat"
+},
+{
+"src": "date",
+"tgt": "de",
+"score": 0.716,
+"src_ipa": "deɪt",
+"tgt_ipa": "de"
+},
+{
+"src": "goes",
+"tgt": "go",
+"score": 0.71,
+"src_ipa": "ɡoʊz",
+"tgt_ipa": "ɡo"
+},
+{
+"src": "land",
+"tgt": "and",
+"score": 0.655,
+"src_ipa": "lænd",
+"tgt_ipa": "and"
+},
+{
+"src": "miss",
+"tgt": "mis",
+"score": 0.733,
+"src_ipa": "mɪs",
+"tgt_ipa": "mis"
+},
+{
+"src": "sex",
+"tgt": "seis",
+"score": 0.636,
+"src_ipa": "sɛks",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "site",
+"tgt": "saint",
+"score": 0.839,
+"src_ipa": "saɪt",
+"tgt_ipa": "saɪnt"
+},
+{
+"src": "strong",
+"tgt": "street",
+"score": 0.639,
+"src_ipa": "stɹɔŋ",
+"tgt_ipa": "stɾeet"
+},
+{
+"src": "co",
+"tgt": "con",
+"score": 0.704,
+"src_ipa": "koʊ",
+"tgt_ipa": "kon"
+},
+{
+"src": "eyes",
+"tgt": "hay",
+"score": 0.753,
+"src_ipa": "aɪz",
+"tgt_ipa": "aɪ"
+},
+{
+"src": "include",
+"tgt": "salud",
+"score": 0.626,
+"src_ipa": "ɪŋkluːd",
+"tgt_ipa": "salud"
+},
+{
+"src": "june",
+"tgt": "un",
+"score": 0.697,
+"src_ipa": "dʒuːn",
+"tgt_ipa": "un"
+},
+{
+"src": "parents",
+"tgt": "posts",
+"score": 0.643,
+"src_ipa": "pɛɹənts",
+"tgt_ipa": "posts"
+},
+{
+"src": "record",
+"tgt": "red",
+"score": 0.657,
+"src_ipa": "ɹɛkɚd",
+"tgt_ipa": "red"
+},
+{
+"src": "similar",
+"tgt": "mail",
+"score": 0.624,
+"src_ipa": "sɪmɪlɚ",
+"tgt_ipa": "maɪl"
+},
+{
+"src": "total",
+"tgt": "tal",
+"score": 0.621,
+"src_ipa": "toʊɾəl",
+"tgt_ipa": "tal"
+},
+{
+"src": "club",
+"tgt": "clave",
+"score": 0.622,
+"src_ipa": "klʌb",
+"tgt_ipa": "klaβe"
+},
+{
+"src": "died",
+"tgt": "day",
+"score": 0.812,
+"src_ipa": "daɪd",
+"tgt_ipa": "daɪ"
+},
+{
+"src": "knew",
+"tgt": "onu",
+"score": 0.716,
+"src_ipa": "nuː",
+"tgt_ipa": "onu"
+},
+{
+"src": "lead",
+"tgt": "libertad",
+"score": 0.634,
+"src_ipa": "liːd",
+"tgt_ipa": "liβeɾtad"
+},
+{
+"src": "likely",
+"tgt": "li",
+"score": 0.685,
+"src_ipa": "laɪkli",
+"tgt_ipa": "li"
+},
+{
+"src": "military",
+"tgt": "mary",
+"score": 0.637,
+"src_ipa": "mɪlətɛɹi",
+"tgt_ipa": "maɾi"
+},
+{
+"src": "st",
+"tgt": "saint",
+"score": 0.738,
+"src_ipa": "sənt",
+"tgt_ipa": "saɪnt"
+},
+{
+"src": "tv",
+"tgt": "ti",
+"score": 0.77,
+"src_ipa": "tiːviː",
+"tgt_ipa": "ti"
+},
+{
+"src": "april",
+"tgt": "el",
+"score": 0.624,
+"src_ipa": "eɪpɹəl",
+"tgt_ipa": "el"
+},
+{
+"src": "center",
+"tgt": "sesenta",
+"score": 0.741,
+"src_ipa": "sɛntɚ",
+"tgt_ipa": "sesɛnta"
+},
+{
+"src": "county",
+"tgt": "cantidad",
+"score": 0.694,
+"src_ipa": "kaʊnti",
+"tgt_ipa": "kantiðad"
+},
+{
+"src": "couple",
+"tgt": "apple",
+"score": 0.719,
+"src_ipa": "kʌpəl",
+"tgt_ipa": "apəl"
+},
+{
+"src": "hold",
+"tgt": "world",
+"score": 0.625,
+"src_ipa": "hoʊld",
+"tgt_ipa": "woɾld"
+},
+{
+"src": "industry",
+"tgt": "industria",
+"score": 0.662,
+"src_ipa": "ɪndʌstɹi",
+"tgt_ipa": "industɾia"
+},
+{
+"src": "inside",
+"tgt": "saint",
+"score": 0.678,
+"src_ipa": "ɪnsaɪd",
+"tgt_ipa": "saɪnt"
+},
+{
+"src": "player",
+"tgt": "ley",
+"score": 0.781,
+"src_ipa": "pleɪɚ",
+"tgt_ipa": "leɪ"
+},
+{
+"src": "rights",
+"tgt": "ray",
+"score": 0.769,
+"src_ipa": "ɹaɪts",
+"tgt_ipa": "raɪ"
+},
+{
+"src": "sense",
+"tgt": "sientes",
+"score": 0.683,
+"src_ipa": "sɛns",
+"tgt_ipa": "sjɛntes"
+},
+{
+"src": "star",
+"tgt": "estar",
+"score": 0.64,
+"src_ipa": "stɑːɹ",
+"tgt_ipa": "estaɾ"
+},
+{
+"src": "weeks",
+"tgt": "félix",
+"score": 0.682,
+"src_ipa": "wiːks",
+"tgt_ipa": "feliks"
+},
+{
+"src": "break",
+"tgt": "breve",
+"score": 0.66,
+"src_ipa": "bɹeɪk",
+"tgt_ipa": "bɾeβe"
+},
+{
+"src": "higher",
+"tgt": "hay",
+"score": 0.766,
+"src_ipa": "haɪɚ",
+"tgt_ipa": "aɪ"
+},
+{
+"src": "hour",
+"tgt": "au",
+"score": 1.0,
+"src_ipa": "aʊɚ",
+"tgt_ipa": "aʊ"
+},
+{
+"src": "middle",
+"tgt": "mil",
+"score": 0.655,
+"src_ipa": "mɪdəl",
+"tgt_ipa": "mil"
+},
+{
+"src": "needed",
+"tgt": "ni",
+"score": 0.707,
+"src_ipa": "niːdᵻd",
+"tgt_ipa": "ni"
+},
+{
+"src": "present",
+"tgt": "prensa",
+"score": 0.637,
+"src_ipa": "pɹɛzənt",
+"tgt_ipa": "pɾɛnsa"
+},
+{
+"src": "sorry",
+"tgt": "si",
+"score": 0.673,
+"src_ipa": "sɑːɹi",
+"tgt_ipa": "si"
+},
+{
+"src": "takes",
+"tgt": "texas",
+"score": 0.758,
+"src_ipa": "teɪks",
+"tgt_ipa": "teksas"
+},
+{
+"src": "training",
+"tgt": "treinta",
+"score": 0.747,
+"src_ipa": "tɹeɪnɪŋ",
+"tgt_ipa": "tɾeɪnta"
+},
+{
+"src": "answer",
+"tgt": "fans",
+"score": 0.676,
+"src_ipa": "ænsɚ",
+"tgt_ipa": "fans"
+},
+{
+"src": "boy",
+"tgt": "voy",
+"score": 0.733,
+"src_ipa": "bɔɪ",
+"tgt_ipa": "boɪ"
+},
+{
+"src": "design",
+"tgt": "dan",
+"score": 0.645,
+"src_ipa": "dɪzaɪn",
+"tgt_ipa": "dan"
+},
+{
+"src": "gold",
+"tgt": "good",
+"score": 0.707,
+"src_ipa": "ɡoʊld",
+"tgt_ipa": "ɡood"
+},
+{
+"src": "gone",
+"tgt": "guión",
+"score": 0.691,
+"src_ipa": "ɡɔn",
+"tgt_ipa": "ɡjon"
+},
+{
+"src": "guess",
+"tgt": "gas",
+"score": 0.69,
+"src_ipa": "ɡɛs",
+"tgt_ipa": "ɡas"
+},
+{
+"src": "interest",
+"tgt": "street",
+"score": 0.637,
+"src_ipa": "ɪntɹɛst",
+"tgt_ipa": "stɾeet"
+},
+{
+"src": "july",
+"tgt": "day",
+"score": 0.682,
+"src_ipa": "dʒuːlaɪ",
+"tgt_ipa": "daɪ"
+},
+{
+"src": "king",
+"tgt": "kong",
+"score": 0.671,
+"src_ipa": "kɪŋ",
+"tgt_ipa": "koŋ"
+},
+{
+"src": "learn",
+"tgt": "león",
+"score": 0.648,
+"src_ipa": "lɜːn",
+"tgt_ipa": "leon"
+},
+{
+"src": "society",
+"tgt": "salí",
+"score": 0.645,
+"src_ipa": "səsaɪəɾi",
+"tgt_ipa": "sali"
+},
+{
+"src": "al",
+"tgt": "el",
+"score": 0.637,
+"src_ipa": "æl",
+"tgt_ipa": "el"
+},
+{
+"src": "alone",
+"tgt": "salón",
+"score": 0.632,
+"src_ipa": "ɐloʊn",
+"tgt_ipa": "salon"
+},
+{
+"src": "brought",
+"tgt": "brown",
+"score": 0.621,
+"src_ipa": "bɹɔːt",
+"tgt_ipa": "bɾown"
+},
+{
+"src": "church",
+"tgt": "che",
+"score": 0.641,
+"src_ipa": "tʃɜːtʃ",
+"tgt_ipa": "tʃe"
+},
+{
+"src": "east",
+"tgt": "hiciste",
+"score": 0.681,
+"src_ipa": "iːst",
+"tgt_ipa": "iθiste"
+},
+{
+"src": "movie",
+"tgt": "mi",
+"score": 0.645,
+"src_ipa": "muːvi",
+"tgt_ipa": "mi"
+},
+{
+"src": "park",
+"tgt": "farc",
+"score": 0.663,
+"src_ipa": "pɑːɹk",
+"tgt_ipa": "faɾk"
+},
+{
+"src": "performance",
+"tgt": "formas",
+"score": 0.694,
+"src_ipa": "pɚfoːɹməns",
+"tgt_ipa": "foɾmas"
+},
+{
+"src": "press",
+"tgt": "prensa",
+"score": 0.694,
+"src_ipa": "pɹɛs",
+"tgt_ipa": "pɾɛnsa"
+},
+{
+"src": "role",
+"tgt": "rol",
+"score": 0.818,
+"src_ipa": "ɹoʊl",
+"tgt_ipa": "rol"
+},
+{
+"src": "sent",
+"tgt": "sesenta",
+"score": 0.741,
+"src_ipa": "sɛnt",
+"tgt_ipa": "sesɛnta"
+},
+{
+"src": "tried",
+"tgt": "tras",
+"score": 0.736,
+"src_ipa": "tɹaɪd",
+"tgt_ipa": "tɾas"
+},
+{
+"src": "worked",
+"tgt": "what",
+"score": 0.64,
+"src_ipa": "wɜːkt",
+"tgt_ipa": "wat"
+},
+{
+"src": "areas",
+"tgt": "henry",
+"score": 0.629,
+"src_ipa": "ɛɹiəz",
+"tgt_ipa": "ɛnɾi"
+},
+{
+"src": "bill",
+"tgt": "vol",
+"score": 0.671,
+"src_ipa": "bɪl",
+"tgt_ipa": "bol"
+},
+{
+"src": "books",
+"tgt": "vos",
+"score": 0.64,
+"src_ipa": "bʊks",
+"tgt_ipa": "bos"
+},
+{
+"src": "cool",
+"tgt": "culo",
+"score": 0.781,
+"src_ipa": "kuːl",
+"tgt_ipa": "kulo"
+},
+{
+"src": "ground",
+"tgt": "grande",
+"score": 0.752,
+"src_ipa": "ɡɹaʊnd",
+"tgt_ipa": "ɡɾande"
+},
+{
+"src": "meeting",
+"tgt": "miren",
+"score": 0.711,
+"src_ipa": "miːɾɪŋ",
+"tgt_ipa": "miɾen"
+},
+{
+"src": "sound",
+"tgt": "salud",
+"score": 0.686,
+"src_ipa": "saʊnd",
+"tgt_ipa": "salud"
+},
+{
+"src": "source",
+"tgt": "sos",
+"score": 0.809,
+"src_ipa": "soːɹs",
+"tgt_ipa": "sos"
+},
+{
+"src": "follow",
+"tgt": "flor",
+"score": 0.62,
+"src_ipa": "fɑːloʊ",
+"tgt_ipa": "floɾ"
+},
+{
+"src": "lives",
+"tgt": "live",
+"score": 0.741,
+"src_ipa": "laɪvz",
+"tgt_ipa": "laɪβ"
+},
+{
+"src": "ok",
+"tgt": "hoy",
+"score": 0.632,
+"src_ipa": "oʊkeɪ",
+"tgt_ipa": "oɪ"
+},
+{
+"src": "rate",
+"tgt": "rey",
+"score": 0.814,
+"src_ipa": "ɹeɪt",
+"tgt_ipa": "reɪ"
+},
+{
+"src": "round",
+"tgt": "aun",
+"score": 0.663,
+"src_ipa": "ɹaʊnd",
+"tgt_ipa": "aʊn"
+},
+{
+"src": "save",
+"tgt": "seis",
+"score": 0.748,
+"src_ipa": "seɪv",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "stuff",
+"tgt": "star",
+"score": 0.643,
+"src_ipa": "stʌf",
+"tgt_ipa": "staɾ"
+},
+{
+"src": "tax",
+"tgt": "texas",
+"score": 0.692,
+"src_ipa": "tæks",
+"tgt_ipa": "teksas"
+},
+{
+"src": "blue",
+"tgt": "bla",
+"score": 0.671,
+"src_ipa": "bluː",
+"tgt_ipa": "bla"
+},
+{
+"src": "countries",
+"tgt": "contra",
+"score": 0.652,
+"src_ipa": "kʌntɹiz",
+"tgt_ipa": "kontɾa"
+},
+{
+"src": "david",
+"tgt": "de",
+"score": 0.631,
+"src_ipa": "deɪvɪd",
+"tgt_ipa": "de"
+},
+{
+"src": "drive",
+"tgt": "dra",
+"score": 0.746,
+"src_ipa": "dɹaɪv",
+"tgt_ipa": "dɾa"
+},
+{
+"src": "eat",
+"tgt": "it",
+"score": 1.0,
+"src_ipa": "iːt",
+"tgt_ipa": "it"
+},
+{
+"src": "fall",
+"tgt": "fiel",
+"score": 0.659,
+"src_ipa": "fɔːl",
+"tgt_ipa": "fjel"
+},
+{
+"src": "fast",
+"tgt": "est",
+"score": 0.676,
+"src_ipa": "fæst",
+"tgt_ipa": "est"
+},
+{
+"src": "feeling",
+"tgt": "film",
+"score": 0.719,
+"src_ipa": "fiːlɪŋ",
+"tgt_ipa": "film"
+},
+{
+"src": "green",
+"tgt": "gris",
+"score": 0.76,
+"src_ipa": "ɡɹiːn",
+"tgt_ipa": "ɡɾis"
+},
+{
+"src": "league",
+"tgt": "liga",
+"score": 0.655,
+"src_ipa": "liːɡ",
+"tgt_ipa": "liɣa"
+},
+{
+"src": "match",
+"tgt": "macho",
+"score": 0.628,
+"src_ipa": "mætʃ",
+"tgt_ipa": "matʃo"
+},
+{
+"src": "model",
+"tgt": "mal",
+"score": 0.659,
+"src_ipa": "mɑːdəl",
+"tgt_ipa": "mal"
+},
+{
+"src": "size",
+"tgt": "saint",
+"score": 0.722,
+"src_ipa": "saɪz",
+"tgt_ipa": "saɪnt"
+},
+{
+"src": "trust",
+"tgt": "test",
+"score": 0.741,
+"src_ipa": "tɹʌst",
+"tgt_ipa": "test"
+},
+{
+"src": "central",
+"tgt": "sesenta",
+"score": 0.675,
+"src_ipa": "sɛntɹəl",
+"tgt_ipa": "sesɛnta"
+},
+{
+"src": "changes",
+"tgt": "che",
+"score": 0.669,
+"src_ipa": "tʃeɪndʒᵻz",
+"tgt_ipa": "tʃe"
+},
+{
+"src": "forward",
+"tgt": "ford",
+"score": 0.657,
+"src_ipa": "fɔːɹwɚd",
+"tgt_ipa": "foɾd"
+},
+{
+"src": "groups",
+"tgt": "grupos",
+"score": 0.85,
+"src_ipa": "ɡɹuːps",
+"tgt_ipa": "ɡɾupos"
+},
+{
+"src": "hey",
+"tgt": "rey",
+"score": 0.71,
+"src_ipa": "heɪ",
+"tgt_ipa": "reɪ"
+},
+{
+"src": "key",
+"tgt": "kim",
+"score": 0.716,
+"src_ipa": "kiː",
+"tgt_ipa": "kim"
+},
+{
+"src": "paid",
+"tgt": "pena",
+"score": 0.622,
+"src_ipa": "peɪd",
+"tgt_ipa": "pena"
+},
+{
+"src": "range",
+"tgt": "reino",
+"score": 0.748,
+"src_ipa": "ɹeɪndʒ",
+"tgt_ipa": "reɪno"
+},
+{
+"src": "science",
+"tgt": "santos",
+"score": 0.66,
+"src_ipa": "saɪəns",
+"tgt_ipa": "santos"
+},
+{
+"src": "trade",
+"tgt": "tren",
+"score": 0.737,
+"src_ipa": "tɹeɪd",
+"tgt_ipa": "tɾen"
+},
+{
+"src": "uk",
+"tgt": "duque",
+"score": 0.645,
+"src_ipa": "juːkeɪ",
+"tgt_ipa": "duke"
+},
+{
+"src": "attention",
+"tgt": "atencion",
+"score": 0.628,
+"src_ipa": "ɐtɛnʃən",
+"tgt_ipa": "atɛnθjon"
+},
+{
+"src": "chief",
+"tgt": "china",
+"score": 0.696,
+"src_ipa": "tʃiːf",
+"tgt_ipa": "tʃina"
+},
+{
+"src": "cup",
+"tgt": "cap",
+"score": 0.73,
+"src_ipa": "kʌp",
+"tgt_ipa": "kap"
+},
+{
+"src": "led",
+"tgt": "lord",
+"score": 0.653,
+"src_ipa": "lɛd",
+"tgt_ipa": "loɾd"
+},
+{
+"src": "lower",
+"tgt": "lo",
+"score": 0.766,
+"src_ipa": "loʊɚ",
+"tgt_ipa": "lo"
+},
+{
+"src": "property",
+"tgt": "pri",
+"score": 0.814,
+"src_ipa": "pɹɑːpɚɾi",
+"tgt_ipa": "pɾi"
+},
+{
+"src": "send",
+"tgt": "siendo",
+"score": 0.702,
+"src_ipa": "sɛnd",
+"tgt_ipa": "sjɛndo"
+},
+{
+"src": "style",
+"tgt": "star",
+"score": 0.713,
+"src_ipa": "staɪl",
+"tgt_ipa": "staɾ"
+},
+{
+"src": "blood",
+"tgt": "bla",
+"score": 0.686,
+"src_ipa": "blʌd",
+"tgt_ipa": "bla"
+},
+{
+"src": "china",
+"tgt": "chan",
+"score": 0.725,
+"src_ipa": "tʃaɪnə",
+"tgt_ipa": "tʃan"
+},
+{
+"src": "complete",
+"tgt": "cumplir",
+"score": 0.698,
+"src_ipa": "kəmpliːt",
+"tgt_ipa": "kumpliɾ"
+},
+{
+"src": "lord",
+"tgt": "ford",
+"score": 0.623,
+"src_ipa": "lɔːɹd",
+"tgt_ipa": "foɾd"
+},
+{
+"src": "oil",
+"tgt": "mail",
+"score": 0.625,
+"src_ipa": "ɔɪl",
+"tgt_ipa": "maɪl"
+},
+{
+"src": "related",
+"tgt": "ley",
+"score": 0.635,
+"src_ipa": "ɹᵻleɪɾᵻd",
+"tgt_ipa": "leɪ"
+},
+{
+"src": "stage",
+"tgt": "steve",
+"score": 0.654,
+"src_ipa": "steɪdʒ",
+"tgt_ipa": "steβe"
+},
+{
+"src": "title",
+"tgt": "tal",
+"score": 0.731,
+"src_ipa": "taɪɾəl",
+"tgt_ipa": "tal"
+},
+{
+"src": "born",
+"tgt": "van",
+"score": 0.653,
+"src_ipa": "bɔːɹn",
+"tgt_ipa": "ban"
+},
+{
+"src": "decided",
+"tgt": "day",
+"score": 0.641,
+"src_ipa": "dᵻsaɪdᵻd",
+"tgt_ipa": "daɪ"
+},
+{
+"src": "enjoy",
+"tgt": "ende",
+"score": 0.689,
+"src_ipa": "ɛndʒɔɪ",
+"tgt_ipa": "ɛnde"
+},
+{
+"src": "entire",
+"tgt": "entra",
+"score": 0.724,
+"src_ipa": "ɛntaɪɚ",
+"tgt_ipa": "ɛntɾa"
+},
+{
+"src": "french",
+"tgt": "frente",
+"score": 0.802,
+"src_ipa": "fɹɛntʃ",
+"tgt_ipa": "fɾɛnte"
+},
+{
+"src": "kill",
+"tgt": "cual",
+"score": 0.644,
+"src_ipa": "kɪl",
+"tgt_ipa": "kwal"
+},
+{
+"src": "met",
+"tgt": "matt",
+"score": 0.658,
+"src_ipa": "mɛt",
+"tgt_ipa": "matt"
+},
+{
+"src": "poor",
+"tgt": "por",
+"score": 0.71,
+"src_ipa": "pʊɹ",
+"tgt_ipa": "poɾ"
+},
+{
+"src": "release",
+"tgt": "risas",
+"score": 0.69,
+"src_ipa": "ɹᵻliːs",
+"tgt_ipa": "risas"
+},
+{
+"src": "website",
+"tgt": "saint",
+"score": 0.637,
+"src_ipa": "wɛbsaɪt",
+"tgt_ipa": "saɪnt"
+},
+{
+"src": "choice",
+"tgt": "chris",
+"score": 0.69,
+"src_ipa": "tʃɔɪs",
+"tgt_ipa": "tʃɾis"
+},
+{
+"src": "code",
+"tgt": "con",
+"score": 0.677,
+"src_ipa": "koʊd",
+"tgt_ipa": "kon"
+},
+{
+"src": "council",
+"tgt": "canal",
+"score": 0.678,
+"src_ipa": "kaʊnsəl",
+"tgt_ipa": "kanal"
+},
+{
+"src": "currently",
+"tgt": "cali",
+"score": 0.651,
+"src_ipa": "kɜːɹəntli",
+"tgt_ipa": "kali"
+},
+{
+"src": "door",
+"tgt": "dolor",
+"score": 0.816,
+"src_ipa": "doːɹ",
+"tgt_ipa": "doloɾ"
+},
+{
+"src": "events",
+"tgt": "fuentes",
+"score": 0.669,
+"src_ipa": "ᵻvɛnts",
+"tgt_ipa": "fwɛntes"
+},
+{
+"src": "foreign",
+"tgt": "fan",
+"score": 0.627,
+"src_ipa": "fɔːɹən",
+"tgt_ipa": "fan"
+},
+{
+"src": "increase",
+"tgt": "crisis",
+"score": 0.738,
+"src_ipa": "ɪŋkɹiːs",
+"tgt_ipa": "kɾisis"
+},
+{
+"src": "legal",
+"tgt": "literal",
+"score": 0.629,
+"src_ipa": "liːɡəl",
+"tgt_ipa": "liteɾal"
+},
+{
+"src": "lose",
+"tgt": "luz",
+"score": 0.69,
+"src_ipa": "luːz",
+"tgt_ipa": "luθ"
+},
+{
+"src": "michael",
+"tgt": "mail",
+"score": 0.783,
+"src_ipa": "maɪkəl",
+"tgt_ipa": "maɪl"
+},
+{
+"src": "pick",
+"tgt": "park",
+"score": 0.638,
+"src_ipa": "pɪk",
+"tgt_ipa": "paɾk"
+},
+{
+"src": "race",
+"tgt": "rey",
+"score": 0.814,
+"src_ipa": "ɹeɪs",
+"tgt_ipa": "reɪ"
+},
+{
+"src": "seem",
+"tgt": "simón",
+"score": 0.733,
+"src_ipa": "siːm",
+"tgt_ipa": "simon"
+},
+{
+"src": "sign",
+"tgt": "saint",
+"score": 0.848,
+"src_ipa": "saɪn",
+"tgt_ipa": "saɪnt"
+},
+{
+"src": "simple",
+"tgt": "apple",
+"score": 0.663,
+"src_ipa": "sɪmpəl",
+"tgt_ipa": "apəl"
+},
+{
+"src": "simply",
+"tgt": "simple",
+"score": 0.696,
+"src_ipa": "sɪmpli",
+"tgt_ipa": "simple"
+},
+{
+"src": "staff",
+"tgt": "star",
+"score": 0.643,
+"src_ipa": "stæf",
+"tgt_ipa": "staɾ"
+},
+{
+"src": "super",
+"tgt": "supe",
+"score": 0.789,
+"src_ipa": "suːpɚ",
+"tgt_ipa": "supe"
+},
+{
+"src": "bed",
+"tgt": "vende",
+"score": 0.639,
+"src_ipa": "bɛd",
+"tgt_ipa": "bɛnde"
+},
+{
+"src": "began",
+"tgt": "van",
+"score": 0.634,
+"src_ipa": "bɪɡæn",
+"tgt_ipa": "ban"
+},
+{
+"src": "career",
+"tgt": "creer",
+"score": 0.713,
+"src_ipa": "kɚɹɪɹ",
+"tgt_ipa": "kɾeeɾ"
+},
+{
+"src": "changed",
+"tgt": "che",
+"score": 0.671,
+"src_ipa": "tʃeɪndʒd",
+"tgt_ipa": "tʃe"
+},
+{
+"src": "crazy",
+"tgt": "creí",
+"score": 0.807,
+"src_ipa": "kɹeɪzi",
+"tgt_ipa": "kɾei"
+},
+{
+"src": "daily",
+"tgt": "delito",
+"score": 0.681,
+"src_ipa": "deɪli",
+"tgt_ipa": "delito"
+},
+{
+"src": "daughter",
+"tgt": "dar",
+"score": 0.69,
+"src_ipa": "dɔːɾɚ",
+"tgt_ipa": "daɾ"
+},
+{
+"src": "die",
+"tgt": "day",
+"score": 1.0,
+"src_ipa": "daɪ",
+"tgt_ipa": "daɪ"
+},
+{
+"src": "knows",
+"tgt": "no",
+"score": 0.71,
+"src_ipa": "noʊz",
+"tgt_ipa": "no"
+},
+{
+"src": "loss",
+"tgt": "los",
+"score": 0.733,
+"src_ipa": "lɔs",
+"tgt_ipa": "los"
+},
+{
+"src": "modern",
+"tgt": "man",
+"score": 0.693,
+"src_ipa": "mɑːdɚn",
+"tgt_ipa": "man"
+},
+{
+"src": "parts",
+"tgt": "posts",
+"score": 0.696,
+"src_ipa": "pɑːɹts",
+"tgt_ipa": "posts"
+},
+{
+"src": "popular",
+"tgt": "paul",
+"score": 0.698,
+"src_ipa": "pɑːpjʊlɚ",
+"tgt_ipa": "paʊl"
+},
+{
+"src": "safe",
+"tgt": "seis",
+"score": 0.769,
+"src_ipa": "seɪf",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "voice",
+"tgt": "sois",
+"score": 0.635,
+"src_ipa": "vɔɪs",
+"tgt_ipa": "soɪs"
+},
+{
+"src": "writing",
+"tgt": "ray",
+"score": 0.711,
+"src_ipa": "ɹaɪɾɪŋ",
+"tgt_ipa": "raɪ"
+},
+{
+"src": "army",
+"tgt": "mi",
+"score": 0.673,
+"src_ipa": "ɑːɹmi",
+"tgt_ipa": "mi"
+},
+{
+"src": "goal",
+"tgt": "gol",
+"score": 0.818,
+"src_ipa": "ɡoʊl",
+"tgt_ipa": "ɡol"
+},
+{
+"src": "internet",
+"tgt": "saint",
+"score": 0.644,
+"src_ipa": "ɪntɚnɛt",
+"tgt_ipa": "saɪnt"
+},
+{
+"src": "okay",
+"tgt": "hoy",
+"score": 0.632,
+"src_ipa": "oʊkeɪ",
+"tgt_ipa": "oɪ"
+},
+{
+"src": "practice",
+"tgt": "prácticas",
+"score": 0.663,
+"src_ipa": "pɹæktɪs",
+"tgt_ipa": "pɾaktikas"
+},
+{
+"src": "rules",
+"tgt": "raúl",
+"score": 0.638,
+"src_ipa": "ɹuːlz",
+"tgt_ipa": "raul"
+},
+{
+"src": "sea",
+"tgt": "si",
+"score": 1.0,
+"src_ipa": "siː",
+"tgt_ipa": "si"
+},
+{
+"src": "waiting",
+"tgt": "ue",
+"score": 0.629,
+"src_ipa": "weɪɾɪŋ",
+"tgt_ipa": "we"
+},
+{
+"src": "ways",
+"tgt": "ue",
+"score": 0.71,
+"src_ipa": "weɪz",
+"tgt_ipa": "we"
+},
+{
+"src": "access",
+"tgt": "ex",
+"score": 0.631,
+"src_ipa": "æksɛs",
+"tgt_ipa": "eks"
+},
+{
+"src": "base",
+"tgt": "ves",
+"score": 0.818,
+"src_ipa": "beɪs",
+"tgt_ipa": "bes"
+},
+{
+"src": "below",
+"tgt": "blog",
+"score": 0.746,
+"src_ipa": "bᵻloʊ",
+"tgt_ipa": "bloɡ"
+},
+{
+"src": "created",
+"tgt": "crisis",
+"score": 0.664,
+"src_ipa": "kɹiːeɪɾᵻd",
+"tgt_ipa": "kɾisis"
+},
+{
+"src": "deep",
+"tgt": "día",
+"score": 0.645,
+"src_ipa": "diːp",
+"tgt_ipa": "dia"
+},
+{
+"src": "la",
+"tgt": "le",
+"score": 0.637,
+"src_ipa": "læ",
+"tgt_ipa": "le"
+},
+{
+"src": "lol",
+"tgt": "leal",
+"score": 0.67,
+"src_ipa": "lɑːl",
+"tgt_ipa": "leal"
+},
+{
+"src": "mark",
+"tgt": "park",
+"score": 0.648,
+"src_ipa": "mɑːɹk",
+"tgt_ipa": "paɾk"
+},
+{
+"src": "offer",
+"tgt": "of",
+"score": 0.642,
+"src_ipa": "ɔfɚ",
+"tgt_ipa": "of"
+},
+{
+"src": "pass",
+"tgt": "pues",
+"score": 0.689,
+"src_ipa": "pæs",
+"tgt_ipa": "pwes"
+},
+{
+"src": "released",
+"tgt": "lista",
+"score": 0.699,
+"src_ipa": "ɹᵻliːst",
+"tgt_ipa": "lista"
+},
+{
+"src": "risk",
+"tgt": "rock",
+"score": 0.644,
+"src_ipa": "ɹɪsk",
+"tgt_ipa": "rok"
+},
+{
+"src": "table",
+"tgt": "tel",
+"score": 0.713,
+"src_ipa": "teɪbəl",
+"tgt_ipa": "tel"
+},
+{
+"src": "ten",
+"tgt": "tienden",
+"score": 0.684,
+"src_ipa": "tɛn",
+"tgt_ipa": "tjɛnden"
+},
+{
+"src": "truth",
+"tgt": "cruz",
+"score": 0.733,
+"src_ipa": "tɹuːθ",
+"tgt_ipa": "kɾuθ"
+},
+{
+"src": "ball",
+"tgt": "vol",
+"score": 0.733,
+"src_ipa": "bɔːl",
+"tgt_ipa": "bol"
+},
+{
+"src": "box",
+"tgt": "vas",
+"score": 0.662,
+"src_ipa": "bɑːks",
+"tgt_ipa": "bas"
+},
+{
+"src": "cases",
+"tgt": "que",
+"score": 0.675,
+"src_ipa": "keɪsᵻz",
+"tgt_ipa": "ke"
+},
+{
+"src": "dark",
+"tgt": "farc",
+"score": 0.652,
+"src_ipa": "dɑːɹk",
+"tgt_ipa": "faɾk"
+},
+{
+"src": "mine",
+"tgt": "man",
+"score": 0.818,
+"src_ipa": "maɪn",
+"tgt_ipa": "man"
+},
+{
+"src": "note",
+"tgt": "not",
+"score": 0.818,
+"src_ipa": "noʊt",
+"tgt_ipa": "not"
+},
+{
+"src": "percent",
+"tgt": "presente",
+"score": 0.71,
+"src_ipa": "pɚsɛnt",
+"tgt_ipa": "pɾesɛnte"
+},
+{
+"src": "piece",
+"tgt": "pisos",
+"score": 0.843,
+"src_ipa": "piːs",
+"tgt_ipa": "pisos"
+},
+{
+"src": "products",
+"tgt": "prácticas",
+"score": 0.64,
+"src_ipa": "pɹɑːdʌkts",
+"tgt_ipa": "pɾaktikas"
+},
+{
+"src": "recent",
+"tgt": "risa",
+"score": 0.697,
+"src_ipa": "ɹiːsənt",
+"tgt_ipa": "risa"
+},
+{
+"src": "seeing",
+"tgt": "sin",
+"score": 0.688,
+"src_ipa": "siːɪŋ",
+"tgt_ipa": "sin"
+},
+{
+"src": "straight",
+"tgt": "street",
+"score": 0.837,
+"src_ipa": "stɹeɪt",
+"tgt_ipa": "stɾeet"
+},
+{
+"src": "wrote",
+"tgt": "robot",
+"score": 0.707,
+"src_ipa": "ɹoʊt",
+"tgt_ipa": "roβot"
+},
+{
+"src": "allowed",
+"tgt": "aula",
+"score": 0.635,
+"src_ipa": "ɐlaʊd",
+"tgt_ipa": "aʊla"
+},
+{
+"src": "married",
+"tgt": "madrid",
+"score": 0.773,
+"src_ipa": "mæɹid",
+"tgt_ipa": "maðɾid"
+},
+{
+"src": "officer",
+"tgt": "seis",
+"score": 0.63,
+"src_ipa": "ɑːfɪsɚ",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "pain",
+"tgt": "perón",
+"score": 0.706,
+"src_ipa": "peɪn",
+"tgt_ipa": "peɾon"
+},
+{
+"src": "paul",
+"tgt": "piel",
+"score": 0.659,
+"src_ipa": "pɔːl",
+"tgt_ipa": "pjel"
+},
+{
+"src": "places",
+"tgt": "pleno",
+"score": 0.654,
+"src_ipa": "pleɪsᵻz",
+"tgt_ipa": "pleno"
+},
+{
+"src": "respect",
+"tgt": "respecto",
+"score": 0.633,
+"src_ipa": "ɹᵻspɛkt",
+"tgt_ipa": "respekto"
+},
+{
+"src": "speak",
+"tgt": "pico",
+"score": 0.643,
+"src_ipa": "spiːk",
+"tgt_ipa": "piko"
+},
+{
+"src": "tonight",
+"tgt": "that",
+"score": 0.636,
+"src_ipa": "tənaɪt",
+"tgt_ipa": "tat"
+},
+{
+"src": "write",
+"tgt": "ray",
+"score": 0.814,
+"src_ipa": "ɹaɪt",
+"tgt_ipa": "raɪ"
+},
+{
+"src": "century",
+"tgt": "sesenta",
+"score": 0.668,
+"src_ipa": "sɛntʃɚɹi",
+"tgt_ipa": "sesɛnta"
+},
+{
+"src": "cold",
+"tgt": "con",
+"score": 0.635,
+"src_ipa": "koʊld",
+"tgt_ipa": "kon"
+},
+{
+"src": "create",
+"tgt": "crisis",
+"score": 0.686,
+"src_ipa": "kɹiːeɪt",
+"tgt_ipa": "kɾisis"
+},
+{
+"src": "eight",
+"tgt": "et",
+"score": 0.766,
+"src_ipa": "eɪt",
+"tgt_ipa": "et"
+},
+{
+"src": "eye",
+"tgt": "hay",
+"score": 1.0,
+"src_ipa": "aɪ",
+"tgt_ipa": "aɪ"
+},
+{
+"src": "funny",
+"tgt": "fi",
+"score": 0.666,
+"src_ipa": "fʌni",
+"tgt_ipa": "fi"
+},
+{
+"src": "limited",
+"tgt": "lord",
+"score": 0.665,
+"src_ipa": "lɪmɪɾᵻd",
+"tgt_ipa": "loɾd"
+},
+{
+"src": "peace",
+"tgt": "pisos",
+"score": 0.843,
+"src_ipa": "piːs",
+"tgt_ipa": "pisos"
+},
+{
+"src": "recently",
+"tgt": "risa",
+"score": 0.629,
+"src_ipa": "ɹiːsəntli",
+"tgt_ipa": "risa"
+},
+{
+"src": "required",
+"tgt": "ray",
+"score": 0.62,
+"src_ipa": "ɹᵻkwaɪɚd",
+"tgt_ipa": "raɪ"
+},
+{
+"src": "sales",
+"tgt": "seis",
+"score": 0.719,
+"src_ipa": "seɪlz",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "spent",
+"tgt": "siente",
+"score": 0.664,
+"src_ipa": "spɛnt",
+"tgt_ipa": "sjɛnte"
+},
+{
+"src": "store",
+"tgt": "star",
+"score": 0.77,
+"src_ipa": "stoːɹ",
+"tgt_ipa": "staɾ"
+},
+{
+"src": "student",
+"tgt": "saint",
+"score": 0.646,
+"src_ipa": "stuːdənt",
+"tgt_ipa": "saɪnt"
+},
+{
+"src": "track",
+"tgt": "tres",
+"score": 0.631,
+"src_ipa": "tɹæk",
+"tgt_ipa": "tɾes"
+},
+{
+"src": "weight",
+"tgt": "west",
+"score": 0.773,
+"src_ipa": "weɪt",
+"tgt_ipa": "west"
+},
+{
+"src": "allow",
+"tgt": "au",
+"score": 0.671,
+"src_ipa": "ɐlaʊ",
+"tgt_ipa": "aʊ"
+},
+{
+"src": "anti",
+"tgt": "santa",
+"score": 0.634,
+"src_ipa": "æntaɪ",
+"tgt_ipa": "santa"
+},
+{
+"src": "beat",
+"tgt": "vital",
+"score": 0.716,
+"src_ipa": "biːt",
+"tgt_ipa": "bital"
+},
+{
+"src": "brown",
+"tgt": "aun",
+"score": 0.738,
+"src_ipa": "bɹaʊn",
+"tgt_ipa": "aʊn"
+},
+{
+"src": "chinese",
+"tgt": "chan",
+"score": 0.678,
+"src_ipa": "tʃaɪniːz",
+"tgt_ipa": "tʃan"
+},
+{
+"src": "double",
+"tgt": "apple",
+"score": 0.641,
+"src_ipa": "dʌbəl",
+"tgt_ipa": "apəl"
+},
+{
+"src": "gas",
+"tgt": "gris",
+"score": 0.668,
+"src_ipa": "ɡæs",
+"tgt_ipa": "ɡɾis"
+},
+{
+"src": "island",
+"tgt": "and",
+"score": 0.713,
+"src_ipa": "aɪlənd",
+"tgt_ipa": "and"
+},
+{
+"src": "moved",
+"tgt": "muy",
+"score": 0.648,
+"src_ipa": "muːvd",
+"tgt_ipa": "muj"
+},
+{
+"src": "normal",
+"tgt": "norma",
+"score": 0.754,
+"src_ipa": "noːɹməl",
+"tgt_ipa": "noɾma"
+},
+{
+"src": "plans",
+"tgt": "plan",
+"score": 0.65,
+"src_ipa": "plænz",
+"tgt_ipa": "plan"
+},
+{
+"src": "pressure",
+"tgt": "prensa",
+"score": 0.674,
+"src_ipa": "pɹɛʃɚ",
+"tgt_ipa": "pɾɛnsa"
+},
+{
+"src": "radio",
+"tgt": "rey",
+"score": 0.691,
+"src_ipa": "ɹeɪdɪoʊ",
+"tgt_ipa": "reɪ"
+},
+{
+"src": "station",
+"tgt": "estén",
+"score": 0.648,
+"src_ipa": "steɪʃən",
+"tgt_ipa": "esten"
+},
+{
+"src": "text",
+"tgt": "test",
+"score": 0.721,
+"src_ipa": "tɛkst",
+"tgt_ipa": "test"
+},
+{
+"src": "treatment",
+"tgt": "triste",
+"score": 0.62,
+"src_ipa": "tɹiːtmənt",
+"tgt_ipa": "tɾiste"
+},
+{
+"src": "ass",
+"tgt": "es",
+"score": 0.637,
+"src_ipa": "æs",
+"tgt_ipa": "es"
+},
+{
+"src": "campaign",
+"tgt": "campeón",
+"score": 0.707,
+"src_ipa": "kæmpeɪn",
+"tgt_ipa": "kampeon"
+},
+{
+"src": "certainly",
+"tgt": "salí",
+"score": 0.66,
+"src_ipa": "sɜːʔn̩li",
+"tgt_ipa": "sali"
+},
+{
+"src": "completely",
+"tgt": "cumplió",
+"score": 0.657,
+"src_ipa": "kəmpliːtli",
+"tgt_ipa": "kumplio"
+},
+{
+"src": "content",
+"tgt": "contento",
+"score": 0.722,
+"src_ipa": "kɑːntɛnt",
+"tgt_ipa": "kontɛnto"
+},
+{
+"src": "cross",
+"tgt": "crees",
+"score": 0.701,
+"src_ipa": "kɹɔs",
+"tgt_ipa": "kɾees"
+},
+{
+"src": "despite",
+"tgt": "disparo",
+"score": 0.622,
+"src_ipa": "dᵻspaɪt",
+"tgt_ipa": "dispaɾo"
+},
+{
+"src": "female",
+"tgt": "firme",
+"score": 0.678,
+"src_ipa": "fiːmeɪl",
+"tgt_ipa": "fiɾme"
+},
+{
+"src": "focus",
+"tgt": "fox",
+"score": 0.725,
+"src_ipa": "foʊkəs",
+"tgt_ipa": "foks"
+},
+{
+"src": "hi",
+"tgt": "hay",
+"score": 0.766,
+"src_ipa": "haɪ",
+"tgt_ipa": "aɪ"
+},
+{
+"src": "ice",
+"tgt": "pais",
+"score": 0.781,
+"src_ipa": "aɪs",
+"tgt_ipa": "paɪs"
+},
+{
+"src": "join",
+"tgt": "don",
+"score": 0.653,
+"src_ipa": "dʒɔɪn",
+"tgt_ipa": "don"
+},
+{
+"src": "loved",
+"tgt": "lord",
+"score": 0.626,
+"src_ipa": "lʌvd",
+"tgt_ipa": "loɾd"
+},
+{
+"src": "miles",
+"tgt": "mail",
+"score": 0.844,
+"src_ipa": "maɪlz",
+"tgt_ipa": "maɪl"
+},
+{
+"src": "nearly",
+"tgt": "li",
+"score": 0.666,
+"src_ipa": "nɪɹli",
+"tgt_ipa": "li"
+},
+{
+"src": "particular",
+"tgt": "paul",
+"score": 0.645,
+"src_ipa": "pɚtɪkjʊlɚ",
+"tgt_ipa": "paʊl"
+},
+{
+"src": "previous",
+"tgt": "primas",
+"score": 0.694,
+"src_ipa": "pɹiːviəs",
+"tgt_ipa": "pɾimas"
+},
+{
+"src": "quickly",
+"tgt": "click",
+"score": 0.671,
+"src_ipa": "kwɪkli",
+"tgt_ipa": "klik"
+},
+{
+"src": "region",
+"tgt": "rincón",
+"score": 0.632,
+"src_ipa": "ɹiːdʒən",
+"tgt_ipa": "rinkon"
+},
+{
+"src": "reported",
+"tgt": "récord",
+"score": 0.712,
+"src_ipa": "ɹᵻpoːɹɾᵻd",
+"tgt_ipa": "rekoɾd"
+},
+{
+"src": "sort",
+"tgt": "art",
+"score": 0.659,
+"src_ipa": "sɔːɹt",
+"tgt_ipa": "aɾt"
+},
+{
+"src": "speed",
+"tgt": "id",
+"score": 0.678,
+"src_ipa": "spiːd",
+"tgt_ipa": "id"
+},
+{
+"src": "contact",
+"tgt": "contacto",
+"score": 0.624,
+"src_ipa": "kɑːntækt",
+"tgt_ipa": "kontakto"
+},
+{
+"src": "drop",
+"tgt": "dra",
+"score": 0.662,
+"src_ipa": "dɹɑːp",
+"tgt_ipa": "dɾa"
+},
+{
+"src": "fair",
+"tgt": "for",
+"score": 0.69,
+"src_ipa": "fɛɹ",
+"tgt_ipa": "foɾ"
+},
+{
+"src": "feet",
+"tgt": "ficha",
+"score": 0.716,
+"src_ipa": "fiːt",
+"tgt_ipa": "fitʃa"
+},
+{
+"src": "jesus",
+"tgt": "jazz",
+"score": 0.689,
+"src_ipa": "dʒiːzəs",
+"tgt_ipa": "dʒas"
+},
+{
+"src": "sale",
+"tgt": "seis",
+"score": 0.74,
+"src_ipa": "seɪl",
+"tgt_ipa": "seɪs"
+},
+{
+"src": "tour",
+"tgt": "terror",
+"score": 0.621,
+"src_ipa": "tʊɹ",
+"tgt_ipa": "teroɾ"
+},
+{
+"src": "beyond",
+"tgt": "viendo",
+"score": 0.676,
+"src_ipa": "bᵻjɔnd",
+"tgt_ipa": "bjɛndo"
+},
+{
+"src": "forces",
+"tgt": "for",
+"score": 0.765,
+"src_ipa": "foːɹsᵻz",
+"tgt_ipa": "foɾ"
+},
+{
+"src": "jobs",
+"tgt": "jazz",
+"score": 0.622,
+"src_ipa": "dʒɑːbz",
+"tgt_ipa": "dʒas"
+},
+{
+"src": "sell",
+"tgt": "sol",
+"score": 0.69,
+"src_ipa": "sɛl",
+"tgt_ipa": "sol"
+},
+{
+"src": "agree",
+"tgt": "gris",
+"score": 0.664,
+"src_ipa": "ɐɡɹiː",
+"tgt_ipa": "ɡɾis"
+},
+{
+"src": "clean",
+"tgt": "clinton",
+"score": 0.826,
+"src_ipa": "kliːn",
+"tgt_ipa": "klinton"
+},
+{
+"src": "computer",
+"tgt": "comprar",
+"score": 0.621,
+"src_ipa": "kəmpjuːɾɚ",
+"tgt_ipa": "kompɾaɾ"
+},
+{
+"src": "construction",
+"tgt": "construcción",
+"score": 0.666,
+"src_ipa": "kənstɹʌkʃən",
+"tgt_ipa": "konstɾukθjon"
+},
+{
+"src": "justice",
+"tgt": "jazz",
+"score": 0.692,
+"src_ipa": "dʒʌstɪs",
+"tgt_ipa": "dʒas"
+},
+{
+"src": "photo",
+"tgt": "foro",
+"score": 0.753,
+"src_ipa": "foʊɾoʊ",
+"tgt_ipa": "foɾo"
+},
+{
+"src": "posted",
+"tgt": "post",
+"score": 0.726,
+"src_ipa": "poʊstᵻd",
+"tgt_ipa": "post"
+},
+{
+"src": "safety",
+"tgt": "sentí",
+"score": 0.763,
+"src_ipa": "seɪfti",
+"tgt_ipa": "senti"
+},
+{
+"src": "san",
+"tgt": "sin",
+"score": 0.71,
+"src_ipa": "sæn",
+"tgt_ipa": "sin"
+},
+{
+"src": "scene",
+"tgt": "sin",
+"score": 1.0,
+"src_ipa": "siːn",
+"tgt_ipa": "sin"
+},
+{
+"src": "sold",
+"tgt": "sol",
+"score": 0.671,
+"src_ipa": "soʊld",
+"tgt_ipa": "sol"
+},
+{
+"src": "sounds",
+"tgt": "san",
+"score": 0.641,
+"src_ipa": "saʊndz",
+"tgt_ipa": "san"
+},
+{
+"src": "spend",
+"tgt": "depende",
+"score": 0.666,
+"src_ipa": "spɛnd",
+"tgt_ipa": "depɛnde"
+},
+{
+"src": "sun",
+"tgt": "son",
+"score": 0.73,
+"src_ipa": "sʌn",
+"tgt_ipa": "son"
+},
+{
+"src": "teams",
+"tgt": "tim",
+"score": 0.808,
+"src_ipa": "tiːmz",
+"tgt_ipa": "tim"
+},
+{
+"src": "announced",
+"tgt": "fauna",
+"score": 0.648,
+"src_ipa": "ɐnaʊnst",
+"tgt_ipa": "faʊna"
+},
+{
+"src": "calling",
+"tgt": "kong",
+"score": 0.636,
+"src_ipa": "kɔːlɪŋ",
+"tgt_ipa": "koŋ"
+},
+{
+"src": "coach",
+"tgt": "coche",
+"score": 0.71,
+"src_ipa": "koʊtʃ",
+"tgt_ipa": "kotʃe"
+},
+{
+"src": "costs",
+"tgt": "costos",
+"score": 0.707,
+"src_ipa": "kɔsts",
+"tgt_ipa": "kostos"
+},
+{
+"src": "designed",
+"tgt": "and",
+"score": 0.623,
+"src_ipa": "dɪzaɪnd",
+"tgt_ipa": "and"
+},
+{
+"src": "friday",
+"tgt": "frase",
+"score": 0.679,
+"src_ipa": "fɹaɪdeɪ",
+"tgt_ipa": "fɾase"
+},
+{
+"src": "gun",
+"tgt": "guión",
+"score": 0.689,
+"src_ipa": "ɡʌn",
+"tgt_ipa": "ɡjon"
+},
+{
+"src": "train",
+"tgt": "tren",
+"score": 0.852,
+"src_ipa": "tɹeɪn",
+"tgt_ipa": "tɾen"
+},
+{
+"src": "wide",
+"tgt": "what",
+"score": 0.692,
+"src_ipa": "waɪd",
+"tgt_ipa": "wat"
+},
+{
+"src": "wow",
+"tgt": "au",
+"score": 0.761,
+"src_ipa": "waʊ",
+"tgt_ipa": "aʊ"
+},
+{
+"src": "centre",
+"tgt": "sesenta",
+"score": 0.741,
+"src_ipa": "sɛntɚ",
+"tgt_ipa": "sesɛnta"
+},
+{
+"src": "fear",
+"tgt": "for",
+"score": 0.671,
+"src_ipa": "fɪɹ",
+"tgt_ipa": "foɾ"
+},
+{
+"src": "generally",
+"tgt": "henry",
+"score": 0.651,
+"src_ipa": "dʒɛnɚɹəli",
+"tgt_ipa": "ɛnɾi"
+},
+{
+"src": "global",
+"tgt": "globo",
+"score": 0.65,
+"src_ipa": "ɡloʊbəl",
+"tgt_ipa": "ɡloβo"
+},
+{
+"src": "goals",
+"tgt": "gol",
+"score": 0.668,
+"src_ipa": "ɡoʊlz",
+"tgt_ipa": "ɡol"
+},
+{
+"src": "judge",
+"tgt": "jazz",
+"score": 0.635,
+"src_ipa": "dʒʌdʒ",
+"tgt_ipa": "dʒas"
+},
+{
+"src": "lady",
+"tgt": "leí",
+"score": 0.771,
+"src_ipa": "leɪdi",
+"tgt_ipa": "lei"
+},
+{
+"src": "leader",
+"tgt": "libertad",
+"score": 0.634,
+"src_ipa": "liːdɚ",
+"tgt_ipa": "liβeɾtad"
+},
+{
+"src": "letter",
+"tgt": "leer",
+"score": 0.665,
+"src_ipa": "lɛɾɚ",
+"tgt_ipa": "leeɾ"
+},
+{
+"src": "lines",
+"tgt": "live",
+"score": 0.706,
+"src_ipa": "laɪnz",
+"tgt_ipa": "laɪβ"
+},
+{
+"src": "named",
+"tgt": "new",
+"score": 0.628,
+"src_ipa": "neɪmd",
+"tgt_ipa": "new"
+},
+{
+"src": "opportunity",
+"tgt": "henry",
+"score": 0.63,
+"src_ipa": "ɑːpɚtuːnᵻɾi",
+"tgt_ipa": "ɛnɾi"
+},
+{
+"src": "plus",
+"tgt": "platos",
+"score": 0.692,
+"src_ipa": "plʌs",
+"tgt_ipa": "platos"
+},
+{
+"src": "pre",
+"tgt": "pri",
+"score": 1.0,
+"src_ipa": "pɹiː",
+"tgt_ipa": "pɾi"
+},
+{
+"src": "sister",
+"tgt": "street",
+"score": 0.672,
+"src_ipa": "sɪstɚ",
+"tgt_ipa": "stɾeet"
+},
+{
+"src": "stories",
+"tgt": "histórico",
+"score": 0.669,
+"src_ipa": "stoːɹiz",
+"tgt_ipa": "istoɾiko"
+},
+{
+"src": "anymore",
+"tgt": "amor",
+"score": 0.689,
+"src_ipa": "ɛnɪmoːɹ",
+"tgt_ipa": "amoɾ"
+},
+{
+"src": "bar",
+"tgt": "ver",
+"score": 0.7,
+"src_ipa": "bɑːɹ",
+"tgt_ipa": "beɾ"
+},
+{
+"src": "battle",
+"tgt": "vol",
+"score": 0.627,
+"src_ipa": "bæɾəl",
+"tgt_ipa": "bol"
+},
+{
+"src": "brain",
+"tgt": "brown",
+"score": 0.708,
+"src_ipa": "bɹeɪn",
+"tgt_ipa": "bɾown"
+},
+{
+"src": "contract",
+"tgt": "contra",
+"score": 0.626,
+"src_ipa": "kɑːntɹækt",
+"tgt_ipa": "kontɾa"
+},
+{
+"src": "features",
+"tgt": "ficha",
+"score": 0.782,
+"src_ipa": "fiːtʃɚz",
+"tgt_ipa": "fitʃa"
+},
+{
+"src": "floor",
+"tgt": "flor",
+"score": 1.0,
+"src_ipa": "floːɹ",
+"tgt_ipa": "floɾ"
+},
+{
+"src": "france",
+"tgt": "fans",
+"score": 0.741,
+"src_ipa": "fɹæns",
+"tgt_ipa": "fans"
+},
+{
+"src": "majority",
+"tgt": "mary",
+"score": 0.642,
+"src_ipa": "mədʒɔːɹᵻɾi",
+"tgt_ipa": "maɾi"
+},
+{
+"src": "meant",
+"tgt": "mente",
+"score": 0.828,
+"src_ipa": "mɛnt",
+"tgt_ipa": "mɛnte"
+},
+{
+"src": "pro",
+"tgt": "pronto",
+"score": 0.696,
+"src_ipa": "pɹoʊ",
+"tgt_ipa": "pɾonto"
+},
+{
+"src": "reach",
+"tgt": "richard",
+"score": 0.751,
+"src_ipa": "ɹiːtʃ",
+"tgt_ipa": "ritʃaɾd"
+},
+{
+"src": "rule",
+"tgt": "raúl",
+"score": 0.781,
+"src_ipa": "ɹuːl",
+"tgt_ipa": "raul"
+},
+{
+"src": "seriously",
+"tgt": "salí",
+"score": 0.651,
+"src_ipa": "sɪɹiəsli",
+"tgt_ipa": "sali"
+},
+{
+"src": "sports",
+"tgt": "soporte",
+"score": 0.709,
+"src_ipa": "spoːɹts",
+"tgt_ipa": "sopoɾte"
+},
+{
+"src": "civil",
+"tgt": "sal",
+"score": 0.623,
+"src_ipa": "sɪvəl",
+"tgt_ipa": "sal"
+},
+{
+"src": "defense",
+"tgt": "defensa",
+"score": 0.73,
+"src_ipa": "dᵻfɛns",
+"tgt_ipa": "defɛnsa"
+},
+{
+"src": "stock",
+"tgt": "star",
+"score": 0.632,
+"src_ipa": "stɑːk",
+"tgt_ipa": "staɾ"
+},
+{
+"src": "trump",
+"tgt": "trampa",
+"score": 0.686,
+"src_ipa": "tɹʌmp",
+"tgt_ipa": "tɾampa"
+},
+{
+"src": "wonder",
+"tgt": "and",
+"score": 0.689,
+"src_ipa": "wʌndɚ",
+"tgt_ipa": "and"
+},
+{
+"src": "worst",
+"tgt": "west",
+"score": 0.77,
+"src_ipa": "wɜːst",
+"tgt_ipa": "west"
+},
+{
+"src": "band",
+"tgt": "and",
+"score": 0.655,
+"src_ipa": "bænd",
+"tgt_ipa": "and"
+},
+{
+"src": "beach",
+"tgt": "vital",
+"score": 0.659,
+"src_ipa": "biːtʃ",
+"tgt_ipa": "bital"
+},
+{
+"src": "clearly",
+"tgt": "click",
+"score": 0.668,
+"src_ipa": "klɪɹli",
+"tgt_ipa": "klik"
+},
+{
+"src": "ended",
+"tgt": "ende",
+"score": 0.747,
+"src_ipa": "ɛndᵻd",
+"tgt_ipa": "ɛnde"
+},
+{
+"src": "fan",
+"tgt": "fin",
+"score": 0.71,
+"src_ipa": "fæn",
+"tgt_ipa": "fin"
+},
+{
+"src": "lack",
+"tgt": "link",
+"score": 0.64,
+"src_ipa": "læk",
+"tgt_ipa": "liŋk"
+},
+{
+"src": "latest",
+"tgt": "ley",
+"score": 0.706,
+"src_ipa": "leɪɾɪst",
+"tgt_ipa": "leɪ"
+},
+{
+"src": "multiple",
+"tgt": "apple",
+"score": 0.637,
+"src_ipa": "mʌltɪpəl",
+"tgt_ipa": "apəl"
+},
+{
+"src": "older",
+"tgt": "world",
+"score": 0.643,
+"src_ipa": "oʊldɚ",
+"tgt_ipa": "woɾld"
+},
+{
+"src": "passed",
+"tgt": "post",
+"score": 0.755,
+"src_ipa": "pæst",
+"tgt_ipa": "post"
+},
+{
+"src": "secret",
+"tgt": "siquiera",
+"score": 0.647,
+"src_ipa": "siːkɹᵻt",
+"tgt_ipa": "sikjeɾa"
+},
+{
+"src": "senior",
+"tgt": "sin",
+"score": 0.815,
+"src_ipa": "siːnjɚ",
+"tgt_ipa": "sin"
+},
+{
+"src": "sunday",
+"tgt": "santander",
+"score": 0.625,
+"src_ipa": "sʌndeɪ",
+"tgt_ipa": "santandeɾ"
+},
+{
+"src": "wear",
+"tgt": "huir",
+"score": 0.713,
+"src_ipa": "wɛɹ",
+"tgt_ipa": "wiɾ"
+},
+{
+"src": "anyway",
+"tgt": "ente",
+"score": 0.628,
+"src_ipa": "ɛnɪweɪ",
+"tgt_ipa": "ɛnte"
+},
+{
+"src": "bought",
+"tgt": "bot",
+"score": 0.733,
+"src_ipa": "bɔːt",
+"tgt_ipa": "bot"
+},
+{
+"src": "choose",
+"tgt": "chupa",
+"score": 0.686,
+"src_ipa": "tʃuːz",
+"tgt_ipa": "tʃupa"
+},
+{
+"src": "christmas",
+"tgt": "crisis",
+"score": 0.652,
+"src_ipa": "kɹɪsməs",
+"tgt_ipa": "kɾisis"
+},
+{
+"src": "color",
+"tgt": "cual",
+"score": 0.689,
+"src_ipa": "kʌlɚ",
+"tgt_ipa": "kwal"
+},
+{
+"src": "details",
+"tgt": "diste",
+"score": 0.659,
+"src_ipa": "diːteɪlz",
+"tgt_ipa": "diste"
+},
+{
+"src": "dream",
+"tgt": "dime",
+"score": 0.645,
+"src_ipa": "dɹiːm",
+"tgt_ipa": "dime"
+},
+{
+"src": "grand",
+"tgt": "grande",
+"score": 0.691,
+"src_ipa": "ɡɹænd",
+"tgt_ipa": "ɡɾande"
+},
+{
+"src": "increased",
+"tgt": "cristo",
+"score": 0.707,
+"src_ipa": "ɪŋkɹiːst",
+"tgt_ipa": "kɾisto"
+},
+{
+"src": "indian",
+"tgt": "indican",
+"score": 0.646,
+"src_ipa": "ɪndiən",
+"tgt_ipa": "indikan"
+},
+{
+"src": "literally",
+"tgt": "li",
+"score": 0.693,
+"src_ipa": "lɪɾɚɹəli",
+"tgt_ipa": "li"
+},
+{
+"src": "luck",
+"tgt": "link",
+"score": 0.64,
+"src_ipa": "lʌk",
+"tgt_ipa": "liŋk"
+},
+{
+"src": "names",
+"tgt": "new",
+"score": 0.626,
+"src_ipa": "neɪmz",
+"tgt_ipa": "new"
+},
+{
+"src": "necessary",
+"tgt": "ni",
+"score": 0.623,
+"src_ipa": "nɛsᵻsɚɹi",
+"tgt_ipa": "ni"
+},
+{
+"src": "patients",
+"tgt": "pesos",
+"score": 0.637,
+"src_ipa": "peɪʃənts",
+"tgt_ipa": "pesos"
+},
+{
+"src": "skin",
+"tgt": "sin",
+"score": 0.657,
+"src_ipa": "skɪn",
+"tgt_ipa": "sin"
+},
+{
+"src": "sweet",
+"tgt": "with",
+"score": 0.814,
+"src_ipa": "swiːt",
+"tgt_ipa": "wit"
+},
+{
+"src": "touch",
+"tgt": "che",
+"score": 0.629,
+"src_ipa": "tʌtʃ",
+"tgt_ipa": "tʃe"
+},
+{
+"src": "doubt",
+"tgt": "auto",
+"score": 0.641,
+"src_ipa": "daʊt",
+"tgt_ipa": "aʊto"
+},
+{
+"src": "driving",
+"tgt": "dra",
+"score": 0.673,
+"src_ipa": "dɹaɪvɪŋ",
+"tgt_ipa": "dɾa"
+},
+{
+"src": "feels",
+"tgt": "fila",
+"score": 0.738,
+"src_ipa": "fiːlz",
+"tgt_ipa": "fila"
+},
+{
+"src": "gay",
+"tgt": "hey",
+"score": 0.716,
+"src_ipa": "ɡeɪ",
+"tgt_ipa": "eɪ"
+},
+{
+"src": "greater",
+"tgt": "green",
+"score": 0.693,
+"src_ipa": "ɡɹeɪɾɚ",
+"tgt_ipa": "ɡɾeen"
+},
+{
+"src": "grow",
+"tgt": "gran",
+"score": 0.639,
+"src_ipa": "ɡɹoʊ",
+"tgt_ipa": "ɡɾan"
+},
+{
+"src": "machine",
+"tgt": "min",
+"score": 0.74,
+"src_ipa": "məʃiːn",
+"tgt_ipa": "min"
+},
+{
+"src": "notice",
+"tgt": "nos",
+"score": 0.736,
+"src_ipa": "noʊɾɪs",
+"tgt_ipa": "nos"
+},
+{
+"src": "professor",
+"tgt": "propios",
+"score": 0.63,
+"src_ipa": "pɹəfɛsɚ",
+"tgt_ipa": "pɾopjos"
+},
+{
+"src": "reports",
+"tgt": "reportes",
+"score": 0.768,
+"src_ipa": "ɹᵻpoːɹts",
+"tgt_ipa": "repoɾtes"
+},
+{
+"src": "shown",
+"tgt": "show",
+"score": 0.67,
+"src_ipa": "ʃoʊn",
+"tgt_ipa": "ʃow"
+},
+{
+"src": "sit",
+"tgt": "set",
+"score": 0.71,
+"src_ipa": "sɪt",
+"tgt_ipa": "set"
+},
+{
+"src": "trip",
+"tgt": "trump",
+"score": 0.683,
+"src_ipa": "tɹɪp",
+"tgt_ipa": "tɾump"
+},
+{
+"src": "basic",
+"tgt": "veinte",
+"score": 0.632,
+"src_ipa": "beɪsɪk",
+"tgt_ipa": "beɪnte"
+},
+{
+"src": "carry",
+"tgt": "casi",
+"score": 0.653,
+"src_ipa": "kæɹi",
+"tgt_ipa": "kasi"
+},
+{
+"src": "explain",
+"tgt": "explican",
+"score": 0.649,
+"src_ipa": "ɛkspleɪn",
+"tgt_ipa": "eksplikan"
+},
+{
+"src": "fully",
+"tgt": "fi",
+"score": 0.683,
+"src_ipa": "fʊli",
+"tgt_ipa": "fi"
+},
+{
+"src": "highly",
+"tgt": "ali",
+"score": 0.676,
+"src_ipa": "haɪli",
+"tgt_ipa": "ali"
+},
+{
+"src": "male",
+"tgt": "mail",
+"score": 0.77,
+"src_ipa": "meɪl",
+"tgt_ipa": "maɪl"
+},
+{
+"src": "parties",
+"tgt": "parís",
+"score": 0.623,
+"src_ipa": "pɑːɹɾiz",
+"tgt_ipa": "paɾis"
+},
+{
+"src": "plant",
+"tgt": "planta",
+"score": 0.686,
+"src_ipa": "plænt",
+"tgt_ipa": "planta"
+},
+{
+"src": "spot",
+"tgt": "set",
+"score": 0.633,
+"src_ipa": "spɑːt",
+"tgt_ipa": "set"
+},
+{
+"src": "texas",
+"tgt": "textos",
+"score": 0.665,
+"src_ipa": "tɛksəs",
+"tgt_ipa": "tekstos"
+},
+{
+"src": "winter",
+"tgt": "saint",
+"score": 0.713,
+"src_ipa": "wɪntɚ",
+"tgt_ipa": "saɪnt"
+},
+{
+"src": "worse",
+"tgt": "huesos",
+"score": 0.625,
+"src_ipa": "wɜːs",
+"tgt_ipa": "wesos"
+},
+{
+"src": "advice",
+"tgt": "vais",
+"score": 0.698,
+"src_ipa": "ɐdvaɪs",
+"tgt_ipa": "baɪs"
+},
+{
+"src": "award",
+"tgt": "lord",
+"score": 0.631,
+"src_ipa": "ɐwɔːɹd",
+"tgt_ipa": "loɾd"
+},
+{
+"src": "block",
+"tgt": "black",
+"score": 0.793,
+"src_ipa": "blɑːk",
+"tgt_ipa": "blak"
+},
+{
+"src": "broken",
+"tgt": "brown",
+"score": 0.731,
+"src_ipa": "bɹoʊkən",
+"tgt_ipa": "bɾown"
+},
+{
+"src": "christian",
+"tgt": "creen",
+"score": 0.625,
+"src_ipa": "kɹɪstʃən",
+"tgt_ipa": "kɾeen"
+},
+{
+"src": "comment",
+"tgt": "comenta",
+"score": 0.715,
+"src_ipa": "kɑːmɛnt",
+"tgt_ipa": "komɛnta"
+},
+{
+"src": "holy",
+"tgt": "li",
+"score": 0.656,
+"src_ipa": "hoʊli",
+"tgt_ipa": "li"
+},
+{
+"src": "killing",
+"tgt": "king",
+"score": 0.636,
+"src_ipa": "kɪlɪŋ",
+"tgt_ipa": "kiŋ"
+},
+{
+"src": "lots",
+"tgt": "las",
+"score": 0.696,
+"src_ipa": "lɑːts",
+"tgt_ipa": "las"
+},
+{
+"src": "nation",
+"tgt": "nelson",
+"score": 0.642,
+"src_ipa": "neɪʃən",
+"tgt_ipa": "nelson"
+},
+{
+"src": "peter",
+"tgt": "pedir",
+"score": 0.735,
+"src_ipa": "piːɾɚ",
+"tgt_ipa": "peðiɾ"
+},
+{
+"src": "prices",
+"tgt": "pais",
+"score": 0.717,
+"src_ipa": "pɹaɪsᵻz",
+"tgt_ipa": "paɪs"
+},
+{
+"src": "primary",
+"tgt": "pri",
+"score": 0.751,
+"src_ipa": "pɹaɪmɚɹi",
+"tgt_ipa": "pɾi"
+},
+{
+"src": "rates",
+"tgt": "rey",
+"score": 0.769,
+"src_ipa": "ɹeɪts",
+"tgt_ipa": "reɪ"
+},
+{
+"src": "showing",
+"tgt": "show",
+"score": 0.633,
+"src_ipa": "ʃoʊɪŋ",
+"tgt_ipa": "ʃow"
+},
+{
+"src": "teacher",
+"tgt": "ti",
+"score": 0.678,
+"src_ipa": "tiːtʃɚ",
+"tgt_ipa": "ti"
+},
+{
+"src": "theory",
+"tgt": "city",
+"score": 0.729,
+"src_ipa": "θiəɹi",
+"tgt_ipa": "θiti"
+},
+{
+"src": "cell",
+"tgt": "sol",
+"score": 0.69,
+"src_ipa": "sɛl",
+"tgt_ipa": "sol"
+},
+{
+"src": "coast",
+"tgt": "costa",
+"score": 0.705,
+"src_ipa": "koʊst",
+"tgt_ipa": "kosta"
+},
+{
+"src": "comments",
+"tgt": "cuentas",
+"score": 0.672,
+"src_ipa": "kɑːmɛnts",
+"tgt_ipa": "kwɛntas"
+},
+{
+"src": "drug",
+"tgt": "dra",
+"score": 0.655,
+"src_ipa": "dɹʌɡ",
+"tgt_ipa": "dɾa"
+},
+{
+"src": "mass",
+"tgt": "más",
+"score": 0.73,
+"src_ipa": "mæs",
+"tgt_ipa": "mas"
+},
+{
+"src": "meaning",
+"tgt": "min",
+"score": 0.748,
+"src_ipa": "miːnɪŋ",
+"tgt_ipa": "min"
+},
+{
+"src": "mission",
+"tgt": "min",
+"score": 0.63,
+"src_ipa": "mɪʃən",
+"tgt_ipa": "min"
+},
+{
+"src": "nine",
+"tgt": "nación",
+"score": 0.671,
+"src_ipa": "naɪn",
+"tgt_ipa": "naθjon"
+},
+{
+"src": "produced",
+"tgt": "post",
+"score": 0.675,
+"src_ipa": "pɹəduːst",
+"tgt_ipa": "post"
+},
+{
+"src": "saturday",
+"tgt": "hey",
+"score": 0.622,
+"src_ipa": "sæɾɚdeɪ",
+"tgt_ipa": "eɪ"
+},
+{
+"src": "therefore",
+"tgt": "for",
+"score": 0.697,
+"src_ipa": "ðɛɹfoːɹ",
+"tgt_ipa": "foɾ"
+},
+{
+"src": "trial",
+"tgt": "traigo",
+"score": 0.709,
+"src_ipa": "tɹaɪəl",
+"tgt_ipa": "tɾaɪɣo"
+},
+{
+"src": "truly",
+"tgt": "truco",
+"score": 0.65,
+"src_ipa": "tɹuːli",
+"tgt_ipa": "tɾuko"
+},
+{
+"src": "app",
+"tgt": "ap",
+"score": 0.637,
+"src_ipa": "æp",
+"tgt_ipa": "ap"
+},
+{
+"src": "coffee",
+"tgt": "fi",
+"score": 0.645,
+"src_ipa": "kɔfi",
+"tgt_ipa": "fi"
+},
+{
+"src": "complex",
+"tgt": "complejos",
+"score": 0.658,
+"src_ipa": "kɑːmplɛks",
+"tgt_ipa": "komplexos"
+},
+{
+"src": "condition",
+"tgt": "condición",
+"score": 0.623,
+"src_ipa": "kəndɪʃən",
+"tgt_ipa": "kondiθjon"
+},
+{
+"src": "evening",
+"tgt": "ing",
+"score": 0.643,
+"src_ipa": "iːvnɪŋ",
+"tgt_ipa": "iŋ"
+},
+{
+"src": "flight",
+"tgt": "flash",
+"score": 0.713,
+"src_ipa": "flaɪt",
+"tgt_ipa": "flaʃ"
+},
+{
+"src": "freedom",
+"tgt": "free",
+"score": 0.708,
+"src_ipa": "fɹiːdəm",
+"tgt_ipa": "fɾi"
+},
+{
+"src": "heat",
+"tgt": "it",
+"score": 0.766,
+"src_ipa": "hiːt",
+"tgt_ipa": "it"
+},
+{
+"src": "highest",
+"tgt": "est",
+"score": 0.632,
+"src_ipa": "haɪɪst",
+"tgt_ipa": "est"
+},
+{
+"src": "library",
+"tgt": "lady",
+"score": 0.63,
+"src_ipa": "laɪbɹɛɹi",
+"tgt_ipa": "laði"
+},
+{
+"src": "located",
+"tgt": "lord",
+"score": 0.722,
+"src_ipa": "loʊkeɪɾᵻd",
+"tgt_ipa": "loɾd"
+},
+{
+"src": "queen",
+"tgt": "cuán",
+"score": 0.755,
+"src_ipa": "kwiːn",
+"tgt_ipa": "kwan"
+},
+{
+"src": "showed",
+"tgt": "show",
+"score": 0.678,
+"src_ipa": "ʃoʊd",
+"tgt_ipa": "ʃow"
+},
+{
+"src": "stars",
+"tgt": "star",
+"score": 0.656,
+"src_ipa": "stɑːɹz",
+"tgt_ipa": "staɾ"
+},
+{
+"src": "appear",
+"tgt": "air",
+"score": 0.651,
+"src_ipa": "ɐpɪɹ",
+"tgt_ipa": "aɪɾ"
+},
+{
+"src": "broke",
+"tgt": "brown",
+"score": 0.683,
+"src_ipa": "bɹoʊk",
+"tgt_ipa": "bɾown"
+},
+{
+"src": "eating",
+"tgt": "ir",
+"score": 0.683,
+"src_ipa": "iːɾɪŋ",
+"tgt_ipa": "iɾ"
+},
+{
+"src": "fell",
+"tgt": "fiel",
+"score": 0.691,
+"src_ipa": "fɛl",
+"tgt_ipa": "fjel"
+},
+{
+"src": "glass",
+"tgt": "gas",
+"score": 0.655,
+"src_ipa": "ɡlæs",
+"tgt_ipa": "ɡas"
+},
+{
+"src": "learned",
+"tgt": "and",
+"score": 0.64,
+"src_ipa": "lɜːnd",
+"tgt_ipa": "and"
+},
+{
+"src": "mobile",
+"tgt": "móvil",
+"score": 0.681,
+"src_ipa": "moʊbəl",
+"tgt_ipa": "moβil"
+},
+{
+"src": "placed",
+"tgt": "post",
+"score": 0.685,
+"src_ipa": "pleɪst",
+"tgt_ipa": "post"
+},
+{
+"src": "powerful",
+"tgt": "paul",
+"score": 0.797,
+"src_ipa": "paʊɚfəl",
+"tgt_ipa": "paʊl"
+},
+{
+"src": "prior",
+"tgt": "paraguay",
+"score": 0.698,
+"src_ipa": "pɹaɪɚ",
+"tgt_ipa": "paɾaɣwaɪ"
+},
+{
+"src": "protection",
+"tgt": "pretenden",
+"score": 0.621,
+"src_ipa": "pɹətɛkʃən",
+"tgt_ipa": "pɾetɛnden"
+},
+{
+"src": "reached",
+"tgt": "richard",
+"score": 0.733,
+"src_ipa": "ɹiːtʃt",
+"tgt_ipa": "ritʃaɾd"
+},
+{
+"src": "ride",
+"tgt": "ray",
+"score": 0.812,
+"src_ipa": "ɹaɪd",
+"tgt_ipa": "raɪ"
+},
+{
+"src": "royal",
+"tgt": "rol",
+"score": 0.66,
+"src_ipa": "ɹɔɪəl",
+"tgt_ipa": "rol"
+}
+]
