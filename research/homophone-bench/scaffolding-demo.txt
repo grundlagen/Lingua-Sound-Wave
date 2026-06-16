@@ -1,0 +1,31 @@
+SCAFFOLDING — run through the decoupled chain game
+(source = my own paraphrase of Heaney's imagery; Heaney's text not reproduced)
+
+CHAIN-GAME BACKBONE (deterministic; source word -> French via chain/loop-gold):
+  raise   -> set ~ sets        [loop-gold]   en:set ≈ fr:sets ~ en:sets ≈ fr:set
+  mason   -> men ~ mensuels    [chain]       en:men ≈ mènent ~ mènent lis ≈ monthly = mensuels
+  scaffold-> pole ~ proche     [chain]       en:pole ~ nie ≈ near = proche
+  plank   -> deck ~ toi        [chain]       en:deck ~ decked ≈ dicte ~ digue ≈ dig ~ toi
+  test    -> test ~ testes     [loop-gold]   en:test ~ fr:test ≈ tests ~ testes
+  high    -> up ~ hache        [chain]       en:up ≈ happe ~ hache
+  ladder  -> step ~ stoppes    [loop-gold]   en:step ~ fr:step ≈ stop ~ stoppes
+  wall    -> tower ~ tuteur    [chain]       en:tower = tour ≈ tutor = tuteur
+  hold    -> rest ~ intéressés [chain]       en:rest ≈ restes ~ ... ≈ interested = intéressés
+  fall    -> fall ~ folle      [loop-gold]   en:fall ≈ fr:folle ~ falls
+  bond    -> tie ~ tizi        [chain]       en:tie ~ tiered ≈ tiède ~ tizi
+
+LLM FLUENCY LAYER (arrangement into form; chain-words are the anchors,
+small French connectives added; some sound-fidelity traded for readability):
+
+HAIKU
+  Le tuteur, tout proche —          (The stake/scaffold, close by —)
+  tu testes, tu stoppes la folle    (you test, you halt the wild)
+  nuit. Toi. On tient.              (night. You. We hold.)
+
+SONNET SKETCH (octave; material runs thin past the chain vocabulary)
+  Les mensuels montent — sets de planches, proche le ciel,   (the monthly men climb — sets of planks, near the sky)
+  ils testent chaque appui que la hauteur appelle.            (they test each footing the height calls for)
+  Step après step, la folle échelle se rappelle               (step after step, the mad ladder recalls)
+  qu'un tuteur tient le mur quand on le veut fidèle.          (that a stake holds the wall when you want it true)
+  Toi, intéressés au poids, tu stoppes, tu testes ;           (You, invested in the weight, you stop, you test;)
+  la digue tient. Le bond, le tizi, tiède, reste.             (the dyke holds. The bond, ..., warm, remains.)
