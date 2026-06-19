@@ -7,7 +7,7 @@ Never imports or modifies existing scripts.
     python chain_methods.py graduated    # graduated S/A+/A tier re-scoring
     python chain_methods.py density      # density-based certification
     python chain_methods.py shortchains  # extract strongest 2-hop evidence
-    python chain_methods.py fragments    # deep fragment composition (3-6 chunks)
+    python chain_methods.py fragments    # exact deep fragment composition (3-6 chunks)
 
 Outputs (all new files, prefixed 'new-'):
     new-chain-loops-graduated.tsv        loops re-scored with min-edge + graduated tiers
@@ -358,9 +358,17 @@ def short_chain_evidence(data: Data, out: list[str]):
 # ---------------------------------------------------------------- 4. deep fragment composition
 
 def deep_fragments(data: Data, out: list[str]):
-    """Explore 3-6 chunk fragment compositions to find novel EN->FR matches."""
+    """Explore 3-6 chunk fragment compositions, EXACT IPA matching only.
+
+    No fuzzy / edit-distance matching: a composition counts only when the
+    concatenated FR-chunk IPA is an EXACT pronunciation of a real FR word.
+    The honest result is that exact concatenation is sparse — which is the
+    whole reason the 11-12 June schema routes growth through RE-MINING with
+    phonetic_decoder.py (Lexique trie + beam search under the matcher's
+    learned equivalence-floored costs), not through relaxed string matching.
+    """
     out.append("\n" + "=" * 72)
-    out.append("METHOD 4: DEEP FRAGMENT COMPOSITION (3-6 CHUNKS)")
+    out.append("METHOD 4: DEEP FRAGMENT COMPOSITION (3-6 CHUNKS, EXACT ONLY)")
     out.append("=" * 72)
 
     try:
@@ -394,14 +402,12 @@ def deep_fragments(data: Data, out: list[str]):
         if e.get("usable_for_composition"):
             existing_en.add(e["en"])
 
-    # Build FR IPA index for verification (exact + approximate)
+    # Build FR IPA index for EXACT verification only.
     fr_ipa_to_word: dict[str, list[str]] = defaultdict(list)
-    fr_ipa_index: list[tuple[str, str, float]] = []  # (ipa, word, zipf)
     for e in data.entries:
         fr_ipa = e.get("fr_ipa", "")
         if fr_ipa:
             fr_ipa_to_word[fr_ipa].append(e["fr"])
-            fr_ipa_index.append((fr_ipa, e["fr"], zipf_frequency(e["fr"], "fr")))
 
     # Get common EN words not yet in dictionary
     common_en = set()
@@ -461,36 +467,7 @@ def deep_fragments(data: Data, out: list[str]):
         compositions.append((fr_ipa, min_count, avg_count))
         return compositions
 
-    def ipa_edit_distance(a: str, b: str) -> int:
-        """Simple edit distance between two IPA strings."""
-        la, lb = len(a), len(b)
-        if abs(la - lb) > 3:
-            return 999
-        prev = list(range(lb + 1))
-        for i in range(1, la + 1):
-            curr = [i] + [0] * lb
-            for j in range(1, lb + 1):
-                curr[j] = min(prev[j] + 1, curr[j - 1] + 1,
-                              prev[j - 1] + (0 if a[i - 1] == b[j - 1] else 1))
-            prev = curr
-        return prev[lb]
-
-    def find_fr_approx(composed_ipa: str, max_dist: int = 2) -> list[tuple[str, str, int, float]]:
-        """Find FR words whose IPA is within edit distance of composed_ipa."""
-        hits = []
-        clen = len(composed_ipa)
-        for fr_ipa, fr_word, fr_z in fr_ipa_index:
-            if abs(len(fr_ipa) - clen) > max_dist:
-                continue
-            if fr_z < 2.5:
-                continue
-            d = ipa_edit_distance(composed_ipa, fr_ipa)
-            if d <= max_dist:
-                hits.append((fr_word, fr_ipa, d, fr_z))
-        hits.sort(key=lambda x: (x[2], -x[3]))
-        return hits[:5]
-
-    # Run composition on target words — exact + approximate matching
+    # Run composition on target words — EXACT IPA matching only.
     novel_compositions = []
     tested = 0
     for word in sorted(target_words):
@@ -508,7 +485,6 @@ def deep_fragments(data: Data, out: list[str]):
                 continue
             fr_options = compose_fr(chunks)
             for fr_ipa, min_count, avg_count in fr_options:
-                # Try exact match first
                 fr_words = fr_ipa_to_word.get(fr_ipa, [])
                 if fr_words:
                     for fw in fr_words[:2]:
@@ -517,22 +493,8 @@ def deep_fragments(data: Data, out: list[str]):
                             n_chunks=n_chunks, chunk_recipe="+".join(chunks),
                             min_fragment_count=min_count,
                             avg_fragment_count=round(avg_count, 1),
-                            match_type="exact", edit_distance=0,
                             en_zipf=round(zipf_frequency(word, "en"), 2),
                             fr_zipf=round(zipf_frequency(fw, "fr"), 2)))
-                    break
-                # Try approximate match
-                approx = find_fr_approx(fr_ipa, max_dist=2)
-                if approx:
-                    fw, fw_ipa, dist, fz = approx[0]
-                    novel_compositions.append(dict(
-                        en=word, en_ipa=ipa, fr=fw, fr_ipa=fw_ipa,
-                        n_chunks=n_chunks, chunk_recipe="+".join(chunks),
-                        min_fragment_count=min_count,
-                        avg_fragment_count=round(avg_count, 1),
-                        match_type=f"approx(d={dist})", edit_distance=dist,
-                        en_zipf=round(zipf_frequency(word, "en"), 2),
-                        fr_zipf=round(fz, 2)))
                     break
 
     # Deduplicate by (en, fr)
@@ -549,32 +511,20 @@ def deep_fragments(data: Data, out: list[str]):
 
     write_tsv("new-fragment-compositions.tsv", novel_compositions,
               ["en", "en_ipa", "fr", "fr_ipa", "n_chunks", "chunk_recipe",
-               "min_fragment_count", "avg_fragment_count", "match_type",
-               "edit_distance", "en_zipf", "fr_zipf"])
+               "min_fragment_count", "avg_fragment_count", "en_zipf", "fr_zipf"])
 
     # Stats by chunk count
     by_chunks = Counter(nc["n_chunks"] for nc in novel_compositions)
     out.append(f"\nTested {tested} target words for 3-6 chunk decomposition")
-    out.append(f"Found {len(novel_compositions)} novel compositions:")
+    out.append(f"Found {len(novel_compositions)} EXACT novel compositions:")
     for n in sorted(by_chunks):
         out.append(f"  {n} chunks: {by_chunks[n]}")
 
-    out.append(f"\n--- Top compositions by chunk count (deepest first) ---")
+    out.append(f"\n--- Compositions by chunk count (deepest first) ---")
     for nc in novel_compositions[:30]:
         out.append(f"  {nc['n_chunks']}ch  {nc['en']:20s} ({nc['en_ipa']:15s}) -> "
                    f"{nc['fr']:20s} ({nc['fr_ipa']:15s})  "
-                   f"recipe={nc['chunk_recipe']}  {nc['match_type']}  min_frag={nc['min_fragment_count']}")
-
-    exact = [nc for nc in novel_compositions if nc["edit_distance"] == 0]
-    approx = [nc for nc in novel_compositions if nc["edit_distance"] > 0]
-    out.append(f"\nExact IPA matches: {len(exact)}")
-    out.append(f"Approximate matches (edit dist 1-2): {len(approx)}")
-    if approx:
-        out.append(f"\n--- Top approximate matches (novel pairs via fuzzy fragment matching) ---")
-        approx.sort(key=lambda x: (x["edit_distance"], -x["min_fragment_count"]))
-        for nc in approx[:25]:
-            out.append(f"  {nc['n_chunks']}ch  {nc['en']:20s} -> {nc['fr']:20s}  "
-                       f"{nc['match_type']}  recipe={nc['chunk_recipe']}")
+                   f"recipe={nc['chunk_recipe']}  min_frag={nc['min_fragment_count']}")
 
     # Specifically highlight multiword possibilities
     # Can we find EN multiword -> FR multiword via fragments?
@@ -620,13 +570,30 @@ def deep_fragments(data: Data, out: list[str]):
         out.append(f"  {ex['n_chunks']}ch  {ex['en']:25s} ({ex['en_ipa']}) -> "
                    f"{ex['original_fr']:20s}  recipe={ex['recipe']}")
 
-    out.append(f"\n>> FINDING: Deep fragment composition (3-6 chunks) opens access to")
-    out.append(f"   longer words the 2-chunk pipeline misses. The fragment inventory")
-    out.append(f"   supports compositions up to 6 chunks, but IPA-exact matches to")
-    out.append(f"   real FR words are the bottleneck — most compositions produce IPA")
-    out.append(f"   strings with no dictionary match. The path forward: use the")
-    out.append(f"   phonetic decoder (not fragments) for the FR-side, using fragment")
-    out.append(f"   chunks only as a SEGMENTATION guide for the EN side.")
+    out.append(f"\n>> FINDING (multi-to-multi, 5-6 words?): fragments are frozen at")
+    out.append(f"   2 chunks and EXACT concatenation past that is sparse — most 3-6")
+    out.append(f"   chunk recipes produce an IPA string no FR word exactly pronounces.")
+    out.append(f"   This is NOT solved by relaxing the match (fuzzy/edit-distance is")
+    out.append(f"   off the table). The 11-12 June schema already has the principled")
+    out.append(f"   generalization: phonetic_decoder.py replaces pairwise/2-chunk")
+    out.append(f"   blocking with a Lexique pronunciation TRIE + beam search, where")
+    out.append(f"   substitution costs are floored by the matcher's LEARNED phoneme")
+    out.append(f"   equivalences (learn_costs.py -> learned-costs.json) and word")
+    out.append(f"   boundaries are free acoustically (MAX_WORDS controls depth).")
+    out.append(f"   That is true multi-to-multi: 'remember' -> whole FR phrases, not")
+    out.append(f"   chunk-pair lookups.")
+    out.append(f"")
+    out.append(f">> RE-MINING is the growth step (commit b5a985a's honest negative):")
+    out.append(f"   promoting/relabelling certified pairs CANNOT compound — loops are")
+    out.append(f"   built from edges that were already usable, so certification only")
+    out.append(f"   re-labels existing topology. New edges come only from re-mining:")
+    out.append(f"     1. learn costs from certified alignments   (learn_costs.py, done)")
+    out.append(f"     2. re-run decode/augment with learned-cost matcher + 2.1x CMUdict")
+    out.append(f"        trie:  phonetic_decoder.py --augment && --reverse   <- GROWTH")
+    out.append(f"     3. new entries -> denser graph -> re-weave (weave.py)")
+    out.append(f"     4. new loops certify new pairs -> goto 1")
+    out.append(f"   These deep-fragment recipes are useful as EN-side SEGMENTATION")
+    out.append(f"   seeds for that decoder pass, not as a standalone matcher.")
 
 
 # ---------------------------------------------------------------- main
