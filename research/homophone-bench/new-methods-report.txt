@@ -1,0 +1,112 @@
+CHAIN METHODS REPORT
+
+
+========================================================================
+METHOD 4: DEEP FRAGMENT COMPOSITION (3-6 CHUNKS)
+========================================================================
+
+Fragment inventory: 2640 chunks, 1882 unique EN chunks
+Common EN words (zipf >= 3.0): 6671
+Already in dictionary (usable): 3099
+Target words (common but not usable): 3572
+
+Tested 3001 target words for 3-6 chunk decomposition
+Found 283 novel compositions:
+  3 chunks: 274
+  4 chunks: 8
+  5 chunks: 1
+
+--- Top compositions by chunk count (deepest first) ---
+  5ch  disciplinary         (dɪsɪplɪnəɹi    ) -> disciplinaires       (disiplinɛʁ     )  recipe=dɪs+ɪp+lɪ+nə+ɹi  approx(d=2)  min_frag=11
+  4ch  diplomat             (dɪpləmæt       ) -> diplomates           (diplɔmat       )  recipe=dɪ+pl+əm+æt  exact  min_frag=20
+  4ch  dramatic             (dɹəmætɪk       ) -> dramatiques          (dʁamatik       )  recipe=dɹ+əm+æt+ɪk  approx(d=2)  min_frag=20
+  4ch  specific             (spəsɪfɪk       ) -> spécifiques          (spesifik       )  recipe=sp+əs+ɪf+ɪk  approx(d=1)  min_frag=10
+  4ch  concepts             (kɒnsɛpts       ) -> concept              (kɔ̃sɛpt        )  recipe=kɒ+ns+ɛp+ts  approx(d=2)  min_frag=8
+  4ch  protesting           (pɹətɛstɪŋ      ) -> palestine            (palɛstin       )  recipe=pɹ+ət+ɛst+ɪŋ  approx(d=2)  min_frag=4
+  4ch  challenges           (tʃælɪndʒɪz     ) -> challenger           (tʃalɛndʒœʁ     )  recipe=tʃ+ælɪ+ndʒ+ɪz  approx(d=2)  min_frag=3
+  4ch  challenging          (tʃælɪndʒɪŋ     ) -> challenger           (tʃalɛndʒœʁ     )  recipe=tʃ+ælɪ+ndʒ+ɪŋ  approx(d=2)  min_frag=3
+  4ch  flexibility          (flɛksɪbɪlɪti   ) -> flexibilité          (flɛksibilite   )  recipe=flɛk+sɪ+bɪl+ɪti  approx(d=1)  min_frag=3
+  3ch  resting              (ɹɛstɪŋ         ) -> destine              (dɛstin         )  recipe=ɹɛ+st+ɪŋ  approx(d=1)  min_frag=61
+  3ch  sectors              (sɛktəz         ) -> synthèse             (sɛ̃tɛz         )  recipe=sɛ+kt+əz  approx(d=1)  min_frag=59
+  3ch  clicking             (klɪkɪŋ         ) -> liquide              (likid          )  recipe=kl+ɪk+ɪŋ  approx(d=2)  min_frag=57
+  3ch  stickers             (stɪkəz         ) -> scies aise           (si ɛz          )  recipe=st+ɪk+əz  approx(d=2)  min_frag=57
+  3ch  depend               (dɪpɛnd         ) -> dizaines             (dizɛn          )  recipe=dɪ+pɛ+nd  approx(d=2)  min_frag=53
+  3ch  expecting            (ɛkspɛktɪŋ      ) -> expertises           (ɛkspɛʁtiz      )  recipe=ɛksp+ɛkt+ɪŋ  approx(d=2)  min_frag=53
+  3ch  intend               (ɪntɛnd         ) -> haines aide          (ɛn ɛd          )  recipe=ɪn+tɛ+nd  approx(d=2)  min_frag=53
+  3ch  riding               (ɹaɪdɪŋ         ) -> badine               (badin          )  recipe=ɹa+ɪd+ɪŋ  approx(d=2)  min_frag=49
+  3ch  descent              (dɪsɛnt         ) -> dit est              (di ɛst         )  recipe=dɪ+sɛ+nt  approx(d=2)  min_frag=47
+  3ch  extent               (ɛkstɛnt        ) -> externes             (ɛkstɛʁn        )  recipe=ɛks+tɛ+nt  approx(d=2)  min_frag=47
+  3ch  sprint               (spɹɪnt         ) -> sprint               (spʁint         )  recipe=sp+ɹɪ+nt  approx(d=1)  min_frag=47
+  3ch  entity               (ɛntɪti         ) -> haines tri           (ɛntʁi          )  recipe=ɛn+tɪ+ti  approx(d=2)  min_frag=46
+  3ch  careers              (kəɹiəz         ) -> cons aise            (kɔ̃ ɛz         )  recipe=kə+ɹi+əz  approx(d=2)  min_frag=42
+  3ch  second               (sɛkənd         ) -> secs ides            (sɛk id         )  recipe=sɛ+kə+nd  approx(d=2)  min_frag=42
+  3ch  checking             (tʃɛkɪŋ         ) -> trait in             (tʁɛ in         )  recipe=tʃ+ɛk+ɪŋ  approx(d=2)  min_frag=40
+  3ch  cracking             (kɹækɪŋ         ) -> coquine              (kɔkin          )  recipe=kɹ+æk+ɪŋ  approx(d=2)  min_frag=35
+  3ch  defend               (dɪfɛnd         ) -> dizaines             (dizɛn          )  recipe=dɪ+fɛ+nd  approx(d=2)  min_frag=35
+  3ch  reactor              (ɹɪæktɐ         ) -> dictée               (dikte          )  recipe=ɹɪ+æk+tɐ  approx(d=2)  min_frag=34
+  3ch  strain               (stɹeɪn         ) -> ses haines           (seɛn           )  recipe=st+ɹe+ɪn  approx(d=2)  min_frag=34
+  3ch  raven                (ɹeɪvən         ) -> ive haines           (ivɛn           )  recipe=ɹe+ɪv+ən  approx(d=2)  min_frag=32
+  3ch  depressed            (dɪpɹɛst        ) -> dit est              (di ɛst         )  recipe=dɪ+pɹɛ+st  approx(d=2)  min_frag=31
+
+Exact IPA matches: 2
+Approximate matches (edit dist 1-2): 281
+
+--- Top approximate matches (novel pairs via fuzzy fragment matching) ---
+  3ch  resting              -> destine               approx(d=1)  recipe=ɹɛ+st+ɪŋ
+  3ch  sectors              -> synthèse              approx(d=1)  recipe=sɛ+kt+əz
+  3ch  sprint               -> sprint                approx(d=1)  recipe=sp+ɹɪ+nt
+  3ch  consist              -> consistent            approx(d=1)  recipe=kən+sɪ+st
+  3ch  script               -> script                approx(d=1)  recipe=sk+ɹɪ+pt
+  3ch  quickly              -> click lies            approx(d=1)  recipe=kw+ɪk+li
+  3ch  critic               -> critique              approx(d=1)  recipe=kɹ+ɪt+ɪk
+  3ch  lighting             -> latine                approx(d=1)  recipe=la+ɪt+ɪŋ
+  3ch  lightly              -> laïques lies          approx(d=1)  recipe=la+ɪt+li
+  3ch  comment              -> comète                approx(d=1)  recipe=kɒ+mɛ+nt
+  3ch  primitive            -> primitive             approx(d=1)  recipe=pɹɪ+mɪ+tɪv
+  4ch  specific             -> spécifiques           approx(d=1)  recipe=sp+əs+ɪf+ɪk
+  3ch  examine              -> examine               approx(d=1)  recipe=ɛɡz+æm+ɪn
+  3ch  colony               -> colonies              approx(d=1)  recipe=kɒ+lə+ni
+  3ch  diving               -> divine                approx(d=1)  recipe=da+ɪv+ɪŋ
+  3ch  papers               -> paies pèsent          approx(d=1)  recipe=pe+ɪp+əz
+  3ch  cocktail             -> cocktails             approx(d=1)  recipe=kɒ+kt+eɪl
+  3ch  fiscal               -> fiscales              approx(d=1)  recipe=fɪ+sk+əl
+  3ch  pension              -> paix chaîne           approx(d=1)  recipe=pɛ+nʃ+ən
+  3ch  physics              -> physiques             approx(d=1)  recipe=fɪ+zɪ+ks
+  3ch  collecting           -> collectives           approx(d=1)  recipe=kəlɛ+kt+ɪŋ
+  3ch  building             -> building              approx(d=1)  recipe=bɪ+ld+ɪŋ
+  3ch  compact              -> compacte              approx(d=1)  recipe=kəm+pæ+kt
+  3ch  deficit              -> déficits              approx(d=1)  recipe=dɛ+fɪ+sɪt
+  3ch  examined             -> examine               approx(d=1)  recipe=ɛɡzæ+mɪ+nd
+
+--- Fragment composition depth analysis ---
+Current state: all 942 fragment entries use exactly 2 chunks
+This method found 274 3-chunk, 8 4-chunk, 1 5-chunk, 0 6-chunk compositions
+Average EN zipf: 4.28, FR zipf: 3.85
+
+--- Multiword-to-multiword fragment bridging ---
+Can we chain EN multiwords to FR multiwords via fragments?
+
+Existing 2-word EN entries re-decomposed into 3+ chunks: 15 / 104
+  4ch  edit riyal                (ɛdɪtɹɪjəl) -> industriel            recipe=ɛdɪ+tɹ+ɪj+əl
+  4ch  edit riyal                (ɛdɪtɹɪjəl) -> industrielle          recipe=ɛdɪ+tɹ+ɪj+əl
+  4ch  edit riyal                (ɛdɪtɹɪjəl) -> industriels           recipe=ɛdɪ+tɹ+ɪj+əl
+  4ch  manners meant             (mænəzmɛnt) -> management            recipe=mæn+əz+mɛ+nt
+  4ch  edit riyal                (ɛdɪtɹɪjəl) -> industrielles         recipe=ɛdɪ+tɹ+ɪj+əl
+  4ch  pallet inner              (pælɪtɪnɐ) -> palestiniens          recipe=pæ+lɪ+tɪ+nɐ
+  4ch  pallet inner              (pælɪtɪnɐ) -> palestinien           recipe=pæ+lɪ+tɪ+nɐ
+  3ch  debt inner                (dɛtɪnɐ) -> destiné               recipe=dɛ+tɪ+nɐ
+  3ch  red error                 (ɹɛdɛɹɐ) -> restera               recipe=ɹɛ+dɛ+ɹɐ
+  3ch  debt inner                (dɛtɪnɐ) -> destinée              recipe=dɛ+tɪ+nɐ
+  3ch  debt inner                (dɛtɪnɐ) -> destinés              recipe=dɛ+tɪ+nɐ
+  3ch  it attack                 (ɪtɐtæk) -> esthétique            recipe=ɪt+ɐt+æk
+  3ch  debt inner                (dɛtɪnɐ) -> destinées             recipe=dɛ+tɪ+nɐ
+  3ch  pallet in                 (pælɪtɪn) -> palestine             recipe=pæl+ɪt+ɪn
+  3ch  pet acid                  (pɛtæsɪd) -> pesticides            recipe=pɛt+æs+ɪd
+
+>> FINDING: Deep fragment composition (3-6 chunks) opens access to
+   longer words the 2-chunk pipeline misses. The fragment inventory
+   supports compositions up to 6 chunks, but IPA-exact matches to
+   real FR words are the bottleneck — most compositions produce IPA
+   strings with no dictionary match. The path forward: use the
+   phonetic decoder (not fragments) for the FR-side, using fragment
+   chunks only as a SEGMENTATION guide for the EN side.

@@ -1,0 +1,1911 @@
+en	fr	pair_score	passages	best_subchain_quality	mean_subchain_quality	min_hops	density_score	example
+rooters	ruent aise	0.952	97	0.942	0.9199	2	89.23	en:rooter ~ en:rooters ≈ fr:ruent aise
+method	met aide	0.929	93	0.956	0.9238	3	85.91	en:metered ≈ fr:méthode ~ en:method ≈ fr:met aide
+pleaded	plient aide	0.96	86	0.953	0.9357	2	80.47	≈ en:pleat ~ en:pleaded ≈ fr:plient aide
+tech	teck	1.0	81	0.99	0.9685	2	78.45	~ fr:tics en:teak = fr:teck ≈ en:tech
+si	scient	1.0	81	0.97	0.9582	3	77.61	en:sea ≈ fr:si ~ en:si ≈ fr:scient
+metered	méthode	0.952	83	0.956	0.9234	2	76.65	en:metered ≈ fr:méthode ~ en:method
+distracted	dis traquent aide	0.954	80	0.951	0.9322	2	74.58	en:distracted ≈ fr:dis traquent aide ~ fr:baissent aide
+retailer	rient ailé	0.983	74	0.978	0.9665	2	71.52	en:retailers ~ en:retailer ≈ fr:rient ailé
+root	routes	1.0	75	0.978	0.9173	2	68.79	en:root ≈ fr:routes ~ fr:route
+piece	pisse	1.0	69	0.988	0.9636	2	66.49	en:piece ≈ fr:pisse ~ fr:pisses
+root	route	1.0	70	1.0	0.9479	2	66.35	en:root ≈ fr:route ~ en:route ≈ fr:routes
+branding	brin digne	0.918	68	0.935	0.9285	2	63.14	≈ en:branded ~ en:branding ≈ fr:brin digne
+retailers	rient hélas	0.94	63	0.977	0.9676	2	60.96	≈ en:retailer ~ en:retailers ≈ fr:rient hélas
+resell	ries elle	0.976	64	0.962	0.9473	2	60.63	en:reseal ~ en:resell ≈ fr:ries elle
+lecture	liguent chez	0.94	64	0.966	0.9343	2	59.79	en:feature ≈ fr:fient chez ~ fr:liguent chez ≈ en:lecture
+branded	prennent aide	0.915	63	0.935	0.9267	2	58.38	en:fitted ≈ fr:fait aide ~ fr:prennent aide ≈ en:branded
+should	shoot	0.927	61	0.983	0.9539	2	58.19	en:should ≈ fr:shoot ~ en:shoot ≈ fr:shoote
+sex	sexes	1.0	60	0.982	0.9594	2	57.56	≈ fr:sexe ~ fr:sexes ≈ en:sex
+enters	aident aise	0.929	61	0.947	0.9199	2	56.11	≈ en:entry ~ en:enters ≈ fr:aident aise
+lectures	liguent chaise	0.932	60	0.949	0.928	2	55.68	en:lecture ~ en:lectures ≈ fr:liguent chaise
+gravel	gras elle	0.911	59	0.961	0.9242	2	54.53	en:gravel ≈ fr:gras elle ~ fr:pissent elle
+reseal	ries il	0.956	57	0.957	0.9483	2	54.05	en:cs ≈ fr:sis ès ~ fr:ries il ≈ en:reseal
+lesson	laids haine	0.952	57	0.96	0.9456	2	53.9	en:lesson ≈ fr:laids haine ~ fr:haine
+pen	peine	1.0	56	0.968	0.9551	2	53.48	en:penalty = fr:peine ≈ en:pen
+presses	précise	0.967	55	0.979	0.9544	3	52.49	~ en:pressie fr:précis ~ fr:précise ≈ en:presses
+fitted	fait aide	0.952	56	0.956	0.9213	2	51.59	≈ fr:met aide ~ fr:fait aide ≈ en:fitted
+dissed	test	0.94	52	0.981	0.9615	2	50.0	en:dissed ≈ fr:test ~ en:test
+plead	plaide	0.94	52	0.953	0.9382	2	48.79	≈ en:pleat ~ en:plead ≈ fr:plaide
+busted	baissent aide	0.955	52	0.951	0.9281	2	48.26	en:distracted ≈ fr:dis traquent aide ~ fr:baissent aide ≈ en:busted
+venture	feignent chez	0.955	51	0.964	0.9416	2	48.02	en:ventures ~ en:venture ≈ fr:feignent chez
+sees	sises	1.0	48	0.99	0.9738	2	46.74	≈ fr:sise ~ fr:sises ≈ en:sees
+shoot	shoote	1.0	49	0.995	0.9514	2	46.62	en:shoot ≈ fr:shoote ~ fr:shoot
+dusty	des tee	0.952	50	0.929	0.9195	2	45.97	en:dusty ≈ fr:des tee ~ fr:los
+prison	pris haine	0.963	48	0.961	0.9488	2	45.54	≈ fr:haine ~ fr:pris haine ≈ en:prison
+parcel	pas elle	0.94	47	0.956	0.9396	2	44.16	≈ fr:colis = en:parcel ≈ fr:pas elle
+in	haine	0.94	46	0.961	0.9512	3	43.76	en:an ≈ fr:in ~ en:in ≈ fr:haine
+distract	dis tracts	0.958	47	0.944	0.9298	2	43.7	≈ en:distracted ~ en:distract ≈ fr:dis tracts
+test	testes	1.0	45	0.973	0.9518	2	42.83	en:testes ~ fr:testes ≈ en:test
+branches	bradent chaise	0.948	45	0.957	0.9422	2	42.4	≈ fr:skient chaise ~ fr:bradent chaise ≈ en:branches
+shoot	shootes	1.0	44	0.992	0.9614	2	42.3	en:shooting ~ fr:shootes ≈ en:shoot
+ventures	feignent chaise	0.945	45	0.957	0.9394	2	42.27	en:venture ~ en:ventures ≈ fr:feignent chaise
+see	si	1.0	43	0.97	0.9592	2	41.24	≈ en:si ~ fr:si ≈ en:see
+vicinity	vis hindi	0.93	44	0.958	0.9311	2	40.97	en:vicinity ≈ fr:vis hindi ~ fr:hindi
+editing	aidait in	0.938	44	0.939	0.9222	2	40.58	en:editing ≈ fr:aidait in ~ fr:fait aide
+senores	sain ose	0.956	43	0.96	0.9436	2	40.57	en:senores ≈ fr:sain ose ~ fr:sain ses
+seen	seines	1.0	41	0.982	0.9576	2	39.26	≈ en:sees ~ en:seen ≈ fr:seines
+sec	secs	1.0	41	0.982	0.9518	2	39.02	en:sec ≈ fr:secs ~ en:secs
+jean	gins	1.0	40	0.99	0.9733	2	38.93	en:jinn ≈ fr:gin ~ fr:gins ≈ en:jean
+soup	soupes	1.0	40	0.993	0.9719	2	38.87	en:soup ≈ fr:soupes ~ fr:soupe
+certain	sait haine	0.952	41	0.963	0.9448	2	38.74	en:written ≈ fr:rient haine ~ fr:sait haine ≈ en:certain
+penalty	pain haleter	0.932	40	0.962	0.9536	2	38.14	≈ fr:peine = en:penalty ≈ fr:pain haleter
+retrieve	rient rive	0.983	40	0.976	0.9531	2	38.13	en:retrieved ~ en:retrieve ≈ fr:rient rive
+secs	sexe	1.0	40	0.982	0.953	3	38.12	en:sec ≈ fr:secs ~ en:secs ≈ fr:sexe
+beat	bites	1.0	39	0.989	0.9543	2	37.22	en:beet ≈ fr:bite ~ fr:bites ≈ en:beat
+colly	colis	0.975	39	0.965	0.9497	2	37.04	en:parcel = fr:colis ≈ en:colly
+protect	prêt acte	0.932	40	0.94	0.9234	2	36.93	en:protecting ~ en:protect ≈ fr:prêt acte
+wrestling	raies ligne	0.944	39	0.957	0.9433	2	36.79	en:wrestle ~ en:wrestling ≈ fr:raies ligne
+super	soupe	1.0	37	0.993	0.9748	2	36.07	en:soup ≈ fr:soupes ~ fr:soupe ≈ en:super
+affected	évoquent aide	0.932	39	0.944	0.9193	2	35.85	en:trusted ≈ fr:tracent aide ~ fr:évoquent aide ≈ en:affected
+lender	lin des	0.976	38	0.956	0.9349	2	35.53	en:lender ≈ fr:lin des ~ fr:van des
+sea	si	1.0	36	0.97	0.9602	2	34.57	≈ en:si ~ fr:si ≈ en:sea
+chute	shoot	1.0	35	0.995	0.9674	3	33.86	en:shoot ≈ fr:shoote ~ fr:shoot ≈ en:chute
+techs	sexe	0.94	35	0.975	0.964	2	33.74	≈ en:teak = fr:teck en:tech ~ en:techs ≈ fr:sexe
+seize	sises	1.0	34	0.988	0.9699	2	32.98	≈ fr:sise ~ fr:sises ≈ en:seize
+senors	sain aise	0.952	35	0.954	0.9359	2	32.76	≈ en:senores ~ en:senors ≈ fr:sain aise
+pee	pi	1.0	34	0.977	0.9559	2	32.5	≈ fr:pisse = en:pee ≈ fr:pi
+an	in	0.94	34	0.961	0.9558	2	32.5	en:an ≈ fr:in ~ en:in
+route	routes	1.0	33	1.0	0.9715	2	32.06	en:root ≈ fr:route ~ en:route ≈ fr:routes
+sicked	secte	0.97	33	0.971	0.9627	2	31.77	en:sicken ~ en:sicked ≈ fr:secte
+debt	dette	1.0	33	0.978	0.9598	2	31.67	en:saucy ≈ fr:ceci ~ fr:dette ≈ en:debt
+investors	nouées thèse	0.918	34	0.939	0.9292	2	31.59	en:investor ~ en:investors ≈ fr:nouées thèse
+clue	clous	1.0	33	0.984	0.9532	2	31.45	en:clued ~ en:clue ≈ fr:clous
+prissy	précis	0.952	33	0.964	0.9445	2	31.17	en:prissy ≈ fr:précis ~ fr:précise
+says	seize	1.0	32	0.992	0.9734	2	31.15	en:says ≈ fr:seize ~ en:seize
+practiced	braquent est	0.955	33	0.96	0.9377	2	30.94	en:practiced ≈ fr:braquent est ~ fr:donnent est
+testers	taies thèse	0.96	33	0.959	0.9362	2	30.89	≈ fr:tester ~ en:testers ≈ fr:taies thèse
+friendship	freinent chipe	0.973	32	0.974	0.9602	2	30.73	en:sheep ≈ fr:chipe ~ fr:freinent chipe ≈ en:friendship
+enter	ensi	0.911	33	0.958	0.9311	2	30.73	≈ en:entry ~ en:enter ≈ fr:ensi
+investor	haines ester	0.94	33	0.948	0.929	2	30.66	en:investors ~ en:investor ≈ fr:haines ester
+ported	petite	0.932	32	0.982	0.9545	2	30.54	en:ported ≈ fr:petite ~ fr:petit
+edited	aidait aide	0.96	33	0.935	0.9249	2	30.52	en:edited ≈ fr:aidait aide ~ fr:baissent aide
+founded	fanent aide	0.949	33	0.95	0.9226	2	30.45	en:founding ~ en:founded ≈ fr:fanent aide
+centre	sain tes	0.976	32	0.965	0.9476	2	30.32	en:bending ≈ fr:ben digne ~ fr:sain tes ≈ en:centre
+routers	ruent aise	0.952	33	0.93	0.9127	3	30.12	en:addresses ≈ fr:adrets aise ~ fr:ruent aise ≈ en:routers
+retrieved	rient rift	0.952	32	0.951	0.9377	2	30.01	≈ en:retrieve ~ en:retrieved ≈ fr:rient rift
+petit	petit	1.0	31	0.982	0.9603	2	29.77	en:ported ≈ fr:petite ~ fr:petit ≈ en:petit
+mess	messes	1.0	31	1.0	0.9528	2	29.54	en:messes ~ fr:messes ≈ en:mess
+plea	pli	1.0	31	0.971	0.9509	2	29.48	en:crease = fr:pli ≈ en:plea
+myself	mas elfes	0.966	32	0.931	0.9214	3	29.48	en:itself ≈ fr:êtes elfes ~ fr:mas elfes ≈ en:myself
+lethal	lient elle	0.929	31	0.963	0.9481	2	29.39	en:deadly ~ en:lethal ≈ fr:lient elle
+insanity	haines hindi	0.911	32	0.939	0.9122	2	29.19	en:insanity ≈ fr:haines hindi ~ fr:hindi
+members	main baise	0.911	31	0.939	0.9263	2	28.72	en:member ~ en:members ≈ fr:main baise
+jet	jets	1.0	31	0.939	0.9211	2	28.55	en:shedding ≈ fr:jet in ~ en:jet ≈ fr:jets
+finest	faon est	0.94	30	0.96	0.9501	3	28.5	en:surrender ≈ fr:serein des ~ fr:faon est ≈ en:finest
+teak	tics	1.0	29	0.99	0.9704	2	28.14	en:tics ~ fr:tics ≈ en:teak
+credit	créent êtes	0.944	30	0.957	0.9381	3	28.14	en:greatest ≈ fr:créent est ~ fr:créent êtes ≈ en:credit
+sort	sortent	1.0	30	0.952	0.9373	2	28.12	≈ en:sorted ~ fr:sortent ≈ en:sort
+chin	gin	0.915	29	0.98	0.9676	2	28.06	en:chin ≈ fr:gin ~ fr:gins
+pleading	plient in	0.938	30	0.95	0.9326	2	27.98	en:pleasing ≈ fr:plies in ~ fr:plient in ≈ en:pleading
+pieced	pistes	1.0	29	0.969	0.9644	2	27.97	≈ en:piece ~ en:pieced ≈ fr:pistes
+cooed rhea	country	0.96	30	0.954	0.9314	2	27.94	en:country ~ fr:country ≈ en:cooed rhea
+sorted	sont aide	0.952	30	0.952	0.9298	2	27.89	en:devoted ≈ fr:devait aide ~ fr:sont aide ≈ en:sorted
+it olla	installer	0.901	30	0.948	0.929	2	27.87	en:it olla ≈ fr:installer ~ en:install
+recall	rient collent	1.0	29	0.978	0.9571	3	27.76	~ en:retailer fr:rient ailé ~ fr:rient collent ≈ en:recall
+fairy	ferry	1.0	28	0.995	0.9869	2	27.63	en:fairy ≈ fr:ferry ~ en:ferry
+thirteen	fait in	0.926	29	0.971	0.9506	2	27.57	en:fourteen ~ en:thirteen ≈ fr:fait in
+bell	belle	1.0	28	1.0	0.9774	2	27.37	en:bell ≈ fr:belle ~ en:belle
+seize	sise	1.0	28	0.992	0.9724	2	27.23	en:says ≈ fr:seize ~ en:seize ≈ fr:sise
+country	khan tri	0.95	29	0.96	0.9353	3	27.12	en:candour ≈ fr:khan des ~ fr:khan tri ≈ en:country
+read	rides	1.0	28	0.988	0.965	2	27.02	en:read ≈ fr:rides ~ fr:ride
+senses	sain six	0.963	28	0.977	0.9587	2	26.84	en:senses ≈ fr:sain six ~ fr:six
+fracture	traquent chez	0.947	28	0.964	0.9558	3	26.76	en:miniature ≈ fr:mènent chez ~ fr:traquent chez ≈ en:fracture
+sicken	cigogne	0.902	28	0.959	0.9556	2	26.76	en:stork = fr:cigogne ≈ en:sicken
+sees	six	1.0	28	0.978	0.9544	2	26.72	≈ en:seen ~ en:sees ≈ fr:six
+entered	aident aide	0.929	29	0.934	0.9207	2	26.7	en:estimated ≈ fr:estimait aide ~ fr:aident aide ≈ en:entered
+extending	axent haines in	0.906	29	0.932	0.9206	2	26.7	en:extensive ≈ fr:axent haines ive ~ fr:axent haines in ≈ en:extending
+pieces	pis aise	0.952	28	0.957	0.948	2	26.54	≈ en:piece ~ en:pieces ≈ fr:pis aise
+wrested	rincent aide	0.96	29	0.942	0.9109	2	26.42	en:wrested ≈ fr:rincent aide ~ fr:aident rincent aide
+reader	ride	1.0	27	0.978	0.9628	3	25.99	en:reed ≈ fr:rides ~ fr:ride ≈ en:reader
+install	haines taule	0.944	28	0.948	0.9284	3	25.99	en:it olla ≈ fr:installer ~ en:install ≈ fr:haines taule
+caller	coller	1.0	27	0.965	0.9593	2	25.9	= fr:colis en:colly ~ fr:coller ≈ en:caller
+yourself	ions elfes	0.96	28	0.931	0.923	2	25.84	≈ en:myself ~ en:yourself ≈ fr:ions elfes
+reed	rides	1.0	27	0.978	0.9543	2	25.77	en:reed ≈ fr:rides ~ fr:ride
+succeed	secs ides	0.96	27	0.966	0.9518	2	25.7	en:succeed ≈ fr:secs ides ~ en:secs ≈ fr:sexe ~ fr:sexes ≈ en:sex
+designer	dis année	0.969	27	0.97	0.9492	2	25.63	en:designers ~ en:designer ≈ fr:dis année
+clam	clame	0.97	27	0.96	0.9468	2	25.56	en:clam ≈ fr:clame ~ fr:claque ≈ en:cluck
+testes	taies dix	0.96	27	0.959	0.9443	3	25.5	≈ fr:test en:test ≈ fr:testes ~ en:testes ≈ fr:taies dix
+deadly	dès lis	0.952	27	0.948	0.9433	2	25.47	en:fortunately ≈ fr:faut chenet lis ~ fr:dès lis ≈ en:deadly
+centers	sain thèse	0.96	27	0.95	0.94	2	25.38	en:protesters ≈ fr:prêtais thèse ~ fr:sain thèse ≈ en:centers
+defeated	défient aide	0.949	27	0.948	0.9345	2	25.23	en:defeated ≈ fr:défient aide ~ fr:cessent aide
+redly	raies lis	0.952	27	0.96	0.9341	2	25.22	en:redly ≈ fr:raies lis ~ fr:anis tee
+northwestern	notais tonnes	0.93	27	0.943	0.9307	2	25.13	en:northwestern ≈ fr:notais tonnes ~ fr:taies tonnes
+sheep	chipe	1.0	26	0.974	0.963	2	25.04	en:sheep ≈ fr:chipe ~ fr:freinent chipe
+extended	axent haines aide	0.921	27	0.94	0.9236	2	24.94	en:extending ~ en:extended ≈ fr:axent haines aide
+committed	commit aide	0.952	27	0.938	0.9146	2	24.7	en:commie ≈ fr:commis = en:committed ≈ fr:commit aide
+designers	dis ânesse	0.943	26	0.953	0.9488	2	24.67	en:discussed ≈ fr:dis caste ~ fr:dis ânesse ≈ en:designers
+leaders	lient aise	0.952	26	0.958	0.9453	2	24.58	≈ fr:trais aise ~ fr:lient aise ≈ en:leaders
+settling	sait ligne	0.963	26	0.95	0.9416	2	24.48	en:settling ≈ fr:sait ligne ~ fr:raies ligne
+cadge	catch	0.911	26	0.938	0.9361	2	24.34	en:caddie ≈ fr:caddie ~ en:cadge ≈ fr:catch
+superstar	soupes ta	0.949	25	0.984	0.9704	2	24.26	≈ fr:soupes ~ fr:soupes ta ≈ en:superstar
+belle	belles	1.0	25	1.0	0.9699	3	24.25	en:bell ≈ fr:belle ~ en:belle ≈ fr:belles
+beaters	vitesse	0.905	26	0.946	0.9307	2	24.2	en:beater ~ en:beaters ≈ fr:vitesse
+get your	question	0.921	26	0.952	0.9297	2	24.17	en:get your ≈ fr:question ~ en:question
+settled	sait halte	0.94	26	0.933	0.9291	2	24.16	~ en:titled fr:tant halte ~ fr:sait halte ≈ en:settled
+pistol	pissent elle	0.963	25	0.971	0.9619	3	24.05	en:peat olla ≈ fr:pistolet ~ en:pistol ≈ fr:pissent elle
+sicks	sexe	0.97	25	0.97	0.9614	2	24.03	~ fr:secte en:sicked ~ en:sicks ≈ fr:sexe
+pressie	précis	0.98	25	0.979	0.9609	2	24.02	en:pressies ~ en:pressie ≈ fr:précis
+cutch	coach	0.97	26	0.946	0.9212	2	23.95	en:cutch ≈ fr:coach ~ en:coaches
+press	presse	1.0	25	0.972	0.9561	2	23.9	en:press ≈ fr:presse ~ en:presses
+reed	ride	1.0	25	0.988	0.953	3	23.83	en:read ≈ fr:rides ~ fr:ride ≈ en:reed
+tender	tain des	0.976	25	0.966	0.9441	2	23.6	en:tender ≈ fr:tain des ~ fr:tain paul
+red	raids	1.0	25	0.961	0.9379	2	23.45	en:red ≈ fr:raids ~ fr:raids ester
+under	hindi	0.911	25	0.953	0.9333	3	23.33	en:vicinity ≈ fr:vis hindi ~ fr:hindi ≈ en:under
+deceive	dis ive	0.956	25	0.943	0.9299	2	23.25	en:deceive ≈ fr:dis ive ~ fr:ries ive
+member	main bée	0.917	25	0.944	0.9294	3	23.24	~ en:menaced fr:main est ~ fr:main bée ≈ en:member
+trusted	tracent aide	0.966	25	0.944	0.9296	2	23.24	en:trusted ≈ fr:tracent aide ~ fr:évoquent aide
+coupe	coupes	1.0	24	0.99	0.9668	2	23.2	en:coupe ≈ fr:coupes ~ fr:coupe
+product	pros acte	0.932	25	0.94	0.9281	2	23.2	~ en:protect fr:prêt acte ~ fr:pros acte ≈ en:product
+seas	sises	1.0	24	0.992	0.966	2	23.18	≈ fr:sise ~ fr:sises ≈ en:seas
+seating	scient in	0.95	24	0.97	0.9639	2	23.13	≈ fr:scient ~ fr:scient in ≈ en:seating
+reeding	rétine	0.902	25	0.952	0.9148	2	22.87	≈ en:reed ~ en:reeding ≈ fr:rétine
+tressel	trais elle	0.96	24	0.973	0.9503	2	22.81	en:tressel ≈ fr:trais elle ~ fr:met elle
+resist	ries est	0.944	24	0.956	0.9502	2	22.8	en:vs ≈ fr:vies ès ~ fr:ries est ≈ en:resist
+pleasing	plies in	0.958	24	0.951	0.9481	2	22.75	≈ fr:plient in ~ fr:plies in ≈ en:pleasing
+ferry	faits rient	1.0	23	0.995	0.9881	3	22.73	en:fairy ≈ fr:ferry ~ en:ferry ≈ fr:faits rient
+titled	tant halte	0.906	24	0.935	0.9303	2	22.33	≈ en:title ~ en:titled ≈ fr:tant halte
+testa	tester	1.0	23	0.981	0.9695	2	22.3	≈ fr:testent ~ en:testa ≈ fr:tester
+losses	las aise	0.929	24	0.949	0.9262	2	22.23	≈ fr:quais aise ~ fr:las aise ≈ en:losses
+metal	met elle	0.976	23	0.973	0.9619	2	22.12	en:tressel ≈ fr:trais elle ~ fr:met elle ≈ en:metal
+stiller	stylé	0.98	23	0.968	0.9596	2	22.07	= fr:peines en:pen ~ fr:stylé ≈ en:stiller
+peace	pisse	1.0	23	0.972	0.9589	2	22.05	en:peace ≈ fr:pisse ~ fr:pisses
+plume	plume	0.97	23	0.964	0.9562	2	21.99	= fr:peines en:pen = fr:plume ≈ en:plume
+stellar	stylé	0.952	23	0.96	0.9529	2	21.92	= fr:peines en:pen ~ fr:stylé ≈ en:stellar
+tresses	trais aise	0.96	23	0.958	0.9516	3	21.89	en:tress ≈ fr:tresses ~ en:tresses ≈ fr:trais aise
+loses	loues aise	0.976	24	0.912	0.907	2	21.77	en:losses ~ en:loses ≈ fr:loues aise
+semester	sommets tes	0.966	23	0.962	0.9453	2	21.74	en:semester ≈ fr:sommets tes ~ fr:pris ci
+monitored	manient aide	0.952	23	0.95	0.9417	2	21.66	~ en:founded fr:fanent aide ~ fr:manient aide ≈ en:monitored
+seas	sise	1.0	22	0.988	0.979	2	21.54	en:debt ≈ fr:dettes ~ en:seas ≈ fr:sise ~ fr:sises
+set	sets	1.0	23	0.942	0.9279	2	21.34	≈ en:setters ~ fr:sets ≈ en:set
+treaties	trient aise	0.98	23	0.929	0.9245	2	21.26	en:treaties ≈ fr:trient aise ~ fr:ruent aise
+sued	soudent	1.0	22	0.988	0.964	2	21.21	en:suing ~ en:sued ≈ fr:soudent
+testy	tester	0.976	22	0.969	0.9521	2	20.95	en:testy ≈ fr:tester ~ fr:teste
+founders	fanent aise	0.949	23	0.917	0.911	2	20.95	≈ en:founded ~ en:founders ≈ fr:fanent aise
+vs	vies ès	1.0	22	0.956	0.9449	2	20.79	en:vs ≈ fr:vies ès ~ fr:ries est
+merry	mets rient	1.0	21	0.995	0.9826	2	20.63	en:merry ≈ fr:mets rient ~ fr:faits rient
+jinn	gin	0.975	21	0.99	0.982	2	20.62	en:jinn ≈ fr:gin ~ fr:gins
+cuddy	caddie	0.97	22	0.945	0.9346	2	20.56	en:caddie ~ fr:caddie ≈ en:cuddy
+receive	ries ive	0.956	22	0.956	0.9327	2	20.52	en:receive ≈ fr:ries ive ~ fr:ive
+briefly	prient lis	0.938	22	0.947	0.9323	2	20.51	en:briefly ≈ fr:prient lis ~ en:prissy
+onset	ânes êtes	0.952	22	0.938	0.9301	2	20.46	≈ fr:créent êtes ~ fr:ânes êtes ≈ en:onset
+ending	haines in	0.902	22	0.937	0.9292	2	20.44	en:ended ~ en:ending ≈ fr:haines in
+ridding	rient in	0.906	22	0.946	0.9267	2	20.39	en:ridding ≈ fr:rient in ~ fr:rient collent
+debt	dettes	1.0	21	0.988	0.9644	2	20.25	en:debt ≈ fr:dettes ~ en:seas
+terror	terre	1.0	21	0.992	0.9635	2	20.23	en:terror ≈ fr:terre ~ fr:terra
+russet	recettes	0.976	21	0.968	0.9633	2	20.23	≈ en:recipes = fr:recettes ≈ en:russet
+render	rhin des	0.976	22	0.941	0.9195	2	20.23	en:rendering ~ en:render ≈ fr:rhin des
+toot	toute	1.0	21	0.987	0.9541	2	20.04	en:toot ≈ fr:toute ~ fr:toutou
+pen	peines	1.0	21	0.968	0.9544	2	20.04	en:penalties = fr:peines ≈ en:pen
+cluck	claque	0.97	21	0.964	0.9536	2	20.03	en:claque ~ fr:claque ≈ en:cluck
+reduced	rient oust	0.947	21	0.962	0.954	2	20.03	en:reduced ≈ fr:rient oust ~ fr:rient hélas
+censorship	saines chipe	0.95	21	0.958	0.9526	2	20.0	en:censure ~ en:censorship ≈ fr:saines chipe
+marcel	mas elle	0.964	21	0.962	0.9506	2	19.96	~ en:resell fr:ries elle ~ fr:mas elle ≈ en:marcel
+pen	pennes	1.0	21	0.959	0.95	2	19.95	en:pennis ~ fr:pennes ≈ en:pen
+printing	prennent in	0.947	21	0.96	0.9494	2	19.94	~ en:fourteen fr:faut in ~ fr:prennent in ≈ en:printing
+sue	sous	1.0	21	0.959	0.946	2	19.87	en:under = fr:sous ≈ en:sue
+interested	aident rincent aide	0.921	21	0.948	0.9402	2	19.74	≈ fr:rincent aide ~ fr:aident rincent aide ≈ en:interested
+attending	étain digne	0.952	21	0.942	0.9375	2	19.69	en:mending ≈ fr:main digne ~ fr:étain digne ≈ en:attending
+cred	crête	0.97	20	0.978	0.9672	2	19.34	~ fr:pics en:peak = fr:crête ≈ en:cred
+lesser	laisses	1.0	20	0.975	0.9621	2	19.24	en:lesser ≈ fr:laisses ~ fr:laissent
+rental	rhin tel	0.96	21	0.933	0.9149	2	19.21	en:rental ≈ fr:rhin tel ~ fr:rhin des
+was	ose	0.91	20	0.963	0.9587	2	19.17	≈ en:been ~ en:was ≈ fr:ose
+readers	rient aise	0.952	20	0.972	0.9575	2	19.15	≈ en:reader ~ en:readers ≈ fr:rient aise
+testing	destine	0.938	20	0.978	0.9554	2	19.11	≈ fr:tester ~ en:testing ≈ fr:destine
+teacher	dit chez	0.976	20	0.969	0.9547	2	19.09	en:preacher ≈ fr:prient chez ~ fr:dit chez ≈ en:teacher
+suited	sourde	1.0	21	0.917	0.909	2	19.09	≈ en:fitted ~ en:suited ≈ fr:sourde
+tress	tresses	1.0	20	0.958	0.9526	2	19.05	en:tress ≈ fr:tresses ~ en:tresses
+censure	sain chez	0.976	20	0.959	0.9468	2	18.94	en:censorship ~ en:censure ≈ fr:sain chez
+greatest	créent est	0.955	20	0.957	0.9427	2	18.85	en:greatest ≈ fr:créent est ~ fr:créent êtes
+emcee	ensi	0.926	20	0.953	0.9418	2	18.84	en:parry ≈ fr:pari ~ fr:ensi ≈ en:emcee
+portraits	pot reps	0.916	20	0.961	0.9358	2	18.72	en:portraits ≈ fr:pot reps ~ fr:pie dits
+question	coincent chaîne	0.97	20	0.952	0.9362	3	18.72	en:get your ≈ fr:question ~ en:question ≈ fr:coincent chaîne
+cully	colis	0.94	20	0.945	0.9353	3	18.71	~ fr:caddie en:cuddy ~ en:cully ≈ fr:colis
+beetle	but elle	0.936	20	0.947	0.9334	2	18.67	en:beetle ≈ fr:but elle ~ fr:ries elle
+setters	synthèse	0.952	20	0.942	0.9336	3	18.67	en:setter ≈ fr:synthé ~ fr:synthèse ≈ en:setters
+grit	crête	0.94	20	0.956	0.9315	2	18.63	en:grit ≈ fr:crête ~ fr:turpin
+title	taillent elle	0.94	20	0.935	0.9273	2	18.55	en:crystal ≈ fr:crissent elle ~ fr:taillent elle ≈ en:title
+treated	trient aide	0.98	20	0.941	0.9267	2	18.53	en:treating ~ en:treated ≈ fr:trient aide
+tennis	tain hisse	0.956	20	0.936	0.9265	2	18.53	en:tennis ≈ fr:tain hisse ~ fr:con taie
+sees	sise	1.0	19	0.988	0.9718	2	18.47	en:sees ≈ fr:sise ~ fr:sises
+corn	corne	1.0	19	0.978	0.9712	2	18.45	en:corny ~ fr:corne ≈ en:corn
+test	teste	1.0	19	0.973	0.9642	2	18.32	en:testa ≈ fr:tester ~ fr:teste ≈ en:test
+pee	pies	1.0	19	0.974	0.9614	2	18.27	en:pee ≈ fr:pies ~ fr:psi
+meet	mite	1.0	19	0.983	0.9603	2	18.25	en:meet ≈ fr:mite ~ fr:mité
+prat	prête	0.94	19	0.966	0.9579	2	18.2	≈ en:ready = fr:prête ≈ en:prat
+pleader	plaider	0.952	19	0.956	0.9545	2	18.13	en:plead = fr:plaider ≈ en:pleader
+sheeny	chiner	0.97	19	0.967	0.9527	2	18.1	en:sheeny ≈ fr:chiner ~ en:chin
+devoted	devait aide	0.936	19	0.952	0.9471	2	17.99	en:devoted ≈ fr:devait aide ~ fr:sont aide
+out	hâtes	0.96	19	0.975	0.9444	2	17.94	en:out ≈ fr:hâtes ~ fr:hâte
+attended	étain dites	0.952	19	0.944	0.9409	2	17.88	en:attending ~ en:attended ≈ fr:étain dites
+emcees	aimes hisse	0.952	19	0.95	0.9405	2	17.87	≈ en:emcee ~ en:emcees ≈ fr:aimes hisse
+success	secs ace	0.96	19	0.948	0.9404	2	17.87	≈ en:succeed ~ en:success ≈ fr:secs ace
+parry	pari	0.97	19	0.953	0.9398	2	17.86	en:parry ≈ fr:pari ~ fr:ensi
+teston	taies tonnes	0.96	19	0.943	0.9347	2	17.76	en:northwestern ≈ fr:notais tonnes ~ fr:taies tonnes ≈ en:teston
+defeat	dit hit	0.93	19	0.945	0.9344	2	17.75	en:defeat ≈ fr:dit hit ~ fr:qua
+basically	pays clé	0.928	19	0.948	0.9318	2	17.7	≈ en:essentially ~ en:basically ≈ fr:pays clé
+wander	van des	0.9	19	0.943	0.9301	2	17.67	en:wander ≈ fr:van des ~ fr:lin des
+gene	jean	1.0	18	0.99	0.9811	3	17.66	≈ fr:gin fr:gins ≈ en:jean ~ fr:jean ≈ en:gene
+coaching	coud chine	0.924	19	0.945	0.9281	2	17.63	en:coaching ≈ fr:coud chine ~ fr:rient chine
+tended	tain dites	0.944	19	0.934	0.9272	2	17.62	≈ en:tending ~ en:tended ≈ fr:tain dites
+ended	haines aide	0.929	19	0.932	0.9273	2	17.62	≈ en:ending ~ en:ended ≈ fr:haines aide
+sweetheart	suit hâte	0.953	19	0.941	0.9245	2	17.56	≈ en:suit ~ fr:suit hâte ≈ en:sweetheart
+judges	jets aise	0.911	19	0.939	0.9245	2	17.56	≈ fr:jets ~ fr:jets aise ≈ en:judges
+extensively	axent haines flux	0.917	19	0.934	0.9212	2	17.5	en:extensive ~ en:extensively ≈ fr:axent haines flux
+greeted	crient aide	0.96	19	0.926	0.9206	2	17.49	en:greeting ~ en:greeted ≈ fr:crient aide
+mesh	mèches	1.0	18	0.969	0.9677	2	17.42	en:mesh ≈ fr:mèches ~ fr:raies pise
+recipes	raies pise	0.966	18	0.969	0.9668	2	17.4	en:recipes ≈ fr:raies pise ~ fr:mèches
+coup	coupe	1.0	18	0.99	0.9652	3	17.37	en:coupe ≈ fr:coupes ~ fr:coupe ≈ en:coup
+sector	sectes	1.0	18	0.971	0.9643	2	17.36	~ en:sicked fr:secte ~ fr:sectes ≈ en:sector
+reminder	roman des	0.918	19	0.929	0.9131	2	17.35	en:reminder ≈ fr:roman des ~ fr:romain des
+piece	pisses	1.0	18	0.972	0.9577	3	17.24	en:peace ≈ fr:pisse ~ fr:pisses ≈ en:piece
+sensory	sain serez	0.966	18	0.952	0.9488	2	17.08	≈ en:senses ~ en:sensory ≈ fr:sain serez
+greedy	crédit	0.952	18	0.957	0.9479	2	17.06	≈ en:credit ~ fr:crédit ≈ en:greedy
+crystal	crissent elle	0.969	18	0.971	0.9449	2	17.01	≈ fr:pissent elle ~ fr:crissent elle ≈ en:crystal
+mending	main digne	0.944	18	0.942	0.9363	2	16.85	en:mending ≈ fr:main digne ~ fr:étain digne
+centered	saignent aide	0.955	18	0.945	0.9343	2	16.82	en:pointed ≈ fr:peinent aide ~ fr:saignent aide ≈ en:centered
+southwest	cent ouest	0.933	18	0.951	0.9338	2	16.81	en:northwest ~ en:southwest ≈ fr:cent ouest
+deed egg	distingue	0.921	19	0.921	0.8839	2	16.8	en:deed egg ≈ fr:distingue ~ fr:distinguer
+disses	dis aise	0.932	18	0.967	0.9304	2	16.75	≈ en:dissed ~ en:disses ≈ fr:dis aise
+bees	bises	1.0	18	0.951	0.9282	2	16.71	en:bees ≈ fr:bises = en:kisses
+settle	sait elle	0.976	18	0.935	0.9281	2	16.7	en:settle ≈ fr:sait elle ~ fr:ries elle
+beet	bite	1.0	17	0.989	0.9636	2	16.38	en:beet ≈ fr:bite ~ fr:bites
+peak	pics	1.0	17	0.983	0.9622	2	16.36	en:pics ~ fr:pics ≈ en:peak
+stork	stock	1.0	17	0.961	0.957	2	16.27	en:stork ≈ fr:stock ~ fr:stocke
+clued	claude	0.94	17	0.964	0.9552	2	16.24	≈ en:clue ~ en:clued ≈ fr:claude
+seize	six	1.0	17	0.977	0.9538	2	16.21	en:senses ≈ fr:sain six ~ fr:six ≈ en:seize
+commentary	commun tri	0.943	17	0.96	0.9526	2	16.2	≈ fr:commis tri ~ fr:commun tri ≈ en:commentary
+picture	piquent chez	0.983	17	0.954	0.9449	2	16.06	en:venture ≈ fr:feignent chez ~ fr:piquent chez ≈ en:picture
+privacy	pris ci	0.917	17	0.949	0.9442	2	16.05	en:center ≈ fr:sain tes ~ fr:pris ci ≈ en:privacy
+freest	triste	0.95	17	0.972	0.9433	2	16.04	en:triste ~ fr:triste ≈ en:freest
+disagree	dis aigri	0.969	17	0.964	0.9435	2	16.04	en:disagree ≈ fr:dis aigri ~ fr:appât
+fourteen	faut in	0.98	17	0.96	0.9437	2	16.04	en:thirteen ~ en:fourteen ≈ fr:faut in
+suit	soute	1.0	17	0.978	0.9427	2	16.03	en:suit ≈ fr:soute ~ fr:sotte
+flume	plume	0.911	17	0.947	0.9421	2	16.02	en:flume ≈ fr:plume = en:pen
+tension	tain chaîne	0.96	17	0.952	0.9415	2	16.0	≈ fr:coincent chaîne ~ fr:tain chaîne ≈ en:tension
+register	raids ester	0.955	17	0.961	0.9403	2	15.99	en:red ≈ fr:raids ~ fr:raids ester ≈ en:register
+printed	prennent aide	0.966	17	0.956	0.9377	2	15.94	en:printed ≈ fr:prennent aide ~ fr:laissent aide
+listed	laissent aide	0.96	17	0.956	0.9362	2	15.92	en:printed ≈ fr:prennent aide ~ fr:laissent aide ≈ en:listed
+partners	bat noces	0.931	17	0.948	0.9324	2	15.85	en:partner ~ en:partners ≈ fr:bat noces
+protecting	pratiquent in	0.919	17	0.945	0.9322	2	15.85	en:protect ~ en:protecting ≈ fr:pratiquent in
+reaming	rumine	0.91	17	0.937	0.9326	2	15.85	en:reaped ~ en:reaming ≈ fr:rumine
+indie	hindi	0.975	17	0.958	0.9317	2	15.84	en:vicinity ≈ fr:vis hindi ~ fr:hindi ≈ en:indie
+preaching	prient chine	0.964	17	0.935	0.9273	2	15.76	en:preach ~ en:preaching ≈ fr:prient chine
+matches	mat chaise	0.96	17	0.927	0.917	2	15.59	en:matches ≈ fr:mat chaise ~ fr:bradent chaise
+test	testent	1.0	16	0.981	0.9733	3	15.57	en:dissed ≈ fr:test ~ en:test ≈ fr:testent
+cooper	coupe	1.0	16	0.993	0.9681	2	15.49	≈ fr:coupes ~ fr:coupe ≈ en:cooper
+shooter	shooter	1.0	16	0.987	0.9661	2	15.46	en:shooter ≈ fr:shooter ~ fr:shootes
+metre	mité	1.0	16	0.983	0.966	2	15.46	en:meat ≈ fr:mite ~ fr:mité ≈ en:metre
+teak	tic	1.0	16	0.972	0.9646	2	15.43	≈ fr:teck = en:teak ≈ fr:tic
+grief	griffes	1.0	16	0.988	0.9621	2	15.39	en:grief ≈ fr:griffes ~ fr:griffe
+friendships	freinent chips	0.976	16	0.971	0.9599	2	15.36	≈ en:friendship ~ en:friendships ≈ fr:freinent chips
+deport	dépote	0.952	16	0.968	0.9497	2	15.2	en:deport ≈ fr:dépote ~ fr:dédie
+pleat	plisse	0.94	16	0.953	0.95	2	15.2	en:plea ≈ fr:pli ~ fr:plisse ≈ en:pleat
+terrors	thérèse	0.956	16	0.97	0.9484	2	15.17	≈ en:terror ~ en:terrors ≈ fr:thérèse
+wrestle	recèle	0.952	16	0.949	0.9459	2	15.13	≈ en:wrestling ~ en:wrestle ≈ fr:recèle
+leks	lynx	0.97	16	0.95	0.9444	2	15.11	≈ en:lesson ~ en:leks ≈ fr:lynx
+reaching	rient chine	0.958	16	0.952	0.9438	2	15.1	en:reaches ~ en:reaching ≈ fr:rient chine
+inspector	haines becqueter	0.955	16	0.944	0.9359	2	14.98	en:inspector ≈ fr:haines becqueter ~ fr:haines
+when	haines	0.95	16	0.944	0.9353	2	14.96	en:inspector ≈ fr:haines becqueter ~ fr:haines ≈ en:when
+addresses	adrets aise	0.945	16	0.942	0.9352	2	14.96	~ en:rooters fr:ruent aise ~ fr:adrets aise ≈ en:addresses
+lesser	laisse	1.0	16	0.972	0.9324	2	14.92	en:lessee ≈ fr:laisser ~ fr:laisse ≈ en:lesser
+setter	synthé	0.97	16	0.942	0.9316	2	14.91	en:setter ≈ fr:synthé ~ fr:synthèse
+exhibited	exhibent aide	0.962	16	0.952	0.9307	2	14.89	en:exhibited ≈ fr:exhibent aide ~ fr:tissent aide
+tending	tain digne	0.944	16	0.934	0.9276	2	14.84	en:lecturer ≈ fr:liguent serez ~ fr:tain digne ≈ en:tending
+erected	irriguent aide	0.918	16	0.933	0.9276	2	14.84	en:erected ≈ fr:irriguent aide ~ fr:défient aide
+coaches	coud chaise	0.943	16	0.946	0.9271	3	14.83	en:cutch ≈ fr:coach ~ en:coaches ≈ fr:coud chaise
+binding	ban digne	0.926	16	0.927	0.9264	2	14.82	≈ en:yourself ~ fr:ban digne ≈ en:binding
+cellar	seller	1.0	15	1.0	0.9867	2	14.8	en:cellar ≈ fr:seller ~ en:seller
+boo	bout	1.0	15	0.986	0.9811	2	14.72	≈ fr:boutis ~ fr:bout ≈ en:boo
+proposes	propos aise	0.934	16	0.927	0.9188	2	14.7	≈ en:proposal ~ en:proposes ≈ fr:propos aise
+chic	chique	1.0	15	0.988	0.9775	2	14.66	en:chic ≈ fr:chique ~ fr:mali
+booty	boutis	1.0	15	0.986	0.9758	3	14.64	en:fess ≈ fr:fesses = en:booty ≈ fr:boutis
+berry	bey rient	1.0	15	0.976	0.9727	3	14.59	~ en:retrieve fr:rient rive ~ fr:bey rient ≈ en:berry
+ready	raies dits	1.0	15	0.972	0.9675	2	14.51	en:ready ≈ fr:raies dits ~ fr:ces ides
+ceding	scient in	0.926	15	0.966	0.966	2	14.49	en:ceding ≈ fr:scient in ~ fr:scient
+seeding	scient in	0.926	15	0.966	0.966	2	14.49	≈ fr:scient ~ fr:scient in ≈ en:seeding
+lessen	lettone	0.929	15	0.968	0.9604	2	14.41	≈ en:lesser ~ en:lessen ≈ fr:lettone
+trot	trotte	0.975	15	0.975	0.9583	2	14.37	en:trot ≈ fr:trotte ~ fr:trot
+seat em	système	0.96	15	0.972	0.9575	3	14.36	~ fr:site en:seat ~ en:seat em ≈ fr:système
+toot were	toutefois	0.919	15	0.964	0.9565	2	14.35	≈ en:toot ~ en:toot were ≈ fr:toutefois
+personnel	pinson elle	0.932	15	0.963	0.9469	2	14.2	≈ fr:pissent elle ~ fr:pinson elle ≈ en:personnel
+sketches	skient chaise	0.949	15	0.963	0.9461	2	14.19	en:sketch ≈ fr:sketchs ~ en:sketches ≈ fr:skient chaise
+diesel	dis elle	0.976	15	0.959	0.9447	2	14.17	~ en:resell fr:ries elle ~ fr:dis elle ≈ en:diesel
+ought	hot	1.0	15	0.969	0.9439	2	14.16	≈ en:should ~ en:ought ≈ fr:hot
+fortunately	faut chenet lis	0.978	15	0.958	0.9437	2	14.15	en:fortunate ≈ fr:faut chaînette ~ fr:faut chenet lis ≈ en:fortunately
+trustees	tracent hisse	0.966	15	0.945	0.9417	2	14.13	en:trustees ≈ fr:tracent hisse ~ fr:seines
+registered	raids stade	0.934	15	0.96	0.9404	2	14.11	en:red ≈ fr:raids ~ fr:raids stade ≈ en:registered
+reaped	rift	0.94	15	0.944	0.9379	2	14.07	en:reaped ≈ fr:rift ~ fr:rient rift
+retention	ricin chaîne	0.928	15	0.944	0.9375	2	14.06	en:retention ≈ fr:ricin chaîne ~ fr:coincent chaîne
+honesty	anis tee	0.944	15	0.96	0.9354	2	14.03	en:redly ≈ fr:raies lis ~ fr:anis tee ≈ en:honesty
+invest	haines est	0.931	15	0.956	0.9343	2	14.01	en:investing ~ en:invest ≈ fr:haines est
+extensive	axent haines ive	0.936	15	0.946	0.9342	2	14.01	en:extensively ~ en:extensive ≈ fr:axent haines ive
+funded	fanent aide	0.94	15	0.945	0.9331	2	14.0	en:funded ≈ fr:fanent aide ~ fr:manient aide
+torn	tonnes	1.0	15	0.943	0.9298	2	13.95	en:torn ≈ fr:tonnes ~ fr:taies tonnes
+frozen	frais haine	0.949	15	0.937	0.9293	2	13.94	en:frozen ≈ fr:frais haine ~ fr:haines becqueter
+shedding	jet in	0.902	15	0.939	0.9265	2	13.9	en:shedding ≈ fr:jet in ~ en:jet
+mounted	mat aide	0.915	15	0.938	0.9268	2	13.9	en:mounted ≈ fr:mat aide ~ fr:aide
+decease	dis hisse	0.956	15	0.935	0.9227	2	13.84	≈ en:deceive ~ en:decease ≈ fr:dis hisse
+feeding	fient in	0.926	15	0.93	0.9222	2	13.83	en:feeding ≈ fr:fient in ~ fr:fient
+foresees	fonceuse	0.929	15	0.949	0.9179	2	13.77	en:foresee ~ en:foresees ≈ fr:fonceuse
+matrix	met rixe	0.96	15	0.948	0.9181	2	13.77	en:despite ≈ fr:dis pâte ~ fr:met rixe ≈ en:matrix
+sylph	self	0.97	15	0.918	0.9171	2	13.76	≈ en:myself ~ fr:self ≈ en:sylph
+true	trous	1.0	14	0.987	0.9724	2	13.61	en:truly ≈ fr:trous lies ~ fr:trous ≈ en:true
+meat	mite	1.0	14	0.983	0.9685	2	13.56	en:meat ≈ fr:mite ~ fr:mité
+pieced	piste	1.0	14	0.977	0.9686	2	13.56	en:piste ~ fr:piste ≈ en:pieced
+poof	pouf	1.0	14	0.976	0.9678	2	13.55	en:poof ≈ fr:pouf ~ fr:poupe
+pool	poules	1.0	14	0.98	0.9672	2	13.54	en:poop ≈ fr:poupes ~ fr:poules ≈ en:pool
+seen	seine	1.0	14	0.983	0.9653	4	13.51	≈ fr:sise fr:sises ≈ en:sees ~ en:seen ≈ fr:seine ~ fr:hans
+pee	pis	1.0	14	0.977	0.9631	2	13.48	≈ fr:pisse = en:pee ≈ fr:pis
+peek	piquent	1.0	14	0.97	0.9611	2	13.46	en:peek ≈ fr:piquent ~ fr:piques
+peak	piquent	1.0	14	0.973	0.9601	3	13.44	en:peaky ≈ fr:piquer ~ fr:piquent ≈ en:peak
+pieced	pistent	1.0	14	0.972	0.96	2	13.44	≈ en:piece ~ en:pieced ≈ fr:pistent
+so	se	0.96	14	0.97	0.9596	2	13.43	en:dare ≈ fr:der ~ fr:se ≈ en:so
+latest	laid est	0.952	14	0.961	0.9577	2	13.41	en:latest ≈ fr:laid est ~ fr:laisses
+mental	mènent elle	0.98	14	0.966	0.9565	2	13.39	en:mental ≈ fr:mènent elle ~ fr:met elle
+chemistry	commis tri	0.943	14	0.96	0.9541	3	13.36	en:shimmy ≈ fr:chimie ~ en:chemistry ≈ fr:commis tri
+seat	site	1.0	14	0.972	0.9515	2	13.32	en:website ~ fr:site ≈ en:seat
+protesters	prêtais thèse	0.96	14	0.954	0.9514	2	13.32	≈ fr:taies thèse ~ fr:prêtais thèse ≈ en:protesters
+cooed	coudes	1.0	14	0.968	0.9504	2	13.31	en:cooed ≈ fr:coudes ~ fr:coude
+dit eager	distinguer	0.901	15	0.921	0.8863	2	13.29	en:deed egg ≈ fr:distingue ~ fr:distinguer ≈ en:dit eager
+emmet	émettent	0.945	14	0.96	0.9469	2	13.26	en:emmet ≈ fr:émettent ~ fr:émettant
+conte	con taie	0.952	14	0.95	0.9424	2	13.19	en:conte ≈ fr:con taie ~ fr:tain des
+fee	fies	1.0	14	0.985	0.9406	2	13.17	en:fee ≈ fr:fies ~ fr:fief
+tested	cessent aide	0.94	14	0.948	0.9404	2	13.17	en:defeated ≈ fr:défient aide ~ fr:cessent aide ≈ en:tested
+draws	treize	0.911	14	0.956	0.9392	2	13.15	en:draws ≈ fr:treize = en:thirteen
+destructive	dis traquent ive	0.956	14	0.954	0.9349	2	13.09	en:destructive ≈ fr:dis traquent ive ~ fr:traquent ive
+eases	isis	0.945	14	0.938	0.9346	2	13.09	en:eases ≈ fr:isis ~ fr:dis isis
+proceeded	précis aide	0.926	14	0.938	0.9339	2	13.07	≈ en:proceeding ~ en:proceeded ≈ fr:précis aide
+possess	paix ace	0.976	14	0.966	0.9297	2	13.02	en:possess ≈ fr:paix ace ~ fr:paix
+tooter	douter	0.97	14	0.966	0.9299	2	13.02	en:tooter ≈ fr:douter ~ fr:doux
+testify	test hais	0.941	14	0.934	0.9227	2	12.92	en:testimony ~ en:testify ≈ fr:test hais
+possessed	paix est	0.98	14	0.965	0.9146	3	12.8	en:possess ≈ fr:paix ace ~ fr:paix est ≈ en:possessed
+targeted	tanguait aide	0.949	14	0.918	0.9141	2	12.8	en:targeted ≈ fr:tanguait aide ~ fr:met aide
+installed	haines solde	0.932	14	0.915	0.9137	2	12.79	en:installed ≈ fr:haines solde ~ fr:axent haines in
+gene	gins	1.0	13	0.994	0.9779	4	12.71	≈ fr:jean en:jean ≈ fr:gin ~ fr:gins ≈ en:gene
+fall	folle	1.0	13	0.991	0.9724	2	12.64	en:fall ≈ fr:folle ~ fr:bêtes
+corner	cornes	1.0	13	0.978	0.9726	2	12.64	~ fr:corne en:corn ~ fr:cornes ≈ en:corner
+beck	bec	1.0	13	0.983	0.9694	2	12.6	en:beak = fr:bec ≈ en:beck
+meter	mire	1.0	13	0.987	0.9678	2	12.58	en:meters ~ en:meter ≈ fr:mire
+pee	pie	1.0	13	0.977	0.9653	2	12.55	≈ fr:pisse = en:pee ≈ fr:pie
+read	ride	1.0	13	0.977	0.9656	3	12.55	en:reed ≈ fr:rides ~ fr:ride ≈ en:read
+settler	sait les	1.0	13	0.969	0.9658	2	12.55	en:settlers ~ en:settler ≈ fr:sait les
+seizing	saisine	0.926	13	0.967	0.9618	2	12.5	≈ en:seize ~ en:seizing ≈ fr:saisine
+litre	lutter	0.95	13	0.967	0.9618	2	12.5	en:litre ≈ fr:lutter ~ fr:boutis
+suitable	suent belle	0.94	13	0.979	0.9582	2	12.46	en:suitable ≈ fr:suent belle ~ fr:belles
+sensor	sain ses	0.976	13	0.975	0.9584	2	12.46	en:sensors ~ en:sensor ≈ fr:sain ses
+brit	prête	0.94	13	0.967	0.9588	2	12.46	≈ en:ready = fr:prête ≈ en:brit
+petite	petites	1.0	13	0.982	0.9555	3	12.42	≈ fr:petite fr:petit ≈ en:petit ~ en:petite ≈ fr:petites
+central	sain troll	0.966	13	0.979	0.9555	2	12.42	en:trawl ≈ fr:troll ~ fr:sain troll ≈ en:central
+peters	peut aise	0.929	13	0.961	0.955	2	12.42	en:podcast ≈ fr:pot caste ~ fr:peut aise ≈ en:peters
+stela	stylé	0.952	13	0.956	0.9546	2	12.41	en:stelae ~ en:stela ≈ fr:stylé
+cs	sis ès	1.0	13	0.957	0.9541	2	12.4	en:cs ≈ fr:sis ès ~ fr:ries il
+shinny	chiner	0.945	13	0.963	0.9522	2	12.38	en:shinny ≈ fr:chiner ~ en:chin
+predator	prêt tes	0.957	13	0.956	0.9524	2	12.38	en:predators ~ en:predator ≈ fr:prêt tes
+software	savent ouais	0.926	13	0.963	0.9515	2	12.37	~ en:settler fr:sait les ~ fr:savent ouais ≈ en:software
+eddies	indice	0.915	13	0.957	0.9438	2	12.27	en:eddies ≈ fr:indice = en:clue
+purchased	paient schiste	0.952	13	0.955	0.9435	2	12.27	en:purchased ≈ fr:paient schiste ~ fr:plaider
+veteran	fait reine	0.94	13	0.963	0.9432	2	12.26	en:veteran ≈ fr:fait reine ~ fr:peut reine
+pen	penne	1.0	13	0.946	0.9425	2	12.25	en:penning ~ fr:penne ≈ en:pen
+miniature	mènent chez	0.966	13	0.964	0.9416	2	12.24	en:miniature ≈ fr:mènent chez ~ fr:traquent chez
+offended	afin dites	0.918	13	0.944	0.9412	2	12.24	~ en:attended fr:étain dites ~ fr:afin dites ≈ en:offended
+artiste	assiste	0.94	13	0.954	0.9396	2	12.22	en:artist ~ en:artiste ≈ fr:assiste
+desperately	dès paierait lis	0.964	13	0.944	0.9401	2	12.22	en:desperately ≈ fr:dès paierait lis ~ fr:dès lis
+ministry	mines tri	0.958	13	0.964	0.9395	2	12.21	en:mean ≈ fr:mines ~ fr:mines tri ≈ en:ministry
+entry	haines tri	1.0	13	0.958	0.9394	2	12.21	en:treason ≈ fr:tries haine ~ fr:haines tri ≈ en:entry
+tourism	tords homme	0.966	13	0.95	0.9388	2	12.2	en:tourism ≈ fr:tords homme ~ fr:terreurs homme
+victim	piquent aime	0.904	13	0.942	0.9387	2	12.2	~ en:emcees fr:aimes hisse ~ fr:piquent aime ≈ en:victim
+estimated	estimait aide	0.956	13	0.95	0.9379	2	12.19	en:ed ≈ fr:aides ~ fr:estimait aide ≈ en:estimated
+pretor	prêtons	0.952	13	0.937	0.9361	2	12.17	en:pretor ≈ fr:prêtons ~ fr:prêter
+elders	elles aise	0.929	13	0.952	0.9344	2	12.15	en:elders ≈ fr:elles aise ~ fr:ils
+tasted	tissent aide	0.949	13	0.952	0.9337	2	12.14	en:exhibited ≈ fr:exhibent aide ~ fr:tissent aide ≈ en:tasted
+senators	sain thèse	0.94	13	0.931	0.9288	2	12.07	~ en:investors fr:nouées thèse ~ fr:sain thèse ≈ en:senators
+investing	nouées teigne	0.903	13	0.936	0.928	2	12.06	en:invest ~ en:investing ≈ fr:nouées teigne
+places	plaies aise	0.935	13	0.95	0.9271	2	12.05	≈ fr:trais aise ~ fr:plaies aise ≈ en:places
+faeces	fies hisse	0.952	13	0.93	0.9265	2	12.05	en:faeces ≈ fr:fies hisse ~ fr:dis hisse
+mender	main des	0.976	13	0.936	0.9259	2	12.04	≈ en:mending ~ en:mender ≈ fr:main des
+default	dit halte	0.922	13	0.929	0.9256	2	12.03	en:default ≈ fr:dit halte ~ fr:sait halte
+would	oueds	0.95	13	0.959	0.9245	2	12.02	en:wed ≈ fr:oued ~ fr:oueds ≈ en:would
+legit	laid jette	0.94	13	0.936	0.924	2	12.01	≈ fr:jets ~ fr:laid jette ≈ en:legit
+set um	symptômes	0.902	13	0.935	0.9205	2	11.97	≈ en:set ~ en:set um ≈ fr:symptômes
+textbooks	taxent box	0.947	13	0.927	0.9211	2	11.97	en:textbook ~ en:textbooks ≈ fr:taxent box
+proximity	braques midi	0.93	13	0.931	0.9193	2	11.95	≈ en:vicinity ~ en:proximity ≈ fr:braques midi
+himself	aimes elfes	0.949	13	0.929	0.9182	3	11.94	en:himself ≈ fr:aimes elfes ~ fr:mas elfes ≈ en:myself ~ en:yourself
+remainder	romain des	0.911	13	0.929	0.9165	3	11.91	en:reminder ≈ fr:roman des ~ fr:romain des ≈ en:remainder
+rooting	routine	0.95	13	0.925	0.9163	2	11.91	≈ en:rooters ~ en:rooting ≈ fr:routine
+trading	trait in	0.916	13	0.935	0.9135	2	11.87	en:traders ≈ fr:trait aise ~ fr:trait in ≈ en:trading
+manly	main lis	0.929	13	0.914	0.9114	2	11.85	en:manly ≈ fr:main lis ~ fr:commun lis
+practice	braquent hisse	0.952	13	0.917	0.9072	2	11.79	≈ en:practiced ~ en:practice ≈ fr:braquent hisse
+possession	paix échine	0.918	13	0.939	0.9028	2	11.74	en:possession ≈ fr:paix échine ~ fr:paix est
+truly	trous lies	1.0	12	0.987	0.9747	2	11.7	en:truly ≈ fr:trous lies ~ fr:trous
+traded	trait aide	0.935	13	0.912	0.8989	2	11.69	en:traded ≈ fr:trait aide ~ fr:aide
+teak	tiques	1.0	12	0.98	0.9728	2	11.67	en:ticks = fr:tiques ≈ en:teak
+sorely	folie	0.938	13	0.905	0.8976	2	11.67	≈ en:insanity = fr:folie ≈ en:sorely
+feel	files	1.0	12	0.99	0.9717	2	11.66	en:feel ≈ fr:files ~ fr:fichiers
+corny	connu	0.95	12	0.974	0.9717	3	11.66	en:corn ≈ fr:corne ~ en:corny ≈ fr:connu
+carding	cantine	0.902	13	0.899	0.8955	2	11.64	en:carding ≈ fr:cantine ~ fr:rétine
+saucy	ceci	0.97	12	0.978	0.9688	2	11.63	en:saucy ≈ fr:ceci ~ fr:dette
+preferences	prêt rhin six	0.941	13	0.899	0.8949	2	11.63	en:preferences ≈ fr:prêt rhin six ~ fr:rhin tel
+faller	voler	0.97	12	0.976	0.9679	2	11.62	≈ en:steal = fr:voler ≈ en:faller
+peak	piques	1.0	12	0.97	0.9604	3	11.53	en:peek ≈ fr:piquent ~ fr:piques ≈ en:peak
+sandwiches	sain dit chaise	0.927	12	0.961	0.9554	3	11.46	en:teachers ≈ fr:dit chaise ~ fr:sain dit chaise ≈ en:sandwiches
+plea	plie	1.0	12	0.956	0.9545	3	11.45	= fr:plaider en:pleader ~ en:plea ≈ fr:plie
+preach	bridge	0.929	12	0.968	0.9531	2	11.44	en:pressure ≈ fr:prêche = en:preach ≈ fr:bridge
+vista	vis tes	0.956	12	0.961	0.9527	3	11.43	en:vending ≈ fr:vin digne ~ fr:vis tes ≈ en:vista
+control	con troll	0.94	12	0.965	0.9515	2	11.42	en:control ≈ fr:con troll ~ fr:sain troll
+titter	titi	0.945	12	0.965	0.9497	2	11.4	en:titi ~ fr:titi ≈ en:titter
+sixty	secs tee	0.96	12	0.956	0.9488	2	11.39	en:sixty ≈ fr:secs tee ~ en:secs ≈ fr:sexe ~ fr:sexes ≈ en:sex
+tractive	traquent ive	0.969	12	0.954	0.9494	2	11.39	en:destructive ≈ fr:dis traquent ive ~ fr:traquent ive ≈ en:tractive
+kisses	quais aise	0.929	12	0.951	0.9493	3	11.39	en:bees ≈ fr:bises = en:kisses ≈ fr:quais aise
+rested	rincent aide	0.96	12	0.948	0.948	3	11.38	en:arrest ≈ fr:restes ~ en:rested ≈ fr:rincent aide
+mean	mines	1.0	12	0.964	0.9457	2	11.35	en:mean ≈ fr:mines ~ fr:mines tri
+neutral	nouent rôle	0.945	12	0.963	0.9439	2	11.33	en:neutral ≈ fr:nouent rôle ~ en:role
+artist	atteste	0.964	12	0.969	0.9419	2	11.3	en:artiste ~ en:artist ≈ fr:atteste
+randy	rhin dit	0.929	12	0.962	0.9418	2	11.3	en:randy ≈ fr:rhin dit ~ fr:dette
+treading	training	0.944	12	0.952	0.9397	2	11.28	en:treading ≈ fr:training ~ en:training
+straws	stress	0.929	12	0.978	0.9371	2	11.24	en:straws ≈ fr:stress ~ en:stress
+parley	pâli	0.985	12	0.977	0.9355	2	11.23	en:parley ≈ fr:pâli ~ fr:pâle
+lecturer	liguent serez	0.926	12	0.949	0.9343	2	11.21	en:friendly ≈ fr:freinent lis ~ fr:liguent serez ≈ en:lecturer
+meet	mythe	1.0	12	0.984	0.9326	2	11.19	en:meet ≈ fr:mythe ~ fr:mythique
+lending	lin digne	0.944	12	0.937	0.9322	3	11.19	en:fortunately ≈ fr:faut chenet lis ~ fr:lin digne ≈ en:lending
+predecessor	prient cessé	0.973	12	0.934	0.9305	2	11.17	en:census ≈ fr:sain cesse ~ fr:prient cessé ≈ en:predecessor
+murdered	met aide	0.929	12	0.934	0.9305	3	11.17	~ en:proceeded fr:précis aide ~ fr:met aide ≈ en:murdered
+previous	pris os	0.923	12	0.938	0.9298	2	11.16	en:previously ~ en:previous ≈ fr:pris os
+renter	rhin tes	0.976	12	0.968	0.9209	2	11.05	en:renter ≈ fr:rhin tes ~ fr:raies lis
+foresee	foncé	0.94	12	0.955	0.9197	2	11.04	en:foresees ~ en:foresee ≈ fr:foncé
+protected	prêt excède	0.947	12	0.922	0.9108	3	10.93	en:projected ≈ fr:prêtes excède ~ fr:prêt excède ≈ en:protected
+terry	tait rient	1.0	11	0.995	0.9917	2	10.91	≈ fr:faits rient ~ fr:tait rient ≈ en:terry
+sending	sain digne	0.944	12	0.927	0.9085	3	10.9	~ fr:question en:get your ~ fr:sain digne ≈ en:sending
+meet arras	mystérieuse	0.93	12	0.911	0.9055	2	10.87	en:meet arras ≈ fr:mystérieuse ~ fr:mystérieux
+meet error	mystérieux	0.924	12	0.911	0.9053	2	10.86	en:meet arras ≈ fr:mystérieuse ~ fr:mystérieux ≈ en:meet error
+jean	djinns	1.0	11	0.981	0.9752	3	10.73	≈ fr:gins fr:gin ≈ en:jinn = fr:djinns ≈ en:jean
+poof	pouffes	1.0	11	0.975	0.9674	2	10.64	en:poof ≈ fr:pouffes ~ fr:poules
+court	cotes	1.0	11	0.977	0.965	2	10.62	en:court ≈ fr:cotes ~ fr:cote
+stalk	stocke	1.0	11	0.989	0.9639	2	10.6	en:stalk ≈ fr:stocke ~ fr:stock
+derry	terrer	0.94	11	0.974	0.9625	2	10.59	en:derry ≈ fr:terrer ~ fr:terre
+system	cessent homme	0.96	11	0.966	0.9591	2	10.55	≈ fr:système ~ en:system ≈ fr:cessent homme
+chute	shoote	1.0	11	0.975	0.9579	2	10.54	en:chute ≈ fr:shoote ~ fr:shootes
+ooh	ou	1.0	11	0.962	0.9578	2	10.54	en:ooh ≈ fr:ou ~ fr:ose
+talk	tocs	1.0	11	0.986	0.9572	2	10.53	en:talk ≈ fr:tocs ~ fr:tendues
+could	coude	0.967	11	0.968	0.9571	2	10.53	en:cooed ≈ fr:coudes ~ fr:coude ≈ en:could
+cluster	clés tes	0.96	11	0.962	0.9558	2	10.51	en:cluster ≈ fr:clés tes ~ fr:clés hic
+peacock	bicoque	0.956	11	0.964	0.9544	2	10.5	en:peacock ≈ fr:bicoque ~ fr:bique
+stress	stresse	1.0	11	0.997	0.9507	2	10.46	en:stress ≈ fr:stresse ~ fr:stress
+written	rient haine	0.956	11	0.963	0.9505	2	10.46	en:written ≈ fr:rient haine ~ fr:sait haine
+sought	sotte	1.0	11	0.978	0.9503	2	10.45	en:suit ≈ fr:soute ~ fr:sotte ≈ en:sought
+frisson ya	prisonnier	0.94	11	0.958	0.9504	2	10.45	en:frisson ya ≈ fr:prisonnier ~ en:prisoner
+frisson ya	prisonniers	0.94	11	0.958	0.9501	2	10.45	en:frisson ya ≈ fr:prisonniers ~ en:prisoners
+terror	terres	1.0	11	0.975	0.9482	2	10.43	en:terrors ~ en:terror ≈ fr:terres
+feature	fient chez	1.0	11	0.966	0.9472	2	10.42	en:feature ≈ fr:fient chez ~ fr:liguent chez
+cocky	kaki	0.97	11	0.973	0.9459	2	10.4	en:kaki ~ fr:kaki ≈ en:cocky
+season	scies haine	0.976	11	0.959	0.9439	2	10.38	en:season ≈ fr:scies haine ~ fr:haine
+clem	club	0.911	11	0.945	0.9435	2	10.38	≈ en:clam ~ en:clem ≈ fr:club
+refreshing	rient rechigne	0.914	11	0.949	0.9425	2	10.37	en:refreshing ≈ fr:rient rechigne ~ fr:dis ânesse
+bet	bettes	1.0	11	0.983	0.9405	2	10.35	en:betting ~ fr:bettes ≈ en:bet
+do	doues	1.0	11	0.958	0.9402	2	10.34	en:do ≈ fr:doues ~ fr:hâtes
+collie	colis	0.975	11	0.948	0.9398	2	10.34	en:collie ≈ fr:colis = en:parcel
+mainstream	mines trime	0.96	11	0.952	0.9394	2	10.33	en:mainstream ≈ fr:mines trime ~ fr:mines tri
+density	tain cité	0.935	11	0.945	0.9375	2	10.31	en:denied ≈ fr:tain aède ~ fr:tain cité ≈ en:density
+should	chaude	0.921	11	0.94	0.9371	3	10.31	en:shotgun ≈ fr:chaud gaine ~ fr:chaude ≈ en:should
+rumen	roumaine	1.0	11	0.958	0.9359	2	10.3	en:rummy ~ en:rumen ≈ fr:roumaine
+spin	speed	0.915	11	0.946	0.9345	2	10.28	~ en:beaters fr:vitesse ~ fr:speed ≈ en:spin
+diseases	dis isis	0.954	11	0.938	0.9341	2	10.28	en:eases ≈ fr:isis ~ fr:dis isis ≈ en:diseases
+partner	bat né	0.964	11	0.955	0.9331	2	10.26	en:partners ~ en:partner ≈ fr:bat né
+texture	taxent chez	0.949	11	0.947	0.9327	2	10.26	en:texture ≈ fr:taxent chez ~ fr:traquent chez
+corrected	croquent aide	0.933	11	0.937	0.9325	2	10.26	en:corrected ≈ fr:croquent aide ~ fr:plient aide
+pixel	pics elle	0.944	11	0.954	0.9319	2	10.25	en:pixel ≈ fr:pics elle ~ fr:pissent elle
+twisted	tissent aide	0.947	11	0.934	0.9304	2	10.23	en:twisted ≈ fr:tissent aide ~ fr:prennent aide
+assaulted	isolent aide	0.935	11	0.931	0.9301	2	10.23	en:assaulted ≈ fr:isolent aide ~ fr:plient aide
+wheelchair	veulent chez	0.912	11	0.934	0.9278	2	10.21	en:wheelchair ≈ fr:veulent chez ~ fr:mènent chez
+endless	haines laisse	0.94	11	0.933	0.9256	2	10.18	en:endless ≈ fr:haines laisse ~ fr:haines est
+bothered	bas aide	0.905	11	0.932	0.9256	2	10.18	en:bothered ≈ fr:bas aide ~ fr:plient aide
+minded	man aide	0.932	11	0.929	0.9258	2	10.18	en:minded ≈ fr:man aide ~ fr:prennent aide
+baptist	battent est	0.916	11	0.939	0.9245	2	10.17	en:baptist ≈ fr:battent est ~ fr:bat né
+detect	dit acte	0.924	11	0.932	0.9219	2	10.14	en:detect ≈ fr:dit acte ~ fr:prêt acte
+routinely	ruent inouï	0.954	11	0.934	0.921	2	10.13	en:routinely ≈ fr:ruent inouï ~ fr:inouï
+liberties	levait aise	0.911	11	0.939	0.919	2	10.11	~ en:losses fr:las aise ~ fr:levait aise ≈ en:liberties
+clique	clic	1.0	11	0.98	0.9138	2	10.05	en:clique ≈ fr:clic ~ fr:clics
+ante	hindi	0.911	11	0.929	0.9106	2	10.02	en:ante ≈ fr:hindi ~ fr:vis hindi
+mortgages	moquent chaise	0.925	11	0.917	0.9098	2	10.01	en:mortgages ≈ fr:moquent chaise ~ fr:coud chaise
+matters	mat aise	0.952	11	0.919	0.9086	2	10.0	en:matters ≈ fr:mat aise ~ fr:mat chaise
+enforce	aident os	0.902	11	0.912	0.9065	2	9.97	en:enforce ≈ fr:aident os ~ fr:prennent aide
+shoe	choux	1.0	10	0.984	0.9762	2	9.76	en:shoe ≈ fr:choux ~ fr:piégé
+teak	tiquent	1.0	10	0.977	0.975	3	9.75	en:tartar ≈ fr:tâter ~ fr:tiquent ≈ en:teak
+fork	phoques	1.0	10	0.983	0.9719	2	9.72	en:fork ≈ fr:phoques = en:seal
+tarter	tâter	0.985	10	0.977	0.9682	2	9.68	en:tarter ≈ fr:tâter ~ fr:tiquent
+secede	ces ides	0.976	10	0.972	0.9677	2	9.68	en:ready ≈ fr:raies dits ~ fr:ces ides ≈ en:secede
+pressure	prêche	1.0	10	0.978	0.966	2	9.66	en:pressure ≈ fr:prêche ~ fr:prêcher
+leg	legs	1.0	10	0.983	0.9648	2	9.65	en:legs ~ fr:legs ≈ en:leg
+bris	presse	0.94	10	0.967	0.9643	2	9.64	≈ en:presses ~ fr:presse ≈ en:bris
+chute	shootes	1.0	10	0.983	0.962	4	9.62	≈ fr:shoot en:shoot ≈ fr:shoote ~ fr:shootes ≈ en:chute
+en	aine	1.0	10	0.986	0.9602	2	9.6	≈ en:em ~ en:en ≈ fr:aine
+all	hall	0.95	10	0.97	0.9592	2	9.59	en:lobby = fr:hall ≈ en:all
+seizes	scies aise	0.976	10	0.961	0.9575	2	9.57	en:seizes ≈ fr:scies aise ~ fr:scies
+claws	clause	0.975	10	0.975	0.956	2	9.56	en:grief ≈ fr:griffes = en:claws ≈ fr:clause
+footballer	fait bolée	0.979	10	0.972	0.9554	2	9.55	en:footballer ≈ fr:fait bolée ~ fr:fait bol
+classic	clés hic	0.944	10	0.965	0.9547	2	9.55	en:classic ≈ fr:clés hic ~ fr:clés
+masterpiece	massent pisse	0.97	10	0.965	0.9552	2	9.55	en:masterpiece ≈ fr:massent pisse ~ fr:pisses
+techies	déguise	0.912	10	0.957	0.9555	2	9.55	en:disguise ~ fr:déguise ≈ en:techies
+presenter	prison tes	0.943	10	0.954	0.954	2	9.54	en:presenter ≈ fr:prison tes ~ en:prison
+ridgy	rient chie	0.932	10	0.963	0.9532	2	9.53	en:ridgy ≈ fr:rient chie ~ fr:rient hélas
+patron	peut reine	0.949	10	0.963	0.9527	2	9.53	en:veteran ≈ fr:fait reine ~ fr:peut reine ≈ en:patron
+out	hâtent	0.96	10	0.975	0.9513	2	9.51	en:preset ~ fr:hâtent ≈ en:out
+creators	créait aise	0.943	10	0.951	0.9498	2	9.5	en:creators ≈ fr:créait aise ~ fr:prêtait aise
+partly	bat lis	0.964	10	0.969	0.9492	2	9.49	en:partly ≈ fr:bat lis ~ fr:batte
+tinder	tain des	0.952	10	0.955	0.9489	2	9.49	en:tinder ≈ fr:tain des ~ fr:tain paul
+defending	divin digne	0.93	10	0.954	0.9488	2	9.49	en:defended ~ en:defending ≈ fr:divin digne
+defender	divin des	0.952	10	0.952	0.948	2	9.48	~ en:defending fr:divin digne ~ fr:divin des ≈ en:defender
+mistress	mais tresses	0.949	10	0.949	0.9476	2	9.48	en:distress ≈ fr:dis tresses ~ fr:mais tresses ≈ en:mistress
+piton	paient haine	0.952	10	0.951	0.9471	2	9.47	en:piton ≈ fr:paient haine ~ fr:haine
+dances	tan six	0.944	10	0.948	0.9453	2	9.45	en:dances ≈ fr:tan six ~ fr:six
+prevention	prison chaîne	0.903	10	0.944	0.944	2	9.44	en:prevention ≈ fr:prison chaîne ~ en:prison
+kami	camée	0.955	10	0.961	0.9428	2	9.43	≈ en:we ~ en:kami ≈ fr:camée
+temperature	tain prêt chez	0.94	10	0.946	0.9427	2	9.43	en:temperatures ~ en:temperature ≈ fr:tain prêt chez
+references	refrain six	0.949	10	0.945	0.9426	2	9.43	en:references ≈ fr:refrain six ~ fr:six
+northwest	nœud ouest	0.932	10	0.959	0.942	2	9.42	en:southwest ~ en:northwest ≈ fr:nœud ouest
+terrorism	terreurs homme	0.947	10	0.95	0.9422	2	9.42	en:tourism ≈ fr:tords homme ~ fr:terreurs homme ≈ en:terrorism
+pointed	peinent aide	0.932	10	0.945	0.9417	2	9.42	en:pointed ≈ fr:peinent aide ~ fr:saignent aide
+ed	aide	1.0	10	0.954	0.9402	3	9.4	~ en:artiste fr:assiste ~ fr:aide ≈ en:ed
+sensitive	sain sait ive	0.958	10	0.941	0.9396	2	9.4	en:sensitive ≈ fr:sain sait ive ~ fr:sain aise
+council	cannes elle	0.949	10	0.963	0.9394	2	9.39	en:council ≈ fr:cannes elle ~ fr:pissent elle
+essentially	sain joli	0.94	10	0.948	0.9382	3	9.38	en:sensory ≈ fr:sain serez ~ fr:sain joli ≈ en:essentially
+denied	tain aède	0.921	10	0.945	0.9381	2	9.38	en:denied ≈ fr:tain aède ~ fr:tain cité
+versus	vais aise	0.929	10	0.955	0.9367	2	9.37	en:treasurer ≈ fr:trais aurez ~ fr:vais aise ≈ en:versus
+menaced	main est	0.96	10	0.944	0.9372	2	9.37	en:menace ~ en:menaced ≈ fr:main est
+prejudice	prêt jouent hisse	0.962	10	0.939	0.9372	2	9.37	en:prejudice ≈ fr:prêt jouent hisse ~ fr:jouent aise
+bottle	bat elle	0.952	10	0.956	0.9357	2	9.36	en:bottle ≈ fr:bat elle ~ fr:pissent elle
+redrew	rient roues	0.976	10	0.946	0.936	2	9.36	en:redrew ≈ fr:rient roues ~ fr:rient aise
+sheen	chinent	1.0	10	0.965	0.9347	2	9.35	en:sheen ≈ fr:chinent ~ fr:chenal
+entities	aident dix	0.932	10	0.95	0.9355	2	9.35	en:entities ≈ fr:aident dix ~ fr:taies dix
+exodus	excès os	0.932	10	0.939	0.9331	3	9.33	en:exhort ≈ fr:exode = en:exodus ≈ fr:excès os
+rooted	ruent aide	0.952	10	0.943	0.9319	2	9.32	en:rooted ≈ fr:ruent aide ~ fr:dis traquent aide
+petit eve	positive	0.915	10	0.955	0.9309	2	9.31	en:petit eve ≈ fr:positive ~ fr:positif
+fit evil	festival	0.926	10	0.943	0.9313	2	9.31	en:fit evil ≈ fr:festival ~ en:festival
+beater	bitter	1.0	10	0.935	0.9296	2	9.3	en:beaters ~ en:beater ≈ fr:bitter
+petit if	positif	0.901	10	0.93	0.9283	2	9.28	en:petit eve ≈ fr:positive ~ fr:positif ≈ en:petit if
+arrested	hérissent aide	0.949	10	0.939	0.92	2	9.2	en:arrested ≈ fr:hérissent aide ~ fr:fait aide
+secondary	déconnent ri	0.903	10	0.922	0.919	2	9.19	en:secondary ≈ fr:déconnent ri ~ fr:déconne
+sustain	cessent haine	0.952	10	0.919	0.9156	2	9.16	en:sustain ≈ fr:cessent haine ~ fr:axent haines in
+deleted	délit aide	0.949	10	0.932	0.9136	2	9.14	en:deleted ≈ fr:délit aide ~ fr:dis traquent aide
+pander	pan des	0.94	10	0.922	0.909	2	9.09	en:pander ≈ fr:pan des ~ fr:bas tee
+rendered	reines aide	0.94	10	0.917	0.9066	2	9.07	≈ en:render ~ en:rendered ≈ fr:reines aide
+coo	coup	1.0	9	0.993	0.9854	2	8.87	en:coo ≈ fr:coup ~ en:coup
+seller	selle	1.0	9	0.992	0.9838	2	8.85	en:cellar ≈ fr:seller ~ en:seller ≈ fr:selle
+tel	telle	1.0	9	0.993	0.9824	3	8.84	en:tell ≈ fr:telles ~ fr:telle ≈ en:tel
+boss	bosse	1.0	9	0.992	0.9813	2	8.83	en:boss ≈ fr:bosse ~ fr:boss
+soupy	souper	0.97	9	0.978	0.9737	2	8.76	en:soupy ≈ fr:souper ~ en:soup
+telly	télé	0.945	9	0.973	0.973	2	8.76	≈ en:tell ~ en:telly ≈ fr:télé
+shoot	choute	1.0	9	0.978	0.9727	3	8.75	en:chute ≈ fr:shoot ~ en:shoot ≈ fr:choute
+supreme	soupe rimes	1.0	9	0.976	0.9696	3	8.73	en:supreme ≈ fr:soupe rimes ~ fr:soupes ≈ en:soup
+poop	poupe	1.0	9	0.976	0.9683	3	8.71	en:poof ≈ fr:pouf ~ fr:poupe ≈ en:poop
+tics	sexe	0.911	9	0.971	0.9674	4	8.71	≈ fr:teck = en:teak fr:tics ~ en:tics ≈ fr:sexe
+less	laisses	1.0	9	0.971	0.9677	2	8.71	en:less ≈ fr:laisses ~ fr:laissent
+peat olla	pistolet	0.935	9	0.971	0.9679	2	8.71	en:peat olla ≈ fr:pistolet ~ en:pistol
+mess	messe	1.0	9	0.987	0.9664	2	8.7	en:stem ≈ fr:stemms ~ fr:messe ≈ en:mess
+cool	coulent	1.0	9	0.983	0.9659	2	8.69	en:cootie ≈ fr:coutil ~ fr:coulent ≈ en:cool
+ben	bennes	1.0	9	0.982	0.9656	2	8.69	en:ben ≈ fr:bennes ~ fr:saisis
+reader	rides	1.0	9	0.981	0.965	3	8.69	en:readers ~ en:reader ≈ fr:rides ~ fr:ride
+preacher	prient chez	1.0	9	0.969	0.9653	2	8.69	en:preacher ≈ fr:prient chez ~ fr:dit chez
+meet	mites	1.0	9	0.983	0.9628	3	8.66	en:meat ≈ fr:mite ~ fr:mites ≈ en:meet
+loop	loupe	1.0	9	0.98	0.9623	2	8.66	en:loop ≈ fr:loupe ~ fr:loués
+beak	bique	1.0	9	0.977	0.9621	2	8.66	en:beak ≈ fr:bique ~ fr:biche
+dare	der	1.0	9	0.97	0.962	2	8.66	en:dare ≈ fr:der ~ fr:se
+sect	sectes	1.0	9	0.964	0.9618	2	8.66	en:sect ≈ fr:sectes ~ fr:secte
+talk	toquent	1.0	9	0.975	0.9599	2	8.64	en:talk ≈ fr:toquent ~ fr:touchés
+sketch	sketchs	1.0	9	0.963	0.9606	2	8.64	en:sketch ≈ fr:sketchs ~ en:sketches
+been	bine	1.0	9	0.963	0.9593	3	8.63	en:meter ≈ fr:mire ~ fr:bine ≈ en:been
+messy	mets sis	1.0	9	0.966	0.9569	3	8.61	en:sexy ≈ fr:secs sis ~ fr:mets sis ≈ en:messy
+center	sain tes	0.976	9	0.965	0.9569	2	8.61	en:bending ≈ fr:ben digne ~ fr:sain tes ≈ en:center
+preppy	brebis	0.929	9	0.963	0.9557	2	8.6	en:preppy ≈ fr:brebis = en:sheep
+clews	cluses	0.97	9	0.958	0.953	2	8.58	en:clews ≈ fr:cluses ~ fr:clous
+treason	tries haine	0.98	9	0.958	0.9539	2	8.58	en:treason ≈ fr:tries haine ~ fr:haines tri
+friendly	freinent lis	0.983	9	0.96	0.9522	2	8.57	en:friendly ≈ fr:freinent lis ~ fr:plaisante
+booze	bouses	1.0	9	0.953	0.9523	2	8.57	≈ fr:steppes ~ fr:bouses ≈ en:booze
+podcast	pot caste	0.957	9	0.961	0.9508	2	8.56	en:podcast ≈ fr:pot caste ~ fr:peut aise
+stelae	stylé	0.929	9	0.952	0.9511	2	8.56	en:stela ~ en:stelae ≈ fr:stylé
+acoustic	égouts tic	0.952	9	0.965	0.9501	2	8.55	en:acoustic ≈ fr:égouts tic ~ fr:tic
+modern	mot haine	0.929	9	0.954	0.9496	2	8.55	≈ fr:pris haine ~ fr:mot haine ≈ en:modern
+predators	prêtait aise	0.955	9	0.951	0.9497	2	8.55	en:creators ≈ fr:créait aise ~ fr:prêtait aise ≈ en:predators
+moisture	bossent chez	0.949	9	0.962	0.9467	2	8.52	en:moisture ≈ fr:bossent chez ~ fr:dit chez
+pattern	peut haine	0.929	9	0.957	0.9453	2	8.51	en:pattern ≈ fr:peut haine ~ fr:sait haine
+wonder	van des	0.9	9	0.956	0.9447	3	8.5	en:lender ≈ fr:lin des ~ fr:van des ≈ en:wonder
+needed	nid aide	0.952	9	0.955	0.9442	2	8.5	en:rickey ≈ fr:requis = en:needed ≈ fr:nid aide
+forensic	forain sec	0.955	9	0.948	0.9431	2	8.49	en:forensic ≈ fr:forain sec ~ en:sec
+softball	savent bol	0.966	9	0.947	0.9432	2	8.49	en:baseball ~ en:softball ≈ fr:savent bol
+rebury	repris	0.952	9	0.953	0.9418	2	8.48	en:rebury ≈ fr:repris ~ en:recoup
+closing	clous in	0.924	9	0.947	0.942	2	8.48	en:closing ≈ fr:clous in ~ fr:clous
+survival	ces aval	0.903	9	0.943	0.9427	2	8.48	en:survival ≈ fr:ces aval ~ fr:raies les
+enjoyed	haines chaude	0.918	9	0.943	0.9397	2	8.46	en:enjoys ~ en:enjoyed ≈ fr:haines chaude
+reaches	rient chaise	0.98	9	0.945	0.9386	2	8.45	≈ en:reaching ~ en:reaches ≈ fr:rient chaise
+transmitted	traînes met aide	0.94	9	0.944	0.9387	2	8.45	en:transmitted ≈ fr:traînes met aide ~ fr:plient aide
+cooed	coude	1.0	9	0.954	0.9378	4	8.44	~ fr:country en:cooed rhea ~ en:cooed ≈ fr:coude ~ fr:coudes
+counted	gagnent aide	0.927	9	0.941	0.9373	2	8.44	en:counting ~ en:counted ≈ fr:gagnent aide
+proceeding	près éden	0.922	9	0.938	0.9376	2	8.44	en:pressmen ≈ fr:près mène ~ fr:près éden ≈ en:proceeding
+according	écot in	0.922	9	0.938	0.9373	2	8.44	en:printing ≈ fr:prennent in ~ fr:écot in ≈ en:according
+shooters	jouent aise	0.952	9	0.939	0.937	3	8.43	en:prejudice ≈ fr:prêt jouent hisse ~ fr:jouent aise ≈ en:shooters
+creditors	crédit aise	0.96	9	0.938	0.9369	2	8.43	en:creditors ≈ fr:crédit aise ~ en:credit
+pretty	prêter	0.952	9	0.937	0.9362	2	8.43	en:pretor ≈ fr:prêtons ~ fr:prêter ≈ en:pretty
+created	créait aide	0.943	9	0.941	0.9357	2	8.42	en:created ≈ fr:créait aide ~ fr:plient aide
+transit	train cette	0.932	9	0.938	0.9351	2	8.42	en:transit ≈ fr:train cette ~ fr:cet
+mourning	mon in	0.926	9	0.936	0.9349	2	8.41	en:mourning ≈ fr:mon in ~ en:in
+court art	constate	0.931	9	0.944	0.9338	2	8.4	en:court art ≈ fr:constate ~ fr:constater
+edges	aides aise	0.929	9	0.937	0.9336	2	8.4	en:edges ≈ fr:aides aise ~ fr:aident aise
+census	sain cesse	0.96	9	0.934	0.9328	2	8.4	en:census ≈ fr:sain cesse ~ fr:prient cessé
+arrest	restent	1.0	9	0.947	0.9322	2	8.39	en:remainder ~ fr:restent ≈ en:arrest
+gesture	jet chez	0.966	9	0.934	0.9322	2	8.39	en:gesture ≈ fr:jet chez ~ en:jet
+court utter	constater	0.932	9	0.944	0.9309	2	8.38	en:court art ≈ fr:constate ~ fr:constater ≈ en:court utter
+bucked	pacte	0.94	9	0.935	0.9309	2	8.38	≈ en:busted ~ en:bucked ≈ fr:pacte
+foresaw	fonçons	0.94	9	0.958	0.9296	2	8.37	en:foresaw ≈ fr:fonçons ~ fr:foncés
+quantity	quad tee	0.94	9	0.943	0.9299	2	8.37	en:quantities ~ en:quantity ≈ fr:quad tee
+residential	raies tain gel	0.94	9	0.934	0.93	2	8.37	en:residential ≈ fr:raies tain gel ~ fr:faut chenet lis
+deceit	décide	0.929	9	0.93	0.9298	2	8.37	≈ en:decease ~ en:deceit ≈ fr:décide
+melted	mènent aide	0.921	9	0.937	0.9267	2	8.34	en:pointed ≈ fr:peinent aide ~ fr:mènent aide ≈ en:melted
+traders	trait aise	0.935	9	0.935	0.927	2	8.34	en:traders ≈ fr:trait aise ~ fr:trait in
+beaches	but chaise	0.947	9	0.934	0.927	2	8.34	en:beaches ≈ fr:but chaise ~ fr:bradent chaise
+it attack	esthétique	0.915	9	0.933	0.9268	2	8.34	en:it attack ≈ fr:esthétique ~ en:aesthetic
+wardrobe	vont robe	0.903	9	0.932	0.9254	2	8.33	en:wardrobe ≈ fr:vont robe ~ fr:con veste
+planted	planent aide	0.966	9	0.932	0.9254	2	8.33	en:planting ~ en:planted ≈ fr:planent aide
+itself	êtes elfes	0.96	9	0.931	0.9256	2	8.33	en:itself ≈ fr:êtes elfes ~ fr:mas elfes
+error	aires	1.0	9	0.976	0.9244	2	8.32	en:error ≈ fr:aires ~ fr:amas
+gasoline	gars ligne	0.919	9	0.933	0.924	2	8.32	en:gasoline ≈ fr:gars ligne ~ fr:gars aise
+credited	crédit aide	0.96	9	0.926	0.9249	2	8.32	en:credited ≈ fr:crédit aide ~ en:credit
+engine	haines gêne	0.94	9	0.928	0.9232	2	8.31	en:frozen ≈ fr:frais haine ~ fr:haines gêne ≈ en:engine
+pitcher	paient chez	0.976	9	0.933	0.9221	2	8.3	en:pitcher ≈ fr:paient chez ~ fr:taxent chez
+expressing	exprès in	0.959	9	0.924	0.9219	2	8.3	en:expressing ≈ fr:exprès in ~ fr:justifie
+descended	dizaines aide	0.928	9	0.927	0.9217	2	8.29	en:descended ≈ fr:dizaines aide ~ fr:plient aide
+quantities	quad dix	0.934	9	0.927	0.921	2	8.29	en:quantity ~ en:quantities ≈ fr:quad dix
+whichever	huit cheveux	0.93	9	0.92	0.9177	2	8.26	en:whichever ≈ fr:huit cheveux ~ fr:cheveux
+engineered	haines jeun ides	0.914	9	0.921	0.9157	2	8.24	en:engineered ≈ fr:haines jeun ides ~ fr:sait haine
+conductor	con dictée	0.94	9	0.93	0.9144	2	8.23	en:conductor ≈ fr:con dictée ~ fr:disent
+fleas	plisse	0.911	9	0.94	0.9138	2	8.22	en:fleas ≈ fr:plisse ~ fr:plié
+flu	floue	1.0	9	0.928	0.9134	3	8.22	en:grippe ≈ fr:grippe = en:flu ≈ fr:floue
+rendering	reines ring	0.935	9	0.945	0.9126	2	8.21	en:render ~ en:rendering ≈ fr:reines ring
+trusting	tracent in	0.947	9	0.923	0.911	2	8.2	≈ en:trusted ~ en:trusting ≈ fr:tracent in
+commonly	commun lis	0.935	9	0.914	0.9076	2	8.17	en:manly ≈ fr:main lis ~ fr:commun lis ≈ en:commonly
+congressional	con greffon elle	0.908	9	0.922	0.9064	2	8.16	en:congressional ≈ fr:con greffon elle ~ fr:parrain ode
+restricted	ries trinquent aide	0.942	9	0.916	0.9049	2	8.14	en:restricted ≈ fr:ries trinquent aide ~ fr:trient aide
+endangered	haines in jette	0.905	9	0.905	0.9032	2	8.13	en:endangered ≈ fr:haines in jette ~ en:jet
+destroys	dissent rose	0.96	9	0.91	0.9001	2	8.1	en:destroys ≈ fr:dissent rose ~ fr:dissent rhodes
+bordered	bond aide	0.929	9	0.9	0.899	2	8.09	en:bordered ≈ fr:bond aide ~ fr:aident aide
+porting	bottines	0.926	9	0.898	0.8976	2	8.08	≈ en:ported ~ en:porting ≈ fr:bottines
+bet	bêtes	1.0	8	0.991	0.9817	3	7.85	en:fall ≈ fr:folle ~ fr:bêtes ≈ en:bet
+scene	seine	1.0	8	0.982	0.9808	2	7.85	en:scene ≈ fr:seine ~ fr:seines
+fess	fesses	1.0	8	0.986	0.9796	2	7.84	en:fess ≈ fr:fesses = en:booty
+bootie	boutis	1.0	8	0.98	0.9775	2	7.82	en:bootee ~ en:bootie ≈ fr:boutis
+tel	telles	1.0	8	0.985	0.976	3	7.81	en:tell ≈ fr:tels ~ en:tel ≈ fr:telles
+cootie	coutil	1.0	8	0.983	0.9721	2	7.78	en:cootie ≈ fr:coutil ~ fr:coulent
+lessee	laisser	0.97	8	0.976	0.972	2	7.78	en:lessee ≈ fr:laisser ~ fr:laisse
+call	collent	1.0	8	0.983	0.9697	2	7.76	en:calling ~ en:call ≈ fr:collent
+sued	soudes	1.0	8	0.977	0.9705	2	7.76	en:suing ~ en:sued ≈ fr:soudes
+said	cède	1.0	8	0.977	0.9673	2	7.74	en:said ≈ fr:cède ~ fr:délivré
+settlers	sait lès	0.98	8	0.973	0.9678	2	7.74	en:settler ~ en:settlers ≈ fr:sait lès
+caught	cote	1.0	8	0.977	0.966	3	7.73	en:court ≈ fr:cotes ~ fr:cote ≈ en:caught
+quick	couic	0.975	8	0.975	0.9668	2	7.73	en:quick ≈ fr:couic ~ fr:coulent
+monthly	mènent lis	0.935	8	0.971	0.966	2	7.73	en:monthly ≈ fr:mènent lis ~ fr:mènent
+fraught	frotte	1.0	8	0.989	0.965	2	7.72	en:fraught ≈ fr:frotte ~ fr:fronde
+zest	zestes	1.0	8	0.977	0.9649	2	7.72	en:zest ≈ fr:zestes ~ fr:jurassic
+sexy	secs sis	1.0	8	0.977	0.965	2	7.72	en:cm ≈ fr:sis aiment ~ fr:secs sis ≈ en:sexy
+beefy	biffer	0.97	8	0.969	0.9645	2	7.72	en:beefy ≈ fr:biffer ~ fr:biffent
+peaky	piquer	0.97	8	0.973	0.9636	2	7.71	en:peaky ≈ fr:piquer ~ fr:piquent
+teak	tique	1.0	8	0.972	0.9642	2	7.71	≈ fr:teck = en:teak ≈ fr:tique
+beef	biffent	1.0	8	0.969	0.9637	2	7.71	en:beefy ≈ fr:biffer ~ fr:biffent ≈ en:beef
+cm	sis aiment	1.0	8	0.977	0.962	2	7.7	en:cm ≈ fr:sis aiment ~ fr:secs sis
+chef	chefs	1.0	8	0.975	0.9625	2	7.7	en:chef ≈ fr:chefs ~ fr:directeurs
+debtor	doté	0.94	8	0.966	0.9611	2	7.69	≈ en:debt ~ en:debtor ≈ fr:doté
+suit	soutes	1.0	8	0.966	0.961	3	7.69	~ en:settees fr:sottises ~ fr:soutes ≈ en:suit
+bending	ben digne	0.944	8	0.965	0.9594	2	7.68	en:bending ≈ fr:ben digne ~ fr:sain tes
+stalky	stocker	0.976	8	0.961	0.9599	2	7.68	≈ en:stalk ~ en:stalky ≈ fr:stocker
+picky	piquer	0.945	8	0.968	0.9591	2	7.67	en:picky ≈ fr:piquer ~ fr:piquent
+parental	prennent elle	0.963	8	0.961	0.9594	2	7.67	en:parenting ~ en:parental ≈ fr:prennent elle
+pees	pise	1.0	8	0.979	0.9581	2	7.66	en:pee ~ en:pees ≈ fr:pise
+preserve	pris ève	0.944	8	0.958	0.957	2	7.66	≈ fr:pris né ~ fr:pris ève ≈ en:preserve
+pl	pie aile	1.0	8	0.958	0.9576	2	7.66	en:pl ≈ fr:pie aile ~ fr:pie
+reddest	raies est	0.94	8	0.958	0.9566	2	7.65	en:redden ~ en:reddest ≈ fr:raies est
+dancers	tan seize	0.94	8	0.956	0.955	2	7.64	en:dancers ≈ fr:tan seize ~ en:seize
+readies	redisent	0.956	8	0.956	0.9555	2	7.64	en:redder ~ fr:redisent ≈ en:readies
+particle	bat quel	0.94	8	0.965	0.9534	2	7.63	en:particle ≈ fr:bat quel ~ fr:bat les
+porgy	pot chie	0.932	8	0.954	0.954	2	7.63	en:porgy ≈ fr:pot chie ~ fr:peut aise
+anis	anise	0.945	8	0.982	0.9523	2	7.62	en:anise ~ fr:anise ≈ en:anis
+marques	max	0.985	8	0.969	0.953	2	7.62	en:maxed ~ fr:max ≈ en:marques
+teddy	dédie	0.945	8	0.968	0.9521	2	7.62	en:deport ≈ fr:dépote ~ fr:dédie ≈ en:teddy
+butler	bat les	0.976	8	0.965	0.9527	2	7.62	en:particle ≈ fr:bat quel ~ fr:bat les ≈ en:butler
+custom	cassent homme	0.96	8	0.953	0.9524	2	7.62	≈ fr:cessent homme ~ fr:cassent homme ≈ en:custom
+seated	scient aide	0.976	8	0.953	0.953	2	7.62	en:seated ≈ fr:scient aide ~ fr:scient
+an	haine	0.94	8	0.954	0.949	4	7.59	≈ fr:prison tes en:prison ≈ fr:pris haine ~ fr:haine ≈ en:an
+bellied	bolide	0.932	8	0.949	0.9481	2	7.59	en:bellied ≈ fr:bolide ~ fr:boris
+ceded	scient aide	0.952	8	0.949	0.949	2	7.59	en:ceded ≈ fr:scient aide ~ fr:scient
+seeded	scient aide	0.952	8	0.949	0.949	2	7.59	en:seeded ≈ fr:scient aide ~ fr:scient
+bellies	belize	0.96	8	0.948	0.948	3	7.58	en:bell ≈ fr:bel ~ fr:belize ≈ en:bellies
+cedars	scient aise	0.952	8	0.948	0.948	2	7.58	en:cedars ≈ fr:scient aise ~ fr:scient
+requested	recoins tête	0.93	8	0.948	0.947	3	7.58	en:granted ≈ fr:cran tête ~ fr:recoins tête ≈ en:requested
+seeders	scient aise	0.952	8	0.948	0.948	2	7.58	en:seeders ≈ fr:scient aise ~ fr:scient
+exhort	exode	0.976	8	0.972	0.946	2	7.57	en:exodus = fr:exode ≈ en:exhort
+portal	pot elle	0.956	8	0.949	0.9461	2	7.57	en:portal ≈ fr:pot elle ~ fr:ries elle
+mature	met chaud	0.956	8	0.962	0.9446	2	7.56	en:mature ≈ fr:met chaud ~ fr:chaud
+trestle	trais elle	0.96	8	0.973	0.9437	2	7.55	en:trestle ≈ fr:trais elle ~ fr:met elle
+pennis	pénis	0.956	8	0.954	0.9434	2	7.55	≈ fr:pennes ~ en:pennis ≈ fr:pénis
+attic	éthique	0.945	8	0.966	0.9431	2	7.54	en:attic ≈ fr:éthique ~ fr:éthiques
+pressing	pressing	0.967	8	0.946	0.942	2	7.54	en:pressing ≈ fr:pressing ~ en:presses
+wrestler	raies les	0.976	8	0.943	0.9426	3	7.54	en:survival ≈ fr:ces aval ~ fr:raies les ≈ en:wrestler
+candy	khan dit	0.94	8	0.945	0.9406	2	7.53	en:candy ≈ fr:khan dit ~ fr:khan ses
+honored	anode	0.94	8	0.945	0.941	2	7.53	en:honors ~ en:honored ≈ fr:anode
+eve	ive	1.0	8	0.976	0.9405	3	7.52	en:eave ≈ fr:ives ~ fr:ive ≈ en:eve
+temperatures	tain prêt chaise	0.935	8	0.944	0.9395	2	7.52	en:temperature ~ en:temperatures ≈ fr:tain prêt chaise
+counsel	cannes elle	0.949	8	0.963	0.9383	2	7.51	en:counsel ≈ fr:cannes elle ~ fr:pissent elle
+sweating	souhait in	0.958	8	0.958	0.9374	2	7.5	en:sweating ≈ fr:souhait in ~ fr:souhait
+lawsuit	lots août	0.956	8	0.939	0.9377	3	7.5	~ fr:soudent en:sued ~ en:lawsuit ≈ fr:lots août
+caddie	caddie	0.97	8	0.938	0.9372	2	7.5	en:caddie ≈ fr:caddie ~ en:cadge
+western	ouais tonnes	0.96	8	0.97	0.935	2	7.48	en:west ≈ fr:ouest = en:western ≈ fr:ouais tonnes
+disposal	dispos elle	0.936	8	0.962	0.9355	2	7.48	en:disposal ≈ fr:dispos elle ~ fr:pissent elle
+set	cet	1.0	8	0.938	0.9348	3	7.48	en:transit ≈ fr:train cette ~ fr:cet ≈ en:set
+maximum	macs même	0.94	8	0.937	0.935	3	7.48	en:marks ≈ fr:max ~ en:maximum ≈ fr:macs même
+digits	dit gypse	0.904	8	0.942	0.934	2	7.47	en:digits ≈ fr:dit gypse ~ fr:rhin dit
+censored	saines aide	0.96	8	0.939	0.9341	2	7.47	en:censors ~ en:censored ≈ fr:saines aide
+level	laids elle	0.917	8	0.958	0.9328	2	7.46	en:level ≈ fr:laids elle ~ fr:pissent elle
+destination	destin échine	0.935	8	0.934	0.9325	2	7.46	en:destination ≈ fr:destin échine ~ fr:destinée
+unexpected	iniques pectine	0.915	8	0.934	0.932	3	7.46	en:suspected ≈ fr:ces pectine ~ fr:iniques pectine ≈ en:unexpected
+pallet in	palestine	0.928	8	0.963	0.9315	2	7.45	en:pallet in ≈ fr:palestine ~ fr:palestinien
+wizard	ouais aide	0.952	8	0.95	0.9305	2	7.44	en:wizard ≈ fr:ouais aide ~ fr:devait aide
+betting	paient in	0.926	8	0.935	0.9305	3	7.44	en:bet ≈ fr:bettes ~ en:betting ≈ fr:paient in
+invested	haines esthète	0.918	8	0.93	0.93	3	7.44	~ en:ended fr:haines aide ~ fr:haines esthète ≈ en:invested
+revival	rivas elle	0.92	8	0.944	0.9281	2	7.43	en:revival ≈ fr:rivas elle ~ fr:cannes elle
+disease	dis hisse	0.956	8	0.938	0.9285	2	7.43	≈ en:diseases ~ en:disease ≈ fr:dis hisse
+less	laisse	1.0	8	0.976	0.9275	2	7.42	en:lessee ≈ fr:laisser ~ fr:laisse ≈ en:less
+pencil	peines elle	0.96	8	0.953	0.9272	2	7.42	en:pencil ≈ fr:peines elle ~ fr:bat elle
+temporary	tain prairies	0.918	8	0.937	0.9276	3	7.42	en:density ≈ fr:tain cité ~ fr:tain prairies ≈ en:temporary
+instructor	haines tracter	0.96	8	0.934	0.9277	2	7.42	en:instructor ≈ fr:haines tracter ~ fr:con tracter
+flooding	flot in	0.919	8	0.928	0.927	3	7.42	~ en:freezing fr:frits in ~ fr:flot in ≈ en:flooding
+confessed	con veste	0.949	8	0.932	0.9264	2	7.41	en:confessed ≈ fr:con veste ~ fr:vont robe
+testis	taies dix	0.96	8	0.936	0.925	2	7.4	en:testes ~ en:testis ≈ fr:taies dix
+proposal	propos elle	0.934	8	0.927	0.9235	3	7.39	en:diesel ≈ fr:dis elle ~ fr:propos elle ≈ en:proposal
+baulked	box	0.94	8	0.961	0.9224	2	7.38	en:baulked ≈ fr:box ~ fr:boxe
+patrol	peut roule	0.943	8	0.925	0.923	2	7.38	en:patrol ≈ fr:peut roule ~ fr:pot reps
+shoot iffy	justifie	0.918	8	0.924	0.9216	3	7.37	en:expressing ≈ fr:exprès in ~ fr:justifie ≈ en:shoot iffy
+needle	nid elle	0.952	8	0.936	0.9181	2	7.35	en:needle ≈ fr:nid elle ~ fr:nid
+deacon	déconne	0.952	8	0.922	0.9173	2	7.34	en:deacon ≈ fr:déconne ~ fr:déconnent ri
+chevy	cheveux	0.911	8	0.92	0.9174	3	7.34	en:whichever ≈ fr:huit cheveux ~ fr:cheveux ≈ en:chevy
+booze	bouse	1.0	8	0.913	0.9123	3	7.3	~ en:baseball fr:pays bol ~ fr:bouse ≈ en:booze
+excluding	exclus in	0.933	8	0.942	0.9097	2	7.28	en:excluded ~ en:excluding ≈ fr:exclus in
+carter	gâté	0.955	8	0.934	0.9103	2	7.28	en:ricked ~ fr:gâté ≈ en:carter
+letters	laid aise	0.976	8	0.909	0.9079	2	7.26	en:letters ≈ fr:laid aise ~ fr:laid in
+downward	tan oued	0.923	8	0.912	0.9066	2	7.25	en:downward ≈ fr:tan oued ~ fr:oueds
+stranger	strings je	0.914	8	0.91	0.9054	2	7.24	en:stranger ≈ fr:strings je ~ fr:strings aide
+exit art	existantes	0.943	8	0.942	0.9025	2	7.22	en:exit art ≈ fr:existantes ~ fr:existant
+origin	aurait gêne	0.935	8	0.894	0.8928	3	7.14	~ en:restoration fr:rincent origine ~ en:origin ≈ fr:aurait gêne
+born	borne	1.0	7	1.0	0.9966	2	6.98	en:born ≈ fr:borne ~ en:borne
+moose	mousse	1.0	7	1.0	0.9853	2	6.9	en:moose ≈ fr:mousse ~ en:mousse
+for	fort	1.0	7	0.995	0.9847	2	6.89	en:for ≈ fr:fort ~ en:fort
+marly	mali	0.985	7	0.988	0.984	2	6.89	en:marly ≈ fr:mali ~ fr:chique
+suing	swing	0.925	7	0.978	0.9757	2	6.83	en:swing ~ fr:swing ≈ en:suing
+poop	poupes	1.0	7	0.98	0.9747	2	6.82	en:poop ≈ fr:poupes ~ fr:poules
+tea	tee	1.0	7	1.0	0.9723	2	6.81	en:tee ~ fr:tee ≈ en:tea
+form	formes	1.0	7	0.977	0.9733	2	6.81	en:form ≈ fr:formes ~ fr:forme
+beetroot	but route	0.967	7	0.975	0.9724	2	6.81	en:beetroot ≈ fr:but route ~ fr:routes
+trawl	troll	1.0	7	0.979	0.9716	2	6.8	en:trawl ≈ fr:troll ~ fr:sain troll
+bury	bey rient	1.0	7	0.973	0.9707	4	6.8	en:bury ≈ fr:bey rient ~ fr:rient ailé ≈ en:retailer ~ en:retailers
+feeler	filer	1.0	7	0.98	0.97	2	6.79	en:feeler ≈ fr:filer ~ fr:files
+what	ouate	0.96	7	0.98	0.9691	2	6.78	en:what ≈ fr:ouate ~ fr:ouïe
+men	mènent	1.0	7	0.971	0.9681	2	6.78	en:monthly ≈ fr:mènent lis ~ fr:mènent ≈ en:men
+cress	grèce	0.97	7	0.979	0.9673	2	6.77	en:cress ≈ fr:grèce ~ fr:grès
+treat esse	tristesse	0.966	7	0.976	0.9677	2	6.77	en:treat esse ≈ fr:tristesse ~ fr:triste
+richer	rient chez	0.98	7	0.968	0.9653	4	6.76	en:richer ≈ fr:rient chez ~ fr:rient ailé ≈ en:retailer ~ en:retailers
+softly	savent lis	0.96	7	0.966	0.966	2	6.76	en:softly ≈ fr:savent lis ~ fr:sait lès
+customer	cassent aimé	0.966	7	0.972	0.9636	2	6.75	en:mm ≈ fr:aiment aimes ~ fr:cassent aimé ≈ en:customer
+tutu	toutou	1.0	7	0.964	0.963	2	6.74	en:tutu ≈ fr:toutou ~ fr:toute
+frock	froc	0.975	7	0.97	0.9614	2	6.73	en:fraught ≈ fr:frotte ~ fr:froc ≈ en:frock
+ski	skient	1.0	7	0.963	0.9619	2	6.73	≈ fr:skient chaise ~ fr:skient ≈ en:ski
+stealer	stylé	1.0	7	0.962	0.9611	2	6.73	en:stealer ≈ fr:stylé ~ en:pen
+peter	pires	1.0	7	0.987	0.9599	2	6.72	en:peters ~ en:peter ≈ fr:pires
+peter	pire	1.0	7	0.987	0.9599	2	6.72	en:peters ~ en:peter ≈ fr:pire
+butcher	bout chez	0.98	7	0.961	0.9593	2	6.72	en:butcher ≈ fr:bout chez ~ fr:traquent chez
+cooler	coulent	1.0	7	0.974	0.9591	2	6.71	en:cooler ≈ fr:coulent ~ fr:couvrant
+shimmy	chimie	0.975	7	0.96	0.9579	2	6.71	en:shimmy ≈ fr:chimie ~ en:chemistry
+wrest	reste	1.0	7	0.972	0.9571	2	6.7	en:wrest ≈ fr:reste ~ fr:rester
+rusty	rester	0.946	7	0.967	0.9564	2	6.7	en:rusty ≈ fr:rester ~ fr:demeurer
+steely	stylé	0.976	7	0.958	0.9571	2	6.7	en:steely ≈ fr:stylé ~ en:pen
+we	oui	1.0	7	0.998	0.9554	2	6.69	en:we ≈ fr:oui ~ fr:sim
+loopy	loupé	0.97	7	0.958	0.9554	2	6.69	≈ en:loop ~ en:loopy ≈ fr:loupé
+retired	rient aède	0.952	7	0.958	0.9551	4	6.69	en:retired ≈ fr:rient aède ~ fr:rient hélas ≈ en:retailers ~ en:retailer
+me	mies	1.0	7	0.958	0.9551	2	6.69	≈ fr:cessent homme ~ fr:mies ≈ en:me
+frees	frise	1.0	7	0.972	0.9541	3	6.68	~ fr:triste en:freest ~ en:frees ≈ fr:frise
+vestry	vais tri	0.98	7	0.956	0.9547	2	6.68	en:vestry ≈ fr:vais tri ~ en:tress
+cabbie	képi	0.94	7	0.955	0.9543	2	6.68	en:peak ≈ fr:pic ~ fr:képi ≈ en:cabbie
+marks	max	0.985	7	0.969	0.953	2	6.67	en:maxed ~ fr:max ≈ en:marks
+boo	bouts	1.0	7	0.957	0.9534	2	6.67	en:wrest ~ fr:bouts ≈ en:boo
+leadership	lient chipe	0.943	7	0.955	0.953	2	6.67	en:leadership ≈ fr:lient chipe ~ fr:freinent chipe
+step	steppe	1.0	7	0.953	0.9526	2	6.67	en:step ≈ fr:steppe ~ en:steppe
+octave	active	0.956	7	0.985	0.9509	2	6.66	en:active ~ fr:active ≈ en:octave
+seamy	chimie	0.94	7	0.954	0.9519	2	6.66	en:seamy ≈ fr:chimie ~ en:chemistry
+cease	six	1.0	7	0.952	0.9514	2	6.66	en:cease ≈ fr:six ~ fr:sain six
+we	ouïe	1.0	7	0.986	0.9503	2	6.65	en:kami ~ en:we ≈ fr:ouïe
+disclose	dis clause	0.928	7	0.952	0.9497	2	6.65	en:disclose ≈ fr:dis clause ~ fr:clause
+distress	dis tresses	0.969	7	0.952	0.9503	2	6.65	en:distress ≈ fr:dis tresses ~ fr:anis tee
+bled	bled	1.0	7	0.951	0.95	2	6.65	en:bled ≈ fr:bled ~ en:bleeding
+cork	coq	1.0	7	0.973	0.9484	2	6.64	en:cork ≈ fr:coq ~ fr:coqs
+litter	laiteux	0.94	7	0.963	0.9483	2	6.64	en:litter ≈ fr:laiteux ~ fr:laitiers
+penalties	pain altesse	0.926	7	0.956	0.9481	2	6.64	≈ fr:peines = en:penalties ≈ fr:pain altesse
+prestige	presse tiges	1.0	7	0.951	0.949	2	6.64	en:prestige ≈ fr:presse tiges ~ en:presses
+arrest	restes	1.0	7	0.948	0.948	2	6.64	en:arrest ≈ fr:restes ~ en:rested
+rest	restes	1.0	7	0.948	0.948	2	6.64	en:rest ≈ fr:restes ~ en:rested
+claque	claque	0.97	7	0.953	0.9473	2	6.63	~ en:clam fr:clame ~ en:claque ≈ fr:claque
+disgusting	dis casting	0.938	7	0.948	0.9467	2	6.63	en:casting ~ fr:dis casting ≈ en:disgusting
+meanie	mini	1.0	7	0.969	0.944	2	6.61	en:meany ≈ fr:minis ~ fr:mini ≈ en:meanie
+defended	divin dites	0.93	7	0.95	0.9437	2	6.61	en:defending ~ en:defended ≈ fr:divin dites
+breakfast	braquent est	0.909	7	0.948	0.9449	2	6.61	en:breakfast ≈ fr:braquent est ~ fr:donnent est
+quack	couac	0.97	7	0.945	0.9444	2	6.61	en:quack ≈ fr:couac ~ fr:cocu
+fleck	flics	0.94	7	0.957	0.9429	2	6.6	en:fleck ≈ fr:flics ~ fr:flic
+suspended	ces peinent aide	0.947	7	0.946	0.9434	2	6.6	en:suspended ≈ fr:ces peinent aide ~ fr:sont aide
+panties	pan thèse	0.96	7	0.943	0.9427	2	6.6	en:panties ≈ fr:pan thèse ~ fr:sain thèse
+permitted	pâment aide	0.932	7	0.943	0.9424	2	6.6	en:permitted ≈ fr:pâment aide ~ fr:aide
+cabby	képi	0.94	7	0.943	0.9419	2	6.59	≈ en:picture ~ fr:képi ≈ en:cabby
+lippy	libye	0.945	7	0.967	0.9404	2	6.58	en:lippy ≈ fr:libye ~ fr:libyen
+chat	chat	0.97	7	0.965	0.9406	2	6.58	en:chat ≈ fr:chat ~ fr:chats
+dicks	dicte	0.915	7	0.963	0.9399	3	6.58	en:beat ≈ fr:bites = en:dicks ≈ fr:dicte
+larger	lent chez	0.929	7	0.941	0.9406	2	6.58	en:larger ≈ fr:lent chez ~ fr:hâtes
+commie	commis	0.975	7	0.938	0.938	2	6.57	en:commie ≈ fr:commis = en:committed
+prestigious	pressent jazz	0.942	7	0.948	0.9371	2	6.56	en:prestigious ≈ fr:pressent jazz ~ fr:jazz
+yen	yens	1.0	7	0.947	0.937	2	6.56	en:ought yen ~ fr:yens ≈ en:yen
+closest	clous est	0.935	7	0.95	0.9359	2	6.55	en:closest ≈ fr:clous est ~ fr:braquent est
+ticked eel	textile	0.949	7	0.968	0.9349	2	6.54	en:ticked eel ≈ fr:textile ~ fr:textiles
+pending	pain digne	0.944	7	0.956	0.9321	2	6.53	en:pending ≈ fr:pain digne ~ fr:pain
+sped	speed	0.94	7	0.935	0.9327	2	6.53	en:sped ≈ fr:speed ~ fr:vitesse
+successor	secs essaie	0.952	7	0.934	0.9326	2	6.53	≈ en:predecessor ~ en:successor ≈ fr:secs essaie
+contractor	con tracter	0.96	7	0.934	0.9323	2	6.53	en:contractor ≈ fr:con tracter ~ fr:haines tracter
+debt inner	destinée	0.952	7	0.934	0.9323	3	6.53	en:destination ≈ fr:destin échine ~ fr:destinée ≈ en:debt inner
+settee	synthé	0.94	7	0.931	0.931	2	6.52	en:settees ~ en:settee ≈ fr:synthé
+is	aise	0.94	7	0.933	0.9291	2	6.5	en:is ≈ fr:aise ~ fr:ruent aise
+bastard	passent aide	0.95	7	0.929	0.9289	2	6.5	en:bastard ≈ fr:passent aide ~ fr:assiste
+drafting	drapent in	0.922	7	0.929	0.928	2	6.5	en:drafting ≈ fr:drapent in ~ fr:fait in
+treasures	trais aise	0.94	7	0.933	0.9271	2	6.49	en:treasures ≈ fr:trais aise ~ fr:lient aise
+redressed	rient reste	0.983	7	0.932	0.9274	2	6.49	en:redressed ≈ fr:rient reste ~ fr:restera
+messages	messes chaise	0.925	7	0.928	0.927	2	6.49	en:messages ≈ fr:messes chaise ~ fr:feignent chaise
+gases	gars aise	0.929	7	0.938	0.9256	2	6.48	en:gases ≈ fr:gars aise ~ fr:gars
+fancy	faon ci	0.94	7	0.935	0.9261	2	6.48	en:fancy ≈ fr:faon ci ~ fr:faon est
+kindly	cannes lis	0.949	7	0.932	0.9257	2	6.48	en:kindly ≈ fr:cannes lis ~ fr:cassent lis
+lenses	laines aise	0.98	7	0.93	0.9261	2	6.48	en:lenses ≈ fr:laines aise ~ fr:ruent aise
+beat	bit	1.0	7	0.927	0.9259	2	6.48	≈ en:beaters ~ en:beat ≈ fr:bit
+responded	ries pannes aide	0.923	7	0.926	0.9257	2	6.48	en:responded ≈ fr:ries pannes aide ~ fr:brin digne
+portrait	pot rite	0.952	7	0.938	0.9246	2	6.47	≈ en:portraits ~ en:portrait ≈ fr:pot rite
+provisional	près chenal	0.911	7	0.935	0.9237	2	6.47	en:provisional ≈ fr:près chenal ~ fr:coud chine
+reasonably	ries anobli	0.96	7	0.935	0.9244	2	6.47	en:reasonably ≈ fr:ries anobli ~ fr:sommets tes
+cholesterol	collais troll	0.948	7	0.934	0.9239	2	6.47	en:cholesterol ≈ fr:collais troll ~ fr:sain troll
+capture	campent chez	0.95	7	0.933	0.9246	2	6.47	en:capture ≈ fr:campent chez ~ fr:liguent chez
+majesty	matchs tee	0.918	7	0.926	0.9237	2	6.47	en:majesty ≈ fr:matchs tee ~ en:matches
+amended	amènent aide	0.945	7	0.924	0.9237	2	6.47	en:amended ≈ fr:amènent aide ~ fr:aidait aide
+forcing	faux in	0.906	7	0.937	0.9234	2	6.46	en:forcing ≈ fr:faux in ~ fr:fausse
+twenty	soin tee	0.94	7	0.927	0.9233	2	6.46	en:twenty ≈ fr:soin tee ~ fr:soute
+bonding	ban digne	0.914	7	0.924	0.9236	2	6.46	en:bonding ≈ fr:ban digne ~ fr:brin digne
+rickey	requis	0.963	7	0.955	0.9211	2	6.45	en:rickey ≈ fr:requis = en:needed
+template	tain plainte	0.903	7	0.93	0.922	2	6.45	en:template ≈ fr:tain plainte ~ fr:tain cité
+projected	prêtes excède	0.917	7	0.922	0.9219	2	6.45	en:projected ≈ fr:prêtes excède ~ fr:prêt excède
+foreigners	forain aise	0.935	7	0.924	0.9201	2	6.44	en:foreigners ≈ fr:forain aise ~ fr:ruent aise
+parameters	primait aise	0.927	7	0.924	0.9201	2	6.44	en:parameters ≈ fr:primait aise ~ fr:ruent aise
+monster	mânes tes	0.96	7	0.92	0.92	2	6.44	en:monster ≈ fr:mânes tes ~ fr:main bée
+frustrating	pressent rétine	0.934	7	0.923	0.9176	2	6.42	en:frustrating ≈ fr:pressent rétine ~ fr:rétine
+princes	prennes aise	0.949	7	0.921	0.9171	2	6.42	en:princes ≈ fr:prennes aise ~ fr:ruent aise
+properties	frappait aise	0.926	7	0.916	0.9121	2	6.38	en:properties ≈ fr:frappait aise ~ fr:ruent aise
+depending	dépeignent in	0.905	7	0.915	0.9099	2	6.37	en:depending ≈ fr:dépeignent in ~ fr:décris in
+exam	exhibe	0.905	7	0.93	0.9091	2	6.36	en:exam ≈ fr:exhibe ~ fr:apparut
+displays	dis plaise	0.945	7	0.927	0.908	2	6.36	en:displays ≈ fr:dis plaise ~ fr:con dictée
+leases	lis aise	0.952	7	0.913	0.9091	2	6.36	en:leases ≈ fr:lis aise ~ fr:main lis
+shelters	gèlent aise	0.96	7	0.912	0.9086	2	6.36	en:shelters ≈ fr:gèlent aise ~ fr:ruent aise
+kindness	cannes noces	0.94	7	0.911	0.907	2	6.35	en:kindness ≈ fr:cannes noces ~ fr:cannes lis
+letting	laid in	0.95	7	0.909	0.9077	3	6.35	en:letters ≈ fr:laid aise ~ fr:laid in ≈ en:letting
+stranded	strings aide	0.907	7	0.91	0.9061	2	6.34	en:stranded ≈ fr:strings aide ~ fr:strings je
+premises	brèmes aise	0.94	7	0.908	0.9056	2	6.34	en:premises ≈ fr:brèmes aise ~ fr:las aise
+collectively	collectes lis	0.946	7	0.905	0.902	2	6.31	en:collectively ≈ fr:collectes lis ~ en:collected
+shoulders	gèlent aise	0.915	7	0.905	0.9011	2	6.31	en:shoulders ≈ fr:gèlent aise ~ fr:ruent aise
+trousers	draps aise	0.932	7	0.905	0.9011	2	6.31	en:trousers ≈ fr:draps aise ~ fr:ruent aise
+committees	commit hisse	0.952	7	0.901	0.901	2	6.31	en:committees ≈ fr:commit hisse ~ en:committed
+destroyed	dissent rhodes	0.973	7	0.91	0.9004	2	6.3	en:destroys ≈ fr:dissent rose ~ fr:dissent rhodes ≈ en:destroyed
+reminded	romanes aide	0.907	7	0.901	0.8999	2	6.3	≈ en:reminder ~ en:reminded ≈ fr:romanes aide
+protector	prêt excès	0.94	7	0.9	0.8999	2	6.3	en:protector ≈ fr:prêt excès ~ fr:prêt excède
+losers	loues aise	0.976	7	0.897	0.8967	2	6.28	en:losers ≈ fr:loues aise ~ fr:bises
+relative	relaient ive	0.952	7	0.903	0.894	2	6.26	en:relative ≈ fr:relaient ive ~ fr:ive
+existed	exit aide	0.943	7	0.926	0.891	2	6.24	en:exit art ≈ fr:existantes ~ en:existed ≈ fr:exit aide
+committing	commit in	0.933	7	0.888	0.888	2	6.22	en:committing ≈ fr:commit in ~ en:committed
+to	touts	1.0	6	0.995	0.9928	2	5.96	en:to ≈ fr:touts ~ fr:tout
+too	tout	1.0	6	0.995	0.9907	3	5.94	en:to ≈ fr:touts ~ fr:tout ≈ en:too
+too	touts	1.0	6	0.995	0.9867	2	5.92	en:too ≈ fr:touts ~ fr:tout
+two	touts	1.0	6	0.995	0.9875	2	5.92	en:two ≈ fr:touts ~ fr:tout
+gean	jean	1.0	6	0.994	0.987	4	5.92	en:gean ≈ fr:jean ~ en:jean ≈ fr:gin ~ fr:gins
+scilla	seller	0.97	6	0.99	0.987	2	5.92	en:scilla ≈ fr:seller ~ en:seller
+em	aimes	1.0	6	0.995	0.9855	2	5.91	en:em ≈ fr:aimes ~ fr:aimez
+tell	telles	1.0	6	0.993	0.9847	2	5.91	en:tell ≈ fr:telles ~ fr:telle ≈ en:tel
+ms	aiment ès	1.0	6	0.986	0.984	2	5.9	en:ms ≈ fr:aiment ès ~ fr:aimes
+geed	gin	0.94	6	0.984	0.9798	2	5.88	en:geed ≈ fr:gin ~ fr:gins
+richest	rient geste	0.952	6	0.981	0.98	2	5.88	en:richest ≈ fr:rient geste ~ fr:faits rient
+steel	styles	1.0	6	0.981	0.9783	2	5.87	en:steel ≈ fr:styles ~ fr:style
+builders	belles aise	0.921	6	0.979	0.9777	2	5.87	en:builders ≈ fr:belles aise ~ fr:belles
+feasible	fies belle	0.957	6	0.979	0.9775	2	5.86	en:feasible ≈ fr:fies belle ~ fr:belles
+tartar	tâter	0.985	6	0.977	0.9753	2	5.85	en:tartar ≈ fr:tâter ~ fr:tiquent
+lord	lords	1.0	6	0.984	0.9733	2	5.84	en:lording ~ fr:lords ≈ en:lord
+sex	sexe fr:sexes		6	0.982	0.9735	3	5.84	~ en:secs ≈ fr:sexe fr:sexes ≈ en:sex
+former	forme	1.0	6	0.977	0.9727	3	5.84	en:form ≈ fr:formes ~ fr:forme ≈ en:former
+tell	telle	1.0	6	0.973	0.973	3	5.84	en:tel ≈ fr:telles ~ fr:telle ≈ en:tell
+sissy	ceci	0.963	6	0.976	0.9723	2	5.83	en:sissy ≈ fr:ceci ~ fr:dette
+teat	tite	1.0	6	0.972	0.9712	2	5.83	≈ fr:tics ~ fr:tite ≈ en:teat
+genesis	djinns hisse	0.928	6	0.974	0.9692	2	5.82	en:genesis ≈ fr:djinns hisse ~ fr:djinns
+lesser	laissent	1.0	6	0.971	0.9693	3	5.82	en:less ≈ fr:laisses ~ fr:laissent ≈ en:lesser
+moody	mous dits	1.0	6	0.989	0.966	2	5.8	en:moody ≈ fr:mous dits ~ fr:pie dits
+sensible	saines belle	0.948	6	0.969	0.9675	2	5.8	en:sensible ≈ fr:saines belle ~ fr:belles
+paired	perdent	1.0	6	0.985	0.9635	2	5.78	en:paired ≈ fr:perdent ~ fr:perdue
+settees	sottises	0.952	6	0.966	0.9627	2	5.78	en:settee ~ en:settees ≈ fr:sottises
+chemise	chemises	1.0	6	0.965	0.9633	2	5.78	≈ fr:blouse ~ fr:chemises ≈ en:chemise
+vest	veste	1.0	6	0.991	0.9613	2	5.77	en:vest ≈ fr:veste ~ fr:sait
+daughter	dors	1.0	6	0.983	0.9603	2	5.76	en:daughter ≈ fr:dors = en:sleep
+west	ouest	1.0	6	0.97	0.96	2	5.76	en:west ≈ fr:ouest = en:western
+benefit	ben faites	0.949	6	0.962	0.9607	2	5.76	en:bender ≈ fr:ben des ~ fr:ben faites ≈ en:benefit
+protein	prêt in	0.966	6	0.958	0.9578	2	5.75	en:protein ≈ fr:prêt in ~ fr:prête
+football	fait bol	0.975	6	0.972	0.956	3	5.74	en:footballer ≈ fr:fait bolée ~ fr:fait bol ≈ en:football
+lewis	louise	0.95	6	0.958	0.9565	2	5.74	en:lewis ≈ fr:louise ~ fr:loupe
+shipped	chips	0.915	6	0.957	0.957	3	5.74	~ en:friendships fr:freinent chips ~ fr:chips ≈ en:shipped
+dentist	donnent est	0.949	6	0.96	0.9543	3	5.73	en:practiced ≈ fr:braquent est ~ fr:donnent est ≈ en:dentist
+culture	calent chez	0.98	6	0.959	0.9557	3	5.73	~ en:censure fr:sain chez ~ fr:calent chez ≈ en:culture
+shoe	chou	1.0	6	0.955	0.955	3	5.73	~ en:eschew fr:hissent chou ~ fr:chou ≈ en:shoe
+fessed	veste	0.97	6	0.976	0.953	2	5.72	en:fessed ≈ fr:veste ~ fr:sait
+sensors	sain seize	0.96	6	0.967	0.9537	2	5.72	en:sensor ~ en:sensors ≈ fr:sain seize
+derrick	derrick	0.96	6	0.956	0.9527	2	5.72	en:derrick ≈ fr:derrick ~ en:derry
+prawn	prône	0.975	6	0.956	0.9535	2	5.72	en:prawn ≈ fr:prône ~ fr:prêle
+candour	khan des	0.94	6	0.96	0.9508	2	5.71	en:candour ≈ fr:khan des ~ fr:khan tri
+smell	semelle	1.0	6	0.958	0.9522	2	5.71	en:seedy ~ fr:semelle ≈ en:smell
+knee	nids	1.0	6	0.956	0.9525	2	5.71	en:knee ≈ fr:nids ~ fr:nid in
+brill	prêle	0.94	6	0.956	0.9518	3	5.71	en:prawn ≈ fr:prône ~ fr:prêle ≈ en:brill
+treasurer	trais aurez	0.949	6	0.955	0.9512	2	5.71	en:treasurer ≈ fr:trais aurez ~ fr:vais aise
+discussed	dis caste	0.952	6	0.953	0.9518	2	5.71	en:discussed ≈ fr:dis caste ~ fr:dis ânesse
+steppe	steppes	1.0	6	0.953	0.9525	3	5.71	en:step ≈ fr:steppe ~ en:steppe ≈ fr:steppes
+metres	mitose	0.952	6	0.952	0.952	2	5.71	en:metre ~ en:metres ≈ fr:mitose
+veterinary	fait ornera	0.928	6	0.952	0.9508	2	5.71	en:veterinary ≈ fr:fait ornera ~ fr:dis ânesse
+grippe	grippe	0.975	6	0.973	0.9503	2	5.7	en:grippe ≈ fr:grippe = en:flu
+sender	sain des	0.976	6	0.954	0.9493	2	5.7	en:sender ≈ fr:sain des ~ fr:sain ose
+bleeding	plient in	0.919	6	0.951	0.9498	3	5.7	en:bled ≈ fr:bled ~ en:bleeding ≈ fr:plient in
+context	khan texte	0.95	6	0.951	0.9503	2	5.7	en:context ≈ fr:khan texte ~ fr:teks
+baulks	box	1.0	6	0.991	0.9478	2	5.69	en:baulks ≈ fr:box ~ fr:boxe
+suitor	soudé	0.97	6	0.971	0.9485	2	5.69	en:suitor ≈ fr:soudé ~ fr:soudain
+rusher	rocher	0.94	6	0.951	0.9477	2	5.69	= fr:recettes en:russet ~ en:rusher ≈ fr:rocher
+treen	traîne	0.94	6	0.951	0.9477	2	5.69	en:treed ~ en:treen ≈ fr:traîne
+cinder	sain des	0.952	6	0.949	0.9447	2	5.67	en:cinder ≈ fr:sain des ~ fr:sain ose
+brawn	prône	0.945	6	0.948	0.9457	2	5.67	en:brawn ≈ fr:prône ~ fr:prêle
+produced	prêt oust	0.951	6	0.945	0.9445	2	5.67	en:produced ≈ fr:prêt oust ~ fr:prête
+corky	cocu	0.95	6	0.945	0.9443	3	5.67	en:quack ≈ fr:couac ~ fr:cocu ≈ en:corky
+triste	triste	0.98	6	0.976	0.9427	2	5.66	en:treat esse ≈ fr:tristesse ~ fr:triste ≈ en:triste
+cholla	coller	0.975	6	0.948	0.9427	2	5.66	en:cholla ≈ fr:coller ~ en:colly
+collar	coller	0.975	6	0.948	0.9427	2	5.66	en:collar ≈ fr:coller ~ en:colly
+clack	claque	0.97	6	0.945	0.9433	2	5.66	en:clack ≈ fr:claque ~ fr:clame ≈ en:clam ~ en:clem ≈ fr:club ~ fr:club}}
+proudly	prend lis	0.94	6	0.944	0.9437	2	5.66	en:proudly ≈ fr:prend lis ~ fr:dès lis
+reasoning	ries naine	0.936	6	0.944	0.9428	2	5.66	en:reasoning ≈ fr:ries naine ~ fr:dis ânesse
+detest	dit est	0.983	6	0.978	0.9415	2	5.65	en:detest ≈ fr:dit est ~ fr:dis est
+counting	khan teigne	0.923	6	0.947	0.9423	2	5.65	en:counted ~ en:counting ≈ fr:khan teigne
+would	aide	0.9	6	0.942	0.942	3	5.65	~ en:artiste fr:assiste ~ fr:aide ≈ en:would
+singular	sain goulée	0.92	6	0.942	0.938	2	5.63	en:singular ≈ fr:sain goulée ~ fr:sain ose
+ripped	rift	0.915	6	0.939	0.9385	2	5.63	en:ripped ≈ fr:rift ~ fr:rient rift
+caddy	caddie	0.97	6	0.938	0.9377	2	5.63	en:caddy ≈ fr:caddie ~ en:cadge
+cadi	caddie	0.97	6	0.938	0.9377	2	5.63	en:cadi ≈ fr:caddie ~ en:cadge
+pressmen	près mène	0.983	6	0.938	0.938	2	5.63	en:pressmen ≈ fr:près mène ~ fr:près éden
+teeny	fini	0.938	6	0.965	0.937	2	5.62	en:teeny ≈ fr:fini ~ fr:finis
+training	train in	0.913	6	0.952	0.9367	3	5.62	en:treading ≈ fr:training ~ en:training ≈ fr:train in
+ought yen	obtiennent	0.922	6	0.948	0.9372	2	5.62	en:ought yen ≈ fr:obtiennent ~ fr:obtenir
+festival	cessent vol	0.939	6	0.943	0.9365	2	5.62	en:fit evil ≈ fr:festival ~ en:festival ≈ fr:cessent vol
+shotgun	chaud gaine	0.955	6	0.94	0.9367	2	5.62	en:shotgun ≈ fr:chaud gaine ~ fr:chaude
+conceit	con site	0.96	6	0.938	0.936	2	5.62	en:conceit ≈ fr:con site ~ fr:site
+suggested	cèdes esthète	0.934	6	0.936	0.936	3	5.62	~ en:investing fr:nouées teigne ~ fr:cèdes esthète ≈ en:suggested
+lenders	lin dos	0.94	6	0.941	0.9357	2	5.61	≈ en:lender ~ en:lenders ≈ fr:lin dos
+sensation	saines échine	0.934	6	0.938	0.9343	2	5.61	en:sensation ≈ fr:saines échine ~ fr:sain ose
+eve	ives	1.0	6	0.951	0.9327	2	5.6	en:eve ≈ fr:ives ~ fr:ive
+setae	synthé	0.94	6	0.937	0.934	2	5.6	en:setae ≈ fr:synthé ~ fr:synthèse
+quantum	quad homme	0.932	6	0.943	0.9317	4	5.59	en:quantities ~ en:quantity ≈ fr:quad tee ~ fr:quad homme ≈ en:quantum
+simply	sain plie	0.911	6	0.935	0.9323	2	5.59	en:simply ≈ fr:sain plie ~ fr:sain joli
+set	sept	1.0	6	0.934	0.932	2	5.59	≈ en:setters ~ en:set ≈ fr:sept
+port	potes	1.0	6	0.95	0.9292	2	5.58	en:porters ≈ fr:pot aise ~ fr:potes ≈ en:port
+counties	khan thèse	0.94	6	0.936	0.9297	2	5.58	en:counties ≈ fr:khan thèse ~ fr:khan tri
+if	ifs	0.95	6	0.935	0.9308	2	5.58	en:if ≈ fr:ifs ~ fr:if
+exon	exode	0.932	6	0.932	0.9297	2	5.58	en:exon ≈ fr:exode = en:exodus
+sunset	saines êtes	0.955	6	0.931	0.9277	2	5.57	en:sunset ≈ fr:saines êtes ~ fr:sain ose
+supernatural	soutenait charles	0.916	6	0.93	0.9277	2	5.57	en:supernatural ≈ fr:soutenait charles ~ fr:paient schiste
+red error	restera	0.911	6	0.932	0.9267	3	5.56	en:redressed ≈ fr:rient reste ~ fr:restera ≈ en:red error
+shortly	chaud lis	0.98	6	0.931	0.9273	2	5.56	≈ en:briefly ~ en:shortly ≈ fr:chaud lis
+freezing	frits in	0.958	6	0.928	0.9273	2	5.56	en:freeze ~ en:freezing ≈ fr:frits in
+quiche	quiches	1.0	6	0.928	0.9268	2	5.56	en:quiche ≈ fr:quiches ~ en:quip
+rest	restent	1.0	6	0.933	0.9257	2	5.55	en:remainder ~ fr:restent ≈ en:rest
+restored	rincent ode	0.96	6	0.933	0.9257	2	5.55	en:restoration ~ en:restored ≈ fr:rincent ode
+resource	ries os	0.98	6	0.929	0.9252	2	5.55	en:resource ≈ fr:ries os ~ fr:pris os
+error	ère	1.0	6	0.98	0.9225	2	5.54	en:error ≈ fr:ère ~ fr:epoque
+rotten	rat haine	0.952	6	0.946	0.9228	2	5.54	en:rotter ~ en:rotten ≈ fr:rat haine
+completely	con plient lis	0.94	6	0.924	0.9228	2	5.54	en:completely ≈ fr:con plient lis ~ fr:tain digne
+pecs	box	0.911	6	0.924	0.9227	3	5.54	en:textbooks ≈ fr:taxent box ~ fr:box ≈ en:pecs
+pecks	box	0.911	6	0.934	0.9217	2	5.53	en:pecked ~ en:pecks ≈ fr:box
+countries	khan treize	0.94	6	0.927	0.9215	2	5.53	en:countries ≈ fr:khan treize ~ fr:khan tri
+residency	raies don ci	0.96	6	0.923	0.9212	2	5.53	en:residency ≈ fr:raies don ci ~ fr:vies ès
+networks	nid vexe	0.92	6	0.927	0.9177	2	5.51	en:network ~ en:networks ≈ fr:nid vexe
+crossover	crocs avez	0.925	6	0.92	0.9167	2	5.5	en:crossover ≈ fr:crocs avez ~ fr:pot reps
+protective	prêt active	0.936	6	0.92	0.9163	2	5.5	en:protective ≈ fr:prêt active ~ fr:active
+representation	repris aident échine	0.933	6	0.924	0.915	2	5.49	en:representation ≈ fr:repris aident échine ~ fr:chinent
+founding	fanent in	0.93	6	0.916	0.9152	3	5.49	en:founders ≈ fr:fanent aise ~ fr:fanent in ≈ en:founding
+eastern	hissent haine	0.976	6	0.923	0.9142	2	5.48	en:eastern ≈ fr:hissent haine ~ fr:tain hisse
+bathroom	bat rhume	0.931	6	0.916	0.9137	2	5.48	en:bathroom ≈ fr:bat rhume ~ fr:bat noces
+baseball	pays bol	0.952	6	0.913	0.9125	2	5.48	en:softball ~ en:baseball ≈ fr:pays bol
+collected	cliquent aide	0.933	6	0.905	0.9015	3	5.41	en:collectively ≈ fr:collectes lis ~ en:collected ≈ fr:cliquent aide
+causes	cons aise	0.952	6	0.902	0.9013	2	5.41	en:causes ≈ fr:cons aise ~ fr:con tilde
+reedy	rider	0.97	6	0.904	0.8945	2	5.37	≈ en:reeding ~ en:reedy ≈ fr:rider
+restoration	rincent origine	0.913	6	0.894	0.8932	2	5.36	en:restoring ~ en:restoration ≈ fr:rincent origine
+cross	crosse	1.0	5	1.0	0.9952	2	4.98	en:crosse ~ fr:crosse ≈ en:cross
+prove	prouve	1.0	5	0.994	0.9864	2	4.93	en:prove ≈ fr:prouve ~ fr:prouvée
+caught	cotes	1.0	5	0.99	0.9862	2	4.93	en:caught ≈ fr:cotes ~ fr:cote
+sees	sise fr:sises		5	0.99	0.986	3	4.93	~ en:seize ≈ fr:sise fr:sises ≈ en:sees
+mousse	mousses	1.0	5	1.0	0.9822	2	4.91	en:moose ≈ fr:mousse ~ en:mousse ≈ fr:mousses
+stem	stemms	1.0	5	0.987	0.9822	2	4.91	en:stem ≈ fr:stemms ~ fr:messe
+tell	tels	1.0	5	0.986	0.982	3	4.91	en:tell ≈ fr:tels ~ en:tel ≈ fr:telle ~ fr:comme
+betta	bêta	0.963	5	0.985	0.9798	2	4.9	en:betta ≈ fr:bêta ~ fr:bêtes
+ski	skis	1.0	5	0.986	0.9774	2	4.89	en:ski ≈ fr:skis ~ fr:ski
+zoom	zooment	1.0	5	0.985	0.9778	2	4.89	en:zoo ~ fr:zooment ≈ en:zoom
+mallee	mali	0.97	5	0.984	0.9778	2	4.89	en:mallee ≈ fr:mali ~ fr:chique
+jefe	jeep	0.94	5	0.981	0.9786	2	4.89	en:jeep ~ fr:jeep ≈ en:jefe
+steal	style	1.0	5	0.981	0.9778	3	4.89	en:steel ≈ fr:styles ~ fr:style ≈ en:steal
+fila	filer	1.0	5	0.98	0.978	2	4.89	en:fila ≈ fr:filer ~ fr:files
+to	tout	1.0	5	0.979	0.9786	3	4.89	en:too ≈ fr:touts ~ fr:tout ≈ en:to
+pd	pie dits	1.0	5	0.989	0.9756	2	4.88	en:moody ≈ fr:mous dits ~ fr:pie dits ≈ en:pd
+peaceful	pis folle	0.96	5	0.981	0.9762	2	4.88	en:peaceful ≈ fr:pis folle ~ fr:folle
+seem	cime	1.0	5	0.974	0.974	2	4.87	en:seem ≈ fr:cime ~ fr:cimes
+seaport	chipote	0.952	5	0.978	0.971	2	4.86	en:seaport ≈ fr:chipote ~ fr:chique
+seam	cimes	1.0	5	0.974	0.9728	2	4.86	en:seem ≈ fr:cime ~ fr:cimes ≈ en:seam
+looter	lutter	0.97	5	0.972	0.972	2	4.86	en:looter ≈ fr:lutter ~ fr:boutis
+meany	minis	1.0	5	0.982	0.97	2	4.85	en:meany ≈ fr:minis ~ fr:mini
+tutor	tour	1.0	5	0.982	0.9696	2	4.85	en:tutor ≈ fr:tour ~ fr:tournée
+blued	blues	0.94	5	0.98	0.971	2	4.85	en:blued ≈ fr:blues ~ en:blues
+disprove	dis prouve	0.969	5	0.977	0.9694	2	4.85	en:disprove ≈ fr:dis prouve ~ fr:prouve ≈ en:prove
+coupe	coupent	1.0	5	0.971	0.971	2	4.85	≈ fr:coupe ~ en:coupe ≈ fr:coupent
+very	vais rient	1.0	5	0.979	0.9682	2	4.84	en:very ≈ fr:vais rient ~ fr:mets rient
+frill	frêle	0.97	5	0.97	0.9688	2	4.84	≈ en:frock ~ en:frill ≈ fr:frêle
+soup	soupent	1.0	5	0.969	0.9676	2	4.84	en:nixed ~ fr:soupent ≈ en:soup
+teepee	tipi	1.0	5	0.969	0.9682	2	4.84	en:tipi ~ fr:tipi ≈ en:teepee
+sheen	chines	1.0	5	0.986	0.9668	2	4.83	en:sheen ≈ fr:chines ~ fr:chinoise
+movie	mous vies	1.0	5	0.977	0.9648	2	4.82	en:movie ≈ fr:mous vies ~ fr:bethléem
+wrapped	rapt	0.97	5	0.973	0.9644	2	4.82	en:rapt ~ fr:rapt ≈ en:wrapped
+mm	aiment aimes	1.0	5	0.972	0.9646	2	4.82	en:mm ≈ fr:aiment aimes ~ fr:cassent aimé
+neater	mité	0.926	5	0.964	0.964	2	4.82	en:neater ≈ fr:mité ~ fr:mite
+surrender	serein des	0.983	5	0.973	0.9624	2	4.81	en:surrender ≈ fr:serein des ~ fr:serein
+envy	haines vies	1.0	5	0.964	0.9622	2	4.81	en:envy ≈ fr:haines vies ~ fr:mous vies
+merger	met chez	0.929	5	0.964	0.9622	2	4.81	en:merger ≈ fr:met chez ~ fr:dit chez
+tracks	trax	0.976	5	0.963	0.962	3	4.81	en:pieced ≈ fr:pistes = en:tracks ≈ fr:trax
+bender	ben des	0.976	5	0.962	0.962	2	4.81	en:bender ≈ fr:ben des ~ fr:ben faites
+fresh	fraîche	1.0	5	0.99	0.9604	2	4.8	en:fresh ≈ fr:fraîche ~ fr:fraîches
+levy	lez vies	1.0	5	0.983	0.961	2	4.8	en:levy ≈ fr:lez vies ~ fr:ondes
+choc	jack	0.911	5	0.97	0.9604	2	4.8	en:jack ~ fr:jack ≈ en:choc
+cist	zeste	0.94	5	0.961	0.9596	2	4.8	en:cist ≈ fr:zeste ~ en:zest
+cyst	zeste	0.94	5	0.961	0.9596	2	4.8	en:cyst ≈ fr:zeste ~ en:zest
+pinny	penny	0.94	5	0.966	0.9588	2	4.79	en:pinny ≈ fr:penny ~ en:penny
+recoup	recoupe	0.97	5	0.966	0.9576	2	4.79	en:recoup ≈ fr:recoupe ~ fr:reculer
+swede	souhaite	0.94	5	0.966	0.9584	2	4.79	en:swede ≈ fr:souhaite ~ fr:souhaiter
+teaches	dit chaise	0.96	5	0.961	0.9588	2	4.79	en:teaching ~ en:teaches ≈ fr:dit chaise
+vending	vin digne	0.944	5	0.961	0.958	2	4.79	en:vending ≈ fr:vin digne ~ fr:vis tes
+wed	oued	1.0	5	0.959	0.959	2	4.79	en:wed ≈ fr:oued ~ fr:oueds
+prisoner	pris né	0.96	5	0.958	0.9576	3	4.79	en:frisson ya ≈ fr:prisonnier ~ en:prisoner ≈ fr:pris né
+seaboard	chipote	0.905	5	0.966	0.9566	2	4.78	en:seaboard ≈ fr:chipote ~ fr:chique
+medal	met elle	0.952	5	0.958	0.9552	2	4.78	en:medal ≈ fr:met elle ~ fr:trais elle
+tightly	taillent lis	0.96	5	0.956	0.956	2	4.78	en:tightly ≈ fr:taillent lis ~ fr:freinent lis
+prosperity	près perdit	0.952	5	0.958	0.9548	2	4.77	en:prosperity ≈ fr:près perdit ~ fr:perdent
+pizza	peut ses	0.952	5	0.956	0.9542	2	4.77	en:pizza ≈ fr:peut ses ~ fr:peut
+eschew	hissent chou	0.98	5	0.955	0.955	2	4.77	en:escheat ~ en:eschew ≈ fr:hissent chou
+disport	despote	0.98	5	0.961	0.9512	2	4.76	en:disport ≈ fr:despote ~ fr:dépote
+fending	vin digne	0.924	5	0.956	0.953	2	4.76	en:fending ≈ fr:vin digne ~ fr:vis tes
+needing	nid in	0.926	5	0.956	0.9518	3	4.76	en:knee ≈ fr:nids ~ fr:nid in ≈ en:needing
+awed	odes	1.0	5	0.955	0.953	2	4.76	en:awed ≈ fr:odes ~ fr:émises
+leaky	ligués	0.94	5	0.954	0.9528	2	4.76	en:leaky ≈ fr:ligués ~ fr:savait
+phrases	frais aise	0.952	5	0.953	0.953	2	4.76	en:phrases ≈ fr:frais aise ~ fr:fraîche
+reprove	réprouve	0.96	5	0.953	0.9514	2	4.76	en:reprove ≈ fr:réprouve ~ fr:cognent revêtit
+sport	spots	1.0	5	0.975	0.9496	2	4.75	en:sport ≈ fr:spots ~ fr:spot
+precede	président	0.94	5	0.967	0.9498	2	4.75	en:precede ≈ fr:président ~ fr:présidente
+fleece	plisse	0.94	5	0.954	0.9508	2	4.75	en:fleece ≈ fr:plisse ~ fr:plié
+aster	acheter	0.926	5	0.952	0.9504	2	4.75	en:aster ≈ fr:acheter ~ fr:dis acheter
+wending	vin digne	0.91	5	0.952	0.9494	2	4.75	en:wending ≈ fr:vin digne ~ fr:vis tes
+tech	teks	1.0	5	0.951	0.9502	3	4.75	en:context ≈ fr:khan texte ~ fr:teks ≈ en:tech
+ed	aides	1.0	5	0.95	0.9494	2	4.75	en:ed ≈ fr:aides ~ fr:estimait aide
+ski	skie	1.0	5	0.96	0.9484	2	4.74	en:ski ≈ fr:skie ~ en:skid
+peak	pic	1.0	5	0.955	0.9486	2	4.74	en:peak ≈ fr:pic ~ fr:képi
+pardon	pas haine	0.917	5	0.952	0.9474	2	4.74	en:pardon ≈ fr:pas haine ~ fr:sait haine
+bell	bel	1.0	5	0.948	0.948	2	4.74	en:bell ≈ fr:bel ~ fr:belize
+belle	bel	1.0	5	0.948	0.948	2	4.74	en:belle ≈ fr:bel ~ fr:belize
+granted	cran tête	0.932	5	0.948	0.948	2	4.74	en:granted ≈ fr:cran tête ~ fr:recoins tête
+meatball	met bol	0.96	5	0.948	0.948	2	4.74	en:meatball ≈ fr:met bol ~ fr:fait bol
+seat	citent	1.0	5	0.948	0.948	2	4.74	≈ en:seating ~ en:seat ≈ fr:citent
+fool	foules	1.0	5	0.962	0.946	2	4.73	en:fool ≈ fr:foules ~ fr:foule
+deader	dédie	0.945	5	0.955	0.9452	2	4.73	en:deader ≈ fr:dédie ~ fr:dépote
+secretly	secret lis	0.94	5	0.949	0.9452	2	4.73	en:secretly ≈ fr:secret lis ~ fr:secret ri
+mystery	mais tri	0.94	5	0.947	0.946	2	4.73	≈ en:clue ~ en:mystery ≈ fr:mais tri
+prostate	pros tête	0.943	5	0.946	0.946	2	4.73	en:prostate ≈ fr:pros tête ~ fr:recoins tête
+air	ère	1.0	5	0.98	0.9432	2	4.72	en:air ≈ fr:ère ~ fr:epoque
+fortunate	faut chaînette	0.958	5	0.958	0.9448	2	4.72	en:fortunate ≈ fr:faut chaînette ~ fr:faut chenet lis
+disorder	dis ondées	0.944	5	0.952	0.9448	2	4.72	en:disorder ≈ fr:dis ondées ~ fr:dis aigri
+despite	dis pâte	0.952	5	0.948	0.9436	2	4.72	en:despite ≈ fr:dis pâte ~ fr:met rixe
+eat	hit	1.0	5	0.982	0.9422	2	4.71	en:eating ~ en:eat ≈ fr:hit
+pally	pâli	0.97	5	0.969	0.9418	2	4.71	en:pally ≈ fr:pâli ~ fr:pâle
+metric	met reg	0.96	5	0.959	0.943	2	4.71	en:metric ≈ fr:met reg ~ fr:apparaît
+macks	max	0.97	5	0.957	0.9412	2	4.71	en:macks ≈ fr:max ~ fr:maximum
+macs	max	0.97	5	0.957	0.9412	2	4.71	en:macs ≈ fr:max ~ fr:maximum
+mentor	main taux	0.956	5	0.953	0.9428	2	4.71	en:centaur ≈ fr:sain taux ~ fr:main taux ≈ en:mentor
+porters	pot aise	0.956	5	0.95	0.9414	2	4.71	en:porters ≈ fr:pot aise ~ fr:potes
+legendary	laid gênent ri	0.946	5	0.942	0.942	2	4.71	en:legendary ≈ fr:laid gênent ri ~ fr:rient oust
+newsletter	nous laiteux	0.966	5	0.942	0.942	2	4.71	en:newsletter ≈ fr:nous laiteux ~ fr:laiteux
+order	hordes	1.0	5	0.942	0.942	2	4.71	en:order ≈ fr:hordes ~ fr:foules
+endorsed	haines est	0.901	5	0.945	0.9404	2	4.7	en:endorsed ≈ fr:haines est ~ fr:sait haine
+reseed	réside	0.929	5	0.942	0.9404	2	4.7	≈ en:resell ~ en:reseed ≈ fr:réside
+transmit	traînes mythe	0.943	5	0.94	0.94	2	4.7	en:transmit ≈ fr:traînes mythe ~ fr:mythe
+spree	spray	0.94	5	0.939	0.939	2	4.69	en:spree ≈ fr:spray ~ fr:sprays in
+spreading	sprays in	0.93	5	0.939	0.9378	2	4.69	en:spree ≈ fr:spray ~ fr:sprays in ≈ en:spreading
+inly	inouï	0.925	5	0.943	0.9364	2	4.68	en:inly ≈ fr:inouï ~ fr:inhérent
+levee	lever	0.94	5	0.941	0.935	2	4.68	en:levee ≈ fr:lever = en:sunrise
+praetor	prêter	0.952	5	0.936	0.9356	2	4.68	en:praetor ≈ fr:prêter ~ fr:prêtons
+professors	brevets aise	0.94	5	0.948	0.934	2	4.67	en:professors ≈ fr:brevets aise ~ fr:brevets
+suspected	ces pectine	0.936	5	0.934	0.934	2	4.67	en:suspected ≈ fr:ces pectine ~ fr:iniques pectine
+drupe	troupes	0.97	5	0.964	0.932	2	4.66	en:drupe ≈ fr:troupes ~ fr:troupe
+shattered	chat aide	0.952	5	0.934	0.9322	3	4.66	en:shattered ≈ fr:chat aide ~ en:chat ≈ fr:chat
+cleave	clive	1.0	5	0.973	0.9298	2	4.65	en:cleat ~ en:cleave ≈ fr:clive
+active	active	0.956	5	0.967	0.93	2	4.65	en:active ≈ fr:active ~ fr:actives
+beat	bite	1.0	5	0.935	0.9304	4	4.65	≈ fr:speed fr:vitesse ≈ en:beaters ~ en:beat ≈ fr:bite ~ fr:bites
+misty	mais tee	0.952	5	0.934	0.9296	2	4.65	en:misty ≈ fr:mais tee ~ fr:trots tee
+aesthetic	hissent éthique	0.937	5	0.933	0.93	3	4.65	en:it attack ≈ fr:esthétique ~ en:aesthetic ≈ fr:hissent éthique
+eldest	elles est	0.94	5	0.932	0.9304	2	4.65	en:eldest ≈ fr:elles est ~ fr:elles aise
+promoted	promet aide	0.947	5	0.931	0.9296	2	4.65	en:promoted ≈ fr:promet aide ~ fr:promis aise
+suggest	sait geste	0.966	5	0.931	0.929	2	4.65	en:suggest ≈ fr:sait geste ~ fr:fais aise
+pectin	pectine	0.983	5	0.93	0.93	2	4.65	en:pectin ≈ fr:pectine ~ fr:iniques pectine
+classes	clans aise	0.94	5	0.942	0.9258	2	4.63	en:classes ≈ fr:clans aise ~ fr:clans
+subtle	saut elle	0.952	5	0.936	0.9266	2	4.63	en:subtle ≈ fr:saut elle ~ fr:pics elle
+classroom	clans rhume	0.949	5	0.934	0.9254	2	4.63	en:classroom ≈ fr:clans rhume ~ fr:clans aise
+quip	clip	0.925	5	0.928	0.926	3	4.63	en:quiche ≈ fr:quiches ~ en:quip ≈ fr:clip
+desist	dis est	0.944	5	0.927	0.9252	2	4.63	en:desist ≈ fr:dis est ~ fr:dit est
+quid	quid	0.975	5	0.927	0.9264	2	4.63	en:quid ≈ fr:quid ~ en:quiche
+several	ces rôle	0.911	5	0.927	0.927	2	4.63	en:several ≈ fr:ces rôle ~ fr:nouent rôle
+seventy	saison tee	0.923	5	0.926	0.9252	2	4.63	en:seventy ≈ fr:saison tee ~ fr:saison elle
+previously	privées lis	0.947	5	0.944	0.9236	2	4.62	en:previous ~ en:previously ≈ fr:privées lis
+exchanges	axent chaînes chaise	0.912	5	0.931	0.923	2	4.62	en:exchanges ≈ fr:axent chaînes chaise ~ fr:coincent chaîne
+provision	brevets haine	0.926	5	0.926	0.9232	2	4.62	en:provision ≈ fr:brevets haine ~ fr:brevets aise
+oldest	elles est	0.915	5	0.925	0.9236	2	4.62	en:oldest ≈ fr:elles est ~ fr:elles aise
+switching	souhait chine	0.947	5	0.924	0.922	2	4.61	en:switching ≈ fr:souhait chine ~ fr:souhait in
+restive	rincent ive	0.963	5	0.922	0.922	2	4.61	en:restive ≈ fr:rincent ive ~ fr:rincent ode
+flooded	flot aide	0.94	5	0.921	0.921	2	4.61	en:flooded ≈ fr:flot aide ~ fr:évoquent aide
+becks	box	0.94	5	0.961	0.919	2	4.59	en:becks ≈ fr:box ~ fr:boxe
+grounded	crânes aide	0.925	5	0.922	0.9174	2	4.59	en:grounded ≈ fr:crânes aide ~ fr:crâne
+red	raid	1.0	5	0.918	0.918	2	4.59	≈ en:red error ~ en:red ≈ fr:raid
+oozing	usine	0.908	5	0.934	0.9156	2	4.58	en:oozing ≈ fr:usine = en:factory
+decisive	dis achève	0.913	5	0.925	0.9168	2	4.58	en:decisive ≈ fr:dis achève ~ fr:finis
+forces	faux aise	0.932	5	0.922	0.916	2	4.58	en:forces ≈ fr:faux aise ~ fr:faux in
+excel	ex aile	1.0	5	0.921	0.917	2	4.58	en:excel ≈ fr:ex aile ~ en:exes
+freebie	fripé	0.952	5	0.955	0.9144	2	4.57	en:freebie ≈ fr:fripé ~ fr:frégate
+pappy	papy	0.97	5	0.94	0.914	2	4.57	en:pappy ≈ fr:papy ~ fr:papes
+internet	aident honnête	0.932	5	0.914	0.9136	2	4.57	en:internet ≈ fr:aident honnête ~ en:honesty
+strategy	strates chie	0.927	5	0.919	0.9128	2	4.56	en:strategy ≈ fr:strates chie ~ fr:stade
+nicked	dicte	0.915	5	0.921	0.91	2	4.55	en:ticked ~ en:nicked ≈ fr:dicte
+reinforced	rien poste	0.915	5	0.91	0.9048	2	4.52	en:reinforced ≈ fr:rien poste ~ fr:rien
+examination	examen échine	0.93	5	0.894	0.894	2	4.47	en:examination ≈ fr:examen échine ~ en:exam
+rented	rhin tête	0.94	5	0.893	0.893	2	4.46	≈ en:rental ~ en:rented ≈ fr:rhin tête
+disturbing	dissent open	0.924	5	0.895	0.8896	2	4.45	en:disturbing ≈ fr:dissent open ~ fr:dissent rose
+get your	questions	0.921	5	0.89	0.89	2	4.45	en:quiz ~ fr:questions ≈ en:get your
+trademark	trait mac	0.95	5	0.892	0.8868	2	4.43	en:trademark ≈ fr:trait mac ~ fr:trait in
+penguin	pain gouine	0.947	5	0.885	0.8844	2	4.42	en:penguin ≈ fr:pain gouine ~ fr:pain folle
+exclusion	exclus haine	0.947	5	0.88	0.879	2	4.4	en:exclusion ≈ fr:exclus haine ~ en:excluding
+it aura	instaurer	0.921	5	0.858	0.8064	2	4.03	en:it aura ≈ fr:instaurer ~ fr:attila
+two	tout	1.0	4	0.995	0.995	3	3.98	en:to ≈ fr:touts ~ fr:tout ≈ en:two
+seller	selles	1.0	4	0.994	0.99	3	3.96	en:cellar ≈ fr:seller ~ en:seller ≈ fr:selles
+cooper	coupes	1.0	4	0.99	0.9865	2	3.95	en:cooper ≈ fr:coupes ~ fr:coupe
+bean	bine	1.0	4	0.987	0.987	3	3.95	~ en:meter fr:mire ~ fr:bine ≈ en:bean
+court	cote	1.0	4	0.99	0.9852	3	3.94	en:caught ≈ fr:cotes ~ fr:cote ≈ en:court
+booed	boudes	1.0	4	0.988	0.9848	2	3.94	en:booed ≈ fr:boudes ~ fr:boumes
+tarty	tati	0.985	4	0.988	0.9828	2	3.93	en:tarty ≈ fr:tati ~ fr:baba
+gene	djinns	1.0	4	0.981	0.981	4	3.92	≈ fr:gins fr:gin ≈ en:jinn = fr:djinns ≈ en:gene
+gean	gins	1.0	4	0.981	0.981	3	3.92	en:gean ≈ fr:gins ~ fr:gin ≈ en:jinn
+bootee	boutis	1.0	4	0.98	0.98	2	3.92	en:bootie ~ en:bootee ≈ fr:boutis
+sees en:seen	seines		4	0.982	0.977	3	3.91	~ fr:sises ≈ en:sees en:seen ≈ fr:seines
+troop	troupe	1.0	4	1.0	0.9752	2	3.9	en:troop ≈ fr:troupe ~ en:troupe
+quin	couine	0.975	4	0.979	0.976	2	3.9	en:quin ≈ fr:couine ~ fr:couines
+former	formes	1.0	4	0.977	0.9745	2	3.9	en:former ≈ fr:formes ~ fr:forme
+eave	ives	1.0	4	0.976	0.9728	2	3.89	en:eave ≈ fr:ives ~ fr:ive
+less	laissent	1.0	4	0.975	0.9725	3	3.89	en:lesser ≈ fr:laisses ~ fr:laissent ≈ en:less
+tell en:telly	télé		4	0.973	0.973	3	3.89	~ fr:telle ≈ en:tell en:telly ≈ fr:télé
+superstar	soupes fr:soupes ta		4	0.984	0.9702	3	3.88	~ en:soup ≈ fr:soupes fr:soupes ta ≈ en:superstar
+pleas	plisse	0.97	4	0.971	0.971	3	3.88	= fr:pli en:plea ~ en:pleas ≈ fr:plisse
+too	tous	1.0	4	0.97	0.97	3	3.88	= fr:hall en:all = fr:tous ≈ en:too
+two	tous	1.0	4	0.97	0.97	3	3.88	= fr:hall en:all = fr:tous ≈ en:two
+clue	clou	1.0	4	0.984	0.9685	2	3.87	en:clued ~ en:clue ≈ fr:clou
+sics	sexe	0.97	4	0.982	0.9682	3	3.87	en:sics ≈ fr:sexe ~ en:sex ≈ fr:sexes
+blues	blouse	1.0	4	0.98	0.9687	3	3.87	en:blued ≈ fr:blues ~ en:blues ≈ fr:blouse
+cruse	crous	1.0	4	0.969	0.9665	2	3.87	en:cruse ≈ fr:crous ~ en:cress
+teeter	titi	0.97	4	0.969	0.968	3	3.87	~ fr:tipi en:teepee ~ en:teeter ≈ fr:titi
+lesser en:lessen	lettone		4	0.968	0.968	3	3.87	~ fr:laissent ≈ en:lesser en:lessen ≈ fr:lettone
+settlers en:settler	sait les		4	0.966	0.966	3	3.86	~ fr:sait lès ≈ en:settlers en:settler ≈ fr:sait les
+call	cols	1.0	4	0.965	0.965	2	3.86	≈ en:caller ~ en:call ≈ fr:cols
+call	colle	1.0	4	0.965	0.965	2	3.86	≈ en:caller ~ en:call ≈ fr:colle
+corset	concède	0.952	4	0.967	0.9633	2	3.85	en:concede = fr:concède ≈ en:corset
+legion	lient gêne	0.96	4	0.966	0.9637	2	3.85	en:legion ≈ fr:lient gêne ~ fr:rient gêne
+toot en:toot were	toutefois		4	0.964	0.9622	3	3.85	~ fr:toute ≈ en:toot en:toot were ≈ fr:toutefois
+kaki	kaki	0.97	4	0.962	0.9615	2	3.85	en:khaki = fr:kaki ≈ en:kaki
+crick	crique	0.975	4	0.968	0.9605	2	3.84	en:crick ≈ fr:crique ~ fr:crète
+breeder	bridé	1.0	4	0.962	0.9603	2	3.84	en:wedgie ~ fr:bridé ≈ en:breeder
+si	scies	1.0	4	0.961	0.961	3	3.84	en:seizes ≈ fr:scies aise ~ fr:scies ≈ en:si
+mys	maïs	0.945	4	0.96	0.96	3	3.84	~ fr:corne en:corn = fr:maïs ≈ en:mys
+crus	crous	0.97	4	0.961	0.9567	2	3.83	en:crus ≈ fr:crous ~ en:cress
+teachers	dit chaise	0.96	4	0.961	0.9572	2	3.83	en:teachers ≈ fr:dit chaise ~ fr:sain dit chaise
+temple	tain paul	0.911	4	0.961	0.958	3	3.83	en:tender ≈ fr:tain des ~ fr:tain paul ≈ en:temple
+commentary	commis tri fr:commun tri		4	0.96	0.9563	3	3.83	~ en:chemistry ≈ fr:commis tri fr:commun tri ≈ en:commentary
+prisoners	prison aise	0.943	4	0.958	0.958	3	3.83	en:frisson ya ≈ fr:prisonniers ~ en:prisoners ≈ fr:prison aise
+was	osent	0.91	4	0.958	0.9575	2	3.83	≈ en:been ~ en:was ≈ fr:osent
+talky	toquer	0.97	4	0.958	0.958	2	3.83	en:talkie ~ en:talky ≈ fr:toquer
+talkie	toquer	0.97	4	0.958	0.958	2	3.83	en:talky ~ en:talkie ≈ fr:toquer
+reseal en:resell	ries elle		4	0.957	0.9565	3	3.83	~ fr:ries il ≈ en:reseal en:resell ≈ fr:ries elle
+cork	coques	1.0	4	0.981	0.956	2	3.82	en:cork ≈ fr:coques ~ fr:coque
+cork	coque	1.0	4	0.981	0.956	2	3.82	en:cork ≈ fr:coque ~ fr:coques
+fork	phoque	1.0	4	0.97	0.955	2	3.82	en:forked ~ en:fork ≈ fr:phoque
+confess	con fesses	0.96	4	0.969	0.9542	2	3.82	en:fess ≈ fr:fesses ~ fr:con fesses ≈ en:confess
+seat em	systèmes	0.96	4	0.972	0.953	3	3.81	~ fr:site en:seat ~ en:seat em ≈ fr:systèmes
+messes	mais aise	0.952	4	0.962	0.9525	3	3.81	en:mess ≈ fr:messes ~ en:messes ≈ fr:mais aise
+daughters	dont aise	0.952	4	0.956	0.9532	2	3.81	en:daughters ≈ fr:dont aise ~ fr:pas aise
+duchess	dit chaise	0.94	4	0.956	0.9522	2	3.81	en:duchess ≈ fr:dit chaise ~ fr:sain dit chaise
+amice	émises	0.915	4	0.955	0.9525	3	3.81	en:awed ≈ fr:odes ~ fr:émises ≈ en:amice
+anatomy	hennit omis	0.949	4	0.954	0.9513	2	3.81	en:anatomy ≈ fr:hennit omis ~ fr:otan omis
+booze	steppes fr:bouses		4	0.953	0.9522	3	3.81	~ en:steppe ≈ fr:steppes fr:bouses ≈ en:booze
+from	tram	0.908	4	0.953	0.953	2	3.81	en:tram ~ fr:tram ≈ en:from
+beak	biques	1.0	4	0.971	0.9505	2	3.8	en:beck ≈ fr:bec = en:beak ≈ fr:biques
+dorky	toquer	0.94	4	0.962	0.95	2	3.8	en:dorky ≈ fr:toquer ~ fr:toquent
+otic	attique	0.945	4	0.957	0.9503	2	3.8	en:otic ≈ fr:attique = en:attic
+centaur	sain taux	0.956	4	0.953	0.9492	2	3.8	en:centaur ≈ fr:sain taux ~ fr:main taux
+controversy	cognent revêtit	0.939	4	0.953	0.951	3	3.8	en:reprove ≈ fr:réprouve ~ fr:cognent revêtit ≈ en:controversy
+disaster	dis acheter	0.926	4	0.952	0.95	3	3.8	en:aster ≈ fr:acheter ~ fr:dis acheter ≈ en:disaster
+senses en:sensory	sain serez		4	0.952	0.951	3	3.8	~ fr:sain six ≈ en:senses en:sensory ≈ fr:sain serez
+pleasing	plient in fr:plies in		4	0.951	0.9492	3	3.8	~ en:bleeding ≈ fr:plient in fr:plies in ≈ en:pleasing
+ventures en:venture	feignent chez		4	0.951	0.9492	3	3.8	~ fr:feignent chaise ≈ en:ventures en:venture ≈ fr:feignent chez
+centers en:centre	sain tes		4	0.95	0.95	3	3.8	~ fr:sain thèse ≈ en:centers en:centre ≈ fr:sain tes
+when	haine	0.95	4	0.95	0.95	2	3.8	en:when ≈ fr:haine ~ fr:laids haine
+ceremonies	sermon aise	0.947	4	0.957	0.9472	2	3.79	en:ceremonies ≈ fr:sermon aise ~ fr:sermon
+autonomy	otan omis	0.94	4	0.954	0.9475	3	3.79	en:anatomy ≈ fr:hennit omis ~ fr:otan omis ≈ en:autonomy
+interested	rincent aide fr:aident rincent aide		4	0.948	0.948	3	3.79	~ en:rested ≈ fr:rincent aide fr:aident rincent aide ≈ en:interested
+meter	mirent	1.0	4	0.948	0.948	3	3.79	~ fr:méthode en:metered ~ en:meter ≈ fr:mirent
+will	ils	0.917	4	0.952	0.9455	3	3.78	en:elders ≈ fr:elles aise ~ fr:ils ≈ en:will
+brawl	prêle	0.911	4	0.949	0.945	3	3.78	en:prawn ≈ fr:prône ~ fr:prêle ≈ en:brawl
+secretary	secret ri	0.97	4	0.949	0.9443	3	3.78	en:secretly ≈ fr:secret lis ~ fr:secret ri ≈ en:secretary
+doormat eek	domestiques	0.94	4	0.946	0.9445	2	3.78	en:doormat eek ≈ fr:domestiques ~ fr:domestique
+scripture	scrutent chez	0.912	4	0.944	0.944	3	3.78	~ en:lecture fr:liguent chez ~ fr:scrutent chez ≈ en:scripture
+piece	pissent	1.0	4	0.944	0.944	3	3.78	en:pieced ≈ fr:pistent ~ fr:pissent ≈ en:piece
+devoted	sont aide fr:devait aide		4	0.944	0.944	3	3.78	~ en:sorted ≈ fr:sont aide fr:devait aide ≈ en:devoted
+looby	lubie	0.97	4	0.968	0.9427	2	3.77	en:looby ≈ fr:lubie ~ fr:aimez
+branches	coud chaise fr:bradent chaise		4	0.946	0.9423	3	3.77	~ en:coaches ≈ fr:coud chaise fr:bradent chaise ≈ en:branches
+converted	con vedette	0.926	4	0.944	0.9435	2	3.77	en:converted ≈ fr:con vedette ~ fr:faon est
+piece en:pieces	pis aise		4	0.944	0.943	3	3.77	~ fr:pissent ≈ en:piece en:pieces ≈ fr:pis aise
+frontier	frein tee	0.923	4	0.942	0.9417	2	3.77	en:frontier ≈ fr:frein tee ~ fr:tee
+scattered	skient aide	0.94	4	0.943	0.9412	2	3.76	en:scattered ≈ fr:skient aide ~ fr:skie
+attending en:attended	étain dites		4	0.942	0.9407	3	3.76	~ fr:étain digne ≈ en:attending en:attended ≈ fr:étain dites
+bawdy	body	1.0	4	0.987	0.9383	2	3.75	en:bawdry ~ en:bawdy ≈ fr:body
+sixteen	fixent in	0.95	4	0.957	0.9375	2	3.75	en:fifteen ~ en:sixteen ≈ fr:fixent in
+concede	con cid	0.96	4	0.948	0.9367	2	3.75	en:concede ≈ fr:con cid ~ fr:met reg
+joss	jazz	0.94	4	0.948	0.9385	3	3.75	en:prestigious ≈ fr:pressent jazz ~ fr:jazz ≈ en:joss
+bussed	peste	0.933	4	0.947	0.9375	2	3.75	en:bussed ≈ fr:peste ~ fr:pendus
+discovery	dis cabri	0.916	4	0.943	0.937	2	3.75	en:discovering ~ en:discovery ≈ fr:dis cabri
+attended en:attending	étain digne		4	0.939	0.9385	3	3.75	~ fr:étain dites ≈ en:attended en:attending ≈ fr:étain digne
+affected	commit aide fr:évoquent aide		4	0.938	0.938	3	3.75	= en:committed ≈ fr:commit aide fr:évoquent aide ≈ en:affected
+controller	cognent relais	0.944	4	0.938	0.9378	2	3.75	en:controllers ~ en:controller ≈ fr:cognent relais
+endive	haines ive	0.932	4	0.938	0.938	2	3.75	en:endive ≈ fr:haines ive ~ fr:haines
+spleen	spleen	1.0	4	0.938	0.9363	2	3.75	en:spleen ≈ fr:spleen ~ fr:spleen aide
+terrified	terrent aède	0.939	4	0.937	0.937	3	3.75	~ en:proceeding fr:près éden ~ fr:terrent aède ≈ en:terrified
+messing	mais in	0.926	4	0.943	0.9355	3	3.74	en:mess ≈ fr:messes ~ en:messing ≈ fr:mais in
+masses	mes aise	0.929	4	0.942	0.9345	3	3.74	en:mess ≈ fr:messes = en:masses ≈ fr:mes aise
+these	dix	0.921	4	0.936	0.936	3	3.74	~ en:testis fr:taies dix ~ fr:dix ≈ en:these
+see	sis	1.0	4	0.936	0.936	2	3.74	≈ en:seen ~ en:see ≈ fr:sis
+anti	hindi	0.911	4	0.935	0.935	3	3.74	~ en:vicinity fr:vis hindi ~ fr:hindi ≈ en:anti
+beak	bic	1.0	4	0.955	0.932	2	3.73	en:beck ≈ fr:bec = en:beak ≈ fr:bic
+petit your	pétition	0.915	4	0.945	0.9322	2	3.73	en:petit your ≈ fr:pétition ~ fr:pétitions
+performer	paient omis	0.919	4	0.941	0.9327	2	3.73	en:performer ≈ fr:paient omis ~ fr:otan omis
+costly	cassent lis	0.98	4	0.932	0.9315	3	3.73	en:kindly ≈ fr:cannes lis ~ fr:cassent lis ≈ en:costly
+investors en:investor	haines ester		4	0.931	0.9305	3	3.72	~ fr:nouées thèse ≈ en:investors en:investor ≈ fr:haines ester
+senator	sain été	0.94	4	0.931	0.931	2	3.72	≈ en:senators ~ en:senator ≈ fr:sain été
+promises	promis aise	0.945	4	0.931	0.9293	3	3.72	en:promoted ≈ fr:promet aide ~ fr:promis aise ≈ en:promises
+set	cette	1.0	4	0.931	0.931	2	3.72	≈ en:setters ~ en:set ≈ fr:cette
+decease en:deceit	décide		4	0.93	0.9298	3	3.72	~ fr:dis hisse ≈ en:decease en:deceit ≈ fr:décide
+meaningful	man folle	0.907	4	0.934	0.9267	2	3.71	en:meaningful ≈ fr:man folle ~ fr:tords homme
+edited en:editing	aidait in		4	0.93	0.9283	3	3.71	~ fr:aidait aide ≈ en:edited en:editing ≈ fr:aidait in
+electron	liguent rhône	0.925	4	0.93	0.9275	2	3.71	en:electron ≈ fr:liguent rhône ~ fr:liguent serez
+fee	fient	1.0	4	0.93	0.927	3	3.71	en:feeding ≈ fr:fient in ~ fr:fient ≈ en:fee
+artiste en:artist	atteste		4	0.929	0.9287	3	3.71	~ fr:assiste ≈ en:artiste en:artist ≈ fr:atteste
+thirteen en:fourteen	faut in		4	0.929	0.9273	3	3.71	~ fr:fait in ≈ en:thirteen en:fourteen ≈ fr:faut in
+possibly	pas blé	0.923	4	0.936	0.9253	2	3.7	en:possibly ≈ fr:pas blé ~ fr:blé
+busty	bas tee	0.952	4	0.933	0.9248	2	3.7	en:busty ≈ fr:bas tee ~ fr:ondes
+receptor	ries opté	0.935	4	0.931	0.9245	2	3.7	en:receptor ≈ fr:ries opté ~ fr:sommets tes
+these	disent	0.921	4	0.93	0.9255	3	3.7	en:conductor ≈ fr:con dictée ~ fr:disent ≈ en:these
+preceding	pris éden	0.924	4	0.93	0.9255	2	3.7	en:preceded ~ en:preceding ≈ fr:pris éden
+branding en:branded	prennent aide		4	0.926	0.9255	3	3.7	~ fr:brin digne ≈ en:branding en:branded ≈ fr:prennent aide
+fit evil	festivals	0.926	4	0.926	0.924	2	3.7	en:festivals ~ fr:festivals ≈ en:fit evil
+seasonal	saison elle	0.915	4	0.926	0.925	3	3.7	en:seventy ≈ fr:saison tee ~ fr:saison elle ≈ en:seasonal
+evil	eiffel	0.911	4	0.922	0.922	3	3.69	~ fr:festival en:fit evil ~ en:evil ≈ fr:eiffel
+protected en:protect	prêt acte		4	0.922	0.9218	3	3.69	~ fr:prêt excède ≈ en:protected en:protect ≈ fr:prêt acte
+perspective	paix piquent ive	0.936	4	0.919	0.919	2	3.68	en:perspective ≈ fr:paix piquent ive ~ fr:paix ace
+cleat	quid	0.92	4	0.919	0.919	2	3.68	en:quid ~ fr:quid ≈ en:cleat
+easel	isole	0.97	4	0.964	0.9185	2	3.67	en:easel ≈ fr:isole ~ fr:insulaires
+righteous	rat chasse	0.949	4	0.924	0.9178	2	3.67	en:righteous ≈ fr:rat chasse ~ en:rotten
+laboratories	libérait reims	0.905	4	0.92	0.9187	2	3.67	en:laboratory ~ en:laboratories ≈ fr:libérait reims
+fleam	flemme	0.94	4	0.917	0.917	2	3.67	≈ en:fleas ~ en:fleam ≈ fr:flemme
+pattie	pâtit	0.97	4	0.947	0.914	2	3.66	en:pattie ≈ fr:pâtit ~ fr:chanvre
+deciding	dis atteignent	0.913	4	0.921	0.916	2	3.66	en:deciding ≈ fr:dis atteignent ~ fr:disent
+founding en:founded	fanent aide		4	0.916	0.9147	3	3.66	~ fr:fanent in ≈ en:founding en:founded ≈ fr:fanent aide
+deed arse	distances	0.921	4	0.933	0.9135	2	3.65	en:deed irked ~ en:deed arse ≈ fr:distances
+ranger	reines chez	0.918	4	0.925	0.913	2	3.65	en:ranger ≈ fr:reines chez ~ fr:fait reine
+it olla	installé	0.901	4	0.911	0.911	4	3.64	≈ fr:cessent haine fr:haines solde ≈ en:installed = fr:installé ≈ en:it olla
+manners meant	management	0.917	4	0.942	0.9055	2	3.62	en:manners meant ≈ fr:management ~ fr:gestion
+losses en:loses	loues aise		4	0.91	0.9058	3	3.62	~ fr:las aise ≈ en:losses en:loses ≈ fr:loues aise
+shit your	gestion	0.901	4	0.934	0.9022	2	3.61	en:shit your ≈ fr:gestion ~ fr:management
+clique	cliquent aide fr:clic		4	0.905	0.8998	3	3.6	~ en:collected ≈ fr:cliquent aide fr:clic ≈ en:clique
+boarders	bond aise	0.929	4	0.937	0.8895	2	3.56	en:boarder ~ en:boarders ≈ fr:bond aise
+wracks	rixe	0.94	4	0.887	0.887	3	3.55	en:matrix ≈ fr:met rixe ~ fr:rixe ≈ en:wracks
+painful	pain folle	0.932	4	0.885	0.8842	3	3.54	en:penguin ≈ fr:pain gouine ~ fr:pain folle ≈ en:painful
+meetly	met lis	0.952	4	0.882	0.8795	2	3.52	≈ en:meet arras ~ en:meetly ≈ fr:met lis
+enjoys	haines chose	0.918	4	0.878	0.877	2	3.51	en:enjoyed ~ en:enjoys ≈ fr:haines chose
+jean	gin	1.0	3	0.994	0.994	4	2.98	en:gean ≈ fr:jean ~ en:jean ≈ fr:gin ~ fr:gins
+coup	coupes	1.0	3	0.993	0.993	4	2.98	en:coo ≈ fr:coup ~ en:coup ≈ fr:coupes ~ fr:coupe
+crosse	cross	0.975	3	0.992	0.992	3	2.98	en:cross ≈ fr:crosse ~ en:crosse ≈ fr:cross
+merry	faits rient fr:mets rient		3	0.988	0.988	3	2.96	~ en:ferry ≈ fr:faits rient fr:mets rient ≈ en:merry
+peace	pisses	1.0	3	0.988	0.9867	3	2.96	en:piece ≈ fr:pisse ~ fr:pisses ≈ en:peace
+gip	jeep	0.975	3	0.987	0.987	2	2.96	en:jeep ~ fr:jeep ≈ en:gip
+stalk	stockes	1.0	3	0.997	0.9837	2	2.95	en:stalk ≈ fr:stockes ~ fr:stocks
+boom	boumes	1.0	3	0.988	0.9837	3	2.95	en:booed ≈ fr:boudes ~ fr:boumes ≈ en:boom
+fetter	fêter	1.0	3	0.988	0.9843	2	2.95	en:fetter ≈ fr:fêter ~ fr:célébré
+met	mettes	1.0	3	0.984	0.9827	2	2.95	en:met ≈ fr:mettes ~ fr:mette
+moolah	moulé	1.0	3	0.984	0.9817	2	2.95	en:moolah ≈ fr:moulé ~ fr:chanvre
+esteem	estiment	1.0	3	0.983	0.982	2	2.95	en:esteem ≈ fr:estiment ~ fr:émettant
+enemy	ennemies	1.0	3	0.984	0.9803	2	2.94	en:enemy ≈ fr:ennemies ~ fr:ennemis
+corps	cor	1.0	3	0.98	0.9793	2	2.94	en:corps ≈ fr:cor ~ fr:colorée
+teller	télé	0.975	3	0.98	0.9787	2	2.94	en:teller ≈ fr:télé ~ fr:télévisions
+flu	flou	1.0	3	0.984	0.9767	2	2.93	en:flu ≈ fr:flou ~ fr:pigé
+sealer	scellé	0.97	3	0.98	0.9757	2	2.93	en:sealer ≈ fr:scellé ~ fr:scellés
+benny	béni	0.975	3	0.979	0.977	2	2.93	en:benny ≈ fr:béni ~ fr:bénir
+shoe	choute fr:choux		3	0.978	0.978	3	2.93	~ en:shoot ≈ fr:choute fr:choux ≈ en:shoe
+dele	dealer	0.95	3	0.978	0.977	2	2.93	en:dealer ~ fr:dealer ≈ en:dele
+retailer en:retailers	rient hélas		3	0.977	0.9757	3	2.93	~ fr:rient ailé ≈ en:retailer en:retailers ≈ fr:rient hélas
+bean	bines	1.0	3	0.99	0.974	2	2.92	en:bean ≈ fr:bines ~ fr:gueux
+bean	binent	1.0	3	0.987	0.9717	2	2.92	en:bean ≈ fr:binent ~ fr:bondir
+titre	titi	0.945	3	0.982	0.9717	2	2.92	en:titi ~ fr:titi ≈ en:titre
+creak	crique	1.0	3	0.98	0.9727	2	2.92	en:creak ≈ fr:crique ~ fr:crète
+queen	couines	1.0	3	0.979	0.975	3	2.92	en:quin ≈ fr:couine ~ fr:couines ≈ en:queen
+form	forme	1.0	3	0.977	0.9737	3	2.92	en:former ≈ fr:formes ~ fr:forme ≈ en:form
+toot	toutes	1.0	3	0.994	0.9713	2	2.91	en:toot ≈ fr:toutes ~ fr:allen
+seal	sil	1.0	3	0.983	0.9713	3	2.91	en:fork ≈ fr:phoques = en:seal ≈ fr:sil
+seal	cils	1.0	3	0.983	0.9713	3	2.91	en:fork ≈ fr:phoques = en:seal ≈ fr:cils
+due	doux	1.0	3	0.982	0.9713	2	2.91	en:due ≈ fr:doux ~ fr:doués
+treader	traité	0.976	3	0.981	0.9693	2	2.91	en:treader ≈ fr:traité ~ fr:traités
+retailers en:retailer	rient ailé		3	0.974	0.9703	3	2.91	~ fr:rient hélas ≈ en:retailers en:retailer ≈ fr:rient ailé
+crystal	pissent elle fr:crissent elle		3	0.971	0.9697	3	2.91	~ en:pistol ≈ fr:pissent elle fr:crissent elle ≈ en:crystal
+troupe	troupes	1.0	3	1.0	0.967	3	2.9	en:troop ≈ fr:troupe ~ en:troupe ≈ fr:troupes
+tryst	triste	0.98	3	0.983	0.965	2	2.9	en:tryst ≈ fr:triste ~ fr:tristan
+boom	boument	1.0	3	0.97	0.968	2	2.9	en:boom ≈ fr:boument ~ fr:boucle
+sorta	sauter	0.975	3	0.97	0.967	2	2.9	en:sorta ≈ fr:sauter ~ fr:sauts
+sorter	sauter	0.975	3	0.97	0.967	2	2.9	en:sorter ≈ fr:sauter ~ fr:sauts
+vendor	vin des	0.976	3	0.97	0.9673	2	2.9	en:vendors ~ en:vendor ≈ fr:vin des
+lording	loden	0.946	3	0.968	0.968	3	2.9	en:lord ≈ fr:lords ~ en:lording ≈ fr:loden
+reservoir	raies vois	0.966	3	0.968	0.9653	2	2.9	en:reservoir ≈ fr:raies vois ~ fr:voir
+seize en:seizing	saisine		3	0.967	0.9663	3	2.9	~ fr:sises ≈ en:seize en:seizing ≈ fr:saisine
+rapport	répond	0.94	3	0.966	0.965	2	2.9	en:rapport ≈ fr:répond ~ fr:répondre
+result	ries halte	0.963	3	0.968	0.963	2	2.89	en:result ≈ fr:ries halte ~ fr:halte
+breed	bride	1.0	3	0.967	0.9637	2	2.89	en:breeder ~ en:breed ≈ fr:bride
+butty	bâti	0.97	3	0.966	0.9637	2	2.89	en:butty ≈ fr:bâti ~ fr:bâtit
+ml	aiment aile	1.0	3	0.964	0.9633	2	2.89	en:ml ≈ fr:aiment aile ~ fr:aile
+ought rally	australie	0.935	3	0.964	0.963	2	2.89	en:ought rally ≈ fr:australie ~ fr:australien
+bee	bis	1.0	3	0.963	0.963	2	2.89	≈ en:beefy ~ en:bee ≈ fr:bis
+fenny	fini	0.94	3	0.966	0.9607	2	2.88	en:fenny ≈ fr:fini ~ fr:finis
+ecru	écrou	0.975	3	0.964	0.9597	2	2.88	en:ecru ≈ fr:écrou ~ fr:écrase
+ditty	titi	0.945	3	0.964	0.9597	2	2.88	en:titi ~ fr:titi ≈ en:ditty
+trot	trax fr:trotte		3	0.963	0.9613	3	2.88	= en:tracks ≈ fr:trax fr:trotte ≈ en:trot
+ski	skient chaise fr:skient		3	0.963	0.9617	3	2.88	~ en:sketches ≈ fr:skient chaise fr:skient ≈ en:ski
+tiller	télé	0.94	3	0.962	0.9613	2	2.88	en:tiller ≈ fr:télé ~ fr:télévisions
+streaked	strict	1.0	3	0.961	0.9583	2	2.88	en:streaks ~ en:streaked ≈ fr:strict
+lesson	haine fr:laids haine		3	0.959	0.9583	3	2.88	~ en:in ≈ fr:haine fr:laids haine ≈ en:lesson
+cc	sis scie	1.0	3	0.98	0.9573	2	2.87	en:cc ≈ fr:sis scie ~ fr:raies lis
+tedder	téter	0.945	3	0.959	0.957	2	2.87	en:tedder ≈ fr:téter ~ fr:terne
+preserve	pris né fr:pris ève		3	0.958	0.9573	3	2.87	~ en:prisoner ≈ fr:pris né fr:pris ève ≈ en:preserve
+entry en:enter	ensi		3	0.958	0.9567	3	2.87	~ fr:haines tri ≈ en:entry en:enter ≈ fr:ensi
+leaders	trais aise fr:lient aise		3	0.958	0.957	3	2.87	~ en:tresses ≈ fr:trais aise fr:lient aise ≈ en:leaders
+fitted	met aide fr:fait aide		3	0.956	0.956	3	2.87	~ en:method ≈ fr:met aide fr:fait aide ≈ en:fitted
+setting	sait in	0.95	3	0.956	0.9553	2	2.87	en:setting ≈ fr:sait in ~ fr:sais
+cream	crimes	1.0	3	0.983	0.9523	2	2.86	en:cream ≈ fr:crimes ~ fr:crime
+parks	pacs	0.985	3	0.971	0.9523	2	2.86	en:parky ~ en:parks ≈ fr:pacs
+cosset	cassette	0.976	3	0.968	0.9547	2	2.86	en:cosset ≈ fr:cassette ~ fr:cassettes
+preen	prennent	0.94	3	0.96	0.955	2	2.86	en:preen ≈ fr:prennent ~ fr:prend
+loop en:loopy	loupé		3	0.958	0.955	3	2.86	~ fr:loupe ≈ en:loop en:loopy ≈ fr:loupé
+seat	cite	1.0	3	0.958	0.954	2	2.86	en:seat ≈ fr:cite ~ fr:cites
+seat	cites	1.0	3	0.958	0.954	2	2.86	en:seat ≈ fr:cites ~ fr:cite
+sentry	sain tri	0.98	3	0.957	0.9523	2	2.86	en:sentry ≈ fr:sain tri ~ fr:vais tri
+passes	pas aise	0.94	3	0.956	0.9523	3	2.86	en:daughters ≈ fr:dont aise ~ fr:pas aise ≈ en:passes
+en eek	ethniques	0.929	3	0.955	0.9543	2	2.86	en:ethnicity ~ fr:ethniques ≈ en:en eek
+seam	cime	1.0	3	0.955	0.955	2	2.86	en:seam ≈ fr:cime ~ fr:cimes
+mashie	magie	0.94	3	0.954	0.9527	2	2.86	en:masher ~ en:mashie ≈ fr:magie
+emcee en:emmet	émettent		3	0.953	0.9523	3	2.86	~ fr:ensi ≈ en:emcee en:emmet ≈ fr:émettent
+pleat en:plead	plaide		3	0.953	0.953	3	2.86	~ fr:plisse ≈ en:pleat en:plead ≈ fr:plaide
+custom	cessent homme fr:cassent homme		3	0.953	0.953	3	2.86	~ en:system ≈ fr:cessent homme fr:cassent homme ≈ en:custom
+stree	stries	1.0	3	0.953	0.953	2	2.86	en:streaks = fr:stries ≈ en:stree
+meal	milles	1.0	3	0.978	0.9513	2	2.85	en:meal ≈ fr:milles ~ fr:fixé
+designers en:designer	dis année		3	0.953	0.9507	3	2.85	~ fr:dis ânesse ≈ en:designers en:designer ≈ fr:dis année
+resell en:reseal	ries il		3	0.952	0.9517	3	2.85	~ fr:ries elle ≈ en:resell en:reseal ≈ fr:ries il
+tension	coincent chaîne fr:tain chaîne		3	0.952	0.949	3	2.85	~ en:question ≈ fr:coincent chaîne fr:tain chaîne ≈ en:tension
+leaders	quais aise fr:lient aise		3	0.951	0.95	3	2.85	= en:kisses ≈ fr:quais aise fr:lient aise ≈ en:leaders
+tech en:techs	sexe		3	0.951	0.9497	3	2.85	~ fr:teks ≈ en:tech en:techs ≈ fr:sexe
+beef	biffe	1.0	3	0.951	0.9503	3	2.85	en:peacock ≈ fr:bicoque ~ fr:biffe ≈ en:beef
+ought eel	hostile	0.952	3	0.965	0.9463	2	2.84	en:ought eel ≈ fr:hostile ~ fr:hostiles
+ought eel	hostiles	0.952	3	0.965	0.9463	2	2.84	en:ought eel ≈ fr:hostiles ~ fr:hostile
+crock	croque	0.975	3	0.958	0.9477	3	2.84	= fr:crique en:crick ~ en:crock ≈ fr:croque
+versus en:vs	vies ès		3	0.955	0.9473	3	2.84	~ fr:vais aise ≈ en:versus en:vs ≈ fr:vies ès
+predators en:predator	prêt tes		3	0.951	0.9483	3	2.84	~ fr:prêtait aise ≈ en:predators en:predator ≈ fr:prêt tes
+tested en:testing	destine		3	0.948	0.948	3	2.84	~ fr:cessent aide ≈ en:tested en:testing ≈ fr:destine
+deadly en:lethal	lient elle		3	0.948	0.9473	3	2.84	~ fr:dès lis ≈ en:deadly en:lethal ≈ fr:lient elle
+perform	paient homme	0.926	3	0.948	0.948	2	2.84	en:perform ≈ fr:paient homme ~ fr:mies
+preceded	pris édite	0.93	3	0.948	0.9477	2	2.84	en:preceding ~ en:preceded ≈ fr:pris édite
+saddle	ses elle	0.905	3	0.948	0.948	2	2.84	en:saddle ≈ fr:ses elle ~ fr:met elle
+venture en:ventures	feignent chaise		3	0.947	0.9467	3	2.84	~ fr:feignent chez ≈ en:venture en:ventures ≈ fr:feignent chaise
+lesson	haines taule fr:laids haine		3	0.946	0.9453	3	2.84	~ en:install ≈ fr:haines taule fr:laids haine ≈ en:lesson
+enter	ensi fr:pari		3	0.958	0.943	3	2.83	≈ en:entry ~ en:enter ≈ fr:ensi fr:pari
+senores en:senors	sain aise		3	0.954	0.9447	3	2.83	~ fr:sain ose ≈ en:senores en:senors ≈ fr:sain aise
+retrieve en:retrieved	rient rift		3	0.951	0.943	3	2.83	~ fr:rient rive ≈ en:retrieve en:retrieved ≈ fr:rient rift
+defending en:defended	divin dites		3	0.948	0.9427	3	2.83	~ fr:divin digne ≈ en:defending en:defended ≈ fr:divin dites
+streaks	strict	0.96	3	0.948	0.945	2	2.83	en:streaked ~ en:streaks ≈ fr:strict
+over	avez	0.91	3	0.947	0.9437	2	2.83	en:over ≈ fr:avez ~ fr:ayant
+consumers	con soumise	0.926	3	0.946	0.9427	2	2.83	en:consumers ≈ fr:con soumise ~ fr:soumise
+vicinity	hindi fr:vis hindi		3	0.945	0.945	3	2.83	= en:under ≈ fr:hindi fr:vis hindi ≈ en:vicinity
+pleaded en:plead	plaide		3	0.944	0.944	3	2.83	~ fr:plient aide ≈ en:pleaded en:plead ≈ fr:plaide
+retrieved en:retrieve	rient rive		3	0.944	0.9427	3	2.83	~ fr:rient rift ≈ en:retrieved en:retrieve ≈ fr:rient rive
+sponsored	spots aide	0.901	3	0.944	0.943	3	2.83	en:sport ≈ fr:spots ~ fr:spots aide ≈ en:sponsored
+pleading en:pleaded	plient aide		3	0.943	0.9427	3	2.83	~ fr:plient in ≈ en:pleading en:pleaded ≈ fr:plient aide
+wrestler en:wrestle	recèle		3	0.943	0.943	3	2.83	~ fr:raies les ≈ en:wrestler en:wrestle ≈ fr:recèle
+sheep	chipes	1.0	3	0.942	0.942	3	2.83	en:preppy ≈ fr:brebis = en:sheep ≈ fr:chipes
+chip	jeep	0.915	3	0.942	0.942	2	2.83	≈ fr:chipes ~ en:chip ≈ fr:jeep
+test en:testes	taies dix		3	0.959	0.941	3	2.82	~ fr:teste ≈ en:test en:testes ≈ fr:taies dix
+rapidly	répit lis	0.952	3	0.957	0.9397	2	2.82	en:rapidly ≈ fr:répit lis ~ fr:répit
+faster	fats tes	0.964	3	0.955	0.939	2	2.82	en:faster ≈ fr:fats tes ~ fr:graisses
+enter	ensi fr:première		3	0.954	0.939	3	2.82	≈ en:entry ~ en:enter ≈ fr:ensi fr:première
+acme	acmé	0.94	3	0.948	0.9387	2	2.82	en:acme ≈ fr:acmé ~ fr:actu
+acid art	assistante	0.901	3	0.946	0.9397	2	2.82	en:acid art ≈ fr:assistante ~ fr:assistant
+lecture en:lectures	liguent chaise		3	0.941	0.94	3	2.82	~ fr:liguent chez ≈ en:lecture en:lectures ≈ fr:liguent chaise
+senors en:senores	sain ose		3	0.941	0.9403	3	2.82	~ fr:sain aise ≈ en:senors en:senores ≈ fr:sain ose
+sex	sexe	1.0	3	0.94	0.939	2	2.82	en:sexed ~ en:sex ≈ fr:sexe
+net	nettes	1.0	3	0.939	0.939	2	2.82	en:net ≈ fr:nettes ~ en:netty
+discreet your	description	0.917	3	0.945	0.935	2	2.81	en:discreet your ≈ fr:description ~ fr:descriptions
+partner en:partners	bat noces		3	0.939	0.9373	3	2.81	~ fr:bat né ≈ en:partner en:partners ≈ fr:bat noces
+judges	jets fr:jets aise		3	0.939	0.9367	3	2.81	~ en:jet ≈ fr:jets fr:jets aise ≈ en:judges
+emcees en:emcee	ensi		3	0.939	0.9377	3	2.81	~ fr:aimes hisse ≈ en:emcees en:emcee ≈ fr:ensi
+beef	biffes	1.0	3	0.938	0.938	2	2.81	en:beef ≈ fr:biffes ~ fr:bicoque
+onset	créent êtes fr:ânes êtes		3	0.938	0.9373	3	2.81	~ en:credit ≈ fr:créent êtes fr:ânes êtes ≈ en:onset
+proceeding en:proceeded	précis aide		3	0.938	0.938	3	2.81	~ fr:près éden ≈ en:proceeding en:proceeded ≈ fr:précis aide
+splendid	spleen aide	0.926	3	0.938	0.9357	3	2.81	en:spleen ≈ fr:spleen ~ fr:spleen aide ≈ en:splendid
+cartoon	gand un	0.929	3	0.937	0.936	2	2.81	en:cartoon ≈ fr:gand un ~ fr:réfléchis
+enters en:enter	ensi		3	0.937	0.9357	3	2.81	~ fr:aident aise ≈ en:enters en:enter ≈ fr:ensi
+foremen	semaine	0.926	3	0.937	0.9367	2	2.81	en:weeks ~ fr:semaine ≈ en:foremen
+title en:titled	tant halte		3	0.935	0.935	3	2.81	~ fr:taillent elle ≈ en:title en:titled ≈ fr:tant halte
+branded en:branding	brin digne		3	0.935	0.935	3	2.81	~ fr:prennent aide ≈ en:branded en:branding ≈ fr:brin digne
+lending en:lender	lin des		3	0.937	0.9347	3	2.8	~ fr:lin digne ≈ en:lending en:lender ≈ fr:lin des
+supervisor	soupers assez	0.914	3	0.935	0.9343	2	2.8	en:supervisor ≈ fr:soupers assez ~ fr:suffisants
+acne	acné	0.94	3	0.934	0.934	2	2.8	en:acne ≈ fr:acné ~ en:acme
+entered en:enter	ensi		3	0.934	0.9327	3	2.8	~ fr:aident aide ≈ en:entered en:enter ≈ fr:ensi
+predecessor en:successor	secs essaie		3	0.934	0.9323	3	2.8	~ fr:prient cessé ≈ en:predecessor en:successor ≈ fr:secs essaie
+debt inner en:debt	dette		3	0.934	0.934	3	2.8	~ fr:destinée ≈ en:debt inner en:debt ≈ fr:dette
+trustee	trots tee	0.96	3	0.934	0.934	3	2.8	en:misty ≈ fr:mais tee ~ fr:trots tee ≈ en:trustee
+defeated en:defeat	dit hit		3	0.933	0.933	4	2.8	~ fr:défient aide ≈ en:defeated en:defeat ≈ fr:dit hit ~ fr:qua
+flack	flaque	0.97	3	0.933	0.932	2	2.8	en:fleck ~ en:flack ≈ fr:flaque
+testers	taies thèse fr:thèses		3	0.959	0.9303	3	2.79	≈ fr:tester ~ en:testers ≈ fr:taies thèse fr:thèses
+crossing	crocs in	0.919	3	0.941	0.9317	2	2.79	en:crossing ≈ fr:crocs in ~ fr:crocs
+set en:set um	symptômes		3	0.935	0.9303	3	2.79	~ fr:cet ≈ en:set en:set um ≈ fr:symptômes
+tending en:tended	tain dites		3	0.934	0.931	3	2.79	~ fr:tain digne ≈ en:tending en:tended ≈ fr:tain dites
+creativity	créait éviter	0.928	3	0.934	0.9287	2	2.79	en:creativity ≈ fr:créait éviter ~ fr:éviter
+protect en:protecting	pratiquent in		3	0.934	0.931	3	2.79	~ fr:prêt acte ≈ en:protect en:protecting ≈ fr:pratiquent in
+parry en:parley	pâli		3	0.933	0.9307	3	2.79	~ fr:pari ≈ en:parry en:parley ≈ fr:pâli
+detected	dit excède	0.943	3	0.932	0.9313	2	2.79	en:detected ≈ fr:dit excède ~ fr:exprimé
+remedies	remet hisse	0.932	3	0.932	0.93	2	2.79	en:remedies ≈ fr:remet hisse ~ fr:retombée
+titled en:title	taillent elle		3	0.931	0.9293	3	2.79	~ fr:tant halte ≈ en:titled en:title ≈ fr:taillent elle
+ticked	dicte	0.945	3	0.931	0.93	2	2.79	en:nicked ~ en:ticked ≈ fr:dicte
+bought	bottes	1.0	3	0.93	0.93	2	2.79	≈ en:purchased ~ en:bought ≈ fr:bottes
+bought	botte	1.0	3	0.93	0.93	2	2.79	≈ en:purchased ~ en:bought ≈ fr:botte
+creatures	crient chaise	0.983	3	0.947	0.9257	2	2.78	en:creature ~ en:creatures ≈ fr:crient chaise
+extending en:extended	axent haines aide		3	0.932	0.927	3	2.78	~ fr:axent haines in ≈ en:extending en:extended ≈ fr:axent haines aide
+myself en:yourself	ions elfes		3	0.931	0.9277	3	2.78	~ fr:mas elfes ≈ en:myself en:yourself ≈ fr:ions elfes
+processor	près essaie	0.943	3	0.931	0.928	2	2.78	en:processor ≈ fr:près essaie ~ fr:essaie
+kidney	quais ni	0.929	3	0.929	0.9263	2	2.78	en:kidney ≈ fr:quais ni ~ fr:quelle
+feeding	paient in fr:fient in		3	0.928	0.9253	3	2.78	~ en:betting ≈ fr:paient in fr:fient in ≈ en:feeding
+pest	pestes	1.0	3	0.928	0.928	2	2.78	en:pest ≈ fr:pestes ~ fr:peste
+member en:members	main baise		3	0.926	0.926	4	2.78	~ fr:main bée ≈ en:member en:members ≈ fr:main baise ~ fr:perturbé
+toddler	tôt les	0.952	3	0.955	0.9237	2	2.77	en:toddler ≈ fr:tôt les ~ fr:tôt
+pallet inner	palestinien	0.904	3	0.951	0.9217	2	2.77	en:pallet inner ≈ fr:palestinien ~ fr:palestine
+auras	horace	0.911	3	0.938	0.922	2	2.77	en:auras ≈ fr:horace ~ fr:zeitung
+bracelet	prés let	0.94	3	0.933	0.9237	2	2.77	en:bracelet ≈ fr:prés let ~ fr:prés
+policeman	polis mène	0.955	3	0.933	0.9237	2	2.77	en:policeman ≈ fr:polis mène ~ fr:policier
+posters	poussent aise	0.943	3	0.928	0.9237	2	2.77	en:posters ≈ fr:poussent aise ~ fr:pousse
+respectively	respectes lis	0.951	3	0.928	0.924	2	2.77	en:respectively ≈ fr:respectes lis ~ fr:respecte
+paranoid	parrain ode	0.94	3	0.922	0.922	3	2.77	en:congressional ≈ fr:con greffon elle ~ fr:parrain ode ≈ en:paranoid
+gran	crâne	0.94	3	0.922	0.9213	3	2.76	en:grounded ≈ fr:crânes aide ~ fr:crâne ≈ en:gran
+start	stade	0.955	3	0.919	0.919	3	2.76	en:strategy ≈ fr:strates chie ~ fr:stade ≈ en:start
+ended en:ending	haines in		3	0.921	0.918	3	2.75	~ fr:haines aide ≈ en:ended en:ending ≈ fr:haines in
+exes	excise	0.98	3	0.921	0.917	3	2.75	en:excel ≈ fr:ex aile ~ en:exes ≈ fr:excise
+teston en:testers	taies thèse		3	0.918	0.9157	3	2.75	~ fr:taies tonnes ≈ en:teston en:testers ≈ fr:taies thèse
+torn	tonne	1.0	3	0.915	0.915	2	2.75	≈ en:shedding ~ en:torn ≈ fr:tonne
+promoting	promet in	0.932	3	0.927	0.9123	2	2.74	en:promoting ≈ fr:promet in ~ fr:promets
+commonly en:routinely	ruent inouï		3	0.914	0.914	3	2.74	~ fr:commun lis ≈ en:commonly en:routinely ≈ fr:ruent inouï
+qualities	collet hisse	0.939	3	0.912	0.912	2	2.74	en:qualities ≈ fr:collet hisse ~ fr:fies hisse
+exercises	excès assise	0.942	3	0.934	0.9103	2	2.73	en:exercises ≈ fr:excès assise ~ fr:excès
+boundaries	ban cerise	0.927	3	0.93	0.911	2	2.73	en:boundary ~ en:boundaries ≈ fr:ban cerise
+any	haie nient	1.0	3	0.927	0.91	2	2.73	en:any ≈ fr:haie nient ~ fr:haie
+meantime	minent âme	0.983	3	0.916	0.9107	2	2.73	en:meantime ≈ fr:minent âme ~ fr:âmes
+prefers	prêt aise	0.919	3	0.913	0.909	2	2.73	en:prefers ≈ fr:prêt aise ~ fr:prêts
+rennet	rainette	0.956	3	0.911	0.909	2	2.73	en:rennet ≈ fr:rainette ~ fr:pluie
+meet error en:error	aires		3	0.91	0.9097	3	2.73	~ fr:mystérieux ≈ en:meet error en:error ≈ fr:aires
+racket	raquette	0.952	3	0.909	0.909	2	2.73	≈ en:tennis ~ en:racket ≈ fr:raquette
+jeers	djihad	0.905	3	0.914	0.9063	2	2.72	en:jeered ~ en:jeers ≈ fr:djihad
+dodgers	tôt chaise	0.901	3	0.908	0.908	2	2.72	en:dodgers ≈ fr:tôt chaise ~ fr:tôt les
+cording	comptine	0.902	3	0.906	0.904	2	2.71	en:cording ≈ fr:comptine ~ fr:complice
+can	canne	0.96	3	0.904	0.904	3	2.71	en:kindness ≈ fr:cannes noces ~ fr:canne ≈ en:can
+concealed	con tilde	0.932	3	0.902	0.902	3	2.71	en:causes ≈ fr:cons aise ~ fr:con tilde ≈ en:concealed
+forepeak	phobique	0.976	3	0.902	0.902	2	2.71	en:forepeak ≈ fr:phobique ~ fr:phobie
+peckers	pégase	0.909	3	0.916	0.8987	2	2.7	en:peckers ≈ fr:pégase ~ fr:pérou
+respectful	respectent elle	0.951	3	0.903	0.9013	2	2.7	en:respectful ≈ fr:respectent elle ~ fr:respecté
+reminder en:reminded	romanes aide		3	0.901	0.8997	3	2.7	~ fr:roman des ≈ en:reminder en:reminded ≈ fr:romanes aide
+exit arse	existence	0.943	3	0.892	0.892	2	2.68	≈ fr:exit aide ~ en:exit arse ≈ fr:existence
+abilities	épilent hisse	0.935	3	0.891	0.8903	2	2.67	en:abilities ≈ fr:épilent hisse ~ fr:émettent
+commodities	comment dix	0.914	3	0.87	0.868	2	2.6	en:commodities ≈ fr:comment dix ~ fr:commente
+quitting	cuit in	0.917	3	0.878	0.8583	2	2.58	en:quitting ≈ fr:cuit in ~ fr:cuit
+portrayed	pot raid	0.954	3	0.873	0.86	2	2.58	en:portrayed ≈ fr:pot raid ~ fr:raid
+men arse	maintenance	0.901	3	0.847	0.8263	2	2.48	en:men arse ≈ fr:maintenance ~ fr:conservés
+producer	prêt user	0.922	3	0.82	0.813	2	2.44	en:producer ≈ fr:prêt user ~ fr:utilisateur
+seller	sels	1.0	2	1.0	0.995	3	1.99	en:cellar ≈ fr:seller ~ en:seller ≈ fr:sels
+lease	lys	1.0	2	0.997	0.9945	2	1.99	en:lease ≈ fr:lys ~ fr:luce
+share	chères	1.0	2	0.996	0.995	2	1.99	en:share ≈ fr:chères ~ fr:chère
+terry	faits rient fr:tait rient		2	0.995	0.995	3	1.99	~ en:ferry ≈ fr:faits rient fr:tait rient ≈ en:terry
+rev	rêvent	1.0	2	0.995	0.994	2	1.99	en:rev ≈ fr:rêvent ~ fr:rêver
+cooper	coupes fr:coupe		2	0.993	0.993	3	1.99	~ en:coup ≈ fr:coupes fr:coupe ≈ en:cooper
+fair	faire	1.0	2	0.993	0.993	2	1.99	en:fair ≈ fr:faire ~ fr:fais
+fare	faire	1.0	2	0.993	0.993	2	1.99	en:fare ≈ fr:faire ~ fr:fais
+she	chient	1.0	2	0.996	0.9905	2	1.98	en:she ≈ fr:chient ~ fr:chienne
+dawn	donne	1.0	2	0.995	0.9925	2	1.98	en:dawn ≈ fr:donne ~ fr:féminin
+pair	pères	1.0	2	0.993	0.992	2	1.98	en:pair ≈ fr:pères ~ fr:père
+seas	sise fr:sises		2	0.992	0.992	3	1.98	~ en:seize ≈ fr:sise fr:sises ≈ en:seas
+norm	nomment	1.0	2	0.991	0.9895	2	1.98	en:norm ≈ fr:nomment ~ fr:nommé
+fresh	fraîches	1.0	2	0.99	0.9885	2	1.98	en:fresh ≈ fr:fraîches ~ fr:fraîche
+seize	sise fr:sises		2	0.988	0.988	3	1.98	~ en:seas ≈ fr:sise fr:sises ≈ en:seize
+bless	blesse	1.0	2	0.992	0.984	2	1.97	en:bless ≈ fr:blesse ~ fr:blesser
+cerise	cerise	1.0	2	0.988	0.987	2	1.97	en:cerise ≈ fr:cerise ~ fr:prieur
+knew	nous	1.0	2	0.988	0.987	2	1.97	en:knew ≈ fr:nous ~ fr:nas
+new	nous	1.0	2	0.988	0.987	2	1.97	en:new ≈ fr:nous ~ fr:nas
+newer	nous	1.0	2	0.988	0.987	2	1.97	en:newer ≈ fr:nous ~ fr:nas
+nu	nous	1.0	2	0.988	0.987	2	1.97	en:nu ≈ fr:nous ~ fr:nas
+freak	fric	1.0	2	0.986	0.9845	2	1.97	en:freaky ~ en:freak ≈ fr:fric
+peeler	pilé	1.0	2	0.986	0.9845	2	1.97	en:peeler ≈ fr:pilé ~ fr:piégé
+coupe	coupe fr:coupes		2	0.985	0.985	3	1.97	~ en:coup ≈ fr:coupe fr:coupes ≈ en:coupe
+mousse	moussent	1.0	2	0.983	0.983	3	1.97	en:moose ≈ fr:mousse ~ en:mousse ≈ fr:moussent
+naught	note	1.0	2	0.988	0.9775	2	1.96	en:naught ≈ fr:note ~ fr:nota
+em en:en	aine		2	0.986	0.982	3	1.96	~ fr:aimes ≈ en:em en:en ≈ fr:aine
+meting	meeting	0.98	2	0.985	0.979	2	1.96	en:meting ≈ fr:meeting ~ fr:réunion
+moo	moues	1.0	2	0.983	0.9825	2	1.96	en:moo ≈ fr:moues ~ fr:moue
+mu	moues	1.0	2	0.983	0.9825	2	1.96	en:mu ≈ fr:moues ~ fr:moue
+sees en:seen	seine		2	0.983	0.978	4	1.96	~ fr:sises ≈ en:sees en:seen ≈ fr:seine ~ fr:hans
+seen en:sees	sises		2	0.982	0.982	3	1.96	~ fr:seines ≈ en:seen en:sees ≈ fr:sises
+pled	plaide	1.0	2	0.981	0.981	2	1.96	en:pled ≈ fr:plaide ~ fr:plaies
+chin	gins fr:gin		2	0.98	0.98	3	1.96	~ en:jean ≈ fr:gins fr:gin ≈ en:chin
+pest	peste	1.0	2	0.98	0.98	2	1.96	en:pest ≈ fr:peste ~ fr:pendus
+wee	ouïe	1.0	2	0.98	0.98	3	1.96	en:what ≈ fr:ouate ~ fr:ouïe ≈ en:wee
+seen en:sees	six		2	0.978	0.978	3	1.96	~ fr:seines ≈ en:seen en:sees ≈ fr:six
+fawn	phones	1.0	2	0.987	0.976	2	1.95	en:fawn ≈ fr:phones ~ fr:téléphones
+rupee	roupies	1.0	2	0.981	0.977	2	1.95	en:rupee ≈ fr:roupies ~ fr:rouages
+cleek	clic	1.0	2	0.98	0.9745	2	1.95	en:cleek ≈ fr:clic ~ fr:clics
+air	aires	1.0	2	0.976	0.976	2	1.95	en:air ≈ fr:aires ~ fr:amas
+heir	aires	1.0	2	0.976	0.976	2	1.95	en:heir ≈ fr:aires ~ fr:amas
+me	mi	1.0	2	0.975	0.9745	2	1.95	en:me ≈ fr:mi ~ fr:mie
+perry	péri	0.975	2	0.975	0.975	2	1.95	en:peri = fr:péri ≈ en:perry
+about	ébattent	0.976	2	0.974	0.973	2	1.95	en:about ≈ fr:ébattent ~ fr:émettent
+rale	réel	0.97	2	0.974	0.973	2	1.95	en:rale ≈ fr:réel ~ fr:véritable
+creamy	crimée	0.976	2	0.973	0.973	2	1.95	en:creamy ≈ fr:crimée ~ fr:criminel
+seas fr:rse	sises		2	0.992	0.972	3	1.94	≈ fr:sise ~ fr:sises ≈ en:seas fr:rse
+seize fr:seize	sises		2	0.988	0.972	3	1.94	≈ fr:sise ~ fr:sises ≈ en:seize fr:seize
+least	listes	1.0	2	0.975	0.971	2	1.94	en:least ≈ fr:listes ~ fr:list
+masque	masque	0.97	2	0.975	0.9685	2	1.94	en:masque ≈ fr:masque ~ fr:masqué
+kea	qui	1.0	2	0.973	0.972	2	1.94	en:kea ≈ fr:qui ~ fr:onde
+key	qui	1.0	2	0.973	0.972	2	1.94	en:key ≈ fr:qui ~ fr:onde
+pillar	pilé	0.975	2	0.973	0.972	2	1.94	en:pillar ≈ fr:pilé ~ fr:piégé
+freaky	friqués	0.976	2	0.972	0.972	2	1.94	en:freak ~ en:freaky ≈ fr:friqués
+lb	aile bis	1.0	2	0.972	0.972	2	1.94	en:lb ≈ fr:aile bis ~ fr:ailes
+piece en:pieced	pistent		2	0.972	0.972	3	1.94	~ fr:pisses ≈ en:piece en:pieced ≈ fr:pistent
+poof	pouffe	1.0	2	0.972	0.972	3	1.94	en:poop ≈ fr:poupes ~ fr:pouffe ≈ en:poof
+teat	tics fr:tite		2	0.972	0.972	3	1.94	= en:teak ≈ fr:tics fr:tite ≈ en:teat
+friendship en:friendships	freinent chips		2	0.971	0.971	3	1.94	~ fr:freinent chipe ≈ en:friendship en:friendships ≈ fr:freinent chips
+pasha	péché	0.97	2	0.971	0.969	2	1.94	en:pasha ≈ fr:péché ~ fr:péchés
+prev	preuve	0.97	2	0.971	0.9705	2	1.94	en:prev ≈ fr:preuve ~ fr:prouvant
+terror en:terrors	thérèse		2	0.97	0.9675	3	1.94	~ fr:terre ≈ en:terror en:terrors ≈ fr:thérèse
+frock en:frill	frêle		2	0.97	0.9685	3	1.94	~ fr:froc ≈ en:frock en:frill ≈ fr:frêle
+seating	scient fr:scient in		2	0.97	0.97	3	1.94	~ en:si ≈ fr:scient fr:scient in ≈ en:seating
+started eek	statistique	0.943	2	0.97	0.969	2	1.94	en:started eek ≈ fr:statistique ~ fr:statistiques
+piece en:pieced	pistes		2	0.969	0.969	3	1.94	~ fr:pisses ≈ en:piece en:pieced ≈ fr:pistes
+but	batte	0.96	2	0.969	0.969	3	1.94	en:partly ≈ fr:bat lis ~ fr:batte ≈ en:but
+troop	troupes	1.0	2	0.969	0.969	2	1.94	en:troupe ~ fr:troupes ≈ en:troop
+vex	vexent	1.0	2	0.969	0.9685	2	1.94	en:vex ≈ fr:vexent ~ fr:vends
+sleep	slip	1.0	2	0.983	0.967	3	1.93	en:daughter ≈ fr:dors = en:sleep ≈ fr:slip
+around	round	1.0	2	0.976	0.965	2	1.93	en:around ≈ fr:round ~ fr:round}
+silt	celtes	0.97	2	0.968	0.9655	2	1.93	en:silt ≈ fr:celtes ~ fr:celtique
+calling	colline	0.95	2	0.967	0.967	2	1.93	en:call ~ en:calling ≈ fr:colline
+verey	verrez	0.97	2	0.967	0.966	2	1.93	en:verey ≈ fr:verrez ~ fr:vertu
+region	rient gêne	0.96	2	0.966	0.966	3	1.93	en:legion ≈ fr:lient gêne ~ fr:rient gêne ≈ en:region
+marshy	magie	0.955	2	0.966	0.9635	2	1.93	en:marshy ≈ fr:magie ~ fr:magique
+penny	paies nient	1.0	2	0.966	0.966	3	1.93	en:pinny ≈ fr:penny ~ en:penny ≈ fr:paies nient
+seeding	scient fr:scient in		2	0.966	0.966	3	1.93	~ en:si ≈ fr:scient fr:scient in ≈ en:seeding
+ceding	scient fr:scient in		2	0.966	0.966	3	1.93	~ en:si ≈ fr:scient fr:scient in ≈ en:ceding
+chemise	blouse fr:chemises		2	0.965	0.965	3	1.93	~ en:blues ≈ fr:blouse fr:chemises ≈ en:chemise
+noil	noël	0.97	2	0.965	0.965	2	1.93	en:noil ≈ fr:noël ~ fr:tania
+pics	fixe	0.915	2	0.965	0.965	3	1.93	en:peak ≈ fr:pics ~ en:pics ≈ fr:fixe
+clawed	claude	0.975	2	0.964	0.9635	2	1.93	en:clawed ≈ fr:claude ~ fr:claudel
+cruck	crack	0.97	2	0.964	0.963	2	1.93	en:cruet ~ en:cruck ≈ fr:crack
+rishi	régie	0.94	2	0.964	0.964	2	1.93	en:rishi ≈ fr:régie ~ fr:régis
+rushy	régie	0.94	2	0.964	0.964	2	1.93	en:rushy ≈ fr:régie ~ fr:régis
+been en:was	ose		2	0.963	0.963	3	1.93	~ fr:bine ≈ en:been en:was ≈ fr:ose
+personnel	pissent elle fr:pinson elle		2	0.963	0.963	3	1.93	~ en:pistol ≈ fr:pissent elle fr:pinson elle ≈ en:personnel
+en	aine fr:matières		2	0.978	0.9575	3	1.92	≈ en:em ~ en:en ≈ fr:aine fr:matières
+frieze	frise	1.0	2	0.97	0.9595	2	1.92	en:frizz ~ en:frieze ≈ fr:frise
+pea	pi	1.0	2	0.967	0.959	2	1.92	en:pea ≈ fr:pi ~ fr:pif
+deeply	dits pli	1.0	2	0.964	0.9625	2	1.92	en:deeply ≈ fr:dits pli ~ fr:pliée
+forty	voter	0.94	2	0.964	0.96	2	1.92	en:forty ≈ fr:voter ~ fr:votants
+lee	lits	1.0	2	0.964	0.9595	2	1.92	en:lee ≈ fr:lits ~ fr:lucie
+bawdry	poterie	0.952	2	0.963	0.962	2	1.92	en:bawdy ~ en:bawdry ≈ fr:poterie
+decked	dicte	0.94	2	0.963	0.961	2	1.92	en:decked ≈ fr:dicte ~ fr:digue
+trot fr:trot	trotte		2	0.963	0.9585	3	1.92	≈ fr:trax ~ fr:trotte ≈ en:trot fr:trot
+crass	crasse	0.985	2	0.962	0.962	2	1.92	en:crass ≈ fr:crasse ~ en:cruck
+prison	haine fr:pris haine		2	0.961	0.961	3	1.92	~ en:in ≈ fr:haine fr:pris haine ≈ en:prison
+parlor	palais	0.955	2	0.961	0.9605	2	1.92	en:parlor ≈ fr:palais ~ fr:croît
+parlour	palais	0.955	2	0.961	0.9605	2	1.92	en:parlour ≈ fr:palais ~ fr:croît
+stalk en:stalky	stocker		2	0.961	0.961	3	1.92	~ fr:stocke ≈ en:stalk en:stalky ≈ fr:stocker
+we en:kami	camée		2	0.961	0.961	3	1.92	~ fr:ouïe ≈ en:we en:kami ≈ fr:camée
+lauding	loden	0.946	2	0.96	0.96	2	1.92	en:lauding ≈ fr:loden ~ fr:aimant
+pressie	précise fr:précis		2	0.96	0.96	3	1.92	~ en:presses ≈ fr:précise fr:précis ≈ en:pressie
+clue en:clued	claude		2	0.958	0.958	4	1.92	~ fr:clous ≈ en:clue en:clued ≈ fr:claude ~ fr:claudel
+me	cessent homme fr:mies		2	0.958	0.958	3	1.92	~ en:system ≈ fr:cessent homme fr:mies ≈ en:me
+stalk	stockent	1.0	2	0.958	0.958	3	1.92	en:stalky ≈ fr:stocker ~ fr:stockent ≈ en:stalk
+pluck	plaque	0.97	2	0.962	0.954	2	1.91	en:pluck ≈ fr:plaque ~ fr:plaques
+prison fr:prison	pris haine		2	0.961	0.9545	3	1.91	≈ fr:haine ~ fr:pris haine ≈ en:prison fr:prison
+reason	résonne	0.952	2	0.961	0.9545	2	1.91	en:why ~ en:reason ≈ fr:résonne
+queen	couinent	1.0	2	0.959	0.9535	2	1.91	en:queen ≈ fr:couinent ~ fr:couilles
+trot fr:troc	trotte		2	0.958	0.9535	3	1.91	≈ fr:trax ~ fr:trotte ≈ en:trot fr:troc
+leaders fr:leaders	lient aise		2	0.958	0.9545	3	1.91	≈ fr:trais aise ~ fr:lient aise ≈ en:leaders fr:leaders
+at	hâtent	0.94	2	0.957	0.9565	2	1.91	en:at ≈ fr:hâtent ~ fr:doigt
+breve	prive	0.97	2	0.957	0.955	2	1.91	en:breve ≈ fr:prive ~ fr:prévient
+sec en:secs	sexe		2	0.957	0.957	3	1.91	~ fr:secs ≈ en:sec en:secs ≈ fr:sexe
+branches	skient chaise fr:bradent chaise		2	0.957	0.957	3	1.91	~ en:sketches ≈ fr:skient chaise fr:bradent chaise ≈ en:branches
+seize	fait in fr:sises		2	0.956	0.956	3	1.91	= en:thirteen ≈ fr:fait in fr:sises ≈ en:seize
+done	donne	0.921	2	0.955	0.953	2	1.91	en:done ≈ fr:donne ~ fr:féminin
+seem	cimes	1.0	2	0.955	0.955	3	1.91	en:seam ≈ fr:cime ~ fr:cimes ≈ en:seem
+printed	met aide fr:prennent aide		2	0.954	0.954	3	1.91	~ en:method ≈ fr:met aide fr:prennent aide ≈ en:printed
+modern	pris haine fr:mot haine		2	0.954	0.954	3	1.91	~ en:prison ≈ fr:pris haine fr:mot haine ≈ en:modern
+seas en:seizes	scies aise		2	0.954	0.954	3	1.91	~ fr:sises ≈ en:seas en:seizes ≈ fr:scies aise
+protesters	taies thèse fr:prêtais thèse		2	0.954	0.954	3	1.91	~ en:testers ≈ fr:taies thèse fr:prêtais thèse ≈ en:protesters
+trashy	trachée	0.952	2	0.954	0.954	2	1.91	en:trashy ≈ fr:trachée ~ fr:traînée
+pallor	palais	0.94	2	0.953	0.953	2	1.91	en:pallor ≈ fr:palais ~ fr:croît
+pleat en:pleaded	plient aide		2	0.953	0.953	3	1.91	~ fr:plisse ≈ en:pleat en:pleaded ≈ fr:plient aide
+pleader en:plea	pli		2	0.953	0.953	3	1.91	~ fr:plaider ≈ en:pleader en:plea ≈ fr:pli
+prissy	précise fr:précis		2	0.953	0.953	3	1.91	~ en:presses ≈ fr:précise fr:précis ≈ en:prissy
+strep	strip	0.952	2	0.953	0.953	3	1.91	= fr:stries en:stree ~ en:strep ≈ fr:strip
+sensor en:sensors	sain seize		2	0.96	0.949	3	1.9	~ fr:sain ses ≈ en:sensor en:sensors ≈ fr:sain seize
+lesson fr:leçon	laids haine		2	0.959	0.9525	3	1.9	≈ fr:haine ~ fr:laids haine ≈ en:lesson fr:leçon
+lesson fr:leçons	laids haine		2	0.957	0.9505	3	1.9	≈ fr:haine ~ fr:laids haine ≈ en:lesson fr:leçons
+branches fr:branches	bradent chaise		2	0.957	0.9515	3	1.9	≈ fr:skient chaise ~ fr:bradent chaise ≈ en:branches fr:branches
+recruit	recrute	0.955	2	0.955	0.9505	2	1.9	en:recruit ≈ fr:recrute ~ fr:recruter
+leaders fr:dirigeants	lient aise		2	0.955	0.9515	3	1.9	≈ fr:trais aise ~ fr:lient aise ≈ en:leaders fr:dirigeants
+exotic	exact hic	0.969	2	0.954	0.951	2	1.9	en:exotic ≈ fr:exact hic ~ fr:exactement
+arsing	assigne	0.93	2	0.953	0.949	2	1.9	en:arsing ≈ fr:assigne ~ fr:assigner
+grille	grill	0.975	2	0.953	0.949	2	1.9	en:grille ≈ fr:grill ~ fr:griller
+plead	plaide fr:plaies		2	0.953	0.9485	3	1.9	≈ en:pleat ~ en:plead ≈ fr:plaide fr:plaies
+plead	plaide fr:poilu		2	0.953	0.9485	3	1.9	≈ en:pleat ~ en:plead ≈ fr:plaide fr:poilu
+pleaded	plient aide fr:évoquent aide		2	0.953	0.948	3	1.9	≈ en:pleat ~ en:pleaded ≈ fr:plient aide fr:évoquent aide
+seas	fait in fr:sises		2	0.952	0.952	3	1.9	= en:thirteen ≈ fr:fait in fr:sises ≈ en:seas
+lieder	lisez	0.94	2	0.952	0.952	3	1.9	en:leaky ≈ fr:ligués ~ fr:lisez ≈ en:lieder
+mad in	médecine	0.924	2	0.952	0.951	2	1.9	en:mad in ≈ fr:médecine ~ fr:médication
+receipt arse	résistance	0.911	2	0.952	0.9505	2	1.9	en:receipt arse ≈ fr:résistance ~ fr:résistances
+constructive	cannes traquent ive	0.948	2	0.952	0.952	3	1.9	en:tractive ≈ fr:traquent ive ~ fr:cannes traquent ive ≈ en:constructive
+vendors	vin dos	0.94	2	0.952	0.9485	2	1.9	en:vendor ~ en:vendors ≈ fr:vin dos
+laboratory	libérait ri	0.934	2	0.951	0.951	2	1.9	en:laboratories ~ en:laboratory ≈ fr:libérait ri
+lauder	ledit	0.94	2	0.95	0.9495	2	1.9	en:lauder ≈ fr:ledit ~ fr:soulève
+emcee en:emcees	aimes hisse		2	0.95	0.95	3	1.9	~ fr:ensi ≈ en:emcee en:emcees ≈ fr:aimes hisse
+pleading en:pleat	plisse		2	0.95	0.95	3	1.9	~ fr:plient in ≈ en:pleading en:pleat ≈ fr:plisse
+terrorism en:terror	terre		2	0.95	0.9495	4	1.9	~ fr:terreurs homme ≈ en:terrorism en:terror ≈ fr:terre ~ fr:terra
+places	trais aise fr:plaies aise		2	0.95	0.95	3	1.9	~ en:tresses ≈ fr:trais aise fr:plaies aise ≈ en:places
+losses	quais aise fr:las aise		2	0.949	0.949	3	1.9	= en:kisses ≈ fr:quais aise fr:las aise ≈ en:losses
+conclude	con claude	0.932	2	0.949	0.949	2	1.9	en:conclusion ~ en:conclude ≈ fr:con claude
+freeboard	friponne	0.94	2	0.949	0.949	2	1.9	en:freeboard ≈ fr:friponne ~ en:frieze
+wrestling en:wrestle	recèle		2	0.949	0.9485	4	1.9	~ fr:raies ligne ≈ en:wrestling en:wrestle ≈ fr:recèle ~ fr:reprenez
+bellies en:bellied	bolide		2	0.948	0.948	3	1.9	~ fr:belize ≈ en:bellies en:bellied ≈ fr:bolide
+marcel	pas elle fr:mas elle		2	0.948	0.948	3	1.9	= en:parcel ≈ fr:pas elle fr:mas elle ≈ en:marcel
+prison	haines taule fr:pris haine		2	0.948	0.948	3	1.9	~ en:install ≈ fr:haines taule fr:pris haine ≈ en:prison
+football en:footballer	fait bolée		2	0.948	0.948	3	1.9	~ fr:fait bol ≈ en:football en:footballer ≈ fr:fait bolée
+seating en:seat	citent		2	0.948	0.948	3	1.9	~ fr:scient in ≈ en:seating en:seat ≈ fr:citent
+role	roll	1.0	2	0.963	0.943	3	1.89	en:neutral ≈ fr:nouent rôle ~ en:role ≈ fr:roll
+prick	briques	0.945	2	0.96	0.9455	2	1.89	en:prick ≈ fr:briques ~ fr:brique
+prizes	bras aise	0.949	2	0.955	0.947	2	1.89	en:prizes ≈ fr:bras aise ~ fr:bras
+otters	hôtesse	0.911	2	0.954	0.943	2	1.89	en:otters ≈ fr:hôtesse ~ fr:hôtesses
+needing en:needed	nid aide		2	0.953	0.947	3	1.89	~ fr:nid in ≈ en:needing en:needed ≈ fr:nid aide
+mealie	mêler	0.94	2	0.953	0.945	2	1.89	en:mealie ≈ fr:mêler ~ fr:mêlée
+mealy	mêler	0.94	2	0.953	0.945	2	1.89	en:mealy ≈ fr:mêler ~ fr:mêlée
+miller	mêler	0.94	2	0.953	0.945	2	1.89	en:miller ≈ fr:mêler ~ fr:mêlée
+emmet	émettent fr:émettant		2	0.953	0.944	3	1.89	≈ en:emcee ~ en:emmet ≈ fr:émettent fr:émettant
+condemn	con thème	0.94	2	0.952	0.9465	2	1.89	en:condemn ≈ fr:con thème ~ fr:thème
+brock	braque	0.97	2	0.951	0.9465	2	1.89	en:broch ~ en:brock ≈ fr:braque
+broch	braque	0.97	2	0.951	0.9465	2	1.89	en:brock ~ en:broch ≈ fr:braque
+creel	grill	0.97	2	0.95	0.946	2	1.89	en:creel ≈ fr:grill ~ fr:griller
+beading	meeting	0.909	2	0.949	0.943	2	1.89	en:beading ≈ fr:meeting ~ fr:réunion
+wrestle	recèle fr:reprenez		2	0.949	0.946	3	1.89	≈ en:wrestling ~ en:wrestle ≈ fr:recèle fr:reprenez
+wrestle	recèle fr:refonte		2	0.948	0.9455	3	1.89	≈ en:wrestling ~ en:wrestle ≈ fr:recèle fr:refonte
+escheat	égide	0.915	2	0.947	0.947	2	1.89	en:eschew ~ en:escheat ≈ fr:égide
+feedback	fient bac	0.96	2	0.947	0.9445	2	1.89	en:feedback ≈ fr:fient bac ~ fr:bacs
+gorgeous	godes os	0.94	2	0.947	0.944	2	1.89	en:gorgeous ≈ fr:godes os ~ fr:dieu
+lethal en:deadly	dès lis		2	0.947	0.947	3	1.89	~ fr:lient elle ≈ en:lethal en:deadly ≈ fr:dès lis
+tread	traite	0.97	2	0.947	0.947	3	1.89	~ fr:training en:treading ~ en:tread ≈ fr:traite
+entry en:enters	aident aise		2	0.947	0.947	3	1.89	~ fr:haines tri ≈ en:entry en:enters ≈ fr:aident aise
+clot	claude	0.94	2	0.946	0.9455	2	1.89	en:clot ≈ fr:claude ~ fr:claudel
+doormat eek	domestique	0.94	2	0.946	0.946	2	1.89	en:doormat eek ≈ fr:domestique ~ fr:domestiques
+cancer	khan ses	0.94	2	0.945	0.945	3	1.89	en:candy ≈ fr:khan dit ~ fr:khan ses ≈ en:cancer
+clam en:clem	club		2	0.945	0.945	3	1.89	~ fr:clame ≈ en:clam en:clem ≈ fr:club
+treasury	trais ri	0.94	2	0.945	0.945	2	1.89	en:treasury ≈ fr:trais ri ~ fr:pagaille
+terrorism en:terror	terres		2	0.944	0.944	3	1.89	~ fr:terreurs homme ≈ en:terrorism en:terror ≈ fr:terres
+teston en:testy	tester		2	0.943	0.943	3	1.89	~ fr:taies tonnes ≈ en:teston en:testy ≈ fr:tester
+corky en:cork	coq		2	0.943	0.943	3	1.89	~ fr:cocu ≈ en:corky en:cork ≈ fr:coq
+bell	belles	1.0	2	0.943	0.943	4	1.89	en:suited ~ en:suitable ≈ fr:suent belle ~ fr:belles ≈ en:bell
+debating	tibet in	0.914	2	0.949	0.94	2	1.88	en:debating ≈ fr:tibet in ~ fr:tibet
+decorative	décret ive	0.96	2	0.948	0.941	2	1.88	en:decorative ≈ fr:décret ive ~ fr:décret
+essentially en:basically	pays clé		2	0.948	0.94	3	1.88	~ fr:sain joli ≈ en:essentially en:basically ≈ fr:pays clé
+presses	précis fr:précise		2	0.947	0.942	4	1.88	~ en:prissy ≈ fr:précis fr:précise ≈ en:presses ~ fr:presses
+enters	aident aise fr:aides aise		2	0.947	0.9395	3	1.88	≈ en:entry ~ en:enters ≈ fr:aident aise fr:aides aise
+reaching en:reaches	rient chaise		2	0.945	0.9405	3	1.88	~ fr:rient chine ≈ en:reaching en:reaches ≈ fr:rient chaise
+escort	escorte	1.0	2	0.945	0.9425	2	1.88	en:escort ≈ fr:escorte ~ fr:escort
+distracted en:distract	dis tracts		2	0.944	0.9385	3	1.88	~ fr:dis traquent aide ≈ en:distracted en:distract ≈ fr:dis tracts
+belling	mailing	0.932	2	0.943	0.938	2	1.88	en:belling ≈ fr:mailing ~ fr:mail
+bedding	bedaine	0.922	2	0.942	0.9415	2	1.88	en:bedding ≈ fr:bedaine ~ fr:bénisse
+parky	paquet	0.926	2	0.942	0.9385	2	1.88	en:parks ~ en:parky ≈ fr:paquet
+redden	redonne	0.952	2	0.942	0.942	2	1.88	en:redder ~ en:redden ≈ fr:redonne
+wrestler en:wrestling	raies ligne		2	0.942	0.942	3	1.88	~ fr:raies les ≈ en:wrestler en:wrestling ≈ fr:raies ligne
+wrestling	raies ligne fr:ligne		2	0.942	0.94	3	1.88	≈ en:wrestler ~ en:wrestling ≈ fr:raies ligne fr:ligne
+dippy	dépit	0.94	2	0.941	0.9395	2	1.88	en:dippy ≈ fr:dépit ~ fr:autrement
+retention	coincent chaîne fr:ricin chaîne		2	0.941	0.941	3	1.88	~ en:question ≈ fr:coincent chaîne fr:ricin chaîne ≈ en:retention
+sunrise	son rase	0.932	2	0.941	0.938	3	1.88	en:levee ≈ fr:lever = en:sunrise ≈ fr:son rase
+lender en:lenders	lin dos		2	0.941	0.939	3	1.88	~ fr:lin des ≈ en:lender en:lenders ≈ fr:lin dos
+website	limbes hâte	0.92	2	0.941	0.941	3	1.88	en:seat ≈ fr:site ~ en:website ≈ fr:limbes hâte
+setup	sait happe	0.976	2	0.941	0.941	2	1.88	en:setup ≈ fr:sait happe ~ fr:haché
+greatest	créent êtes fr:créent est		2	0.94	0.94	3	1.88	~ en:credit ≈ fr:créent êtes fr:créent est ≈ en:greatest
+semester	excès os fr:sommets tes		2	0.939	0.939	3	1.88	= en:exodus ≈ fr:excès os fr:sommets tes ≈ en:semester
+netty	noter	0.911	2	0.939	0.939	3	1.88	en:net ≈ fr:nettes ~ en:netty ≈ fr:noter
+deed irked	distinctes	0.915	2	0.938	0.938	2	1.88	en:deed arse ~ en:deed irked ≈ fr:distinctes
+according en:en	aine		2	0.938	0.9375	3	1.88	~ fr:écot in ≈ en:according en:en ≈ fr:aine
+set en:setter	synthé		2	0.938	0.938	3	1.88	~ fr:cet ≈ en:set en:setter ≈ fr:synthé
+krill	grill	0.945	2	0.938	0.934	2	1.87	en:krill ≈ fr:grill ~ fr:griller
+belly	bey lies	1.0	2	0.937	0.936	2	1.87	en:belly ≈ fr:bey lies ~ fr:mensonge
+successes	secs incise	0.943	2	0.937	0.936	6	1.87	en:successes ≈ fr:secs incise ~ en:secs ≈ fr:sexe ~ fr:sexes ≈ en:sex ~ fr:sexuel
+legit	jets fr:laid jette		2	0.936	0.936	3	1.87	~ en:jet ≈ fr:jets fr:laid jette ≈ en:legit
+investor en:investors	nouées thèse		2	0.935	0.935	3	1.87	~ fr:haines ester ≈ en:investor en:investors ≈ fr:nouées thèse
+lectures en:lecture	liguent chez		2	0.935	0.935	3	1.87	~ fr:liguent chaise ≈ en:lectures en:lecture ≈ fr:liguent chez
+preferably	prêt repli	0.959	2	0.935	0.9335	2	1.87	en:preferably ≈ fr:prêt repli ~ fr:répondant
+emcees en:emmet	émettent		2	0.935	0.935	3	1.87	~ fr:aimes hisse ≈ en:emcees en:emmet ≈ fr:émettent
+factory	vaquent ri	0.94	2	0.934	0.934	3	1.87	en:oozing ≈ fr:usine = en:factory ≈ fr:vaquent ri
+northwestern en:southwest	cent ouest		2	0.934	0.934	3	1.87	~ fr:notais tonnes ≈ en:northwestern en:southwest ≈ fr:cent ouest
+attic	hissent éthique fr:éthique		2	0.933	0.933	3	1.87	~ en:aesthetic ≈ fr:hissent éthique fr:éthique ≈ en:attic
+beetle	pas elle fr:but elle		2	0.933	0.933	3	1.87	= en:parcel ≈ fr:pas elle fr:but elle ≈ en:beetle
+resell	pas elle fr:ries elle		2	0.933	0.933	3	1.87	= en:parcel ≈ fr:pas elle fr:ries elle ≈ en:resell
+invest en:investing	nouées teigne		2	0.933	0.933	3	1.87	~ fr:haines est ≈ en:invest en:investing ≈ fr:nouées teigne
+branches fr:branche	bradent chaise		2	0.939	0.929	3	1.86	≈ fr:coud chaise ~ fr:bradent chaise ≈ en:branches fr:branche
+automatic	hautement hic	0.915	2	0.936	0.928	2	1.86	en:automatic ≈ fr:hautement hic ~ fr:hautement
+compression	con prochaine	0.901	2	0.935	0.9305	2	1.86	en:compression ≈ fr:con prochaine ~ fr:prochaine
+macaw	mégots	0.915	2	0.935	0.9285	2	1.86	en:macaw ≈ fr:mégots ~ fr:méga
+packs	pacs	0.97	2	0.935	0.929	2	1.86	en:packs ≈ fr:pacs ~ fr:pac
+pax	pacs	0.97	2	0.935	0.929	2	1.86	en:pax ≈ fr:pacs ~ fr:pac
+autumn eater	indemnités	0.922	2	0.933	0.9315	2	1.86	en:autumn eater ≈ fr:indemnités ~ fr:rémunération
+entered en:enters	aident aise		2	0.932	0.932	3	1.86	~ fr:aident aide ≈ en:entered en:enters ≈ fr:aident aise
+predecessor en:previous	pris os		2	0.932	0.932	3	1.86	~ fr:prient cessé ≈ en:predecessor en:previous ≈ fr:pris os
+dancer	tan ses	0.952	2	0.932	0.9315	2	1.86	en:dancer ≈ fr:tan ses ~ fr:vais
+ending en:ended	haines aide		2	0.932	0.9305	3	1.86	~ fr:haines in ≈ en:ending en:ended ≈ fr:haines aide
+red error en:red	raids		2	0.932	0.93	4	1.86	~ fr:restera ≈ en:red error en:red ≈ fr:raids ~ fr:raides
+vicinity en:proximity	braques midi		2	0.931	0.931	3	1.86	~ fr:vis hindi ≈ en:vicinity en:proximity ≈ fr:braques midi
+dickie	tiquer	0.915	2	0.931	0.931	2	1.86	en:dickey ~ en:dickie ≈ fr:tiquer
+dickey	tiquer	0.915	2	0.931	0.931	2	1.86	en:dickie ~ en:dickey ≈ fr:tiquer
+insanity	hindi fr:haines hindi		2	0.931	0.931	3	1.86	= en:under ≈ fr:hindi fr:haines hindi ≈ en:insanity
+feathers	fais aise	0.929	2	0.931	0.931	3	1.86	en:suggest ≈ fr:sait geste ~ fr:fais aise ≈ en:feathers
+maternal	matin elle	0.915	2	0.93	0.9295	2	1.86	en:mothers ~ en:maternal ≈ fr:matin elle
+disgrace	dis grèce	0.945	2	0.929	0.9285	2	1.86	en:disgrace ≈ fr:dis grèce ~ fr:grecs
+petit eve en:eve	ives		2	0.929	0.929	3	1.86	~ fr:positive ≈ en:petit eve en:eve ≈ fr:ives
+pleaded en:pleading	plient in		2	0.928	0.928	3	1.86	~ fr:plient aide ≈ en:pleaded en:pleading ≈ fr:plient in
+debt inner en:debt	dettes		2	0.928	0.928	3	1.86	~ fr:destinée ≈ en:debt inner en:debt ≈ fr:dettes
+enters en:entered	aident aide		2	0.928	0.928	3	1.86	~ fr:aident aise ≈ en:enters en:entered ≈ fr:aident aide
+kookie	cookie	1.0	2	0.963	0.9255	2	1.85	en:kookie ≈ fr:cookie ~ fr:cookies
+kooky	cookie	1.0	2	0.963	0.9255	2	1.85	en:kooky ≈ fr:cookie ~ fr:cookies
+branches fr:succursales	bradent chaise		2	0.938	0.9275	3	1.85	≈ fr:coud chaise ~ fr:bradent chaise ≈ en:branches fr:succursales
+diseases en:disease	dis hisse		2	0.938	0.9265	3	1.85	~ fr:dis isis ≈ en:diseases en:disease ≈ fr:dis hisse
+deceive en:decease	dis hisse		2	0.935	0.9235	3	1.85	~ fr:dis ive ≈ en:deceive en:decease ≈ fr:dis hisse
+boundary	ban doré	0.933	2	0.933	0.9225	2	1.85	en:boundaries ~ en:boundary ≈ fr:ban doré
+proposal en:proposes	propos aise		2	0.927	0.927	3	1.85	~ fr:propos elle ≈ en:proposal en:proposes ≈ fr:propos aise
+gravel en:dusty	des tee		2	0.927	0.925	3	1.85	~ fr:gras elle ≈ en:gravel en:dusty ≈ fr:des tee
+beaters en:beat	bit		2	0.927	0.927	3	1.85	~ fr:vitesse ≈ en:beaters en:beat ≈ fr:bit
+braes	brise	1.0	2	0.926	0.926	2	1.85	en:breeze = fr:brise ≈ en:braes
+digit	dit jette	0.944	2	0.925	0.925	2	1.85	en:digits ~ en:digit ≈ fr:dit jette
+monetary	menait ri	0.948	2	0.925	0.924	2	1.85	en:monetary ≈ fr:menait ri ~ fr:mineure
+printer	brin tes	0.94	2	0.925	0.925	3	1.85	en:residential ≈ fr:raies tain gel ~ fr:brin tes ≈ en:printer
+sheen en:sheeny	chiner		2	0.924	0.924	3	1.85	~ fr:chinent ≈ en:sheen en:sheeny ≈ fr:chiner
+pending	pain haleter fr:pain digne		2	0.923	0.923	3	1.85	= en:penalty ≈ fr:pain haleter fr:pain digne ≈ en:pending
+petrol	paient rôle	0.96	2	0.923	0.923	2	1.85	en:petrol ≈ fr:paient rôle ~ en:role
+vs en:versus	vais aise		2	0.923	0.923	3	1.85	~ fr:vies ès ≈ en:vs en:versus ≈ fr:vais aise
+trusted en:trusting	tracent in		2	0.923	0.923	3	1.85	~ fr:tracent aide ≈ en:trusted en:trusting ≈ fr:tracent in
+terrific	tord hic	0.916	2	0.94	0.9215	2	1.84	en:fantastic ~ en:terrific ≈ fr:tord hic
+petition	paient chaîne	0.949	2	0.94	0.922	3	1.84	en:petit your ≈ fr:pétition ~ en:petition ≈ fr:paient chaîne
+irked raw	extrait	0.901	2	0.938	0.919	2	1.84	en:irked raw ≈ fr:extrait ~ fr:extraits
+medicine	met scène	0.96	2	0.933	0.9205	2	1.84	en:medicine ≈ fr:met scène ~ fr:scène
+render en:rendering	reines ring		2	0.933	0.9215	3	1.84	~ fr:rhin des ≈ en:render en:rendering ≈ fr:reines ring
+previous en:previously	privées lis		2	0.929	0.9185	3	1.84	~ fr:pris os ≈ en:previous en:previously ≈ fr:privées lis
+tesla	déceler	0.956	2	0.927	0.922	2	1.84	en:tesla ≈ fr:déceler ~ fr:déchiffrer
+sheared	géode	0.911	2	0.925	0.919	2	1.84	en:sheared ≈ fr:géode ~ fr:géo
+sheered	géode	0.911	2	0.925	0.919	2	1.84	en:sheered ≈ fr:géode ~ fr:géo
+basket	bas quitte	0.954	2	0.924	0.922	2	1.84	en:basket ≈ fr:bas quitte ~ fr:enlevés
+alumni	élan ni	0.901	2	0.923	0.922	2	1.84	en:alumni ≈ fr:élan ni ~ fr:intello
+red aura	restaurer	0.949	2	0.923	0.9195	2	1.84	en:red aura ≈ fr:restaurer ~ fr:restaurateurs
+settled en:settle	sait elle		2	0.921	0.9205	4	1.84	~ fr:sait halte ≈ en:settled en:settle ≈ fr:sait elle ~ fr:but elle
+sliding	soient in	0.902	2	0.921	0.9205	2	1.84	en:sliding ≈ fr:soient in ~ fr:apportez
+mortality	mot alité	0.945	2	0.92	0.919	2	1.84	en:mortality ≈ fr:mot alité ~ fr:termes
+secondly	déconnent lis	0.913	2	0.92	0.92	3	1.84	en:secondary ≈ fr:déconnent ri ~ fr:déconnent lis ≈ en:secondly
+shoot iffy en:shoot	shootes		2	0.919	0.919	3	1.84	~ fr:justifie ≈ en:shoot iffy en:shoot ≈ fr:shootes
+branches	mat chaise fr:bradent chaise		2	0.919	0.918	4	1.84	~ en:matches ≈ fr:mat chaise fr:bradent chaise ≈ en:branches ~ fr:branche
+red error en:red	raid		2	0.918	0.918	3	1.84	~ fr:restera ≈ en:red error en:red ≈ fr:raid
+teaching	dit chine	0.938	2	0.918	0.918	2	1.84	en:teaches ~ en:teaching ≈ fr:dit chine
+canoes	con use	0.929	2	0.937	0.914	2	1.83	en:canoed ~ en:canoes ≈ fr:con use
+mention	main chaîne	0.96	2	0.929	0.914	2	1.83	en:mention ≈ fr:main chaîne ~ fr:chaîne
+chemise	chemisent	1.0	2	0.923	0.9145	2	1.83	en:chemise ≈ fr:chemisent ~ fr:chevreuil
+pentagon	peinent gaine	0.963	2	0.919	0.9145	2	1.83	en:pentagon ≈ fr:peinent gaine ~ fr:gagne
+practiced en:practice	braquent hisse		2	0.917	0.917	3	1.83	~ fr:braquent est ≈ en:practiced en:practice ≈ fr:braquent hisse
+founded en:founders	fanent aise		2	0.917	0.917	3	1.83	~ fr:fanent aide ≈ en:founded en:founders ≈ fr:fanent aise
+partners en:partner	bat né		2	0.916	0.916	3	1.83	~ fr:bat noces ≈ en:partners en:partner ≈ fr:bat né
+blip	plèbe	0.911	2	0.916	0.916	2	1.83	en:bloop ~ en:blip ≈ fr:plèbe
+canal	quenelle	0.952	2	0.916	0.914	2	1.83	en:canal ≈ fr:quenelle ~ fr:ndiaye
+basketball	masquent bol	0.954	2	0.915	0.9135	2	1.83	en:basketball ≈ fr:masquent bol ~ fr:fougueux
+decreasing	décris in	0.939	2	0.915	0.915	3	1.83	en:depending ≈ fr:dépeignent in ~ fr:décris in ≈ en:decreasing
+disses en:dissed	test		2	0.914	0.914	3	1.83	~ fr:dis aise ≈ en:disses en:dissed ≈ fr:test
+testis en:testers	taies thèse		2	0.914	0.914	3	1.83	~ fr:taies dix ≈ en:testis en:testers ≈ fr:taies thèse
+possessed en:possess	paix ace		2	0.913	0.913	3	1.83	~ fr:paix est ≈ en:possessed en:possess ≈ fr:paix ace
+chevy en:coupe	coupes		2	0.913	0.913	3	1.83	~ fr:cheveux ≈ en:chevy en:coupe ≈ fr:coupes
+port	pote	1.0	2	0.925	0.909	2	1.82	en:portly ~ en:port ≈ fr:pote
+busted en:wrested	rincent aide		2	0.912	0.912	3	1.82	~ fr:baissent aide ≈ en:busted en:wrested ≈ fr:rincent aide
+registry	raids stries	0.96	2	0.912	0.912	2	1.82	en:registry ≈ fr:raids stries ~ fr:fouilles
+meet error en:error	ère		2	0.911	0.911	3	1.82	~ fr:mystérieux ≈ en:meet error en:error ≈ fr:ère
+nixed	mixte	0.92	2	0.91	0.91	2	1.82	en:nicked ~ en:nixed ≈ fr:mixte
+pursuit	paix août	0.952	2	0.909	0.9085	2	1.82	en:pursuit ≈ fr:paix août ~ fr:pau
+landing	lin digne	0.904	2	0.908	0.908	2	1.82	en:landed ~ en:landing ≈ fr:lin digne
+suffered	saut aide	0.902	2	0.917	0.905	2	1.81	en:suffers ~ en:suffered ≈ fr:saut aide
+distributor	dissent rebuter	0.953	2	0.909	0.9075	2	1.81	en:distributor ≈ fr:dissent rebuter ~ fr:contredire
+lapped	laps	0.911	2	0.906	0.905	2	1.81	en:lapped ≈ fr:laps ~ fr:infantile
+wrested	rincent aide fr:rincer		2	0.912	0.8995	3	1.8	≈ en:busted ~ en:wrested ≈ fr:rincent aide fr:rincer
+largest	lent geste	0.949	2	0.91	0.898	2	1.8	en:largest ≈ fr:lent geste ~ fr:lenteur
+releases	relis aise	0.945	2	0.906	0.902	2	1.8	en:releases ≈ fr:relis aise ~ fr:relie
+forby	phobie	1.0	2	0.902	0.902	3	1.8	en:forepeak ≈ fr:phobique ~ fr:phobie ≈ en:forby
+nonetheless	naines laisse	0.929	2	0.901	0.8985	2	1.8	en:nonetheless ≈ fr:naines laisse ~ fr:maternelle
+accessories	excès ruse	0.931	2	0.899	0.8985	2	1.8	en:accessories ≈ fr:excès ruse ~ fr:russ
+rental en:renter	rhin tes		2	0.899	0.899	3	1.8	~ fr:rhin tel ≈ en:rental en:renter ≈ fr:rhin tes
+ported en:porting	bottines		2	0.898	0.898	3	1.8	~ fr:petite ≈ en:ported en:porting ≈ fr:bottines
+douche	douches	1.0	2	0.938	0.8955	2	1.79	en:douche ≈ fr:douches ~ fr:douche
+firstly	foncent lis	0.96	2	0.903	0.8935	2	1.79	en:firstly ≈ fr:foncent lis ~ fr:lignée
+landed	lin dites	0.904	2	0.897	0.896	2	1.79	en:landed ≈ fr:lin dites ~ fr:empreintes
+deed arse	distance	0.921	2	0.894	0.894	5	1.79	≈ fr:distinguer fr:distingue ≈ en:deed egg ~ en:deed arse ≈ fr:distance ~ fr:distances
+flew	floue	1.0	2	0.894	0.8925	2	1.79	en:flew ≈ fr:floue ~ fr:flous
+rental en:rented	rhin tête		2	0.893	0.893	3	1.79	~ fr:rhin tel ≈ en:rental en:rented ≈ fr:rhin tête
+wracks en:wrested	rincent aide		2	0.887	0.887	3	1.77	~ fr:rixe ≈ en:wracks en:wrested ≈ fr:rincent aide
+sensing	sain signe	0.944	2	0.883	0.883	2	1.77	en:sensing ≈ fr:sain signe ~ fr:manquant
+sidewalk	cent wok	0.94	2	0.893	0.88	2	1.76	en:sidewalk ≈ fr:cent wok ~ fr:cent
+lopped	loft	0.915	2	0.881	0.8805	2	1.76	en:lopped ≈ fr:loft ~ fr:plafonds
+expose	exposent	0.9	2	0.91	0.869	2	1.74	en:expose ≈ fr:exposent ~ fr:exposer
+realities	rallient hisse	0.943	2	0.873	0.869	2	1.74	en:realities ≈ fr:rallient hisse ~ fr:rallié
+it olla	installée	0.901	2	0.847	0.847	2	1.69	en:setup ~ fr:installée ≈ en:it olla
+boarding	bottines	0.926	2	0.817	0.817	2	1.63	en:boarded ~ en:boarding ≈ fr:bottines
+boarded	bottines	0.909	2	0.812	0.812	2	1.62	en:boarding ~ en:boarded ≈ fr:bottines

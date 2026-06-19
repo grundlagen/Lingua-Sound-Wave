@@ -1,0 +1,540 @@
+seed	hops	mean_quality	min_quality	min_sound_edge	max_sound_edge	tier	loop
+pp	3	0.9833	0.95	1.0	1.0	S+	en:pp ≈ fr:pipi = en:pee ≈ fr:pis
+feeler	3	0.9733	0.92	1.0	1.0	S+	en:feeler ≈ fr:filer ~ fr:files ≈ en:feel
+meanie	3	0.9733	0.92	1.0	1.0	S+	en:meanie ≈ fr:mini ~ fr:minis ≈ en:meany
+meany	3	0.9733	0.92	1.0	1.0	S+	en:meany ≈ fr:minis ~ fr:mini ≈ en:meanie
+pieced	3	0.9733	0.92	1.0	1.0	S+	en:pieced ≈ fr:pistent ~ fr:pissent ≈ en:piece
+poop	3	0.9733	0.92	1.0	1.0	S+	en:poop ≈ fr:poupe ~ fr:pouf ≈ en:poof
+poop	3	0.9733	0.92	1.0	1.0	S+	en:poop ≈ fr:poupes ~ fr:pouffe ≈ en:poof
+less	4	0.9675	0.92	1.0	1.0	S+	en:less ≈ fr:laisses ~ fr:laissent ≈ en:lesser = fr:moindre
+paste	4	0.9675	0.92	1.0	1.0	S+	en:paste = fr:coller ≈ en:caller ~ en:call ≈ fr:colle
+paste	4	0.9675	0.92	1.0	1.0	S+	en:paste = fr:colle ≈ en:call ~ en:caller ≈ fr:coller
+pp	4	0.9675	0.92	1.0	1.0	S+	en:pp ≈ fr:pipi = en:pee ≈ fr:pis ~ en:pis
+troop	4	0.9675	0.92	1.0	1.0	S+	en:troop ≈ fr:troupe ~ en:troupe ≈ fr:troupes = en:troops
+feel	4	0.96	0.92	1.0	1.0	S+	en:feel ≈ fr:files ~ fr:filer ≈ en:feeler ~ en:feels
+meanie	4	0.96	0.92	1.0	1.0	S+	en:meanie ≈ fr:mini ~ fr:minis ≈ en:meany ~ fr:meher
+meany	4	0.96	0.92	1.0	1.0	S+	en:meany ≈ fr:minis ~ fr:mini ≈ en:meanie ~ en:mey
+mini	4	0.96	0.92	1.0	1.0	S+	en:mini ~ fr:mini ≈ en:meanie ~ en:meany ≈ fr:minis
+mini	4	0.96	0.92	1.0	1.0	S+	en:mini ~ fr:minis ≈ en:meany ~ en:meanie ≈ fr:mini
+petit	4	0.96	0.92	1.0	1.0	S+	en:petit ≈ fr:petit ~ en:petite ≈ fr:petites ~ fr:petite
+pieced	4	0.96	0.92	1.0	1.0	S+	en:pieced ≈ fr:pistent ~ fr:pissent ≈ en:piece ~ fr:piece
+true	4	0.96	0.92	1.0	1.0	S+	en:true ≈ fr:trous ~ fr:trous lies ≈ en:truly ~ en:wahre
+truly	4	0.96	0.92	1.0	1.0	S+	en:truly ≈ fr:trous lies ~ fr:trous ≈ en:true ~ en:wahre
+truly	4	0.96	0.92	1.0	1.0	S+	en:truly ≈ fr:trous lies ~ fr:trous ≈ en:true ~ fr:wahre
+poo	5	0.958	0.92	1.0	1.0	S+	en:poo ~ en:poof ≈ fr:pouf ~ fr:poupe ≈ en:poop = fr:crotte
+poo	5	0.958	0.92	1.0	1.0	S+	en:poo ~ en:poof ≈ fr:pouf ~ fr:poupe ≈ en:poop = fr:caca
+troops	5	0.958	0.92	1.0	1.0	S+	en:troops = fr:troupes ≈ en:troupe ~ fr:troupe ≈ en:troop ~ en:truppe
+troops	5	0.958	0.92	1.0	1.0	S+	en:troops = fr:troupes ≈ en:troupe ~ fr:troupe ≈ en:troop ~ fr:truppe
+feels	5	0.952	0.92	1.0	1.0	S+	en:feels ~ en:feel ≈ fr:files ~ fr:filer ≈ en:feeler ~ en:feltre
+feels	5	0.952	0.92	1.0	1.0	S+	en:feels ~ en:feel ≈ fr:files ~ fr:filer ≈ en:feeler ~ fr:ressentir
+reads	5	0.952	0.92	1.0	1.0	S+	en:reads ~ en:read ≈ fr:rides ~ fr:ride ≈ en:reader ~ en:reading
+reads	5	0.952	0.92	1.0	1.0	S+	en:reads ~ en:read ≈ fr:ride ~ fr:rides ≈ en:reader ~ en:reading
+trues	5	0.952	0.92	1.0	1.0	S+	en:trues ~ en:true ≈ fr:trous ~ fr:trous lies ≈ en:truly ~ en:wahre
+stalk	3	0.9653	0.92	0.976	1.0	S+	en:stalk ≈ fr:stockent ~ fr:stocker ≈ en:stalky
+stalky	3	0.9653	0.92	0.976	1.0	S+	en:stalky ≈ fr:stocker ~ fr:stockent ≈ en:stalk
+stalky	3	0.9653	0.92	0.976	1.0	S+	en:stalky ≈ fr:stocker ~ fr:stocke ≈ en:stalk
+stalk	4	0.954	0.92	0.976	1.0	S+	en:stalk ≈ fr:stockent ~ fr:stocker ≈ en:stalky ~ en:tagore
+possess	4	0.949	0.92	0.976	0.98	S+	en:possess ≈ fr:paix ace ~ fr:paix est ≈ en:possessed ~ en:possesses
+possess	4	0.949	0.92	0.976	0.98	S+	en:possess ≈ fr:paix ace ~ fr:paix est ≈ en:possessed ~ en:possessory
+seas	5	0.9472	0.92	0.976	1.0	S+	en:seas ~ en:seizes ≈ fr:scies aise ~ fr:scies ≈ en:si ~ fr:sse
+stock	5	0.9472	0.92	0.976	1.0	S+	en:stock ~ fr:stock ≈ en:stalk ~ en:stalky ≈ fr:stocker ~ fr:stocke
+stock	5	0.9472	0.92	0.976	1.0	S+	en:stock ~ fr:stock ≈ en:stalk ~ en:stalky ≈ fr:stocker ~ en:saham
+stocks	5	0.9472	0.92	0.976	1.0	S+	en:stocks ~ fr:stocks ≈ en:stalk ~ en:stalky ≈ fr:stocker ~ fr:stocke
+stocks	5	0.9472	0.92	0.976	1.0	S+	en:stocks ~ fr:stockes ≈ en:stalk ~ en:stalky ≈ fr:stocker ~ fr:stocke
+cross	3	0.965	0.92	0.975	1.0	S+	en:cross ≈ fr:crosse ~ en:crosse ≈ fr:cross
+cross	3	0.965	0.92	0.975	1.0	S+	en:cross ≈ fr:crosse ~ fr:cross ≈ en:crosse
+crosse	3	0.965	0.92	0.975	1.0	S+	en:crosse ≈ fr:cross ~ en:cross ≈ fr:crosse
+crosse	3	0.965	0.92	0.975	1.0	S+	en:crosse ≈ fr:cross ~ fr:crosse ≈ en:cross
+footballer	3	0.958	0.92	0.975	0.979	S+	en:footballer ≈ fr:fait bolée ~ fr:fait bol ≈ en:football
+crossed	4	0.9537	0.92	0.975	1.0	S+	en:crossed ~ fr:crosse ≈ en:cross ~ fr:cross ≈ en:crosse
+crossed	4	0.9537	0.92	0.975	1.0	S+	en:crossed ~ fr:crosse ≈ en:cross ~ en:crosse ≈ fr:cross
+footballer	4	0.9485	0.92	0.975	0.979	S+	en:footballer ≈ fr:fait bolée ~ fr:fait bol ≈ en:football ~ fr:voetbal
+friendship	3	0.9563	0.92	0.973	0.976	S+	en:friendship ≈ fr:freinent chipe ~ fr:freinent chips ≈ en:friendships
+friendship	4	0.9472	0.92	0.973	0.976	S+	en:friendship ≈ fr:freinent chipe ~ fr:freinent chips ≈ en:friendships ~ fr:amitiés
+plea	3	0.9633	0.92	0.97	1.0	S+	en:plea ≈ fr:pli ~ fr:plisse ≈ en:pleas
+plea	3	0.9633	0.92	0.97	1.0	S+	en:plea ≈ fr:plis ~ fr:plisse ≈ en:pleas
+soupy	3	0.9633	0.92	0.97	1.0	S+	en:soupy ≈ fr:souper ~ en:soup ≈ fr:soupe
+soupy	3	0.9633	0.92	0.97	1.0	S+	en:soupy ≈ fr:souper ~ fr:soupe ≈ en:soup
+talkie	3	0.9633	0.92	0.97	1.0	S+	en:talkie ≈ fr:toquer ~ fr:toquent ≈ en:talk
+talkie	3	0.9633	0.92	0.97	1.0	S+	en:talkie ≈ fr:toquer ~ fr:toques ≈ en:talk
+talky	3	0.9633	0.92	0.97	1.0	S+	en:talky ≈ fr:toquer ~ fr:toquent ≈ en:talk
+talky	3	0.9633	0.92	0.97	1.0	S+	en:talky ≈ fr:toquer ~ fr:toques ≈ en:talk
+clack	3	0.9533	0.92	0.97	0.97	S+	en:clack ≈ fr:claque ~ fr:clame ≈ en:clam
+leg	4	0.9525	0.92	0.97	1.0	S+	en:leg ≈ fr:legs ~ en:kaki ≈ fr:kaki ~ fr:noga
+leg	4	0.9525	0.92	0.97	1.0	S+	en:leg ≈ fr:legs ~ en:kaki ≈ fr:kaki ~ en:noga
+peak	4	0.9525	0.92	0.97	1.0	S+	en:peak ≈ fr:piquent ~ fr:piquer ≈ en:peaky ~ en:peake
+peak	4	0.9525	0.92	0.97	1.0	S+	en:peak ≈ fr:piquent ~ fr:piquer ≈ en:peaky ~ fr:peake
+peaky	4	0.9525	0.92	0.97	1.0	S+	en:peaky ≈ fr:piquer ~ fr:piquent ≈ en:peak ~ en:peake
+souped arse	4	0.9525	0.92	0.97	1.0	S+	en:souped arse ~ en:soupy ≈ fr:souper ~ en:soup ≈ fr:soupe
+souped arse	4	0.9525	0.92	0.97	1.0	S+	en:souped arse ~ en:soupy ≈ fr:souper ~ fr:soupe ≈ en:soup
+clack	4	0.945	0.92	0.97	0.97	S+	en:clack ≈ fr:claque ~ fr:clame ≈ en:clam ~ en:clo
+clam	4	0.945	0.92	0.97	0.97	S+	en:clam ≈ fr:clame ~ fr:claque ≈ en:clack ~ fr:clo
+clam	4	0.945	0.92	0.97	0.97	S+	en:clam ≈ fr:clame ~ fr:claque ≈ en:clack ~ en:clo
+claque	4	0.945	0.92	0.97	0.97	S+	en:claque ~ fr:claque ≈ en:clack ~ en:clam ≈ fr:clame
+pressie	3	0.9557	0.92	0.967	0.98	S+	en:pressie ≈ fr:précis ~ fr:précise ≈ en:pressies
+pressies	3	0.9557	0.92	0.967	0.98	S+	en:pressies ≈ fr:précise ~ fr:précis ≈ en:pressie
+pressie	4	0.9467	0.92	0.967	0.98	S+	en:pressie ≈ fr:précis ~ fr:précise ≈ en:pressies ~ en:druk
+pressies	4	0.9467	0.92	0.967	0.98	S+	en:pressies ~ en:pressie ≈ fr:précis ~ fr:précise ≈ en:presses
+bell	4	0.95	0.92	0.96	1.0	S+	en:bell ≈ fr:bel ~ fr:belize ≈ en:bellies ~ fr:bellis
+bell	4	0.95	0.92	0.96	1.0	S+	en:bell ≈ fr:bel ~ fr:belize ≈ en:bellies ~ en:bellis
+myself	3	0.9487	0.92	0.96	0.966	S+	en:myself ≈ fr:mas elfes ~ fr:ions elfes ≈ en:yourself
+yourself	3	0.9487	0.92	0.96	0.966	S+	en:yourself ≈ fr:ions elfes ~ fr:mas elfes ≈ en:myself
+sec	6	0.9467	0.92	0.96	1.0	S+	en:sec ≈ fr:secs ~ fr:secs ides ≈ en:succeed ~ en:success ≈ fr:secs ace ~ en:secs
+succeed	3	0.9467	0.92	0.96	0.96	S+	en:succeed ≈ fr:secs ides ~ fr:secs ace ≈ en:success
+destroys	4	0.9432	0.92	0.96	0.973	S+	en:destroys ≈ fr:dissent rose ~ fr:dissent rhodes ≈ en:destroyed ~ fr:détruite
+destroys	4	0.9432	0.92	0.96	0.973	S+	en:destroys ≈ fr:dissent rose ~ fr:dissent rhodes ≈ en:destroyed ~ fr:détruits
+myself	4	0.9415	0.92	0.96	0.966	S+	en:myself ≈ fr:mas elfes ~ fr:ions elfes ≈ en:yourself ~ fr:seba
+yourself	4	0.9415	0.92	0.96	0.966	S+	en:yourself ≈ fr:ions elfes ~ fr:mas elfes ≈ en:myself ~ fr:seba
+secs	4	0.94	0.92	0.96	0.96	S+	en:secs ~ fr:secs ides ≈ en:succeed ~ en:success ≈ fr:secs ace
+succeed	4	0.94	0.92	0.96	0.96	S+	en:succeed ≈ fr:secs ides ~ fr:secs ace ≈ en:success ~ fr:success
+success	4	0.94	0.92	0.96	0.96	S+	en:success ≈ fr:secs ace ~ fr:secs ides ≈ en:succeed ~ en:successful
+success	4	0.94	0.92	0.96	0.96	S+	en:success ≈ fr:secs ace ~ fr:secs ides ≈ en:succeed ~ fr:success
+secs	5	0.936	0.92	0.96	0.96	S+	en:secs ~ fr:secs ides ≈ en:succeed ~ en:success ≈ fr:secs ace ~ fr:secs
+succeeded	5	0.936	0.92	0.96	0.96	S+	en:succeeded ~ en:succeed ≈ fr:secs ides ~ fr:secs ace ≈ en:success ~ en:successful
+fortunately	3	0.952	0.92	0.958	0.978	S+	en:fortunately ≈ fr:faut chenet lis ~ fr:faut chaînette ≈ en:fortunate
+fortunate	4	0.944	0.92	0.958	0.978	S+	en:fortunate ≈ fr:faut chaînette ~ fr:faut chenet lis ≈ en:fortunately ~ en:fortunato
+fortunate	4	0.944	0.92	0.958	0.978	S+	en:fortunate ≈ fr:faut chaînette ~ fr:faut chenet lis ≈ en:fortunately ~ fr:fortunato
+fortunately	4	0.944	0.92	0.958	0.978	S+	en:fortunately ≈ fr:faut chenet lis ~ fr:faut chaînette ≈ en:fortunate ~ fr:fortunato
+fastest	3	0.947	0.92	0.957	0.964	S+	en:fastest ≈ fr:fats test ~ fr:fats tes ≈ en:faster
+fastest	4	0.9403	0.92	0.957	0.964	S+	en:fastest ≈ fr:fats test ~ fr:fats tes ≈ en:faster ~ fr:faste
+pieces	5	0.9644	0.92	0.952	1.0	S+	en:pieces ≈ fr:pis aise ~ fr:pi ≈ en:pee = fr:pisse ≈ en:piece
+pieces	6	0.957	0.92	0.952	1.0	S+	en:pieces ≈ fr:pis aise ~ fr:pi ≈ en:pee = fr:pisse ≈ en:piece ~ fr:piece
+setter	3	0.9473	0.92	0.952	0.97	S+	en:setter ≈ fr:synthé ~ fr:synthèse ≈ en:setters
+setter	4	0.9405	0.92	0.952	0.97	S+	en:setter ≈ fr:synthé ~ fr:synthèse ≈ en:setters ~ fr:setter
+himself	3	0.945	0.92	0.949	0.966	S	en:himself ≈ fr:aimes elfes ~ fr:mas elfes ≈ en:myself
+himself	4	0.9372	0.92	0.949	0.96	S	en:himself ≈ fr:aimes elfes ~ fr:ions elfes ≈ en:yourself ~ en:myself
+amended	4	0.9438	0.92	0.945	0.96	S	en:amended ≈ fr:amènent aide ~ fr:aidait aide ≈ en:edited = fr:modifié
+successes	4	0.9357	0.92	0.943	0.96	S	en:successes ≈ fr:secs incise ~ fr:secs ides ≈ en:succeed ~ en:successful
+successes	4	0.9357	0.92	0.943	0.96	S	en:successes ≈ fr:secs incise ~ fr:secs ides ≈ en:succeed ~ en:success
+existed	3	0.9353	0.92	0.943	0.943	S	en:existed ≈ fr:exit aide ~ en:exit art ≈ fr:existantes
+existed	4	0.9315	0.92	0.943	0.943	S	en:existed ≈ fr:exit aide ~ en:exit art ≈ fr:existantes ~ fr:existant
+exit art	4	0.9315	0.92	0.943	0.943	S	en:exit art ≈ fr:existantes ~ en:existed ≈ fr:exit aide ~ en:exit
+exit art	4	0.9315	0.92	0.943	0.943	S	en:exit art ≈ fr:existantes ~ en:existed ≈ fr:exit aide ~ en:exiting
+retailer	3	0.9477	0.92	0.94	0.983	S	en:retailer ≈ fr:rient ailé ~ fr:rient hélas ≈ en:retailers
+plead	6	0.947	0.92	0.94	1.0	S	en:plead = fr:plaider ≈ en:pleader ~ en:plea ≈ fr:pli ~ fr:plisse ≈ en:pleat
+plead	6	0.947	0.92	0.94	1.0	S	en:plead = fr:plaider ≈ en:pleader ~ en:plea ≈ fr:plis ~ fr:plisse ≈ en:pleat
+pleading	6	0.947	0.92	0.94	1.0	S	en:pleading = fr:plaider ≈ en:pleader ~ en:plea ≈ fr:pli ~ fr:plisse ≈ en:pleat
+pleading	6	0.947	0.92	0.94	1.0	S	en:pleading = fr:plaider ≈ en:pleader ~ en:plea ≈ fr:plis ~ fr:plisse ≈ en:pleat
+lender	4	0.9465	0.92	0.94	0.976	S	en:lender ≈ fr:lin des ~ fr:lin dos ≈ en:lenders = fr:prêteurs
+lenders	4	0.9465	0.92	0.94	0.976	S	en:lenders ≈ fr:lin dos ~ fr:lin des ≈ en:lender = fr:prêteurs
+lender	3	0.9453	0.92	0.94	0.976	S	en:lender ≈ fr:lin des ~ fr:lin dos ≈ en:lenders
+lenders	3	0.9453	0.92	0.94	0.976	S	en:lenders ≈ fr:lin dos ~ fr:lin des ≈ en:lender
+pleader	4	0.945	0.92	0.94	1.0	S	en:pleader ~ en:plea ≈ fr:pli ~ fr:plisse ≈ en:pleat
+pleader	4	0.945	0.92	0.94	1.0	S	en:pleader ~ en:plea ≈ fr:plis ~ fr:plisse ≈ en:pleat
+lend	5	0.9412	0.92	0.94	0.976	S	en:lend ~ en:lender ≈ fr:lin des ~ fr:lin dos ≈ en:lenders = fr:prêteurs
+retail	4	0.9407	0.92	0.94	0.983	S	en:retail ~ en:retailer ≈ fr:rient ailé ~ fr:rient hélas ≈ en:retailers
+retail	4	0.9407	0.92	0.94	0.983	S	en:retail ~ en:retailers ≈ fr:rient hélas ~ fr:rient ailé ≈ en:retailer
+retailer	4	0.9407	0.92	0.94	0.983	S	en:retailer ≈ fr:rient ailé ~ fr:rient hélas ≈ en:retailers ~ en:retail
+countries	4	0.94	0.92	0.94	0.95	S	en:countries ≈ fr:khan treize ~ fr:khan tri ≈ en:country = fr:pays
+kindness	4	0.9397	0.92	0.94	0.949	S	en:kindness ≈ fr:cannes noces ~ fr:cannes lis ≈ en:kindly = fr:gentiment
+lend	5	0.9352	0.92	0.94	0.976	S	en:lend ~ en:lender ≈ fr:lin des ~ fr:lin dos ≈ en:lenders ~ fr:prêteurs
+lending	5	0.9352	0.92	0.94	0.976	S	en:lending ~ en:lender ≈ fr:lin des ~ fr:lin dos ≈ en:lenders ~ en:lend
+countries	4	0.9325	0.92	0.94	0.95	S	en:countries ≈ fr:khan treize ~ fr:khan tri ≈ en:country ~ fr:ülker
+classroom	4	0.9323	0.92	0.94	0.949	S	en:classroom ≈ fr:clans rhume ~ fr:clans aise ≈ en:classes ~ fr:classe
+classroom	4	0.9323	0.92	0.94	0.949	S	en:classroom ≈ fr:clans rhume ~ fr:clans aise ≈ en:classes ~ en:clase
+kindness	4	0.9322	0.92	0.94	0.949	S	en:kindness ≈ fr:cannes noces ~ fr:cannes lis ≈ en:kindly ~ fr:gentiment
+register	3	0.9363	0.92	0.934	0.955	S	en:register ≈ fr:raids ester ~ fr:raids stade ≈ en:registered
+registered	3	0.9363	0.92	0.934	0.955	S	en:registered ≈ fr:raids stade ~ fr:raids ester ≈ en:register
+quantities	4	0.936	0.92	0.934	0.94	S	en:quantities ≈ fr:quad dix ~ fr:quad tee ≈ en:quantity = fr:quantités
+quantity	4	0.936	0.92	0.934	0.94	S	en:quantity ≈ fr:quad tee ~ fr:quad dix ≈ en:quantities = fr:quantités
+register	4	0.9323	0.92	0.934	0.955	S	en:register ≈ fr:raids ester ~ fr:raids stade ≈ en:registered ~ en:registrations
+registered	4	0.9323	0.92	0.934	0.955	S	en:registered ≈ fr:raids stade ~ fr:raids ester ≈ en:register ~ en:registrations
+quantities	3	0.9313	0.92	0.934	0.94	S	en:quantities ≈ fr:quad dix ~ fr:quad tee ≈ en:quantity
+quantity	3	0.9313	0.92	0.934	0.94	S	en:quantity ≈ fr:quad tee ~ fr:quad dix ≈ en:quantities
+installed	3	0.932	0.92	0.932	0.944	S	en:installed ≈ fr:haines solde ~ fr:haines taule ≈ en:install
+installed	4	0.929	0.92	0.932	0.944	S	en:installed ≈ fr:haines solde ~ fr:haines taule ≈ en:install ~ fr:installe
+southwest	3	0.9283	0.92	0.932	0.933	S	en:southwest ≈ fr:cent ouest ~ fr:nœud ouest ≈ en:northwest
+northwestern	4	0.9263	0.92	0.932	0.933	S	en:northwestern ~ en:southwest ≈ fr:cent ouest ~ fr:nœud ouest ≈ en:northwest
+southwest	4	0.9263	0.92	0.932	0.933	S	en:southwest ≈ fr:cent ouest ~ fr:nœud ouest ≈ en:northwest ~ fr:northwest
+northwestern	5	0.925	0.92	0.932	0.933	S	en:northwestern ~ en:southwest ≈ fr:cent ouest ~ fr:nœud ouest ≈ en:northwest ~ fr:northwest
+founded	5	0.9338	0.92	0.93	0.949	S	en:founded ~ en:founders ≈ fr:fanent aise ~ fr:fanent in ≈ en:founding = fr:fondatrice
+founders	3	0.933	0.92	0.93	0.949	S	en:founders ≈ fr:fanent aise ~ fr:fanent in ≈ en:founding
+western	6	0.9305	0.92	0.93	0.96	S	en:western ≈ fr:ouais tonnes ~ fr:notais tonnes ≈ en:northwestern ~ en:southwest ≈ fr:cent ouest ~ fr:ouest
+western	6	0.9303	0.92	0.93	0.96	S	en:western ≈ fr:ouais tonnes ~ fr:notais tonnes ≈ en:northwestern ~ en:northwest ≈ fr:nœud ouest ~ fr:ouest
+founded	4	0.9298	0.92	0.93	0.949	S	en:founded ~ en:founders ≈ fr:fanent aise ~ fr:fanent in ≈ en:founding
+founders	4	0.9297	0.92	0.93	0.949	S	en:founders ≈ fr:fanent aise ~ fr:fanent in ≈ en:founding ~ en:founded
+foresee	3	0.9297	0.92	0.929	0.94	S	en:foresee ≈ fr:foncé ~ fr:fonceuse ≈ en:foresees
+foresees	3	0.9297	0.92	0.929	0.94	S	en:foresees ≈ fr:fonceuse ~ fr:foncé ≈ en:foresee
+foresaw	4	0.9273	0.92	0.929	0.94	S	en:foresaw ~ en:foresees ≈ fr:fonceuse ~ fr:foncé ≈ en:foresee
+foresees	4	0.9273	0.92	0.929	0.94	S	en:foresees ≈ fr:fonceuse ~ fr:foncé ≈ en:foresee ~ en:foretold
+foresaw	4	0.9272	0.92	0.929	0.94	S	en:foresaw ~ en:foresee ≈ fr:foncé ~ fr:fonceuse ≈ en:foresees
+foresee	4	0.9272	0.92	0.929	0.94	S	en:foresee ≈ fr:foncé ~ fr:fonceuse ≈ en:foresees ~ en:foreseeable
+protector	4	0.9252	0.92	0.921	0.94	S	en:protector ≈ fr:prêt excès ~ fr:prêt excède ≈ en:protection ~ fr:schutz
+protector	4	0.9252	0.92	0.921	0.94	S	en:protector ≈ fr:prêt excès ~ fr:prêt excède ≈ en:protection ~ en:schutz
+possession	4	0.9345	0.918	0.918	0.98	S	en:possession ≈ fr:paix échine ~ fr:paix est ≈ en:possessed ~ en:possesses
+possession	4	0.9345	0.918	0.918	0.98	S	en:possession ≈ fr:paix échine ~ fr:paix est ≈ en:possessed ~ en:possessory
+extensively	3	0.9243	0.917	0.917	0.936	S	en:extensively ≈ fr:axent haines flux ~ fr:axent haines ive ≈ en:extensive
+extensively	4	0.9233	0.917	0.917	0.936	S	en:extensively ≈ fr:axent haines flux ~ fr:axent haines ive ≈ en:extensive ~ fr:extensive
+traders	3	0.9237	0.916	0.916	0.935	S	en:traders ≈ fr:trait aise ~ fr:trait in ≈ en:trading
+traders	4	0.9227	0.916	0.916	0.935	S	en:traders ≈ fr:trait aise ~ fr:trait in ≈ en:trading ~ fr:trading
+trading	4	0.9227	0.916	0.916	0.935	S	en:trading ≈ fr:trait in ~ fr:trait aise ≈ en:traders ~ fr:trader
+trading	4	0.9227	0.916	0.916	0.935	S	en:trading ≈ fr:trait in ~ fr:trait aise ≈ en:traders ~ en:trader
+oldest	4	0.921	0.915	0.915	0.929	S	en:oldest ≈ fr:elles est ~ fr:elles aise ≈ en:elders ~ en:elder
+oldest	4	0.921	0.915	0.915	0.929	S	en:oldest ≈ fr:elles est ~ fr:elles aise ≈ en:elders ~ fr:âgées
+extend	4	0.9168	0.906	0.906	0.921	S	en:extend ~ en:extended ≈ fr:axent haines aide ~ fr:axent haines in ≈ en:extending
+extend	4	0.9167	0.906	0.906	0.921	S	en:extend ~ en:extending ≈ fr:axent haines in ~ fr:axent haines aide ≈ en:extended
+extending	4	0.9167	0.906	0.906	0.921	S	en:extending ≈ fr:axent haines in ~ fr:axent haines aide ≈ en:extended ~ en:extends
+extending	3	0.9157	0.906	0.906	0.921	S	en:extending ≈ fr:axent haines in ~ fr:axent haines aide ≈ en:extended
+secondary	4	0.914	0.903	0.903	0.913	S	en:secondary ≈ fr:déconnent ri ~ fr:déconnent lis ≈ en:secondly ~ en:secondment
+secondary	4	0.914	0.903	0.903	0.913	S	en:secondary ≈ fr:déconnent ri ~ fr:déconnent lis ≈ en:secondly ~ fr:segundo
+order	4	0.933	0.892	0.892	1.0	A+	en:order ≈ fr:hordes ~ fr:horde ≈ en:ordered ~ fr:ordre
+order	4	0.933	0.892	0.892	1.0	A+	en:order ≈ fr:horde ~ fr:hordes ≈ en:ordered ~ fr:ordre
+stress	4	0.9305	0.882	0.882	1.0	A+	en:stress ≈ fr:stresse ~ fr:stress ≈ en:stressed ~ fr:stressé
+stress	4	0.9305	0.882	0.882	1.0	A+	en:stress ≈ fr:stresse ~ fr:stress ≈ en:stressed ~ en:stresa
+stressful	5	0.9284	0.882	0.882	1.0	A+	en:stressful ~ fr:stresse ≈ en:stress ~ fr:stress ≈ en:stressed ~ fr:stressé
+stressful	5	0.9284	0.882	0.882	1.0	A+	en:stressful ~ fr:stresse ≈ en:stress ~ fr:stress ≈ en:stressed ~ fr:stressant
+correct	5	0.9044	0.881	0.881	0.881	A+	en:correct ~ en:correctly ≈ fr:corrects lies ~ fr:exacts lies ≈ en:exactly ~ fr:exact
+purely	5	0.9044	0.881	0.881	0.881	A+	en:purely ~ en:strictly ≈ fr:strictes lies ~ fr:exacts lies ≈ en:exactly ~ en:precisely
+technique	3	0.93	0.87	0.87	1.0	A+	en:technique ≈ fr:techniques ~ en:techniques ≈ fr:technique
+technique	3	0.93	0.87	0.87	1.0	A+	en:technique ≈ fr:techniques ~ fr:technique ≈ en:techniques
+expressing	4	0.9247	0.87	0.87	0.959	A+	en:expressing ≈ fr:exprès in ~ fr:exprès ≈ en:express = fr:exprimer
+sketch	3	0.9233	0.85	0.85	1.0	A+	en:sketch ≈ fr:sketchs ~ en:sketches ≈ fr:sketch
+sketch	3	0.9233	0.85	0.85	1.0	A+	en:sketch ≈ fr:sketchs ~ fr:sketch ≈ en:sketches
+streak	3	0.9233	0.85	0.85	1.0	A+	en:streak ≈ fr:stricte ~ fr:strict ≈ en:streaked
+streaked	3	0.9233	0.85	0.85	1.0	A+	en:streaked ≈ fr:strict ~ fr:stricte ≈ en:streak
+streaked	3	0.9233	0.85	0.85	1.0	A+	en:streaked ≈ fr:strict ~ fr:strictes ≈ en:streak
+strict	4	0.9125	0.85	0.85	0.96	A+	en:strict ~ fr:strict ≈ en:streaks ~ en:streak ≈ fr:strictes
+strict	4	0.9125	0.85	0.85	0.96	A+	en:strict ~ fr:strict ≈ en:streaks ~ en:streak ≈ fr:stricte
+streak	3	0.91	0.85	0.85	0.96	A+	en:streak ≈ fr:stricte ~ fr:strict ≈ en:streaks
+streaks	3	0.91	0.85	0.85	0.96	A+	en:streaks ≈ fr:strict ~ fr:stricte ≈ en:streak
+streaks	3	0.91	0.85	0.85	0.96	A+	en:streaks ≈ fr:strict ~ fr:strictes ≈ en:streak
+expression	4	0.8885	0.842	0.842	0.842	A	en:expression ~ fr:expressions ≈ en:express = fr:expresse ≈ en:expressing
+expression	4	0.881	0.842	0.842	0.842	A	en:expression ~ fr:expressions ≈ en:express ~ fr:expresse ≈ en:expressing
+roles	4	0.9183	0.833	0.833	1.0	A	en:roles ~ en:role ≈ fr:roll ~ en:roll ≈ fr:rôles
+roles	4	0.9183	0.833	0.833	1.0	A	en:roles ~ en:role ≈ fr:roll ~ en:roll ≈ fr:rôle
+rolls	4	0.9183	0.833	0.833	1.0	A	en:rolls ~ fr:roll ≈ en:role ~ fr:rôle ≈ en:roll
+rolls	4	0.9183	0.833	0.833	1.0	A	en:rolls ~ fr:roll ≈ en:role ~ fr:rôles ≈ en:roll
+role	3	0.9177	0.833	0.833	1.0	A	en:role ≈ fr:roll ~ en:roll ≈ fr:rôles
+role	3	0.9177	0.833	0.833	1.0	A	en:role ≈ fr:roll ~ en:roll ≈ fr:rôle
+masses	4	0.8765	0.833	0.833	0.833	A	en:masses ~ fr:masses ≈ en:mouse ~ en:mice ≈ fr:masse
+masses	4	0.8765	0.833	0.833	0.833	A	en:masses ~ fr:masse ≈ en:mouse ~ en:mice ≈ fr:masses
+exploration	5	0.9022	0.832	0.832	0.889	A	en:exploration ~ en:exploring ≈ fr:explorer ~ en:explorer ≈ fr:exploré = en:explored
+exploration	5	0.9016	0.832	0.832	0.886	A	en:exploration ~ en:exploring ≈ fr:explorer ~ en:explorer ≈ fr:explore = en:explores
+explored	4	0.8977	0.832	0.832	0.889	A	en:explored = fr:exploré ≈ en:explorer ~ fr:explorer ≈ en:exploring
+explore	4	0.897	0.832	0.832	0.886	A	en:explore ~ fr:explore ≈ en:explorer = fr:explorer ≈ en:exploring
+explorer	3	0.8903	0.832	0.832	0.889	A	en:explorer ≈ fr:exploré = en:explored ≈ fr:explore
+explore	4	0.8895	0.832	0.832	0.886	A	en:explore ~ fr:explore ≈ en:explorer ~ fr:explorer ≈ en:exploring
+explorer	3	0.8793	0.832	0.832	0.886	A	en:explorer ≈ fr:explore ~ en:exploring ≈ fr:explorer
+lord	3	0.924	0.822	0.822	1.0	A	en:lord ≈ fr:lords = en:lords ≈ fr:lord
+lording	4	0.923	0.822	0.822	1.0	A	en:lording ~ fr:lords ≈ en:lord = fr:lord ≈ en:lords
+troupe	4	0.923	0.822	0.822	1.0	A	en:troupe = fr:troupe ≈ en:troop ~ en:troops ≈ fr:troupes
+checks	5	0.9224	0.822	0.822	1.0	A	en:checks ~ en:check ≈ fr:tchèques ~ fr:tchèque ≈ en:checked = fr:vérifiés
+checks	5	0.9224	0.822	0.822	1.0	A	en:checks ~ en:check ≈ fr:tchèque ~ fr:tchèques ≈ en:checked = fr:vérifiés
+gin	5	0.9164	0.822	0.822	1.0	A	en:gin ~ fr:gins ≈ en:gene ~ en:genes ≈ fr:gin ~ fr:gin dôme
+proof	5	0.9164	0.822	0.822	1.0	A	en:proof ~ fr:prouve ≈ en:prove ~ en:proves ≈ fr:prouvent ~ fr:prouver
+testers	5	0.9164	0.822	0.822	1.0	A	en:testers ~ fr:testes ≈ en:test ~ fr:test ≈ en:tests ~ en:testes
+testers	5	0.9164	0.822	0.822	1.0	A	en:testers ~ fr:testes ≈ en:test ~ fr:teste ≈ en:tests ~ en:testes
+testes	5	0.9164	0.822	0.822	1.0	A	en:testes ~ fr:testes ≈ en:test ~ fr:test ≈ en:tests ~ en:testi
+testes	5	0.9164	0.822	0.822	1.0	A	en:testes ~ fr:testes ≈ en:test ~ fr:test ≈ en:tests ~ fr:testi
+testis	5	0.9164	0.822	0.822	1.0	A	en:testis ~ fr:testes ≈ en:test ~ fr:test ≈ en:tests ~ en:testes
+testis	5	0.9164	0.822	0.822	1.0	A	en:testis ~ fr:testes ≈ en:test ~ fr:test ≈ en:tests ~ en:testi
+gin	4	0.9155	0.822	0.822	1.0	A	en:gin ~ fr:gins ≈ en:gene ~ en:genes ≈ fr:gin
+lording	4	0.9155	0.822	0.822	1.0	A	en:lording ~ fr:lords ≈ en:lord ~ fr:lord ≈ en:lords
+proof	4	0.9155	0.822	0.822	1.0	A	en:proof ~ fr:prouve ≈ en:proves ~ fr:prouvent ≈ en:prove
+proves	4	0.9155	0.822	0.822	1.0	A	en:proves ~ en:prove ≈ fr:prouvent ~ fr:prouve ≈ en:proved
+proves	4	0.9155	0.822	0.822	1.0	A	en:proves ~ en:prove ≈ fr:prouve ~ fr:prouvent ≈ en:proved
+spot	4	0.9155	0.822	0.822	1.0	A	en:spot ~ fr:spot ≈ en:sport ~ en:sports ≈ fr:spots
+spot	4	0.9155	0.822	0.822	1.0	A	en:spot ~ fr:spots ≈ en:sport ~ en:sports ≈ fr:spot
+stole	4	0.9155	0.822	0.822	1.0	A	en:stole ~ en:steal ≈ fr:styles ~ fr:style ≈ en:steals
+stole	4	0.9155	0.822	0.822	1.0	A	en:stole ~ en:steal ≈ fr:style ~ fr:styles ≈ en:steals
+style	4	0.9155	0.822	0.822	1.0	A	en:style ~ fr:style ≈ en:steal ~ en:steals ≈ fr:styles
+style	4	0.9155	0.822	0.822	1.0	A	en:style ~ fr:styles ≈ en:steal ~ en:steals ≈ fr:style
+testing	4	0.9155	0.822	0.822	1.0	A	en:testing ~ en:test ≈ fr:tests ~ en:tests ≈ fr:teste
+testing	4	0.9155	0.822	0.822	1.0	A	en:testing ~ en:test ≈ fr:tests ~ en:tests ≈ fr:test
+troupe	4	0.9155	0.822	0.822	1.0	A	en:troupe ~ fr:troupe ≈ en:troop ~ en:troops ≈ fr:troupes
+treat esse	4	0.9145	0.822	0.822	0.966	A	en:treat esse ≈ fr:tristesse ~ fr:triste ≈ en:treat = fr:traitez
+check	3	0.914	0.822	0.822	1.0	A	en:check ≈ fr:tchèques ~ fr:tchèque ≈ en:checked
+check	3	0.914	0.822	0.822	1.0	A	en:check ≈ fr:tchèques ~ fr:tchèque ≈ en:checks
+group	3	0.914	0.822	0.822	1.0	A	en:group ≈ fr:groupes ~ en:groups ≈ fr:groupe
+group	3	0.914	0.822	0.822	1.0	A	en:group ≈ fr:groupes ~ en:groups ≈ fr:group
+lord	3	0.914	0.822	0.822	1.0	A	en:lord ≈ fr:lords ~ en:lords ≈ fr:lord
+prove	3	0.914	0.822	0.822	1.0	A	en:prove ≈ fr:prouvent ~ fr:prouve ≈ en:proves
+prove	3	0.914	0.822	0.822	1.0	A	en:prove ≈ fr:prouve ~ fr:prouvent ≈ en:proves
+sport	3	0.914	0.822	0.822	1.0	A	en:sport ≈ fr:spots ~ fr:spot ≈ en:sports
+sport	3	0.914	0.822	0.822	1.0	A	en:sport ≈ fr:spot ~ fr:spots ≈ en:sports
+steal	3	0.914	0.822	0.822	1.0	A	en:steal ≈ fr:styles ~ fr:style ≈ en:steals
+steal	3	0.914	0.822	0.822	1.0	A	en:steal ≈ fr:style ~ fr:styles ≈ en:steals
+test	3	0.914	0.822	0.822	1.0	A	en:test ≈ fr:tests ~ en:tests ≈ fr:teste
+test	3	0.914	0.822	0.822	1.0	A	en:test ≈ fr:tests ~ en:tests ≈ fr:test
+troop	3	0.914	0.822	0.822	1.0	A	en:troop ≈ fr:troupe ~ fr:troupes ≈ en:troops
+treat esse	4	0.907	0.822	0.822	0.966	A	en:treat esse ≈ fr:tristesse ~ fr:triste ≈ en:treat ~ en:treating
+spreading	4	0.9055	0.822	0.822	0.93	A	en:spreading ≈ fr:sprays in ~ fr:spray ≈ en:spread = fr:propagation
+expressing	3	0.9003	0.822	0.822	0.959	A	en:expressing ≈ fr:exprès in ~ fr:exprès ≈ en:expressed
+techniques	5	0.8986	0.822	0.822	0.881	A	en:techniques ~ en:technique ≈ fr:techniquement = en:technically ≈ fr:techniques lies ~ fr:techniques
+techniques	5	0.8986	0.822	0.822	0.881	A	en:techniques ~ en:technique ≈ fr:techniquement = en:technically ≈ fr:techniques lies ~ fr:technique
+spreading	3	0.8907	0.822	0.822	0.93	A	en:spreading ≈ fr:sprays in ~ fr:spray ≈ en:spread
+tested	5	0.8868	0.822	0.822	0.822	A	en:tested = fr:testés ≈ en:test ~ fr:test ≈ en:tests ~ fr:teste
+technically	5	0.8826	0.822	0.822	0.881	A	en:technically ≈ fr:techniques lies ~ en:techniques ≈ fr:technique ~ en:technique ≈ fr:techniquement
+sexed	4	0.8785	0.822	0.822	0.822	A	en:sexed ~ en:sex ≈ fr:sexy = en:sexy ≈ fr:sexe
+sext	4	0.8785	0.822	0.822	0.822	A	en:sext ~ en:sex ≈ fr:sexy = en:sexy ≈ fr:sexe
+explored	4	0.876	0.822	0.822	0.842	A	en:explored ~ en:exploring ≈ fr:explore ~ en:explore ≈ fr:exploré
+technically	3	0.8743	0.822	0.822	0.881	A	en:technically ≈ fr:techniques lies ~ en:technique ≈ fr:techniquement
+sexed	4	0.871	0.822	0.822	0.822	A	en:sexed ~ en:sex ≈ fr:sexy ~ en:sexy ≈ fr:sexe
+sext	4	0.871	0.822	0.822	0.822	A	en:sext ~ en:sex ≈ fr:sexy ~ en:sexy ≈ fr:sexe
+class	5	0.9102	0.821	0.821	0.94	A	en:class ~ en:classes ≈ fr:clans aise ~ fr:clans sis ≈ en:classy = fr:classe
+classes	4	0.9078	0.821	0.821	0.94	A	en:classes ≈ fr:clans aise ~ fr:clans sis ≈ en:classy = fr:classe
+class	5	0.9042	0.821	0.821	0.94	A	en:class ~ en:classes ≈ fr:clans aise ~ fr:clans sis ≈ en:classy ~ fr:classe
+classes	4	0.9002	0.821	0.821	0.94	A	en:classes ≈ fr:clans aise ~ fr:clans sis ≈ en:classy ~ fr:classe
+exploring	5	0.8868	0.812	0.812	0.832	A	en:exploring ~ en:explored ≈ fr:explosent ~ fr:explose ≈ en:explore = fr:explorer
+explode	5	0.8808	0.812	0.812	0.832	A	en:explode ~ fr:explose ≈ en:explore ~ en:explored ≈ fr:explosent ~ fr:exploser
+explode	5	0.8808	0.812	0.812	0.832	A	en:explode ~ fr:explose ≈ en:explore ~ en:explored ≈ fr:explosent ~ fr:explosé
+exploring	5	0.8808	0.812	0.812	0.832	A	en:exploring ~ en:explored ≈ fr:explosent ~ fr:explose ≈ en:explore ~ en:explores
+rule	4	0.9175	0.8	0.8	1.0	A	en:rule ≈ fr:roule ~ fr:roulé ≈ en:ruler = fr:règle
+streams	4	0.859	0.798	0.798	0.798	B	en:streams ~ fr:stream ≈ en:strip ~ fr:strip ≈ en:stream
+streams	4	0.859	0.798	0.798	0.798	B	en:streams ~ en:stream ≈ fr:strip ~ en:strip ≈ fr:stream
+stripped	4	0.859	0.798	0.798	0.798	B	en:stripped ~ fr:strip ≈ en:stream ~ fr:stream ≈ en:strip
+stripped	4	0.859	0.798	0.798	0.798	B	en:stripped ~ en:strip ≈ fr:stream ~ en:stream ≈ fr:strip
+strips	4	0.859	0.798	0.798	0.798	B	en:strips ~ en:strip ≈ fr:stream ~ en:stream ≈ fr:strip
+strips	4	0.859	0.798	0.798	0.798	B	en:strips ~ fr:strip ≈ en:stream ~ fr:stream ≈ en:strip
+excluded	4	0.892	0.795	0.795	0.933	B	en:excluded ~ en:excluding ≈ fr:exclus in ~ fr:exclues ≈ en:exclude
+excluded	4	0.892	0.795	0.795	0.933	B	en:excluded ~ en:excluding ≈ fr:exclus in ~ fr:exclus ≈ en:exclude
+exclusion	3	0.8873	0.795	0.795	0.947	B	en:exclusion ≈ fr:exclus haine ~ en:exclude ≈ fr:exclus
+exclusion	3	0.8873	0.795	0.795	0.947	B	en:exclusion ≈ fr:exclus haine ~ en:exclude ≈ fr:exclues
+exports	5	0.8868	0.795	0.795	0.849	B	en:exports ~ fr:exporte ≈ en:expert ~ fr:experte ≈ en:export = fr:exportations
+exports	5	0.8808	0.795	0.795	0.849	B	en:exports ~ fr:exporte ≈ en:expert ~ fr:experte ≈ en:export ~ fr:exportés
+masque	3	0.9043	0.793	0.793	0.97	B	en:masque ≈ fr:masque = en:mask ≈ fr:masques
+sketches	4	0.8605	0.792	0.792	0.81	B	en:sketches ~ en:sketch ≈ fr:scotch ~ en:scotch ≈ fr:sketch
+sketches	4	0.8605	0.792	0.792	0.81	B	en:sketches ~ fr:sketch ≈ en:scotch ~ fr:scotch ≈ en:sketch
+platforms	3	0.8723	0.786	0.786	0.881	B	en:platforms ≈ fr:plateformes = en:platform ≈ fr:plateforme
+sheered	5	0.8676	0.786	0.786	0.792	B	en:sheered ~ en:sharply ≈ fr:chie pli ~ fr:chie ≈ en:sheer ~ fr:sévèrement
+platforms	3	0.8623	0.786	0.786	0.881	B	en:platforms ≈ fr:plateforme ~ en:platform ≈ fr:plateformes
+sheered	4	0.8545	0.786	0.786	0.792	B	en:sheered ~ en:sharply ≈ fr:chie pli ~ fr:chie ≈ en:sheer
+strings	4	0.853	0.786	0.786	0.786	B	en:strings ~ fr:string ≈ en:stream ~ fr:stream ≈ en:string
+strings	4	0.853	0.786	0.786	0.786	B	en:strings ~ en:string ≈ fr:stream ~ en:stream ≈ fr:string
+flues	6	0.9342	0.785	0.785	1.0	B	en:flues ≈ fr:flouze ~ fr:flou ≈ en:flu = fr:grippe ≈ en:creep = fr:fluage
+jinn	5	0.926	0.785	0.785	1.0	B	en:jinn ≈ fr:gin ~ en:gin ≈ fr:jean = en:jean ≈ fr:djinns
+piece	5	0.925	0.785	0.785	1.0	B	en:piece ≈ fr:pisses ~ en:pissed ≈ fr:piste ~ fr:pistent ≈ en:pieced
+piece	5	0.925	0.785	0.785	1.0	B	en:piece ≈ fr:pisses ~ en:pissed ≈ fr:pistes ~ fr:pistent ≈ en:pieced
+piste	6	0.9242	0.785	0.785	1.0	B	en:piste ~ fr:pistent ≈ en:pieced ~ en:piece ≈ fr:pisses ~ en:pissed ≈ fr:piste
+piste	6	0.9242	0.785	0.785	1.0	B	en:piste ~ fr:piste ≈ en:pissed ~ fr:pisse ≈ en:piece ~ en:pieced ≈ fr:pistent
+track	5	0.921	0.785	0.785	1.0	B	en:track = fr:piste ≈ en:pissed ~ fr:pisse ≈ en:piece = fr:morceau
+jinn	5	0.92	0.785	0.785	1.0	B	en:jinn ≈ fr:gin ~ en:gin ≈ fr:jean ~ en:jean ≈ fr:djinns
+crass	6	0.9167	0.785	0.785	0.985	B	en:crass ≈ fr:crasse ~ en:cruck ≈ fr:crack ~ en:crack ≈ fr:craque ~ en:crepe
+crass	6	0.9167	0.785	0.785	0.985	B	en:crass ≈ fr:crasse ~ en:cruck ≈ fr:crack ~ en:crack ≈ fr:craque ~ en:cric
+cruet	5	0.909	0.785	0.785	0.97	B	en:cruet ~ en:cruck ≈ fr:crack = en:crack ≈ fr:craque ~ en:cric
+clique	4	0.9062	0.785	0.785	1.0	B	en:clique ≈ fr:clic ~ en:click ≈ fr:clique ~ fr:cliques
+treaty	5	0.9054	0.785	0.785	0.952	B	en:treaty = fr:traité ≈ en:treater ~ en:pact ≈ fr:pacte ~ fr:pact
+treaty	5	0.9054	0.785	0.785	0.952	B	en:treaty = fr:traité ≈ en:treater ~ en:pact ≈ fr:pacte ~ fr:pactes
+cruet	5	0.903	0.785	0.785	0.97	B	en:cruet ~ en:cruck ≈ fr:crack ~ en:crack ≈ fr:craque ~ en:cric
+clique	3	0.9017	0.785	0.785	1.0	B	en:clique ≈ fr:clic ~ en:click ≈ fr:clique
+jean	3	0.9017	0.785	0.785	1.0	B	en:jean ≈ fr:gin ~ en:gin ≈ fr:jean
+jean	3	0.9017	0.785	0.785	1.0	B	en:jean ≈ fr:gins ~ en:gin ≈ fr:jean
+cruck	4	0.8988	0.785	0.785	0.97	B	en:cruck ≈ fr:crack ~ en:crack ≈ fr:craque ~ en:crepe
+cruck	4	0.8988	0.785	0.785	0.97	B	en:cruck ≈ fr:crack ~ en:crack ≈ fr:craque ~ en:cric
+speed	5	0.897	0.785	0.785	0.94	B	en:speed ~ fr:speed ≈ en:sped ~ fr:faste ≈ en:faster ~ en:speeder
+textbooks	4	0.893	0.785	0.785	0.947	B	en:textbooks ≈ fr:taxent box ~ fr:boxe ≈ en:books ~ fr:books
+textbooks	3	0.884	0.785	0.785	0.947	B	en:textbooks ≈ fr:taxent box ~ fr:boxe ≈ en:books
+close	4	0.854	0.785	0.785	0.791	B	en:close ~ fr:close ≈ en:clause ~ fr:clause ≈ en:closes
+close	4	0.854	0.785	0.785	0.791	B	en:close ~ fr:close ≈ en:clause ~ fr:clauses ≈ en:closes
+closed	4	0.854	0.785	0.785	0.791	B	en:closed ~ en:closes ≈ fr:clause ~ en:clause ≈ fr:closes
+closing	4	0.854	0.785	0.785	0.791	B	en:closing ~ en:closes ≈ fr:clause ~ en:clause ≈ fr:closes
+proved	4	0.8612	0.783	0.783	0.822	B	en:proved ~ en:proves ≈ fr:prouve ~ fr:prouvant ≈ en:proven
+proved	4	0.8612	0.783	0.783	0.822	B	en:proved ~ en:proves ≈ fr:prouvent ~ fr:prouvant ≈ en:proven
+genes	5	0.9084	0.782	0.782	1.0	B	en:genes ~ en:gene ≈ fr:gins ~ fr:gin dôme ≈ en:genome ~ fr:gènes
+genes	5	0.9084	0.782	0.782	1.0	B	en:genes ~ en:gene ≈ fr:gin ~ fr:gin dôme ≈ en:genome ~ fr:gènes
+gene	4	0.9055	0.782	0.782	1.0	B	en:gene ≈ fr:gins ~ fr:gin dôme ≈ en:genome ~ fr:gènes
+gene	4	0.9055	0.782	0.782	1.0	B	en:gene ≈ fr:gin ~ fr:gin dôme ≈ en:genome ~ fr:gènes
+red	6	0.9285	0.781	0.781	1.0	B	en:red ≈ fr:raid ~ fr:raids ≈ en:reds = fr:rouges ≈ en:rouge ~ fr:rouge
+tel	5	0.9242	0.781	0.781	1.0	B	en:tel ≈ fr:telles ~ fr:telle ≈ en:tell ~ en:tells ≈ fr:tels
+tel	5	0.9242	0.781	0.781	1.0	B	en:tel ≈ fr:telle ~ fr:telles ≈ en:tell ~ en:tells ≈ fr:tels
+tell	5	0.9242	0.781	0.781	1.0	B	en:tell ≈ fr:telles ~ fr:telle ≈ en:tel ~ fr:tels ≈ en:tells
+tell	5	0.9242	0.781	0.781	1.0	B	en:tell ≈ fr:telle ~ fr:telles ≈ en:tel ~ fr:tels ≈ en:tells
+telly	6	0.9235	0.781	0.781	1.0	B	en:telly ~ en:tell ≈ fr:telles ~ fr:telle ≈ en:tel ~ fr:tels ≈ en:tells
+telly	6	0.9235	0.781	0.781	1.0	B	en:telly ~ en:tell ≈ fr:telle ~ fr:telles ≈ en:tel ~ fr:tels ≈ en:tells
+buddy	5	0.9202	0.781	0.781	1.0	B	en:buddy = fr:pote ≈ en:port ~ en:ports ≈ fr:potes = en:buddies
+buddy	5	0.9202	0.781	0.781	1.0	B	en:buddy = fr:pote ≈ en:ports ~ en:port ≈ fr:potes = en:buddies
+dicks	5	0.9202	0.781	0.781	1.0	B	en:dicks = fr:bites ≈ en:beats ~ en:beat ≈ fr:bite = en:dick
+pal	5	0.9202	0.781	0.781	1.0	B	en:pal = fr:pote ≈ en:port ~ en:ports ≈ fr:potes = en:pals
+pal	5	0.9202	0.781	0.781	1.0	B	en:pal = fr:pote ≈ en:ports ~ en:port ≈ fr:potes = en:pals
+penalties	5	0.9202	0.781	0.781	1.0	B	en:penalties = fr:peines ≈ en:pens ~ en:pen ≈ fr:peine = en:penalty
+road	5	0.9202	0.781	0.781	1.0	B	en:road = fr:route ≈ en:routes ~ en:route ≈ fr:routes = en:roads
+fell	5	0.9142	0.781	0.781	1.0	B	en:fell ~ en:falls ≈ fr:folles ~ fr:folle ≈ en:fall = fr:fall
+fleet	5	0.9142	0.781	0.781	0.97	B	en:fleet = fr:flotte ≈ en:floored ~ en:floor ≈ fr:flottes = en:fleets
+glue	5	0.9142	0.781	0.781	1.0	B	en:glue = fr:colle ≈ en:call ~ en:calls ≈ fr:collent ~ fr:colles
+glue	5	0.9142	0.781	0.781	1.0	B	en:glue = fr:colle ≈ en:calls ~ en:call ≈ fr:collent ~ fr:colles
+quote	5	0.9142	0.781	0.781	1.0	B	en:quote ~ fr:quote ≈ en:court ~ en:courts ≈ fr:cotes = en:quotes
+quote	5	0.9142	0.781	0.781	1.0	B	en:quote ~ fr:quote ≈ en:courts ~ en:court ≈ fr:cotes = en:quotes
+website	5	0.9142	0.781	0.781	1.0	B	en:website ~ fr:site ≈ en:seats ~ en:seat ≈ fr:sites = en:websites
+crowd	4	0.9128	0.781	0.781	1.0	B	en:crowd = fr:foule ≈ en:fool ~ en:fools ≈ fr:foules
+quotes	4	0.9128	0.781	0.781	1.0	B	en:quotes = fr:cotes ≈ en:court ~ en:courts ≈ fr:quote
+this	4	0.9128	0.781	0.781	1.0	B	en:this = fr:cet ≈ en:set ~ en:sets ≈ fr:cette
+bit	4	0.9127	0.781	0.781	1.0	B	en:bit = fr:bits ≈ en:beats ~ en:beat ≈ fr:bit
+quotes	4	0.9127	0.781	0.781	1.0	B	en:quotes = fr:cotes ≈ en:courts ~ en:court ≈ fr:quote
+red	4	0.9127	0.781	0.781	1.0	B	en:red ≈ fr:raid ~ fr:raids ≈ en:reds = fr:rouges
+root	4	0.9127	0.781	0.781	1.0	B	en:root ≈ fr:routes ~ fr:route ≈ en:roots = fr:racines
+root	4	0.9127	0.781	0.781	1.0	B	en:root ≈ fr:routes ~ fr:route ≈ en:roots = fr:racine
+letters	6	0.9112	0.781	0.781	0.976	B	en:letters ≈ fr:laid aise ~ fr:laid in ≈ en:letting ~ en:let ≈ fr:lettres ~ en:letras
+letters	5	0.9094	0.781	0.781	0.976	B	en:letters ≈ fr:laid aise ~ fr:laid in ≈ en:letting ~ en:let ≈ fr:lettres
+beater	5	0.9082	0.781	0.781	1.0	B	en:beater ~ en:beat ≈ fr:bites ~ fr:bite ≈ en:beats ~ fr:beat
+beater	5	0.9082	0.781	0.781	1.0	B	en:beater ~ en:beat ≈ fr:bite ~ fr:bites ≈ en:beats ~ fr:beat
+beaters	5	0.9082	0.781	0.781	1.0	B	en:beaters ~ en:beat ≈ fr:bites ~ fr:bite ≈ en:beats ~ fr:beat
+beaters	5	0.9082	0.781	0.781	1.0	B	en:beaters ~ en:beat ≈ fr:bite ~ fr:bites ≈ en:beats ~ fr:beat
+beating	5	0.9082	0.781	0.781	1.0	B	en:beating ~ en:beat ≈ fr:bites ~ fr:bite ≈ en:beats ~ fr:beat
+beating	5	0.9082	0.781	0.781	1.0	B	en:beating ~ en:beat ≈ fr:bite ~ fr:bites ≈ en:beats ~ fr:beat
+court arse	5	0.9082	0.781	0.781	1.0	B	en:court arse ~ en:court ≈ fr:cotes ~ fr:cote ≈ en:courts ~ fr:court
+court arse	5	0.9082	0.781	0.781	1.0	B	en:court arse ~ en:court ≈ fr:cote ~ fr:cotes ≈ en:courts ~ fr:court
+fell	5	0.9082	0.781	0.781	1.0	B	en:fell ~ en:falls ≈ fr:folles ~ fr:folle ≈ en:fall ~ fr:fall
+fleet	5	0.9082	0.781	0.781	0.97	B	en:fleet = fr:flotte ≈ en:floored ~ en:floor ≈ fr:flottes ~ en:flota
+meetly	5	0.9082	0.781	0.781	1.0	B	en:meetly ~ en:meet ≈ fr:mythe ~ fr:mythes ≈ en:meets ~ fr:rencontrez
+rode	5	0.9082	0.781	0.781	1.0	B	en:rode ~ fr:ride ≈ en:read ~ en:reads ≈ fr:rides ~ en:rides
+rode	5	0.9082	0.781	0.781	1.0	B	en:rode ~ fr:ride ≈ en:read ~ en:reads ≈ fr:rides ~ en:ride
+rooter	5	0.9082	0.781	0.781	1.0	B	en:rooter ~ en:root ≈ fr:routes ~ fr:route ≈ en:roots ~ fr:rooth
+rooter	5	0.9082	0.781	0.781	1.0	B	en:rooter ~ en:root ≈ fr:routes ~ fr:route ≈ en:roots ~ en:rooth
+rooters	5	0.9082	0.781	0.781	1.0	B	en:rooters ~ en:root ≈ fr:routes ~ fr:route ≈ en:roots ~ fr:rooth
+rooters	5	0.9082	0.781	0.781	1.0	B	en:rooters ~ en:root ≈ fr:routes ~ fr:route ≈ en:roots ~ en:rooth
+rooting	5	0.9082	0.781	0.781	1.0	B	en:rooting ~ en:root ≈ fr:routes ~ fr:route ≈ en:roots ~ fr:rooth
+rooting	5	0.9082	0.781	0.781	1.0	B	en:rooting ~ en:root ≈ fr:routes ~ fr:route ≈ en:roots ~ en:rooth
+website	5	0.9082	0.781	0.781	1.0	B	en:website ~ fr:site ≈ en:seats ~ en:seat ≈ fr:sites ~ en:websites
+bit	4	0.9052	0.781	0.781	1.0	B	en:bit ~ fr:bits ≈ en:beats ~ en:beat ≈ fr:bit
+bite	4	0.9052	0.781	0.781	1.0	B	en:bite ~ fr:bite ≈ en:beats ~ en:beat ≈ fr:bites
+bite	4	0.9052	0.781	0.781	1.0	B	en:bite ~ fr:bite ≈ en:beats ~ en:beat ≈ fr:bittent
+caller	4	0.9052	0.781	0.781	1.0	B	en:caller ~ en:call ≈ fr:colle ~ fr:collent ≈ en:calls
+caller	4	0.9052	0.781	0.781	1.0	B	en:caller ~ en:call ≈ fr:cols ~ fr:colle ≈ en:calls
+callers	4	0.9052	0.781	0.781	1.0	B	en:callers ~ en:call ≈ fr:colle ~ fr:collent ≈ en:calls
+callers	4	0.9052	0.781	0.781	1.0	B	en:callers ~ en:call ≈ fr:cols ~ fr:colle ≈ en:calls
+calling	4	0.9052	0.781	0.781	1.0	B	en:calling ~ en:call ≈ fr:colle ~ fr:collent ≈ en:calls
+calling	4	0.9052	0.781	0.781	1.0	B	en:calling ~ en:call ≈ fr:cols ~ fr:colle ≈ en:calls
+crowd	4	0.9052	0.781	0.781	1.0	B	en:crowd ~ fr:foule ≈ en:fool ~ en:fools ≈ fr:foules
+felt	4	0.9052	0.781	0.781	1.0	B	en:felt ~ en:feel ≈ fr:file ~ fr:files ≈ en:feels
+felt	4	0.9052	0.781	0.781	1.0	B	en:felt ~ en:feels ≈ fr:file ~ fr:files ≈ en:feel
+meet	4	0.9052	0.781	0.781	1.0	B	en:meet ≈ fr:mythe ~ fr:mythes ≈ en:meets ~ fr:rencontres
+meet eek	4	0.9052	0.781	0.781	1.0	B	en:meet eek ~ en:meet ≈ fr:mythe ~ fr:mythes ≈ en:meets
+meet eek	4	0.9052	0.781	0.781	1.0	B	en:meet eek ~ en:meets ≈ fr:mythe ~ fr:mythes ≈ en:meet
+net	4	0.9052	0.781	0.781	1.0	B	en:net ≈ fr:nets ~ en:nets ≈ fr:net ~ fr:internaute
+pooch	4	0.9052	0.781	0.781	1.0	B	en:pooch ~ fr:poules ≈ en:pool ~ en:pools ≈ fr:poule
+pooch	4	0.9052	0.781	0.781	1.0	B	en:pooch ~ fr:poules ≈ en:pools ~ en:pool ≈ fr:poule
+reader	4	0.9052	0.781	0.781	1.0	B	en:reader ≈ fr:rides ~ fr:ride ≈ en:reads ~ fr:reading
+reader	4	0.9052	0.781	0.781	1.0	B	en:reader ≈ fr:rides ~ fr:ride ≈ en:reads ~ en:reading
+readied	4	0.9052	0.781	0.781	1.0	B	en:readied ~ en:read ≈ fr:rides ~ fr:ride ≈ en:reads
+readied	4	0.9052	0.781	0.781	1.0	B	en:readied ~ en:read ≈ fr:ride ~ fr:rides ≈ en:reads
+readies	4	0.9052	0.781	0.781	1.0	B	en:readies ~ en:read ≈ fr:rides ~ fr:ride ≈ en:reads
+readies	4	0.9052	0.781	0.781	1.0	B	en:readies ~ en:read ≈ fr:ride ~ fr:rides ≈ en:reads
+ride	4	0.9052	0.781	0.781	1.0	B	en:ride ~ fr:ride ≈ en:read ~ en:reads ≈ fr:rides
+ride	4	0.9052	0.781	0.781	1.0	B	en:ride ~ fr:rides ≈ en:read ~ en:reads ≈ fr:ride
+routeing	4	0.9052	0.781	0.781	1.0	B	en:routeing ~ fr:routes ≈ en:route ~ fr:route ≈ en:routes
+routeing	4	0.9052	0.781	0.781	1.0	B	en:routeing ~ en:route ≈ fr:routes ~ en:routes ≈ fr:route
+routers	4	0.9052	0.781	0.781	1.0	B	en:routers ~ en:routes ≈ fr:route ~ en:route ≈ fr:routes
+ruler	4	0.9052	0.781	0.781	1.0	B	en:ruler ≈ fr:roule ~ fr:roulé ≈ en:rule ~ fr:règle
+ruler	4	0.9052	0.781	0.781	1.0	B	en:ruler ≈ fr:roule ~ fr:roulé ≈ en:rule ~ en:regel
+scene	4	0.9052	0.781	0.781	1.0	B	en:scene ≈ fr:seines ~ fr:seine ≈ en:scenes ~ fr:scènes
+setters	4	0.9052	0.781	0.781	1.0	B	en:setters ~ fr:sets ≈ en:set ~ fr:set ≈ en:sets
+setters	4	0.9052	0.781	0.781	1.0	B	en:setters ~ en:sets ≈ fr:set ~ en:set ≈ fr:sets
+piqued	5	0.9022	0.781	0.781	0.97	B	en:piqued ~ fr:piquer ≈ en:peaky ~ en:peaks ≈ fr:piques ~ fr:piquet
+piqued	5	0.9022	0.781	0.781	0.97	B	en:piqued ~ fr:piquer ≈ en:peaky ~ en:peaks ≈ fr:piques ~ en:piquet
+beat	3	0.9003	0.781	0.781	1.0	B	en:beat ≈ fr:bites ~ fr:bite ≈ en:beats
+beat	3	0.9003	0.781	0.781	1.0	B	en:beat ≈ fr:bite ~ fr:bites ≈ en:beats
+call	3	0.9003	0.781	0.781	1.0	B	en:call ≈ fr:colle ~ fr:collent ≈ en:calls
+call	3	0.9003	0.781	0.781	1.0	B	en:call ≈ fr:cols ~ fr:colle ≈ en:calls
+court	3	0.9003	0.781	0.781	1.0	B	en:court ≈ fr:cotes ~ fr:cote ≈ en:courts
+court	3	0.9003	0.781	0.781	1.0	B	en:court ≈ fr:cote ~ fr:cotes ≈ en:courts
+fall	3	0.9003	0.781	0.781	1.0	B	en:fall ≈ fr:folles ~ fr:folle ≈ en:falls
+fall	3	0.9003	0.781	0.781	1.0	B	en:fall ≈ fr:folle ~ fr:folles ≈ en:falls
+feel	3	0.9003	0.781	0.781	1.0	B	en:feel ≈ fr:file ~ fr:files ≈ en:feels
+feeler	3	0.9003	0.781	0.781	1.0	B	en:feeler ≈ fr:filer ~ fr:files ≈ en:feels
+fool	3	0.9003	0.781	0.781	1.0	B	en:fool ≈ fr:foules ~ fr:foule ≈ en:fools
+fool	3	0.9003	0.781	0.781	1.0	B	en:fool ≈ fr:foule ~ fr:foules ≈ en:fools
+meet	3	0.9003	0.781	0.781	1.0	B	en:meet ≈ fr:mythe ~ fr:mythes ≈ en:meets
+net	3	0.9003	0.781	0.781	1.0	B	en:net ≈ fr:nets ~ en:nets ≈ fr:net
+pool	3	0.9003	0.781	0.781	1.0	B	en:pool ≈ fr:poules ~ fr:poule ≈ en:pools
+pool	3	0.9003	0.781	0.781	1.0	B	en:pool ≈ fr:poule ~ fr:poules ≈ en:pools
+read	3	0.9003	0.781	0.781	1.0	B	en:read ≈ fr:rides ~ fr:ride ≈ en:reads
+read	3	0.9003	0.781	0.781	1.0	B	en:read ≈ fr:ride ~ fr:rides ≈ en:reads
+route	3	0.9003	0.781	0.781	1.0	B	en:route ≈ fr:routes ~ en:routes ≈ fr:route
+route	3	0.9003	0.781	0.781	1.0	B	en:route ≈ fr:routes ~ fr:route ≈ en:routes
+scene	3	0.9003	0.781	0.781	1.0	B	en:scene ≈ fr:seines ~ fr:seine ≈ en:scenes
+set	3	0.9003	0.781	0.781	1.0	B	en:set ≈ fr:sets ~ en:sets ≈ fr:set
+set	3	0.9003	0.781	0.781	1.0	B	en:set ≈ fr:sets ~ fr:set ≈ en:sets
+share	3	0.9003	0.781	0.781	1.0	B	en:share ≈ fr:chères ~ fr:chère ≈ en:shared
+share	3	0.9003	0.781	0.781	1.0	B	en:share ≈ fr:chère ~ fr:chères ≈ en:shared
+potty	5	0.8994	0.781	0.781	0.956	B	en:potty ~ fr:potes ≈ en:porter ~ en:porters ≈ fr:pot aise ~ en:potts
+potty	5	0.8994	0.781	0.781	0.956	B	en:potty ~ fr:potes ≈ en:porter ~ en:porters ≈ fr:pot aise ~ fr:potts
+sweating	4	0.8948	0.781	0.781	0.958	B	en:sweating ≈ fr:souhait in ~ fr:souhait ≈ en:sweat ~ fr:sweat
+porters	4	0.8942	0.781	0.781	0.956	B	en:porters ≈ fr:pot aise ~ fr:potes ≈ en:porter ~ fr:porter
+peaky	3	0.8903	0.781	0.781	0.97	B	en:peaky ≈ fr:piquer ~ fr:pique ≈ en:peaks
+predators	6	0.8885	0.781	0.781	0.957	B	en:predators ~ en:predator ≈ fr:prêt tes ~ fr:prêt ≈ en:prep ~ fr:pré ≈ en:prey
+predators	6	0.8885	0.781	0.781	0.957	B	en:predators ~ en:predator ≈ fr:prêt tes ~ fr:prêt ≈ en:prep ~ fr:prés ≈ en:prey
+sweating	3	0.8863	0.781	0.781	0.958	B	en:sweating ≈ fr:souhait in ~ fr:souhait ≈ en:sweat
+senses	6	0.8858	0.781	0.781	0.963	B	en:senses ≈ fr:sain six ~ fr:six ≈ en:scenes ~ fr:scènes ≈ en:sense = fr:sens
+porters	3	0.8857	0.781	0.781	0.956	B	en:porters ≈ fr:pot aise ~ fr:potes ≈ en:porter
+predator	5	0.8822	0.781	0.781	0.957	B	en:predator ≈ fr:prêt tes ~ fr:prêt ≈ en:prep ~ fr:pré ≈ en:prey
+predator	5	0.8822	0.781	0.781	0.957	B	en:predator ≈ fr:prêt tes ~ fr:prêt ≈ en:prep ~ fr:prés ≈ en:prey
+senses	6	0.8808	0.781	0.781	0.963	B	en:senses ≈ fr:sain six ~ fr:six ≈ en:scenes ~ fr:scènes ≈ en:sense ~ fr:sens
+gray	4	0.8682	0.781	0.781	0.822	B	en:gray = fr:grise ≈ en:agrees ~ en:agree ≈ fr:gris
+gray	4	0.8682	0.781	0.781	0.822	B	en:gray = fr:gris ≈ en:agree ~ en:agrees ≈ fr:grise
+grey	4	0.8682	0.781	0.781	0.822	B	en:grey = fr:grise ≈ en:agrees ~ en:agree ≈ fr:gris
+grey	4	0.8682	0.781	0.781	0.822	B	en:grey = fr:gris ≈ en:agree ~ en:agrees ≈ fr:grise
+pile	5	0.8538	0.781	0.781	0.833	B	en:pile ≈ fr:pâle = en:pale ≈ fr:pl ~ en:pl ≈ fr:piles
+pile	5	0.8538	0.781	0.781	0.833	B	en:pile ≈ fr:pâle = en:pale ≈ fr:pl ~ en:pl ≈ fr:pile
+strictly	5	0.8714	0.78	0.78	0.817	B	en:strictly ~ en:exclusively ≈ fr:exclusives lies ~ en:exclusive ≈ fr:exclusives ~ fr:exclusivement
+coup	4	0.9107	0.773	0.773	1.0	B	en:coup ≈ fr:coupent ~ fr:coupant ≈ en:coupon = fr:coupons
+coup	4	0.9032	0.773	0.773	1.0	B	en:coup ≈ fr:coupent ~ fr:coupant ≈ en:coupon ~ fr:coupons
+sect	6	0.9167	0.77	0.77	0.97	B	en:sect ~ fr:secte ≈ en:sicked ~ en:sicks ≈ fr:sexe = en:sex ≈ fr:sectes
+sick	6	0.9167	0.77	0.77	0.97	B	en:sick ~ en:sicked ≈ fr:secte ~ fr:sectes ≈ en:sex = fr:sexe ≈ en:sicks
+sicked	5	0.916	0.77	0.77	0.97	B	en:sicked ≈ fr:secte ~ fr:sectes ≈ en:sex = fr:sexe ≈ en:sicks
+sicks	5	0.916	0.77	0.77	0.97	B	en:sicks ≈ fr:sexe = en:sex ≈ fr:sectes ~ fr:secte ≈ en:sicked
+sect	6	0.9117	0.77	0.77	0.97	B	en:sect ~ fr:secte ≈ en:sicked ~ en:sicks ≈ fr:sexe ~ en:sex ≈ fr:sectes
+sick	6	0.9117	0.77	0.77	0.97	B	en:sick ~ en:sicked ≈ fr:secte ~ fr:sectes ≈ en:sex ~ fr:sexe ≈ en:sicks
+sicken	6	0.9117	0.77	0.77	0.97	B	en:sicken ~ en:sicked ≈ fr:secte ~ fr:sectes ≈ en:sex ~ fr:sexe ≈ en:sicks
+sicken	6	0.9117	0.77	0.77	0.97	B	en:sicken ~ en:sicks ≈ fr:sexe ~ en:sex ≈ fr:sectes ~ fr:secte ≈ en:sicked
+sicked	5	0.91	0.77	0.77	0.97	B	en:sicked ≈ fr:secte ~ fr:sectes ≈ en:sex ~ fr:sexe ≈ en:sicks
+sicks	5	0.91	0.77	0.77	0.97	B	en:sicks ≈ fr:sexe ~ en:sex ≈ fr:sectes ~ fr:secte ≈ en:sicked
+kopje	4	0.9038	0.77	0.77	0.975	B	en:kopje ≈ fr:copie ~ fr:copies ≈ en:copy = fr:exemplaire
+bris	5	0.8622	0.77	0.77	0.781	B	en:bris ~ fr:bris ≈ en:breathe ~ en:breath ≈ fr:brèche ~ fr:bryk
+prospect	5	0.876	0.768	0.768	0.792	B	en:prospect ~ fr:prospectus ≈ en:prospects = fr:perspectives ≈ en:perspective = fr:perspective
+prospect	5	0.87	0.768	0.768	0.792	B	en:prospect ~ fr:prospectus ≈ en:prospects = fr:perspectives ≈ en:perspective ~ fr:perspective
+exists	5	0.8992	0.763	0.763	0.943	B	en:exists ~ fr:existence ≈ en:exit arse ~ en:exit ≈ fr:existent = en:exist
+exist	4	0.894	0.763	0.763	0.943	B	en:exist = fr:existent ≈ en:exit ~ en:exit arse ≈ fr:existence
+exists	5	0.8932	0.763	0.763	0.943	B	en:exists ~ fr:existence ≈ en:exit arse ~ en:exit ≈ fr:existent ~ fr:existe
+exist	4	0.8865	0.763	0.763	0.943	B	en:exist ~ fr:existence ≈ en:exit arse ~ en:exit ≈ fr:existent
+exit arse	6	0.8855	0.763	0.763	0.943	B	en:exit arse ≈ fr:existence ~ en:exist ≈ fr:existe ~ fr:existent ≈ en:exit ~ en:exiting
+exit arse	5	0.8786	0.763	0.763	0.943	B	en:exit arse ≈ fr:existence ~ en:exist ≈ fr:existe ~ fr:existent ≈ en:exit
+tests	5	0.8632	0.763	0.763	0.763	B	en:tests ~ fr:tests ≈ en:pest = fr:peste ≈ en:test ~ fr:teste
+tests	5	0.8632	0.763	0.763	0.763	B	en:tests ~ fr:tests ≈ en:pest = fr:peste ≈ en:test ~ en:testi
+closed	4	0.8473	0.758	0.758	0.791	B	en:closed ~ en:closes ≈ fr:close ~ en:close ≈ fr:closes
+closing	4	0.8473	0.758	0.758	0.791	B	en:closing ~ en:closes ≈ fr:close ~ en:close ≈ fr:closes
+protecting	6	0.9005	0.752	0.752	0.94	B	en:protecting ~ en:protects ≈ fr:protectrice = en:protector ≈ fr:prêt excès ~ fr:prêt excède ≈ en:protection
+step	5	0.8776	0.748	0.748	1.0	B	en:step ≈ fr:steppe = en:steppe ≈ fr:stop ~ en:stop ≈ fr:step
+step	5	0.8716	0.748	0.748	1.0	B	en:step ≈ fr:steppe ~ en:steppe ≈ fr:stop ~ en:stop ≈ fr:step
+cease	4	0.847	0.748	0.748	0.77	B	en:cease ~ fr:stoppes ≈ en:step = fr:step ≈ en:stop
+cease	4	0.8395	0.748	0.748	0.77	B	en:cease ~ fr:stoppes ≈ en:step ~ fr:step ≈ en:stop
+expertise	5	0.8536	0.747	0.747	0.761	B	en:expertise ~ fr:expertises ≈ en:expenses ~ en:expense ≈ fr:experts ~ en:expert
+expertise	5	0.8536	0.747	0.747	0.761	B	en:expertise ~ fr:expertises ≈ en:expenses ~ en:expense ≈ fr:experts ~ fr:expert
+strip	5	0.8662	0.743	0.743	0.798	B	en:strip = fr:strip ≈ en:stream ~ fr:stream ≈ en:stripped ~ en:stripping
+strip	5	0.8602	0.743	0.743	0.798	B	en:strip ~ fr:strip ≈ en:stream ~ fr:stream ≈ en:stripped ~ en:stripping
+stream	4	0.8528	0.743	0.743	0.798	B	en:stream ~ fr:stream ≈ en:strip = fr:strip ≈ en:streams
+stream	4	0.8452	0.743	0.743	0.798	B	en:stream ~ fr:stream ≈ en:strip ~ fr:strip ≈ en:streams
+explained	4	0.8438	0.743	0.743	0.792	B	en:explained ~ en:explains ≈ fr:explose ~ fr:explosent ≈ en:explain
+explained	4	0.8438	0.743	0.743	0.792	B	en:explained ~ en:explain ≈ fr:explosent ~ fr:explose ≈ en:explains
+coaches	4	0.8345	0.743	0.743	0.755	B	en:coaches ~ fr:coach ≈ en:catch ~ fr:catch ≈ en:coach
+coaches	4	0.8345	0.743	0.743	0.755	B	en:coaches ~ en:coach ≈ fr:catch ~ en:catch ≈ fr:coach
+string	4	0.8473	0.733	0.733	0.786	B	en:string = fr:string ≈ en:stream ~ fr:stream ≈ en:strings
+string	4	0.8397	0.733	0.733	0.786	B	en:string ~ fr:string ≈ en:stream ~ fr:stream ≈ en:strings
+excluding	5	0.8572	0.731	0.731	0.795	B	en:excluding ~ fr:excluant ≈ en:exclusion ~ fr:exclus ≈ en:exclude ~ fr:exclut
+excluding	4	0.8415	0.731	0.731	0.795	B	en:excluding ~ fr:excluant ≈ en:exclusion ~ fr:exclus ≈ en:exclude
+cooing	5	0.898	0.73	0.73	1.0	B	en:cooing ~ en:cooed ≈ fr:coude ~ fr:coudes ≈ en:coot ~ fr:cooder
+cooing	5	0.898	0.73	0.73	1.0	B	en:cooing ~ en:cooed ≈ fr:coude ~ fr:coudes ≈ en:coot ~ en:cooder
+fools	5	0.898	0.73	0.73	1.0	B	en:fools ~ en:fool ≈ fr:full ~ en:full ≈ fr:folles ~ fr:imbéciles
+picked	5	0.887	0.73	0.73	0.945	B	en:picked ~ en:pick ≈ fr:piques ~ fr:piquer ≈ en:picky ~ en:pickled
+cooed	3	0.8833	0.73	0.73	1.0	B	en:cooed ≈ fr:coude ~ fr:coudes ≈ en:coot
+cooed	3	0.8833	0.73	0.73	1.0	B	en:cooed ≈ fr:coudes ~ fr:coude ≈ en:coot
+pee	5	0.85	0.73	0.73	0.73	B	en:pee ~ en:pees ≈ fr:pisses ~ fr:pisse ≈ en:piss = fr:pisser
+pee	4	0.825	0.73	0.73	0.73	B	en:pee ~ en:pees ≈ fr:pisses ~ en:piss ≈ fr:pisse
+piss	4	0.825	0.73	0.73	0.73	B	en:piss ~ fr:pisse ≈ en:pease ~ en:peas ≈ fr:pisses
+piss	4	0.825	0.73	0.73	0.73	B	en:piss ~ fr:pisse ≈ en:peas ~ en:pease ≈ fr:pisses
+pissed	4	0.825	0.73	0.73	0.73	B	en:pissed ~ fr:pisse ≈ en:pease ~ en:peas ≈ fr:pisses
+pissed	4	0.825	0.73	0.73	0.73	B	en:pissed ~ fr:pisse ≈ en:peas ~ en:pease ≈ fr:pisses
+predecessor	5	0.8452	0.728	0.728	0.738	B	en:predecessor ~ en:previous ≈ fr:privilèges ~ fr:privilégie ≈ en:previously ~ fr:précédentes
+premium	4	0.8433	0.728	0.728	0.805	B	en:premium ≈ fr:primes rimes ~ fr:primes ≈ en:prime ~ fr:prime
+premium	3	0.8177	0.728	0.728	0.805	B	en:premium ≈ fr:primes rimes ~ en:prime ≈ fr:primes
+scored	4	0.8377	0.726	0.726	0.785	B	en:scored ~ en:score ≈ fr:scores ~ en:scores ≈ fr:score
+scored	4	0.8377	0.726	0.726	0.785	B	en:scored ~ en:score ≈ fr:scores ~ fr:score ≈ en:scores
+boot	4	0.823	0.726	0.726	0.726	B	en:boot ~ en:bootie ≈ fr:coutils ~ fr:coutil ≈ en:booty
+boot	4	0.823	0.726	0.726	0.726	B	en:boot ~ en:bootie ≈ fr:coutil ~ fr:coutils ≈ en:booty
+bootee	4	0.823	0.726	0.726	0.726	B	en:bootee ~ en:bootie ≈ fr:coutils ~ fr:coutil ≈ en:booty
+bootee	4	0.823	0.726	0.726	0.726	B	en:bootee ~ en:bootie ≈ fr:coutil ~ fr:coutils ≈ en:booty
+grip	5	0.8486	0.725	0.725	0.758	B	en:grip ~ fr:grippe ≈ en:grape ~ fr:grappes ≈ en:grasp ~ en:gripping
+grip	5	0.8486	0.725	0.725	0.758	B	en:grip ~ fr:grippe ≈ en:grape ~ fr:grappes ≈ en:grasp ~ en:grips
+grippe	5	0.8486	0.725	0.725	0.758	B	en:grippe ~ fr:grippe ≈ en:grape ~ fr:grappes ≈ en:grasp ~ en:gripping
+grippe	5	0.8486	0.725	0.725	0.758	B	en:grippe ~ fr:grippe ≈ en:grape ~ fr:grappes ≈ en:grasp ~ en:grips
+explain	5	0.8608	0.722	0.722	0.792	B	en:explain ~ en:explained ≈ fr:explosent ~ fr:explose ≈ en:explains = fr:explique
+explain	5	0.8548	0.722	0.722	0.792	B	en:explain ~ en:explained ≈ fr:explosent ~ fr:explose ≈ en:explains ~ en:explaining
