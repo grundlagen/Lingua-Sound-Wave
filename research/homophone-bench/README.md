@@ -56,6 +56,48 @@ learned + featural costs) → keep the rendering with the best
 `sound · (sound↔sense by --drift)` blend, anchored to the source meaning by
 multilingual embeddings so it can't drift into nonsense.
 
+## The 11–12 June schema (authoritative pipeline)
+
+This is the canonical methodology; everything else in the repo (the
+TypeScript `artifacts/` explorer, the May handover notes) predates it. The
+pipeline is fully offline and deterministic:
+
+1. **G2P** — espeak-ng + CMUdict (ARPAbet→IPA via `lexicon_g2p.py`) for
+   English, Lexique for French. Curated lexicons, broad canonical IPA.
+2. **Matcher** — `combo` in `matcher.py`: sharpened panphon featural
+   Needleman–Wunsch + phoneme n-gram Dice, with substitution costs floored
+   by **learned** phoneme equivalences (`learn_costs.py` → `learned-costs.json`,
+   Ristad–Yianilos counts mined from certified alignments).
+3. **Decoder** — `phonetic_decoder.py`: a Lexique pronunciation **trie + beam
+   search** that generalizes 2-chunk concatenation to true multi-to-multi
+   rendering (`--augment`/`--reverse` grow the dictionary).
+4. **Graph + weave** — `chain_game.py`/`weave.py` build the 3-layer graph
+   (sound ≈, translation =, semantic ~) and beam-search chains under strict
+   alternation; `explode_web.py` exposes every sub-path and loop-certifies
+   the meaning-preserving sound pairs.
+5. **Growth = re-mining.** Promoting/relabelling certified pairs cannot
+   compound — loops are made of edges that were already usable. New edges
+   come only from re-running the decoder/augment passes with the learned
+   costs + the bigger CMUdict trie, then re-weaving (the documented bootstrap
+   cycle).
+
+### Deliberately NOT used (guardrails)
+
+These approaches are explicitly out of the schema and must not be
+reintroduced:
+
+- **Fuzzy / edit-distance string matching** (Levenshtein, difflib
+  `SequenceMatcher`, `rapidfuzz`/`fuzzywuzzy`). Raw symbol-edit distance
+  treats `p`↔`b` the same as `p`↔`uː` (see `RESULTS.md`) and inflates
+  negatives. Matching is the featural+n-gram `combo` with learned
+  equivalence-floored costs; multi-to-multi is the decoder trie. Coverage
+  grows by **re-mining**, never by relaxing the match.
+- **Plotting libraries** (matplotlib, pyplot, seaborn). Findings are
+  reported as TSV + plain-text tables (`bench.py`, `chain_methods.py`, the
+  `*-report.txt` files) so they stay diffable and terminal-reviewable.
+- **epitran** for G2P. Pronunciations come from espeak-ng + CMUdict +
+  Lexique — curated lexicons, not a rule-only transcriber.
+
 ## Add a language in one line
 
 `multilang.PAIRS` holds every pair-specific fact (espeak voices, wordfreq

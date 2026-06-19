@@ -6,6 +6,26 @@
 
 ---
 
+> **⚠️ Authoritative methodology: the 11–12 June Python schema.**
+> Sections 1–5 below describe the **earlier** TypeScript subsystem
+> (`artifacts/api-server`, `artifacts/homophone-explorer`) — LLM G2P,
+> wav2vec2/MFCC audio judges, PostgreSQL. That subsystem still exists, but
+> it is **not** the current approach. The canonical engine is the **offline,
+> deterministic Python pipeline** in `research/homophone-bench/` (see its
+> `README.md` → "The 11–12 June schema"): espeak-ng + CMUdict + Lexique G2P,
+> the `combo` featural+n-gram matcher with **learned** equivalence-floored
+> costs, the `phonetic_decoder` Lexique-trie beam search, `weave`/`explode_web`,
+> and **re-mining** as the only growth step. No paid APIs, no audio channel
+> on the default path.
+>
+> **Deliberately NOT used** (do not reintroduce): fuzzy / edit-distance
+> string matching (Levenshtein, difflib, rapidfuzz) — matching is featural +
+> learned costs, growth is re-mining; **plotting libraries** (matplotlib /
+> pyplot) — results are TSV + plain text; **epitran** for G2P — use espeak-ng
+> + CMUdict + Lexique.
+
+---
+
 ## 1. Project Vision
 
 Lingua-Sound-Wave is a **cutting-edge cross-lingual sound similarity laboratory**. It explores the deep, often mysterious relationship between how words *sound* across languages — homophones, sound symbolism, and meaning-preserving sound-alike paraphrases.

@@ -4,6 +4,22 @@ Written 2026-06-10 from a cross-repo review (Lingua-Sound-Wave,
 poly-microtrader, Quack-Coin-Core, KinetiCoach, Dig-Site-Identifier).
 Code references are to `artifacts/api-server/src/lib/`.
 
+> **⚠️ Superseded by the 11–12 June Python schema.** This note is a *pre-pivot*
+> analysis of the TypeScript stack's acoustic/LLM judges. The project then
+> dropped the audio channel entirely: `research/homophone-bench/RESULTS.md`
+> shows the symbolic `combo` matcher at 0.993 AUC, beating every acoustic
+> method, and the engine is now offline + deterministic (espeak-ng + CMUdict +
+> Lexique G2P, `combo` + **learned** equivalence costs, `phonetic_decoder`
+> trie/beam, `weave`, re-mining). The cross-voice / wav2vec2-espeak / cohort
+> ideas below are kept for record only — the answer turned out to be "remove
+> the acoustic channel," not "calibrate it."
+>
+> **Deliberately NOT used** (do not reintroduce): fuzzy / edit-distance
+> matching (Levenshtein, difflib, rapidfuzz) — matching is featural + learned
+> costs, growth is re-mining; plotting libraries (matplotlib / pyplot) —
+> results are TSV + plain text; **epitran** for G2P — use espeak-ng + CMUdict
+> + Lexique.
+
 ## Where the benchmark actually leaves us
 
 The 8-pair benchmark (replit.md) is honest and its headline holds up under
