@@ -1,5 +1,15 @@
-ORIGINAL    the sea is cold
-HOMOPHONIC  Si intenso     [es, drift=0.55]
-      sea → si  (sound 1.00 · sense 0.53)
-      cold → intenso  (sound 0.91 · sense 0.46)  «synonym: insensate»
+ORIGINAL    two roads diverged in a wood and I took the one less traveled by and that has made all the difference
+HOMOPHONIC  Due cajun aller [diverged] laides toc single laisses travers aisés tenante secs eiffel aident aller dispute     [fr, drift=0.8]
+      two → due  (sound 0.88 · sense 0.98)
+      roads → cajun aller  (sound 0.88 · sense 0.33)  «description: occasionally»
+      diverged: no transfer
+      wood → laides  (sound 0.88 · sense 0.45)
+      took → toc  (sound 0.96 · sense 0.69)
+      one → single  (sound 0.98 · sense 0.78)  «synonym: single»
+      less → laisses  (sound 1.00 · sense 0.50)
+      traveled → travers  (sound 0.87 · sense 0.75)
+      has → aisés tenante  (sound 0.89 · sense 0.61)  «poetic: has of the night»
+      made → secs eiffel  (sound 0.93 · sense 0.53)  «synonym: successful»
+      all → aident aller  (sound 0.93 · sense 0.73)  «synonym: entirely»
+      difference → dispute  (sound 0.95 · sense 0.48)  «synonym: dispute»
 

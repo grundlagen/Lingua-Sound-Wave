@@ -1,0 +1,26 @@
+ORIGINAL    two roads diverged in a wood and I took the one less traveled by and that has made all the difference
+CHAIN       Too route étendre vertige défaire célibataires moindre [traveled] certain mûrs tai vies
+      two → too  (chain q0.99 · anchor 0.62)
+          en:two ≈ fr:touts ~ fr:tout ≈ en:too ~ fr:too
+      roads → route  (chain q0.92 · anchor 0.81)
+          en:roads = fr:routes ≈ en:route ~ en:routes ≈ fr:route
+      diverged → étendre  (chain q0.90 · anchor 0.65)  ⟵ description 'lines'
+          en:lines ≈ fr:line ~ en:line ≈ fr:lacs haines ~ fr:axent haines in ≈ en:extending = fr:étendre
+      wood → vertige  (chain q0.95 · anchor 0.43)  ⟵ description 'substance'
+          en:substance ~ fr:substance ≈ en:souped arse ~ en:soupy ≈ fr:souper ~ en:soup ≈ fr:soupent ~ fr:vertige
+      took → défaire  (chain q0.87 · anchor 0.75)
+          en:took ~ en:takes ≈ fr:tex ~ fr:latex ≈ en:likes ~ fr:lubie ≈ en:looby ~ fr:défaire
+      one → célibataires  (chain q0.89 · anchor 0.63)  ⟵ synonym 'single'
+          en:single ~ fr:single ≈ en:singles = fr:célibataires
+      less → moindre  (chain q0.97 · anchor 0.87)
+          en:less ≈ fr:laisses ~ fr:laissent ≈ en:lesser = fr:moindre
+      traveled: no chain transfer (even via synonyms/description)
+      has → certain  (chain q0.92 · anchor 0.67)  ⟵ description 'north'
+          en:north ≈ fr:nord = en:northern ≈ fr:nos haine ~ fr:sait haine ≈ en:certain ~ fr:certain
+      made → mûrs  (chain q0.91 · anchor 0.62)  ⟵ synonym 'successful'
+          en:successful ~ en:success ≈ fr:secs ace ~ en:secs ≈ fr:sexe ~ en:sex ≈ fr:vexent ~ fr:mûrs
+      all → tai  (chain q0.96 · anchor 0.70)
+          en:all = fr:tous ≈ en:to ~ fr:tai
+      difference → vies  (chain q0.88 · anchor 0.51)  ⟵ synonym 'departure'
+          en:departure ~ en:leaving ≈ fr:living ~ fr:live ≈ en:lives = fr:vies
+

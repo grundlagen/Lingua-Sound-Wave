@@ -6,13 +6,6 @@ best variant: 'the sea is chill'
 rendering:    dessus gel   (snd 0.91, sem 0.66)
 semantic gain from paraphrase search: +0.25
 
-EN original:  two men under the moon
-literal:      deux homme sous la lunaire
-baseline:     humain aulnes aumône   (snd 0.89, sem 0.39)
-best variant: 'two men under the moon'
-rendering:    humain aulnes aumône   (snd 0.89, sem 0.39)
-semantic gain from paraphrase search: +0.00
-
 EN original:  she said tell me more
 literal:      elle disait davantage
 baseline:     chies aident herbivores   (snd 0.89, sem 0.17)
