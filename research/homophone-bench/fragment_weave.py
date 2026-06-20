@@ -63,9 +63,27 @@ def _zipf(w: str, lang: str) -> float:
     return zipf_frequency(w, lang)
 
 
+# Optional word-bigram LM (bigram_lm.py).  When loaded, fluency() scores
+# grammatical adjacency instead of mean unigram frequency, so "in the sea"
+# beats "set could" even though both are made of common words.
+_LM: dict = {}
+
+
+def load_lm():
+    import bigram_lm
+    for lang in ("en", "fr"):
+        try:
+            _LM[lang] = bigram_lm.load(lang)
+        except FileNotFoundError:
+            print(f"no bigram-lm-{lang}.pkl; run `python bigram_lm.py /tmp/corpus`",
+                  file=sys.stderr)
+
+
 def fluency(words, lang) -> float:
     if not words:
         return 0.0
+    if lang in _LM:
+        return _LM[lang].fluency(list(words))
     return sum(min(_zipf(w, lang), 6.0) / 6.0 for w in words) / len(words)
 
 
@@ -173,6 +191,9 @@ def main():
     certify = "--certify" in sys.argv
     budget = int(sys.argv[sys.argv.index("--budget") + 1]) if "--budget" in sys.argv else 240
 
+    if "--lm" in sys.argv:
+        load_lm()
+        print(f"bigram LM loaded for {sorted(_LM)}", file=sys.stderr)
     print("loading blocks + building common-word tries (min_zipf=3.0)...",
           file=sys.stderr)
     pd.BEAM = DECODE_BEAM
