@@ -1,0 +1,26 @@
+ORIGINAL    two roads diverged in a wood and sorry could not travel both
+
+HOMOPHONIC  too route navettes oued charrient coudre morceau goutte beauf
+
+STATS       5 chain-transferred, 4 decoder-fallback, 0 missed
+            avg sound=0.946  avg meaning=0.565
+
+WORD-BY-WORD:
+  two                  → too                   [CHAIN 4h]  sound=0.995  meaning=0.622
+    chain: en:two ≈ fr:touts ~ fr:tout ≈ en:too ~ fr:too
+  roads                → route                 [CHAIN 3h]  sound=1.000  meaning=0.811
+    chain: en:routes ~ fr:routes ≈ en:route ~ fr:route (via synonym 'routes')
+  diverged             → navettes              [DECODER]  sound=0.873  meaning=0.495
+    chain: [decoder] en:diverged →ipa→ navettes
+  wood                 → oued                  [DECODER]  sound=0.950  meaning=0.401
+    chain: [decoder] en:wood →ipa→ oued
+  sorry                → charrient             [DECODER]  sound=0.926  meaning=0.590
+    chain: [decoder] en:sorry →ipa→ charrient
+  could                → coudre                [CHAIN 2h]  sound=0.955  meaning=0.596
+    chain: en:could ≈ fr:coude ~ fr:coudre
+  not                  → morceau               [CHAIN 7h]  sound=0.948  meaning=0.612
+    chain: en:not = fr:pas ≈ en:pie ~ fr:pie ≈ en:pee = fr:pisse ≈ en:piece = fr:morceau
+  travel               → goutte                [CHAIN 3h]  sound=0.965  meaning=0.450
+    chain: en:trip ~ fr:trip ≈ en:drip = fr:goutte (via synonym 'trip')
+  both                 → beauf                 [DECODER]  sound=0.907  meaning=0.504
+    chain: [decoder] en:both →ipa→ beauf
