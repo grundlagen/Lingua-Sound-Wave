@@ -108,6 +108,32 @@ def load_blocks(path="fragments.tsv"):
     return blocks[:FRAG_TOPK]
 
 
+def load_phrase_seeds(en_path="corpus-phrases-en.tsv", fr_path="corpus-phrases-fr.tsv") -> list[tuple[str, int]]:
+    """Load corpus bigram IPA seeds from both languages.
+
+    These are the IPA representations of frequent real bigrams ("in the",
+    "dans la", etc.) extracted by corpus_phrases.py.  When mixed into the
+    pool they bias the chain sampler toward phrase-starting phoneme patterns
+    rather than uniform random IPA blocks, so streams start life near fluent
+    phrase structures.  Both EN and FR bigrams are usable since the cross-
+    lingual phoneme set overlaps heavily.
+    """
+    seeds: list[tuple[str, int]] = []
+    for path in (en_path, fr_path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                next(f)  # header
+                for line in f:
+                    parts = line.rstrip("\n").split("\t")
+                    if len(parts) >= 3:
+                        ipa, _segs_n, count = parts[1], parts[2], int(parts[3]) if len(parts) > 3 else 1
+                        seeds.append((_canonical(ipa), count))
+        except FileNotFoundError:
+            print(f"phrase-seeds: {path} not found; run `python corpus_phrases.py`",
+                  file=sys.stderr)
+    return seeds
+
+
 def known_sets(path="dictionary-v5.json"):
     import json
     d = json.load(open(path))
@@ -132,7 +158,9 @@ def novelty(en_phrase, fr_phrase, known_en, known_fr) -> float:
 
 
 def best_decode(ipa_stream, root, lang, max_words):
-    cands = pd.decode(ipa_stream, root, top_n=6, max_words=max_words)
+    lm = _LM.get(lang)
+    cands = pd.decode(ipa_stream, root, top_n=6, max_words=max_words,
+                      lm=lm, lm_weight=pd.LM_BEAM_WEIGHT if lm else 0.0)
     for c in cands:
         words = c["fr"].split()
         if c["expensive_deletions"] == 0 and min_zipf(words, lang) >= WORD_ZIPF_GATE:
@@ -140,48 +168,81 @@ def best_decode(ipa_stream, root, lang, max_words):
     return None, None
 
 
+def _try_decode(ipa, en_root, fr_root, known_en, known_fr, seen, L):
+    """Try decoding an IPA stream; return a result dict or None."""
+    segs = _segs(_canonical(ipa))
+    if not (4 <= len(segs) <= 22):
+        return None
+    max_words = max(2, len(segs))
+    en_c, ew = best_decode(ipa, en_root, "en", max_words)
+    if not en_c:
+        return None
+    fr_c, fw = best_decode(ipa, fr_root, "fr", max_words)
+    if not fr_c:
+        return None
+    en_p, fr_p = en_c["fr"], fr_c["fr"]   # decode() labels its output "fr"
+    key = (en_p, fr_p)
+    if key in seen:
+        return None
+    seen.add(key)
+    nov = novelty(en_p, fr_p, known_en, known_fr)
+    if nov <= 0.0:
+        return None
+    sound = 0.5 * (en_c["similarity"] + fr_c["similarity"])
+    en_fl, fr_fl = fluency(ew, "en"), fluency(fw, "fr")
+    joint = sound * en_fl * fr_fl * (0.6 + 0.4 * nov)
+    return {
+        "en": en_p, "fr": fr_p, "ipa": ipa, "blocks": L,
+        "sound": round(sound, 3), "en_flu": round(en_fl, 3),
+        "fr_flu": round(fr_fl, 3), "novelty": round(nov, 2),
+        "joint": round(joint, 3), "words": (len(ew), len(fw)),
+    }
+
+
 def grow(blocks, en_root, fr_root, known_en, known_fr, *,
-         max_len, deadline, mega=()):
+         max_len, deadline, mega=(), phrase_seeds=()):
     """Sample fragment chains of length MIN_LEN..max_len; for each, decode the
-    shared stream into EN and FR words; keep fluent+novel pairs."""
+    shared stream into EN and FR words; keep fluent+novel pairs.
+
+    phrase_seeds: [(ipa_str, count)] from load_phrase_seeds().  These are the
+    IPA representations of frequent real bigrams (7-14 segs each) decoded
+    DIRECTLY -- not chained as blocks, since they're already full-phrase length.
+    Short seeds (≤ 6 segs) are also appended to the block pool for chaining.
+    """
     rng = random.Random(7)
     weights = [c for _, c in blocks]
     pool = [b for b, _ in blocks] + list(mega)
     wpool = weights + [max(weights)] * len(mega)   # mega-fragments are attractive
+    # Short phrase seeds (≤6 segs) can also serve as chainable blocks
+    if phrase_seeds:
+        short_seeds = [(ipa, c) for ipa, c in phrase_seeds if len(_segs(ipa)) <= 6]
+        if short_seeds:
+            pool = pool + [s for s, _ in short_seeds]
+            wpool = wpool + [max(weights) * 2] * len(short_seeds)
     results, seen = [], set()
+
+    # Pass 1: decode phrase seeds directly as full-length IPA streams
+    if phrase_seeds:
+        rng2 = random.Random(42)
+        sampled = rng2.sample(phrase_seeds, min(len(phrase_seeds), CHAINS_PER_LEN))
+        for seed_ipa, _ in sampled:
+            if time.time() > deadline:
+                break
+            r = _try_decode(seed_ipa, en_root, fr_root, known_en, known_fr, seen, 1)
+            if r:
+                results.append(r)
+
+    # Pass 2: chain short blocks into random streams
     for L in range(MIN_LEN, max_len + 1):
         for _ in range(CHAINS_PER_LEN):
             if time.time() > deadline:
                 break
             chain = rng.choices(pool, weights=wpool, k=L)
             ipa = "".join(chain)
-            segs = _segs(_canonical(ipa))
-            if not (4 <= len(segs) <= 22):
-                continue
-            max_words = max(2, len(segs))      # NOT length-limited: words follow stream
-            en_c, ew = best_decode(ipa, en_root, "en", max_words)
-            if not en_c:
-                continue
-            fr_c, fw = best_decode(ipa, fr_root, "fr", max_words)
-            if not fr_c:
-                continue
-            en_p, fr_p = en_c["fr"], fr_c["fr"]   # decode() labels its output "fr"
-            key = (en_p, fr_p)
-            if key in seen:
-                continue
-            seen.add(key)
-            nov = novelty(en_p, fr_p, known_en, known_fr)
-            if nov <= 0.0:
-                continue
-            sound = 0.5 * (en_c["similarity"] + fr_c["similarity"])
-            en_fl, fr_fl = fluency(ew, "en"), fluency(fw, "fr")
-            joint = sound * en_fl * fr_fl * (0.6 + 0.4 * nov)
-            results.append({
-                "en": en_p, "fr": fr_p, "ipa": ipa, "blocks": L,
-                "sound": round(sound, 3), "en_flu": round(en_fl, 3),
-                "fr_flu": round(fr_fl, 3), "novelty": round(nov, 2),
-                "joint": round(joint, 3), "words": (len(ew), len(fw)),
-            })
+            r = _try_decode(ipa, en_root, fr_root, known_en, known_fr, seen, L)
+            if r:
+                results.append(r)
+
     results.sort(key=lambda r: -r["joint"])
     return results
 
@@ -198,6 +259,10 @@ def main():
           file=sys.stderr)
     pd.BEAM = DECODE_BEAM
     blocks = load_blocks()
+    phrase_seeds = load_phrase_seeds() if "--phrases" in sys.argv else []
+    if phrase_seeds:
+        print(f"phrase seeds: {len(phrase_seeds)} corpus bigram IPA blocks loaded",
+              file=sys.stderr)
     known_en, known_fr = known_sets()
     en_root = pd.build_trie(min_zipf=3.0, lang="en")
     fr_root = pd.build_trie(min_zipf=3.0, lang="fr")
@@ -207,7 +272,8 @@ def main():
     for rd in range(1, rounds + 1):
         deadline = time.time() + budget
         res = grow(blocks, en_root, fr_root, known_en, known_fr,
-                   max_len=max_len, deadline=deadline, mega=tuple(mega))
+                   max_len=max_len, deadline=deadline, mega=tuple(mega),
+                   phrase_seeds=phrase_seeds)
         print(f"\n===== round {rd}: {len(res)} novel fluent pairs "
               f"(max_len={max_len}) =====")
         for r in res[:KEEP]:
