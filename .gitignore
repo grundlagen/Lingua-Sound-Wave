@@ -47,3 +47,6 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Fugu orchestration: cloned repo, downloaded weights, venv (never commit these)
+orchestration/.fugu/
