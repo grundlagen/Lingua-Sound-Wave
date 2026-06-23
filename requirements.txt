@@ -1,0 +1,4 @@
+# fugu-swarm's own deps. The heavy ML stack (torch/transformers/trl/litellm)
+# is installed from vendor/OpenFugu/requirements.txt by setup.sh.
+pyyaml>=6.0
+pytest>=8.0

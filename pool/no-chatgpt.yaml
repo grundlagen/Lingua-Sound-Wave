@@ -1,0 +1,28 @@
+# fugu-swarm worker pool — everything *except* ChatGPT/OpenAI.
+#
+# The TRINITY checkpoint has 7 agent slots; their original labels ("gpt-5",
+# "gemini-2.5-pro", ...) are just training metadata and are freely remappable.
+# fugu_swarm.pool enforces a hard no-OpenAI/GPT/Codex invariant over this list.
+#
+# Model ids are litellm ids: "<provider>/<model>". Set the matching API keys
+# (see fugu_swarm.pool.required_env). Swap any line for a local "ollama/..."
+# entry to run that slot fully offline.
+
+router:
+  backbone: Qwen/Qwen3-0.6B               # TRINITY coordinator backbone
+  vector: artifacts/model_iter_60.npy     # released router checkpoint (fetched by setup.sh)
+
+workers:
+  - { slot: 0, model: anthropic/claude-opus-4-8,        roles: [thinker, verifier] }
+  - { slot: 1, model: anthropic/claude-sonnet-4-6,      roles: [worker, verifier] }
+  - { slot: 2, model: gemini/gemini-3.1-pro,            roles: [thinker, worker] }
+  - { slot: 3, model: deepseek/deepseek-v4,             roles: [worker] }
+  - { slot: 4, model: dashscope/qwen3-32b,              roles: [worker] }
+  - { slot: 5, model: openrouter/z-ai/glm-5,            roles: [worker] }
+  - { slot: 6, model: openrouter/moonshotai/kimi-k2,    roles: [worker] }
+
+# Notes:
+# - Strong models (Claude) carry the Verifier role: verify cheap output with a
+#   strong model, never with a peer — the TRINITY asymmetry.
+# - 'roles' is advisory metadata for now; the served TRINITY head assigns roles
+#   per turn. The bandit (fugu_swarm.bandit) can bias slot choice by success.
