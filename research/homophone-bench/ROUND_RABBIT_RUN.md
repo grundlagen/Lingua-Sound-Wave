@@ -58,6 +58,20 @@ round_rabbit.py: check -> tchèque; class -> classe; club -> club;
 So Round Rabbit themes the v6 material directly — fillers and arbiter-ranked
 entries included.
 
+**v6 alone is too thin** (807-entry sample → 4,841-node graph), much weaker than
+v5 (11,788 → 15,681 nodes). The fix is to **integrate, not replace**:
+`dictionary-v6-integrated.json` = full v5 ∪ v6's new entries (12,348 total; 560
+new, 36 filler-carry). Round Rabbit on the integrated graph restores v5's full
+richness **plus** v6's additions:
+
+```
+acoustic -> égouts tic / acoustique     addresses -> adrets aise
+actes  <- activist / act / doctor / worked      except -> excepte / excepté / acceptes
+```
+
+Use the **integrated** dictionary for Round Rabbit — v5 for coverage, v6 for the
+filler/arbiter improvements.
+
 ## How it fits the generation engine
 
 Round Rabbit is the **content-selection front end** (impetus III): pick a meaning,
