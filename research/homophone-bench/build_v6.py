@@ -97,15 +97,23 @@ def main():
                 continue
             coh = coherence(c["fr"])
             uses_filler = any(x in pm.FILLER for x in c["fr"].split())
-            cand = (combo, c["fr"], t, c["coverage"], coh, uses_filler, c["words"])
+            # v5 re-mining gates (phonetic_decoder augment, Jun 11): a "gold"
+            # entry clears expensive_deletions==0, max_substitution<=0.45,
+            # coverage>=0.85 -- strict, no licensed-deletion abuse.
+            strict = (c["expensive_deletions"] == 0
+                      and c.get("max_substitution", 1.0) <= 0.45
+                      and c["coverage"] >= 0.85)
+            cand = (combo, c["fr"], t, c["coverage"], coh, uses_filler,
+                    c["words"], strict)
             if best is None or combo > best[0]:
                 best = cand
         if best:
-            combo, fr, t, cov, coh, uf, nw = best
+            combo, fr, t, cov, coh, uf, nw, strict = best
             rows.append({"en": w, "fr": fr, "combo": round(combo, 3), "tier": t,
                          "coverage": round(cov, 2), "coherence": round(coh, 3),
                          "uses_filler": uf, "multiword": nw > 1,
-                         "novel": w not in known, "cognate": w in v5_cog})
+                         "novel": w not in known, "cognate": w in v5_cog,
+                         "gold": strict})
         if (i + 1) % 100 == 0:
             print(f"  {i+1}/{len(targets)}  kept {len(rows)}  "
                   f"{time.time()-t0:.0f}s", file=sys.stderr)
@@ -122,7 +130,8 @@ def main():
                 "direction": "en_fr", "usable_for_composition": True,
                 "cognate": r["cognate"], "loanword": False,
                 "multiword": r["multiword"], "uses_filler": r["uses_filler"],
-                "coherence": r["coherence"], "source_stage": "v6_filler_arbiter"}
+                "coherence": r["coherence"], "gold": r.get("gold", False),
+                "source_stage": "v6_filler_arbiter"}
                for r in rows]
     with open("dictionary-v6.json", "w", encoding="utf-8") as f:
         json.dump(v6_json, f, ensure_ascii=False, indent=0)
