@@ -1,0 +1,1031 @@
+{
+  "parameters": {
+    "seed": "",
+    "missing_seed_words": [],
+    "max_hops": 4,
+    "components": 14,
+    "per_component": 4,
+    "min_component_weight": 0.6,
+    "selected_components": 14,
+    "rows": 28
+  },
+  "rows": [
+    {
+      "component_id": "en:estimated",
+      "semantic_strings": [
+        "en:estimated",
+        "fr:est merde",
+        "fr:estimés"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:estimated",
+      "path": [
+        "en:estimated"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "estimated",
+          "fr": "estimait aide",
+          "score": 0.956,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "estimated",
+          "fr": "est merde",
+          "score": 0.671,
+          "tier": "B",
+          "kind": "multi",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.956,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9609
+    },
+    {
+      "component_id": "en:basket",
+      "semantic_strings": [
+        "en:basket",
+        "fr:baskets"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:basket",
+      "path": [
+        "en:basket"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "basket",
+          "fr": "bas quitte",
+          "score": 0.954,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.954,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9606
+    },
+    {
+      "component_id": "en:capsule",
+      "semantic_strings": [
+        "en:capsule",
+        "fr:capsules",
+        "fr:kaboul"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:capsule",
+      "path": [
+        "en:capsule"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "capsule",
+          "fr": "caps houle",
+          "score": 0.945,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "capsule",
+          "fr": "kaboul",
+          "score": 0.676,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.945,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9592
+    },
+    {
+      "component_id": "en:electrical",
+      "semantic_strings": [
+        "en:electric",
+        "en:electrical",
+        "fr:lexique",
+        "fr:électriques"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:electrical",
+      "path": [
+        "en:electrical"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "electrical",
+          "fr": "liguent recolle",
+          "score": 0.925,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.925,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9563
+    },
+    {
+      "component_id": "en:activist",
+      "semantic_strings": [
+        "en:activist",
+        "fr:activistes"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:activist",
+      "path": [
+        "en:activist"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "activist",
+          "fr": "actes est",
+          "score": 0.918,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.918,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9552
+    },
+    {
+      "component_id": "en:collective",
+      "semantic_strings": [
+        "en:collective",
+        "fr:collectives"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:collectives",
+      "path": [
+        "fr:collectives"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "collectively",
+          "fr": "collectives lies",
+          "score": 0.806,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "collective",
+          "fr": "collectives",
+          "score": 0.763,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.806,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9384
+    },
+    {
+      "component_id": "en:antique",
+      "semantic_strings": [
+        "en:antique",
+        "fr:antiques",
+        "fr:en tic"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:antique",
+      "path": [
+        "en:antique"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "antique",
+          "fr": "en tic",
+          "score": 0.758,
+          "tier": "B",
+          "kind": "multi",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "antique",
+          "fr": "antiques",
+          "score": 0.755,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.758,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9312
+    },
+    {
+      "component_id": "en:antique",
+      "semantic_strings": [
+        "en:antique",
+        "fr:antiques",
+        "fr:en tic"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:en tic",
+      "path": [
+        "fr:en tic"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "antique",
+          "fr": "en tic",
+          "score": 0.758,
+          "tier": "B",
+          "kind": "multi",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.758,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9312
+    },
+    {
+      "component_id": "en:estimated",
+      "semantic_strings": [
+        "en:estimated",
+        "fr:est merde",
+        "fr:estimés"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:est merde",
+      "path": [
+        "fr:est merde"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "estimated",
+          "fr": "est merde",
+          "score": 0.671,
+          "tier": "B",
+          "kind": "multi",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.671,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9182
+    },
+    {
+      "component_id": "en:estimated",
+      "semantic_strings": [
+        "en:estimated",
+        "fr:est merde",
+        "fr:estimés"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:estimés",
+      "path": [
+        "fr:estimés"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "esteem",
+          "fr": "estimés",
+          "score": 0.85,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.85,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.905
+    },
+    {
+      "component_id": "en:democracy",
+      "semantic_strings": [
+        "en:democracy",
+        "fr:décrit",
+        "fr:démocraties"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:décrit",
+      "path": [
+        "fr:décrit"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 7,
+      "attachments": [
+        {
+          "en": "decree",
+          "fr": "décrit",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "decrease",
+          "fr": "décrit",
+          "score": 0.708,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "disagree",
+          "fr": "décrit",
+          "score": 0.686,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "directory",
+          "fr": "décrit",
+          "score": 0.682,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "dignity",
+          "fr": "décrit",
+          "score": 0.68,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "decreasing",
+          "fr": "décrit",
+          "score": 0.649,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "democracy",
+          "fr": "décrit",
+          "score": 0.634,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.822,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9008
+    },
+    {
+      "component_id": "en:collective",
+      "semantic_strings": [
+        "en:collective",
+        "fr:collectives"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:collective",
+      "path": [
+        "en:collective"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "collective",
+          "fr": "collectives",
+          "score": 0.763,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.763,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.892
+    },
+    {
+      "component_id": "en:electrical",
+      "semantic_strings": [
+        "en:electric",
+        "en:electrical",
+        "fr:lexique",
+        "fr:électriques"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:electric",
+      "path": [
+        "en:electric"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "electric",
+          "fr": "électriques",
+          "score": 0.76,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "electric",
+          "fr": "lexique",
+          "score": 0.729,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.76,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8915
+    },
+    {
+      "component_id": "en:electrical",
+      "semantic_strings": [
+        "en:electric",
+        "en:electrical",
+        "fr:lexique",
+        "fr:électriques"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:électriques",
+      "path": [
+        "fr:électriques"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "electric",
+          "fr": "électriques",
+          "score": 0.76,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.76,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8915
+    },
+    {
+      "component_id": "en:globe",
+      "semantic_strings": [
+        "en:globe",
+        "fr:globes"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:globe",
+      "path": [
+        "en:globe"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "globe",
+          "fr": "globes",
+          "score": 0.758,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.758,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8912
+    },
+    {
+      "component_id": "en:globe",
+      "semantic_strings": [
+        "en:globe",
+        "fr:globes"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:globes",
+      "path": [
+        "fr:globes"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "globe",
+          "fr": "globes",
+          "score": 0.758,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.758,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8912
+    },
+    {
+      "component_id": "en:antique",
+      "semantic_strings": [
+        "en:antique",
+        "fr:antiques",
+        "fr:en tic"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:antiques",
+      "path": [
+        "fr:antiques"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "antique",
+          "fr": "antiques",
+          "score": 0.755,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.755,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8907
+    },
+    {
+      "component_id": "en:electrical",
+      "semantic_strings": [
+        "en:electric",
+        "en:electrical",
+        "fr:lexique",
+        "fr:électriques"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:lexique",
+      "path": [
+        "fr:lexique"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "electric",
+          "fr": "lexique",
+          "score": 0.729,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.729,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8868
+    },
+    {
+      "component_id": "en:brigade",
+      "semantic_strings": [
+        "en:brigade",
+        "fr:brigades",
+        "fr:briguer"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:brigade",
+      "path": [
+        "en:brigade"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "brigade",
+          "fr": "briguer",
+          "score": 0.692,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.692,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8813
+    },
+    {
+      "component_id": "en:brigade",
+      "semantic_strings": [
+        "en:brigade",
+        "fr:brigades",
+        "fr:briguer"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:briguer",
+      "path": [
+        "fr:briguer"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "brigade",
+          "fr": "briguer",
+          "score": 0.692,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.692,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8813
+    },
+    {
+      "component_id": "en:capsule",
+      "semantic_strings": [
+        "en:capsule",
+        "fr:capsules",
+        "fr:kaboul"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:kaboul",
+      "path": [
+        "fr:kaboul"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "capsule",
+          "fr": "kaboul",
+          "score": 0.676,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.676,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8789
+    },
+    {
+      "component_id": "en:democracy",
+      "semantic_strings": [
+        "en:democracy",
+        "fr:décrit",
+        "fr:démocraties"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:democracy",
+      "path": [
+        "en:democracy"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "democracy",
+          "fr": "décrit",
+          "score": 0.634,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.634,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8726
+    },
+    {
+      "component_id": "en:estimated",
+      "semantic_strings": [
+        "en:estimated",
+        "fr:est merde",
+        "fr:estimés"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:estimait aide",
+      "path": [
+        "en:estimated",
+        "fr:estimait aide"
+      ],
+      "path_edge_scores": [
+        0.956
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "estimated",
+          "fr": "estimait aide",
+          "score": 0.956,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.956,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.8655
+    },
+    {
+      "component_id": "en:basket",
+      "semantic_strings": [
+        "en:basket",
+        "fr:baskets"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:bas quitte",
+      "path": [
+        "en:basket",
+        "fr:bas quitte"
+      ],
+      "path_edge_scores": [
+        0.954
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "basket",
+          "fr": "bas quitte",
+          "score": 0.954,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.954,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.8645
+    },
+    {
+      "component_id": "en:capsule",
+      "semantic_strings": [
+        "en:capsule",
+        "fr:capsules",
+        "fr:kaboul"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:caps houle",
+      "path": [
+        "en:capsule",
+        "fr:caps houle"
+      ],
+      "path_edge_scores": [
+        0.945
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "capsule",
+          "fr": "caps houle",
+          "score": 0.945,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.945,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.86
+    },
+    {
+      "component_id": "en:activist",
+      "semantic_strings": [
+        "en:activist",
+        "fr:activistes"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:actes est",
+      "path": [
+        "en:activist",
+        "fr:actes est"
+      ],
+      "path_edge_scores": [
+        0.918
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "activist",
+          "fr": "actes est",
+          "score": 0.918,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.918,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.8465
+    },
+    {
+      "component_id": "en:democracy",
+      "semantic_strings": [
+        "en:democracy",
+        "fr:décrit",
+        "fr:démocraties"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:disagree",
+      "path": [
+        "fr:décrit",
+        "en:disagree"
+      ],
+      "path_edge_scores": [
+        0.686
+      ],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "disagree",
+          "fr": "dis aigri",
+          "score": 0.969,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "disagree",
+          "fr": "décrit",
+          "score": 0.686,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.969,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.773
+    },
+    {
+      "component_id": "en:democracy",
+      "semantic_strings": [
+        "en:democracy",
+        "fr:décrit",
+        "fr:démocraties"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:decree",
+      "path": [
+        "fr:décrit",
+        "en:decree"
+      ],
+      "path_edge_scores": [
+        0.822
+      ],
+      "attached_count": 4,
+      "attachments": [
+        {
+          "en": "decree",
+          "fr": "décris",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "decree",
+          "fr": "décrit",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "decree",
+          "fr": "décrits",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "decree",
+          "fr": "cries",
+          "score": 0.812,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.822,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7585
+    }
+  ]
+}
