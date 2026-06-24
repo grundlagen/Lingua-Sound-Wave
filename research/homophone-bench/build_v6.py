@@ -58,9 +58,11 @@ def coherence(fr):
 def v5_headwords():
     try:
         d = json.load(open("dictionary-v5.json"))
-        return {e["en"] for e in d if e.get("direction", "en_fr") == "en_fr"}
+        heads = {e["en"] for e in d if e.get("direction", "en_fr") == "en_fr"}
+        cog = {e["en"] for e in d if e.get("cognate")}   # carry cognate -> meaning edges
+        return heads, cog
     except FileNotFoundError:
-        return set()
+        return set(), set()
 
 
 def main():
@@ -70,7 +72,7 @@ def main():
     pd.WORD_PENALTY = 0.05        # ...and let short carves compete
     root = pm.build_poetry_trie(min_zipf=2.0)
     lex_en = load_en()
-    known = v5_headwords()
+    known, v5_cog = v5_headwords()
     print(f"v6 mine: poetry trie + arbiter rank. v5 had {len(known)} headwords.",
           file=sys.stderr)
 
@@ -103,7 +105,7 @@ def main():
             rows.append({"en": w, "fr": fr, "combo": round(combo, 3), "tier": t,
                          "coverage": round(cov, 2), "coherence": round(coh, 3),
                          "uses_filler": uf, "multiword": nw > 1,
-                         "novel": w not in known})
+                         "novel": w not in known, "cognate": w in v5_cog})
         if (i + 1) % 100 == 0:
             print(f"  {i+1}/{len(targets)}  kept {len(rows)}  "
                   f"{time.time()-t0:.0f}s", file=sys.stderr)
@@ -114,6 +116,16 @@ def main():
         for r in rows:
             f.write(f"{r['tier']}\t{r['combo']}\t{r['coverage']}\t{r['coherence']}"
                     f"\t{int(r['uses_filler'])}\t{int(r['novel'])}\t{r['en']}\t{r['fr']}\n")
+
+    # v5-compatible JSON so Fable's mapping_web.py / round_rabbit.py run on v6
+    v6_json = [{"en": r["en"], "fr": r["fr"], "score": r["combo"], "tier": r["tier"],
+                "direction": "en_fr", "usable_for_composition": True,
+                "cognate": r["cognate"], "loanword": False,
+                "multiword": r["multiword"], "uses_filler": r["uses_filler"],
+                "coherence": r["coherence"], "source_stage": "v6_filler_arbiter"}
+               for r in rows]
+    with open("dictionary-v6.json", "w", encoding="utf-8") as f:
+        json.dump(v6_json, f, ensure_ascii=False, indent=0)
 
     # the filler primitives layer (composition building blocks)
     with open("v6-fillers.tsv", "w", encoding="utf-8") as f:
