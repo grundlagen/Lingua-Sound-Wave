@@ -61,16 +61,23 @@ def coherence(fr):
     return 0.0
 
 
-def resegment(span_text, fr_root, top_n=8):
-    """(1)+(2): re-cut the span's phoneme stream into fluent French words."""
+def resegment(span_text, fr_root, top_n=12):
+    """(1)+(2): re-cut the span's phoneme stream into fluent French words.
+
+    Ranks candidates by the MATCHER combo (coverage-aware, the AUC-0.993
+    arbiter) -- NOT the decoder's path-normalized similarity, which is
+    coverage-blind and over-credits a partial single-word match (it ranked
+    'epidemie', covering 58% of Humpty Dumpty, above the fuller 'un petit'
+    carve). Proposer proposes, arbiter ranks.
+    """
     ipa = en_ipa(span_text)
     cands = pd.decode(ipa, fr_root, top_n=top_n, max_words=8,
                       lm=LM, lm_weight=pd.LM_BEAM_WEIGHT if LM else 0.0)
     scored = []
     for c in cands:
-        if c["expensive_deletions"] > 0:
-            continue
-        snd = c["similarity"]
+        # licensed deletions (h we don't have, offglides) are part of the art;
+        # let the coverage-aware combo penalise bad ones rather than hard-gating.
+        snd = matcher.homophone_score(span_text, "en", c["fr"], "fr")["score"]
         coh = coherence(c["fr"])
         scored.append((snd * coh, snd, coh, c["fr"], c["words"]))
     scored.sort(reverse=True)
@@ -103,9 +110,15 @@ def content_select(line, fr_root):
 
 
 def main():
-    pd.BEAM = 200
-    fr_root = pd.build_trie(min_zipf=2.2, lang="fr")
-    print(f"engine ready. coherence model: {'bigram-LM' if LM else 'none'}\n")
+    # poetry mode: admit van Rooten's 1-segment filler words, reward short carves,
+    # and rank by the coverage-aware matcher (see resegment()).
+    import poetry_mode
+    pd.BEAM = 350
+    pd.MIN_WORD_SEGS = 1
+    pd.WORD_PENALTY = 0.04
+    fr_root = poetry_mode.build_poetry_trie(min_zipf=2.0)
+    print(f"engine ready (poetry mode + arbiter rank). "
+          f"coherence: {'bigram-LM' if LM else 'none'}\n")
 
     # public-domain Mother Goose source lines (1916)
     LINES = [
