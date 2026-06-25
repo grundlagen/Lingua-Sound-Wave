@@ -37,6 +37,10 @@ COV_MIN = 0.78
 
 def main():
     n_phrases = int(sys.argv[1]) if len(sys.argv) > 1 else 1100
+    # selection: "combo" = best homophone; "balanced" = best combo*(fluency+0.3)
+    # so the bank prefers carves that are ALSO real French (lifts fluency).
+    mode = sys.argv[2] if len(sys.argv) > 2 else "combo"
+    out_path = "phrase-bank-balanced.tsv" if mode == "balanced" else "phrase-bank.tsv"
     EN = bigram_lm.load("en")
     # candidate phrases: most frequent English bigrams (real collocations)
     phrases = list(MOTHER_GOOSE)
@@ -55,7 +59,7 @@ def main():
     pd.WORD_PENALTY = 0.04
     pd.MIN_WORD_SEGS = 1
 
-    out = open("phrase-bank.tsv", "w", encoding="utf-8")
+    out = open(out_path, "w", encoding="utf-8")
     out.write("en_phrase\tfr_phrase\tcombo\tcoverage\tfluency\n")
     kept = 0
     for i, ph in enumerate(phrases):
@@ -66,13 +70,18 @@ def main():
         nw = len(ph.split())
         cands = pd.decode(ipa, root, top_n=80, max_words=nw + 3,
                           lm=wlc.LM, lm_weight=0.10)
-        best = None
+        best, best_key = None, -1.0
         for c in cands:
             if c["coverage"] < COV_MIN:
                 continue
             combo = matcher.homophone_score(ph, "en", c["fr"], "fr")["score"]
-            if best is None or combo > best[0]:
-                best = (combo, c["coverage"], wlc.coherence(c["fr"]), c["fr"])
+            if combo < COMBO_MIN:
+                continue
+            flu = wlc.coherence(c["fr"])
+            key = combo * (flu + 0.3) if mode == "balanced" else combo
+            if key > best_key:
+                best_key = key
+                best = (combo, c["coverage"], flu, c["fr"])
         if best and best[0] >= COMBO_MIN:
             out.write(f"{ph}\t{best[3]}\t{best[0]:.3f}\t{best[1]:.2f}\t{best[2]:.3f}\n")
             out.flush()
