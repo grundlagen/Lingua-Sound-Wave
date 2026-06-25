@@ -1,0 +1,12 @@
+{
+ "nodes": 195270,
+ "components": 77192,
+ "giant_component": 24480,
+ "giant_fraction": 0.1254,
+ "second_component": 50,
+ "isolates_or_tiny(<=3)": 73561,
+ "seeds": 6351,
+ "chain_web_edges": 12057,
+ "loops": 354,
+ "seconds": 4
+}

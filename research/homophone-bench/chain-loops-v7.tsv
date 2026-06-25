@@ -1,0 +1,355 @@
+seed	hops	quality	loop
+accepting	3	0.748	en:accepting ≈ fr:accepte ~ fr:acceptent ≈ en:accept
+accepting	4	0.798	en:accepting ≈ fr:accepte = en:accept ≈ fr:acceptent ~ fr:accepter
+area	4	0.713	en:area ~ en:zone ≈ fr:zone ~ fr:domaine ≈ en:domain
+area	5	0.711	en:area ~ en:zone ≈ fr:zone ~ fr:domaine ≈ en:domain ~ en:field
+axe	3	0.780	en:axe ≈ fr:axes = en:axis ≈ fr:axe
+axe	4	0.760	en:axe ≈ fr:axes = en:axis ≈ fr:axe ~ fr:haches
+axis	3	0.780	en:axis ≈ fr:axe = en:axe ≈ fr:axes
+axis	3	0.697	en:axis ≈ fr:axe ~ fr:axes ≈ en:axe
+bands	4	0.930	en:bands = fr:groupes ≈ en:group = fr:groupe ≈ en:groups
+bands	4	0.868	en:bands ~ en:groups ≈ fr:groupe = en:group ≈ fr:groupes
+beach	3	0.740	en:beach ≈ fr:bits ~ fr:bit ≈ en:beaches
+beach	4	0.792	en:beach ≈ fr:bits ~ fr:bit ≈ en:beaches = fr:plage
+beaches	3	0.740	en:beaches ≈ fr:bit ~ fr:bits ≈ en:beach
+beaches	4	0.792	en:beaches ≈ fr:bit ~ fr:bits ≈ en:beach = fr:plage
+beasts	3	0.783	en:beasts ≈ fr:bit = en:bit ≈ fr:bêtes
+bit	3	0.783	en:bit ≈ fr:bêtes = en:beasts ≈ fr:bit
+bit	4	0.792	en:bit = fr:bits ≈ en:beach ~ en:beaches ≈ fr:bit
+bits	5	0.824	en:bits = fr:bits ≈ en:beach ~ en:beaches ≈ fr:bit = en:bit
+bits	5	0.750	en:bits ~ en:bit ≈ fr:bêtes = en:beasts ≈ fr:bit ~ fr:bits
+blacks	5	0.777	en:blacks ~ en:black ≈ fr:bloc = en:block ≈ fr:black ~ fr:noirs
+bloc	4	0.858	en:bloc = fr:bloc ≈ en:black = fr:black ≈ en:block
+bloc	4	0.796	en:bloc ~ en:block ≈ fr:black = en:black ≈ fr:bloc
+block	3	0.828	en:block ≈ fr:black = en:black ≈ fr:bloc
+block	4	0.858	en:block ≈ fr:black = en:black ≈ fr:bloc = en:bloc
+break	3	0.831	en:break ≈ fr:briques = en:brick ≈ fr:break
+break	4	0.933	en:break = fr:pause ≈ en:pose = fr:pose ≈ en:pause
+brick	3	0.831	en:brick ≈ fr:break = en:break ≈ fr:briques
+brick	4	0.861	en:brick ≈ fr:break = en:break ≈ fr:briques = en:bricks
+bricks	4	0.861	en:bricks = fr:briques ≈ en:break = fr:break ≈ en:brick
+bricks	4	0.798	en:bricks ~ en:brick ≈ fr:break = en:break ≈ fr:briques
+call	4	0.850	en:call ≈ fr:colle ~ fr:coller ≈ en:caller ~ en:calling
+call	6	0.888	en:call ≈ fr:colle ~ fr:coller ≈ en:collar = fr:col ≈ en:caller ~ en:calling
+caller	4	0.850	en:caller ≈ fr:coller ~ fr:colle ≈ en:call ~ en:calling
+caller	6	0.888	en:caller ≈ fr:col = en:collar ≈ fr:coller ~ fr:colle ≈ en:call ~ en:calling
+calling	4	0.850	en:calling ~ en:caller ≈ fr:coller ~ fr:colle ≈ en:call
+calling	5	0.870	en:calling ~ en:caller ≈ fr:coller ~ fr:colle ≈ en:call = fr:appeler
+cap	3	0.720	en:cap ≈ fr:cap ~ fr:pac ≈ en:pac
+cape	4	0.703	en:cape ≈ fr:cap ~ fr:pac ≈ en:pac ~ en:cap
+check	3	0.900	en:check ≈ fr:tchèques ~ fr:tchèque ≈ en:cheque
+check	4	0.913	en:check ≈ fr:tchèques ~ fr:tchèque ≈ en:cheque = fr:chèque
+checks	4	0.825	en:checks = fr:contrôles ≈ en:control = fr:contrôle ≈ en:controls
+checks	5	0.801	en:checks ≈ fr:tchèques ~ fr:tchèque ≈ en:cheque ~ en:check ≈ fr:chèques
+cheque	3	0.812	en:cheque ≈ fr:cheik = en:sheikh ≈ fr:chèque
+cheque	3	0.812	en:cheque ≈ fr:cheik = en:sheik ≈ fr:chèque
+cherry	6	0.838	en:cherry = fr:cerise ≈ en:series = fr:séries ≈ en:city ~ en:cities ≈ fr:cerises
+cherry	6	0.838	en:cherry = fr:cerises ≈ en:series = fr:séries ≈ en:city ~ en:cities ≈ fr:cerise
+cities	5	0.816	en:cities ≈ fr:cerises ~ fr:cerise ≈ en:series = fr:séries ≈ en:city
+cities	5	0.816	en:cities ≈ fr:cerise ~ fr:cerises ≈ en:series = fr:séries ≈ en:city
+city	5	0.816	en:city ≈ fr:séries = en:series ≈ fr:cerises ~ fr:cerise ≈ en:cities
+city	5	0.816	en:city ≈ fr:séries = en:series ≈ fr:cerise ~ fr:cerises ≈ en:cities
+clip	3	0.797	en:clip ≈ fr:clips = en:clips ≈ fr:clip
+clip	4	0.773	en:clip ≈ fr:clips = en:clips ≈ fr:clip ~ fr:pince
+clips	3	0.797	en:clips ≈ fr:clip = en:clip ≈ fr:clips
+clips	4	0.773	en:clips ≈ fr:clip = en:clip ≈ fr:clips ~ fr:pinces
+clues	6	0.822	en:clues ≈ fr:clous ~ fr:clou ≈ en:clue ~ en:index ≈ fr:index = en:indexes
+clues	6	0.780	en:clues ≈ fr:clous ~ fr:clou ≈ en:clue ~ en:index ≈ fr:index ~ fr:indices
+col	6	0.803	en:col ~ en:collar ≈ fr:coller ~ fr:colle ≈ en:call ~ en:calling ≈ fr:col
+collar	5	0.824	en:collar ≈ fr:coller ~ fr:colle ≈ en:call ~ en:calling ≈ fr:col
+collar	6	0.845	en:collar ≈ fr:coller ~ fr:colle ≈ en:call ~ en:calling ≈ fr:col = en:col
+control	3	0.783	en:control ≈ fr:contrôles = en:controls ≈ fr:contrôle
+control	4	0.762	en:control ≈ fr:contrôles = en:controls ≈ fr:contrôle ~ fr:contrôler
+controlling	5	0.750	en:controlling ~ en:control ≈ fr:contrôles = en:controls ≈ fr:contrôle ~ fr:contrôler
+controls	3	0.783	en:controls ≈ fr:contrôle = en:control ≈ fr:contrôles
+controls	4	0.825	en:controls ≈ fr:contrôle = en:control ≈ fr:contrôles = en:checks
+cop	4	0.713	en:cop ~ en:police ≈ fr:polices ~ fr:police ≈ en:policeman
+cop	5	0.761	en:cop ~ en:police ≈ fr:polices ~ fr:police ≈ en:policeman = fr:policier
+corps	4	0.802	en:corps ≈ fr:corps ~ fr:organe ≈ en:organ ~ en:body
+cult	3	0.813	en:cult ≈ fr:cultes ~ fr:secte ≈ en:sect
+cult	3	0.813	en:cult ≈ fr:cultes ~ fr:sectes ≈ en:sect
+czech	4	0.912	en:czech = fr:tchèque ≈ en:cheque ~ en:check ≈ fr:tchèques
+czech	5	0.920	en:czech = fr:tchèque ≈ en:cheque ~ en:check ≈ fr:tchèques = en:czechs
+dark	5	0.777	en:dark ~ en:black ≈ fr:bloc = en:block ≈ fr:black ~ fr:noir
+dear	4	0.858	en:dear = fr:chère ≈ en:share ~ en:shares ≈ fr:chers
+dear	4	0.858	en:dear = fr:chers ≈ en:share ~ en:shares ≈ fr:chère
+deaths	3	0.701	en:deaths ≈ fr:dette ~ fr:dettes ≈ en:dead
+deaths	4	0.763	en:deaths ≈ fr:dette ~ fr:dettes ≈ en:dead = fr:morts
+debt	3	0.910	en:debt ≈ fr:dettes = en:debts ≈ fr:dette
+debt	3	0.827	en:debt ≈ fr:dettes ~ fr:dette ≈ en:debts
+debts	3	0.910	en:debts ≈ fr:dette = en:debt ≈ fr:dettes
+debts	3	0.827	en:debts ≈ fr:dettes ~ fr:dette ≈ en:debt
+decrease	3	0.718	en:decrease ≈ fr:décrit ~ fr:décrite ≈ en:decreased
+decrease	4	0.776	en:decrease ≈ fr:décrit ~ fr:décrite ≈ en:decreased = fr:diminution
+died	5	0.758	en:died ≈ fr:date = en:date ≈ fr:dette ~ fr:dettes ≈ en:dead
+died	6	0.790	en:died ≈ fr:date = en:date ≈ fr:dette ~ fr:dettes ≈ en:dead = fr:morte
+disorder	6	0.810	en:disorder ~ en:mess ≈ fr:messe = en:mass ≈ fr:masses ~ fr:messes ≈ en:messy
+domain	4	0.713	en:domain ≈ fr:domaine ~ fr:zone ≈ en:zone ~ en:area
+drama	3	0.692	en:drama ≈ fr:drame ~ fr:tragédie ≈ en:tragedy
+draw	3	0.707	en:draw ≈ fr:drogues ~ fr:drogue ≈ en:drawing
+draw	4	0.768	en:draw ≈ fr:drogues ~ fr:drogue ≈ en:drawing = fr:tirage
+drawing	3	0.707	en:drawing ≈ fr:drogue ~ fr:drogues ≈ en:draw
+drawing	4	0.768	en:drawing ≈ fr:drogue ~ fr:drogues ≈ en:draw = fr:tirage
+dream	3	0.715	en:dream ≈ fr:rimes ~ fr:rime ≈ en:dreams
+dream	4	0.774	en:dream ≈ fr:rimes ~ fr:rime ≈ en:dreams = fr:rêve
+drug	5	0.804	en:drug = fr:drogue ≈ en:drawing ~ en:draw ≈ fr:drogues = en:drugs
+drugs	4	0.768	en:drugs = fr:drogues ≈ en:draw ~ en:drawing ≈ fr:drogue
+drugs	4	0.768	en:drugs = fr:drogue ≈ en:drawing ~ en:draw ≈ fr:drogues
+enemies	3	0.874	en:enemies ≈ fr:ennemies = en:enemy ≈ fr:ennemis
+enemies	3	0.791	en:enemies ≈ fr:ennemies ~ fr:ennemie ≈ en:enemy
+enemy	3	0.874	en:enemy ≈ fr:ennemis = en:enemies ≈ fr:ennemies
+enemy	3	0.791	en:enemy ≈ fr:ennemis ~ fr:ennemies ≈ en:enemies
+exact	3	0.746	en:exact ≈ fr:exactes ~ fr:exact ≈ en:exactly
+exact	4	0.797	en:exact ≈ fr:exactes ~ fr:exact ≈ en:exactly = fr:exactement
+exactly	3	0.746	en:exactly ≈ fr:exact ~ fr:exactes ≈ en:exact
+exactly	4	0.797	en:exactly ≈ fr:exact = en:exact ≈ fr:exactes ~ fr:exactement
+exist	3	0.849	en:exist ≈ fr:existe = en:exists ≈ fr:existent
+exist	3	0.765	en:exist ≈ fr:existe ~ fr:existent ≈ en:exists
+exists	3	0.849	en:exists ≈ fr:existent = en:exist ≈ fr:existe
+exists	3	0.765	en:exists ≈ fr:existent ~ fr:existe ≈ en:exist
+explicit	3	0.740	en:explicit ≈ fr:explicites ~ fr:explicite ≈ en:explicitly
+explicit	3	0.737	en:explicit ≈ fr:explicite ~ fr:explicites ≈ en:explicitly
+explicitly	3	0.740	en:explicitly ≈ fr:explicite ~ fr:explicites ≈ en:explicit
+explicitly	3	0.737	en:explicitly ≈ fr:explicites ~ fr:explicite ≈ en:explicit
+express	3	0.804	en:express ≈ fr:exprès ~ fr:expresse ≈ en:expressing
+express	4	0.836	en:express = fr:express ≈ en:expressions = fr:expressions ≈ en:expressing
+expressing	3	0.804	en:expressing ≈ fr:expresse ~ fr:exprès ≈ en:express
+expressing	4	0.841	en:expressing ≈ fr:expresse = en:express ≈ fr:exprès ~ fr:exprimer
+expressions	3	0.812	en:expressions ≈ fr:express = en:express ≈ fr:expressions
+expressions	4	0.847	en:expressions ≈ fr:express = en:express ≈ fr:expressions = en:phrases
+extract	3	0.834	en:extract ≈ fr:extraite = en:extracted ≈ fr:extraits
+extract	4	0.863	en:extract ≈ fr:extraite = en:extracted ≈ fr:extraits = en:excerpts
+extracted	3	0.834	en:extracted ≈ fr:extraits = en:extract ≈ fr:extraite
+extracted	4	0.800	en:extracted ≈ fr:extraits = en:extract ≈ fr:extraite ~ fr:extrait
+film	3	0.796	en:film ≈ fr:films = en:films ≈ fr:film
+film	4	0.834	en:film ≈ fr:films = en:films ≈ fr:film = en:movie
+films	3	0.796	en:films ≈ fr:film = en:film ≈ fr:films
+films	4	0.834	en:films ≈ fr:film = en:film ≈ fr:films = en:movies
+flexibility	3	0.725	en:flexibility ≈ fr:flexible ~ fr:flexibles ≈ en:flexible
+flexibility	4	0.781	en:flexibility ≈ fr:flexible = en:flexible ≈ fr:flexibles ~ fr:flexibilité
+font	4	0.776	en:font = fr:polices ≈ en:police ~ en:policeman ≈ fr:police
+font	4	0.776	en:font = fr:police ≈ en:policeman ~ en:police ≈ fr:polices
+formal	3	0.829	en:formal ≈ fr:formules = en:formula ≈ fr:formelle
+formal	4	0.797	en:formal ≈ fr:formules = en:formula ≈ fr:formelle ~ fr:formel
+formula	3	0.829	en:formula ≈ fr:formelle = en:formal ≈ fr:formules
+formula	4	0.859	en:formula ≈ fr:formelle = en:formal ≈ fr:formules = en:formulas
+galleries	3	0.825	en:galleries ≈ fr:galerie = en:gallery ≈ fr:galeries
+galleries	3	0.742	en:galleries ≈ fr:galerie ~ fr:galeries ≈ en:gallery
+gallery	3	0.825	en:gallery ≈ fr:galeries = en:galleries ≈ fr:galerie
+gallery	3	0.742	en:gallery ≈ fr:galeries ~ fr:galerie ≈ en:galleries
+gender	4	0.886	en:gender = fr:sexes ≈ en:sexy = fr:sexy ≈ en:sex
+gender	5	0.899	en:gender = fr:sexes ≈ en:sexy = fr:sexy ≈ en:sex = fr:sexe
+gin	3	0.912	en:gin ≈ fr:jean = en:jean ≈ fr:gin
+gin	5	0.932	en:gin ≈ fr:jean = en:jean ≈ fr:djinns = en:jinn ≈ fr:gin
+golf	3	0.830	en:golf ≈ fr:golfe = en:gulf ≈ fr:golf
+gram	3	0.795	en:gram ≈ fr:grammes = en:grams ≈ fr:gramme
+gram	3	0.712	en:gram ≈ fr:grammes ~ fr:gramme ≈ en:grams
+grams	3	0.795	en:grams ≈ fr:gramme = en:gram ≈ fr:grammes
+grams	3	0.712	en:grams ≈ fr:gramme ~ fr:grammes ≈ en:gram
+grand	4	0.728	en:grand ≈ fr:grandes ~ fr:grande ≈ en:grande ~ en:large
+grand	4	0.728	en:grand ≈ fr:grandes ~ fr:grande ≈ en:grande ~ en:big
+group	3	0.924	en:group ≈ fr:groupes = en:groups ≈ fr:groupe
+group	4	0.930	en:group ≈ fr:groupes = en:groups ≈ fr:groupe = en:band
+groups	3	0.924	en:groups ≈ fr:groupe = en:group ≈ fr:groupes
+groups	4	0.930	en:groups ≈ fr:groupe = en:group ≈ fr:groupes = en:bands
+gulf	3	0.830	en:gulf ≈ fr:golf = en:golf ≈ fr:golfe
+gulf	4	0.798	en:gulf ≈ fr:golf = en:golf ≈ fr:golfe ~ fr:gulf
+index	5	0.776	en:index ~ en:clue ≈ fr:clous ~ fr:clou ≈ en:clues ~ en:indexes
+index	5	0.776	en:index ~ en:clue ≈ fr:clou ~ fr:clous ≈ en:clues ~ en:indexes
+jean	3	0.912	en:jean ≈ fr:gin = en:gin ≈ fr:jean
+jean	4	0.921	en:jean ≈ fr:gin = en:gin ≈ fr:jean = en:john
+jinn	5	0.932	en:jinn ≈ fr:gin = en:gin ≈ fr:jean = en:jean ≈ fr:djinns
+john	4	0.921	en:john = fr:jean ≈ en:gin = fr:gin ≈ en:jean
+john	4	0.859	en:john ~ en:jean ≈ fr:gin = en:gin ≈ fr:jean
+knife	3	0.712	en:knife ≈ fr:naïfs ~ fr:naïve ≈ en:knives
+knife	3	0.712	en:knife ≈ fr:naïf ~ fr:naïve ≈ en:knives
+knives	3	0.712	en:knives ≈ fr:naïve ~ fr:naïf ≈ en:knife
+knives	3	0.712	en:knives ≈ fr:naïve ~ fr:naïfs ≈ en:knife
+league	3	0.919	en:league ≈ fr:ligues = en:leagues ≈ fr:ligue
+league	4	0.865	en:league ≈ fr:ligues = en:leagues ≈ fr:ligue ~ fr:league
+leagues	3	0.919	en:leagues ≈ fr:ligue = en:league ≈ fr:ligues
+leagues	4	0.865	en:leagues ≈ fr:ligue = en:league ≈ fr:ligues ~ fr:lieues
+list	3	0.797	en:list ≈ fr:listes = en:lists ≈ fr:liste
+list	3	0.714	en:list ≈ fr:listes ~ fr:liste ≈ en:lists
+lists	3	0.797	en:lists ≈ fr:liste = en:list ≈ fr:listes
+lists	3	0.714	en:lists ≈ fr:liste ~ fr:listes ≈ en:list
+little	4	0.850	en:little ~ en:petit ≈ fr:petit ~ fr:petite ≈ en:petite
+little	4	0.850	en:little ~ en:petit ≈ fr:petit ~ fr:petites ≈ en:petite
+lord	3	0.924	en:lord ≈ fr:lords = en:lords ≈ fr:lord
+lord	4	0.868	en:lord ≈ fr:lords = en:lords ≈ fr:lord ~ fr:seigneur
+lords	3	0.924	en:lords ≈ fr:lord = en:lord ≈ fr:lords
+lords	4	0.868	en:lords ≈ fr:lord = en:lord ≈ fr:lords ~ fr:seigneurs
+mask	3	0.843	en:mask ≈ fr:masque = en:masque ≈ fr:masques
+mask	3	0.821	en:mask ≈ fr:masques ~ fr:masque ≈ en:masque
+masks	4	0.869	en:masks = fr:masques ≈ en:masque = fr:masque ≈ en:mask
+masks	4	0.807	en:masks ~ en:mask ≈ fr:masque = en:masque ≈ fr:masques
+masque	3	0.843	en:masque ≈ fr:masques = en:mask ≈ fr:masque
+masque	3	0.821	en:masque ≈ fr:masque ~ fr:masques ≈ en:mask
+mass	5	0.788	en:mass ≈ fr:masses ~ fr:messes ≈ en:mess ~ en:messes ≈ fr:messe
+mass	5	0.782	en:mass ≈ fr:masses ~ fr:messes ≈ en:messy ~ en:mess ≈ fr:messe
+masses	6	0.856	en:masses = fr:messes ≈ en:mess ~ en:messes ≈ fr:messe = en:mass ≈ fr:masses
+masses	6	0.852	en:masses = fr:messes ≈ en:messy ~ en:mess ≈ fr:messe = en:mass ≈ fr:masses
+max	3	0.710	en:max ≈ fr:max ~ fr:maximum ≈ en:maximum
+mess	5	0.832	en:mess ≈ fr:messe = en:mass ≈ fr:masses ~ fr:messes ≈ en:messy
+mess	5	0.838	en:mess ≈ fr:messes ~ fr:masses ≈ en:mass = fr:messe ≈ en:messes
+messes	5	0.838	en:messes ≈ fr:messe = en:mass ≈ fr:masses ~ fr:messes ≈ en:mess
+messes	6	0.856	en:messes ≈ fr:messe = en:mass ≈ fr:masses ~ fr:messes ≈ en:mess = fr:mess
+movie	4	0.834	en:movie = fr:film ≈ en:films = fr:films ≈ en:film
+movie	4	0.772	en:movie ~ en:film ≈ fr:films = en:films ≈ fr:film
+movies	4	0.834	en:movies = fr:films ≈ en:film = fr:film ≈ en:films
+naive	4	0.772	en:naive = fr:naïf ≈ en:knife ~ en:knives ≈ fr:naïve
+naive	4	0.772	en:naive = fr:naïfs ≈ en:knife ~ en:knives ≈ fr:naïve
+orchestra	4	0.796	en:orchestra ≈ fr:orchestre ~ fr:groupe ≈ en:group ~ en:band
+orchestra	6	0.826	en:orchestra ≈ fr:orchestre ~ fr:groupe ≈ en:groups = fr:groupes ≈ en:group ~ en:band
+organ	4	0.802	en:organ ≈ fr:organe ~ fr:corps ≈ en:corps ~ en:body
+pac	3	0.720	en:pac ≈ fr:pac ~ fr:cap ≈ en:cap
+pac	4	0.703	en:pac ≈ fr:pac ~ fr:cap ≈ en:cape ~ en:cap
+pair	6	0.817	en:pair = fr:pair ≈ en:pierre ~ en:peter ≈ fr:pire ~ fr:pires ≈ en:peer
+paste	6	0.887	en:paste = fr:colle ≈ en:call ~ en:calling ≈ fr:col = en:collar ≈ fr:coller
+pause	3	0.928	en:pause ≈ fr:pose = en:pose ≈ fr:pause
+pause	3	0.908	en:pause ≈ fr:pose = en:poses ≈ fr:pause
+peak	3	0.849	en:peak ≈ fr:pic ~ fr:crête ≈ en:crest
+peak	4	0.812	en:peak ≈ fr:pic ~ fr:crête ≈ en:crest ~ en:ridge
+peer	5	0.790	en:peer ≈ fr:pires ~ fr:pire ≈ en:peter ~ en:pierre ≈ fr:pair
+peer	6	0.817	en:peer ≈ fr:pires ~ fr:pire ≈ en:peter ~ en:pierre ≈ fr:pair = en:pair
+penalties	5	0.876	en:penalties = fr:peines ≈ en:pens ~ en:pen ≈ fr:peine = en:penalty
+penalty	5	0.882	en:penalty = fr:peine ≈ en:pens ~ en:pen ≈ fr:peines = en:penalties
+penalty	5	0.832	en:penalty = fr:peine ≈ en:pens ~ en:pen ≈ fr:peines ~ fr:pénalités
+peter	5	0.840	en:peter ≈ fr:pire ~ fr:pires ≈ en:peer = fr:pair ≈ en:pierre
+peter	6	0.858	en:peter ≈ fr:pire ~ fr:pires ≈ en:peer = fr:pair ≈ en:pierre = fr:pierre
+petit	4	0.850	en:petit ≈ fr:petit ~ fr:petite ≈ en:petite ~ en:small
+petit	4	0.850	en:petit ≈ fr:petit ~ fr:petite ≈ en:petite ~ en:little
+petite	4	0.850	en:petite ≈ fr:petites ~ fr:petit ≈ en:petit ~ en:little
+petite	4	0.850	en:petite ≈ fr:petites ~ fr:petit ≈ en:petit ~ en:small
+phrases	4	0.847	en:phrases = fr:expressions ≈ en:express = fr:express ≈ en:expressions
+phrases	4	0.784	en:phrases ~ en:expressions ≈ fr:express = en:express ≈ fr:expressions
+pic	3	0.811	en:pic ≈ fr:pique ~ fr:piques ≈ en:peak
+pic	4	0.846	en:pic ≈ fr:pique ~ fr:piques ≈ en:peak = fr:pic
+pierre	5	0.840	en:pierre ≈ fr:pair = en:peer ≈ fr:pires ~ fr:pire ≈ en:peter
+pierre	6	0.858	en:pierre ≈ fr:pair = en:peer ≈ fr:pires ~ fr:pire ≈ en:peter = fr:pierre
+plague	6	0.866	en:plague = fr:peste ≈ en:test = fr:test ≈ en:tests = fr:tests ≈ en:pest
+platform	3	0.872	en:platform ≈ fr:plateformes = en:platforms ≈ fr:plateforme
+platform	3	0.789	en:platform ≈ fr:plateformes ~ fr:plateforme ≈ en:platforms
+platforms	3	0.872	en:platforms ≈ fr:plateforme = en:platform ≈ fr:plateformes
+platforms	3	0.789	en:platforms ≈ fr:plateformes ~ fr:plateforme ≈ en:platform
+police	3	0.718	en:police ≈ fr:polices ~ fr:police ≈ en:policeman
+police	4	0.776	en:police ≈ fr:polices ~ fr:police ≈ en:policeman = fr:policier
+pop	3	0.799	en:pop ≈ fr:papes = en:pope ≈ fr:pop
+pop	3	0.799	en:pop ≈ fr:pape = en:pope ≈ fr:pop
+pope	3	0.799	en:pope ≈ fr:pop = en:pop ≈ fr:papes
+pope	3	0.799	en:pope ≈ fr:pop = en:pop ≈ fr:pape
+pops	4	0.837	en:pops = fr:pop ≈ en:pope = fr:pape ≈ en:pop
+pops	4	0.837	en:pops = fr:pop ≈ en:pope = fr:papes ≈ en:pop
+pose	4	0.919	en:pose = fr:pose ≈ en:pause = fr:pause ≈ en:poses
+pose	4	0.851	en:pose = fr:poses ≈ en:pause = fr:pause ≈ en:poses
+poses	3	0.908	en:poses ≈ fr:pause = en:pause ≈ fr:pose
+poses	3	0.818	en:poses ≈ fr:pause = en:pause ≈ fr:poses
+post	3	0.783	en:post ≈ fr:postes = en:posts ≈ fr:poste
+post	4	0.762	en:post ≈ fr:postes = en:posts ≈ fr:poste ~ fr:publier
+processing	4	0.729	en:processing ~ en:transform ≈ fr:transforme ~ fr:transformer ≈ en:transformation
+processing	4	0.729	en:processing ~ en:transformation ≈ fr:transformer ~ fr:transforme ≈ en:transform
+prove	5	0.841	en:prove = fr:prouve ≈ en:proved ~ en:proven ≈ fr:prouvant = en:proving
+prove	5	0.791	en:prove = fr:prouve ≈ en:proved ~ en:proven ≈ fr:prouvant ~ fr:prouver
+pussy	4	0.878	en:pussy = fr:chatte ≈ en:shout = fr:crie ≈ en:kitty
+pussy	4	0.816	en:pussy ~ en:kitty ≈ fr:crie = en:shout ≈ fr:chatte
+raid	4	0.858	en:raid = fr:raids ≈ en:reds ~ en:red ≈ fr:raid
+raid	6	0.897	en:raid = fr:raid ≈ en:red ~ en:rouge ≈ fr:rouges = en:reds ≈ fr:raids
+raids	5	0.876	en:raids = fr:raids ≈ en:reds ~ en:red ≈ fr:raid = en:raid
+red	3	0.827	en:red ≈ fr:raid ~ fr:raids ≈ en:reds
+red	4	0.858	en:red ≈ fr:raid ~ fr:raids ≈ en:reds = fr:rouges
+reds	3	0.827	en:reds ≈ fr:raids ~ fr:raid ≈ en:red
+reds	3	0.827	en:reds ≈ fr:raid ~ fr:raids ≈ en:red
+road	4	0.920	en:road = fr:route ≈ en:routes = fr:routes ≈ en:route
+road	4	0.858	en:road ~ en:route ≈ fr:routes = en:routes ≈ fr:route
+role	3	0.928	en:role ≈ fr:roll = en:roll ≈ fr:rôle
+role	5	0.878	en:role ≈ fr:rôles = en:roles ≈ fr:roll = en:roll ≈ fr:rôle
+roles	3	0.868	en:roles ≈ fr:roll = en:roll ≈ fr:rôles
+roles	5	0.878	en:roles ≈ fr:roll = en:roll ≈ fr:rôle = en:role ≈ fr:rôles
+roll	3	0.868	en:roll ≈ fr:rôles = en:roles ≈ fr:roll
+roll	3	0.928	en:roll ≈ fr:rôle = en:role ≈ fr:roll
+rouge	5	0.886	en:rouge ≈ fr:rouges = en:reds ≈ fr:raids ~ fr:raid ≈ en:red
+rouge	5	0.886	en:rouge ≈ fr:rouges = en:reds ≈ fr:raid ~ fr:raids ≈ en:red
+route	3	0.910	en:route ≈ fr:routes = en:routes ≈ fr:route
+route	4	0.920	en:route ≈ fr:routes = en:routes ≈ fr:route = en:road
+routes	3	0.910	en:routes ≈ fr:route = en:route ≈ fr:routes
+routes	4	0.920	en:routes ≈ fr:route = en:route ≈ fr:routes = en:roads
+rust	3	0.809	en:rust ≈ fr:reste ~ fr:rester ≈ en:rusty
+rust	4	0.844	en:rust ≈ fr:reste ~ fr:rester ≈ en:rusty = fr:rouillé
+score	3	0.820	en:score ≈ fr:scores = en:scores ≈ fr:score
+score	4	0.790	en:score ≈ fr:scores = en:scores ≈ fr:score ~ fr:marquer
+scores	3	0.820	en:scores ≈ fr:score = en:score ≈ fr:scores
+scores	4	0.790	en:scores ≈ fr:score = en:score ≈ fr:scores ~ fr:partitions
+sect	3	0.830	en:sect ≈ fr:sexe = en:sex ≈ fr:secte
+sect	3	0.813	en:sect ≈ fr:secte ~ fr:cultes ≈ en:cult
+sentence	5	0.882	en:sentence = fr:peine ≈ en:pens ~ en:pen ≈ fr:peines = en:sentencing
+sentence	5	0.832	en:sentence = fr:peine ≈ en:pens ~ en:pen ≈ fr:peines ~ fr:sentence
+series	5	0.766	en:series ≈ fr:cerises ~ fr:cerise ≈ en:cities ~ en:city ≈ fr:séries
+series	5	0.766	en:series ≈ fr:cerise ~ fr:cerises ≈ en:cities ~ en:city ≈ fr:séries
+sex	3	0.865	en:sex ≈ fr:sexy = en:sexy ≈ fr:sexe
+sex	3	0.830	en:sex ≈ fr:secte = en:sect ≈ fr:sexe
+sexy	3	0.865	en:sexy ≈ fr:sexe = en:sex ≈ fr:sexy
+sexy	4	0.886	en:sexy ≈ fr:sexe = en:sex ≈ fr:sexy = en:hot
+share	3	0.827	en:share ≈ fr:chère ~ fr:chers ≈ en:shares
+share	3	0.827	en:share ≈ fr:chers ~ fr:chère ≈ en:shares
+sharing	4	0.795	en:sharing ~ en:share ≈ fr:chère ~ fr:chers ≈ en:shares
+sharing	4	0.795	en:sharing ~ en:share ≈ fr:chers ~ fr:chère ≈ en:shares
+sheik	3	0.812	en:sheik ≈ fr:chèque = en:check ≈ fr:cheik
+sheik	3	0.812	en:sheik ≈ fr:chèque = en:cheque ≈ fr:cheik
+sheikh	3	0.812	en:sheikh ≈ fr:chèque = en:check ≈ fr:cheik
+sheikh	3	0.812	en:sheikh ≈ fr:chèque = en:cheque ≈ fr:cheik
+shoes	3	0.818	en:shoes ≈ fr:chou ~ fr:choux ≈ en:shoe
+shoes	4	0.851	en:shoes ≈ fr:chou ~ fr:choux ≈ en:shoe = fr:chaussure
+shops	6	0.846	en:shops = fr:boutiques ≈ en:boutique ~ en:store ≈ fr:stores ~ fr:store ≈ en:stores
+shops	6	0.804	en:shops ~ en:stores ≈ fr:store ~ fr:stores ≈ en:store ~ en:boutique ≈ fr:boutiques
+slave	3	0.689	en:slave ≈ fr:slaves ~ fr:slave ≈ en:slaves
+slave	4	0.754	en:slave ≈ fr:slaves ~ fr:slave ≈ en:slaves = fr:esclave
+slaves	3	0.689	en:slaves ≈ fr:slave ~ fr:slaves ≈ en:slave
+slaves	4	0.754	en:slaves ≈ fr:slave ~ fr:slaves ≈ en:slave = fr:esclave
+stage	5	0.774	en:stage ~ en:step ≈ fr:stop = en:stop ≈ fr:step ~ fr:étape
+steak	3	0.831	en:steak ≈ fr:stick = en:stick ≈ fr:steak
+step	3	0.823	en:step ≈ fr:stop = en:stop ≈ fr:step
+step	4	0.792	en:step ≈ fr:stop = en:stop ≈ fr:step ~ fr:étape
+stick	3	0.831	en:stick ≈ fr:steak = en:steak ≈ fr:stick
+stick	4	0.798	en:stick ≈ fr:steak = en:steak ≈ fr:stick ~ fr:bâton
+stop	3	0.823	en:stop ≈ fr:step = en:step ≈ fr:stop
+stop	4	0.792	en:stop ≈ fr:step = en:step ≈ fr:stop ~ fr:arrêt
+stores	6	0.846	en:stores ≈ fr:store ~ fr:stores ≈ en:store ~ en:boutique ≈ fr:boutiques = en:shops
+stores	6	0.804	en:stores ≈ fr:store ~ fr:stores ≈ en:store ~ en:boutique ≈ fr:boutiques ~ fr:magasins
+stress	3	0.894	en:stress ≈ fr:stressée = en:stressed ≈ fr:stress
+stress	3	0.894	en:stress ≈ fr:stressé = en:stressed ≈ fr:stress
+stressed	3	0.894	en:stressed ≈ fr:stress = en:stress ≈ fr:stressée
+stressed	3	0.894	en:stressed ≈ fr:stress = en:stress ≈ fr:stressé
+suspend	5	0.837	en:suspend ~ en:pause ≈ fr:pose = en:pose ≈ fr:pause ~ fr:suspendre
+suspend	5	0.825	en:suspend ~ en:pause ≈ fr:pose = en:poses ≈ fr:pause ~ fr:suspendre
+taxi	4	0.716	en:taxi ≈ fr:taxi ~ fr:cabine ≈ en:cabin ~ en:cab
+technical	3	0.885	en:technical ≈ fr:technique = en:technique ≈ fr:techniques
+technical	3	0.802	en:technical ≈ fr:technique ~ fr:techniques ≈ en:technique
+technically	3	0.821	en:technically ≈ fr:technique = en:technique ≈ fr:techniquement
+technique	3	0.885	en:technique ≈ fr:techniques = en:technical ≈ fr:technique
+technique	3	0.940	en:technique ≈ fr:techniques = en:techniques ≈ fr:technique
+techniques	3	0.940	en:techniques ≈ fr:technique = en:technique ≈ fr:techniques
+techniques	4	0.901	en:techniques = fr:techniques ≈ en:technique = fr:technique ≈ en:technical
+test	3	0.924	en:test ≈ fr:tests = en:tests ≈ fr:test
+test	4	0.930	en:test ≈ fr:tests = en:tests ≈ fr:test = en:testing
+testing	4	0.930	en:testing = fr:tests ≈ en:test = fr:test ≈ en:tests
+testing	4	0.930	en:testing = fr:test ≈ en:tests = fr:tests ≈ en:test
+tests	3	0.924	en:tests ≈ fr:test = en:test ≈ fr:tests
+tests	4	0.930	en:tests ≈ fr:test = en:test ≈ fr:tests = en:testing
+tick	5	0.767	en:tick ~ en:check ≈ fr:cheik = en:sheikh ≈ fr:chèque ~ fr:cocher
+tick	5	0.767	en:tick ~ en:check ≈ fr:cheik = en:sheik ≈ fr:chèque ~ fr:cocher
+tragedy	3	0.692	en:tragedy ≈ fr:tragédie ~ fr:drame ≈ en:drama
+transform	3	0.739	en:transform ≈ fr:transforme ~ fr:transformer ≈ en:transformation
+transform	4	0.792	en:transform ≈ fr:transforme ~ fr:transformer ≈ en:transformation = fr:transformation
+transformation	3	0.739	en:transformation ≈ fr:transformer ~ fr:transforme ≈ en:transform
+transformation	4	0.792	en:transformation ≈ fr:transformer = en:transform ≈ fr:transforme ~ fr:transformation
+try	3	0.728	en:try ≈ fr:trahis ~ fr:trahi ≈ en:trying
+try	4	0.783	en:try ≈ fr:trahis ~ fr:trahi ≈ en:trying = fr:essayer
+trying	3	0.728	en:trying ≈ fr:trahi ~ fr:trahis ≈ en:try
+trying	4	0.783	en:trying ≈ fr:trahi ~ fr:trahis ≈ en:try = fr:essayer
+verify	5	0.767	en:verify ~ en:check ≈ fr:cheik = en:sheikh ≈ fr:chèque ~ fr:vérifiez
+verify	5	0.767	en:verify ~ en:check ≈ fr:cheik = en:sheikh ≈ fr:chèque ~ fr:vérifier
+vest	4	0.857	en:vest ≈ fr:zeste = en:zest ≈ fr:veste = en:jacket
+vest	4	0.794	en:vest ≈ fr:zeste = en:zest ≈ fr:veste ~ fr:gilet
+worst	6	0.858	en:worst = fr:pire ≈ en:peter ~ en:pierre ≈ fr:pair = en:peer ≈ fr:pires
+worst	6	0.858	en:worst = fr:pires ≈ en:peer = fr:pair ≈ en:pierre ~ en:peter ≈ fr:pire
+zone	4	0.713	en:zone ≈ fr:zone ~ fr:domaine ≈ en:domain ~ en:area
