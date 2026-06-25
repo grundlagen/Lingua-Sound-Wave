@@ -33,13 +33,24 @@ independent carve lands in the same homophonic neighbourhood: our
 the canonical phrasing. That is the calibration anchor: the engine reaches
 Van Rooten-class matches on its own.
 
-## On fluency (the known weak link)
+## On fluency (the known weak link) — and the balanced bank
 
 `carve_quality` showed the bigram fluency weight was *hurting* the homophone when
-used inside the search — so we carve sound-first and treat fluency as a stored
-re-rank signal, not a search constraint. The bank keeps the `fluency` column so a
-composer can prefer fluent rows. The deeper fix is unchanged: a real L2 model in
-place of the bigram. A complementary data move (French-anchored entries: start
-from real French phrases so fluency is guaranteed) is the natural next expansion.
+used inside the search — so we carve sound-first and treat fluency as a re-rank,
+not a search constraint. But v1 *selected* the best-combo carve and ignored which
+candidates were fluent. The **balanced** bank (`phrase-bank-balanced.tsv`) instead
+selects `argmax(combo × (fluency+0.3))` among strong-combo candidates:
+
+| bank | combo med | fluency med | fluent (≥0.5) |
+|---|---|---|---|
+| `phrase-bank.tsv` (best-combo) | 0.59 | 0.29 | 142 (14%) |
+| **`phrase-bank-balanced.tsv`** | 0.52 | **0.56** | **664 (64%)** |
+
+A small combo cost nearly **doubles** fluency and 4.7× the count of fluent rows.
+Balanced top rows are usable bilingual pairs: `said to → sept ou` (0.83/0.77),
+`to tell → t elle`, `order to → hors du`, `but to → but tout`, `it for → est fort`.
+
+Remaining levers (unchanged): a real L2 model in place of the bigram, and a
+French-anchored bank (start from real French phrases so fluency is guaranteed).
 
 Run: `python phrase_bank.py [n_phrases]`
