@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 bigram-lm-*.pkl
 graph-v7u.pkl
+node-vecs.npy
+node-ids.json
