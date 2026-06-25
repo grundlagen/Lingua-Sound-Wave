@@ -142,7 +142,7 @@ def translate_word(w, ctx):
 
     # TIER S -------------------------------------------------------------
     if base in lcS:
-        return ("S", lcS[base], [f"en:{base}", f"fr:{lcS[base]}"], 0)
+        return ("S", lcS[base], [(f"en:{base}", None), (f"fr:{lcS[base]}", "≈")], 0)
 
     # meaning-equivalent target set: translations + their synonym closure
     targets = {f"fr:{t}" for t in tgt.get(base, ())} & set(adj)
@@ -150,28 +150,32 @@ def translate_word(w, ctx):
     for t in list(targets):
         syn_targets |= {m for m, lab, fam in adj.get(t, ()) if lab == "~" and m.startswith("fr:")}
 
-    # TIER A -------------------------------------------------------------
-    p = route(adj, en_node, syn_targets, cap=8)
+    # TIER A -- shortest homophonic path to the meaning (long is OK) ------
+    p = route(adj, en_node, syn_targets, cap=14)
     if p:
-        chain = [x for x, _ in p]
-        return ("A", chain[-1][3:], chain, len(chain) - 2)
+        return ("A", p[-1][0][3:], p, len(p) - 2)
 
     # TIER P (poetic periphrasis) ---------------------------------------
-    # the semantically nearest French expressions (a "metaphor" set, prefer
-    # multiword) that are homophonically reachable -- ONE multi-target BFS.
     v = vecs[idx[en_node]]
     sims = vecs @ v
     sims[~fr_valid_mask] = -1
     near = np.argpartition(-sims, 400)[:400]
     metaphor = {ids[int(j)] for j in near if sims[j] >= 0.42} & set(adj)
-    pp = route(adj, en_node, metaphor, cap=7)
+    pp = route(adj, en_node, metaphor, cap=12)
     if pp:
-        chain = [x for x, _ in pp]
-        return ("P", chain[-1][3:], chain, len(chain) - 2)
+        return ("P", pp[-1][0][3:], pp, len(pp) - 2)
 
     # literal fallback ---------------------------------------------------
     lit = next(iter(tgt.get(base, {"?"})))
-    return ("lit", lit, [f"en:{base}", f"fr:{lit}"], 0)
+    return ("lit", lit, [(f"en:{base}", None), (f"fr:{lit}", "=")], 0)
+
+
+def render_chain(path):
+    """labeled path -> readable 'a ≈ b ~ c = d' with bare words."""
+    out = [path[0][0].split(":", 1)[1]]
+    for node, lab in path[1:]:
+        out.append(f"{lab} {node.split(':', 1)[1]}")
+    return " ".join(out)
 
 
 def main():
@@ -187,22 +191,24 @@ def main():
            en_valid_mask, fr_valid_mask)
 
     words = [w.strip(".,!?;:").lower() for w in sent.split() if w.strip(".,!?;:")]
-    print(f'INPUT : "{sent}"\n')
-    out_words, total_infl = [], 0
+    print(f'INPUT  : "{sent}"\n')
+    print("=== shortest homophonic path per word (every hop written out) ===")
+    endpoints, stream, total_hops = [], [], 0
     for w in words:
-        tier, fr, chain, infl = translate_word(w, ctx)
-        total_infl += infl
-        out_words.append(chain[-1][3:])
-        pretty = " ".join(x.split(":", 1)[1] if i == 0 else x for i, x in
-                          enumerate(chain))
-        chain_str = " ".join(c.split(":", 1)[1] for c in chain)
-        print(f"  [{tier}] {w:12s} -> {fr:18s} (+{infl})   {chain_str}")
-    print(f'\nOUTPUT: "{" ".join(out_words)}"')
-    print(f"inflation: {len(words)} source words -> "
-          f"{sum(len(o.split()) for o in out_words)} French words "
-          f"(+{total_infl} intermediate)")
-    print("tiers: S=sound-fidelity 1-hop  A=homophone+synonym chain  "
-          "P=poetic periphrasis  lit=literal fallback")
+        tier, fr, path, infl = translate_word(w, ctx)
+        endpoints.append(fr)
+        total_hops += len(path) - 1
+        # the written homophonic stream = the spoken fragments along the path
+        stream.extend(node.split(":", 1)[1] for node, _ in path[1:])
+        print(f"\n  [{tier}] {w}  ({len(path)-1} hops):")
+        print(f"      {render_chain(path)}")
+    print("\n=== WRITTEN-OUT homophonic rendering (all intermediate hops) ===")
+    print("  " + " ".join(stream))
+    print("\n=== final French (meaning-equivalent endpoints) ===")
+    print(f'  "{" ".join(endpoints)}"')
+    print(f"\n{len(words)} source words -> {total_hops} total hops "
+          f"({len(stream)} written fragments). tiers: S 1-hop, A homophone+synonym "
+          f"chain, P poetic periphrasis, lit literal.")
 
 
 if __name__ == "__main__":

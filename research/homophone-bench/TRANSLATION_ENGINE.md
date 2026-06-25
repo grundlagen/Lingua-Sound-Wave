@@ -50,6 +50,32 @@ collapses reachability, because the sound-only graph is sparse. This is the knob
 - **max coverage** → allow synonym hops → most words get a French meaning-match,
   but the homophonic illusion weakens and the chain (output) grows.
 
+## Sentence-to-sentence, shortest path, all hops written out
+
+The engine takes a whole sentence, finds the shortest homophonic path per word
+over the full embedding graph (path budget up to 14 hops — long is fine), and
+writes out **every** intermediate hop (the "couple of pages"):
+
+```
+INPUT : "my friend loves the sea"
+
+  [A] friend (11 hops): friend ≈ freine ~ frit ≈ frites ≈ feat ~ achievement
+                        ~ success ≈ secs ace ~ ace ~ acy ~ acme ≈ amie
+  [A] loves  (14 hops): loves ~ love ≈ laws ~ law ≈ lots ~ plenty ≈ plaine
+                        ≈ playing ~ play ≈ plaie ≈ pleasure ~ plaisir
+                        ~ apprécier ~ gern ~ aime
+  [A] the    (9 hops):  the ~ den ~ das ~ se ~ si ~ fue ~ … ~ là ≈ lie ≈ la
+  [A] sea    (8 hops):  sea ≈ scie ~ … ~ mot ≈ more ~ mer
+
+FINAL FRENCH: "ias amie aime la mer"   (= friend loves the sea; 4/5 words land)
+5 source words -> 46 total hops (46 written fragments).
+```
+
+The meaning endpoints are correct (`amie aime la mer`); the chains in between are
+the written homophonic rendering. Two rough spots remain: a function word
+(`my→ias`) with no good route, and a few proper-noun/foreign tokens
+(`gern`, `fue`) the lexical gate still lets through on *intermediate* hops.
+
 ## Known limits / next levers
 
 - **Function words** (`the`, `is`, `a`, `my`) have no good homophone and produce
