@@ -99,9 +99,16 @@ def homophonic_adj(edges):
     return adj
 
 
-def ideal_distance(edges, sample=500, cap=10):
-    """Shortest chain en:W -> fr:translation over sound+syn, >=1 sound hop."""
+def ideal_distance(edges, sample=500, cap=10, loose=False):
+    """Shortest chain en:W -> fr:translation over sound+syn, >=1 sound hop.
+    loose=True also accepts landing on a SYNONYM of the translation (a French
+    word that still means the source) -- closer to what the engine accepts."""
     adj = homophonic_adj(edges)
+    # synonym closure for loose targets
+    syn = {}
+    if loose:
+        for n, lst in edges.items():
+            syn[n] = {m for m, q, lab, fam in lst if lab == "~"}
     # MUSE translation targets: en -> {fr,...}
     tgt = {}
     with open("/tmp/muse-en-fr.txt", encoding="utf-8") as f:
@@ -117,6 +124,9 @@ def ideal_distance(edges, sample=500, cap=10):
         if n >= sample:
             break
         targets = {t for t in tgt[src] if t in adj}
+        if loose:
+            for t in list(targets):
+                targets |= {s for s in syn.get(t, ()) if s.startswith("fr:")}
         if not targets:
             continue
         n += 1
@@ -168,7 +178,7 @@ def main():
     if cmd == "hop":
         print(fmt(hop(edges, sys.argv[2], sys.argv[3])))
     elif cmd == "ideal":
-        ideal_distance(edges)
+        ideal_distance(edges, loose="--loose" in sys.argv)
     else:
         print(__doc__)
 
