@@ -5,3 +5,9 @@ bigram-lm-*.pkl
 graph-v7u.pkl
 node-vecs.npy
 node-ids.json
+
+# transient run logs
+*.out
+*.err
+fa_big.*
+dictionary-v7-augmented.json
