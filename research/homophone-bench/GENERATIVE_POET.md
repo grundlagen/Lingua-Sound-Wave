@@ -1,9 +1,44 @@
-# web_poet — generative homophonic poetry by themed walk
+# Generative homophonic poetry — two attempts, one correct
 
-The webbing result said: don't *translate a fixed line* (both rails co-chain ≈ 0).
-So `web_poet.py` flips the problem — it **generates**. It walks the v7 web so the
-poem is whatever sound-continuous, on-theme ribbon already lives in the
-dictionary, and never has to force two fixed sentences to align.
+## Correction: a graph walk is NOT homophonic; a carve is
+
+`web_poet.py` (below) walks the web alternating sound/meaning hops. But the
+*meaning* hops change the sound, so reading the whole ribbon aloud does **not**
+reconstruct any English — it is not actually a homophone of anything. Homophony
+(the entire point) requires **carving a target phoneme stream** into French so the
+French, spoken, rebuilds the English sound (Van Rooten). That is
+**`homophonic_poet.py`**, and it is verified by the matcher.
+
+### homophonic_poet.py — generative + VERIFIED homophone
+
+1. **generate** a themed English source (beam over English bigrams pulled toward a
+   seed vector) — carries the MEANING;
+2. **carve** its phoneme stream into French (`whole_line_carve`) — carries the
+   SOUND; the French spoken ≈ the English;
+3. **verify** with `combo(EN, FR)` — the matcher's homophone score (the proof).
+
+Real runs (FR read aloud reconstructs the EN sound):
+
+```
+THEME love
+  EN: adored companion in the   ->  FR: et un bon féminin de   (combo 0.43, cov 0.89)
+  EN: heartfelt sympathy and the->  FR: et cet son patron je   (combo 0.43)
+THEME night
+  EN: evenings may be so        ->  FR: in in addition         (combo 0.44, cov 0.86)
+  EN: lit up and the            ->  FR: d open de              (cov 1.00)
+```
+
+The canonical proof the carve is real: `Humpty Dumpty -> "un petit un petit"`
+(combo 0.55, coverage 0.92) — Van Rooten's actual line, reconstructed. Meaning
+rides the generated English; sound is the French carve; combo is the homophone.
+
+---
+
+## web_poet.py — themed walk (kept as exploration; NOT the homophonic output)
+
+It walks the v7 web so the ribbon is whatever sound-continuous, on-theme path
+lives in the dictionary. Useful for surfacing themed word-fields and dual atoms,
+but the ribbon is not a true spoken homophone (the meaning hops break the sound).
 
 ## How the walk writes a poem
 
