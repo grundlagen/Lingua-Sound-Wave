@@ -28,9 +28,9 @@ import numpy as np
 import bigram_lm
 
 
-def load_tiles(idx, vecs):
+def load_tiles(idx, vecs, path="loop-certified-pairs-v7u.tsv"):
     tiles = []
-    for i, line in enumerate(open("loop-certified-pairs-v7u.tsv", encoding="utf-8")):
+    for i, line in enumerate(open(path, encoding="utf-8")):
         if i == 0:
             continue
         en, fr, cert, *_ = line.rstrip("\n").split("\t")
@@ -63,7 +63,9 @@ def main():
     ids = json.load(open("node-ids.json"))
     idx = {n: i for i, n in enumerate(ids)}
     EN, FR = bigram_lm.load("en"), bigram_lm.load("fr")
-    tiles = load_tiles(idx, vecs)
+    import sys
+    tilefile = sys.argv[1] if len(sys.argv) > 1 else "loop-certified-pairs-v7u.tsv"
+    tiles = load_tiles(idx, vecs, tilefile)
     N = len(tiles)
     print(f"alphabet: {N} dual-atom tiles\n")
 

@@ -39,8 +39,26 @@ self-chain on both rails.
 3. **Vertical stacking is the usable slack** — ~3.9 alternate rungs per slot is
    what lets a search satisfy a horizontal constraint by swapping the rung.
 4. **Grow the alphabet** (French-anchor the FR rail + mine more loops) to lift the
-   31% / raise the chance any pair co-chains. (Tested by re-weaving on the
-   French-anchored augmented dictionary — see follow-up.)
+   31% / raise the chance any pair co-chains.
+
+## Growth test (re-weave on the French-anchored augmented dictionary)
+
+Folded 1,496 French-anchored sound pairs into the v7 dictionary and re-ran the
+**unedited** weave: loops 1,109→1,222, alphabet **813→896 tiles (+10%)**.
+Re-measuring webbing on the bigger alphabet:
+
+| metric | 813 tiles | 896 tiles |
+|---|---|---|
+| horizontal followable | 31% | 34% |
+| **both-rail attested transitions** | **0** | **1** |
+| vertical rungs/slot | 3.90 | 4.01 |
+
+The verdict is now empirical: growth helps but is **sublinear** — +10% alphabet
+bought *one* gold transition. You cannot loop-mine your way to dense both-rail
+chaining; you'd need orders-of-magnitude more atoms. **The connector layer is
+mandatory.** Vertical stacking (~4 rungs/slot, and rising) is the dependable
+resource; the dense thematic clusters (e.g. the `feel/feels/feeling ≈ file/files`
+family) are the only places tiles self-bind.
 
 ## Honest reframing
 
