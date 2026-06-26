@@ -56,10 +56,14 @@ def main():
     from datasets import Dataset
     from trl import SFTTrainer, SFTConfig
 
+    # T4 has no bf16; auto-pick the supported half precision
+    bf16 = torch.cuda.is_available() and torch.cuda.is_bf16_supported()
+    dtype = torch.bfloat16 if bf16 else torch.float16
+
     tok = AutoTokenizer.from_pretrained(args.base)
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
-    model = AutoModelForCausalLM.from_pretrained(args.base, torch_dtype=torch.bfloat16,
+    model = AutoModelForCausalLM.from_pretrained(args.base, torch_dtype=dtype,
                                                  device_map="auto")
 
     def to_text(prompt, completion):
@@ -72,7 +76,7 @@ def main():
         cfg = SFTConfig(output_dir=f"{args.out}-{tag}", num_train_epochs=epochs,
                         per_device_train_batch_size=8, gradient_accumulation_steps=2,
                         learning_rate=1e-5, logging_steps=20, save_strategy="no",
-                        bf16=True, max_seq_length=128)
+                        bf16=bf16, fp16=not bf16, max_seq_length=128)
         SFTTrainer(model=model, args=cfg, train_dataset=ds,
                    processing_class=tok).train()
 
