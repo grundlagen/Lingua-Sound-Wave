@@ -1,0 +1,9 @@
+{"time": "2026-06-26 14:33:02", "config": "baseline", "sep": 0.182, "mean_good": 0.788, "mean_bad": 0.605}
+{"time": "2026-06-26 14:33:02", "config": "W_UNSTRESSED=0.15", "sep": 0.188, "mean_good": 0.783, "mean_bad": 0.595}
+{"time": "2026-06-26 14:33:02", "config": "W_UNSTRESSED=0.25", "sep": 0.184, "mean_good": 0.786, "mean_bad": 0.602}
+{"time": "2026-06-26 14:33:02", "config": "W_UNSTRESSED=0.3", "sep": 0.182, "mean_good": 0.788, "mean_bad": 0.605}
+{"time": "2026-06-26 14:33:02", "config": "W_UNSTRESSED=0.4", "sep": 0.18, "mean_good": 0.791, "mean_bad": 0.611}
+{"time": "2026-06-26 14:33:02", "config": "W_UNSTRESSED=0.5", "sep": 0.178, "mean_good": 0.794, "mean_bad": 0.615}
+{"time": "2026-06-26 14:33:02", "config": "diverged=True", "sep": 0.182, "mean_good": 0.788, "mean_bad": 0.605}
+{"time": "2026-06-26 14:33:02", "config": "diverged=False", "sep": 0.21, "mean_good": 0.754, "mean_bad": 0.543}
+{"time": "2026-06-26 14:33:02", "config": "plain_combo", "sep": 0.255, "mean_good": 0.647, "mean_bad": 0.393}

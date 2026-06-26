@@ -60,6 +60,8 @@ def main():
                     help="Drive path for checkpoint+status (survives disconnects)")
     ap.add_argument("--eval_llm", action="store_true",
                     help="score each round's samples with the Nemotron judge")
+    ap.add_argument("--continual", action="store_true",
+                    help="never stop: iterate rounds forever, skipping round errors")
     args = ap.parse_args()
     ckpt = args.ckpt_dir or args.out
     os.makedirs(ckpt, exist_ok=True)
@@ -160,7 +162,11 @@ def main():
         model.save_pretrained(ckpt); tok.save_pretrained(ckpt)
         write_status(round=-1, phase="warm-start-done")
 
-    for rnd in range(start_round, args.rounds):
+    import itertools
+    rounds = itertools.count(start_round) if args.continual \
+        else range(start_round, args.rounds)
+    for rnd in rounds:
+      try:
         batch = random.sample(en_pool, min(256, len(en_pool)))
         new, rewards, samples = [], [], []
         for prompt, cands in zip(batch, sample(batch, args.k)):
@@ -187,8 +193,17 @@ def main():
         if new:
             sft(new, epochs=1, tag=f"r{rnd}")
             model.save_pretrained(ckpt); tok.save_pretrained(ckpt)   # checkpoint
+      except KeyboardInterrupt:
+        break
+      except Exception as e:
+        import traceback
+        traceback.print_exc()
+        write_status(round=rnd, error=str(e)[:200])
+        if not args.continual:           # skip the bad round and keep going
+            raise
+        time.sleep(15)
     model.save_pretrained(args.out); tok.save_pretrained(args.out)
-    write_status(round=args.rounds - 1, phase="done", out=args.out)
+    write_status(round=rnd, phase="done", out=args.out)
     print(f"saved self-learned carver -> {args.out}  (status: {status_path})")
 
 
