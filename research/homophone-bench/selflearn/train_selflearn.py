@@ -25,9 +25,16 @@ import json
 import os
 import random
 import sys
+import time
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+_HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, _HERE)
+sys.path.insert(0, os.path.dirname(_HERE))      # parent: fr_coherence, matcher
 import reward as R
+try:
+    from fr_coherence import FRCoherence       # optional LLM eval (needs key)
+except Exception:
+    FRCoherence = None
 
 INSTR = "Rewrite the English so it sounds the same when read aloud in French:"
 
@@ -49,7 +56,47 @@ def main():
     ap.add_argument("--k", type=int, default=8, help="samples per phrase")
     ap.add_argument("--keep_thresh", type=float, default=0.55)
     ap.add_argument("--out", default="./homophonic-carver")
+    ap.add_argument("--ckpt_dir", default="",
+                    help="Drive path for checkpoint+status (survives disconnects)")
+    ap.add_argument("--eval_llm", action="store_true",
+                    help="score each round's samples with the Nemotron judge")
     args = ap.parse_args()
+    ckpt = args.ckpt_dir or args.out
+    os.makedirs(ckpt, exist_ok=True)
+    status_path = os.path.join(ckpt, "status.json")
+
+    def gh_push(text):
+        """PUT status.json to a 'selflearn-status' branch so it can be monitored
+        remotely. Needs GITHUB_TOKEN + GITHUB_REPO (owner/name) env vars."""
+        import base64
+        import urllib.request
+        tok_, repo_ = os.environ.get("GITHUB_TOKEN"), os.environ.get("GITHUB_REPO")
+        if not (tok_ and repo_):
+            return
+        api = f"https://api.github.com/repos/{repo_}/contents/selflearn/status.json"
+        hdr = {"Authorization": f"Bearer {tok_}", "Accept": "application/vnd.github+json"}
+        sha = None
+        try:
+            q = urllib.request.Request(api + "?ref=selflearn-status", headers=hdr)
+            sha = json.load(urllib.request.urlopen(q, timeout=20)).get("sha")
+        except Exception:
+            pass
+        body = {"message": "selflearn status", "branch": "selflearn-status",
+                "content": base64.b64encode(text.encode()).decode()}
+        if sha:
+            body["sha"] = sha
+        try:
+            req = urllib.request.Request(api, data=json.dumps(body).encode(),
+                                         headers=hdr, method="PUT")
+            urllib.request.urlopen(req, timeout=20)
+        except Exception as e:
+            print(f"[status push skipped: {e}]")
+
+    def write_status(**kw):
+        st = {"time": time.strftime("%Y-%m-%d %H:%M:%S"), **kw}
+        text = json.dumps(st, ensure_ascii=False, indent=1)
+        json.dump(st, open(status_path, "w"), ensure_ascii=False, indent=1)
+        gh_push(text)
 
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -60,11 +107,21 @@ def main():
     bf16 = torch.cuda.is_available() and torch.cuda.is_bf16_supported()
     dtype = torch.bfloat16 if bf16 else torch.float16
 
-    tok = AutoTokenizer.from_pretrained(args.base)
+    # resume from a Drive checkpoint if one exists (survives Colab disconnects)
+    start_round, resumed = 0, False
+    src_model = args.base
+    if os.path.exists(os.path.join(ckpt, "config.json")):
+        src_model, resumed = ckpt, True
+        if os.path.exists(status_path):
+            start_round = json.load(open(status_path)).get("round", -1) + 1
+        print(f"RESUMING from {ckpt} at round {start_round}")
+
+    tok = AutoTokenizer.from_pretrained(src_model)
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
-    model = AutoModelForCausalLM.from_pretrained(args.base, torch_dtype=dtype,
+    model = AutoModelForCausalLM.from_pretrained(src_model, torch_dtype=dtype,
                                                  device_map="auto")
+    judge = FRCoherence() if (args.eval_llm and FRCoherence) else None
 
     def to_text(prompt, completion):
         msgs = [{"role": "user", "content": prompt},
@@ -95,13 +152,17 @@ def main():
         return outs
 
     base = load_sft(args.data)
-    print(f"SFT warm-start on {len(base)} pairs ...")
-    sft(base, epochs=2, tag="sft0")
-
     en_pool = [p for p, _ in base]
-    for rnd in range(args.rounds):
+
+    if not resumed:
+        print(f"SFT warm-start on {len(base)} pairs ...")
+        sft(base, epochs=2, tag="sft0")
+        model.save_pretrained(ckpt); tok.save_pretrained(ckpt)
+        write_status(round=-1, phase="warm-start-done")
+
+    for rnd in range(start_round, args.rounds):
         batch = random.sample(en_pool, min(256, len(en_pool)))
-        new = []
+        new, rewards, samples = [], [], []
         for prompt, cands in zip(batch, sample(batch, args.k)):
             en = prompt.split(":", 1)[-1].strip()
             best, bestr = None, -1.0
@@ -111,13 +172,24 @@ def main():
                 if r > bestr:
                     bestr, best = r, fr
             if best and bestr >= args.keep_thresh:
-                new.append((prompt, best))
-        print(f"round {rnd}: kept {len(new)}/{len(batch)} self-generated bests "
-              f"(reward>={args.keep_thresh})")
+                new.append((prompt, best)); rewards.append(bestr)
+                if len(samples) < 8:
+                    samples.append({"en": en, "fr": best, "reward": round(bestr, 3)})
+        mean_r = round(sum(rewards) / len(rewards), 3) if rewards else 0.0
+        # optional: how does the real LLM judge rate this round's bests?
+        if judge and samples:
+            for s, l in zip(samples, judge.batch([s["fr"] for s in samples])):
+                s["llm_fr"] = round(l, 2)
+        print(f"round {rnd}: kept {len(new)}/{len(batch)}, mean reward {mean_r}")
+        write_status(round=rnd, kept=len(new), batch=len(batch),
+                     mean_reward=mean_r, keep_thresh=args.keep_thresh,
+                     base=args.base, samples=samples)
         if new:
             sft(new, epochs=1, tag=f"r{rnd}")
+            model.save_pretrained(ckpt); tok.save_pretrained(ckpt)   # checkpoint
     model.save_pretrained(args.out); tok.save_pretrained(args.out)
-    print(f"saved self-learned carver -> {args.out}")
+    write_status(round=args.rounds - 1, phase="done", out=args.out)
+    print(f"saved self-learned carver -> {args.out}  (status: {status_path})")
 
 
 if __name__ == "__main__":

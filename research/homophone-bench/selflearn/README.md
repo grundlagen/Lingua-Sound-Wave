@@ -52,3 +52,17 @@ real-French-word validity. As it learns, raise `--keep_thresh` so it chases ever
 better carves. Swap the local reward's French-validity term for the distilled LLM
 judge (label a batch with `fr_coherence`, train a tiny regressor) to make the
 teacher smarter without per-sample API calls.
+
+## Disconnect-proofing, monitoring & admin
+
+- **Checkpoint + resume:** `--ckpt_dir <Drive path>` saves the model + `status.json`
+  each round. If Colab drops, re-run the cells — it resumes from the last round.
+- **Keep-alive:** the notebook arms a best-effort JS heartbeat (keep the tab open;
+  Colab Pro is more reliable for multi-hour runs).
+- **Remote monitoring:** set `GITHUB_TOKEN` + `GITHUB_REPO`; each round the trainer
+  PUTs `selflearn/status.json` (round, kept, mean reward, sample carves + Nemotron
+  scores) to a **`selflearn-status`** branch via the API. Claude reads that branch
+  on request and advises / tunes (`--keep_thresh`, `--k`, base model) by pushing to
+  `claude/phrase-weave-multiword`; re-run the clone cell to pull and continue.
+- **Per-round eval:** `--eval_llm` scores each round's bests with the live judge so
+  you see real French-coherence climbing, not just the local reward.
