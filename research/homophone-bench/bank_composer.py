@@ -56,6 +56,9 @@ def main():
     theme_word = None
     if "--theme" in argv:
         i = argv.index("--theme"); theme_word = argv[i + 1]; del argv[i:i + 2]
+    use_llm = "--llm" in argv
+    if use_llm:
+        argv.remove("--llm")
     seeds = [w.lower() for w in argv]
     EN, FR = bigram_lm.load("en"), bigram_lm.load("fr")
     bank = load_bank()
@@ -103,6 +106,22 @@ def main():
         combo = sum(e["combo"] for e in chain) / len(chain)
         out.append((ef * ff * combo, ef, ff, combo, chain))
     out.sort(key=lambda x: -x[0])
+
+    # optional: re-rank the top compositions by a REAL LLM French-coherence
+    # judge (OpenRouter/Nemotron/Anthropic), the L2-model upgrade. Bigram
+    # fallback if no key. Only the top ~12 are scored -> a single batch call.
+    if use_llm:
+        from fr_coherence import FRCoherence
+        scorer = FRCoherence()
+        top = out[:12]
+        fr_lines = [" ".join(e["fr"] for e in tup[4]) for tup in top]
+        llm = scorer.batch(fr_lines)
+        rescored = [(tup[3] * (L + 0.1), tup[1], L, tup[3], tup[4])
+                    for tup, L in zip(top, llm)]
+        rescored.sort(key=lambda x: -x[0])
+        out = rescored + out[12:]
+        prov = scorer.provider[0] if scorer.available() else "bigram-fallback"
+        print(f"[LLM French-coherence re-rank via {prov}]\n")
 
     seen, shown = set(), 0
     print(f'composing from {len(bank)} bank units'

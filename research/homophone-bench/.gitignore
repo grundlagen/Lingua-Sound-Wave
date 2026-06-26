@@ -11,3 +11,5 @@ node-ids.json
 *.err
 fa_big.*
 dictionary-v7-augmented.json
+.env.local
+.env.encrypted.gpg
