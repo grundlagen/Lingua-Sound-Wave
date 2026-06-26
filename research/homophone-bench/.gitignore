@@ -13,3 +13,6 @@ fa_big.*
 dictionary-v7-augmented.json
 .env.local
 .env.encrypted.gpg
+.gcp-sa.json
+*service_account*.json
+*-sa.json
