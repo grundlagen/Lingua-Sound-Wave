@@ -54,3 +54,14 @@ _In-context advisory from the LLM-in-the-loop; review before encoding into match
 
 Total: 10 rules. Focus on elision, liaison, hiatus, and repair. All codeable via existing framework extensions.  
 Word count: 298.
+---
+## Closing the loop (iteration 1 review)
+
+- Schwa elision (rules 1–2) is **already encoded** — `ə` is in CHEAP_GAP at 0.18.
+- The genuinely-new rules (elision-before-vowel, enchaînement glides, geminate
+  reduction, cluster epenthesis, h-aspiré block) are all **context-sensitive**,
+  but our matcher scores segment pairs **context-free** (NW over single segments).
+- **Loop verdict / next iteration:** to apply connected-speech rules the matcher
+  must become context-aware (condition a substitution/gap on the neighbouring
+  segment and word boundary). That refactor is the next remine step; the
+  context-free wins (voicing-pair EQUIV, schwa gaps) are already in.
