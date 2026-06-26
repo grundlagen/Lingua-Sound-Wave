@@ -34,17 +34,46 @@ def load_bank():
     return rows
 
 
+def load_theme(word, bank):
+    """attach an embedding theme vector to each entry; return theme vec."""
+    import json
+    import numpy as np
+    vecs = np.load("node-vecs.npy")
+    ids = json.load(open("node-ids.json"))
+    idx = {n: i for i, n in enumerate(ids)}
+    for e in bank:
+        vs = [vecs[idx["en:" + w]] for w in e["ew"] if "en:" + w in idx]
+        e["vec"] = np.mean(vs, axis=0) if vs else None
+    return vecs[idx["en:" + word]] if "en:" + word in idx else None
+
+
 def main():
     import math
-    n_units = int(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[1] == "-n" else 4
-    seeds = [w.lower() for w in sys.argv[1:] if not w.lstrip("-").isdigit()
-             and w != "-n"]
+    argv = sys.argv[1:]
+    n_units = 4
+    if "-n" in argv:
+        i = argv.index("-n"); n_units = int(argv[i + 1]); del argv[i:i + 2]
+    theme_word = None
+    if "--theme" in argv:
+        i = argv.index("--theme"); theme_word = argv[i + 1]; del argv[i:i + 2]
+    seeds = [w.lower() for w in argv]
     EN, FR = bigram_lm.load("en"), bigram_lm.load("fr")
     bank = load_bank()
 
-    # starts: seeded by a word, else the most fluent strong homophones
+    theme = load_theme(theme_word, bank) if theme_word else None
+
+    def thsim(e):
+        if theme is None or e.get("vec") is None:
+            return 0.0
+        import numpy as np
+        return float(e["vec"] @ theme)
+
+    # starts: seeded by a word / theme, else the most fluent strong homophones
     if seeds:
         starts = [e for e in bank if e["ew"][0] in seeds] or bank
+    elif theme is not None:
+        starts = nlargest(30, bank, key=lambda e: e["combo"] * (e["flu"] + 0.2)
+                          * (thsim(e) + 0.4))
     else:
         starts = nlargest(30, bank, key=lambda e: e["combo"] * (e["flu"] + 0.2))
     beams = [(0.0, [e]) for e in starts[:30]]
@@ -60,7 +89,7 @@ def main():
                     continue
                 eb = EN.cond(pe.lower(), e["ew"][0].lower())
                 fb = FR.cond(pf.lower(), e["fw"][0].lower())
-                step = eb * fb * e["combo"] * (e["flu"] + 0.15)
+                step = eb * fb * e["combo"] * (e["flu"] + 0.15) * (thsim(e) + 0.4)
                 scored.append((sc + math.log(step + 1e-12), chain + [e]))
             nxt.extend(nlargest(4, scored, key=lambda x: x[0]))
         beams = nlargest(40, nxt, key=lambda x: x[0])
