@@ -1,0 +1,21 @@
+# Continual self-learning as a service. Mirrors poly-microtrader's pattern:
+# Restart=on-failure so the box keeps training across crashes/reboots.
+#   sudo cp selflearn.service /etc/systemd/system/ && sudo systemctl enable --now selflearn
+[Unit]
+Description=Lingua Weaver homophonic self-learning (continual)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=%i
+WorkingDirectory=/opt/lingua-selflearn
+EnvironmentFile=-/opt/lingua-selflearn/.env
+ExecStart=/opt/lingua-selflearn/setup.sh
+Restart=on-failure
+RestartSec=30
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
