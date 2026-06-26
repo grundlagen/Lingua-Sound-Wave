@@ -34,3 +34,11 @@ benchmark. From the 2024/2025 overviews and the multi-agent method paper
   eval set for the judge — the one real external benchmark for this task.
 - Build a **contrastive pos/neg set** from our reward to harden discrimination
   (the `experiment.py` finding said the scorer needs it).
+
+## As methods (judging unchanged)
+
+The semantic-cosine meaning signal is provided as `semantic_cosine.py` — a METHOD
+for inspection, deliberately NOT wired into `reward.py`/`prosody.py`/
+`fr_coherence.py`. It scores cosine(EN source, FR output): la mer 0.95, le chat
+0.95 (translations) vs un voile d'or 0.37, un petit un petit 0.49 (sound-alike,
+different meaning). Promote into the judge only by a deliberate, reviewed edit.
