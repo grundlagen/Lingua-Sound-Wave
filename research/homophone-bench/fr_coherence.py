@@ -31,16 +31,19 @@ except Exception:
 PROVIDERS = [
     ("openrouter", "OPENROUTER_API_KEY",
      "https://openrouter.ai/api/v1/chat/completions",
-     os.environ.get("FR_MODEL", "nvidia/nemotron-4-340b-instruct")),
+     os.environ.get("FR_MODEL", "nvidia/nemotron-3-super-120b-a12b:free")),
     ("nim", "NVIDIA_NIM_API_KEY",
      "https://integrate.api.nvidia.com/v1/chat/completions",
      os.environ.get("FR_MODEL_NIM", "nvidia/llama-3.1-nemotron-70b-instruct")),
 ]
 
 PROMPT = (
-    "You are a strict French grammar judge. For each numbered French phrase, rate "
-    "how coherent it is as real French (word order, agreement, sense) from 0 to "
-    "100. Reply ONLY with a JSON array of integers, one per phrase, in order.\n\n"
+    "Rate each numbered French word-sequence for how NATURAL it sounds as French "
+    "— real French words in a plausible order. Poetic or fragmentary phrasing is "
+    "fine (this is homophonic verse, not prose). Scale: 100 = natural French; "
+    "60 = real French words, slightly awkward; 30 = strained but French-ish; "
+    "0 = nonsense / not French. Reply ONLY with a JSON array of integers, one per "
+    "item, in order.\n\n"
 )
 
 
@@ -77,18 +80,25 @@ class FRCoherence:
         body = json.dumps({
             "model": model, "temperature": 0,
             "messages": [{"role": "user", "content": PROMPT + listing}],
-            "max_tokens": 30 + 6 * len(phrases),
+            # reasoning models burn the token budget thinking; give room + try to
+            # disable reasoning so the JSON array actually gets emitted.
+            "max_tokens": 1500, "reasoning": {"enabled": False},
         }).encode()
         req = urllib.request.Request(url, data=body, headers={
             "Authorization": f"Bearer {key}", "Content-Type": "application/json"})
         try:
-            with urllib.request.urlopen(req, timeout=60) as r:
+            with urllib.request.urlopen(req, timeout=90) as r:
                 out = json.load(r)
-            txt = out["choices"][0]["message"]["content"]
-            nums = re.findall(r"\d+", txt)
-            scores = [min(1.0, int(n) / 100.0) for n in nums[:len(phrases)]]
-            if len(scores) == len(phrases):
-                return scores
+            txt = out["choices"][0]["message"]["content"] or ""
+            m = re.findall(r"\[[\s\d,]*\]", txt)        # the JSON array
+            nums = re.findall(r"\d+", m[-1]) if m else re.findall(r"\d+", txt)
+            scores = [min(1.0, int(n) / 100.0) for n in nums]
+            if len(scores) >= len(phrases):
+                return scores[:len(phrases)]
+            if scores:                              # partial: pad the rest, don't discard
+                print(f"[fr_coherence: {name} returned {len(scores)}/{len(phrases)};"
+                      f" padding remainder with bigram]")
+                return scores + [self._bigram_score(p) for p in phrases[len(scores):]]
         except Exception as e:
             print(f"[fr_coherence: {name} failed ({e}); bigram fallback]")
         return [self._bigram_score(p) for p in phrases]
@@ -97,7 +107,9 @@ class FRCoherence:
 if __name__ == "__main__":
     s = FRCoherence()
     print("provider:", s.provider[0] if s.provider else "bigram-fallback")
-    tests = ["t elle est elle en hâte avec un tel", "oui doue ci de groupe",
-             "un petit un petit et on vol", "chie cède telle mi mot"]
+    tests = ["le chat dort sur le lit",                 # real French (control)
+             "un petit un petit et on vol",             # Van Rooten-style carve
+             "t elle est elle en hâte avec un tel",       # composer line
+             "chie cède telle mi mot"]                   # near-gibberish
     for p, sc in zip(tests, s.batch(tests)):
         print(f"  {sc:.2f}  {p}")

@@ -85,6 +85,8 @@ def main():
         nxt = []
         for sc, chain in beams:
             used = {id(x) for x in chain}
+            en_seen = {w.lower() for x in chain for w in x["ew"]}
+            fr_seen = {w.lower() for x in chain for w in x["fw"]}
             pe, pf = chain[-1]["ew"][-1], chain[-1]["fw"][-1]
             scored = []
             for e in bank:
@@ -92,7 +94,12 @@ def main():
                     continue
                 eb = EN.cond(pe.lower(), e["ew"][0].lower())
                 fb = FR.cond(pf.lower(), e["fw"][0].lower())
-                step = eb * fb * e["combo"] * (e["flu"] + 0.15) * (thsim(e) + 0.4)
+                # diversity: penalise re-using English/French words (kills the
+                # "to tell you tell..." collapse)
+                rep = sum(w.lower() in en_seen for w in e["ew"]) + \
+                      sum(w.lower() in fr_seen for w in e["fw"])
+                div = 0.2 ** rep
+                step = eb * fb * e["combo"] * (e["flu"] + 0.15) * (thsim(e) + 0.4) * div
                 scored.append((sc + math.log(step + 1e-12), chain + [e]))
             nxt.extend(nlargest(4, scored, key=lambda x: x[0]))
         beams = nlargest(40, nxt, key=lambda x: x[0])
@@ -113,7 +120,14 @@ def main():
     if use_llm:
         from fr_coherence import FRCoherence
         scorer = FRCoherence()
-        top = out[:12]
+        # send DISTINCT French lines to the judge, not 12 near-duplicates
+        top, seen_fr = [], set()
+        for tup in out:
+            fr = " ".join(e["fr"] for e in tup[4])
+            if fr not in seen_fr:
+                seen_fr.add(fr); top.append(tup)
+            if len(top) >= 14:
+                break
         fr_lines = [" ".join(e["fr"] for e in tup[4]) for tup in top]
         llm = scorer.batch(fr_lines)
         rescored = [(tup[3] * (L + 0.1), tup[1], L, tup[3], tup[4])
