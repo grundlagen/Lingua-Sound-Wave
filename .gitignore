@@ -47,3 +47,7 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# neural carver checkpoints (reproducible, binary)
+research/homophone-bench/selflearn/*.pt
+research/homophone-bench/selflearn/neural_run.log
