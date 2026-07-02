@@ -51,6 +51,23 @@ Always verify your own proposals with the judge before keeping them.
 5. Knuth–Bendix canonical forms for the connected-speech rules (~100× match
    speedup; also fixes the window-index bench timeout)
 
+## Autonomous operation (target: fully unattended by 2026-07-07)
+- Driver: `python research/homophone-bench/autopilot.py --once` (cron hourly)
+  or `--loop 3600`. Each cycle: sync → judge health → regen artifacts →
+  rolling 6-line bench → bounded Haiku mine (20 words) → GPU train round if
+  CUDA → append `AUTOPILOT_STATUS.md` → commit+push. Judge failure aborts the
+  cycle; everything is idempotent and collision-safe (pull --rebase first).
+- Cron install:
+  `(crontab -l; echo "0 * * * * cd $PWD/research/homophone-bench && $(which python3) autopilot.py --once >> autopilot.log 2>&1") | crontab -`
+- Multiple Claude sessions share this branch: ALWAYS `git pull --rebase`
+  before pushing; read `AUTOPILOT_STATUS.md` first to see what the loop has
+  been doing; don't run a second 40-line bench if one is already in flight.
+- Scheduled-session prompt (paste into a scheduled terminal-Claude task):
+  "Read CLAUDE.md and AUTOPILOT_STATUS.md. If autopilot cron is not installed,
+  install it. Then take the top unclaimed item from the priority queue, do
+  one bounded round of it, record honestly in the ledgers, commit and push.
+  Never commit secrets; never claim an unverified line."
+
 ## Working rules
 - Branch: work on the branch you were given; commit+push often; never commit
   `.env.local`, `.gcp-sa.json`, `*.pkl` LMs, `train-dual-v1.jsonl` (all
