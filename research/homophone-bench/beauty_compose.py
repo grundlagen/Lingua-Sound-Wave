@@ -259,7 +259,7 @@ def translate(line, D, show=True):
             for sc, cand in hits:
                 if sc >= 0.68:
                     rm = max(0.0, semantic_cosine(gram, cand.split("〔")[0]))
-                    if rm >= 0.25 or sc >= 0.80:
+                    if rm >= 0.35 or sc >= 0.85:
                         merged.append((gram, cand.split("〔")[0], sc, "window"))
                         i += 2
                         done = True
