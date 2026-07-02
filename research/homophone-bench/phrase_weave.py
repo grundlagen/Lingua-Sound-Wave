@@ -90,13 +90,31 @@ def min_zipf_word(words: list[str], lang: str) -> float:
 
 
 def transfer(text: str, src_lang: str, tgt_lang: str, root,
-             *, top_n: int = TOP_N, clean_only: bool = True) -> list[dict]:
+             *, top_n: int = TOP_N, clean_only: bool = True,
+             juncture: bool = False) -> list[dict]:
     """Decode a source phrase into TARGET word sequences, re-ranked by a joint
-    sound*fluency objective so the target side is fluent, not just sound-true."""
+    sound*fluency objective so the target side is fluent, not just sound-true.
+
+    ``juncture=True`` adds the cross-word connected-speech lift (liaison/elision)
+    to each candidate's sound score before re-ranking: the decoder scores the
+    target carve from isolated word units, so a carve whose words liaise/elide
+    when spoken ("les amis" -> /lezami/) is under-rated. The lift is measured
+    with a single scorer (citation vs connected-speech realization) and only
+    ever raises the score -- see juncture.py."""
     ipa = phrase_ipa(text, src_lang)
     cands = pd.decode(ipa, root, top_n=top_n, max_words=MAX_WORDS)
     src_words = [w.lower().strip(".,!?;:") for w in text.split()]
     src_flu = fluency(src_words, src_lang)
+    _juncture_lift = None
+    if juncture:
+        import juncture as _J  # lazy: heavy deps, only when requested
+        def _juncture_lift(tgt_words):  # noqa: E306
+            cite = _J._combo_ipa(_J.bench.canonical(ipa),
+                                 _J.citation_concat(tgt_words, tgt_lang))
+            best = max((_J._combo_ipa(_J.bench.canonical(ipa), r)
+                        for r in _J.juncture_realizations(tgt_words, tgt_lang)),
+                       default=cite)
+            return max(0.0, best - cite)
 
     out = []
     for c in cands:
@@ -106,9 +124,13 @@ def transfer(text: str, src_lang: str, tgt_lang: str, root,
         if clean_only and min_zipf_word(tgt_words, tgt_lang) < FLUENCY_GATE:
             continue  # the line that removes "nient"/"ès"/obscure forms
         tgt_flu = fluency(tgt_words, tgt_lang)
-        joint = (c["similarity"] ** SOUND_POW) * (tgt_flu ** FLUENCY_POW)
+        sound = c["similarity"]
+        lift = _juncture_lift(tgt_words) if _juncture_lift else 0.0
+        sound = min(1.0, sound + lift)
+        joint = (sound ** SOUND_POW) * (tgt_flu ** FLUENCY_POW)
         out.append({
-            "src": text, "tgt": c["fr"], "sound": round(c["similarity"], 3),
+            "src": text, "tgt": c["fr"], "sound": round(sound, 3),
+            "juncture_lift": round(lift, 3),
             "src_fluency": round(src_flu, 3), "tgt_fluency": round(tgt_flu, 3),
             "joint": round(joint, 3), "words": c["words"],
             "coverage": c["coverage"], "ipa": ipa,
@@ -125,11 +147,12 @@ def transfer(text: str, src_lang: str, tgt_lang: str, root,
 
 
 def both_intelligible(text: str, src_lang: str, tgt_lang: str, root,
-                      *, min_tgt_fluency: float = 0.55) -> list[dict]:
+                      *, min_tgt_fluency: float = 0.55,
+                      juncture: bool = False) -> list[dict]:
     """Keep only transfers where the SOURCE was a fluent phrase and the TARGET
     is fluent too -- i.e. neither side is gibberish.  This is the property the
     user asked for: both languages intelligible at once."""
-    rows = transfer(text, src_lang, tgt_lang, root)
+    rows = transfer(text, src_lang, tgt_lang, root, juncture=juncture)
     src_words = [w.lower().strip(".,!?;:") for w in text.split()]
     if fluency(src_words, src_lang) < min_tgt_fluency:
         return []  # source itself wasn't a natural phrase
@@ -144,6 +167,7 @@ def main():
         src_lang = args[i + 1]
         del args[i:i + 2]
     certify = "--certify" in args
+    juncture = "--juncture" in args
     args = [a for a in args if not a.startswith("--")]
     tgt_lang = "fr" if src_lang == "en" else "en"
 
@@ -155,7 +179,7 @@ def main():
     gold = []
     out_lines = []
     for sent in sentences:
-        rows = both_intelligible(sent, src_lang, tgt_lang, root)
+        rows = both_intelligible(sent, src_lang, tgt_lang, root, juncture=juncture)
         out_lines.append(f"\n{src_lang.upper()}: {sent}")
         if not rows:
             out_lines.append("    (no candidate with both sides fluent)")

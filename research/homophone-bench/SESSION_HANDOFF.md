@@ -53,6 +53,12 @@ It GENERATES whole-line carves that re-cut English boundaries into French ones:
    re-mine. `build_v6.py`, `dictionary-v6.tsv`, `v6-fillers.tsv`, `V6.md`.
 10. **Cycle-consistency** is a valid label-free signal (AUC 0.872 vs trusted).
     `cycle_consistency.py`, `EXPERIMENTS_N1_N2_RABBIT.md`.
+11. **Cross-word juncture is now scored** (the request #2 step ELISION_PROPOSAL
+    left open). `rule_aware.py` did within-word rules; `juncture.py` adds the
+    at-the-boundary ones (liaison /z,t,n/, elision of le/de/la, h-aspiré block)
+    that a per-unit judge forgets, as an upper-envelope re-score. Mean +0.049 on
+    the juncture bench; wired into `phrase_weave` as opt-in `--juncture`.
+    `juncture.py`, `JUNCTURE_RESCORE.md`.
 
 ## Do we need to re-mine? No (for generation)
 
