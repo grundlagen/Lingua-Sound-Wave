@@ -149,7 +149,11 @@ def candidates(w, D, verbose=False):
         add(fr, 1.0, "dual")
     for s, m, fr in ladder.get(w, [])[:6]:    # GOLD homophone one-for-ones
         add(fr, m, "ladder")
-    for s, fr in glue.get(w, [])[:4]:
+    ART = {"the": {"le", "la", "les", "de", "des", "du"},
+           "a": {"un", "une", "à", "et"}, "an": {"un", "une"}}
+    for s, fr in glue.get(w, [])[:6]:
+        if w in ART and fr not in ART[w]:
+            continue                      # articles may not become pronouns
         add(fr, 0.6, "glue")
     for s, m, fr in bridge.get(w, [])[:4]:        # Haiku cross-scope bridges
         add(fr, m, "haiku")
