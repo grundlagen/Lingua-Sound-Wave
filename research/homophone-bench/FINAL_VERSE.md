@@ -67,5 +67,58 @@ python final_verse.py -n 10        # machine beams (tiles verified, both LMs)
 
 Next lever: the DUAL tiles (translation ∧ homophone, `dual_mine.py`) make the
 two readings *mean the same too* — from Van Rooten (same sound, different sense)
-to full dual translation (same sound, same sense). Needs the full mine re-run
-(container restart killed it at 17k rows).
+to full dual translation (same sound, same sense). **Mine complete: 102,899 dual
+pairs; ladder 118,260** (DUAL-S 9,231, 272 non-cognate).
+
+---
+
+## The paragraph (one phoneme stream, prose in both languages)
+
+Every sentence machine-verified: `combo` (sound identity), `prosody` (the
+meter/stress channel — EN stress-timed vs FR syllable-timed divergence),
+trigram L2 fluency. **Paragraph mean combo 0.84; prosody 0.90–1.00 throughout.**
+
+> **EN** — We knew the sea. Less and less, the bell calls the fool; the queen
+> sleeps at the pool. My movie, my mess. Do tell me, who said less? Bless the
+> chef, bless the soup. Moo, said the moose; boo, said the fool. And at dawn,
+> we do too. Less debt, less mess.
+
+> **FR** — Oui, nous, ceci. Laisse en laisse, label colle la foule; la couine
+> slip à la poule. Mes mous vies, mes messes. Doux, tel mie, où cède laisse ?
+> Blesse le chef, blesse la soupe. Mou, cède la mousse ; boue, cède la foule.
+> Et à donne, oui doux toux. Laisse dette, laisse messe.
+
+*(FR gloss: "Yes, us, this. Leash on leash, the label glues the crowd; the
+squeal slips to the hen. My soft lives, my masses. Soft, like crumb — where
+does the leash yield? Wound the chef, wound the soup. Soft, yields the foam;
+mud, yields the crowd. And in the deal, yes — sweet cough. Leave the debt,
+leave the mass.")*
+
+| sentence | combo | prosody | L2 |
+|---|---|---|---|
+| we knew the sea | 0.87 | 0.96 | 0.72 |
+| less and less, the bell calls the fool | 0.75 | 0.93 | 0.35 |
+| the queen sleeps at the pool | 0.75 | 0.92 | 0.39 |
+| my movie, my mess | 0.86 | 0.90 | 0.27 |
+| do tell me, who said less? | 0.95 | 0.95 | 0.25 |
+| bless the chef, bless the soup | 0.85 | 0.95 | 0.39 |
+| moo, said the moose; boo, said the fool | 0.83 | 0.96 | 0.22 |
+| less debt, less mess | 1.00 | 1.00 | 0.37 |
+| and at dawn, we do too | 0.80 | 0.93 | 0.40 |
+
+## L2 upgrade (the standing ceiling, addressed)
+
+`trigram_lm.py`: stupid-backoff trigram on 18.7M tokens of OpenSubtitles French
+(1.66M trigrams). Sanity: *le chat mange la souris* 0.52 vs scrambled 0.37.
+`final_verse.py` auto-uses it when `trigram-lm-fr.pkl` exists (50 MB, not
+committed — rebuild: fetch OPUS fr.txt.gz slice, `python trigram_lm.py build fr
+/tmp/fr_sub.txt`).
+
+## Meter / prosody channel
+
+The "language-difference" matching code the project built is `prosody.py`
+(stress-weighted alignment, DIVERGED mode: English stress-timed & falling vs
+French syllable-timed & phrase-final) — now used above as the second
+verification channel alongside combo. `juncture.py` covers the cross-word
+liaison/elision. Round-rabbit's need-word lattice is superseded at scale by
+dual-pairs (hop-1) + chain-web (hop≥2), as suspected.

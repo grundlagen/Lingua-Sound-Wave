@@ -51,3 +51,4 @@ Thumbs.db
 # neural carver checkpoints (reproducible, binary)
 research/homophone-bench/selflearn/*.pt
 research/homophone-bench/selflearn/neural_run.log
+research/homophone-bench/trigram-lm-*.pkl
