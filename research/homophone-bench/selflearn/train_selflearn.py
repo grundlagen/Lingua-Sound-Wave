@@ -213,12 +213,29 @@ def main():
                      base=args.base, samples=samples)
         if new:
             sft(new, epochs=1, tag=f"r{rnd}")
-            model.save_pretrained(ckpt); tok.save_pretrained(ckpt)   # checkpoint
+            tmp = ckpt + ".tmp"
+            model.save_pretrained(tmp); tok.save_pretrained(tmp)     # atomic:
+            import shutil                                            # never a
+            for f_ in os.listdir(tmp):                               # corrupt
+                shutil.move(os.path.join(tmp, f_), os.path.join(ckpt, f_))
+            shutil.rmtree(tmp, ignore_errors=True)
+            json.dump({"base": args.base, "round": rnd, "data": args.data,
+                       "kept": len(new), "mean_reward": mean_r},
+                      open(os.path.join(ckpt, "meta.json"), "w"))
+            # THE DATA WE WANT: frozen eval every round -> RESULTS.tsv
+            import subprocess as _sp
+            _sp.run([sys.executable,
+                     os.path.join(_HERE, "eval_harness.py"),
+                     "--model", ckpt, "--round", str(rnd)], timeout=1800)
       except KeyboardInterrupt:
         break
       except Exception as e:
         import traceback
         traceback.print_exc()
+        if "out of memory" in str(e).lower():
+            import torch as _t
+            _t.cuda.empty_cache()
+            print("OOM: halving batch via env for next attempt")
         write_status(round=rnd, error=str(e)[:200])
         if not args.continual:           # skip the bad round and keep going
             raise
