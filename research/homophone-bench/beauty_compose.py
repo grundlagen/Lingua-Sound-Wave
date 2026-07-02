@@ -101,7 +101,8 @@ def load_all():
     # C27: homophone classes both sides -- free pivots
     en_class, fr_class = {}, {}
     for path, d in (("en-homophone-classes.tsv", en_class),
-                    ("fr-homophone-classes.tsv", fr_class)):
+                    ("fr-homophone-classes.tsv", fr_class),
+                    ("fr-homophone-classes-lexique.tsv", fr_class)):
         try:
             for i, line in enumerate(open(path, encoding="utf-8")):
                 if i == 0:
@@ -236,7 +237,7 @@ def _window_index():
         units = BW.load_units("fr-units.tsv")
         merged = dict(idx)
         for u, p, k in units:
-            if k in ("elision", "interj", "archaic"):
+            if k in ("elision", "interj", "archaic", "liaison", "place", "argot", "compound"):
                 merged[u] = p
         _WIN = BW.by_len(merged)
     return _WIN
@@ -249,19 +250,23 @@ def translate(line, D, show=True):
     merged, i = [], 0
     while i < len(ws):
         done = False
-        if i + 1 < len(ws):
-            gram = ws[i] + " " + ws[i + 1]
+        for span in (3, 2):
+          if done or i + span - 1 >= len(ws):
+            continue
+          if True:
+            gram = " ".join(ws[i:i + span])
             try:
                 ipa = matcher._canonical(matcher.g2p(gram, "en"))
                 hits = BW.window_match(ipa, _window_index(), top=3, tol=1)
             except Exception:
                 hits = []
             for sc, cand in hits:
-                if sc >= 0.68:
+                thr = 0.72 if span == 3 else 0.68
+                if sc >= thr:
                     rm = max(0.0, semantic_cosine(gram, cand.split("〔")[0]))
                     if rm >= 0.35 or sc >= 0.85:
                         merged.append((gram, cand.split("〔")[0], sc, "window"))
-                        i += 2
+                        i += span
                         done = True
                         break
         if not done:
@@ -282,6 +287,11 @@ def translate(line, D, show=True):
             picks.append(f"«{w}»"); tags.append(f"{w}=MISS")
     fr_line = " ".join(picks)
     s = combo(line, fr_line.replace("«", "").replace("»", ""))
+    try:
+        import juncture as _j
+        s = max(s, _j.best_juncture_score(line, fr_line.replace("«", "").replace("»", "")))
+    except Exception:
+        pass
     m = max(0.0, semantic_cosine(line, fr_line.replace("«", "").replace("»", "")))
     if show:
         print(f"EN : {line}")
