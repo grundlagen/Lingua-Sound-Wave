@@ -123,6 +123,16 @@ tier-ladder TSV itself stores only pair provenance (no synonym column).
 then a whole meaning-cluster's sound options are one lookup.
 
 ---
+## Bench log (honest)
+
+| composer state | Rooten band |
+|---|---|
+| word-aligned literal | 0% |
+| + glue/chains/haiku (greedy) | 55% (22/40) |
+| + class-pivots & 234 bridges, same weights | 45% (18/40) — new channels' fixed meaning-weights (0.5–0.6) displace better picks; per-channel weight CALIBRATION is the open task (fit on strict-gold, one logistic) |
+
+Windows demo (B17/A9 live): sat at≈s'hâte · at the door≈s'adorent · door of the≈d'orage · the door≈d'ores.
+
 *Verified flagship line so far:*
 > the dog at the door made me cry → **le dogue hâtent le dors faite mi cris** (0.56/0.66)
 > one day we shall cross the sea → **une dé oui châle cross le si** (0.76/0.51)
