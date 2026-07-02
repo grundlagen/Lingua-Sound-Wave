@@ -97,11 +97,42 @@ def load_all():
         w = line.split("\t")[0].strip().lower()
         if w:
             frvocab.add(w)
-    return dual, glue, esyn, fsyn, trans, frvocab, ladder
+
+    bridge = defaultdict(list)                    # Haiku-verified cross-scope
+    try:
+        for i, line in enumerate(open("llm-bridge.tsv", encoding="utf-8")):
+            if i == 0:
+                continue
+            p = line.rstrip("\n").split("\t")
+            if len(p) >= 4:
+                bridge[p[0]].append((float(p[2]), float(p[3]), p[1]))
+        for v in bridge.values():
+            v.sort(reverse=True)
+    except FileNotFoundError:
+        pass
+    return dual, glue, esyn, fsyn, trans, frvocab, ladder, bridge
+
+
+def syn_chain(w, esyn, depth=3, beam=24):
+    """round_rabbit transitive chains: each synonym opens the next, decay per
+    hop (potentially infinite; decay + beam keep it finite)."""
+    out = {w: 1.0}
+    frontier = {w}
+    for d in range(1, depth + 1):
+        nxt = set()
+        for x in frontier:
+            for s in esyn.get(x, ()):
+                if s not in out:
+                    out[s] = 0.85 ** d
+                    nxt.add(s)
+        frontier = nxt
+        if len(out) > beam:
+            break
+    return sorted(out.items(), key=lambda kv: -kv[1])[:beam]
 
 
 def candidates(w, D, verbose=False):
-    dual, glue, esyn, fsyn, trans, frvocab, ladder = D
+    dual, glue, esyn, fsyn, trans, frvocab, ladder, bridge = D
     seen, out = set(), []
 
     def add(fr, meaning, channel):
@@ -120,12 +151,20 @@ def candidates(w, D, verbose=False):
         add(fr, m, "ladder")
     for s, fr in glue.get(w, [])[:4]:
         add(fr, 0.6, "glue")
-    for syn in list(esyn.get(w, []))[:6]:                     # EN synonym chain
+    for s, m, fr in bridge.get(w, [])[:4]:        # Haiku cross-scope bridges
+        add(fr, m, "haiku")
+    for syn, decay in syn_chain(w, esyn):         # transitive EN synonym chain
+        if syn == w:
+            continue
         for fr in list(trans.get(syn, []))[:4]:
-            add(fr, 0.8, f"esyn:{syn}")
-    for fr0 in list(trans.get(w, []))[:4]:                    # FR synonym chain
-        for fr in list(fsyn.get(fr0, []))[:6]:
-            add(fr, 0.8, f"fsyn:{fr0}")
+            add(fr, 0.8 * decay, f"esyn:{syn}")
+        for _s, fr in dual.get(syn, [])[:2]:      # chains open dual tiles too
+            add(fr, 0.8 * decay, f"esyn+dual:{syn}")
+        for _s, _m, fr in ladder.get(syn, [])[:2]:  # ...and GOLD homophones
+            add(fr, 0.7 * decay, f"esyn+gold:{syn}")
+    for fr0 in list(trans.get(w, []))[:4]:        # FR-side chain, depth 2
+        for fr, decay in syn_chain(fr0, fsyn, depth=2, beam=12):
+            add(fr, 0.8 * decay, f"fsyn:{fr0}")
     out.sort(reverse=True)
     # metaphor drift only if nothing sound-decent yet (expensive)
     if not out or out[0][1] < 0.55:
