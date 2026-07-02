@@ -120,7 +120,8 @@ tier-ladder TSV itself stores only pair provenance (no synonym column).
 | + glue/chains/haiku (greedy) | 55% (22/40) |
 | + class-pivots & 234 bridges, same weights | 45% (18/40) — priors displaced better picks |
 | + REAL-cosine re-rank of top-K + window-merge | 48% (19/40) |
-| + window gate rm≥0.35 (bypass 0.85) | **50% (20/40)** — trend right; remaining gap to 55%: enclass tail beyond top-10 uncalibrated. Clean fix stays: per-channel logistic on strict-gold |
+| + window gate rm≥0.35 (bypass 0.85) | **50% (20/40)** |
+| + full arsenal (lexique classes, all units) 12-line spot check | 50% (6/12) — stable; per-line cost grew (82k units): needs the speed tier before 40-line benches — trend right; remaining gap to 55%: enclass tail beyond top-10 uncalibrated. Clean fix stays: per-channel logistic on strict-gold |
 
 Windows demo (B17/A9 live): sat at≈s'hâte · at the door≈s'adorent · door of the≈d'orage · the door≈d'ores.
 
