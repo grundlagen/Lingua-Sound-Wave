@@ -68,7 +68,14 @@ LIAISON_BY_LETTER = {"s": "z", "x": "z", "z": "z", "t": "t", "d": "t",
 # frequency set; espeak knows most, but the symbolic pass needs them explicitly.
 H_ASPIRE = {"héros", "haricot", "haricots", "hibou", "hache", "hauteur",
             "honte", "hangar", "hasard", "hâte", "halte", "hamac", "hareng",
-            "haine", "hall", "hamster", "handicap"}
+            "haine", "hall", "hamster", "handicap",
+            # A15 extension (IDEAS_BABEL): the rest of the frequent aspirates
+            "haut", "hauts", "haute", "hautes", "hors", "huit", "hurler",
+            "hurle", "houle", "housse", "hotte", "horde", "hoquet", "homard",
+            "hockey", "hocher", "heurter", "heurt", "hêtre", "héron", "hernie",
+            "harpe", "harnais", "hargne", "harem", "hardi", "harceler",
+            "hanter", "hante", "hanche", "hameau", "hublot", "huer", "hutte",
+            "hâtent", "hâtes", "hausse", "hautain", "hasards", "hiboux"}
 
 
 def _voice(lang: str) -> str:
