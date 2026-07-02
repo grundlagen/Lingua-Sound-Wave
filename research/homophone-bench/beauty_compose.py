@@ -191,6 +191,15 @@ def candidates(w, D, verbose=False):
         for fr, decay in syn_chain(fr0, fsyn, depth=2, beam=12):
             add(fr, 0.8 * decay, f"fsyn:{fr0}")
     out.sort(reverse=True)
+    # CALIBRATION (bench-log fix): channel meaning PRIORS displace good picks;
+    # re-score the top-K with the REAL semantic cosine and re-rank
+    top = out[:10]
+    rest = out[10:]
+    cal = []
+    for j, s_, m_, fr, ch in top:
+        rm = max(0.0, semantic_cosine(w, fr))
+        cal.append((s_ * (0.5 + 0.5 * rm), s_, rm, fr, ch))
+    out = sorted(cal, reverse=True) + rest
     # C27 FR side: sound-identical siblings of the top pick, choose by meaning
     if out and " " not in out[0][3]:
         top = out[0]
@@ -217,10 +226,54 @@ def candidates(w, D, verbose=False):
     return out
 
 
+_WIN = None
+def _window_index():
+    global _WIN
+    if _WIN is None:
+        from collections import defaultdict as dd
+        import babel_windows as BW
+        idx = BW.load_index("fr-word-ipa.tsv")
+        units = BW.load_units("fr-units.tsv")
+        merged = dict(idx)
+        for u, p, k in units:
+            if k in ("elision", "interj", "archaic"):
+                merged[u] = p
+        _WIN = BW.by_len(merged)
+    return _WIN
+
+
 def translate(line, D, show=True):
+    import babel_windows as BW
     ws = [w.lower().strip(".,;:!?'") for w in line.split() if w.strip(".,;:!?'")]
+    # B17: try merging adjacent word PAIRS into one FR unit first
+    merged, i = [], 0
+    while i < len(ws):
+        done = False
+        if i + 1 < len(ws):
+            gram = ws[i] + " " + ws[i + 1]
+            try:
+                ipa = matcher._canonical(matcher.g2p(gram, "en"))
+                hits = BW.window_match(ipa, _window_index(), top=3, tol=1)
+            except Exception:
+                hits = []
+            for sc, cand in hits:
+                if sc >= 0.68:
+                    rm = max(0.0, semantic_cosine(gram, cand.split("〔")[0]))
+                    if rm >= 0.25 or sc >= 0.80:
+                        merged.append((gram, cand.split("〔")[0], sc, "window"))
+                        i += 2
+                        done = True
+                        break
+        if not done:
+            merged.append((ws[i], None, 0.0, ""))
+            i += 1
     picks, tags = [], []
-    for w in ws:
+    out_ws = []
+    for w, pre_fr, pre_s, pre_ch in merged:
+        out_ws.append(w)
+        if pre_fr is not None:
+            picks.append(pre_fr); tags.append(f"{w}≈{pre_fr}[{pre_ch};{pre_s:.2f}]")
+            continue
         c = candidates(w, D)
         if c:
             j, s, m, fr, ch = c[0]
