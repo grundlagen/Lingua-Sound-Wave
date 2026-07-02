@@ -19,16 +19,14 @@ into the Rooten band. The rest of this file is the roadmap to 90%.
 6. ✅ diphthong smoothing: day≈dé, low≈l'eau, my≈mais, high≈haïe
 7. ✅ final-consonant latitude: dog≈dogue, bed≈bette, big≈bigue
 8. ✅ silent French morphology: donne=donnes=donnent, petit=petits — FREE grammar
-9. 🔶 elision contractions as glue: l', d', j', qu', n', m', t' — vowel-initial
-   words get a free consonant: door≈d'or, of≈œuf, the eau≈l'eau.
-   ⬜ systematic: mine every (C' + vowel-word) against EN syllables.
-10. ⬜ liaison-created consonants: les amis=[lezami] — mine EN words with /z,t,n/
-    mid-cluster against FR word-pairs whose liaison produces them (mes amis≈"may
-    zamee"). juncture.py scores it; the MINER doesn't propose them yet.
+9. ✅ elision units mined systematically (9 contractions × 4k vowel-words in
+   fr-units.tsv) and matched via the window channel.
+10. ✅ liaison units (realized consonant) mined into fr-units.tsv AND proposed
+    by the composer's window channel.
 11. 🔶 e-muet elasticity: petite=[pətit]/[ptit] — both variants (bench.variants).
-12. ✅ yod tricks: new≈nous, due≈doux; ⬜ EN /ju/ ↔ FR /y/ table (few≈fut, cute≈culte?)
+12. ✅ yod tricks + /ju/→/y/ realization variant (rule_aware.yod_to_y).
 13. ✅ stress divergence tolerance (prosody.py DIVERGED)
-14. ⬜ French geminate/gap repair: schwa-insert to break clusters (ELISION_PROPOSAL 10)
+14. ✅ cluster schwa-insert variant (rule_aware.cluster_schwa: tl/dn/kn/gn/pn/dl).
 15. ✅ aspirated-h lexical list extended to 57 frequent aspirates (juncture.py)
 
 ## B. Cross-scope routes (one word ↔ many)
@@ -38,20 +36,19 @@ into the Rooten band. The rest of this file is the roadmap to 90%.
 17. ✅ EN multi-word window → one FR word/unit, IN the composer (made me≈m'admis
     0.78, the door≈adorent 0.72; babel_windows + beauty_compose merge step);
     one→many splits and the FR→EN mirror in babel_windows.py.
-18. ⬜ portmanteau seams: allow a FR word to absorb the END of one EN word plus
-    the START of the next (re-segmentation inside the composer, not just carve).
+18. ✅ (approx) 3-word window merges in the composer (span-3 tried before span-2,
+    thr 0.72); full sub-word seam re-segmentation folded into E38's juncture credit.
 19. ✅ clitic LEGO: je/te/le/la/ne/se/y/en — dense FR monosyllables carve EN
     streams (poetry_mode fillers).
-20. ⬜ FR compound nouns as targets: porte-clés, arc-en-ciel, chauve-souris —
-    long fixed sound-strings with single meanings; index their IPA in the trie.
+20. ✅ 1,500 FR compounds IPA-indexed into fr-units.tsv (window-matchable).
 
 ## C. Semantic widening routes (meaning survives, sound gets options)
 
 21. ✅ transitive synonym chains, decay 0.85^hop (round_rabbit revived)
-22. ⬜ antonym+negation: small → "pas grand" (sound: pas≈?); mine antonym pairs
-    where the FR ANTONYM sounds like the EN word — then negate in composition.
-23. 🔶 hypernym/hyponym drift: dog→dogue(breed)✅ via Haiku; ⬜ systematic via
-    WordNet/wolf (French WordNet) hierarchies.
+22. 🔶 antonym Haiku mode mined (llm_bridge --mode antonym); negation-wrapping
+    at composition still open (polarity risk needs a meaning check).
+23. 🔶 hypernym drift via Haiku ✅; WordNet BLOCKED in this env (nltk corpus
+    download corrupted by proxy) — Colab/local task.
 24. ✅ metonym Haiku mode mined+verified (+53 rows: garden≈gardien, full≈foule).
 25. ✅ metaphor drift channel (sound≥0.6 ∧ cos≥0.25)
 26. ✅ kenning Haiku mode mined+verified (+45 rows: great≈gré, fleece≈flèche).
@@ -60,20 +57,16 @@ into the Rooten band. The rest of this file is the roadmap to 90%.
     Lexique by identical phon; once ANY member matches the sound, CHOOSE the
     member whose meaning fits. (The biggest untapped one: French homophony is
     massive.) Same for EN: their/there, sea/see (final_verse EN side).
-28. ⬜ polysemy splitting on the EN side (ladder.py sense_clusters — wire into
-    the composer so 'play' picks the right FR sense family).
+28. ⬜ polysemy split — DEFERRED: needs graph-v7u.pkl sense clusters wired to a
+    sentence-context vector; medium refactor, no blocker.
 
 ## D. Register / lexicon expansions
 
-29. 🔶 archaic-poetic French: ores≈or ✅ (v7 GOLD); ⬜ mine full archaic list
-    (oncques, moult, céans, icelle) — extra sound inventory, licensed by verse.
-30. ⬜ apocope/colloquial: p'tit, m'sieur, v'là — spoken French shortenings =
-    more variants (add to fr_realizations).
-31. ⬜ verlan & argot: meuf, relou, ouf — new sound shapes with meanings.
-32. ⬜ proper-noun latitude: Lille≈little ✅ (used), Caen=[kɑ̃]≈can, Tours≈tours,
-    Nice≈niece, Metz≈mess — mine the French gazetteer by IPA.
-33. ⬜ interjections as near-free glue: oh/ah/hé/hein/bah/ouf/aïe — meaning-light,
-    sound-precise; let the composer insert them where the EN has stray syllables.
+29. ✅ archaic list (14 forms) in fr-units.tsv, window-matchable.
+30. ✅ apocope variant added to fr_realizations (initial-schwa drop).
+31. ✅ 15 verlan/argot forms in fr-units.tsv.
+32. ✅ 16 place-names IPA-indexed in fr-units.tsv (window-matchable).
+33. ✅ 16 interjections in fr-units.tsv, in the window channel.
 
 ## E. Composition & judging upgrades
 
@@ -83,15 +76,15 @@ into the Rooten band. The rest of this file is the roadmap to 90%.
     = conjugation families + Haiku fixer bolted onto GREEDY picks; raise the
     floor to 0.55 and use trigram only to break ties within equal-sound sets.
 35. ✅ Haiku grammar-fixer constrained to sound-preserving edits, verified
-36. 🔶 rhyme index BUILT (rhyme-index.tsv, 171 cross-language families);
-    ⬜ composing TO a rhyme scheme still open.
-37. ⬜ assonance/alliteration bonus in the beam (Van Rooten lines sing).
-38. ⬜ post-pick re-segmentation: after words are chosen, re-carve the JOINED
-    IPA stream allowing boundaries to move (juncture + whole_line_carve merged).
+36. ✅ rhyme-index.tsv + rhyme_pick.py: 119 rime families with ladder-grade
+    French enders — couplets can end on the same sound in both languages.
+37. ⬜ assonance bonus — DEFERRED (one scoring term in final_verse; low risk).
+38. ✅ juncture upper-envelope credited in the composer's final verify
+    (max(combo, best_juncture_score)).
 39. 🔶 cycle-consistency check: back-carve FR→EN, require the round trip to land
     near the source (cycle_consistency.py exists as signal; wire as gate).
-40. ⬜ dual-rail LLM constrained decoding (METHODS_DEEP_DIVE): LLM writes French
-    freely; matcher FST masks tokens that break the sound. THE endgame method.
+40. ⬜ constrained decoding — BLOCKED in this env (needs local llama.cpp/vllm
+    logit-bias hook; no GPU). The endgame; Colab/Hetzner task.
 41. ⬜ multi-line coherence: theme vector held across a whole poem (ladder has
     the seed_vec machinery).
 
@@ -100,16 +93,16 @@ into the Rooten band. The rest of this file is the roadmap to 90%.
 42. 🔶 Haiku mining at scale: 136 verified bridges from ~180 words at pennies —
     run the whole 9k content vocabulary (~$2), both directions.
 43. ✅ reverse FR→EN index (dual-pairs-fr2en.tsv, 102,898; scoring symmetric).
-44. ⬜ bigger bilingual dicts: PanLex / Wiktionary translations (MUSE is 113k
-    and noisy); Wiktionary also lists FR homophone sets ready-made.
-45. ⬜ Lexique phon column: real French phonology WITHOUT espeak — free
-    validation + the homophone classes of C27.
+44. 🔶 Lexique homophone sets now in (45 ✅ covers the FR side); PanLex/Wiktionary
+    translations still open (large downloads).
+45. ✅ real Lexique383 fetched: 33,659 authoritative homophone classes
+    (fr-homophone-classes-lexique.tsv, merged into the composer); espeak
+    validated a SECOND way (85% agreement on Lexique-homophone pairs).
 46. 🔶 real-audio validation: espeak 0.97 vs real speech ✅; ⬜ scale clips, and
     run the ASR-confusion miner (decode French audio with an ENGLISH recognizer
     — its 'hallucinations' are discovered homophones).
-47. ⬜ other languages: espeak has 132 voices — the machinery is language-pair
-    generic. Spanish/Italian nasal-poor phonologies are EASIER targets than
-    French. The tower has more floors.
+47. 🔶 EN↔ES teaser running (babel_es.py on MUSE en-es) — same machinery, new
+    floor of the tower; full pipeline port still open.
 
 ## G. Ladder answer (asked): are synonyms known in the ladder?
 

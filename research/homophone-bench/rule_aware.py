@@ -68,6 +68,23 @@ def drop_final_schwa(ipa: str) -> str:
     return ipa[:-1] if ipa.endswith("ə") else ipa
 
 
+def yod_to_y(ipa: str) -> str:
+    """A12: EN /ju(:)/ <-> FR front-rounded /y/ (new~nu, due~du)."""
+    return ipa.replace("juː", "y").replace("ju", "y")
+
+
+def cluster_schwa(ipa: str) -> str:
+    """A14: break FR-illegal clusters with schwa (tl, dn, kn, gn, pn)."""
+    for cl in ("tl", "dn", "kn", "gn", "pn", "dl"):
+        ipa = ipa.replace(cl, cl[0] + "ə" + cl[1])
+    return ipa
+
+
+def apocope(ipa: str) -> str:
+    """D30: colloquial FR schwa drop after initial consonant (p'tit)."""
+    return re.sub(r"^([^aeiouɛɔœøəɑ̃ ]+)ə", r"\1", ipa)
+
+
 def en_realizations(ipa: str) -> list[str]:
     """Connected-speech realizations of an English citation-form IPA string."""
     base = bench.canonical(ipa)
@@ -82,13 +99,15 @@ def en_realizations(ipa: str) -> list[str]:
         out.add(drop_yod(s))
         out.add(drop_final_schwa(s))
         out.add(drop_final_schwa(flap(s)))
+        out.add(yod_to_y(s))
+        out.add(cluster_schwa(s))
         out.update(th_front(s))
     return [x for x in out if x][:16]
 
 
 def fr_realizations(ipa: str) -> list[str]:
     base = bench.canonical(ipa)
-    out = set(bench.variants(ipa, "fr")) | {base, drop_final_schwa(base)}
+    out = set(bench.variants(ipa, "fr")) | {base, drop_final_schwa(base), apocope(base)}
     return [x for x in out if x][:12]
 
 
