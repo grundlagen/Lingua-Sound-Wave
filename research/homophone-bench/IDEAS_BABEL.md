@@ -126,7 +126,8 @@ tier-ladder TSV itself stores only pair provenance (no synonym column).
 | word-aligned literal | 0% |
 | + glue/chains/haiku (greedy) | 55% (22/40) |
 | + class-pivots & 234 bridges, same weights | 45% (18/40) — priors displaced better picks |
-| + REAL-cosine re-rank of top-K + window-merge | 48% (19/40) — calibration recovers some; remaining gap = window merges score sound-high/meaning-low and enclass tail. NEXT: window merge needs rm≥0.35 gate; per-channel logistic on strict-gold still the clean fix |
+| + REAL-cosine re-rank of top-K + window-merge | 48% (19/40) |
+| + window gate rm≥0.35 (bypass 0.85) | **50% (20/40)** — trend right; remaining gap to 55%: enclass tail beyond top-10 uncalibrated. Clean fix stays: per-channel logistic on strict-gold |
 
 Windows demo (B17/A9 live): sat at≈s'hâte · at the door≈s'adorent · door of the≈d'orage · the door≈d'ores.
 
