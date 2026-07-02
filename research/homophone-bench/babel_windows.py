@@ -92,7 +92,7 @@ def en_sentence(sent, fr_idx, units, top=4):
                 print(f"  [{gram}] -> " + "  ".join(f"{w}({s:.2f})" for s, w in allh))
     # one EN word -> two FR words (one-to-many permutation)
     small = {w: p for w, p in fr_idx.items() if 1 <= len(matcher._segs(p)) <= 4}
-    small_items = list(small.items())[:3000]
+    small_bylen = by_len(small)
     for w in ws:
         ipa = matcher._canonical(matcher.g2p(w, "en"))
         n = len(matcher._segs(ipa))
@@ -101,8 +101,8 @@ def en_sentence(sent, fr_idx, units, top=4):
         best = []
         for cut in range(2, n - 1):
             head, tail = "".join(matcher._segs(ipa)[:cut]), "".join(matcher._segs(ipa)[cut:])
-            h1 = window_match(head, by_len(small), top=1, tol=1)
-            h2 = window_match(tail, by_len(small), top=1, tol=1)
+            h1 = window_match(head, small_bylen, top=1, tol=1)
+            h2 = window_match(tail, small_bylen, top=1, tol=1)
             if h1 and h2:
                 s = (h1[0][0] + h2[0][0]) / 2
                 best.append((s, f"{h1[0][1]} {h2[0][1]}"))
