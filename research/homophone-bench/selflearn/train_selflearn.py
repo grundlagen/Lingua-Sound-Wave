@@ -121,8 +121,12 @@ def main():
     tok = AutoTokenizer.from_pretrained(src_model)
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
-    model = AutoModelForCausalLM.from_pretrained(src_model, torch_dtype=dtype,
-                                                 device_map="auto")
+    try:
+        model = AutoModelForCausalLM.from_pretrained(src_model, dtype=dtype,
+                                                     device_map="auto")
+    except TypeError:                       # older transformers
+        model = AutoModelForCausalLM.from_pretrained(src_model, torch_dtype=dtype,
+                                                     device_map="auto")
     judge = FRCoherence() if (args.eval_llm and FRCoherence) else None
 
     def to_text(prompt, completion):
@@ -131,21 +135,30 @@ def main():
         return tok.apply_chat_template(msgs, tokenize=False)
 
     def sft(pairs, epochs=1, tag=""):
+        import inspect
         ds = Dataset.from_dict({"text": [to_text(p, c) for p, c in pairs]})
         # T4 (14.5GB) can't hold 1.5B + Adam fp32 states; adafactor + grad
         # checkpointing + micro-batch keeps the same effective batch of 16
-        kw = dict(output_dir=f"{args.out}-{tag}", num_train_epochs=epochs,
-                  per_device_train_batch_size=2, gradient_accumulation_steps=8,
-                  learning_rate=1e-5, logging_steps=20, save_strategy="no",
-                  bf16=bf16, fp16=not bf16, optim="adafactor",
-                  gradient_checkpointing=True)
-        # TRL renamed max_seq_length -> max_length; pass whichever exists
-        import inspect
-        params = inspect.signature(SFTConfig.__init__).parameters
-        kw["max_seq_length" if "max_seq_length" in params else "max_length"] = 128
-        cfg = SFTConfig(**kw)
-        SFTTrainer(model=model, args=cfg, train_dataset=ds,
-                   processing_class=tok).train()
+        want = dict(output_dir=f"{args.out}-{tag}", num_train_epochs=epochs,
+                    per_device_train_batch_size=2, gradient_accumulation_steps=8,
+                    learning_rate=1e-5, logging_steps=20, save_strategy="no",
+                    bf16=bf16, fp16=not bf16, optim="adafactor",
+                    gradient_checkpointing=True,
+                    max_seq_length=128, max_length=128,      # trl renamed it
+                    dataset_text_field="text")
+        ok = set(inspect.signature(SFTConfig.__init__).parameters)
+        cfg = SFTConfig(**{k: v for k, v in want.items() if k in ok})
+        tkw = set(inspect.signature(SFTTrainer.__init__).parameters)
+        extra = ({"processing_class": tok} if "processing_class" in tkw
+                 else {"tokenizer": tok})
+        try:
+            SFTTrainer(model=model, args=cfg, train_dataset=ds, **extra).train()
+        except Exception:
+            import traceback
+            with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                   "..", "TRAIN_ERRORS.log"), "a") as ef:
+                ef.write("\n=== sft() failure ===\n" + traceback.format_exc())
+            raise
 
     def sample(prompts, k):
         outs = []
