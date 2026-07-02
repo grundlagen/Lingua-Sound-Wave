@@ -29,16 +29,15 @@ into the Rooten band. The rest of this file is the roadmap to 90%.
 12. ✅ yod tricks: new≈nous, due≈doux; ⬜ EN /ju/ ↔ FR /y/ table (few≈fut, cute≈culte?)
 13. ✅ stress divergence tolerance (prosody.py DIVERGED)
 14. ⬜ French geminate/gap repair: schwa-insert to break clusters (ELISION_PROPOSAL 10)
-15. ⬜ aspirated-h lexical list (h-aspiré blocks liaison — juncture has a stub list;
-    extend from Lexique's h-words)
+15. ✅ aspirated-h lexical list extended to 57 frequent aspirates (juncture.py)
 
 ## B. Cross-scope routes (one word ↔ many)
 
 16. ✅ EN word → FR multi-word carve: enough≈un œuf, contrary≈contre air (Haiku),
     any≈haie nient (v7: 1,659 multiword streams)
-17. 🔶 EN multi-word window → one FR word: at the≈hâte, in a≈inné, say to≈sitôt.
-    ⬜ systematic: slide 2-word EN windows over the sentence, match against the
-    whole FR lexicon by IPA (the trie exists — phonetic_decoder inverted).
+17. ✅ EN multi-word window → one FR word/unit, IN the composer (made me≈m'admis
+    0.78, the door≈adorent 0.72; babel_windows + beauty_compose merge step);
+    one→many splits and the FR→EN mirror in babel_windows.py.
 18. ⬜ portmanteau seams: allow a FR word to absorb the END of one EN word plus
     the START of the next (re-segmentation inside the composer, not just carve).
 19. ✅ clitic LEGO: je/te/le/la/ne/se/y/en — dense FR monosyllables carve EN
@@ -53,13 +52,11 @@ into the Rooten band. The rest of this file is the roadmap to 90%.
     where the FR ANTONYM sounds like the EN word — then negate in composition.
 23. 🔶 hypernym/hyponym drift: dog→dogue(breed)✅ via Haiku; ⬜ systematic via
     WordNet/wolf (French WordNet) hierarchies.
-24. ⬜ meronymy/metonymy tables: crown→couronne/roi/tête; sea→marée/vague/sel.
-    Haiku can mine these with a "name a PART or ASSOCIATE that sounds like" prompt.
+24. ✅ metonym Haiku mode mined+verified (+53 rows: garden≈gardien, full≈foule).
 25. ✅ metaphor drift channel (sound≥0.6 ∧ cos≥0.25)
-26. 🔶 kennings/definition-unfolding: one EN word → FR mini-definition that
-    sounds like it (water≈"eau taire" = water-that-silences ✅ via Haiku).
-    ⬜ dedicated Haiku prompt: "French two-word kenning sounding like X".
-27. ⬜ FR homophone classes as free pivots: vert=verre=vers=ver=vair — group
+26. ✅ kenning Haiku mode mined+verified (+45 rows: great≈gré, fleece≈flèche).
+27. ✅ homophone classes BOTH languages (4,582 FR / 706 EN) + composer pivots
+    (enclass/frclass channels). Was: ⬜ FR homophone classes as free pivots: vert=verre=vers=ver=vair — group
     Lexique by identical phon; once ANY member matches the sound, CHOOSE the
     member whose meaning fits. (The biggest untapped one: French homophony is
     massive.) Same for EN: their/there, sea/see (final_verse EN side).
@@ -86,8 +83,8 @@ into the Rooten band. The rest of this file is the roadmap to 90%.
     = conjugation families + Haiku fixer bolted onto GREEDY picks; raise the
     floor to 0.55 and use trigram only to break ties within equal-sound sets.
 35. ✅ Haiku grammar-fixer constrained to sound-preserving edits, verified
-36. ⬜ rhyme/meter targeting: compose to octosyllabe/alexandrin; rhyme = shared
-    final IPA (we have every word's IPA — a rhyme index is one groupby away).
+36. 🔶 rhyme index BUILT (rhyme-index.tsv, 171 cross-language families);
+    ⬜ composing TO a rhyme scheme still open.
 37. ⬜ assonance/alliteration bonus in the beam (Van Rooten lines sing).
 38. ⬜ post-pick re-segmentation: after words are chosen, re-carve the JOINED
     IPA stream allowing boundaries to move (juncture + whole_line_carve merged).
@@ -102,7 +99,7 @@ into the Rooten band. The rest of this file is the roadmap to 90%.
 
 42. 🔶 Haiku mining at scale: 136 verified bridges from ~180 words at pennies —
     run the whole 9k content vocabulary (~$2), both directions.
-43. ⬜ reverse direction FR→EN everywhere (dual_mine ran EN→FR only).
+43. ✅ reverse FR→EN index (dual-pairs-fr2en.tsv, 102,898; scoring symmetric).
 44. ⬜ bigger bilingual dicts: PanLex / Wiktionary translations (MUSE is 113k
     and noisy); Wiktionary also lists FR homophone sets ready-made.
 45. ⬜ Lexique phon column: real French phonology WITHOUT espeak — free
@@ -119,8 +116,7 @@ into the Rooten band. The rest of this file is the roadmap to 90%.
 The graph knows them — hops-all has 44,775 `~syn` edges and muse-pivot-syn
 carries the EN-EN / FR-FR synonym lists the composer chains over. The
 tier-ladder TSV itself stores only pair provenance (no synonym column).
-⬜ add a `syn_cluster` column: group ladder rows whose EN words are synonyms —
-then a whole meaning-cluster's sound options are one lookup.
+✅ `syn_cluster` column added (75,769 clusters; 2,852 with ≥5 ladder rows).
 
 ---
 ## Bench log (honest)
@@ -129,7 +125,8 @@ then a whole meaning-cluster's sound options are one lookup.
 |---|---|
 | word-aligned literal | 0% |
 | + glue/chains/haiku (greedy) | 55% (22/40) |
-| + class-pivots & 234 bridges, same weights | 45% (18/40) — new channels' fixed meaning-weights (0.5–0.6) displace better picks; per-channel weight CALIBRATION is the open task (fit on strict-gold, one logistic) |
+| + class-pivots & 234 bridges, same weights | 45% (18/40) — priors displaced better picks |
+| + REAL-cosine re-rank of top-K + window-merge | 48% (19/40) — calibration recovers some; remaining gap = window merges score sound-high/meaning-low and enclass tail. NEXT: window merge needs rm≥0.35 gate; per-channel logistic on strict-gold still the clean fix |
 
 Windows demo (B17/A9 live): sat at≈s'hâte · at the door≈s'adorent · door of the≈d'orage · the door≈d'ores.
 
