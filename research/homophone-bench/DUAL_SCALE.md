@@ -76,3 +76,21 @@ Tatoeba French clips (live-API resolved; the bulk CSV export is stale) →
 is ə→ø colouring and casual ʒ-elision. The Drive Common Voice plan's real value
 was validation, and espeak passes — the sound stack stands on solid ground.
 (Scale the clip count by widening the candidate pool; API is rate-limited.)
+
+## The paraphrase inversion (meaning-first) — the user's call, confirmed
+
+`paraphrase_search.py`: Haiku writes 10 French paraphrases + 6 English
+rewordings (both sides unfrozen, meaning MiniLM-gated vs the ORIGINAL), seeds
+by sound, then coordinate ascent (symbolic homophone-class hill-climb ⇄ Haiku
+sound-bending rewrites), Lexique-gated at every door.
+
+| engine | sound | meaning | joint(geo) |
+|---|---|---|---|
+| sound-first (constrained_poet) | 0.68 | 0.34 | 0.48 |
+| **meaning-first (paraphrase_search, gated)** | 0.52 | **0.85** | **0.66** |
+
+Best line: *less debt, less mess, more soup → Moins de dettes, moins de
+problèmes, extra de le soupe* (0.67 sound / 0.94 meaning). Stronger paraphrase
+lifted the whole system — the biggest joint gain of the project. Residue:
+sound-identical class swaps can dent grammar (ma→mas, un→hun); pipe the result
+through dual_poet.haiku_fix (sound-preserving repair) as the final polish.

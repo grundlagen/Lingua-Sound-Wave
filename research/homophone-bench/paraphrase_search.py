@@ -100,6 +100,20 @@ def jarr(txt):
         return []
 
 
+_FRV = None
+def is_french(text):
+    global _FRV
+    if _FRV is None:
+        _FRV = set()
+        for line in open("data/lexique.tsv", encoding="utf-8", errors="ignore"):
+            w = line.split("\t")[0].strip().lower()
+            if w:
+                _FRV.add(w)
+    ws = [w.strip(",.;:!?«»\u2019'").lower() for w in text.replace("'", "' ").split()]
+    bad = [w for w in ws if w and w not in _FRV]
+    return len(bad) == 0
+
+
 # ------------------------------------------------------- swap-source loading
 _SWAPS = None
 def swaps():
@@ -140,6 +154,8 @@ def hill_climb(en_orig, fr, passes=2, max_alts=8):
             for alt in alts:
                 if alt == key:
                     continue
+                if not is_french(alt):
+                    continue
                 cand_words = words[:i] + [alt] + words[i + 1:]
                 cand = " ".join(cand_words)
                 s2 = sound(en_orig, cand)
@@ -161,7 +177,7 @@ def search(line, verbose=True):
     seeds = []
     for fr in frs:
         fr = fr.strip().strip('".')
-        if not fr:
+        if not fr or not is_french(fr):
             continue
         m = max(0.0, semantic_cosine(line, fr))
         if m < 0.55:                      # paraphrase must actually mean it
@@ -187,7 +203,7 @@ def search(line, verbose=True):
             moved = False
             for cand in rewrites:
                 cand = cand.strip().strip('".')
-                if not cand:
+                if not cand or not is_french(cand):
                     continue
                 s3 = sound(en_used, cand)
                 if s3 <= s2:
