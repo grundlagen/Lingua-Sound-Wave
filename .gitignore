@@ -52,3 +52,4 @@ Thumbs.db
 research/homophone-bench/selflearn/*.pt
 research/homophone-bench/selflearn/neural_run.log
 research/homophone-bench/trigram-lm-*.pkl
+research/homophone-bench/train-dual-v1.jsonl
