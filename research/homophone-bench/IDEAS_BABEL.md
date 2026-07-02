@@ -80,7 +80,11 @@ into the Rooten band. The rest of this file is the路map to 90%.
 
 ## E. Composition & judging upgrades
 
-34. ✅ beam+trigram Viterbi over candidate lists with sound floor (dual_poet)
+34. 🔶 beam+trigram Viterbi (dual_poet): BENCHED WORSE than greedy joint-max
+    (7/30 vs 55%) -- the trigram buys grammar with sound even above a 0.45
+    floor. Verdict: greedy beauty_compose stays composer of record; salvage
+    = conjugation families + Haiku fixer bolted onto GREEDY picks; raise the
+    floor to 0.55 and use trigram only to break ties within equal-sound sets.
 35. ✅ Haiku grammar-fixer constrained to sound-preserving edits, verified
 36. ⬜ rhyme/meter targeting: compose to octosyllabe/alexandrin; rhyme = shared
     final IPA (we have every word's IPA — a rhyme index is one groupby away).
