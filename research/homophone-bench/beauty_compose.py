@@ -22,6 +22,7 @@ Run: python beauty_compose.py "mary had a little lamb" ...
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 from collections import defaultdict
 
@@ -29,6 +30,38 @@ import matcher
 from semantic_cosine import semantic_cosine
 
 MUSE = "/tmp/muse-en-fr.txt"
+
+_CAL = None
+if os.path.exists("channel-calibration.json"):
+    import json as _json
+    import math as _math
+
+    import bench as _bench
+    import prosody as _prosody
+    from hard_judge import drive_equiv as _drive_equiv
+    _CAL = _json.load(open("channel-calibration.json"))
+    _CAL_FNS = {"ngram_dice": _bench.m_ngram_dice,
+                "feat_nw_sharp": _bench.m_feat_nw_sharp,
+                "prosody": _prosody.prosodic_score,
+                "drive_equiv": _drive_equiv}
+
+
+def _rank_score(en, fr, s, m):
+    """Calibrated logistic fusion if channel-calibration.json exists,
+    else the legacy heuristic s*(0.5+0.5*m)."""
+    if _CAL is None:
+        return s * (0.5 + 0.5 * m)
+    z = _CAL["bias"]
+    for nm, wt in zip(_CAL["features"], _CAL["weights"]):
+        if nm == "meaning":
+            v = m
+        else:
+            try:
+                v = _CAL_FNS[nm](en, fr)
+            except Exception:
+                v = 0.0
+        z += wt * v
+    return 1.0 / (1.0 + _math.exp(-z))
 
 
 def combo(en, fr):
@@ -199,7 +232,7 @@ def candidates(w, D, verbose=False):
     cal = []
     for j, s_, m_, fr, ch in top:
         rm = max(0.0, semantic_cosine(w, fr))
-        cal.append((s_ * (0.5 + 0.5 * rm), s_, rm, fr, ch))
+        cal.append((_rank_score(w, fr, s_, rm), s_, rm, fr, ch))
     out = sorted(cal, reverse=True) + rest
     # C27 FR side: sound-identical siblings of the top pick, choose by meaning
     if out and " " not in out[0][3]:
@@ -209,7 +242,7 @@ def candidates(w, D, verbose=False):
                 seen.add(sib)
                 m = max(0.0, semantic_cosine(w, sib))
                 if m > top[2]:
-                    out.append((top[1] * (0.5 + 0.5 * m), top[1], m, sib, "frclass"))
+                    out.append((_rank_score(w, sib, top[1], m), top[1], m, sib, "frclass"))
         out.sort(reverse=True)
     # metaphor drift only if nothing sound-decent yet (expensive)
     if not out or out[0][1] < 0.55:
@@ -222,7 +255,7 @@ def candidates(w, D, verbose=False):
             if s >= 0.60:
                 m = max(0.0, semantic_cosine(w, fr))
                 if m >= 0.25 and fr not in seen:
-                    out.append((s * (0.5 + 0.5 * m), s, m, fr, "metaphor"))
+                    out.append((_rank_score(w, fr, s, m), s, m, fr, "metaphor"))
         out.sort(reverse=True)
     return out
 
