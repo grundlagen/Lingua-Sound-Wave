@@ -61,6 +61,7 @@ def git_pull():
 
 
 def main():
+    os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
     cmd = [sys.executable, os.path.join(HERE, "train_selflearn.py"), "--continual"]
     cmd += sys.argv[1:]
     backoff = 15

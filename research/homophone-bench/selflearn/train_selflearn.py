@@ -132,10 +132,13 @@ def main():
 
     def sft(pairs, epochs=1, tag=""):
         ds = Dataset.from_dict({"text": [to_text(p, c) for p, c in pairs]})
+        # T4 (14.5GB) can't hold 1.5B + Adam fp32 states; adafactor + grad
+        # checkpointing + micro-batch keeps the same effective batch of 16
         kw = dict(output_dir=f"{args.out}-{tag}", num_train_epochs=epochs,
-                  per_device_train_batch_size=8, gradient_accumulation_steps=2,
+                  per_device_train_batch_size=2, gradient_accumulation_steps=8,
                   learning_rate=1e-5, logging_steps=20, save_strategy="no",
-                  bf16=bf16, fp16=not bf16)
+                  bf16=bf16, fp16=not bf16, optim="adafactor",
+                  gradient_checkpointing=True)
         # TRL renamed max_seq_length -> max_length; pass whichever exists
         import inspect
         params = inspect.signature(SFTConfig.__init__).parameters
