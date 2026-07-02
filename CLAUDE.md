@@ -75,3 +75,10 @@ Always verify your own proposals with the judge before keeping them.
 - Record every bench honestly in the relevant ledger (IDEAS_BABEL /
   DUAL_SCALE) — including regressions. The ledgers only work if they're true.
 - Long jobs: run in background, poll the output file, keep working.
+
+## Error-reporting convention (so the web session can fix your bugs)
+When ANY script crashes (especially training shape/attribute errors): append
+the FULL traceback plus `pip freeze | grep -iE "torch|transformers|trl|datasets"`
+to `research/homophone-bench/TRAIN_ERRORS.log`, commit and push it. A
+supervising session pulls hourly, fixes the code on the branch, and pushes
+back — then `git pull --rebase` before your next attempt.
