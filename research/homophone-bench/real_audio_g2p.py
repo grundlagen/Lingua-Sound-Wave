@@ -46,25 +46,36 @@ def load_index(n):
     for line in open("/tmp/fra_s.tsv", encoding="utf-8"):
         p = line.rstrip("\n").split("\t")
         if len(p) >= 3 and p[0] in aid_of and 4 <= len(p[2].split()) <= 10:
-            out.append((aid_of[p[0]], p[2]))
+            out.append((p[0], p[2]))
         if len(out) >= n * 3:          # headroom for failed downloads
             break
     return out
 
 
-def fetch(sid):
+def fetch(sent_id):
+    """Resolve the LIVE audio for a sentence via the API (the bulk CSV export
+    is stale -- its audio ids no longer match /audio/download/)."""
+    import json
     os.makedirs(CACHE, exist_ok=True)
-    path = os.path.join(CACHE, f"{sid}.mp3")
-    if not os.path.exists(path):
-        r = subprocess.run(["curl", "-sL", "--max-time", "25", "-o", path,
-                            AUDIO_URL.format(aid=sid)], capture_output=True)
-        if r.returncode or os.path.getsize(path) < 2000:
-            try:
-                os.remove(path)
-            except OSError:
-                pass
+    path = os.path.join(CACHE, f"s{sent_id}.mp3")
+    if os.path.exists(path):
+        return path
+    try:
+        r = subprocess.run(["curl", "-sL", "--max-time", "20",
+                            f"https://tatoeba.org/en/api_v0/sentence/{sent_id}"],
+                           capture_output=True, text=True)
+        aud = json.loads(r.stdout).get("audios") or []
+        if not aud:
             return None
-    return path
+        url = "https://tatoeba.org" + aud[0]["download_url"]
+        r = subprocess.run(["curl", "-sL", "--max-time", "25", "-o", path, url],
+                           capture_output=True)
+        if r.returncode or os.path.getsize(path) < 2000:
+            os.remove(path)
+            return None
+        return path
+    except Exception:
+        return None
 
 
 def main():
@@ -96,8 +107,9 @@ def main():
             continue
         if len(wav) < 4000:
             continue
+        iv = proc(wav, sampling_rate=16000, return_tensors="pt").input_values
         with torch.no_grad():
-            logits = model(torch.tensor(wav[None, :])).logits
+            logits = model(iv).logits
         ids = logits.argmax(-1)[0]
         real_ipa = proc.batch_decode(ids[None, :])[0].replace(" ", "")
         esp_ipa = matcher._canonical(matcher.g2p(text, "fr"))

@@ -24,6 +24,22 @@ Two artifacts to guard against (both hit and fixed here):
 - **MUSE noise**: its FR column contains English identity pairs (down, sat,
   who) — gate on Lexique only, never the MUSE FR side.
 
+## UPDATE — the wall falls with the full toolkit (`beauty_compose.py`)
+
+Rupert's push was right: 0/50 was word-ALIGNED substitution with literal glue.
+Adding the beauty-of-language arsenal — DUAL one-for-ones, ladder GOLD
+homophones, **mined zipf glue** (the≈de by th-stopping, we≈oui, is≈aise;
+`zipf-glue.tsv`, 573 mappings), **EN/FR synonym chains** (word → synonym → its
+translations → best sound), and **metaphor drift** (sound ≥ 0.6 ∧ cos ≥ 0.25)
+— behind the same Lexique gate:
+
+**12/20 corpus lines reach the Rooten band (sound ≥ 0.55 ∧ meaning ≥ 0.45) — was 0%.**
+
+> we see the moon at dawn → *oui si le lune hâtent donnent* (sound 0.72, meaning 0.65)
+> mary had a little lamb → *mairie aide et lille agneaux* (sound 0.56, meaning 0.62)
+
+Meaning out of 9,000 words + zipf conjugation coverage: it is possible.
+
 ## The scalable recipe that follows
 
 1. **DUAL-S anchors**: put translation∧homophone words where they exist
@@ -50,3 +66,12 @@ IPA at scale, (b) feed the ASR-confusion miner (METHODS_DEEP_DIVE F1) that
 discovers homophones from acoustics. Blockers here: CV is HF-gated,
 `torchaudio` absent — it is the Colab/GPU track, notebook design is sound.
 ⚠️ `Untitled7.ipynb` embeds a live HuggingFace token — revoke it.
+
+## Real-audio verdict (`real_audio_g2p.py`, running here — no Colab)
+
+Tatoeba French clips (live-API resolved; the bulk CSV export is stale) →
+`Cnam-LMSSC/wav2vec2-french-phonemizer` (CPU) vs espeak G2P of the transcript:
+**mean segment agreement 0.97**. espeak French is essentially correct; residue
+is ə→ø colouring and casual ʒ-elision. The Drive Common Voice plan's real value
+was validation, and espeak passes — the sound stack stands on solid ground.
+(Scale the clip count by widening the candidate pool; API is rate-limited.)
