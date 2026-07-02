@@ -132,10 +132,15 @@ def main():
 
     def sft(pairs, epochs=1, tag=""):
         ds = Dataset.from_dict({"text": [to_text(p, c) for p, c in pairs]})
-        cfg = SFTConfig(output_dir=f"{args.out}-{tag}", num_train_epochs=epochs,
-                        per_device_train_batch_size=8, gradient_accumulation_steps=2,
-                        learning_rate=1e-5, logging_steps=20, save_strategy="no",
-                        bf16=bf16, fp16=not bf16, max_seq_length=128)
+        kw = dict(output_dir=f"{args.out}-{tag}", num_train_epochs=epochs,
+                  per_device_train_batch_size=8, gradient_accumulation_steps=2,
+                  learning_rate=1e-5, logging_steps=20, save_strategy="no",
+                  bf16=bf16, fp16=not bf16)
+        # TRL renamed max_seq_length -> max_length; pass whichever exists
+        import inspect
+        params = inspect.signature(SFTConfig.__init__).parameters
+        kw["max_seq_length" if "max_seq_length" in params else "max_length"] = 128
+        cfg = SFTConfig(**kw)
         SFTTrainer(model=model, args=cfg, train_dataset=ds,
                    processing_class=tok).train()
 
