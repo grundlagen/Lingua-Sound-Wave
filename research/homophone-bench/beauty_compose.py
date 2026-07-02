@@ -98,6 +98,20 @@ def load_all():
         if w:
             frvocab.add(w)
 
+    # C27: homophone classes both sides -- free pivots
+    en_class, fr_class = {}, {}
+    for path, d in (("en-homophone-classes.tsv", en_class),
+                    ("fr-homophone-classes.tsv", fr_class)):
+        try:
+            for i, line in enumerate(open(path, encoding="utf-8")):
+                if i == 0:
+                    continue
+                ms = line.rstrip("\n").split("\t")[1].split()
+                for m in ms:
+                    d[m] = ms
+        except FileNotFoundError:
+            pass
+
     bridge = defaultdict(list)                    # Haiku-verified cross-scope
     try:
         for i, line in enumerate(open("llm-bridge.tsv", encoding="utf-8")):
@@ -110,7 +124,7 @@ def load_all():
             v.sort(reverse=True)
     except FileNotFoundError:
         pass
-    return dual, glue, esyn, fsyn, trans, frvocab, ladder, bridge
+    return dual, glue, esyn, fsyn, trans, frvocab, ladder, bridge, en_class, fr_class
 
 
 def syn_chain(w, esyn, depth=3, beam=24):
@@ -132,7 +146,7 @@ def syn_chain(w, esyn, depth=3, beam=24):
 
 
 def candidates(w, D, verbose=False):
-    dual, glue, esyn, fsyn, trans, frvocab, ladder, bridge = D
+    dual, glue, esyn, fsyn, trans, frvocab, ladder, bridge, en_class, fr_class = D
     seen, out = set(), []
 
     def add(fr, meaning, channel):
@@ -157,6 +171,13 @@ def candidates(w, D, verbose=False):
         add(fr, 0.6, "glue")
     for s, m, fr in bridge.get(w, [])[:4]:        # Haiku cross-scope bridges
         add(fr, m, "haiku")
+    for sib in en_class.get(w, [])[:8]:           # C27: EN homophone class pivot
+        if sib == w:
+            continue
+        for _s, fr in dual.get(sib, [])[:2]:
+            add(fr, 0.6, f"enclass:{sib}")
+        for _s, _m, fr in ladder.get(sib, [])[:2]:
+            add(fr, 0.5, f"enclass:{sib}")
     for syn, decay in syn_chain(w, esyn):         # transitive EN synonym chain
         if syn == w:
             continue
@@ -170,6 +191,16 @@ def candidates(w, D, verbose=False):
         for fr, decay in syn_chain(fr0, fsyn, depth=2, beam=12):
             add(fr, 0.8 * decay, f"fsyn:{fr0}")
     out.sort(reverse=True)
+    # C27 FR side: sound-identical siblings of the top pick, choose by meaning
+    if out and " " not in out[0][3]:
+        top = out[0]
+        for sib in fr_class.get(top[3], [])[:8]:
+            if sib not in seen and sib in frvocab:
+                seen.add(sib)
+                m = max(0.0, semantic_cosine(w, sib))
+                if m > top[2]:
+                    out.append((top[1] * (0.5 + 0.5 * m), top[1], m, sib, "frclass"))
+        out.sort(reverse=True)
     # metaphor drift only if nothing sound-decent yet (expensive)
     if not out or out[0][1] < 0.55:
         best = out[0] if out else None
