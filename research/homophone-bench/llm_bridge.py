@@ -54,6 +54,25 @@ def haiku(prompt, max_tokens=1200):
     return out["content"][0]["text"]
 
 
+PROMPTS = {
+ "antonym": """For EACH English word below, propose up to 2 French ANTONYM-based
+renderings: a French word/phrase meaning the OPPOSITE, that SOUNDS like the
+English word -- usable as "pas/sans + it" in verse. Ironic opposites allowed.
+Real French only, non-cognates preferred.
+Reply STRICT JSON: {"word": [["french", "opposite-link"], ...], ...}
+English words: %s""",
+ "kenning": """For EACH English word below, invent up to 2 French KENNINGS --
+two-word poetic mini-definitions (like eau taire for water) whose SOUND, read
+aloud in French, imitates the English word. Real French words only.
+Reply STRICT JSON: {"word": [["french kenning", "meaning-link"], ...], ...}
+English words: %s""",
+ "metonym": """For EACH English word below, propose up to 2 French METONYMS or
+PART/ASSOCIATE words (crown->roi, sea->sel/maree) that SOUND like the English
+word when read aloud in French. Real French words only.
+Reply STRICT JSON: {"word": [["french", "association"], ...], ...}
+English words: %s""",
+}
+
 PROMPT = """You are helping build an English<->French homophone-translation lexicon.
 For EACH English word below, propose up to 3 French renderings that:
   (a) SOUND like the English word when read aloud by a French speaker
@@ -76,12 +95,13 @@ def load_frvocab():
     return v
 
 
-def mine(words, frvocab):
+def mine(words, frvocab, prompt=None):
+    P = prompt or PROMPT
     rows = []
     for i in range(0, len(words), 20):
         chunk = words[i:i + 20]
         try:
-            txt = haiku(PROMPT % ", ".join(chunk))
+            txt = haiku(P % ", ".join(chunk))
             txt = txt[txt.index("{"): txt.rindex("}") + 1]
             data = json.loads(txt)
         except Exception as e:
@@ -106,6 +126,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--n", type=int, default=40)
     ap.add_argument("--words", default="")
+    ap.add_argument("--mode", default="", choices=["", "antonym", "kenning", "metonym"])
     args = ap.parse_args()
     frvocab = load_frvocab()
 
@@ -125,7 +146,7 @@ def main():
                     pool.add(w)
         words = sorted(pool)[:args.n]
     print(f"asking Haiku for {len(words)} words...", file=sys.stderr)
-    rows = mine(words, frvocab)
+    rows = mine(words, frvocab, PROMPTS.get(args.mode) if args.mode else None)
 
     mode = "a" if os.path.exists("llm-bridge.tsv") else "w"
     with open("llm-bridge.tsv", mode, encoding="utf-8") as f:
