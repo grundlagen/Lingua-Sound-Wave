@@ -20,6 +20,7 @@ Run: python dual_mine.py [--limit N]
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 from difflib import SequenceMatcher
 
@@ -49,6 +50,8 @@ def tier(s: float) -> str:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--resume", action="store_true",
+                    help="append after the last pair already in dual-pairs.tsv")
     args = ap.parse_args()
 
     pairs = []
@@ -79,12 +82,25 @@ def main():
                     pairs.append((a, fr, 0.7))
     if args.limit:
         pairs = pairs[:args.limit]
+
+    mode = "w"
+    if args.resume and os.path.exists("dual-pairs.tsv"):
+        last = open("dual-pairs.tsv", encoding="utf-8").readlines()[-1].split("\t")[:2]
+        keys = [(en, fr) for en, fr, _ in pairs]
+        try:
+            start = keys.index((last[0], last[1])) + 1
+            pairs = pairs[start:]
+            mode = "a"
+            print(f"resuming after {last[0]}~{last[1]} ({start} done)", file=sys.stderr)
+        except ValueError:
+            pass
     print(f"scoring {len(pairs)} literal/near-literal translation pairs for sound",
           file=sys.stderr)
 
     kept = 0
-    with open("dual-pairs.tsv", "w", encoding="utf-8") as f:
-        f.write("en\tfr\tsound\tmeaning\tcognate\ttier\n")
+    with open("dual-pairs.tsv", mode, encoding="utf-8") as f:
+        if mode == "w":
+            f.write("en\tfr\tsound\tmeaning\tcognate\ttier\n")
         for i, (en, fr, meaning) in enumerate(pairs):
             s = combo(en, fr)
             t = tier(s)

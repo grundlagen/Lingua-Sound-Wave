@@ -17,6 +17,14 @@ import random
 
 import bigram_lm
 
+def _load_fr():
+    """Trigram L2 when built (trigram_lm.py build fr <corpus>), else bigram."""
+    try:
+        import trigram_lm
+        return trigram_lm.load("fr")
+    except Exception:
+        return bigram_lm.load("fr")
+
 STOP = set("the a an of to in on at for and or is are was be it he she we you "
            "they my his her its our your their this that not but so as by with "
            "de la le les un une des du et ou est sont en dans sur pour par que "
@@ -75,7 +83,7 @@ def main():
     ap.add_argument("--len", dest="length", type=int, default=4)
     ap.add_argument("--beam", type=int, default=160)
     args = ap.parse_args()
-    EN, FR = bigram_lm.load("en"), bigram_lm.load("fr")
+    EN, FR = bigram_lm.load("en"), _load_fr()
     tiles = load_tiles()
     print(f"{len(tiles)} strict tiles (sound>=0.68 bank / >=0.85 ladder)\n")
 
