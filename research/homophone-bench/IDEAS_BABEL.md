@@ -7,7 +7,7 @@ tags: ✅ built · 🔶 partial · ⬜ open._
 The high notion: **dual translation** — one phoneme stream, both languages read
 it, meaning survives. The tower rebuilt not by one tongue, but by text that IS
 two tongues at once. Word scope is solved (9,231 DUAL-S). Sentence scope is 55%
-into the Rooten band. The rest of this file is the路map to 90%.
+into the Rooten band. The rest of this file is the roadmap to 90%.
 
 ## A. Phonetic correspondence routes (the mouth's own dictionary)
 
