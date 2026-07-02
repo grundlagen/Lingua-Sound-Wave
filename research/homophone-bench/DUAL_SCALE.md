@@ -34,6 +34,7 @@ translations → best sound), and **metaphor drift** (sound ≥ 0.6 ∧ cos ≥ 
 — behind the same Lexique gate:
 
 **12/20 corpus lines reach the Rooten band (sound ≥ 0.55 ∧ meaning ≥ 0.45) — was 0%.**
+Larger test with transitive chains + Haiku bridges: **22/40 = 55%** — holds at scale.
 
 > we see the moon at dawn → *oui si le lune hâtent donnent* (sound 0.72, meaning 0.65)
 > mary had a little lamb → *mairie aide et lille agneaux* (sound 0.56, meaning 0.62)
