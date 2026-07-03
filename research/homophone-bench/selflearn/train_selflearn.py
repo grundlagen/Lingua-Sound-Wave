@@ -39,12 +39,24 @@ except Exception:
 INSTR = "Rewrite the English so it sounds the same when read aloud in French:"
 
 
-def load_sft(path):
+def load_sft(path, cap=40000):
+    """Old carve corpus AND train-dual-v1 rows both load; capped for T4 rounds."""
     rows = []
     for line in open(path, encoding="utf-8"):
-        r = json.loads(line)
-        if r.get("task") in ("phrase_carve", "word_carve"):
-            rows.append((r["prompt"], r["completion"]))
+        try:
+            r = json.loads(line)
+        except Exception:
+            continue
+        t = r.get("task", "")
+        if t in ("phrase_carve", "word_carve") or t.startswith("dual") or \
+           t in ("glue", "bridge", "phrase_unit", "line_carve"):
+            if r.get("prompt") and r.get("completion"):
+                rows.append((r["prompt"], r["completion"]))
+    if len(rows) > cap:
+        import random as _r
+        _r.Random(0).shuffle(rows)
+        rows = rows[:cap]
+        print(f"[data] capped to {cap} rows for round tractability")
     return rows
 
 
@@ -63,6 +75,19 @@ def main():
     ap.add_argument("--continual", action="store_true",
                     help="never stop: iterate rounds forever, skipping round errors")
     args = ap.parse_args()
+    if args.data.endswith("train-homophonic.jsonl"):
+        dual = os.path.join(os.path.dirname(os.path.abspath(args.data)),
+                            "train-dual-v1.jsonl")
+        if not os.path.exists(dual):
+            try:
+                import subprocess as _sp
+                _sp.run([sys.executable, "build_train_corpus.py"], timeout=900,
+                        cwd=os.path.dirname(dual))
+            except Exception:
+                pass
+        if os.path.exists(dual):
+            print(f"[data] auto-upgrading to the dual corpus: {dual}")
+            args.data = dual
     ckpt = args.ckpt_dir or args.out
     os.makedirs(ckpt, exist_ok=True)
     status_path = os.path.join(ckpt, "status.json")
@@ -127,7 +152,11 @@ def main():
     except TypeError:                       # older transformers
         model = AutoModelForCausalLM.from_pretrained(src_model, torch_dtype=dtype,
                                                      device_map="auto")
-    judge = FRCoherence() if (args.eval_llm and FRCoherence) else None
+    try:
+        judge = FRCoherence() if (args.eval_llm and FRCoherence) else None
+    except Exception as _e:
+        print(f"[eval_llm disabled: {_e}]")
+        judge = None
 
     def to_text(prompt, completion):
         msgs = [{"role": "user", "content": prompt},
