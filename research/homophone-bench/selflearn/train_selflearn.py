@@ -165,6 +165,14 @@ def main():
     except TypeError:                       # older transformers
         model = AutoModelForCausalLM.from_pretrained(src_model, torch_dtype=dtype,
                                                      device_map="auto")
+    # Gradient checkpointing needs the input embeddings to require grad, else the
+    # backward pass dies with "element 0 of tensors does not require grad" (the SFT
+    # training_step crash). use_cache must also be off during training.
+    model.config.use_cache = False
+    try:
+        model.enable_input_require_grads()
+    except Exception:
+        pass
     try:
         judge = FRCoherence() if (args.eval_llm and FRCoherence) else None
     except Exception as _e:
@@ -186,6 +194,7 @@ def main():
                     learning_rate=1e-5, logging_steps=20, save_strategy="no",
                     bf16=bf16, fp16=not bf16, optim="adafactor",
                     gradient_checkpointing=True,
+                    gradient_checkpointing_kwargs={"use_reentrant": False},
                     max_seq_length=128, max_length=128,      # trl renamed it
                     dataset_text_field="text")
         ok = set(inspect.signature(SFTConfig.__init__).parameters)
