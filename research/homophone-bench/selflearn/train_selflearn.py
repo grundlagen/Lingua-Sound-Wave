@@ -205,13 +205,19 @@ def main():
     def sample(prompts, k):
         outs = []
         for p in prompts:
-            ids = tok.apply_chat_template([{"role": "user", "content": p}],
+            # transformers>=5 returns a BatchEncoding dict here (not a bare tensor);
+            # passing that straight to generate() makes it read dict.shape -> the
+            # 'KeyError: shape' -> AttributeError that killed every round. Force the
+            # dict form and unpack it (also feeds attention_mask, killing the pad warn).
+            enc = tok.apply_chat_template([{"role": "user", "content": p}],
                                           add_generation_prompt=True,
-                                          return_tensors="pt").to(model.device)
-            gen = model.generate(ids, do_sample=True, temperature=1.0, top_p=0.95,
+                                          return_tensors="pt", return_dict=True)
+            enc = {kk: v.to(model.device) for kk, v in enc.items()}
+            in_len = enc["input_ids"].shape[1]
+            gen = model.generate(**enc, do_sample=True, temperature=1.0, top_p=0.95,
                                  num_return_sequences=k, max_new_tokens=24,
                                  pad_token_id=tok.pad_token_id)
-            cand = [tok.decode(g[ids.shape[1]:], skip_special_tokens=True).strip()
+            cand = [tok.decode(g[in_len:], skip_special_tokens=True).strip()
                     for g in gen]
             outs.append(cand)
         return outs
@@ -321,16 +327,16 @@ def main():
                      traceback=tb[-2000:], env=_env_versions())
         if not args.continual:           # skip the bad round and keep going
             raise
-        # A deterministic crash would spin forever burning Colab GPU quota;
-        # after a run of identical failures, back off hard (still self-heals on
-        # a pushed fix at the next git pull) instead of hammering every 15s.
+        # A deterministic crash spins forever without picking up fixes, because a
+        # --continual process never restarts itself. After a run of identical
+        # failures, EXIT so the supervising notebook loop relaunches us -- that
+        # relaunch does `git pull` first, so a pushed fix actually takes effect.
         if consec_fail >= 8:
-            print(f"[STUCK] {consec_fail} consecutive round crashes -- backing "
-                  f"off 5min. See {os.path.join(ckpt, 'TRAIN_ERRORS.log')}",
-                  flush=True)
-            time.sleep(300)
-        else:
-            time.sleep(15)
+            print(f"[STUCK] {consec_fail} consecutive round crashes -- exiting so "
+                  f"the supervisor loop relaunches with pulled fixes. See "
+                  f"{os.path.join(ckpt, 'TRAIN_ERRORS.log')}", flush=True)
+            sys.exit(3)
+        time.sleep(15)
     model.save_pretrained(args.out); tok.save_pretrained(args.out)
     write_status(round=rnd, phase="done", out=args.out)
     print(f"saved self-learned carver -> {args.out}  (status: {status_path})")
