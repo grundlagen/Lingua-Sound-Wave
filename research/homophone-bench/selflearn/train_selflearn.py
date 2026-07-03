@@ -39,6 +39,19 @@ except Exception:
 INSTR = "Rewrite the English so it sounds the same when read aloud in French:"
 
 
+def _env_versions():
+    """Pinned lib versions -> logged with every crash so version-skew bugs
+    (the usual trl/transformers breakage) are diagnosable from Drive alone."""
+    import importlib
+    out = []
+    for m in ("torch", "transformers", "trl", "datasets", "accelerate"):
+        try:
+            out.append(f"{m}=={importlib.import_module(m).__version__}")
+        except Exception:
+            out.append(f"{m}==?")
+    return " ".join(out)
+
+
 def load_sft(path, cap=40000):
     """Old carve corpus AND train-dual-v1 rows both load; capped for T4 rounds."""
     rows = []
@@ -233,6 +246,7 @@ def main():
     import itertools
     rounds = itertools.count(start_round) if args.continual \
         else range(start_round, args.rounds)
+    consec_fail = 0
     for rnd in rounds:
       try:
         batch = random.sample(en_pool, min(256, len(en_pool)))
@@ -264,6 +278,7 @@ def main():
         write_status(round=rnd, kept=len(new), batch=len(batch),
                      mean_reward=mean_r, keep_thresh=eff_thresh,
                      base=args.base, samples=samples)
+        consec_fail = 0          # this round reached status-write cleanly
         if new:
             sft(new, epochs=1, tag=f"r{rnd}")
             tmp = ckpt + ".tmp"
@@ -284,15 +299,38 @@ def main():
         break
       except Exception as e:
         import traceback
+        tb = traceback.format_exc()
         traceback.print_exc()
-        if "out of memory" in str(e).lower():
+        consec_fail += 1
+        if "out of memory" in tb.lower():
             import torch as _t
             _t.cuda.empty_cache()
-            print("OOM: halving batch via env for next attempt")
-        write_status(round=rnd, error=str(e)[:200])
+            print("OOM: cleared cache; will retry")
+        # Persist the FULL traceback where the supervisor can actually read it
+        # (Drive ckpt dir + status.json). str(e) is empty for bare asserts, so
+        # the old loop logged nothing and looked 'silently healthy' at round
+        # 894 while crashing every round. env=versions catches trl/tfm skew.
+        try:
+            with open(os.path.join(ckpt, "TRAIN_ERRORS.log"), "a") as ef:
+                ef.write(f"\n=== round {rnd} @ {time.strftime('%F %T')} "
+                         f"(consec={consec_fail}) ===\n{_env_versions()}\n{tb}")
+        except Exception:
+            pass
+        write_status(round=rnd, error=(str(e) or repr(e) or type(e).__name__),
+                     error_type=type(e).__name__, consec_fail=consec_fail,
+                     traceback=tb[-2000:], env=_env_versions())
         if not args.continual:           # skip the bad round and keep going
             raise
-        time.sleep(15)
+        # A deterministic crash would spin forever burning Colab GPU quota;
+        # after a run of identical failures, back off hard (still self-heals on
+        # a pushed fix at the next git pull) instead of hammering every 15s.
+        if consec_fail >= 8:
+            print(f"[STUCK] {consec_fail} consecutive round crashes -- backing "
+                  f"off 5min. See {os.path.join(ckpt, 'TRAIN_ERRORS.log')}",
+                  flush=True)
+            time.sleep(300)
+        else:
+            time.sleep(15)
     model.save_pretrained(args.out); tok.save_pretrained(args.out)
     write_status(round=rnd, phase="done", out=args.out)
     print(f"saved self-learned carver -> {args.out}  (status: {status_path})")
