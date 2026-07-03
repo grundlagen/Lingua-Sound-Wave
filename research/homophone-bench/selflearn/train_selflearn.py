@@ -206,11 +206,29 @@ def main():
     base = load_sft(args.data)
     en_pool = [p for p, _ in base]
 
+    def run_eval(rnd_tag):
+        """Frozen eval -> RESULTS.tsv; never fatal."""
+        try:
+            import subprocess as _sp
+            _sp.run([sys.executable, os.path.join(_HERE, "eval_harness.py"),
+                     "--model", ckpt, "--round", str(rnd_tag)], timeout=1800)
+        except Exception as _e:
+            print(f"[eval skipped: {_e}]")
+
     if not resumed:
         print(f"SFT warm-start on {len(base)} pairs ...")
         sft(base, epochs=2, tag="sft0")
         model.save_pretrained(ckpt); tok.save_pretrained(ckpt)
         write_status(round=-1, phase="warm-start-done")
+        run_eval(-1)                       # measure the warm-start immediately
+    else:
+        run_eval(start_round - 1)          # measure the checkpoint we resumed
+
+    # adaptive keep-threshold: bootstrapping from a base model that can't yet
+    # make homophones needs a LOW bar, ratcheting up as the model improves.
+    # (The 894-no-op-round stall was keep_thresh=0.55 with nothing ever kept.)
+    eff_thresh = min(args.keep_thresh, 0.42)
+    THRESH_FLOOR, THRESH_CEIL = 0.35, args.keep_thresh
 
     import itertools
     rounds = itertools.count(start_round) if args.continual \
@@ -227,18 +245,24 @@ def main():
                 r = R.reward(en, fr)
                 if r > bestr:
                     bestr, best = r, fr
-            if best and bestr >= args.keep_thresh:
+            if best and bestr >= eff_thresh:
                 new.append((prompt, best)); rewards.append(bestr)
                 if len(samples) < 8:
                     samples.append({"en": en, "fr": best, "reward": round(bestr, 3)})
         mean_r = round(sum(rewards) / len(rewards), 3) if rewards else 0.0
+        # anneal the bar: nothing kept -> lower it (unblock); plenty kept -> raise
+        if len(new) == 0:
+            eff_thresh = round(max(THRESH_FLOOR, eff_thresh - 0.03), 3)
+        elif len(new) > 20:
+            eff_thresh = round(min(THRESH_CEIL, eff_thresh + 0.02), 3)
         # optional: how does the real LLM judge rate this round's bests?
         if judge and samples:
             for s, l in zip(samples, judge.batch([s["fr"] for s in samples])):
                 s["llm_fr"] = round(l, 2)
-        print(f"round {rnd}: kept {len(new)}/{len(batch)}, mean reward {mean_r}")
+        print(f"round {rnd}: kept {len(new)}/{len(batch)}, mean reward {mean_r}, "
+              f"thresh {eff_thresh}")
         write_status(round=rnd, kept=len(new), batch=len(batch),
-                     mean_reward=mean_r, keep_thresh=args.keep_thresh,
+                     mean_reward=mean_r, keep_thresh=eff_thresh,
                      base=args.base, samples=samples)
         if new:
             sft(new, epochs=1, tag=f"r{rnd}")
