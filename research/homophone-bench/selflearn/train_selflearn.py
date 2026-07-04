@@ -87,6 +87,11 @@ def main():
                     help="score each round's samples with the Nemotron judge")
     ap.add_argument("--continual", action="store_true",
                     help="never stop: iterate rounds forever, skipping round errors")
+    ap.add_argument("--sft_only", action="store_true",
+                    help="pure supervised fine-tune on the GOLD corpus, then eval "
+                         "and stop -- no reward loop (the robust, no-stall path)")
+    ap.add_argument("--epochs", type=int, default=3,
+                    help="SFT epochs for --sft_only")
     args = ap.parse_args()
     if args.data.endswith("train-homophonic.jsonl"):
         dual = os.path.join(os.path.dirname(os.path.abspath(args.data)),
@@ -242,6 +247,21 @@ def main():
                      "--model", ckpt, "--round", str(rnd_tag)], timeout=1800)
         except Exception as _e:
             print(f"[eval skipped: {_e}]")
+
+    # ---- SFT-ONLY: pure supervised training on the GOLD corpus, no reward loop.
+    # This is the robust path -- it cannot stall (no bootstrapping), and GOLD
+    # pairs are verified, so the model directly learns the skill.
+    if args.sft_only:
+        print(f"SFT-only: {args.epochs} epochs on {len(base)} GOLD pairs -> {ckpt}")
+        sft(base, epochs=args.epochs, tag="sftonly")
+        model.save_pretrained(ckpt); tok.save_pretrained(ckpt)
+        json.dump({"base": args.base, "mode": "sft_only", "epochs": args.epochs,
+                   "data": args.data, "pairs": len(base)},
+                  open(os.path.join(ckpt, "meta.json"), "w"))
+        write_status(round=-1, phase="sft-only-done", pairs=len(base))
+        run_eval(-1)
+        print(f"SFT-only done -> {ckpt}  (RESULTS.tsv has the frozen eval)")
+        return
 
     if not resumed:
         print(f"SFT warm-start on {len(base)} pairs ...")
