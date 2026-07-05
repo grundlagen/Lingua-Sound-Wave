@@ -1,0 +1,456 @@
+{
+  "results": [
+    {
+      "gap": 1.0,
+      "bigram": "de la",
+      "conn": "d\u0259l\u00e6",
+      "sep": "d\u0259l\u00e6",
+      "a_en": "d\u0259",
+      "b_en": "l\u00e6",
+      "count": 153
+    },
+    {
+      "gap": 1.0,
+      "bigram": "que vous",
+      "conn": "kw\u025bvu\u02d0z",
+      "sep": "kw\u025bvu\u02d0z",
+      "a_en": "kw\u025b",
+      "b_en": "vu\u02d0z",
+      "count": 66
+    },
+    {
+      "gap": 1.0,
+      "bigram": "que je",
+      "conn": "kw\u025bd\u0292i\u02d0",
+      "sep": "kw\u025bd\u0292i\u02d0",
+      "a_en": "kw\u025b",
+      "b_en": "d\u0292i\u02d0",
+      "count": 60
+    },
+    {
+      "gap": 1.0,
+      "bigram": "et de",
+      "conn": "\u025btd\u0259",
+      "sep": "\u025btd\u0259",
+      "a_en": "\u025bt",
+      "b_en": "d\u0259",
+      "count": 55
+    },
+    {
+      "gap": 1.0,
+      "bigram": "je vous",
+      "conn": "d\u0292i\u02d0vu\u02d0z",
+      "sep": "d\u0292i\u02d0vu\u02d0z",
+      "a_en": "d\u0292i\u02d0",
+      "b_en": "vu\u02d0z",
+      "count": 49
+    },
+    {
+      "gap": 1.0,
+      "bigram": "je ne",
+      "conn": "d\u0292i\u02d0ni\u02d0",
+      "sep": "d\u0292i\u02d0ni\u02d0",
+      "a_en": "d\u0292i\u02d0",
+      "b_en": "ni\u02d0",
+      "count": 47
+    },
+    {
+      "gap": 1.0,
+      "bigram": "dans le",
+      "conn": "d\u00e6nzl\u0259",
+      "sep": "d\u00e6nzl\u0259",
+      "a_en": "d\u00e6nz",
+      "b_en": "l\u0259",
+      "count": 46
+    },
+    {
+      "gap": 1.0,
+      "bigram": "la vieille",
+      "conn": "l\u00e6vi\u02d0\u026al",
+      "sep": "l\u00e6vi\u02d0\u026al",
+      "a_en": "l\u00e6",
+      "b_en": "vi\u02d0\u026al",
+      "count": 42
+    },
+    {
+      "gap": 1.0,
+      "bigram": "et le",
+      "conn": "\u025btl\u0259",
+      "sep": "\u025btl\u0259",
+      "a_en": "\u025bt",
+      "b_en": "l\u0259",
+      "count": 39
+    },
+    {
+      "gap": 1.0,
+      "bigram": "dit caderousse",
+      "conn": "d\u026atke\u026ad\u0279a\u028as",
+      "sep": "d\u026atke\u026ad\u0279a\u028as",
+      "a_en": "d\u026at",
+      "b_en": "ke\u026ad\u0279a\u028as",
+      "count": 39
+    },
+    {
+      "gap": 1.0,
+      "bigram": "dans un",
+      "conn": "d\u00e6nz\u028cn",
+      "sep": "d\u00e6nz\u028cn",
+      "a_en": "d\u00e6nz",
+      "b_en": "\u028cn",
+      "count": 38
+    },
+    {
+      "gap": 1.0,
+      "bigram": "dit danglars",
+      "conn": "d\u026atd\u00e6\u014b\u0261l\u025az",
+      "sep": "d\u026atd\u00e6\u014b\u0261l\u025az",
+      "a_en": "d\u026at",
+      "b_en": "d\u00e6\u014b\u0261l\u025az",
+      "count": 38
+    },
+    {
+      "gap": 1.0,
+      "bigram": "le jeune",
+      "conn": "l\u0259d\u0292ju\u02d0n",
+      "sep": "l\u0259d\u0292ju\u02d0n",
+      "a_en": "l\u0259",
+      "b_en": "d\u0292ju\u02d0n",
+      "count": 37
+    },
+    {
+      "gap": 1.0,
+      "bigram": "et les",
+      "conn": "\u025btl\u025bs",
+      "sep": "\u025btl\u025bs",
+      "a_en": "\u025bt",
+      "b_en": "l\u025bs",
+      "count": 36
+    },
+    {
+      "gap": 1.0,
+      "bigram": "que le",
+      "conn": "kw\u025bl\u0259",
+      "sep": "kw\u025bl\u0259",
+      "a_en": "kw\u025b",
+      "b_en": "l\u0259",
+      "count": 36
+    },
+    {
+      "gap": 1.0,
+      "bigram": "et je",
+      "conn": "\u025btd\u0292i\u02d0",
+      "sep": "\u025btd\u0292i\u02d0",
+      "a_en": "\u025bt",
+      "b_en": "d\u0292i\u02d0",
+      "count": 36
+    },
+    {
+      "gap": 1.0,
+      "bigram": "ce que",
+      "conn": "si\u02d0kw\u025b",
+      "sep": "si\u02d0kw\u025b",
+      "a_en": "si\u02d0",
+      "b_en": "kw\u025b",
+      "count": 35
+    },
+    {
+      "gap": 1.0,
+      "bigram": "de son",
+      "conn": "d\u0259s\u028cn",
+      "sep": "d\u0259s\u028cn",
+      "a_en": "d\u0259",
+      "b_en": "s\u028cn",
+      "count": 35
+    },
+    {
+      "gap": 1.0,
+      "bigram": "que les",
+      "conn": "kw\u025bl\u025bs",
+      "sep": "kw\u025bl\u025bs",
+      "a_en": "kw\u025b",
+      "b_en": "l\u025bs",
+      "count": 34
+    },
+    {
+      "gap": 1.0,
+      "bigram": "jeune homme",
+      "conn": "d\u0292ju\u02d0nh\u0251\u02d0m",
+      "sep": "d\u0292ju\u02d0nh\u0251\u02d0m",
+      "a_en": "d\u0292ju\u02d0n",
+      "b_en": "h\u0251\u02d0m",
+      "count": 32
+    },
+    {
+      "gap": 1.0,
+      "bigram": "ce qui",
+      "conn": "si\u02d0kwi",
+      "sep": "si\u02d0kwi",
+      "a_en": "si\u02d0",
+      "b_en": "kwi",
+      "count": 30
+    },
+    {
+      "gap": 1.0,
+      "bigram": "et la",
+      "conn": "\u025btl\u00e6",
+      "sep": "\u025btl\u00e6",
+      "a_en": "\u025bt",
+      "b_en": "l\u00e6",
+      "count": 30
+    },
+    {
+      "gap": 1.0,
+      "bigram": "et il",
+      "conn": "\u025bt\u026al",
+      "sep": "\u025bt\u026al",
+      "a_en": "\u025bt",
+      "b_en": "\u026al",
+      "count": 29
+    },
+    {
+      "gap": 1.0,
+      "bigram": "les deux",
+      "conn": "l\u025bsdju\u02d0",
+      "sep": "l\u025bsdju\u02d0",
+      "a_en": "l\u025bs",
+      "b_en": "dju\u02d0",
+      "count": 27
+    },
+    {
+      "gap": 1.0,
+      "bigram": "dans la",
+      "conn": "d\u00e6nzl\u00e6",
+      "sep": "d\u00e6nzl\u00e6",
+      "a_en": "d\u00e6nz",
+      "b_en": "l\u00e6",
+      "count": 26
+    },
+    {
+      "gap": 1.0,
+      "bigram": "de ce",
+      "conn": "d\u0259si\u02d0",
+      "sep": "d\u0259si\u02d0",
+      "a_en": "d\u0259",
+      "b_en": "si\u02d0",
+      "count": 26
+    },
+    {
+      "gap": 1.0,
+      "bigram": "je suis",
+      "conn": "d\u0292i\u02d0su\u02d0iz",
+      "sep": "d\u0292i\u02d0su\u02d0iz",
+      "a_en": "d\u0292i\u02d0",
+      "b_en": "su\u02d0iz",
+      "count": 26
+    },
+    {
+      "gap": 1.0,
+      "bigram": "dit le",
+      "conn": "d\u026atl\u0259",
+      "sep": "d\u026atl\u0259",
+      "a_en": "d\u026at",
+      "b_en": "l\u0259",
+      "count": 26
+    },
+    {
+      "gap": 1.0,
+      "bigram": "et qui",
+      "conn": "\u025btkwi",
+      "sep": "\u025btkwi",
+      "a_en": "\u025bt",
+      "b_en": "kwi",
+      "count": 25
+    },
+    {
+      "gap": 1.0,
+      "bigram": "il est",
+      "conn": "\u026ali\u02d0\u025bsti\u02d0",
+      "sep": "\u026ali\u02d0\u025bsti\u02d0",
+      "a_en": "\u026al",
+      "b_en": "i\u02d0\u025bsti\u02d0",
+      "count": 25
+    },
+    {
+      "gap": 1.0,
+      "bigram": "la main",
+      "conn": "l\u00e6me\u026an",
+      "sep": "l\u00e6me\u026an",
+      "a_en": "l\u00e6",
+      "b_en": "me\u026an",
+      "count": 25
+    },
+    {
+      "gap": 1.0,
+      "bigram": "sur le",
+      "conn": "s\u025c\u02d0l\u0259",
+      "sep": "s\u025c\u02d0l\u0259",
+      "a_en": "s\u025c\u02d0",
+      "b_en": "l\u0259",
+      "count": 25
+    },
+    {
+      "gap": 1.0,
+      "bigram": "sur la",
+      "conn": "s\u025c\u02d0l\u00e6",
+      "sep": "s\u025c\u02d0l\u00e6",
+      "a_en": "s\u025c\u02d0",
+      "b_en": "l\u00e6",
+      "count": 24
+    },
+    {
+      "gap": 1.0,
+      "bigram": "il avait",
+      "conn": "\u026al\u00e6ve\u026at",
+      "sep": "\u026al\u00e6ve\u026at",
+      "a_en": "\u026al",
+      "b_en": "\u00e6ve\u026at",
+      "count": 24
+    },
+    {
+      "gap": 1.0,
+      "bigram": "tous les",
+      "conn": "tu\u02d0zl\u025bs",
+      "sep": "tu\u02d0zl\u025bs",
+      "a_en": "tu\u02d0z",
+      "b_en": "l\u025bs",
+      "count": 24
+    },
+    {
+      "gap": 1.0,
+      "bigram": "un peu",
+      "conn": "\u028cnpju\u02d0",
+      "sep": "\u028cnpju\u02d0",
+      "a_en": "\u028cn",
+      "b_en": "pju\u02d0",
+      "count": 24
+    },
+    {
+      "gap": 1.0,
+      "bigram": "candide et",
+      "conn": "k\u00e6nda\u026ad\u025bt",
+      "sep": "k\u00e6nda\u026ad\u025bt",
+      "a_en": "k\u00e6nda\u026ad",
+      "b_en": "\u025bt",
+      "count": 23
+    },
+    {
+      "gap": 1.0,
+      "bigram": "de mon",
+      "conn": "d\u0259m\u0251\u02d0n",
+      "sep": "d\u0259m\u0251\u02d0n",
+      "a_en": "d\u0259",
+      "b_en": "m\u0251\u02d0n",
+      "count": 23
+    },
+    {
+      "gap": 1.0,
+      "bigram": "et que",
+      "conn": "\u025btkw\u025b",
+      "sep": "\u025btkw\u025b",
+      "a_en": "\u025bt",
+      "b_en": "kw\u025b",
+      "count": 23
+    },
+    {
+      "gap": 1.0,
+      "bigram": "il faut",
+      "conn": "\u026alfa\u028at",
+      "sep": "\u026alfa\u028at",
+      "a_en": "\u026al",
+      "b_en": "fa\u028at",
+      "count": 23
+    },
+    {
+      "gap": 1.0,
+      "bigram": "il me",
+      "conn": "\u026almi\u02d0",
+      "sep": "\u026almi\u02d0",
+      "a_en": "\u026al",
+      "b_en": "mi\u02d0",
+      "count": 23
+    },
+    {
+      "gap": 1.0,
+      "bigram": "le vieillard",
+      "conn": "l\u0259vi\u02d0i\u02d0\u0251\u02d0",
+      "sep": "l\u0259vi\u02d0i\u02d0\u0251\u02d0",
+      "a_en": "l\u0259",
+      "b_en": "vi\u02d0i\u02d0\u0251\u02d0",
+      "count": 23
+    },
+    {
+      "gap": 1.0,
+      "bigram": "il ne",
+      "conn": "\u026alni\u02d0",
+      "sep": "\u026alni\u02d0",
+      "a_en": "\u026al",
+      "b_en": "ni\u02d0",
+      "count": 22
+    },
+    {
+      "gap": 1.0,
+      "bigram": "le plus",
+      "conn": "l\u0259pl\u028cs",
+      "sep": "l\u0259pl\u028cs",
+      "a_en": "l\u0259",
+      "b_en": "pl\u028cs",
+      "count": 22
+    },
+    {
+      "gap": 1.0,
+      "bigram": "dit candide",
+      "conn": "d\u026atk\u00e6nda\u026ad",
+      "sep": "d\u026atk\u00e6nda\u026ad",
+      "a_en": "d\u026at",
+      "b_en": "k\u00e6nda\u026ad",
+      "count": 22
+    },
+    {
+      "gap": 1.0,
+      "bigram": "vous avez",
+      "conn": "vu\u02d0z\u00e6v\u025bz",
+      "sep": "vu\u02d0z\u00e6v\u025bz",
+      "a_en": "vu\u02d0z",
+      "b_en": "\u00e6v\u025bz",
+      "count": 22
+    },
+    {
+      "gap": 1.0,
+      "bigram": "que nous",
+      "conn": "kw\u025bnu\u02d0z",
+      "sep": "kw\u025bnu\u02d0z",
+      "a_en": "kw\u025b",
+      "b_en": "nu\u02d0z",
+      "count": 22
+    },
+    {
+      "gap": 1.0,
+      "bigram": "de candide",
+      "conn": "d\u0259k\u00e6nda\u026ad",
+      "sep": "d\u0259k\u00e6nda\u026ad",
+      "a_en": "d\u0259",
+      "b_en": "k\u00e6nda\u026ad",
+      "count": 21
+    },
+    {
+      "gap": 1.0,
+      "bigram": "sur les",
+      "conn": "s\u025c\u02d0l\u025bs",
+      "sep": "s\u025c\u02d0l\u025bs",
+      "a_en": "s\u025c\u02d0",
+      "b_en": "l\u025bs",
+      "count": 21
+    },
+    {
+      "gap": 1.0,
+      "bigram": "et des",
+      "conn": "\u025btd\u025bs",
+      "sep": "\u025btd\u025bs",
+      "a_en": "\u025bt",
+      "b_en": "d\u025bs",
+      "count": 21
+    }
+  ],
+  "mean": 1.0,
+  "std": 0.0
+}

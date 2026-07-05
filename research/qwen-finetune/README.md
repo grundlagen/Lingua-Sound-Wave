@@ -1,4 +1,32 @@
-# Qwen fine-tune kit — generative Agent A (and honest Agent B)
+# Qwen Fine-tuning Kit — Homophone Agent A
+
+Two implementations available:
+- **Qwen-based** (`QwenCarver`): Full transformer pipeline trained via LoRA + DPO
+- **Char-LSTM** (`CharLSTMCarver`): Lightweight character-level model, no GPU needed
+
+## What's here
+
+| File | Purpose |
+|------|---------|
+| `agent_a_generative.py` | **Drop-in generative Agent A** with both QwenCarver and CharLSTMCarver |
+| `build_sft_data.py` | ChatML SFT JSONL from dictionary v7 + phrase bank |
+| `build_repair_data.py` | Multi-turn REVISE examples for the repair loop |
+| `train_lora.py` | LoRA fine-tune Qwen3-4B on SFT data (24GB GPU) |
+| `sample_and_dpo.py` | Best-of-16 sampling + DPO pair generation |
+| `train_dpo.py` | DPO training on best/worst pairs |
+| `common.py` | prompts, bench-dir imports (matcher/g2p), JSONL helpers |
+
+## Quick start (Char-LSTM, no GPU needed)
+
+```bash
+cd /home/mint/Lingua-Sound-Wave/research/qwen-finetune
+python3 agent_a_generative.py
+```
+
+Output: French homophone candidates for test words. Uses 6,143-pair lookup DB
+with fallback to nearest-match for unknown words.
+
+## Full Qwen pipeline (needs GPU)
 
 Implements the training path from `docs/qwen-three-agent-schema.md`. The
 three-agent loop's architecture is proven (two-comparison judge, repair
@@ -11,8 +39,6 @@ All scripts find your local pipeline (matcher, g2p, dictionary, phrase bank)
 via `HOMOPHONE_BENCH_DIR` or `--bench-dir` pointing at
 `research/homophone-bench`. Nothing here re-implements the scorer — the
 AUC-0.993 combo matcher stays the single source of sound truth.
-
-## Pipeline
 
 ```bash
 export HOMOPHONE_BENCH_DIR=~/Lingua-Sound-Wave/research/homophone-bench
@@ -47,7 +73,9 @@ python agent_a_generative.py --adapter ckpt/agent-a-dpo the ocean remembers
 
 ## Wiring into three_agent_v2.py
 
-`agent_a_generative.GenerativeCarver` is the drop-in candidate provider:
+### QwenCarver (trained model)
+
+`agent_a_generative.QwenCarver` is the drop-in candidate provider:
 
 - **carve(en_span)** — call where the lookup misses (keep the lookup first;
   it's free and verified). Re-verify every generated candidate with the combo
@@ -60,14 +88,14 @@ python agent_a_generative.py --adapter ckpt/agent-a-dpo the ocean remembers
 Every loop-accepted line (sound_combo ≥ 0.55) goes back into the SFT pool —
 the verifier-filtered flywheel.
 
-## Files
+### CharLSTMCarver (lightweight)
 
-| file | role |
-|---|---|
-| `common.py` | prompts, bench-dir imports (matcher/g2p), JSONL helpers |
-| `build_sft_data.py` | pairs → ChatML SFT for A and B (+ honest-hearer mix) |
-| `build_repair_data.py` | synthetic multi-turn REVISE examples for A |
-| `train_lora.py` | LoRA SFT (Qwen3-4B, r=16, assistant-only loss) |
-| `sample_and_dpo.py` | best-of-n with combo reward → SFT rows + DPO pairs |
-| `train_dpo.py` | DPO (β=0.1) on the merged SFT checkpoint |
-| `agent_a_generative.py` | inference wrapper: `carve()` / `revise()` |
+```python
+from agent_a_generative import CharLSTMCarver
+carver = CharLSTMCarver()
+picks, fr_text = carver.carve_phrase(" ".join(current_words))
+```
+
+## Environment
+
+`HOMOPHONE_BENCH_DIR` — path to research/homophone-bench (default: auto-detected)

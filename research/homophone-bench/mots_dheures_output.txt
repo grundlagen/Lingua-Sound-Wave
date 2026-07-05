@@ -1,0 +1,163 @@
+MOTS D'HEURES — Van Rooten Machine Replication
+============================================================
+
+Humpty Dumpty
+  → en petit en petit
+    s=0.543  flu=0.787  fill=2  elis=0
+
+Humpty Dumpty sat on a wall
+  → en petit en petits et un éole
+    s=0.511  flu=0.689  fill=4  elis=0
+
+Humpty Dumpty had a great fall
+  → en petit en pieds écrit folles
+    s=0.533  flu=0.627  fill=2  elis=0
+
+Hickory dickory dock
+  → écrit critique
+    s=0.604  flu=0.346  fill=0  elis=0
+
+the mouse ran up the clock
+  → thomas rein aubes éclate
+    s=0.484  flu=0.184  fill=0  elis=0
+
+Jack and Jill went up the hill
+  → tziganes julien types elle
+    s=0.445  flu=0.331  fill=1  elis=0
+
+to fetch a pail of water
+  → t est chapiteaux lors
+    s=0.495  flu=0.484  fill=1  elis=0
+
+Jack fell down and broke his crown
+  → jet elles en n braques crâne
+    s=0.529  flu=0.445  fill=1  elis=0
+
+Mary had a little lamb
+  → médias allergènes
+    s=0.446  flu=0.232  fill=0  elis=0
+
+its fleece was white as snow
+  → êtes flux les waters nos
+    s=0.448  flu=0.554  fill=1  elis=0
+
+little Miss Muffet sat on a tuffet
+  → drôlement méfient sait on et et êtes
+    s=0.462  flu=0.526  fill=3  elis=0
+
+along came a spider
+  → élan guillemets pâte
+    s=0.468  flu=0.257  fill=0  elis=0
+
+little Jack Horner sat in a corner
+  → lorraines accordes et un accorde
+    s=0.502  flu=0.423  fill=2  elis=0
+
+eating a Christmas pie
+  → iran écrits mais pas
+    s=0.589  flu=0.594  fill=0  elis=0
+
+Rain rain go away
+  → rien rien corvée
+    s=0.473  flu=0.573  fill=0  elis=0
+
+come again another day
+  → con aucun aînés des
+    s=0.520  flu=0.515  fill=1  elis=0
+
+London bridge is falling down
+  → laines on bridges pollen âne
+    s=0.573  flu=0.222  fill=1  elis=0
+
+twinkle twinkle little star
+  → tien collent vin gauloises tard
+    s=0.471  flu=0.265  fill=0  elis=0
+
+how I wonder what you are
+  → hawaïen doit oui
+    s=0.440  flu=0.386  fill=0  elis=0
+
+up above the world so high
+  → épopées levèrent saura
+    s=0.422  flu=0.236  fill=0  elis=0
+
+like a diamond in the sky
+  → laquais amènent haines est cas
+    s=0.524  flu=0.395  fill=1  elis=0
+
+the cat and the fiddle
+  → loquet n devait elle
+    s=0.517  flu=0.618  fill=1  elis=0
+
+the cow jumped over the moon
+  → décades en petits semoule
+    s=0.486  flu=0.333  fill=1  elis=0
+
+the little dog laughed to see such sport
+  → générales éclatent dessus haches porte
+    s=0.477  flu=0.382  fill=0  elis=0
+
+yes sir yes sir three bags full
+  → yeux serais sait remakes celle
+    s=0.475  flu=0.432  fill=0  elis=0
+
+Peter Peter pumpkin eater
+  → partisan bien heures
+    s=0.449  flu=0.525  fill=0  elis=0
+
+sing a song of sixpence
+  → signées un aux secs peine
+    s=0.446  flu=0.536  fill=2  elis=0
+
+a pocket full of rye
+  → paquet voulez ras
+    s=0.450  flu=0.611  fill=0  elis=0
+
+four and twenty blackbirds
+  → foraines soin déblocage
+    s=0.550  flu=0.151  fill=0  elis=0
+
+baked in a pie
+  → piquent un état
+    s=0.496  flu=0.597  fill=1  elis=0
+
+Georgie Porgie pudding and pie
+  → shorts effort gibet un n pas
+    s=0.502  flu=0.495  fill=1  elis=0
+
+kissed the girls and made them cry
+  → kystes auxquels ânes médecin créé
+    s=0.539  flu=0.279  fill=0  elis=0
+
+Tom Tom the pipers son
+  → tapent âmes étapes zones
+    s=0.553  flu=0.299  fill=0  elis=0
+
+stole a pig and away he run
+  → staliniennes royaume
+    s=0.441  flu=0.151  fill=0  elis=0
+
+hey diddle diddle
+  → et idoles est elle
+    s=0.488  flu=0.706  fill=3  elis=0
+
+wee Willie Winkie runs through the town
+  → vilain couronnes trous et âne
+    s=0.461  flu=0.430  fill=1  elis=0
+
+Mary Mary quite contrary
+  → marin adéquat khan prairies
+    s=0.641  flu=0.300  fill=0  elis=0
+
+gently down the stream
+  → jet lient en des trime
+    s=0.612  flu=0.418  fill=2  elis=0
+
+Jack Sprat could eat no fat
+  → jacks prêt quais et néophytes
+    s=0.502  flu=0.382  fill=1  elis=0
+
+Old Mother Hubbard went to the cupboard
+  → halls mes aubes oued dès accapare
+    s=0.376  flu=0.225  fill=0  elis=0
+

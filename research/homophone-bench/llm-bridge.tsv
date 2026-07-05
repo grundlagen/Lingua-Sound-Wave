@@ -1,0 +1,397 @@
+en	fr	sound	meaning
+again	à gain	0.481	0.516
+along	à long	0.463	0.661
+are	are	0.652	1.000
+are	r	0.562	0.634
+bags	bas	0.533	0.387
+bags	bagues	0.571	0.681
+baked	bac	0.551	0.514
+baked	baquet	0.513	0.521
+blow	bleu	0.702	0.423
+bone	bonne	0.706	0.294
+bridge	brique	0.603	0.416
+buckle	boucle	0.628	0.616
+buckle	boucler	0.509	0.520
+came	came	0.683	1.000
+clock	cloque	0.763	0.363
+cock	coq	0.681	0.427
+cock	coque	0.700	0.571
+come	comme	0.710	0.695
+contrary	contre air	0.698	0.549
+could	cou laid	0.606	0.391
+cross	crosse	1.000	0.986
+crown	couronne	0.592	0.788
+cry	cri	0.663	0.784
+cry	crié	0.626	0.796
+daw	d'eau	0.567	0.409
+day	dé	0.786	0.598
+day	dais	0.618	0.583
+diamond	diamant	0.517	0.992
+does	doux	0.550	0.690
+dog	dogue	0.700	0.961
+door	dore	0.733	0.422
+door	d'or	0.665	0.314
+doth	dot	0.546	0.897
+down	duvet	0.458	0.489
+bakers	baguettes	0.494	0.533
+bakers	boulangers	0.452	0.897
+dock	dock	0.681	1.000
+fall	folle	1.000	0.511
+fell	fiel	0.815	0.744
+fetch	fait cher	0.618	0.351
+fetch	fais chercher	0.550	0.492
+fiddle	fidèle	0.645	0.429
+fine	fin	0.565	0.626
+fine	fine	0.663	1.000
+fleece	flèche	0.643	0.724
+fly	fleur	0.621	0.394
+four	four	0.710	1.000
+full	foule	0.733	0.558
+full	full	0.591	1.000
+garden	garde en	0.624	0.420
+garden	gardienne	0.677	0.428
+georgie	géorgie	0.671	0.975
+great	gré	0.781	0.666
+grow	gros	0.833	0.490
+hey	hé	0.470	0.955
+high	aïe	0.455	0.442
+hill	île	0.606	0.438
+hill	il	0.606	0.554
+home	homme	0.588	0.497
+horner	orner	0.652	0.347
+horner	or né	0.652	0.400
+horse	ors	0.591	0.359
+little	lit t'elle	0.588	0.575
+lived	livré	0.511	0.694
+london	londres	0.522	0.555
+london	long d'honneur	0.489	0.440
+man	manne	0.730	0.983
+man	mannequin	0.496	0.561
+margery	marguerite	0.552	0.456
+mary	marée	0.540	0.455
+mary	mairie	1.000	0.599
+master	maître	0.541	0.888
+miss	mise	0.588	0.592
+moon	moue	0.744	0.358
+mouse	mousse	0.657	0.317
+new	nu	0.637	0.590
+new	nœud	0.577	0.529
+north	nord	0.793	0.921
+one	une	0.538	0.805
+over	ovaire	0.538	0.403
+pail	paille	0.510	0.949
+pat	patte	0.730	0.970
+pat	patate	0.653	0.498
+peter	péteur	0.631	0.601
+pick	pic	0.733	0.289
+pick	pique	0.733	0.528
+pie	pie	0.563	1.000
+pie	pied	0.561	0.688
+pocket	poche	0.465	0.465
+pocket	petit sac	0.503	0.724
+poor	pauvre	0.640	0.961
+poor	peu riche	0.480	0.862
+pudding	pouding	0.603	0.342
+rain	rein	0.608	0.349
+ran	rend	0.618	0.477
+ride	ride	0.663	1.000
+ride	rider	0.516	0.780
+rye	riz	0.563	0.546
+sat	çà	0.597	0.482
+saw	seau	0.642	0.447
+see	siège	0.547	0.621
+see	c'est	0.553	0.721
+shoe	chou	1.000	0.279
+shoe	choux	1.000	0.381
+shoe	chut	0.637	0.402
+sing	singe	0.560	0.596
+sing	cinq	0.539	0.410
+sir	sire	0.551	0.635
+sir	sirop	0.518	0.804
+six	sis	0.541	0.556
+sky	ciel	0.478	0.784
+sky	c'yeux	0.483	0.438
+snow	s'nos	0.647	0.357
+son	son	0.603	1.000
+son	sont	0.603	0.740
+song	son	0.618	0.497
+sport	s'porte	0.687	0.442
+stole	étoile	0.511	0.410
+such	suce	0.503	0.749
+there	ter	0.690	0.698
+three	tri	0.710	0.975
+through	trou	0.710	0.625
+tom	tome	0.681	0.580
+tom	tom	0.681	1.000
+twenty	tante	0.509	0.442
+upon	à peine	0.519	0.466
+wall	vol	0.717	0.452
+wall	vole	0.717	0.373
+wee	oui	1.000	0.747
+wee	ouïe	0.617	0.818
+what	ouate	0.572	0.744
+who	où	0.670	0.638
+who	hou	0.670	0.627
+wonder	onde	0.576	0.665
+you	où	0.663	0.667
+your	jour	0.562	0.675
+again	à gain	0.481	0.516
+along	à long	0.463	0.661
+are	r	0.562	0.634
+are	are	0.652	1.000
+bags	bagues	0.571	0.681
+blow	bleu	0.702	0.423
+bone	bonne	0.706	0.294
+bridge	brique	0.603	0.416
+buckle	boucle	0.628	0.616
+clock	cloque toc	0.639	0.320
+come	comme	0.710	0.695
+contrary	contre rare	0.540	0.615
+contrary	con traire	0.698	0.595
+corner	coin né	0.506	0.652
+corner	corner	0.828	1.000
+could	cou le	0.531	0.543
+cross	croque os	0.763	0.384
+cross	croix ose	0.609	0.734
+cry	cri	0.663	0.784
+cry	criais	0.640	0.403
+day	dé	0.786	0.598
+day	dais	0.618	0.583
+diamond	diamant	0.517	0.992
+dock	dock	0.681	1.000
+does	doux aise	0.623	0.587
+dog	dogue	0.700	0.961
+doth	dote	0.546	0.935
+down	du non	0.504	0.426
+eater	été taire	0.511	0.419
+eater	été ter	0.511	0.513
+fall	faux l	0.657	0.572
+fall	folle	1.000	0.511
+fell	fêle	1.000	0.515
+fell	fiel	0.815	0.744
+fiddle	fi dalle	0.634	0.498
+fiddle	fidèle	0.645	0.429
+fine	fine	0.663	1.000
+fine	fi née	0.516	0.540
+fly	flic	0.610	0.506
+four	four	0.710	1.000
+full	foule	0.733	0.558
+full	full	0.591	1.000
+garden	garde en	0.624	0.420
+girls	gueule	0.556	0.513
+girls	girl	0.567	0.912
+again	à gain	0.481	0.516
+along	à long	0.463	0.661
+are	art	0.652	0.502
+are	are	0.652	1.000
+bags	bas	0.533	0.387
+baked	baquet	0.513	0.521
+bakers	baquets	0.509	0.408
+blow	bleu	0.702	0.423
+bone	bonne	0.706	0.294
+bridge	brisée	0.594	0.378
+buckle	boucle	0.628	0.616
+buckle	boucler	0.509	0.520
+came	cames	0.683	0.920
+came	camé	0.528	0.495
+clock	cloque	0.763	0.363
+cock	coque	0.700	0.571
+come	comme	0.710	0.695
+contrary	contre	0.552	0.691
+contrary	contraire	0.698	0.814
+corner	corner	0.828	1.000
+corner	corne	1.000	0.312
+could	coule	0.549	0.368
+could	coulée	0.509	0.581
+cow	cou	0.556	0.395
+cross	crosse	1.000	0.986
+cross	croise	0.619	0.687
+crown	couronne	0.592	0.788
+cry	cri	0.663	0.784
+cry	crié	0.626	0.796
+daw	d'eau	0.567	0.409
+day	dé	0.786	0.598
+day	dais	0.618	0.583
+diamond	diamant	0.517	0.992
+dog	dogue	0.700	0.961
+door	dore	0.733	0.422
+door	dorure	0.838	0.613
+doth	dot	0.546	0.897
+doth	dote	0.546	0.935
+down	don	0.565	0.408
+eater	être	0.580	0.476
+fall	faille	0.509	0.520
+fat	fat	0.597	1.000
+fell	fiel	0.815	0.744
+fiddle	fidèle	0.645	0.429
+fine	fine	0.663	1.000
+fine	fines	0.663	0.497
+five	fi	0.513	0.585
+five	fief	0.525	0.545
+fleece	flèche	0.643	0.724
+four	four	0.710	1.000
+full	foule	0.733	0.558
+garden	gardien	0.619	0.424
+great	gré	0.781	0.666
+again	à gain	0.481	0.516
+along	à long	0.463	0.661
+and	an de	0.459	0.604
+are	r	0.562	0.634
+bags	bas	0.533	0.387
+baked	baisé	0.498	0.507
+banbury	ban bure	0.497	0.445
+bridge	brique	0.603	0.416
+buckle	boucle	0.628	0.616
+clock	cloque	0.763	0.363
+cock	coque	0.700	0.571
+come	comme	0.710	0.695
+come	coma	0.544	0.606
+corner	corner	0.828	1.000
+could	cul	0.555	0.572
+could	coulé	0.509	0.585
+cow	cou	0.556	0.395
+daw	doux	0.577	0.623
+does	défait	0.492	0.420
+eater	être	0.580	0.476
+girls	garçons	0.488	0.585
+again	à gain	0.481	0.516
+along	à long	0.463	0.661
+and	n d	0.537	0.702
+are	art	0.652	0.502
+are	r	0.562	0.634
+are	erre	0.562	0.687
+away	avoué	0.538	0.596
+bags	bas	0.533	0.387
+bags	bagues	0.571	0.681
+baked	bac kit	0.568	0.406
+bakers	boulangers	0.452	0.897
+bakers	boulangés	0.452	0.863
+banbury	ban bourgeois	0.475	0.449
+blow	bleu	0.702	0.423
+bone	bonne	0.706	0.294
+bridge	brique	0.603	0.416
+buckle	boucle	0.628	0.616
+buckle	boucle	0.628	0.616
+came	came	0.683	1.000
+came	came	0.683	1.000
+came	camé	0.528	0.495
+clock	cloque	0.763	0.363
+cock	coque	0.700	0.571
+cock	coq	0.681	0.427
+come	comme	0.710	0.695
+corner	corner	0.828	1.000
+cow	cou	0.556	0.395
+cross	crosse	1.000	0.986
+crown	couronne	0.592	0.788
+cry	cri	0.663	0.784
+cry	crée	0.683	0.461
+daw	d'eau	0.567	0.409
+day	dé	0.786	0.598
+day	des	0.786	0.511
+diamond	diamant	0.517	0.992
+does	doux	0.550	0.690
+door	dore	0.733	0.422
+door	d'or	0.665	0.314
+doth	dote	0.546	0.935
+down	don	0.565	0.408
+fine	fin	0.565	0.626
+five	fiv	0.663	0.558
+fleece	fléchis	0.604	0.577
+four	four	0.710	1.000
+full	foule	0.733	0.558
+full	full	0.591	1.000
+great	gré	0.781	0.666
+hey	hé	0.470	0.955
+high	aï	0.455	0.480
+hill	il	0.606	0.554
+hill	île	0.606	0.438
+home	homme	0.588	0.497
+horse	hors	0.591	0.382
+humpty	hum p'te	0.511	0.783
+its	i t's	0.512	0.638
+jack	jack	0.575	1.000
+jill	jeu l'	0.529	0.629
+lady	la d'	0.546	0.369
+lady	lad	0.522	0.505
+ladybird	la dame bête	0.473	0.512
+lamb	lame	0.730	0.287
+laughed	lofe	0.532	0.399
+laughed	la fée	0.537	0.418
+little	litote	0.496	0.488
+lived	livide	0.630	0.665
+made	médée	0.655	0.420
+man	manne	0.730	0.983
+man	main	0.603	0.602
+mary	mariée	0.528	0.503
+mary	mairie	1.000	0.599
+mary	mère	0.781	0.573
+miss	mise	0.588	0.592
+miss	misse	0.733	0.912
+miss	mis	0.601	0.601
+mouse	mous	0.541	0.390
+mouse	mousse	0.657	0.317
+new	nu	0.637	0.590
+new	nœud	0.577	0.529
+new	neuf	0.521	0.684
+north	nord	0.793	0.921
+one	un	0.450	0.868
+pail	pelle	0.706	0.724
+pat	patte	0.730	0.970
+peter	péteur	0.631	0.601
+pick	pic	0.733	0.289
+pick	pique	0.733	0.528
+pie	pie	0.563	1.000
+pie	pis	0.563	0.836
+pig	pique	0.588	0.362
+pocket	pochette	0.560	0.498
+pocket	poche	0.465	0.465
+poor	pur	0.690	0.468
+poor	pour	0.733	0.446
+pudding	pudding	0.691	1.000
+rain	rein	0.608	0.349
+rain	renne	0.706	0.285
+ran	rend	0.618	0.477
+ride	ride	0.663	1.000
+ride	rit	0.544	0.455
+rye	ris	0.563	0.572
+rye	ri	0.563	0.519
+sat	sa	0.597	0.433
+sat	sac	0.516	0.524
+saw	seau	0.642	0.447
+see	si	1.000	0.804
+shoe	chou	1.000	0.279
+sing	sain	0.598	0.573
+sing	cinq	0.539	0.410
+sir	sire	0.551	0.635
+sir	sieur	0.552	0.685
+six	sis	0.541	0.556
+sky	ski	0.663	0.384
+son	son	0.603	1.000
+son	sons	0.603	0.891
+song	sans	0.548	0.538
+sport	sport	0.656	1.000
+sport	s'porte	0.687	0.442
+stole	étoile	0.511	0.410
+such	souche	0.658	0.798
+three	tri	0.710	0.975
+through	trou	0.710	0.625
+tom	tome	0.681	0.580
+tom	tomme	0.681	0.935
+tom	tom	0.681	1.000
+town	ton	0.565	0.525
+twinkle	tinte	0.477	0.622
+twinkle	tringle	0.586	0.442
+two	tu	0.637	0.577
+two	toux	1.000	0.509
+wall	vol	0.717	0.452
+wee	oui	1.000	0.747
+wee	ouïe	0.617	0.818
+what	watt	0.730	0.349
+what	ouate	0.572	0.744
+who	ou	0.670	0.685
+who	nous	0.605	0.618
+wonder	onde	0.576	0.665
+you	où	0.663	0.667
+your	vôtre	0.515	0.978
+your	voir	0.491	0.662
+your	votre	0.515	0.972

@@ -1,0 +1,45 @@
+ROUND-RABBIT BICAMERAL — 200 words
+
+ENGLISH:
+  jewish due swear
+  cloth belling
+  bugs backed
+  mass meets
+  français detective
+  dippy spit
+  petits sole
+  cola code
+  exploring feat
+  startup tip red
+  pest threw
+  ruins rode russell
+
+FRENCH:
+  douches sain ses serrer
+  beaux mêlent
+  insecte boxe
+  masses mité
+  française fresque
+  spots crash
+  petit terre
+  cause aimes
+  explorer vite
+  strip type raid
+  peste test
+  rose rient aise recettes
+
+DETAIL:
+  jewish[0.90|chain_h3]→douches due[0.95|chain_h4]→sain ses swear[0.90|chain_h2]→serrer
+  cloth[0.92|chain_h4]→beaux belling[0.94|chain_h3]→mêlent
+  bugs[0.91|chain_h3]→insecte backed[0.86|chain_h2]→boxe
+  mass[0.90|chain_h4]→masses meets[0.95|chain_h3]→mité
+  français[0.65|direct]→française detective[0.89|chain_h2]→fresque
+  dippy[0.93|chain_h3]→spots spit[0.91|chain_h3]→crash
+  petits[0.85|direct]→petit sole[0.95|chain_h3]→terre
+  cola[0.81|direct]→cause code[0.94|chain_h2]→aimes
+  exploring[0.83|loop(3)]→explorer feat[0.97|direct]→vite
+  startup[0.71|direct]→strip tip[0.98|direct]→type red[1.00|loop(2)]→raid
+  pest[0.94|chain_h2]→peste threw[0.93|chain_h2]→test
+  ruins[0.63|direct]→rose rode[0.93|chain_h4]→rient aise russell[0.93|chain_h2]→recettes
+
+STATS: μ=0.776, loop=4, chain=72
