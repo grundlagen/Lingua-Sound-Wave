@@ -1,0 +1,1867 @@
+{
+  "n_words": 200,
+  "persistence": 0.722,
+  "coverage": 1.0,
+  "iterations": 15,
+  "unique_fr": 192,
+  "dupes": 8,
+  "rooten": 200,
+  "pairs": [
+    {
+      "en": "sect",
+      "fr": "secte",
+      "sound": 1.0,
+      "meaning": [
+        "insect",
+        "respect",
+        "sect",
+        "sex"
+      ],
+      "meaning_size": 4
+    },
+    {
+      "en": "sex",
+      "fr": "sexe",
+      "sound": 1.0,
+      "meaning": [
+        "sect",
+        "sex"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "enemies",
+      "fr": "ennemies",
+      "sound": 0.926,
+      "meaning": [
+        "enemies",
+        "enemy"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "enemy",
+      "fr": "ennemie",
+      "sound": 1.0,
+      "meaning": [
+        "enemy"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "fort",
+      "fr": "forte",
+      "sound": 0.864,
+      "meaning": [
+        "fort"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "extract",
+      "fr": "extraite",
+      "sound": 0.828,
+      "meaning": [
+        "extract"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "kiwi",
+      "fr": "kiwis",
+      "sound": 0.907,
+      "meaning": [
+        "kiwi"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sphere",
+      "fr": "sphère",
+      "sound": 0.841,
+      "meaning": [
+        "sphere"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "stress",
+      "fr": "stresse",
+      "sound": 0.854,
+      "meaning": [
+        "distress",
+        "stress"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "distress",
+      "fr": "stresse",
+      "sound": 1.0,
+      "meaning": [
+        "distress",
+        "stress"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "organ",
+      "fr": "organes",
+      "sound": 1.0,
+      "meaning": [
+        "organ"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "suspect",
+      "fr": "suspecte",
+      "sound": 0.911,
+      "meaning": [
+        "suspect",
+        "suspects"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "suspects",
+      "fr": "suspecte",
+      "sound": 1.0,
+      "meaning": [
+        "suspect",
+        "suspects"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "boss",
+      "fr": "bosse",
+      "sound": 1.0,
+      "meaning": [
+        "boss"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "grand",
+      "fr": "grande",
+      "sound": 0.745,
+      "meaning": [
+        "grand"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "caress",
+      "fr": "caisse",
+      "sound": 0.918,
+      "meaning": [
+        "caress"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "exact",
+      "fr": "exacte",
+      "sound": 1.0,
+      "meaning": [
+        "exact"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "confess",
+      "fr": "con fesses",
+      "sound": 0.961,
+      "meaning": [
+        "confess"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "club",
+      "fr": "clubs",
+      "sound": 1.0,
+      "meaning": [
+        "club"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "pose",
+      "fr": "poses",
+      "sound": 1.0,
+      "meaning": [
+        "pose"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "police",
+      "fr": "pelisse",
+      "sound": 1.0,
+      "meaning": [
+        "police"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "peak",
+      "fr": "pic",
+      "sound": 1.0,
+      "meaning": [
+        "peak"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "peaks",
+      "fr": "piques",
+      "sound": 1.0,
+      "meaning": [
+        "peak",
+        "peaks"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "park",
+      "fr": "parc",
+      "sound": 1.0,
+      "meaning": [
+        "park"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "debris",
+      "fr": "débris",
+      "sound": 1.0,
+      "meaning": [
+        "debris"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "star",
+      "fr": "stars",
+      "sound": 1.0,
+      "meaning": [
+        "star"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "premier",
+      "fr": "première",
+      "sound": 0.733,
+      "meaning": [
+        "premier"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "risk",
+      "fr": "risque",
+      "sound": 0.821,
+      "meaning": [
+        "risk"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "expressing",
+      "fr": "expression",
+      "sound": 0.793,
+      "meaning": [
+        "expressing"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "express",
+      "fr": "expresse",
+      "sound": 0.832,
+      "meaning": [
+        "express",
+        "expressing"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "cone",
+      "fr": "cône",
+      "sound": 0.906,
+      "meaning": [
+        "cone"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "midi",
+      "fr": "midis",
+      "sound": 0.944,
+      "meaning": [
+        "midi"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "ester",
+      "fr": "êtes",
+      "sound": 1.0,
+      "meaning": [
+        "ester"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "detective",
+      "fr": "détective",
+      "sound": 0.932,
+      "meaning": [
+        "detective"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "soup",
+      "fr": "soupe",
+      "sound": 1.0,
+      "meaning": [
+        "soup"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "address",
+      "fr": "adressent",
+      "sound": 1.0,
+      "meaning": [
+        "address"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "poof",
+      "fr": "pouf",
+      "sound": 1.0,
+      "meaning": [
+        "poof"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "patch",
+      "fr": "putsch",
+      "sound": 0.887,
+      "meaning": [
+        "patch"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "clone",
+      "fr": "clones",
+      "sound": 1.0,
+      "meaning": [
+        "clone"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "fresh",
+      "fr": "fraîche",
+      "sound": 0.84,
+      "meaning": [
+        "fresh"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "excess",
+      "fr": "excède",
+      "sound": 1.0,
+      "meaning": [
+        "excel",
+        "excess"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "excel",
+      "fr": "ex aile",
+      "sound": 1.0,
+      "meaning": [
+        "excel"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "groups",
+      "fr": "group",
+      "sound": 1.0,
+      "meaning": [
+        "groups"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "group",
+      "fr": "groupes",
+      "sound": 1.0,
+      "meaning": [
+        "group",
+        "groups"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "strict",
+      "fr": "stricte",
+      "sound": 1.0,
+      "meaning": [
+        "strict"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "technology",
+      "fr": "technologie",
+      "sound": 0.898,
+      "meaning": [
+        "technology"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "formal",
+      "fr": "formel",
+      "sound": 1.0,
+      "meaning": [
+        "formal"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "prospective",
+      "fr": "perspectives",
+      "sound": 0.908,
+      "meaning": [
+        "perspective",
+        "prospective"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "perspective",
+      "fr": "spectre",
+      "sound": 1.0,
+      "meaning": [
+        "perspective",
+        "spectrum"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "spectrum",
+      "fr": "spectre",
+      "sound": 0.87,
+      "meaning": [
+        "perspective",
+        "spectrum"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "collect",
+      "fr": "collecte",
+      "sound": 1.0,
+      "meaning": [
+        "collect"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "detect",
+      "fr": "détecte",
+      "sound": 0.945,
+      "meaning": [
+        "detect"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "oral",
+      "fr": "orales",
+      "sound": 1.0,
+      "meaning": [
+        "oral"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "regret",
+      "fr": "regrettent",
+      "sound": 1.0,
+      "meaning": [
+        "regret"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "prove",
+      "fr": "prouve",
+      "sound": 0.84,
+      "meaning": [
+        "prove",
+        "proves"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "proves",
+      "fr": "prouve",
+      "sound": 0.824,
+      "meaning": [
+        "prove",
+        "proves"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "boric",
+      "fr": "borique",
+      "sound": 0.803,
+      "meaning": [
+        "boric"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "explosive",
+      "fr": "explosifs",
+      "sound": 0.877,
+      "meaning": [
+        "explosive"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "north",
+      "fr": "nord",
+      "sound": 1.0,
+      "meaning": [
+        "north"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "movement",
+      "fr": "mouvements",
+      "sound": 0.867,
+      "meaning": [
+        "movement"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "form",
+      "fr": "formes",
+      "sound": 1.0,
+      "meaning": [
+        "form",
+        "reform"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "reform",
+      "fr": "réformes",
+      "sound": 1.0,
+      "meaning": [
+        "reform"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "techniques",
+      "fr": "technique",
+      "sound": 0.938,
+      "meaning": [
+        "techniques"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "prestige",
+      "fr": "prestigieux",
+      "sound": 1.0,
+      "meaning": [
+        "prestige"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "boom",
+      "fr": "boum",
+      "sound": 1.0,
+      "meaning": [
+        "boom"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "stick",
+      "fr": "steak",
+      "sound": 0.746,
+      "meaning": [
+        "steppe",
+        "stick"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "steppe",
+      "fr": "steppes",
+      "sound": 1.0,
+      "meaning": [
+        "steppe"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "routine",
+      "fr": "roux chine",
+      "sound": 0.852,
+      "meaning": [
+        "routine"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "promo",
+      "fr": "promeut",
+      "sound": 1.0,
+      "meaning": [
+        "promo"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "disk",
+      "fr": "disque",
+      "sound": 0.981,
+      "meaning": [
+        "disc",
+        "disk"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "disc",
+      "fr": "disque",
+      "sound": 1.0,
+      "meaning": [
+        "disc",
+        "disk"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "district",
+      "fr": "districts",
+      "sound": 0.864,
+      "meaning": [
+        "district"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "film",
+      "fr": "filme",
+      "sound": 1.0,
+      "meaning": [
+        "film"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "escort",
+      "fr": "escorte",
+      "sound": 0.872,
+      "meaning": [
+        "escort"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "machine",
+      "fr": "machines",
+      "sound": 0.945,
+      "meaning": [
+        "machine"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "complex",
+      "fr": "complexe",
+      "sound": 0.86,
+      "meaning": [
+        "complex"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "gram",
+      "fr": "gramme",
+      "sound": 0.829,
+      "meaning": [
+        "gram"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "mark",
+      "fr": "marques",
+      "sound": 1.0,
+      "meaning": [
+        "mark"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "pairs",
+      "fr": "pèse",
+      "sound": 0.929,
+      "meaning": [
+        "pairs"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "freight",
+      "fr": "fret",
+      "sound": 0.722,
+      "meaning": [
+        "freight"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "explicit",
+      "fr": "explicites",
+      "sound": 1.0,
+      "meaning": [
+        "explicit"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "scores",
+      "fr": "score",
+      "sound": 0.873,
+      "meaning": [
+        "scores"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "expertise",
+      "fr": "expertises",
+      "sound": 0.878,
+      "meaning": [
+        "expertise"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "beep",
+      "fr": "bip",
+      "sound": 1.0,
+      "meaning": [
+        "beep"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "quebec",
+      "fr": "québec",
+      "sound": 0.854,
+      "meaning": [
+        "quebec"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "domestic",
+      "fr": "domestiques",
+      "sound": 0.932,
+      "meaning": [
+        "domestic"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "correct",
+      "fr": "corrects",
+      "sound": 1.0,
+      "meaning": [
+        "correct"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "platform",
+      "fr": "plat sommes",
+      "sound": 0.925,
+      "meaning": [
+        "platform"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "platforms",
+      "fr": "plateforme",
+      "sound": 0.865,
+      "meaning": [
+        "platform",
+        "platforms"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "sort",
+      "fr": "sortes",
+      "sound": 1.0,
+      "meaning": [
+        "sort"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "accept",
+      "fr": "excepte",
+      "sound": 0.951,
+      "meaning": [
+        "accept",
+        "except"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "except",
+      "fr": "acceptent",
+      "sound": 1.0,
+      "meaning": [
+        "accept",
+        "except"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "list",
+      "fr": "liste",
+      "sound": 1.0,
+      "meaning": [
+        "list"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "selective",
+      "fr": "sélective",
+      "sound": 0.884,
+      "meaning": [
+        "selective"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "chic",
+      "fr": "chics",
+      "sound": 1.0,
+      "meaning": [
+        "chic"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "petite",
+      "fr": "petites",
+      "sound": 0.957,
+      "meaning": [
+        "petite"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "debts",
+      "fr": "dette",
+      "sound": 0.975,
+      "meaning": [
+        "debt",
+        "debts"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "debt",
+      "fr": "dette",
+      "sound": 1.0,
+      "meaning": [
+        "debt",
+        "debts"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "extreme",
+      "fr": "expriment",
+      "sound": 0.819,
+      "meaning": [
+        "extreme"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tax",
+      "fr": "taxe",
+      "sound": 0.977,
+      "meaning": [
+        "tax"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "class",
+      "fr": "classe",
+      "sound": 1.0,
+      "meaning": [
+        "class"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "source",
+      "fr": "sauce",
+      "sound": 0.929,
+      "meaning": [
+        "source"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "mini",
+      "fr": "mie nient",
+      "sound": 0.984,
+      "meaning": [
+        "mini"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "soft",
+      "fr": "loft",
+      "sound": 0.909,
+      "meaning": [
+        "soft"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "grill",
+      "fr": "gril",
+      "sound": 0.833,
+      "meaning": [
+        "grill"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "insect",
+      "fr": "insectes",
+      "sound": 1.0,
+      "meaning": [
+        "insect"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "library",
+      "fr": "librairie",
+      "sound": 0.732,
+      "meaning": [
+        "library"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "regime",
+      "fr": "régime",
+      "sound": 0.854,
+      "meaning": [
+        "regime"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "context",
+      "fr": "contextes",
+      "sound": 1.0,
+      "meaning": [
+        "context"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "air",
+      "fr": "ère",
+      "sound": 1.0,
+      "meaning": [
+        "air"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "duchess",
+      "fr": "dit chaise",
+      "sound": 0.907,
+      "meaning": [
+        "duchess"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "role",
+      "fr": "rôles",
+      "sound": 1.0,
+      "meaning": [
+        "role"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "guy",
+      "fr": "gars",
+      "sound": 0.898,
+      "meaning": [
+        "guy"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "kaki",
+      "fr": "kiki",
+      "sound": 0.925,
+      "meaning": [
+        "kaki",
+        "khaki"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "khaki",
+      "fr": "kiki",
+      "sound": 1.0,
+      "meaning": [
+        "kaki",
+        "khaki"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "press",
+      "fr": "presse",
+      "sound": 1.0,
+      "meaning": [
+        "press"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "gin",
+      "fr": "jean",
+      "sound": 0.735,
+      "meaning": [
+        "gin"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "czech",
+      "fr": "tchèque",
+      "sound": 1.0,
+      "meaning": [
+        "czech"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "semester",
+      "fr": "semestre",
+      "sound": 0.938,
+      "meaning": [
+        "semester"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "rouge",
+      "fr": "rouges",
+      "sound": 1.0,
+      "meaning": [
+        "rouge"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "buddhist",
+      "fr": "bouddhiste",
+      "sound": 0.947,
+      "meaning": [
+        "buddhist"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "chef",
+      "fr": "chefs",
+      "sound": 1.0,
+      "meaning": [
+        "chef"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "manifest",
+      "fr": "manifeste",
+      "sound": 1.0,
+      "meaning": [
+        "manifest"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "orbit",
+      "fr": "orbite",
+      "sound": 0.851,
+      "meaning": [
+        "orbit"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "naive",
+      "fr": "naïve",
+      "sound": 1.0,
+      "meaning": [
+        "naive"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "fortune",
+      "fr": "faut chine",
+      "sound": 0.832,
+      "meaning": [
+        "fortune"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "apex",
+      "fr": "épais ex",
+      "sound": 0.831,
+      "meaning": [
+        "apex"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "princess",
+      "fr": "princesse",
+      "sound": 1.0,
+      "meaning": [
+        "princess"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "exist",
+      "fr": "existe",
+      "sound": 0.941,
+      "meaning": [
+        "exist"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "festival",
+      "fr": "festivals",
+      "sound": 1.0,
+      "meaning": [
+        "festival"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "crack",
+      "fr": "craque",
+      "sound": 1.0,
+      "meaning": [
+        "crack"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "excessive",
+      "fr": "excès sève",
+      "sound": 0.956,
+      "meaning": [
+        "excessive"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "peri",
+      "fr": "péri",
+      "sound": 1.0,
+      "meaning": [
+        "peri"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "dome",
+      "fr": "dôme",
+      "sound": 0.906,
+      "meaning": [
+        "dome"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "segment",
+      "fr": "segments",
+      "sound": 0.867,
+      "meaning": [
+        "segment"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "lulu",
+      "fr": "loulou",
+      "sound": 1.0,
+      "meaning": [
+        "lulu"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "quiche",
+      "fr": "quiches",
+      "sound": 1.0,
+      "meaning": [
+        "quiche"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "elite",
+      "fr": "élite",
+      "sound": 0.943,
+      "meaning": [
+        "elite"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "costume",
+      "fr": "costumes",
+      "sound": 0.945,
+      "meaning": [
+        "costume"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "explode",
+      "fr": "explose",
+      "sound": 1.0,
+      "meaning": [
+        "explode"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "brick",
+      "fr": "briques",
+      "sound": 1.0,
+      "meaning": [
+        "brick"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "lord",
+      "fr": "laure",
+      "sound": 1.0,
+      "meaning": [
+        "lord"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "mixed",
+      "fr": "mixte",
+      "sound": 1.0,
+      "meaning": [
+        "mixed"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "copy",
+      "fr": "copies",
+      "sound": 1.0,
+      "meaning": [
+        "copy"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "league",
+      "fr": "ligue",
+      "sound": 1.0,
+      "meaning": [
+        "league",
+        "leagues"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "leagues",
+      "fr": "ligues",
+      "sound": 0.975,
+      "meaning": [
+        "league",
+        "leagues"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "graph",
+      "fr": "graphe",
+      "sound": 0.829,
+      "meaning": [
+        "graph"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "gem",
+      "fr": "gemmes",
+      "sound": 1.0,
+      "meaning": [
+        "gem"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "porch",
+      "fr": "porche",
+      "sound": 0.854,
+      "meaning": [
+        "porch"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "esteem",
+      "fr": "estimés",
+      "sound": 1.0,
+      "meaning": [
+        "esteem"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "excluded",
+      "fr": "exclu",
+      "sound": 0.861,
+      "meaning": [
+        "excluded"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "affect",
+      "fr": "affecte",
+      "sound": 1.0,
+      "meaning": [
+        "affect"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tel",
+      "fr": "telle",
+      "sound": 1.0,
+      "meaning": [
+        "tel"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "chad",
+      "fr": "tchad",
+      "sound": 0.977,
+      "meaning": [
+        "chad"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "exploring",
+      "fr": "explorent",
+      "sound": 0.796,
+      "meaning": [
+        "exploring"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "net",
+      "fr": "nets",
+      "sound": 1.0,
+      "meaning": [
+        "net"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "nets",
+      "fr": "nettes",
+      "sound": 1.0,
+      "meaning": [
+        "net",
+        "nets"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "critique",
+      "fr": "critiques",
+      "sound": 0.912,
+      "meaning": [
+        "critique"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "corset",
+      "fr": "concède",
+      "sound": 0.873,
+      "meaning": [
+        "corset"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "gulf",
+      "fr": "golfe",
+      "sound": 0.955,
+      "meaning": [
+        "gulf"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "crab",
+      "fr": "crabe",
+      "sound": 0.817,
+      "meaning": [
+        "crab"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "pact",
+      "fr": "pacte",
+      "sound": 0.977,
+      "meaning": [
+        "pact"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sec",
+      "fr": "secs",
+      "sound": 1.0,
+      "meaning": [
+        "sec"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "pole",
+      "fr": "pôle",
+      "sound": 0.906,
+      "meaning": [
+        "pole"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "guild",
+      "fr": "guilde",
+      "sound": 0.981,
+      "meaning": [
+        "guild"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "prince",
+      "fr": "princes",
+      "sound": 0.739,
+      "meaning": [
+        "prince"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "prude",
+      "fr": "proue",
+      "sound": 0.736,
+      "meaning": [
+        "prude"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "forge",
+      "fr": "forges",
+      "sound": 0.867,
+      "meaning": [
+        "forge"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "creek",
+      "fr": "crique",
+      "sound": 0.84,
+      "meaning": [
+        "creek"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "mask",
+      "fr": "masques",
+      "sound": 1.0,
+      "meaning": [
+        "mask",
+        "masque"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "masque",
+      "fr": "masques",
+      "sound": 0.977,
+      "meaning": [
+        "mask",
+        "masque"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "plaque",
+      "fr": "plaques",
+      "sound": 0.977,
+      "meaning": [
+        "plaque"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "gallery",
+      "fr": "galerie",
+      "sound": 0.839,
+      "meaning": [
+        "gallery"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "machinery",
+      "fr": "machinerie",
+      "sound": 0.853,
+      "meaning": [
+        "machinery"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "plain",
+      "fr": "plaine",
+      "sound": 0.889,
+      "meaning": [
+        "plain"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "orchestra",
+      "fr": "orchestre",
+      "sound": 1.0,
+      "meaning": [
+        "orchestra"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "ski",
+      "fr": "skie",
+      "sound": 1.0,
+      "meaning": [
+        "ski"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "crest",
+      "fr": "christ",
+      "sound": 0.815,
+      "meaning": [
+        "crest"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "breeze",
+      "fr": "brise",
+      "sound": 0.84,
+      "meaning": [
+        "breeze"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "flute",
+      "fr": "flûte",
+      "sound": 0.977,
+      "meaning": [
+        "flute"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "direct",
+      "fr": "trek",
+      "sound": 0.822,
+      "meaning": [
+        "direct"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "belle",
+      "fr": "bel",
+      "sound": 1.0,
+      "meaning": [
+        "belle"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "exclusive",
+      "fr": "exclusives",
+      "sound": 0.917,
+      "meaning": [
+        "exclusive"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "norm",
+      "fr": "norme",
+      "sound": 1.0,
+      "meaning": [
+        "norm"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "clear",
+      "fr": "clair",
+      "sound": 0.841,
+      "meaning": [
+        "clear"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "pest",
+      "fr": "peste",
+      "sound": 1.0,
+      "meaning": [
+        "pest"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "fraud",
+      "fr": "fraudes",
+      "sound": 1.0,
+      "meaning": [
+        "fraud"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "ruby",
+      "fr": "rubis",
+      "sound": 0.83,
+      "meaning": [
+        "ruby"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sushi",
+      "fr": "saoul chie",
+      "sound": 1.0,
+      "meaning": [
+        "sushi"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "corps",
+      "fr": "cor",
+      "sound": 0.85,
+      "meaning": [
+        "corps"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "ordinary",
+      "fr": "ordinaire",
+      "sound": 1.0,
+      "meaning": [
+        "ordinary"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "mexican",
+      "fr": "mexicaine",
+      "sound": 1.0,
+      "meaning": [
+        "mexican"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "respect",
+      "fr": "respectent",
+      "sound": 1.0,
+      "meaning": [
+        "respect"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "pet",
+      "fr": "pète",
+      "sound": 1.0,
+      "meaning": [
+        "pet"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "mousse",
+      "fr": "mousses",
+      "sound": 1.0,
+      "meaning": [
+        "mousse"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "soil",
+      "fr": "sol",
+      "sound": 0.906,
+      "meaning": [
+        "soil"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "flexible",
+      "fr": "flics belle",
+      "sound": 0.898,
+      "meaning": [
+        "flexible"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "guard",
+      "fr": "garde",
+      "sound": 0.86,
+      "meaning": [
+        "guard"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "pair",
+      "fr": "pers",
+      "sound": 1.0,
+      "meaning": [
+        "pair"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "concept",
+      "fr": "concepts",
+      "sound": 1.0,
+      "meaning": [
+        "concept"
+      ],
+      "meaning_size": 1
+    }
+  ],
+  "lines": [
+    "secte sexe ennemies ennemie forte extraite kiwis sphère stresse stresse",
+    "organes suspecte suspecte bosse grande caisse exacte con fesses clubs poses",
+    "pelisse pic piques parc débris stars première risque expression expresse",
+    "cône midis êtes détective soupe adressent pouf putsch clones fraîche",
+    "excède ex aile group groupes stricte technologie formel perspectives spectre spectre",
+    "collecte détecte orales regrettent prouve prouve borique explosifs nord mouvements",
+    "formes réformes technique prestigieux boum steak steppes roux chine promeut disque",
+    "disque districts filme escorte machines complexe gramme marques pèse fret",
+    "explicites score expertises bip québec domestiques corrects plat sommes plateforme sortes",
+    "excepte acceptent liste sélective chics petites dette dette expriment taxe",
+    "classe sauce mie nient loft gril insectes librairie régime contextes ère",
+    "dit chaise rôles gars kiki kiki presse jean tchèque semestre rouges",
+    "bouddhiste chefs manifeste orbite naïve faut chine épais ex princesse existe festivals",
+    "craque excès sève péri dôme segments loulou quiches élite costumes explose",
+    "briques laure mixte copies ligue ligues graphe gemmes porche estimés",
+    "exclu affecte telle tchad explorent nets nettes critiques concède golfe",
+    "crabe pacte secs pôle guilde princes proue forges crique masques",
+    "masques plaques galerie machinerie plaine orchestre skie christ brise flûte",
+    "trek bel exclusives norme clair peste fraudes rubis saoul chie cor",
+    "ordinaire mexicaine respectent pète mousses sol flics belle garde pers concepts"
+  ]
+}

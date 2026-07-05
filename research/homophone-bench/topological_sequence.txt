@@ -1,0 +1,64 @@
+TOPOLOGICAL SEQUENCE — 57 words, 19 paths
+
+ENGLISH:
+  secs vex sex of sector sect sexy
+  west vest zest of test text
+  sec said set of says
+  talk stalk steppe of step
+  steel steal stealer of stellar
+  seed seek seat of seeder
+  teller tell tel
+  shoot shoo shoe
+  scoot suit sued
+  seas seize sees
+  seller sell
+  tech teak
+  sea see
+  zen sen
+  too two
+  seem seam
+  super soup
+  sought sort
+  seal sealer
+
+FRENCH:
+  sexe vexes vexe de sectes secte sexes
+  ouest vestes zestes de test teste
+  sec set sets de sept
+  toc stock stoppent de steppes
+  style styles stylé de stèle
+  cid cite sites de cité
+  tels telles telle
+  choute chou choux
+  scout soutes soudes
+  sise sises six
+  selle sels
+  teck tiques
+  ci sis
+  zen saine
+  tout toux
+  cime cimes
+  soupe soupes
+  sotte sortes
+  cils scellé
+
+DETAIL:
+  PATH 1: secs[1.00]→sexe → vex[1.00]→vexes → sex[1.00]→vexe → sector[1.00]→sectes → sect[1.00]→secte → sexy[0.91]→sexes
+  PATH 2: west[1.00]→ouest → vest[1.00]→vestes → zest[1.00]→zestes → test[1.00]→test → text[0.94]→teste
+  PATH 3: sec[1.00]→sec → said[0.98]→set → set[1.00]→sets → says[1.00]→sept
+  PATH 4: talk[1.00]→toc → stalk[1.00]→stock → steppe[0.95]→stoppent → step[1.00]→steppes
+  PATH 5: steel[1.00]→style → steal[1.00]→styles → stealer[0.81]→stylé → stellar[1.00]→stèle
+  PATH 6: seed[1.00]→cid → seek[1.00]→cite → seat[1.00]→sites → seeder[0.77]→cité
+  PATH 7: teller[1.00]→tels → tell[1.00]→telles → tel[1.00]→telle
+  PATH 8: shoot[1.00]→choute → shoo[1.00]→chou → shoe[1.00]→choux
+  PATH 9: scoot[1.00]→scout → suit[1.00]→soutes → sued[1.00]→soudes
+  PATH 10: seas[1.00]→sise → seize[1.00]→sises → sees[0.98]→six
+  PATH 11: seller[1.00]→selle → sell[1.00]→sels
+  PATH 12: tech[1.00]→teck → teak[1.00]→tiques
+  PATH 13: sea[1.00]→ci → see[1.00]→sis
+  PATH 14: zen[1.00]→zen → sen[1.00]→saine
+  PATH 15: too[1.00]→tout → two[1.00]→toux
+  PATH 16: seem[1.00]→cime → seam[1.00]→cimes
+  PATH 17: super[1.00]→soupe → soup[1.00]→soupes
+  PATH 18: sought[1.00]→sotte → sort[0.86]→sortes
+  PATH 19: seal[1.00]→cils → sealer[0.77]→scellé
