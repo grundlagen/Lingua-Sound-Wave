@@ -1,0 +1,5 @@
+usable	coverage	partial_ratio	avg_score	rhythm_delta	en	fr	unit_kinds	tier_path	warnings	missing
+1	1.0	0.0	0.921	0	two men set the test	tous maine cet de teste	whole,whole,whole,whole,whole	S,S,S,B_reservoir,S		
+1	1.0	0.0	0.921	0	we do see the group	oui doue ci de groupe	whole,whole,whole,whole,whole	S,S,S,B_reservoir,S		
+1	0.8	0.0	0.84	1	the west wind is here	de ouest [wind] aise ion	whole,whole,missing,whole,whole	B_reservoir,S,missing,S,A		wind
+0	0.6	0.0	0.826	1	those words prove the rhythm	douze [words] prouve de [rhythm]	whole,missing,whole,whole,missing	A,missing,S,B_reservoir,missing		words,rhythm

@@ -1,0 +1,1034 @@
+{
+  "parameters": {
+    "seed": 17,
+    "prefer_multi": false,
+    "prefer_partial": false,
+    "partial_threshold": 0.72
+  },
+  "lines": [
+    {
+      "en": "two men set the test",
+      "fr": "tous maine cet de teste",
+      "coverage": 1.0,
+      "partial_ratio": 0.0,
+      "avg_score": 0.921,
+      "rhythm_delta": 0,
+      "usable_for_composition": true,
+      "missing": [],
+      "junction_warnings": [],
+      "unit_kinds": [
+        "whole",
+        "whole",
+        "whole",
+        "whole",
+        "whole"
+      ],
+      "tier_path": [
+        "S",
+        "S",
+        "S",
+        "B_reservoir",
+        "S"
+      ],
+      "units": [
+        {
+          "en": "two",
+          "fr": "tous",
+          "score": 1.0,
+          "tier": "S",
+          "rank": 2,
+          "multiword": false,
+          "boundary_after_segment": null,
+          "cognate": false,
+          "loanword": false,
+          "en_ipa": "tuː",
+          "fr_ipa": "tu",
+          "en_freq_rank": 80,
+          "alignment": "t:t u:u",
+          "shared_segments": 2,
+          "coverage": 1.0,
+          "direction": "en_fr",
+          "align": [
+            [
+              "t",
+              "t",
+              0.0
+            ],
+            [
+              "u",
+              "u",
+              0.0
+            ]
+          ],
+          "pivot": "CV",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "t|C",
+          "en_coda": "u|V",
+          "fr_onset": "t|C",
+          "fr_coda": "u|V",
+          "gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "base_tier": "S",
+          "cheap_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "_id": "dict:795",
+          "_kind": "whole"
+        },
+        {
+          "en": "men",
+          "fr": "maine",
+          "score": 1.0,
+          "tier": "S",
+          "rank": 0,
+          "multiword": false,
+          "boundary_after_segment": null,
+          "cognate": false,
+          "loanword": false,
+          "pairbank": true,
+          "en_ipa": "mɛn",
+          "fr_ipa": "mɛn",
+          "en_freq_rank": 1000000,
+          "alignment": "m:m ɛ:ɛ n:n",
+          "shared_segments": 3,
+          "coverage": 1.0,
+          "direction": "en_fr",
+          "align": [
+            [
+              "m",
+              "m",
+              0.0
+            ],
+            [
+              "ɛ",
+              "ɛ",
+              0.0
+            ],
+            [
+              "n",
+              "n",
+              0.0
+            ]
+          ],
+          "pivot": "CVC",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "m|C",
+          "en_coda": "n|C",
+          "fr_onset": "m|C",
+          "fr_coda": "n|C",
+          "gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "base_tier": "S",
+          "cheap_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "_id": "dict:397",
+          "_kind": "whole"
+        },
+        {
+          "en": "set",
+          "fr": "cet",
+          "score": 1.0,
+          "tier": "S",
+          "rank": 0,
+          "multiword": false,
+          "boundary_after_segment": null,
+          "cognate": false,
+          "loanword": false,
+          "pairbank": true,
+          "en_ipa": "sɛt",
+          "fr_ipa": "sɛt",
+          "en_freq_rank": 1000000,
+          "alignment": "s:s ɛ:ɛ t:t",
+          "shared_segments": 3,
+          "coverage": 1.0,
+          "direction": "en_fr",
+          "align": [
+            [
+              "s",
+              "s",
+              0.0
+            ],
+            [
+              "ɛ",
+              "ɛ",
+              0.0
+            ],
+            [
+              "t",
+              "t",
+              0.0
+            ]
+          ],
+          "pivot": "CVC",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "s|C",
+          "en_coda": "t|C",
+          "fr_onset": "s|C",
+          "fr_coda": "t|C",
+          "gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "base_tier": "S",
+          "cheap_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "_id": "dict:642",
+          "_kind": "whole"
+        },
+        {
+          "en": "the",
+          "fr": "de",
+          "score": 0.607,
+          "tier": "B_reservoir",
+          "rank": 0,
+          "multiword": false,
+          "decoder": false,
+          "cognate": false,
+          "loanword": false,
+          "direction": "en_fr",
+          "en_ipa": "ðə",
+          "fr_ipa": "də",
+          "en_freq_rank": null,
+          "funcword": true,
+          "funcword_band": "funcword_core",
+          "composition_only": true,
+          "source_stage": "v5.1_funcword_glue",
+          "provenance": "explicit_weak_function_glue",
+          "accepted_by": "composition-only core function glue; keeps independent score and does not upgrade gold tier",
+          "align": [
+            [
+              "ð",
+              "d",
+              0.238
+            ],
+            [
+              "ə",
+              "ə",
+              0.0
+            ]
+          ],
+          "pivot": "CV",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "ð|C",
+          "en_coda": "ə|V",
+          "fr_onset": "d|C",
+          "fr_coda": "ə|V",
+          "alignment": "ð:d ə:ə",
+          "base_tier": "B",
+          "gap_ratio": 0.0,
+          "cheap_gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "_id": "dict:11788",
+          "_kind": "whole"
+        },
+        {
+          "en": "test",
+          "fr": "teste",
+          "score": 1.0,
+          "tier": "S",
+          "rank": 1,
+          "multiword": false,
+          "boundary_after_segment": null,
+          "cognate": false,
+          "loanword": false,
+          "en_ipa": "tɛst",
+          "fr_ipa": "tɛst",
+          "en_freq_rank": 609,
+          "alignment": "t:t ɛ:ɛ s:s t:t",
+          "shared_segments": 4,
+          "coverage": 1.0,
+          "direction": "en_fr",
+          "align": [
+            [
+              "t",
+              "t",
+              0.0
+            ],
+            [
+              "ɛ",
+              "ɛ",
+              0.0
+            ],
+            [
+              "s",
+              "s",
+              0.0
+            ],
+            [
+              "t",
+              "t",
+              0.0
+            ]
+          ],
+          "pivot": "CVCC",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "t|C",
+          "en_coda": "t|C",
+          "fr_onset": "t|C",
+          "fr_coda": "t|C",
+          "gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "base_tier": "S",
+          "cheap_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "_id": "dict:762",
+          "_kind": "whole"
+        }
+      ]
+    },
+    {
+      "en": "we do see the group",
+      "fr": "oui doue ci de groupe",
+      "coverage": 1.0,
+      "partial_ratio": 0.0,
+      "avg_score": 0.921,
+      "rhythm_delta": 0,
+      "usable_for_composition": true,
+      "missing": [],
+      "junction_warnings": [],
+      "unit_kinds": [
+        "whole",
+        "whole",
+        "whole",
+        "whole",
+        "whole"
+      ],
+      "tier_path": [
+        "S",
+        "S",
+        "S",
+        "B_reservoir",
+        "S"
+      ],
+      "units": [
+        {
+          "en": "we",
+          "fr": "oui",
+          "score": 1.0,
+          "tier": "S",
+          "rank": 1,
+          "multiword": false,
+          "boundary_after_segment": null,
+          "cognate": false,
+          "loanword": false,
+          "en_ipa": "wiː",
+          "fr_ipa": "wi",
+          "en_freq_rank": 26,
+          "alignment": "w:w i:i",
+          "shared_segments": 2,
+          "coverage": 1.0,
+          "direction": "en_fr",
+          "align": [
+            [
+              "w",
+              "w",
+              0.0
+            ],
+            [
+              "i",
+              "i",
+              0.0
+            ]
+          ],
+          "pivot": "CV",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "w|C",
+          "en_coda": "i|V",
+          "fr_onset": "w|C",
+          "fr_coda": "i|V",
+          "gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "base_tier": "S",
+          "cheap_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "_id": "dict:808",
+          "_kind": "whole"
+        },
+        {
+          "en": "do",
+          "fr": "doue",
+          "score": 1.0,
+          "tier": "S",
+          "rank": 0,
+          "multiword": false,
+          "boundary_after_segment": null,
+          "cognate": false,
+          "loanword": false,
+          "pairbank": true,
+          "en_ipa": "duː",
+          "fr_ipa": "du",
+          "en_freq_rank": 1000000,
+          "alignment": "d:d u:u",
+          "shared_segments": 2,
+          "coverage": 1.0,
+          "direction": "en_fr",
+          "align": [
+            [
+              "d",
+              "d",
+              0.0
+            ],
+            [
+              "u",
+              "u",
+              0.0
+            ]
+          ],
+          "pivot": "CV",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "d|C",
+          "en_coda": "u|V",
+          "fr_onset": "d|C",
+          "fr_coda": "u|V",
+          "gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "base_tier": "S",
+          "cheap_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "_id": "dict:205",
+          "_kind": "whole"
+        },
+        {
+          "en": "see",
+          "fr": "ci",
+          "score": 1.0,
+          "tier": "S",
+          "rank": 0,
+          "multiword": false,
+          "boundary_after_segment": null,
+          "cognate": false,
+          "loanword": false,
+          "pairbank": true,
+          "en_ipa": "siː",
+          "fr_ipa": "si",
+          "en_freq_rank": 1000000,
+          "alignment": "s:s i:i",
+          "shared_segments": 2,
+          "coverage": 1.0,
+          "direction": "en_fr",
+          "align": [
+            [
+              "s",
+              "s",
+              0.0
+            ],
+            [
+              "i",
+              "i",
+              0.0
+            ]
+          ],
+          "pivot": "CV",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "s|C",
+          "en_coda": "i|V",
+          "fr_onset": "s|C",
+          "fr_coda": "i|V",
+          "gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "base_tier": "S",
+          "cheap_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "_id": "dict:616",
+          "_kind": "whole"
+        },
+        {
+          "en": "the",
+          "fr": "de",
+          "score": 0.607,
+          "tier": "B_reservoir",
+          "rank": 0,
+          "multiword": false,
+          "decoder": false,
+          "cognate": false,
+          "loanword": false,
+          "direction": "en_fr",
+          "en_ipa": "ðə",
+          "fr_ipa": "də",
+          "en_freq_rank": null,
+          "funcword": true,
+          "funcword_band": "funcword_core",
+          "composition_only": true,
+          "source_stage": "v5.1_funcword_glue",
+          "provenance": "explicit_weak_function_glue",
+          "accepted_by": "composition-only core function glue; keeps independent score and does not upgrade gold tier",
+          "align": [
+            [
+              "ð",
+              "d",
+              0.238
+            ],
+            [
+              "ə",
+              "ə",
+              0.0
+            ]
+          ],
+          "pivot": "CV",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "ð|C",
+          "en_coda": "ə|V",
+          "fr_onset": "d|C",
+          "fr_coda": "ə|V",
+          "alignment": "ð:d ə:ə",
+          "base_tier": "B",
+          "gap_ratio": 0.0,
+          "cheap_gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "_id": "dict:11788",
+          "_kind": "whole"
+        },
+        {
+          "en": "group",
+          "fr": "groupe",
+          "score": 1.0,
+          "tier": "S",
+          "rank": 1,
+          "multiword": false,
+          "boundary_after_segment": null,
+          "cognate": true,
+          "loanword": false,
+          "en_ipa": "ɡɹuːp",
+          "fr_ipa": "ɡʁup",
+          "en_freq_rank": 221,
+          "alignment": "ɡ:ɡ ɹ:ɹ u:u p:p",
+          "shared_segments": 4,
+          "coverage": 1.0,
+          "direction": "en_fr",
+          "align": [
+            [
+              "ɡ",
+              "ɡ",
+              0.0
+            ],
+            [
+              "ɹ",
+              "ɹ",
+              0.0
+            ],
+            [
+              "u",
+              "u",
+              0.0
+            ],
+            [
+              "p",
+              "p",
+              0.0
+            ]
+          ],
+          "pivot": "CCVC",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "ɡ|C",
+          "en_coda": "p|C",
+          "fr_onset": "ɡ|C",
+          "fr_coda": "p|C",
+          "gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "base_tier": "S",
+          "cheap_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "_id": "dict:313",
+          "_kind": "whole"
+        }
+      ]
+    },
+    {
+      "en": "the west wind is here",
+      "fr": "de ouest [wind] aise ion",
+      "coverage": 0.8,
+      "partial_ratio": 0.0,
+      "avg_score": 0.84,
+      "rhythm_delta": 1,
+      "usable_for_composition": true,
+      "missing": [
+        "wind"
+      ],
+      "junction_warnings": [],
+      "unit_kinds": [
+        "whole",
+        "whole",
+        "missing",
+        "whole",
+        "whole"
+      ],
+      "tier_path": [
+        "B_reservoir",
+        "S",
+        "missing",
+        "S",
+        "A"
+      ],
+      "units": [
+        {
+          "en": "the",
+          "fr": "de",
+          "score": 0.607,
+          "tier": "B_reservoir",
+          "rank": 0,
+          "multiword": false,
+          "decoder": false,
+          "cognate": false,
+          "loanword": false,
+          "direction": "en_fr",
+          "en_ipa": "ðə",
+          "fr_ipa": "də",
+          "en_freq_rank": null,
+          "funcword": true,
+          "funcword_band": "funcword_core",
+          "composition_only": true,
+          "source_stage": "v5.1_funcword_glue",
+          "provenance": "explicit_weak_function_glue",
+          "accepted_by": "composition-only core function glue; keeps independent score and does not upgrade gold tier",
+          "align": [
+            [
+              "ð",
+              "d",
+              0.238
+            ],
+            [
+              "ə",
+              "ə",
+              0.0
+            ]
+          ],
+          "pivot": "CV",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "ð|C",
+          "en_coda": "ə|V",
+          "fr_onset": "d|C",
+          "fr_coda": "ə|V",
+          "alignment": "ð:d ə:ə",
+          "base_tier": "B",
+          "gap_ratio": 0.0,
+          "cheap_gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "_id": "dict:11788",
+          "_kind": "whole"
+        },
+        {
+          "en": "west",
+          "fr": "ouest",
+          "score": 1.0,
+          "tier": "S",
+          "rank": 0,
+          "multiword": false,
+          "boundary_after_segment": null,
+          "cognate": true,
+          "loanword": false,
+          "en_ipa": "wɛst",
+          "fr_ipa": "wɛst",
+          "en_freq_rank": 481,
+          "alignment": "w:w ɛ:ɛ s:s t:t",
+          "shared_segments": 4,
+          "coverage": 1.0,
+          "direction": "en_fr",
+          "align": [
+            [
+              "w",
+              "w",
+              0.0
+            ],
+            [
+              "ɛ",
+              "ɛ",
+              0.0
+            ],
+            [
+              "s",
+              "s",
+              0.0
+            ],
+            [
+              "t",
+              "t",
+              0.0
+            ]
+          ],
+          "pivot": "CVCC",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "w|C",
+          "en_coda": "t|C",
+          "fr_onset": "w|C",
+          "fr_coda": "t|C",
+          "gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "base_tier": "S",
+          "cheap_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "_id": "dict:814",
+          "_kind": "whole"
+        },
+        {
+          "kind": "missing",
+          "_kind": "missing",
+          "en": "wind",
+          "fr": "[wind]",
+          "score": 0.0,
+          "tier": "missing"
+        },
+        {
+          "en": "is",
+          "fr": "aise",
+          "score": 0.94,
+          "tier": "S",
+          "rank": 0,
+          "multiword": false,
+          "funcword": true,
+          "decoder": true,
+          "cognate": false,
+          "loanword": false,
+          "coverage": 1.0,
+          "max_substitution": 0.12,
+          "en_ipa": "ɪz",
+          "fr_ipa": "ɛz",
+          "direction": "en_fr",
+          "en_freq_rank": null,
+          "align": [
+            [
+              "ɪ",
+              "ɛ",
+              0.119
+            ],
+            [
+              "z",
+              "z",
+              0.0
+            ]
+          ],
+          "pivot": "VC",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "ɪ|V",
+          "en_coda": "z|C",
+          "fr_onset": "ɛ|V",
+          "fr_coda": "z|C",
+          "alignment": "ɪ:ɛ z:z",
+          "gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "base_tier": "S",
+          "cheap_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "_id": "dict:1360",
+          "_kind": "whole"
+        },
+        {
+          "en": "here",
+          "fr": "ion",
+          "score": 0.814,
+          "tier": "A",
+          "rank": 0,
+          "multiword": false,
+          "funcword": true,
+          "decoder": true,
+          "cognate": false,
+          "loanword": false,
+          "coverage": 0.67,
+          "max_substitution": 0.24,
+          "en_ipa": "hiə",
+          "fr_ipa": "jɔ̃",
+          "direction": "en_fr",
+          "en_freq_rank": null,
+          "align": [
+            [
+              "h",
+              "·",
+              0.12
+            ],
+            [
+              "i",
+              "j",
+              0.2
+            ],
+            [
+              "ə",
+              "ɔ̃",
+              0.238
+            ]
+          ],
+          "pivot": "·VV",
+          "en_syll": 2,
+          "fr_syll": 1,
+          "en_onset": "h|C",
+          "en_coda": "ə|V",
+          "fr_onset": "j|C",
+          "fr_coda": "ɔ̃|V",
+          "alignment": "h:· i:j ə:ɔ̃",
+          "gap_ratio": 0.333,
+          "expensive_gap_ratio": 0.0,
+          "syllable_delta": 1,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "base_tier": "A",
+          "cheap_gap_ratio": 0.333,
+          "effective_gap_ratio": 0.083,
+          "_id": "dict:2823",
+          "_kind": "whole"
+        }
+      ]
+    },
+    {
+      "en": "those words prove the rhythm",
+      "fr": "douze [words] prouve de [rhythm]",
+      "coverage": 0.6,
+      "partial_ratio": 0.0,
+      "avg_score": 0.826,
+      "rhythm_delta": 1,
+      "usable_for_composition": false,
+      "missing": [
+        "words",
+        "rhythm"
+      ],
+      "junction_warnings": [],
+      "unit_kinds": [
+        "whole",
+        "missing",
+        "whole",
+        "whole",
+        "missing"
+      ],
+      "tier_path": [
+        "A",
+        "missing",
+        "S",
+        "B_reservoir",
+        "missing"
+      ],
+      "units": [
+        {
+          "en": "those",
+          "fr": "douze",
+          "score": 0.87,
+          "tier": "A",
+          "rank": 0,
+          "multiword": false,
+          "funcword": true,
+          "decoder": true,
+          "cognate": false,
+          "loanword": false,
+          "coverage": 0.75,
+          "max_substitution": 0.24,
+          "en_ipa": "ðəʊz",
+          "fr_ipa": "duz",
+          "direction": "en_fr",
+          "en_freq_rank": null,
+          "align": [
+            [
+              "ð",
+              "d",
+              0.238
+            ],
+            [
+              "ə",
+              "·",
+              0.18
+            ],
+            [
+              "ʊ",
+              "u",
+              0.1
+            ],
+            [
+              "z",
+              "z",
+              0.0
+            ]
+          ],
+          "pivot": "C·VC",
+          "en_syll": 2,
+          "fr_syll": 1,
+          "en_onset": "ð|C",
+          "en_coda": "z|C",
+          "fr_onset": "d|C",
+          "fr_coda": "z|C",
+          "alignment": "ð:d ə:· ʊ:u z:z",
+          "gap_ratio": 0.25,
+          "expensive_gap_ratio": 0.0,
+          "syllable_delta": 1,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "base_tier": "A",
+          "cheap_gap_ratio": 0.25,
+          "effective_gap_ratio": 0.062,
+          "_id": "dict:2016",
+          "_kind": "whole"
+        },
+        {
+          "kind": "missing",
+          "_kind": "missing",
+          "en": "words",
+          "fr": "[words]",
+          "score": 0.0,
+          "tier": "missing"
+        },
+        {
+          "en": "prove",
+          "fr": "prouve",
+          "score": 1.0,
+          "tier": "S",
+          "rank": 1,
+          "multiword": false,
+          "boundary_after_segment": null,
+          "cognate": true,
+          "loanword": false,
+          "en_ipa": "pɹuːv",
+          "fr_ipa": "pʁuv",
+          "en_freq_rank": 1620,
+          "alignment": "p:p ɹ:ɹ u:u v:v",
+          "shared_segments": 4,
+          "coverage": 1.0,
+          "direction": "en_fr",
+          "align": [
+            [
+              "p",
+              "p",
+              0.0
+            ],
+            [
+              "ɹ",
+              "ɹ",
+              0.0
+            ],
+            [
+              "u",
+              "u",
+              0.0
+            ],
+            [
+              "v",
+              "v",
+              0.0
+            ]
+          ],
+          "pivot": "CCVC",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "p|C",
+          "en_coda": "v|C",
+          "fr_onset": "p|C",
+          "fr_coda": "v|C",
+          "gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "base_tier": "S",
+          "cheap_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "_id": "dict:543",
+          "_kind": "whole"
+        },
+        {
+          "en": "the",
+          "fr": "de",
+          "score": 0.607,
+          "tier": "B_reservoir",
+          "rank": 0,
+          "multiword": false,
+          "decoder": false,
+          "cognate": false,
+          "loanword": false,
+          "direction": "en_fr",
+          "en_ipa": "ðə",
+          "fr_ipa": "də",
+          "en_freq_rank": null,
+          "funcword": true,
+          "funcword_band": "funcword_core",
+          "composition_only": true,
+          "source_stage": "v5.1_funcword_glue",
+          "provenance": "explicit_weak_function_glue",
+          "accepted_by": "composition-only core function glue; keeps independent score and does not upgrade gold tier",
+          "align": [
+            [
+              "ð",
+              "d",
+              0.238
+            ],
+            [
+              "ə",
+              "ə",
+              0.0
+            ]
+          ],
+          "pivot": "CV",
+          "en_syll": 1,
+          "fr_syll": 1,
+          "en_onset": "ð|C",
+          "en_coda": "ə|V",
+          "fr_onset": "d|C",
+          "fr_coda": "ə|V",
+          "alignment": "ð:d ə:ə",
+          "base_tier": "B",
+          "gap_ratio": 0.0,
+          "cheap_gap_ratio": 0.0,
+          "expensive_gap_ratio": 0.0,
+          "effective_gap_ratio": 0.0,
+          "syllable_delta": 0,
+          "huge_deletion": false,
+          "usable_for_composition": true,
+          "_id": "dict:11788",
+          "_kind": "whole"
+        },
+        {
+          "kind": "missing",
+          "_kind": "missing",
+          "en": "rhythm",
+          "fr": "[rhythm]",
+          "score": 0.0,
+          "tier": "missing"
+        }
+      ]
+    }
+  ]
+}

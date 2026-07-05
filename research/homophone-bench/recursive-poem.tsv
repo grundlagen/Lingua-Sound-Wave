@@ -1,0 +1,5 @@
+pass	line	pattern	score	sound_mean	semantic_mean	en	fr	kinds	units
+3	1	breeze proves rose	1.355	0.885	0.95	breeze proves rose	brise prouve roses	whole,whole,whole	breeze->brise[S:1.0]; proves->prouve[A:0.822]; rose->roses[A:0.833]
+3	2	air dream	1.23	0.891	0.475	air dream	airs rime	whole,whole	air->airs[S:1.0]; dream->rime[A:0.781]
+3	3	west air rose	1.399	0.944	0.95	west air rose	ouest airs roses	whole,whole,whole	west->ouest[S:1.0]; air->airs[S:1.0]; rose->roses[A:0.833]
+3	4	breeze proves dream	1.137	0.868	0.633	breeze proves dream	brise prouve rime	whole,whole,whole	breeze->brise[S:1.0]; proves->prouve[A:0.822]; dream->rime[A:0.781]

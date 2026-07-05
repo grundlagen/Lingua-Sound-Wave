@@ -1,0 +1,1488 @@
+{
+  "parameters": {
+    "theme": "west air breeze rose bell dream prove",
+    "passes": 3,
+    "graph_depth": 3,
+    "beam": 48,
+    "seed_keep": 14
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "seed_words": [
+        "west",
+        "air",
+        "breeze",
+        "rose",
+        "bell",
+        "dream",
+        "prove"
+      ],
+      "candidate_count": 933,
+      "poem": {
+        "en": "breeze proves rose\nair dream\nwest air rose\nbreeze proves dream",
+        "fr": "brise prouve roses\nairs rime\nouest airs roses\nbrise prouve rime",
+        "lines": [
+          {
+            "pattern": "breeze proves rose",
+            "score": 1.343,
+            "en": "breeze proves rose",
+            "fr": "brise prouve roses",
+            "units": [
+              {
+                "id": "dict:100",
+                "en": "breeze",
+                "fr": "brise",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.687,
+                "en_plausibility": 0.643,
+                "tags": [
+                  "echo",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.947,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:2577",
+                "en": "proves",
+                "fr": "prouve",
+                "score": 0.822,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 0.817,
+                "walk_weight": 0.924,
+                "fr_plausibility": 0.725,
+                "en_plausibility": 0.677,
+                "tags": [
+                  "action",
+                  "echo"
+                ],
+                "base_score": 0.8483,
+                "why": [
+                  "meaning=0.95",
+                  "seed=0.82",
+                  "walk=0.92"
+                ]
+              },
+              {
+                "id": "dict:2301",
+                "en": "rose",
+                "fr": "roses",
+                "score": 0.833,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.872,
+                "fr_plausibility": 0.695,
+                "en_plausibility": 0.803,
+                "tags": [
+                  "color",
+                  "echo",
+                  "flower",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.8862,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.87"
+                ]
+              }
+            ],
+            "semantic_mean": 0.95,
+            "sound_mean": 0.885,
+            "kinds": [
+              "whole",
+              "whole",
+              "whole"
+            ]
+          },
+          {
+            "pattern": "air dream",
+            "score": 1.23,
+            "en": "air dream",
+            "fr": "airs rime",
+            "units": [
+              {
+                "id": "dict:1",
+                "en": "air",
+                "fr": "airs",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.668,
+                "en_plausibility": 0.895,
+                "tags": [
+                  "echo",
+                  "image",
+                  "nature",
+                  "sound"
+                ],
+                "base_score": 0.9556,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:4080",
+                "en": "dream",
+                "fr": "rime",
+                "score": 0.781,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.0,
+                "seed_weight": 1.0,
+                "walk_weight": 0.0,
+                "fr_plausibility": 0.622,
+                "en_plausibility": 0.818,
+                "tags": [
+                  "dream",
+                  "image",
+                  "nature",
+                  "sound"
+                ],
+                "base_score": 0.548,
+                "why": [
+                  "seed=1.00"
+                ]
+              }
+            ],
+            "semantic_mean": 0.475,
+            "sound_mean": 0.891,
+            "kinds": [
+              "whole",
+              "whole"
+            ]
+          },
+          {
+            "pattern": "west air rose",
+            "score": 1.399,
+            "en": "west air rose",
+            "fr": "ouest airs roses",
+            "units": [
+              {
+                "id": "dict:814",
+                "en": "west",
+                "fr": "ouest",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.833,
+                "en_plausibility": 0.882,
+                "tags": [
+                  "direction",
+                  "echo",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.9683,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:1",
+                "en": "air",
+                "fr": "airs",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.668,
+                "en_plausibility": 0.895,
+                "tags": [
+                  "echo",
+                  "image",
+                  "nature",
+                  "sound"
+                ],
+                "base_score": 0.9556,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:2301",
+                "en": "rose",
+                "fr": "roses",
+                "score": 0.833,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.872,
+                "fr_plausibility": 0.695,
+                "en_plausibility": 0.803,
+                "tags": [
+                  "color",
+                  "echo",
+                  "flower",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.8862,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.87"
+                ]
+              }
+            ],
+            "semantic_mean": 0.95,
+            "sound_mean": 0.944,
+            "kinds": [
+              "whole",
+              "whole",
+              "whole"
+            ]
+          },
+          {
+            "pattern": "breeze proves dream",
+            "score": 1.125,
+            "en": "breeze proves dream",
+            "fr": "brise prouve rime",
+            "units": [
+              {
+                "id": "dict:100",
+                "en": "breeze",
+                "fr": "brise",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.687,
+                "en_plausibility": 0.643,
+                "tags": [
+                  "echo",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.947,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:2577",
+                "en": "proves",
+                "fr": "prouve",
+                "score": 0.822,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 0.817,
+                "walk_weight": 0.924,
+                "fr_plausibility": 0.725,
+                "en_plausibility": 0.677,
+                "tags": [
+                  "action",
+                  "echo"
+                ],
+                "base_score": 0.8483,
+                "why": [
+                  "meaning=0.95",
+                  "seed=0.82",
+                  "walk=0.92"
+                ]
+              },
+              {
+                "id": "dict:4080",
+                "en": "dream",
+                "fr": "rime",
+                "score": 0.781,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.0,
+                "seed_weight": 1.0,
+                "walk_weight": 0.0,
+                "fr_plausibility": 0.622,
+                "en_plausibility": 0.818,
+                "tags": [
+                  "dream",
+                  "image",
+                  "nature",
+                  "sound"
+                ],
+                "base_score": 0.548,
+                "why": [
+                  "seed=1.00"
+                ]
+              }
+            ],
+            "semantic_mean": 0.633,
+            "sound_mean": 0.868,
+            "kinds": [
+              "whole",
+              "whole",
+              "whole"
+            ]
+          }
+        ],
+        "semantic_mean": 0.752,
+        "sound_mean": 0.897
+      }
+    },
+    {
+      "pass": 2,
+      "seed_words": [
+        "air",
+        "airs",
+        "breeze",
+        "brise",
+        "ouest",
+        "west",
+        "rose",
+        "roses",
+        "prouve",
+        "proves",
+        "dream",
+        "rime",
+        "bell",
+        "prove"
+      ],
+      "candidate_count": 933,
+      "poem": {
+        "en": "breeze proves rose\nair dream\nwest air rose\nbreeze proves dream",
+        "fr": "brise prouve roses\nairs rime\nouest airs roses\nbrise prouve rime",
+        "lines": [
+          {
+            "pattern": "breeze proves rose",
+            "score": 1.355,
+            "en": "breeze proves rose",
+            "fr": "brise prouve roses",
+            "units": [
+              {
+                "id": "dict:100",
+                "en": "breeze",
+                "fr": "brise",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.687,
+                "en_plausibility": 0.643,
+                "tags": [
+                  "echo",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.947,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:2577",
+                "en": "proves",
+                "fr": "prouve",
+                "score": 0.822,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.924,
+                "fr_plausibility": 0.725,
+                "en_plausibility": 0.677,
+                "tags": [
+                  "action",
+                  "echo"
+                ],
+                "base_score": 0.8849,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.92"
+                ]
+              },
+              {
+                "id": "dict:2301",
+                "en": "rose",
+                "fr": "roses",
+                "score": 0.833,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.872,
+                "fr_plausibility": 0.695,
+                "en_plausibility": 0.803,
+                "tags": [
+                  "color",
+                  "echo",
+                  "flower",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.8862,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.87"
+                ]
+              }
+            ],
+            "semantic_mean": 0.95,
+            "sound_mean": 0.885,
+            "kinds": [
+              "whole",
+              "whole",
+              "whole"
+            ]
+          },
+          {
+            "pattern": "air dream",
+            "score": 1.23,
+            "en": "air dream",
+            "fr": "airs rime",
+            "units": [
+              {
+                "id": "dict:1",
+                "en": "air",
+                "fr": "airs",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.668,
+                "en_plausibility": 0.895,
+                "tags": [
+                  "echo",
+                  "image",
+                  "nature",
+                  "sound"
+                ],
+                "base_score": 0.9556,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:4080",
+                "en": "dream",
+                "fr": "rime",
+                "score": 0.781,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.0,
+                "seed_weight": 1.0,
+                "walk_weight": 0.0,
+                "fr_plausibility": 0.622,
+                "en_plausibility": 0.818,
+                "tags": [
+                  "dream",
+                  "image",
+                  "nature",
+                  "sound"
+                ],
+                "base_score": 0.548,
+                "why": [
+                  "seed=1.00"
+                ]
+              }
+            ],
+            "semantic_mean": 0.475,
+            "sound_mean": 0.891,
+            "kinds": [
+              "whole",
+              "whole"
+            ]
+          },
+          {
+            "pattern": "west air rose",
+            "score": 1.399,
+            "en": "west air rose",
+            "fr": "ouest airs roses",
+            "units": [
+              {
+                "id": "dict:814",
+                "en": "west",
+                "fr": "ouest",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.833,
+                "en_plausibility": 0.882,
+                "tags": [
+                  "direction",
+                  "echo",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.9683,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:1",
+                "en": "air",
+                "fr": "airs",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.668,
+                "en_plausibility": 0.895,
+                "tags": [
+                  "echo",
+                  "image",
+                  "nature",
+                  "sound"
+                ],
+                "base_score": 0.9556,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:2301",
+                "en": "rose",
+                "fr": "roses",
+                "score": 0.833,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.872,
+                "fr_plausibility": 0.695,
+                "en_plausibility": 0.803,
+                "tags": [
+                  "color",
+                  "echo",
+                  "flower",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.8862,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.87"
+                ]
+              }
+            ],
+            "semantic_mean": 0.95,
+            "sound_mean": 0.944,
+            "kinds": [
+              "whole",
+              "whole",
+              "whole"
+            ]
+          },
+          {
+            "pattern": "breeze proves dream",
+            "score": 1.137,
+            "en": "breeze proves dream",
+            "fr": "brise prouve rime",
+            "units": [
+              {
+                "id": "dict:100",
+                "en": "breeze",
+                "fr": "brise",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.687,
+                "en_plausibility": 0.643,
+                "tags": [
+                  "echo",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.947,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:2577",
+                "en": "proves",
+                "fr": "prouve",
+                "score": 0.822,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.924,
+                "fr_plausibility": 0.725,
+                "en_plausibility": 0.677,
+                "tags": [
+                  "action",
+                  "echo"
+                ],
+                "base_score": 0.8849,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.92"
+                ]
+              },
+              {
+                "id": "dict:4080",
+                "en": "dream",
+                "fr": "rime",
+                "score": 0.781,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.0,
+                "seed_weight": 1.0,
+                "walk_weight": 0.0,
+                "fr_plausibility": 0.622,
+                "en_plausibility": 0.818,
+                "tags": [
+                  "dream",
+                  "image",
+                  "nature",
+                  "sound"
+                ],
+                "base_score": 0.548,
+                "why": [
+                  "seed=1.00"
+                ]
+              }
+            ],
+            "semantic_mean": 0.633,
+            "sound_mean": 0.868,
+            "kinds": [
+              "whole",
+              "whole",
+              "whole"
+            ]
+          }
+        ],
+        "semantic_mean": 0.752,
+        "sound_mean": 0.897
+      }
+    },
+    {
+      "pass": 3,
+      "seed_words": [
+        "air",
+        "airs",
+        "breeze",
+        "brise",
+        "ouest",
+        "west",
+        "prouve",
+        "proves",
+        "rose",
+        "roses",
+        "dream",
+        "rime",
+        "bell",
+        "prove"
+      ],
+      "candidate_count": 933,
+      "poem": {
+        "en": "breeze proves rose\nair dream\nwest air rose\nbreeze proves dream",
+        "fr": "brise prouve roses\nairs rime\nouest airs roses\nbrise prouve rime",
+        "lines": [
+          {
+            "pattern": "breeze proves rose",
+            "score": 1.355,
+            "en": "breeze proves rose",
+            "fr": "brise prouve roses",
+            "units": [
+              {
+                "id": "dict:100",
+                "en": "breeze",
+                "fr": "brise",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.687,
+                "en_plausibility": 0.643,
+                "tags": [
+                  "echo",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.947,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:2577",
+                "en": "proves",
+                "fr": "prouve",
+                "score": 0.822,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.924,
+                "fr_plausibility": 0.725,
+                "en_plausibility": 0.677,
+                "tags": [
+                  "action",
+                  "echo"
+                ],
+                "base_score": 0.8849,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.92"
+                ]
+              },
+              {
+                "id": "dict:2301",
+                "en": "rose",
+                "fr": "roses",
+                "score": 0.833,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.872,
+                "fr_plausibility": 0.695,
+                "en_plausibility": 0.803,
+                "tags": [
+                  "color",
+                  "echo",
+                  "flower",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.8862,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.87"
+                ]
+              }
+            ],
+            "semantic_mean": 0.95,
+            "sound_mean": 0.885,
+            "kinds": [
+              "whole",
+              "whole",
+              "whole"
+            ]
+          },
+          {
+            "pattern": "air dream",
+            "score": 1.23,
+            "en": "air dream",
+            "fr": "airs rime",
+            "units": [
+              {
+                "id": "dict:1",
+                "en": "air",
+                "fr": "airs",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.668,
+                "en_plausibility": 0.895,
+                "tags": [
+                  "echo",
+                  "image",
+                  "nature",
+                  "sound"
+                ],
+                "base_score": 0.9556,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:4080",
+                "en": "dream",
+                "fr": "rime",
+                "score": 0.781,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.0,
+                "seed_weight": 1.0,
+                "walk_weight": 0.0,
+                "fr_plausibility": 0.622,
+                "en_plausibility": 0.818,
+                "tags": [
+                  "dream",
+                  "image",
+                  "nature",
+                  "sound"
+                ],
+                "base_score": 0.548,
+                "why": [
+                  "seed=1.00"
+                ]
+              }
+            ],
+            "semantic_mean": 0.475,
+            "sound_mean": 0.891,
+            "kinds": [
+              "whole",
+              "whole"
+            ]
+          },
+          {
+            "pattern": "west air rose",
+            "score": 1.399,
+            "en": "west air rose",
+            "fr": "ouest airs roses",
+            "units": [
+              {
+                "id": "dict:814",
+                "en": "west",
+                "fr": "ouest",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.833,
+                "en_plausibility": 0.882,
+                "tags": [
+                  "direction",
+                  "echo",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.9683,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:1",
+                "en": "air",
+                "fr": "airs",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.668,
+                "en_plausibility": 0.895,
+                "tags": [
+                  "echo",
+                  "image",
+                  "nature",
+                  "sound"
+                ],
+                "base_score": 0.9556,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:2301",
+                "en": "rose",
+                "fr": "roses",
+                "score": 0.833,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.872,
+                "fr_plausibility": 0.695,
+                "en_plausibility": 0.803,
+                "tags": [
+                  "color",
+                  "echo",
+                  "flower",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.8862,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.87"
+                ]
+              }
+            ],
+            "semantic_mean": 0.95,
+            "sound_mean": 0.944,
+            "kinds": [
+              "whole",
+              "whole",
+              "whole"
+            ]
+          },
+          {
+            "pattern": "breeze proves dream",
+            "score": 1.137,
+            "en": "breeze proves dream",
+            "fr": "brise prouve rime",
+            "units": [
+              {
+                "id": "dict:100",
+                "en": "breeze",
+                "fr": "brise",
+                "score": 1.0,
+                "tier": "S",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.983,
+                "fr_plausibility": 0.687,
+                "en_plausibility": 0.643,
+                "tags": [
+                  "echo",
+                  "image",
+                  "nature"
+                ],
+                "base_score": 0.947,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.98"
+                ]
+              },
+              {
+                "id": "dict:2577",
+                "en": "proves",
+                "fr": "prouve",
+                "score": 0.822,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.95,
+                "seed_weight": 1.0,
+                "walk_weight": 0.924,
+                "fr_plausibility": 0.725,
+                "en_plausibility": 0.677,
+                "tags": [
+                  "action",
+                  "echo"
+                ],
+                "base_score": 0.8849,
+                "why": [
+                  "meaning=0.95",
+                  "seed=1.00",
+                  "walk=0.92"
+                ]
+              },
+              {
+                "id": "dict:4080",
+                "en": "dream",
+                "fr": "rime",
+                "score": 0.781,
+                "tier": "A",
+                "kind": "whole",
+                "source_stage": "v5.1_reviewed",
+                "chunk_recipe": "",
+                "meaning_weight": 0.0,
+                "seed_weight": 1.0,
+                "walk_weight": 0.0,
+                "fr_plausibility": 0.622,
+                "en_plausibility": 0.818,
+                "tags": [
+                  "dream",
+                  "image",
+                  "nature",
+                  "sound"
+                ],
+                "base_score": 0.548,
+                "why": [
+                  "seed=1.00"
+                ]
+              }
+            ],
+            "semantic_mean": 0.633,
+            "sound_mean": 0.868,
+            "kinds": [
+              "whole",
+              "whole",
+              "whole"
+            ]
+          }
+        ],
+        "semantic_mean": 0.752,
+        "sound_mean": 0.897
+      }
+    }
+  ],
+  "final": {
+    "en": "breeze proves rose\nair dream\nwest air rose\nbreeze proves dream",
+    "fr": "brise prouve roses\nairs rime\nouest airs roses\nbrise prouve rime",
+    "lines": [
+      {
+        "pattern": "breeze proves rose",
+        "score": 1.355,
+        "en": "breeze proves rose",
+        "fr": "brise prouve roses",
+        "units": [
+          {
+            "id": "dict:100",
+            "en": "breeze",
+            "fr": "brise",
+            "score": 1.0,
+            "tier": "S",
+            "kind": "whole",
+            "source_stage": "v5.1_reviewed",
+            "chunk_recipe": "",
+            "meaning_weight": 0.95,
+            "seed_weight": 1.0,
+            "walk_weight": 0.983,
+            "fr_plausibility": 0.687,
+            "en_plausibility": 0.643,
+            "tags": [
+              "echo",
+              "image",
+              "nature"
+            ],
+            "base_score": 0.947,
+            "why": [
+              "meaning=0.95",
+              "seed=1.00",
+              "walk=0.98"
+            ]
+          },
+          {
+            "id": "dict:2577",
+            "en": "proves",
+            "fr": "prouve",
+            "score": 0.822,
+            "tier": "A",
+            "kind": "whole",
+            "source_stage": "v5.1_reviewed",
+            "chunk_recipe": "",
+            "meaning_weight": 0.95,
+            "seed_weight": 1.0,
+            "walk_weight": 0.924,
+            "fr_plausibility": 0.725,
+            "en_plausibility": 0.677,
+            "tags": [
+              "action",
+              "echo"
+            ],
+            "base_score": 0.8849,
+            "why": [
+              "meaning=0.95",
+              "seed=1.00",
+              "walk=0.92"
+            ]
+          },
+          {
+            "id": "dict:2301",
+            "en": "rose",
+            "fr": "roses",
+            "score": 0.833,
+            "tier": "A",
+            "kind": "whole",
+            "source_stage": "v5.1_reviewed",
+            "chunk_recipe": "",
+            "meaning_weight": 0.95,
+            "seed_weight": 1.0,
+            "walk_weight": 0.872,
+            "fr_plausibility": 0.695,
+            "en_plausibility": 0.803,
+            "tags": [
+              "color",
+              "echo",
+              "flower",
+              "image",
+              "nature"
+            ],
+            "base_score": 0.8862,
+            "why": [
+              "meaning=0.95",
+              "seed=1.00",
+              "walk=0.87"
+            ]
+          }
+        ],
+        "semantic_mean": 0.95,
+        "sound_mean": 0.885,
+        "kinds": [
+          "whole",
+          "whole",
+          "whole"
+        ]
+      },
+      {
+        "pattern": "air dream",
+        "score": 1.23,
+        "en": "air dream",
+        "fr": "airs rime",
+        "units": [
+          {
+            "id": "dict:1",
+            "en": "air",
+            "fr": "airs",
+            "score": 1.0,
+            "tier": "S",
+            "kind": "whole",
+            "source_stage": "v5.1_reviewed",
+            "chunk_recipe": "",
+            "meaning_weight": 0.95,
+            "seed_weight": 1.0,
+            "walk_weight": 0.983,
+            "fr_plausibility": 0.668,
+            "en_plausibility": 0.895,
+            "tags": [
+              "echo",
+              "image",
+              "nature",
+              "sound"
+            ],
+            "base_score": 0.9556,
+            "why": [
+              "meaning=0.95",
+              "seed=1.00",
+              "walk=0.98"
+            ]
+          },
+          {
+            "id": "dict:4080",
+            "en": "dream",
+            "fr": "rime",
+            "score": 0.781,
+            "tier": "A",
+            "kind": "whole",
+            "source_stage": "v5.1_reviewed",
+            "chunk_recipe": "",
+            "meaning_weight": 0.0,
+            "seed_weight": 1.0,
+            "walk_weight": 0.0,
+            "fr_plausibility": 0.622,
+            "en_plausibility": 0.818,
+            "tags": [
+              "dream",
+              "image",
+              "nature",
+              "sound"
+            ],
+            "base_score": 0.548,
+            "why": [
+              "seed=1.00"
+            ]
+          }
+        ],
+        "semantic_mean": 0.475,
+        "sound_mean": 0.891,
+        "kinds": [
+          "whole",
+          "whole"
+        ]
+      },
+      {
+        "pattern": "west air rose",
+        "score": 1.399,
+        "en": "west air rose",
+        "fr": "ouest airs roses",
+        "units": [
+          {
+            "id": "dict:814",
+            "en": "west",
+            "fr": "ouest",
+            "score": 1.0,
+            "tier": "S",
+            "kind": "whole",
+            "source_stage": "v5.1_reviewed",
+            "chunk_recipe": "",
+            "meaning_weight": 0.95,
+            "seed_weight": 1.0,
+            "walk_weight": 0.983,
+            "fr_plausibility": 0.833,
+            "en_plausibility": 0.882,
+            "tags": [
+              "direction",
+              "echo",
+              "image",
+              "nature"
+            ],
+            "base_score": 0.9683,
+            "why": [
+              "meaning=0.95",
+              "seed=1.00",
+              "walk=0.98"
+            ]
+          },
+          {
+            "id": "dict:1",
+            "en": "air",
+            "fr": "airs",
+            "score": 1.0,
+            "tier": "S",
+            "kind": "whole",
+            "source_stage": "v5.1_reviewed",
+            "chunk_recipe": "",
+            "meaning_weight": 0.95,
+            "seed_weight": 1.0,
+            "walk_weight": 0.983,
+            "fr_plausibility": 0.668,
+            "en_plausibility": 0.895,
+            "tags": [
+              "echo",
+              "image",
+              "nature",
+              "sound"
+            ],
+            "base_score": 0.9556,
+            "why": [
+              "meaning=0.95",
+              "seed=1.00",
+              "walk=0.98"
+            ]
+          },
+          {
+            "id": "dict:2301",
+            "en": "rose",
+            "fr": "roses",
+            "score": 0.833,
+            "tier": "A",
+            "kind": "whole",
+            "source_stage": "v5.1_reviewed",
+            "chunk_recipe": "",
+            "meaning_weight": 0.95,
+            "seed_weight": 1.0,
+            "walk_weight": 0.872,
+            "fr_plausibility": 0.695,
+            "en_plausibility": 0.803,
+            "tags": [
+              "color",
+              "echo",
+              "flower",
+              "image",
+              "nature"
+            ],
+            "base_score": 0.8862,
+            "why": [
+              "meaning=0.95",
+              "seed=1.00",
+              "walk=0.87"
+            ]
+          }
+        ],
+        "semantic_mean": 0.95,
+        "sound_mean": 0.944,
+        "kinds": [
+          "whole",
+          "whole",
+          "whole"
+        ]
+      },
+      {
+        "pattern": "breeze proves dream",
+        "score": 1.137,
+        "en": "breeze proves dream",
+        "fr": "brise prouve rime",
+        "units": [
+          {
+            "id": "dict:100",
+            "en": "breeze",
+            "fr": "brise",
+            "score": 1.0,
+            "tier": "S",
+            "kind": "whole",
+            "source_stage": "v5.1_reviewed",
+            "chunk_recipe": "",
+            "meaning_weight": 0.95,
+            "seed_weight": 1.0,
+            "walk_weight": 0.983,
+            "fr_plausibility": 0.687,
+            "en_plausibility": 0.643,
+            "tags": [
+              "echo",
+              "image",
+              "nature"
+            ],
+            "base_score": 0.947,
+            "why": [
+              "meaning=0.95",
+              "seed=1.00",
+              "walk=0.98"
+            ]
+          },
+          {
+            "id": "dict:2577",
+            "en": "proves",
+            "fr": "prouve",
+            "score": 0.822,
+            "tier": "A",
+            "kind": "whole",
+            "source_stage": "v5.1_reviewed",
+            "chunk_recipe": "",
+            "meaning_weight": 0.95,
+            "seed_weight": 1.0,
+            "walk_weight": 0.924,
+            "fr_plausibility": 0.725,
+            "en_plausibility": 0.677,
+            "tags": [
+              "action",
+              "echo"
+            ],
+            "base_score": 0.8849,
+            "why": [
+              "meaning=0.95",
+              "seed=1.00",
+              "walk=0.92"
+            ]
+          },
+          {
+            "id": "dict:4080",
+            "en": "dream",
+            "fr": "rime",
+            "score": 0.781,
+            "tier": "A",
+            "kind": "whole",
+            "source_stage": "v5.1_reviewed",
+            "chunk_recipe": "",
+            "meaning_weight": 0.0,
+            "seed_weight": 1.0,
+            "walk_weight": 0.0,
+            "fr_plausibility": 0.622,
+            "en_plausibility": 0.818,
+            "tags": [
+              "dream",
+              "image",
+              "nature",
+              "sound"
+            ],
+            "base_score": 0.548,
+            "why": [
+              "seed=1.00"
+            ]
+          }
+        ],
+        "semantic_mean": 0.633,
+        "sound_mean": 0.868,
+        "kinds": [
+          "whole",
+          "whole",
+          "whole"
+        ]
+      }
+    ],
+    "semantic_mean": 0.752,
+    "sound_mean": 0.897
+  }
+}

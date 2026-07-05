@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lingua-sound-wave-homophone-bench"
+version = "0.5.2"
+description = "Composition-ready EN/FR homophone dictionary, fragment composer, and typed mapping web."
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "panphon",
+  "wordfreq",
+]
+
+[project.scripts]
+homophone-bench = "homophone_bench.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["homophone_bench*"]
