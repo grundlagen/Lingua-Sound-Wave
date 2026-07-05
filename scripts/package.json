@@ -6,6 +6,7 @@
   "scripts": {
     "hello": "tsx ./src/hello.ts",
     "poem-benchmark": "tsx ./src/poem-benchmark.ts",
+    "meaning-hunt": "tsx ../artifacts/api-server/src/scripts/meaning-map-hunt.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
