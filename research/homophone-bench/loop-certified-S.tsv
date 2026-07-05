@@ -1,0 +1,122 @@
+en	fr	certifications	example_loop
+succeed	secs ides	10	en:sec ≈ fr:secs ~ fr:secs ides ≈ en:succeed ~ en:success ≈ fr:secs ace ~ en:secs
+success	secs ace	8	en:sec ≈ fr:secs ~ fr:secs ides ≈ en:succeed ~ en:success ≈ fr:secs ace ~ en:secs
+foresee	foncé	6	en:foresaw ~ en:foresee ≈ fr:foncé ~ fr:fonceuse ≈ en:foresees
+foresees	fonceuse	6	en:foresaw ~ en:foresee ≈ fr:foncé ~ fr:fonceuse ≈ en:foresees
+pleat	plisse	6	en:plead = fr:plaider ≈ en:pleader ~ en:plea ≈ fr:pli ~ fr:plisse ≈ en:pleat
+clack	claque	5	en:clack ≈ fr:claque ~ fr:clame ≈ en:clam
+clam	clame	5	en:clack ≈ fr:claque ~ fr:clame ≈ en:clam
+myself	mas elfes	5	en:himself ≈ fr:aimes elfes ~ fr:mas elfes ≈ en:myself
+yourself	ions elfes	5	en:himself ≈ fr:aimes elfes ~ fr:ions elfes ≈ en:yourself ~ en:myself
+lender	lin des	5	en:lender ≈ fr:lin des ~ fr:lin dos ≈ en:lenders
+lenders	lin dos	5	en:lender ≈ fr:lin des ~ fr:lin dos ≈ en:lenders
+southwest	cent ouest	5	en:northwestern ~ en:southwest ≈ fr:cent ouest ~ fr:nœud ouest ≈ en:northwest
+northwest	nœud ouest	5	en:northwestern ~ en:southwest ≈ fr:cent ouest ~ fr:nœud ouest ≈ en:northwest
+cross	crosse	4	en:cross ≈ fr:crosse ~ en:crosse ≈ fr:cross
+crosse	cross	4	en:cross ≈ fr:crosse ~ en:crosse ≈ fr:cross
+existed	exit aide	4	en:existed ≈ fr:exit aide ~ en:exit art ≈ fr:existantes
+exit art	existantes	4	en:existed ≈ fr:exit aide ~ en:exit art ≈ fr:existantes
+feel	files	4	en:feel ≈ fr:files ~ fr:filer ≈ en:feeler ~ en:feels
+feeler	filer	4	en:feel ≈ fr:files ~ fr:filer ≈ en:feeler ~ en:feels
+fortunate	faut chaînette	4	en:fortunate ≈ fr:faut chaînette ~ fr:faut chenet lis ≈ en:fortunately ~ fr:fortunato
+fortunately	faut chenet lis	4	en:fortunate ≈ fr:faut chaînette ~ fr:faut chenet lis ≈ en:fortunately ~ fr:fortunato
+founders	fanent aise	4	en:founded ~ en:founders ≈ fr:fanent aise ~ fr:fanent in ≈ en:founding
+founding	fanent in	4	en:founded ~ en:founders ≈ fr:fanent aise ~ fr:fanent in ≈ en:founding
+meanie	mini	4	en:meanie ≈ fr:mini ~ fr:minis ≈ en:meany
+meany	minis	4	en:meanie ≈ fr:mini ~ fr:minis ≈ en:meany
+peak	piquent	4	en:peak ≈ fr:piquent ~ fr:piquer ≈ en:peaky ~ en:peake
+peaky	piquer	4	en:peak ≈ fr:piquent ~ fr:piquer ≈ en:peaky ~ en:peake
+plea	pli	4	en:plea ≈ fr:pli ~ fr:plisse ≈ en:pleas
+plea	plis	4	en:plea ≈ fr:plis ~ fr:plisse ≈ en:pleas
+pleader	plaider	4	en:plead = fr:plaider ≈ en:pleader ~ en:plea ≈ fr:pli ~ fr:plisse ≈ en:pleat
+possessed	paix est	4	en:possess ≈ fr:paix ace ~ fr:paix est ≈ en:possessed ~ en:possesses
+pressie	précis	4	en:pressie ≈ fr:précis ~ fr:précise ≈ en:pressies
+quantities	quad dix	4	en:quantities ≈ fr:quad dix ~ fr:quad tee ≈ en:quantity
+quantity	quad tee	4	en:quantities ≈ fr:quad dix ~ fr:quad tee ≈ en:quantity
+register	raids ester	4	en:register ≈ fr:raids ester ~ fr:raids stade ≈ en:registered
+registered	raids stade	4	en:register ≈ fr:raids ester ~ fr:raids stade ≈ en:registered
+setter	synthé	4	en:set ≈ fr:sets ~ en:setter ≈ fr:synthé ~ fr:synthèse ≈ en:setters ~ fr:setter
+setters	synthèse	4	en:set ≈ fr:sets ~ en:setter ≈ fr:synthé ~ fr:synthèse ≈ en:setters ~ fr:setter
+soupy	souper	4	en:souped arse ~ en:soupy ≈ fr:souper ~ en:soup ≈ fr:soupe
+soup	soupe	4	en:souped arse ~ en:soupy ≈ fr:souper ~ en:soup ≈ fr:soupe
+stalky	stocker	4	en:stalk ≈ fr:stockent ~ fr:stocker ≈ en:stalky
+test	testent	4	en:test ≈ fr:testent ~ en:testa ≈ fr:tester
+testa	tester	4	en:test ≈ fr:testent ~ en:testa ≈ fr:tester
+traders	trait aise	4	en:traders ≈ fr:trait aise ~ fr:trait in ≈ en:trading
+trading	trait in	4	en:traders ≈ fr:trait aise ~ fr:trait in ≈ en:trading
+true	trous	4	en:true ≈ fr:trous ~ fr:trous lies ≈ en:truly ~ fr:wahre
+truly	trous lies	4	en:true ≈ fr:trous ~ fr:trous lies ≈ en:truly ~ fr:wahre
+poof	pouf	3	en:poo ~ en:poof ≈ fr:pouf ~ fr:poupe ≈ en:poop = fr:crotte
+poop	poupe	3	en:poo ~ en:poof ≈ fr:pouf ~ fr:poupe ≈ en:poop = fr:crotte
+pressies	précise	3	en:pressie ≈ fr:précis ~ fr:précise ≈ en:pressies
+stalk	stockent	3	en:stalk ≈ fr:stockent ~ fr:stocker ≈ en:stalky
+bell	bel	2	en:bell ≈ fr:bel ~ fr:belize ≈ en:bellies ~ fr:bellis
+bellies	belize	2	en:bell ≈ fr:bel ~ fr:belize ≈ en:bellies ~ fr:bellis
+classroom	clans rhume	2	en:classroom ≈ fr:clans rhume ~ fr:clans aise ≈ en:classes ~ fr:classe
+classes	clans aise	2	en:classroom ≈ fr:clans rhume ~ fr:clans aise ≈ en:classes ~ fr:classe
+countries	khan treize	2	en:countries ≈ fr:khan treize ~ fr:khan tri ≈ en:country = fr:pays
+country	khan tri	2	en:countries ≈ fr:khan treize ~ fr:khan tri ≈ en:country = fr:pays
+destroys	dissent rose	2	en:destroys ≈ fr:dissent rose ~ fr:dissent rhodes ≈ en:destroyed ~ fr:détruite
+destroyed	dissent rhodes	2	en:destroys ≈ fr:dissent rose ~ fr:dissent rhodes ≈ en:destroyed ~ fr:détruite
+exclusion	exclus haine	2	en:exclusion ≈ fr:exclus haine ~ en:excluding ≈ fr:exclus in ~ fr:exclues
+excluding	exclus in	2	en:exclusion ≈ fr:exclus haine ~ en:excluding ≈ fr:exclus in ~ fr:exclues
+extending	axent haines in	2	en:extending ≈ fr:axent haines in ~ fr:axent haines aide ≈ en:extended
+extended	axent haines aide	2	en:extending ≈ fr:axent haines in ~ fr:axent haines aide ≈ en:extended
+extensively	axent haines flux	2	en:extensively ≈ fr:axent haines flux ~ fr:axent haines ive ≈ en:extensive
+extensive	axent haines ive	2	en:extensively ≈ fr:axent haines flux ~ fr:axent haines ive ≈ en:extensive
+fastest	fats test	2	en:fastest ≈ fr:fats test ~ fr:fats tes ≈ en:faster
+faster	fats tes	2	en:fastest ≈ fr:fats test ~ fr:fats tes ≈ en:faster
+footballer	fait bolée	2	en:footballer ≈ fr:fait bolée ~ fr:fait bol ≈ en:football
+football	fait bol	2	en:footballer ≈ fr:fait bolée ~ fr:fait bol ≈ en:football
+friendship	freinent chipe	2	en:friendship ≈ fr:freinent chipe ~ fr:freinent chips ≈ en:friendships
+friendships	freinent chips	2	en:friendship ≈ fr:freinent chipe ~ fr:freinent chips ≈ en:friendships
+himself	aimes elfes	2	en:himself ≈ fr:aimes elfes ~ fr:mas elfes ≈ en:myself
+installed	haines solde	2	en:installed ≈ fr:haines solde ~ fr:haines taule ≈ en:install
+install	haines taule	2	en:installed ≈ fr:haines solde ~ fr:haines taule ≈ en:install
+kindness	cannes noces	2	en:kindness ≈ fr:cannes noces ~ fr:cannes lis ≈ en:kindly = fr:gentiment
+kindly	cannes lis	2	en:kindness ≈ fr:cannes noces ~ fr:cannes lis ≈ en:kindly = fr:gentiment
+leg	legs	2	en:leg ≈ fr:legs ~ fr:kaki ≈ en:kaki ~ fr:noga
+kaki	kaki	2	en:leg ≈ fr:legs ~ fr:kaki ≈ en:kaki ~ fr:noga
+oldest	elles est	2	en:oldest ≈ fr:elles est ~ fr:elles aise ≈ en:elders ~ en:elder
+elders	elles aise	2	en:oldest ≈ fr:elles est ~ fr:elles aise ≈ en:elders ~ en:elder
+pieced	pistent	2	en:pieced ≈ fr:pistent ~ fr:pissent ≈ en:piece
+piece	pissent	2	en:pieced ≈ fr:pistent ~ fr:pissent ≈ en:piece
+pieces	pis aise	2	en:pieces ≈ fr:pis aise ~ fr:pi ≈ en:pee = fr:pisse ≈ en:piece
+pee	pi	2	en:pieces ≈ fr:pis aise ~ fr:pi ≈ en:pee = fr:pisse ≈ en:piece
+piece	pisse	2	en:pieces ≈ fr:pis aise ~ fr:pi ≈ en:pee = fr:pisse ≈ en:piece
+pleas	plisse	2	en:plea ≈ fr:pli ~ fr:plisse ≈ en:pleas
+possess	paix ace	2	en:possess ≈ fr:paix ace ~ fr:paix est ≈ en:possessed ~ en:possesses
+possession	paix échine	2	en:possession ≈ fr:paix échine ~ fr:paix est ≈ en:possessed ~ en:possesses
+pp	pipi	2	en:pp ≈ fr:pipi = en:pee ≈ fr:pis
+pee	pis	2	en:pp ≈ fr:pipi = en:pee ≈ fr:pis
+protector	prêt excès	2	en:protector ≈ fr:prêt excès ~ fr:prêt excède ≈ en:protection ~ en:schutz
+protection	prêt excède	2	en:protector ≈ fr:prêt excès ~ fr:prêt excède ≈ en:protection ~ en:schutz
+retailer	rient ailé	2	en:retailer ≈ fr:rient ailé ~ fr:rient hélas ≈ en:retailers
+retailers	rient hélas	2	en:retailer ≈ fr:rient ailé ~ fr:rient hélas ≈ en:retailers
+secondary	déconnent ri	2	en:secondary ≈ fr:déconnent ri ~ fr:déconnent lis ≈ en:secondly ~ en:secondment
+secondly	déconnent lis	2	en:secondary ≈ fr:déconnent ri ~ fr:déconnent lis ≈ en:secondly ~ en:secondment
+set	sets	2	en:set ≈ fr:sets ~ en:setter ≈ fr:synthé ~ fr:synthèse ≈ en:setters ~ fr:setter
+successes	secs incise	2	en:successes ≈ fr:secs incise ~ fr:secs ides ≈ en:succeed ~ en:successful
+talkie	toquer	2	en:talkie ≈ fr:toquer ~ fr:toquent ≈ en:talk
+talk	toquent	2	en:talkie ≈ fr:toquer ~ fr:toquent ≈ en:talk
+talk	toques	2	en:talkie ≈ fr:toquer ~ fr:toques ≈ en:talk
+talky	toquer	2	en:talky ≈ fr:toquer ~ fr:toquent ≈ en:talk
+troop	troupe	2	en:troop ≈ fr:troupe ~ en:troupe ≈ fr:troupes = en:troops
+troupe	troupes	2	en:troop ≈ fr:troupe ~ en:troupe ≈ fr:troupes = en:troops
+western	ouais tonnes	2	en:western ≈ fr:ouais tonnes ~ fr:notais tonnes ≈ en:northwestern ~ en:southwest ≈ fr:cent ouest ~ fr:ouest
+northwestern	notais tonnes	2	en:western ≈ fr:ouais tonnes ~ fr:notais tonnes ≈ en:northwestern ~ en:southwest ≈ fr:cent ouest ~ fr:ouest
+amended	amènent aide	1	en:amended ≈ fr:amènent aide ~ fr:aidait aide ≈ en:edited = fr:modifié
+edited	aidait aide	1	en:amended ≈ fr:amènent aide ~ fr:aidait aide ≈ en:edited = fr:modifié
+less	laisses	1	en:less ≈ fr:laisses ~ fr:laissent ≈ en:lesser = fr:moindre
+lesser	laissent	1	en:less ≈ fr:laisses ~ fr:laissent ≈ en:lesser = fr:moindre
+petit	petit	1	en:petit ≈ fr:petit ~ en:petite ≈ fr:petites ~ fr:petite
+petite	petites	1	en:petit ≈ fr:petit ~ en:petite ≈ fr:petites ~ fr:petite
+poop	poupes	1	en:poop ≈ fr:poupes ~ fr:pouffe ≈ en:poof
+poof	pouffe	1	en:poop ≈ fr:poupes ~ fr:pouffe ≈ en:poof
+presses	précise	1	en:pressies ~ en:pressie ≈ fr:précis ~ fr:précise ≈ en:presses
+quid	quid	1	en:quid ≈ fr:quid ~ en:quiche ≈ fr:quiches ~ en:quip
+quiche	quiches	1	en:quid ≈ fr:quid ~ en:quiche ≈ fr:quiches ~ en:quip
+seizes	scies aise	1	en:seas ~ en:seizes ≈ fr:scies aise ~ fr:scies ≈ en:si ~ fr:sse
+si	scies	1	en:seas ~ en:seizes ≈ fr:scies aise ~ fr:scies ≈ en:si ~ fr:sse
+sec	secs	1	en:sec ≈ fr:secs ~ fr:secs ides ≈ en:succeed ~ en:success ≈ fr:secs ace ~ en:secs
+stalk	stocke	1	en:stalky ≈ fr:stocker ~ fr:stocke ≈ en:stalk

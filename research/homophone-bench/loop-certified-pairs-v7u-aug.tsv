@@ -1,0 +1,897 @@
+en	fr	certifications	example_loop
+sex	sectes	12	en:sect ~ fr:secte ≈ en:sext ~ en:sex ≈ fr:sectes
+testers	test	12	en:testa ≈ fr:tester ~ en:testers ≈ fr:test ~ en:test ≈ fr:testent ~ en:prueba
+sell	cellule	11	en:cellist ~ fr:cellule ≈ en:sell ~ en:sells ≈ fr:celle
+explain	explosent	11	en:explained ~ en:explains ≈ fr:explose ~ fr:explosent ≈ en:explain
+control	contrôles	10	en:controlled ~ en:control ≈ fr:contrôles = en:controls ≈ fr:contrôle
+grasp	grappes	10	en:grab ~ en:grabs ≈ fr:grappe ~ fr:grappes ≈ en:grasp ~ fr:grabe
+reads	rides	10	en:read ≈ fr:ride ~ fr:rides ≈ en:reads
+root	routes	10	en:root ≈ fr:routes ~ fr:route ≈ en:roots = fr:racines
+succeed	secs ides	10	en:sec ≈ fr:secs ~ fr:secs ides ≈ en:succeed ~ en:success ≈ fr:secs ace ~ en:secs
+tells	tels	10	en:such = fr:tel ≈ en:tell ~ en:tells ≈ fr:tels
+fools	foules	9	en:bulk ~ fr:full ≈ en:fool ~ en:fools ≈ fr:foules ~ fr:foule ≈ en:full
+coup	coupe	9	en:chevy ~ fr:coupe ≈ en:coup ~ en:coups ≈ fr:coupes ~ en:coupe
+coups	coupes	9	en:chevy ~ fr:coupe ≈ en:coup ~ en:coups ≈ fr:coupes ~ en:coupe
+feel	files	9	en:feel ≈ fr:files ~ fr:file ≈ en:feels
+feels	files	9	en:feel ≈ fr:file ~ fr:files ≈ en:feels
+letting	laid in	9	en:fitted ~ fr:laid ≈ en:let ~ en:letting ≈ fr:laid in ~ en:laid
+read	ride	9	en:read ≈ fr:ride ~ fr:rides ≈ en:reads
+tell	tel	9	en:such = fr:tel ≈ en:tell ~ en:tells ≈ fr:tels
+properties	apprise	8	en:asset ~ en:properties ≈ fr:apprise ~ fr:appris ≈ en:property
+property	appris	8	en:asset ~ en:properties ≈ fr:apprise ~ fr:appris ≈ en:property
+boot	bout	8	en:bootee ≈ fr:boutis ~ fr:bout ≈ en:boot
+call	colle	8	en:call ≈ fr:colle ~ fr:collent ≈ en:calls
+cream	crimes	8	en:cream ≈ fr:crimes ~ fr:crime ≈ en:creamy ~ fr:cream
+creamy	crime	8	en:cream ≈ fr:crimes ~ fr:crime ≈ en:creamy ~ fr:cream
+fall	folle	8	en:fall ≈ fr:folle ~ fr:folles ≈ en:falls
+pause	pose	8	en:pause ≈ fr:pose ~ en:pose ≈ fr:pauses
+peeve	pif	8	en:pea ≈ fr:pi ~ fr:pif ≈ en:peeve ~ fr:pise ≈ en:peas = fr:pois
+pleat	plisse	8	en:plead ~ en:pleader ≈ fr:plie ~ fr:plisse ≈ en:pleat
+quantities	quad dix	8	en:proportions ~ en:quantities ≈ fr:quad dix ~ fr:quad tee ≈ en:quantity
+quantity	quad tee	8	en:proportions ~ en:quantities ≈ fr:quad dix ~ fr:quad tee ≈ en:quantity
+propose	proposes	8	en:proposal ~ en:proposed ≈ fr:proposent ~ en:propose ≈ fr:proposes
+role	roll	8	en:role ≈ fr:roll ~ en:roll ≈ fr:rôles
+roots	route	8	en:root ≈ fr:routes ~ fr:route ≈ en:roots = fr:racines
+success	secs ace	8	en:sec ≈ fr:secs ~ fr:secs ides ≈ en:succeed ~ en:success ≈ fr:secs ace ~ en:secs
+shoot	chute	8	en:shoot ease ~ fr:shoot ≈ en:chute ~ fr:chute ≈ en:shoot
+sicked	secte	8	en:sick ~ en:sicked ≈ fr:secte ~ fr:sectes ≈ en:sex ~ fr:sexe ≈ en:sicks
+sicks	sexe	8	en:sick ~ en:sicked ≈ fr:secte ~ fr:sectes ≈ en:sex ~ fr:sexe ≈ en:sicks
+strip	stream	8	en:stream ~ fr:stream ≈ en:strip ~ fr:strip ≈ en:streams
+stream	strip	8	en:streams ~ en:stream ≈ fr:strip ~ en:strip ≈ fr:stream
+try	trahis	8	en:tried ~ en:trying ≈ fr:trahi ~ fr:trahis ≈ en:try
+beats	bite	7	en:beat ≈ fr:bites ~ fr:bite ≈ en:beats
+beats	bites	7	en:beat ≈ fr:bite ~ fr:bites ≈ en:beats
+explained	explose	7	en:blast ~ fr:explosent ≈ en:explains ~ en:explained ≈ fr:explose
+caller	col	7	en:caller ≈ fr:col ~ fr:cols ≈ en:call
+fool	foule	7	en:crowd ~ fr:foule ≈ en:fool ~ en:fools ≈ fr:foules
+exception	excepte	7	en:except ~ fr:excepte ≈ en:exception ~ en:exceptions ≈ fr:excepté
+feel	file	7	en:feel ≈ fr:file ~ fr:files ≈ en:feels
+let	laid	7	en:fitted ~ fr:laid ≈ en:let ~ en:letting ≈ fr:laid in ~ en:laid
+myself	mas elfes	7	en:herself ~ en:myself ≈ fr:mas elfes ~ fr:elfes ≈ en:self
+pee	pi	7	en:pee ≈ fr:pi ~ fr:pif ≈ en:peeve ~ en:peene
+steal	styles	7	en:steal ≈ fr:styles ~ fr:style ≈ en:steals
+appealing	peeling	6	en:appealed ~ en:appealing ≈ fr:peeling ~ en:peel ≈ fr:piles ~ fr:pile ≈ en:appeal
+beat	bites	6	en:beat ≈ fr:bites ~ fr:bite ≈ en:beats
+beat	bite	6	en:beat ≈ fr:bite ~ fr:bites ≈ en:beats
+recipe	respirer	6	en:breath ~ fr:respirer ≈ en:recipe ~ en:recipes ≈ fr:respire = en:breathe
+recipes	respire	6	en:breath ~ fr:respirer ≈ en:recipe ~ en:recipes ≈ fr:respire = en:breathe
+calls	collent	6	en:call ≈ fr:colle ~ fr:collent ≈ en:calls
+carry	crie	6	en:carry ≈ fr:crie ~ en:cries ≈ fr:crise ~ fr:crises ≈ en:carries
+cries	crise	6	en:carry ≈ fr:crie ~ en:cries ≈ fr:crise ~ fr:crises ≈ en:carries
+carries	crises	6	en:carry ≈ fr:crie ~ en:cries ≈ fr:crise ~ fr:crises ≈ en:carries
+caused	codes	6	en:cause ~ fr:cause ≈ en:codes ~ fr:codes ≈ en:caused
+check	tchèques	6	en:check ≈ fr:tchèques ~ fr:tchèque ≈ en:checked
+classes	clans aise	6	en:class ~ en:classes ≈ fr:clans aise ~ fr:clans sis ≈ en:classy = fr:classe
+cruck	crack	6	en:crass ≈ fr:crasse ~ en:cruck ≈ fr:crack ~ en:crack ≈ fr:craque ~ en:crepe
+crack	craque	6	en:crass ≈ fr:crasse ~ en:cruck ≈ fr:crack ~ en:crack ≈ fr:craque ~ en:crepe
+cross	crosse	6	en:cross ≈ fr:crosse ~ en:crosse ≈ fr:cross
+crosse	cross	6	en:cross ≈ fr:crosse ~ en:crosse ≈ fr:cross
+exhibitions	expose	6	en:exhibit = fr:exposer ≈ en:expose ~ fr:expose ≈ en:exhibitions
+exist	existe	6	en:existence ~ en:exist ≈ fr:existe ~ fr:existent ≈ en:exists
+extending	axent haines in	6	en:extend ~ en:extending ≈ fr:axent haines in ~ fr:axent haines aide ≈ en:extended
+extended	axent haines aide	6	en:extend ~ en:extending ≈ fr:axent haines in ~ fr:axent haines aide ≈ en:extended
+ordering	ordre	6	en:flock ~ fr:horde ≈ en:order ~ fr:ordre ≈ en:ordering ~ en:ordered ≈ fr:hordes
+foresee	foncé	6	en:foresaw ~ en:foresee ≈ fr:foncé ~ fr:fonceuse ≈ en:foresees
+foresees	fonceuse	6	en:foresaw ~ en:foresee ≈ fr:foncé ~ fr:fonceuse ≈ en:foresees
+fortunate	faut chaînette	6	en:fortunate ≈ fr:faut chaînette ~ fr:faut chenet lis ≈ en:fortunately ~ fr:fortunato
+fortunately	faut chenet lis	6	en:fortunate ≈ fr:faut chaînette ~ fr:faut chenet lis ≈ en:fortunately ~ fr:fortunato
+founders	fanent aise	6	en:founded ~ en:founders ≈ fr:fanent aise ~ fr:fanent in ≈ en:founding
+founding	fanent in	6	en:founded ~ en:founders ≈ fr:fanent aise ~ fr:fanent in ≈ en:founding
+lender	lin des	6	en:lend ~ en:lender ≈ fr:lin des ~ fr:lin dos ≈ en:lenders = fr:prêteurs
+lenders	lin dos	6	en:lend ~ en:lender ≈ fr:lin des ~ fr:lin dos ≈ en:lenders = fr:prêteurs
+lord	lords	6	en:lord ≈ fr:lords ~ en:lords ≈ fr:lord
+meanie	mini	6	en:meanie ≈ fr:mini ~ fr:minis ≈ en:meany
+meany	minis	6	en:meanie ≈ fr:mini ~ fr:minis ≈ en:meany
+petit	petit	6	en:petit ≈ fr:petit ~ en:petite ≈ fr:petite
+petite	petite	6	en:petit ≈ fr:petit ~ en:petite ≈ fr:petite
+prep	prêt	6	en:prayer ~ en:prayers ≈ fr:prêts ~ fr:prêt ≈ en:prep ~ fr:pré ≈ en:pray
+pressie	précis	6	en:presses ≈ fr:précise ~ fr:précis ≈ en:pressie ~ en:pressies ≈ fr:presse
+proves	prouve	6	en:proof ~ fr:prouve ≈ en:proves ~ en:prove ≈ fr:prouver
+protect	prétextes	6	en:protected ~ en:protect ≈ fr:prétextes ~ fr:prétexte ≈ en:protects
+reach	riche	6	en:reached ~ en:reaches ≈ fr:riches ~ fr:riche ≈ en:reach
+store	stores	6	en:retail ~ fr:stores ≈ en:store ~ fr:store ≈ en:stores
+stores	store	6	en:retail ~ fr:stores ≈ en:store ~ fr:store ≈ en:stores
+routes	route	6	en:road = fr:route ≈ en:routes ~ en:route ≈ fr:routes = en:roads
+route	routes	6	en:road = fr:route ≈ en:routes ~ en:route ≈ fr:routes = en:roads
+seem	cimes	6	en:seem ≈ fr:cimes ~ fr:cime ≈ en:seemed
+stalky	stock	6	en:stalk ≈ fr:stocke ~ fr:stock ≈ en:stalky
+stop	step	6	en:step ≈ fr:steppe ~ en:steppe ≈ fr:stop ~ en:stop ≈ fr:step
+stretch	stretch	6	en:stretch ≈ fr:stretch ~ en:stretching ≈ fr:stretching
+stretching	stretching	6	en:stretch ≈ fr:stretch ~ en:stretching ≈ fr:stretching
+technique	techniques	6	en:technical = fr:techniques ≈ en:technique ~ en:techniques ≈ fr:technique
+test	tests	6	en:test ≈ fr:tests ~ en:tests ≈ fr:teste
+text	texte	6	en:text ≈ fr:texte ~ fr:textes ≈ en:texts
+traders	trait aise	6	en:trader ~ en:traders ≈ fr:trait aise ~ fr:trait in ≈ en:trading
+trading	trait in	6	en:trader ~ en:traders ≈ fr:trait aise ~ fr:trait in ≈ en:trading
+tribe	trappes	6	en:trap ~ fr:trappes ≈ en:tribe ~ en:tribes ≈ fr:trappe
+tribes	trappe	6	en:trap ~ fr:trappes ≈ en:tribe ~ en:tribes ≈ fr:trappe
+true	trous	6	en:true ≈ fr:trous ~ fr:trous lies ≈ en:truly ~ en:wahre
+truly	trous lies	6	en:true ≈ fr:trous ~ fr:trous lies ≈ en:truly ~ en:wahre
+except	acceptent	5	en:accept = fr:acceptent ≈ en:except ~ fr:excepte ≈ en:accepts = fr:accepte
+previously	privilégie	5	en:before ~ en:previously ≈ fr:privilégie ~ fr:privilèges ≈ en:previous
+brick	break	5	en:break ~ fr:break ≈ en:brick = fr:briques ≈ en:brake ~ en:brakes ≈ fr:breaks
+call	cols	5	en:caller ≈ fr:col ~ fr:cols ≈ en:call
+codes	cause	5	en:cause ~ fr:cause ≈ en:codes ~ fr:codes ≈ en:caused
+clack	claque	5	en:clack ≈ fr:claque ~ fr:clame ≈ en:clam
+clam	clame	5	en:clack ≈ fr:claque ~ fr:clame ≈ en:clam
+forced	fausse	5	en:enforced ~ en:enforce ≈ fr:un fausse ~ fr:fausse ≈ en:forced = fr:forcée
+exceptions	excepté	5	en:except ~ fr:excepte ≈ en:exception ~ en:exceptions ≈ fr:excepté
+existed	exit aide	5	en:existed ≈ fr:exit aide ~ en:exit art ≈ fr:existantes
+forcing	faux in	5	en:fake = fr:fausse ≈ en:forced ~ en:forcing ≈ fr:faux in ~ fr:faux
+sex	sexy	5	en:gender ~ fr:sexes ≈ en:sexy ~ fr:sexy ≈ en:sex ~ fr:sexe
+southwest	cent ouest	5	en:northwestern ~ en:southwest ≈ fr:cent ouest ~ fr:nœud ouest ≈ en:northwest
+northwest	nœud ouest	5	en:northwestern ~ en:southwest ≈ fr:cent ouest ~ fr:nœud ouest ≈ en:northwest
+pose	pause	5	en:pause ≈ fr:pose ~ en:pose ≈ fr:pause
+prefers	prêt aise	5	en:preferences ~ en:prefers ≈ fr:prêt aise ~ fr:prêts ≈ en:prefer ~ en:preferring
+prefer	prêts	5	en:preferences ~ en:prefers ≈ fr:prêt aise ~ fr:prêts ≈ en:prefer ~ en:preferring
+presses	presse	5	en:pressed ~ fr:pressing ≈ en:pressing ~ en:presses ≈ fr:presse
+rendering	reines ring	5	en:render ~ en:rendering ≈ fr:reines ring ~ fr:reines ≈ en:rendered
+sext	secte	5	en:sect ~ fr:secte ≈ en:sext ~ en:sex ≈ fr:sectes
+streak	stricte	5	en:streak ≈ fr:stricte ~ fr:strict ≈ en:streaked
+streaks	strict	5	en:streak ≈ fr:stricte ~ fr:strict ≈ en:streaks
+techniques	technique	5	en:technical = fr:techniques ≈ en:technique ~ en:techniques ≈ fr:technique
+accept	excepte	4	en:acceptance ~ en:accept ≈ fr:excepte ~ en:except ≈ fr:acceptent
+decrease	décrit	4	en:according ≈ fr:écot in ~ fr:décris in ≈ en:decreasing ~ en:decrease ≈ fr:décrit ~ en:thuja
+peel	piles	4	en:appealed ~ en:appealing ≈ fr:peeling ~ en:peel ≈ fr:piles ~ fr:pile ≈ en:appeal
+appeal	pile	4	en:appealed ~ en:appealing ≈ fr:peeling ~ en:peel ≈ fr:piles ~ fr:pile ≈ en:appeal
+buyers	base	4	en:base ~ fr:base ≈ en:buyers ~ en:buys ≈ fr:bases
+buys	bases	4	en:base ~ fr:base ≈ en:buyers ~ en:buys ≈ fr:bases
+buyers	bases	4	en:base ~ fr:bases ≈ en:buyers ~ en:buys ≈ fr:base
+buys	base	4	en:base ~ fr:bases ≈ en:buyers ~ en:buys ≈ fr:base
+previous	privilèges	4	en:before ~ en:previously ≈ fr:privilégie ~ fr:privilèges ≈ en:previous
+bellies	belize	4	en:bell ≈ fr:bel ~ fr:belize ≈ en:bellies ~ fr:bellis
+belong	blocs	4	en:belongs ~ en:belong ≈ fr:blocs ~ fr:bloc ≈ en:belonged
+big	big	4	en:bigger ~ en:big ≈ fr:big ~ en:large ≈ fr:large
+large	large	4	en:bigger ~ en:big ≈ fr:big ~ en:large ≈ fr:large
+explains	explose	4	en:blast ~ fr:explose ≈ en:explains ~ en:explained ≈ fr:explosent
+bought	bottes	4	en:bought ≈ fr:bottes ~ fr:botes ≈ en:bawd ~ fr:bah ≈ en:buy
+bawd	botes	4	en:bought ≈ fr:bottes ~ fr:botes ≈ en:bawd ~ fr:bah ≈ en:buy
+buy	bah	4	en:bought ≈ fr:bottes ~ fr:botes ≈ en:bawd ~ fr:bah ≈ en:buy
+break	briques	4	en:breaks ~ fr:break ≈ en:brick = fr:briques ≈ en:break
+sells	celle	4	en:cellist ~ fr:cellule ≈ en:sell ~ en:sells ≈ fr:celle
+check	cheik	4	en:checks ~ fr:chèque ≈ en:sheik = fr:cheik ≈ en:check
+pools	poule	4	en:chicken = fr:poulet ≈ en:pool ~ en:pools ≈ fr:poule
+clear	clairs	4	en:claire ≈ fr:clair = en:clear ≈ fr:clairs
+classy	clans sis	4	en:class ~ en:classes ≈ fr:clans aise ~ fr:clans sis ≈ en:classy = fr:classe
+click	clique	4	en:clicks ~ en:click ≈ fr:clique ~ en:clique ≈ fr:clic
+catch	coach	4	en:coach ~ en:coaches ≈ fr:catch ~ en:catch ≈ fr:coach
+cooed	coude	4	en:cooed ≈ fr:coude ~ fr:coudes ≈ en:coot
+coot	coudes	4	en:cooed ≈ fr:coude ~ fr:coudes ≈ en:coot
+corny	corner	4	en:corn ≈ fr:corne ~ en:corny ≈ fr:corner ~ en:corner ≈ fr:cornes
+court	cotes	4	en:court ≈ fr:cotes ~ fr:cote ≈ en:courts ~ fr:courts
+set	cet	4	en:deed ≈ fr:dit ~ fr:cet ≈ en:set ~ fr:set ≈ en:asset ~ fr:propriétés
+speech	speechs	4	en:discourse ~ en:speech ≈ fr:speechs ~ en:speeches ≈ fr:speech
+speeches	speech	4	en:discourse ~ en:speech ≈ fr:speechs ~ en:speeches ≈ fr:speech
+drums	drame	4	en:drama ~ fr:drames ≈ en:drum ~ en:drums ≈ fr:drame
+dress	dresse	4	en:dress ≈ fr:dresse ~ en:dresses ≈ fr:dressage
+dresses	dressage	4	en:dress ≈ fr:dresse ~ en:dresses ≈ fr:dressage
+drummer	drames	4	en:drum ~ en:drums ≈ fr:drame ~ fr:drames ≈ en:drummer
+excluding	exclus in	4	en:exclude ~ fr:exclu ≈ en:excluded ~ en:excluding ≈ fr:exclus in ~ fr:exclus
+exit arse	existence	4	en:exist ~ fr:existence ≈ en:exit arse ~ en:exit ≈ fr:existent
+exit art	existantes	4	en:existed ≈ fr:exit aide ~ en:exit art ≈ fr:existantes
+sortie	sort	4	en:exit = fr:sortir ≈ en:sort ~ fr:sort ≈ en:sortie ~ fr:sortie
+explanation	exploser	4	en:explain ~ en:explained ≈ fr:explose ~ fr:exploser ≈ en:explanation
+explore	explorer	4	en:explorer ≈ fr:explorent ~ fr:explorer ≈ en:explore
+expressions	express	4	en:express ≈ fr:expresse ~ fr:express ≈ en:expressions ~ en:expresses
+extend	externes	4	en:extension ~ en:extensions ≈ fr:externe ~ fr:externes ≈ en:extend
+extensively	axent haines flux	4	en:extensively ≈ fr:axent haines flux ~ fr:axent haines ive ≈ en:extensive
+extensive	axent haines ive	4	en:extensively ≈ fr:axent haines flux ~ fr:axent haines ive ≈ en:extensive
+falls	folles	4	en:fall ≈ fr:folle ~ fr:folles ≈ en:falls
+fastest	fats test	4	en:fastest ≈ fr:fats test ~ fr:fats tes ≈ en:faster
+faster	fats tes	4	en:fastest ≈ fr:fats test ~ fr:fats tes ≈ en:faster
+feels	file	4	en:feel ≈ fr:files ~ fr:file ≈ en:feels
+feeling	file	4	en:feelings ~ en:feeling ≈ fr:file ~ fr:files ≈ en:feel ~ fr:feeling
+order	hordes	4	en:flock ~ fr:hordes ≈ en:order ~ fr:ordre ≈ en:ordering ~ en:ordered ≈ fr:horde
+flown	flow	4	en:flow ~ fr:flow ≈ en:flown ~ en:flew ≈ fr:flux
+flew	flux	4	en:flow ~ fr:flow ≈ en:flown ~ en:flew ≈ fr:flux
+plea	pli	4	en:fold = fr:pli ≈ en:plea ~ en:pleas ≈ fr:plisse ~ fr:plié
+gene	gins	4	en:gene ≈ fr:gins ~ fr:gin dôme ≈ en:genome ~ fr:gènes
+genome	gin dôme	4	en:gene ≈ fr:gins ~ fr:gin dôme ≈ en:genome ~ fr:gènes
+agrees	grise	4	en:gray = fr:grise ≈ en:agrees ~ en:agree ≈ fr:gris
+agree	gris	4	en:gray = fr:grise ≈ en:agrees ~ en:agree ≈ fr:gris
+grape	grippe	4	en:grip ~ fr:grippe ≈ en:grape ~ fr:grappes ≈ en:grasp ~ en:gripping
+gin	jean	4	en:jean ≈ fr:gin ~ en:gin ≈ fr:jean
+rent	reine	4	en:landlord ~ en:renter ≈ fr:reines ~ fr:reine ≈ en:rent
+meet	mythe	4	en:meet ≈ fr:mythe ~ fr:mythes ≈ en:meets
+meets	mythes	4	en:meet ≈ fr:mythe ~ fr:mythes ≈ en:meets
+film	films	4	en:movie ~ en:film ≈ fr:films ~ en:films ≈ fr:film
+films	film	4	en:movie ~ en:film ≈ fr:films ~ en:films ≈ fr:film
+poor	pour	4	en:needy ~ fr:pauvre ≈ en:pour ~ fr:pour ≈ en:poor ~ en:pauvres
+order	ordres	4	en:ordered ~ fr:ordre ≈ en:ordering ~ en:order ≈ fr:ordres
+packs	pacs	4	en:pac ~ fr:pacs ≈ en:packs ~ en:pack ≈ fr:pac
+pack	pac	4	en:pac ~ fr:pacs ≈ en:packs ~ en:pack ≈ fr:pac
+paired	perde	4	en:paired ≈ fr:perde ~ fr:perds ≈ en:pair = fr:paires
+peak	piquent	4	en:peak ≈ fr:piquent ~ fr:piquer ≈ en:peaky ~ fr:peake
+peaky	piquer	4	en:peak ≈ fr:piquent ~ fr:piquer ≈ en:peaky ~ fr:peake
+piece	pisse	4	en:pieces ≈ fr:pis aise ~ fr:pi ≈ en:pee = fr:pisse ≈ en:piece
+possessed	paix est	4	en:possess ≈ fr:paix ace ~ fr:paix est ≈ en:possessed ~ en:possesses
+predator	prêt tes	4	en:predator ≈ fr:prêt tes ~ fr:prêt ≈ en:prep ~ fr:pré ≈ en:prey
+prime	primes	4	en:premium ≈ fr:primes rimes ~ en:prime ≈ fr:primes
+proposed	proposent	4	en:proposal ~ en:proposed ≈ fr:proposent ~ en:propose ≈ fr:proposes
+protection	prétexte	4	en:protected ~ en:protect ≈ fr:prétextes ~ fr:prétexte ≈ en:protection
+wrap	rap	4	en:rap ~ fr:rap ≈ en:wrap ~ en:wrapped ≈ fr:rapt ~ en:rappe
+wrapped	rapt	4	en:rap ~ fr:rap ≈ en:wrap ~ en:wrapped ≈ fr:rapt ~ en:rappe
+register	raids ester	4	en:register ≈ fr:raids ester ~ fr:raids stade ≈ en:registered
+registered	raids stade	4	en:register ≈ fr:raids ester ~ fr:raids stade ≈ en:registered
+rendered	reines	4	en:render ~ en:rendering ≈ fr:reines ring ~ fr:reines ≈ en:rendered
+resting	reste	4	en:rested ~ en:resting ≈ fr:reste ~ fr:restez ≈ en:rest
+scored	scores	4	en:score ~ fr:scores ≈ en:scored ~ fr:score ≈ en:scores
+set	sets	4	en:set ≈ fr:sets ~ en:sets ≈ fr:set
+sets	set	4	en:set ≈ fr:sets ~ en:sets ≈ fr:set
+chute	shoot	4	en:shoot ease ~ fr:shoot ≈ en:chute ~ fr:chute ≈ en:shoot
+sort	sortent	4	en:sort ≈ fr:sortent ~ en:sorted ≈ fr:sort
+sorted	sort	4	en:sort ≈ fr:sortent ~ en:sorted ≈ fr:sort
+soupy	souper	4	en:souped arse ~ en:soupy ≈ fr:souper ~ en:soup ≈ fr:soupe
+soup	soupe	4	en:souped arse ~ en:soupy ≈ fr:souper ~ en:soup ≈ fr:soupe
+spreading	sprays in	4	en:spray ~ fr:sprays in ≈ en:spreading ~ en:spread ≈ fr:spray
+spread	spray	4	en:spray ~ fr:sprays in ≈ en:spreading ~ en:spread ≈ fr:spray
+steals	style	4	en:steal ≈ fr:styles ~ fr:style ≈ en:steals
+steal	style	4	en:steal ≈ fr:style ~ fr:styles ≈ en:steals
+steals	styles	4	en:steal ≈ fr:style ~ fr:styles ≈ en:steals
+step	steppe	4	en:step ≈ fr:steppe ~ en:steppe ≈ fr:stop ~ en:stop ≈ fr:step
+steps	steppes	4	en:steppe ~ fr:steppe ≈ en:step ~ en:steps ≈ fr:steppes
+stress	stresse	4	en:stress ≈ fr:stresse ~ fr:stress ≈ en:stressed ~ fr:stressé
+stressed	stress	4	en:stress ≈ fr:stresse ~ fr:stress ≈ en:stressed ~ fr:stressé
+stream	string	4	en:string ~ fr:string ≈ en:stream ~ fr:stream ≈ en:strings
+talk	tocs	4	en:talked ~ en:talks ≈ fr:toc ~ fr:tocs ≈ en:talk
+types	tape	4	en:tape ~ fr:tape ≈ en:types ~ en:type ≈ fr:tapes
+test	testes	4	en:testers ~ fr:testes ≈ en:test ~ en:testes ≈ fr:tester
+texting	textes	4	en:texting ≈ fr:textes ~ fr:texte ≈ en:text
+tries	trace	4	en:trace ~ fr:trace ≈ en:tries ~ en:tried ≈ fr:traces
+tried	traces	4	en:trace ~ fr:trace ≈ en:tries ~ en:tried ≈ fr:traces
+transformation	transformer	4	en:transform = fr:transformer ≈ en:transformation ~ en:transformed ≈ fr:transforme
+transform	transformé	4	en:transformation ~ en:transformed ≈ fr:transforme ~ en:transform ≈ fr:transformé
+trying	trahi	4	en:tried ~ en:trying ≈ fr:trahi ~ fr:trahis ≈ en:try
+tried	trahi	4	en:tries ~ en:try ≈ fr:trahis ~ fr:trahi ≈ en:tried
+troop	troupe	4	en:troop ≈ fr:troupe ~ fr:troupes ≈ en:troops
+tape	type	4	en:type ~ fr:type ≈ en:tape ~ fr:tape ≈ en:types
+accepting	accepte	3	en:accepted ~ fr:acceptes ≈ en:accept ~ en:accepting ≈ fr:accepte
+affects	affect	3	en:affect ~ fr:affect ≈ en:affects = fr:affectent ≈ en:effect = fr:effets
+affect	affecte	3	en:affecting ~ en:affect ≈ fr:affecte ~ fr:affect ≈ en:affects
+affected	affect	3	en:affecting ~ en:affect ≈ fr:affecte ~ fr:affect ≈ en:affected
+beats	bit	3	en:beats ≈ fr:bit ~ fr:bits ≈ en:beat
+beat	bits	3	en:beats ≈ fr:bit ~ fr:bits ≈ en:beat
+beaches	bit	3	en:bit ~ fr:bit ≈ en:beaches ~ en:beach ≈ fr:bits
+beach	bits	3	en:bit ~ fr:bit ≈ en:beaches ~ en:beach ≈ fr:bits
+bootee	boutis	3	en:bootee ≈ fr:boutis ~ fr:bout ≈ en:boot
+bootie	boutis	3	en:bootee ~ en:bootie ≈ fr:boutis ~ fr:bout ≈ en:boot
+poses	pause	3	en:break = fr:pause ≈ en:poses ~ en:pose ≈ fr:pauses = en:breaks
+fool	full	3	en:bulk ~ fr:full ≈ en:fool ~ en:fools ≈ fr:foules ~ fr:foule ≈ en:full
+calls	cols	3	en:caller ≈ fr:col ~ fr:cols ≈ en:calls
+selling	celle	3	en:cellist ~ fr:cellule ≈ en:sell ~ en:selling ≈ fr:celle
+sheik	chèque	3	en:checks ~ fr:chèque ≈ en:sheik = fr:cheik ≈ en:check
+clique	clic	3	en:clicks ~ en:click ≈ fr:clique ~ en:clique ≈ fr:clic
+closes	close	3	en:closed ~ en:closes ≈ fr:close ~ en:close ≈ fr:clos
+copy	copies	3	en:copies ~ fr:copies ≈ en:copy ~ fr:copie ≈ en:kopje ~ fr:exemplaires
+kopje	copie	3	en:copies ~ fr:copies ≈ en:copy ~ fr:copie ≈ en:kopje ~ fr:exemplaires
+exactly	exacts lies	3	en:correct ~ en:correctly ≈ fr:corrects lies ~ fr:exacts lies ≈ en:exactly ~ fr:exact
+courts	cote	3	en:court ≈ fr:cotes ~ fr:cote ≈ en:courts ~ fr:courts
+courts	cotes	3	en:court arse ~ en:court ≈ fr:cote ~ fr:cotes ≈ en:courts ~ fr:court
+jean	djinns	3	en:dj ~ fr:djinn ≈ en:gene ~ en:genes ≈ fr:jean ~ en:jean ≈ fr:djinns
+except	exception	3	en:exception ≈ fr:excepte ~ en:except ≈ fr:exception
+excluded	exclu	3	en:exclude ~ fr:exclu ≈ en:excluded ~ en:excluding ≈ fr:exclus in ~ fr:exclus
+exclude	exclus	3	en:excluded ~ en:excluding ≈ fr:exclus in ~ fr:exclus ≈ en:exclude
+expose	exposer	3	en:exhibit = fr:exposer ≈ en:expose ~ fr:expose ≈ en:exhibitions
+expose	exposées	3	en:exhibited = fr:exposées ≈ en:expose ~ fr:expose ≈ en:exhibitions
+exit	existent	3	en:exist ~ fr:existence ≈ en:exit arse ~ en:exit ≈ fr:existent
+exists	existent	3	en:exist = fr:existent ≈ en:exists ~ en:existence ≈ fr:existence
+existence	existence	3	en:exist = fr:existent ≈ en:exists ~ en:existence ≈ fr:existence
+explored	explore	3	en:exploration ~ fr:exploration ≈ en:explore ~ fr:explore ≈ en:explored
+expressing	expresse	3	en:express ~ fr:express ≈ en:expressions ~ en:expressing ≈ fr:expresse
+express	expressions	3	en:expression ~ fr:expressions ≈ en:express ~ fr:express ≈ en:expressions
+feeler	filer	3	en:feeler ≈ fr:filer ~ fr:files ≈ en:feel
+fallen	folles	3	en:fell ~ en:fallen ≈ fr:folles ~ fr:folle ≈ en:falls
+ordered	horde	3	en:flock ~ fr:hordes ≈ en:order ~ fr:ordre ≈ en:ordering ~ en:ordered ≈ fr:horde
+pleas	plisse	3	en:fold = fr:pli ≈ en:plea ~ en:pleas ≈ fr:plisse ~ fr:plié
+fool	foules	3	en:fool ≈ fr:foules ~ fr:foule ≈ en:fools
+grabs	grappe	3	en:grab ~ en:grabs ≈ fr:grappe ~ fr:grappes ≈ en:grasp ~ fr:grabe
+grab	grappe	3	en:grabbed ~ en:grab ≈ fr:grappe ~ fr:grappes ≈ en:grasp ~ en:grable
+himself	aimes elfes	3	en:herself ~ en:myself ≈ fr:mas elfes ~ fr:aimes elfes ≈ en:himself
+yourself	ions elfes	3	en:himself ≈ fr:aimes elfes ~ fr:ions elfes ≈ en:yourself ~ en:myself
+mostly	but lie	3	en:largely ~ en:mostly ≈ fr:but lie ~ fr:et lie ≈ en:widely ~ en:predominantly
+widely	et lie	3	en:largely ~ en:mostly ≈ fr:but lie ~ fr:et lie ≈ en:widely ~ en:predominantly
+lords	lord	3	en:lord ≈ fr:lords ~ en:lords ≈ fr:lord
+lording	lord	3	en:lord ≈ fr:lords ~ en:lording ≈ fr:lord
+pea	pi	3	en:pea ≈ fr:pi ~ fr:pif ≈ en:peeve ~ fr:pise ≈ en:peas = fr:pois
+peas	pise	3	en:pea ≈ fr:pi ~ fr:pif ≈ en:peeve ~ fr:pise ≈ en:peas = fr:pois
+pieced	pistent	3	en:pieced ≈ fr:pistent ~ fr:pissent ≈ en:piece
+plead	plie	3	en:pleaded ~ en:plead ≈ fr:plie ~ fr:plisse ≈ en:pleat
+poof	pouf	3	en:poo ~ en:poof ≈ fr:pouf ~ fr:poupe ≈ en:poop = fr:crotte
+poop	poupe	3	en:poo ~ en:poof ≈ fr:pouf ~ fr:poupe ≈ en:poop = fr:crotte
+prayed	pré	3	en:pray ~ en:prayed ≈ fr:pré = en:pre ≈ fr:prie
+pray	prés	3	en:prep ~ fr:prés ≈ en:pray ~ en:prayed ≈ fr:pré
+presses	précise	3	en:presses ≈ fr:précise ~ fr:précis ≈ en:pressie ~ en:pressies ≈ fr:presse
+pressies	précise	3	en:pressie ≈ fr:précis ~ fr:précise ≈ en:pressies
+pressed	prête	3	en:pressing ~ en:pressed ≈ fr:prête ~ fr:prêt ≈ en:press ~ fr:pressage
+press	prêt	3	en:pressing ~ en:pressed ≈ fr:prête ~ fr:prêt ≈ en:press ~ fr:pressage
+prove	prouvé	3	en:proved ~ en:proves ≈ fr:prouve ~ fr:prouvé ≈ en:prove
+reaches	riches	3	en:reached ~ en:reaches ≈ fr:riches ~ fr:riche ≈ en:reach
+reached	riches	3	en:reaches ~ en:reached ≈ fr:riches ~ fr:riche ≈ en:reach
+rooted	route	3	en:road = fr:route ≈ en:rooted ~ en:roots ≈ fr:routes = en:roads
+roll	rôles	3	en:role ≈ fr:roll ~ en:roll ≈ fr:rôles
+roll	rôle	3	en:role ≈ fr:roll ~ en:roll ≈ fr:rôle
+fruit	routes	3	en:routers ~ fr:routes ≈ en:fruit ~ en:fruits ≈ fr:route ~ en:routes
+fruits	route	3	en:routers ~ fr:routes ≈ en:fruit ~ en:fruits ≈ fr:route ~ en:routes
+sports	spots	3	en:rugby ~ en:sports ≈ fr:spots ~ fr:spot ≈ en:sport
+sport	spot	3	en:rugby ~ en:sports ≈ fr:spots ~ fr:spot ≈ en:sport
+sports	spot	3	en:rugby ~ en:sports ≈ fr:spot ~ fr:spots ≈ en:sport
+sport	spots	3	en:rugby ~ en:sports ≈ fr:spot ~ fr:spots ≈ en:sport
+scores	score	3	en:score ~ fr:scores ≈ en:scored ~ fr:score ≈ en:scores
+score	score	3	en:scored ~ fr:scores ≈ en:scores ~ en:score ≈ fr:score
+seemed	cime	3	en:seem ≈ fr:cimes ~ fr:cime ≈ en:seemed
+seems	cime	3	en:seem ≈ fr:cimes ~ fr:cime ≈ en:seems
+sex	sex	3	en:sex ≈ fr:sex ~ en:sexual ≈ fr:sexuelle ~ fr:sexuellement
+sexy	sexe	3	en:sext ~ en:sex ≈ fr:sexy ~ en:sexy ≈ fr:sexe
+shoot	shootes	3	en:shoot ≈ fr:shootes ~ en:shoots ≈ fr:shoots
+shoots	shoots	3	en:shoot ≈ fr:shootes ~ en:shoots ≈ fr:shoots
+skiing	ski	3	en:ski ≈ fr:skis ~ en:skiing ≈ fr:ski
+ski	skie	3	en:ski ≈ fr:skie ~ en:skid ≈ fr:ski
+skid	ski	3	en:ski ≈ fr:skie ~ en:skid ≈ fr:ski
+stalk	stocke	3	en:stalk ≈ fr:stocke ~ fr:stock ≈ en:stalky
+stalk	stockes	3	en:stalk ≈ fr:stockes ~ fr:stock ≈ en:stalky
+stick	steak	3	en:steak ~ fr:steaks ≈ en:sticker ~ en:stickers ≈ fr:stick ~ en:stick ≈ fr:steak
+steak	stick	3	en:stickers ~ en:sticker ≈ fr:steak ~ en:steak ≈ fr:stick
+step	stops	3	en:stopped ~ fr:stops ≈ en:step ~ fr:step ≈ en:stop ~ en:stoppers
+streaked	strict	3	en:streak ≈ fr:stricte ~ fr:strict ≈ en:streaked
+streak	strictes	3	en:streaked ≈ fr:strict ~ fr:strictes ≈ en:streak
+suggest	sait geste	3	en:suggest ≈ fr:sait geste ~ fr:on geste ≈ en:suggests = fr:suggère
+tests	test	3	en:test ≈ fr:tests ~ en:tests ≈ fr:test
+testes	tester	3	en:testers ~ fr:testes ≈ en:test ~ en:testes ≈ fr:tester
+test	teste	3	en:testes ~ fr:teste ≈ en:test ~ fr:test ≈ en:testers ~ fr:testes
+transformed	transforme	3	en:transform = fr:transformer ≈ en:transformation ~ en:transformed ≈ fr:transforme
+troupe	troupes	3	en:troops = fr:troupes ≈ en:troupe ~ fr:troupe ≈ en:troop ~ fr:truppe
+accepts	excepte	2	en:accept = fr:acceptent ≈ en:except ~ fr:excepte ≈ en:accepts = fr:accepte
+accept	acceptes	2	en:accepted ~ fr:acceptes ≈ en:accept ~ en:accepting ≈ fr:accepte
+except	acceptes	2	en:accepting ~ en:accept ≈ fr:excepte ~ en:except ≈ fr:acceptes
+according	écot in	2	en:according ≈ fr:écot in ~ fr:décris in ≈ en:decreasing ~ en:decrease ≈ fr:décrit ~ en:thuja
+decreasing	décris in	2	en:according ≈ fr:écot in ~ fr:décris in ≈ en:decreasing ~ en:decrease ≈ fr:décrit ~ en:thuja
+effect	affectent	2	en:affect ~ fr:affect ≈ en:affects = fr:affectent ≈ en:effect = fr:effets
+peel	pile	2	en:appealed ~ en:appealing ≈ fr:peeling ~ en:peel ≈ fr:pile ~ fr:piles ≈ en:appeal
+appeal	piles	2	en:appealed ~ en:appealing ≈ fr:peeling ~ en:peel ≈ fr:pile ~ fr:piles ≈ en:appeal
+bathroom	bat rhume	2	en:bathroom ≈ fr:bat rhume ~ fr:paient rhume ≈ en:bedroom ~ en:bed ≈ fr:baie ~ fr:bagno
+bedroom	paient rhume	2	en:bathroom ≈ fr:bat rhume ~ fr:paient rhume ≈ en:bedroom ~ en:bed ≈ fr:baie ~ fr:bagno
+bed	baie	2	en:bathroom ≈ fr:bat rhume ~ fr:paient rhume ≈ en:bedroom ~ en:bed ≈ fr:baie ~ fr:bagno
+beast	bit	2	en:beasts ~ en:beast ≈ fr:bit ~ en:bit ≈ fr:bêtes
+bit	bêtes	2	en:beasts ~ en:beast ≈ fr:bit ~ en:bit ≈ fr:bêtes
+bell	bel	2	en:bell ≈ fr:bel ~ fr:belize ≈ en:bellies ~ fr:bellis
+belle	bel	2	en:belle ≈ fr:bel ~ fr:belize ≈ en:bellies ~ en:bellied ≈ fr:belle
+bellied	belle	2	en:belle ≈ fr:bel ~ fr:belize ≈ en:bellies ~ en:bellied ≈ fr:belle
+belonged	bloc	2	en:belongs ~ en:belong ≈ fr:blocs ~ fr:bloc ≈ en:belonged
+beat	bittent	2	en:bite ~ fr:bite ≈ en:beats ~ en:beat ≈ fr:bittent
+explains	explosent	2	en:blast ~ fr:explosent ≈ en:explains ~ en:explained ≈ fr:explose
+explained	explosent	2	en:blast ~ fr:explose ≈ en:explains ~ en:explained ≈ fr:explosent
+bloggers	blague	2	en:blogger ~ en:bloggers ≈ fr:blague ~ fr:blagues ≈ en:blog ~ en:blogspot
+blog	blagues	2	en:blogger ~ en:bloggers ≈ fr:blague ~ fr:blagues ≈ en:blog ~ en:blogspot
+blogger	blagues	2	en:bloggers ~ en:blogger ≈ fr:blagues ~ fr:blague ≈ en:blog ~ en:blogspot
+blog	blague	2	en:bloggers ~ en:blogger ≈ fr:blagues ~ fr:blague ≈ en:blog ~ en:blogspot
+booty	boutis	2	en:booty ≈ fr:boutis ~ fr:bout ≈ en:boot ~ en:bootie
+pose	pauses	2	en:break = fr:pause ≈ en:poses ~ en:pose ≈ fr:pauses = en:breaks
+port	pote	2	en:buddy = fr:pote ≈ en:port ~ en:ports ≈ fr:potes = en:buddies
+ports	potes	2	en:buddy = fr:pote ≈ en:port ~ en:ports ≈ fr:potes = en:buddies
+ports	pote	2	en:buddy = fr:pote ≈ en:ports ~ en:port ≈ fr:potes = en:buddies
+port	potes	2	en:buddy = fr:pote ≈ en:ports ~ en:port ≈ fr:potes = en:buddies
+full	foule	2	en:bulk ~ fr:full ≈ en:fool ~ en:fools ≈ fr:foules ~ fr:foule ≈ en:full
+cases	cause	2	en:case ~ en:cases ≈ fr:cause ~ en:causes ≈ fr:cons aise ~ en:cons ≈ fr:case
+causes	cons aise	2	en:case ~ en:cases ≈ fr:cause ~ en:causes ≈ fr:cons aise ~ en:cons ≈ fr:case
+cons	case	2	en:case ~ en:cases ≈ fr:cause ~ en:causes ≈ fr:cons aise ~ en:cons ≈ fr:case
+causes	cause	2	en:caused ~ fr:cause ≈ en:causes ~ en:cause ≈ fr:causent
+cause	causent	2	en:caused ~ fr:cause ≈ en:causes ~ en:cause ≈ fr:causent
+cellular	cellules	2	en:cells ~ fr:cellules ≈ en:cellular ~ en:cell ≈ fr:celle ~ fr:cella
+cell	celle	2	en:cells ~ fr:cellules ≈ en:cellular ~ en:cell ≈ fr:celle ~ fr:cella
+checked	tchèque	2	en:check ≈ fr:tchèques ~ fr:tchèque ≈ en:checked
+checks	tchèque	2	en:check ≈ fr:tchèques ~ fr:tchèque ≈ en:checks
+cheque	tchèque	2	en:cheque ≈ fr:tchèque ~ fr:tchèques ≈ en:check = fr:chèque
+city	séries	2	en:cherry = fr:cerise ≈ en:series ~ fr:séries ≈ en:city ~ en:cities ≈ fr:cerises
+claire	clair	2	en:claire ≈ fr:clair = en:clear ≈ fr:clairs
+classroom	clans rhume	2	en:classroom ≈ fr:clans rhume ~ fr:clans aise ≈ en:classes ~ fr:classe
+claire	clairement	2	en:clearly = fr:clairement ≈ en:claire ~ fr:clairs ≈ en:clear ~ fr:chiara
+clause	close	2	en:close ~ fr:close ≈ en:clause ~ fr:clause ≈ en:closes
+closes	clause	2	en:close ~ fr:close ≈ en:clause ~ fr:clause ≈ en:closes
+close	closes	2	en:closed ~ en:closes ≈ fr:close ~ en:close ≈ fr:closes
+conclusion	on clown	2	en:clown ~ fr:on clown ≈ en:conclusion ~ en:conclude ≈ fr:clowns coudes ~ en:clowns
+conclude	clowns coudes	2	en:clown ~ fr:on clown ≈ en:conclusion ~ en:conclude ≈ fr:clowns coudes ~ en:clowns
+coaches	catch	2	en:coach ~ en:coaches ≈ fr:catch ~ en:catch ≈ fr:coach
+coach	catch	2	en:coaches ~ fr:coach ≈ en:catch ~ fr:catch ≈ en:coach
+controls	contrôle	2	en:controlled ~ en:control ≈ fr:contrôles = en:controls ≈ fr:contrôle
+controllers	contrôle	2	en:controller ~ en:controllers ≈ fr:contrôle ~ fr:contrôles ≈ en:control
+controller	contrôle	2	en:controllers ~ en:controller ≈ fr:contrôle ~ fr:contrôles ≈ en:control
+controlled	contrôle	2	en:controlling ~ en:control ≈ fr:contrôles ~ fr:contrôle ≈ en:controlled
+controlling	contrôle	2	en:controls = fr:contrôles ≈ en:control ~ en:controlling ≈ fr:contrôle
+cooed	coudes	2	en:cooed ≈ fr:coudes ~ fr:coude ≈ en:coot
+coot	coude	2	en:cooed ≈ fr:coudes ~ fr:coude ≈ en:coot
+policeman	police	2	en:cop ~ en:policeman ≈ fr:police ~ fr:polices ≈ en:police ~ en:polis
+police	polices	2	en:cop ~ en:policeman ≈ fr:police ~ fr:polices ≈ en:police ~ en:polis
+corn	corne	2	en:corn ≈ fr:corne ~ en:corny ≈ fr:corner ~ en:corner ≈ fr:cornes
+corner	cornes	2	en:corn ≈ fr:corne ~ en:corny ≈ fr:corner ~ en:corner ≈ fr:cornes
+corner	corne	2	en:corner ≈ fr:corne ~ en:corny ≈ fr:corner
+correctly	corrects lies	2	en:correct ~ en:correctly ≈ fr:corrects lies ~ fr:exacts lies ≈ en:exactly ~ fr:exact
+countries	khan treize	2	en:countries ≈ fr:khan treize ~ fr:khan tri ≈ en:country = fr:pays
+country	khan tri	2	en:countries ≈ fr:khan treize ~ fr:khan tri ≈ en:country = fr:pays
+coup	coupent	2	en:coups ~ en:coup ≈ fr:coupent ~ fr:coupant ≈ en:coupon = fr:coupons
+coupon	coupant	2	en:coups ~ en:coup ≈ fr:coupent ~ fr:coupant ≈ en:coupon = fr:coupons
+crass	crasse	2	en:crass ≈ fr:crasse ~ en:cruck ≈ fr:crack ~ en:crack ≈ fr:craque ~ en:crepe
+crying	crâne	2	en:cries ~ en:crying ≈ fr:crâne ~ fr:crânes ≈ en:cried ~ fr:crie
+cried	crânes	2	en:cries ~ en:crying ≈ fr:crâne ~ fr:crânes ≈ en:cried ~ fr:crie
+decreased	décrite	2	en:decreasing ~ en:decreased ≈ fr:décrite ~ fr:décrit ≈ en:decrease
+deed	dit	2	en:deed ≈ fr:dit ~ fr:cet ≈ en:set ~ fr:set ≈ en:asset ~ fr:propriétés
+asset	set	2	en:deed ≈ fr:dit ~ fr:cet ≈ en:set ~ fr:set ≈ en:asset ~ fr:propriétés
+del	del	2	en:del ≈ fr:del ~ en:de ≈ fr:de
+de	de	2	en:del ≈ fr:del ~ en:de ≈ fr:de
+destroys	dissent rose	2	en:destroys ≈ fr:dissent rose ~ fr:dissent rhodes ≈ en:destroyed ~ fr:détruite
+destroyed	dissent rhodes	2	en:destroys ≈ fr:dissent rose ~ fr:dissent rhodes ≈ en:destroyed ~ fr:détruite
+direct	directs	2	en:directed ~ fr:directs ≈ en:direct ~ fr:direct ≈ en:director = fr:réalisateur
+distract	districts	2	en:district ~ fr:districts ≈ en:distract ~ en:distracted ≈ fr:district
+distracted	district	2	en:district ~ fr:districts ≈ en:distract ~ en:distracted ≈ fr:district
+genes	jean	2	en:dj ~ fr:djinn ≈ en:jean ~ fr:jean ≈ en:genes ~ en:gene ≈ fr:djinns
+drum	drames	2	en:drama ~ fr:drames ≈ en:drum ~ en:drums ≈ fr:drame
+draw	drogues	2	en:drugs ~ fr:drogues ≈ en:draw ~ en:drawing ≈ fr:drogue
+drawing	drogue	2	en:drugs ~ fr:drogues ≈ en:draw ~ en:drawing ≈ fr:drogue
+drum	drame	2	en:drums ~ en:drummer ≈ fr:drames ~ fr:drame ≈ en:drum = fr:batterie
+dried	drap ode	2	en:drying ~ en:dried ≈ fr:drap ode ~ fr:drap ≈ en:dry
+dry	drap	2	en:drying ~ en:dried ≈ fr:drap ode ~ fr:drap ≈ en:dry
+aid	éd	2	en:ed ≈ fr:aides = en:aid ≈ fr:éd
+effect	affecte	2	en:effects ~ en:effect ≈ fr:affecte ~ en:affect ≈ fr:affect
+affect	affect	2	en:effects ~ en:effect ≈ fr:affecte ~ en:affect ≈ fr:affect
+air	erreurs	2	en:errors = fr:erreurs ≈ en:air ~ fr:air ≈ en:error
+error	air	2	en:errors = fr:erreurs ≈ en:air ~ fr:air ≈ en:error
+examination	examen échine	2	en:examination ≈ fr:examen échine ~ fr:examen ≈ en:examined
+examined	examen	2	en:examination ≈ fr:examen échine ~ fr:examen ≈ en:examined
+exclude	exclues	2	en:excluded ~ en:excluding ≈ fr:exclus in ~ fr:exclues ≈ en:exclude
+exclusion	exclus haine	2	en:exclusion ≈ fr:exclus haine ~ en:exclude ≈ fr:exclus
+sort	sortir	2	en:exit = fr:sortir ≈ en:sort ~ fr:sort ≈ en:sortie ~ fr:sortie
+expenses	expertises	2	en:expertise ~ fr:expertises ≈ en:expenses ~ en:expense ≈ fr:experts ~ en:expert
+expense	experts	2	en:expertise ~ fr:expertises ≈ en:expenses ~ en:expense ≈ fr:experts ~ en:expert
+explanations	exploser	2	en:explanation ~ en:explain ≈ fr:explosent ~ fr:exploser ≈ en:explanations
+explore	explose	2	en:explode ~ fr:explose ≈ en:explore ~ en:explored ≈ fr:explosent ~ fr:exploser
+explored	explosent	2	en:explode ~ fr:explose ≈ en:explore ~ en:explored ≈ fr:explosent ~ fr:exploser
+explore	exploration	2	en:exploration ~ fr:exploration ≈ en:explore ~ fr:explore ≈ en:exploring
+exploring	explore	2	en:exploration ~ fr:exploration ≈ en:explore ~ fr:explore ≈ en:exploring
+explore	explorent	2	en:explore ≈ fr:explorent ~ en:explorer ≈ fr:explore
+exploring	explorer	2	en:explore ≈ fr:explorent ~ fr:explorer ≈ en:exploring
+explorer	explorent	2	en:explorer ≈ fr:explorent ~ fr:explorer ≈ en:explore
+expert	exporte	2	en:exports ~ fr:exporte ≈ en:expert ~ fr:experte ≈ en:export ~ fr:exportés
+export	experte	2	en:exports ~ fr:exporte ≈ en:expert ~ fr:experte ≈ en:export ~ fr:exportés
+expressing	exprès in	2	en:expressing ≈ fr:exprès in ~ fr:exprès ≈ en:expressed
+extensions	externe	2	en:extension ~ en:extensions ≈ fr:externe ~ fr:externes ≈ en:extend
+extension	externe	2	en:extensions ~ en:extension ≈ fr:externe ~ fr:externes ≈ en:extend
+falls	folle	2	en:fall ≈ fr:folles ~ fr:folle ≈ en:falls
+falling	folles	2	en:falls ~ en:falling ≈ fr:folles ~ fr:folle ≈ en:fall ~ en:fallen
+pairs	pères	2	en:fathers = fr:pères ≈ en:pairs ~ en:pair ≈ fr:père ~ en:vader
+pair	père	2	en:fathers = fr:pères ≈ en:pairs ~ en:pair ≈ fr:père ~ en:vader
+duty	nourris	2	en:fed = fr:nourris ≈ en:duty ~ en:duties ≈ fr:nourri
+duties	nourri	2	en:fed = fr:nourris ≈ en:duty ~ en:duties ≈ fr:nourri
+fee	fie	2	en:fi ~ fr:fie ≈ en:fee ~ en:fees ≈ fr:fi
+fees	fi	2	en:fi ~ fr:fie ≈ en:fee ~ en:fees ≈ fr:fi
+floored	flotte	2	en:fleet = fr:flotte ≈ en:floored ~ en:floor ≈ fr:flottes = en:fleets
+floor	flottes	2	en:fleet = fr:flotte ≈ en:floored ~ en:floor ≈ fr:flottes = en:fleets
+order	horde	2	en:flock ~ fr:horde ≈ en:order ~ fr:ordre ≈ en:ordering ~ en:ordered ≈ fr:hordes
+ordered	hordes	2	en:flock ~ fr:horde ≈ en:order ~ fr:ordre ≈ en:ordering ~ en:ordered ≈ fr:hordes
+flooding	flot in	2	en:flood ~ en:flooding ≈ fr:flot in ~ fr:flot ≈ en:flooded
+flooded	flot	2	en:flood ~ en:flooding ≈ fr:flot in ~ fr:flot ≈ en:flooded
+flues	flouze	2	en:flues ≈ fr:flouze ~ fr:flou ≈ en:flume
+flume	flou	2	en:flues ≈ fr:flouze ~ fr:flou ≈ en:flume
+fools	foule	2	en:fool ≈ fr:foules ~ fr:foule ≈ en:fools
+footballer	fait bolée	2	en:footballer ≈ fr:fait bolée ~ fr:fait bol ≈ en:football ~ fr:football
+football	fait bol	2	en:footballer ≈ fr:fait bolée ~ fr:fait bol ≈ en:football ~ fr:football
+forces	faux aise	2	en:forces ≈ fr:faux aise ~ fr:fausses ≈ en:force
+force	fausse	2	en:forces ≈ fr:faux aise ~ fr:fausse ≈ en:force
+friendship	freinent chipe	2	en:friendship ≈ fr:freinent chipe ~ fr:freinent chips ≈ en:friendships
+friendships	freinent chips	2	en:friendship ≈ fr:freinent chipe ~ fr:freinent chips ≈ en:friendships
+sexy	sexes	2	en:gender ~ fr:sexes ≈ en:sexy ~ fr:sexy ≈ en:sex ~ fr:sexe
+gene	gin	2	en:gene ≈ fr:gin ~ fr:gin dôme ≈ en:genome ~ fr:gènes
+genes	gin	2	en:gin ~ fr:gins ≈ en:gene ~ en:genes ≈ fr:gin
+green	graines	2	en:grains ~ fr:graines ≈ en:green ~ fr:green ≈ en:grain
+grain	green	2	en:grains ~ fr:graines ≈ en:green ~ fr:green ≈ en:grain
+group	groupes	2	en:group ≈ fr:groupes ~ en:groups ≈ fr:groupe
+installed	haines solde	2	en:installed ≈ fr:haines solde ~ fr:haines taule ≈ en:install
+install	haines taule	2	en:installed ≈ fr:haines solde ~ fr:haines taule ≈ en:install
+jinn	gin	2	en:jinn ≈ fr:gin ~ en:gin ≈ fr:jean ~ en:jean ≈ fr:djinns
+kindness	cannes noces	2	en:kindness ≈ fr:cannes noces ~ fr:cannes lis ≈ en:kindly = fr:gentiment
+kindly	cannes lis	2	en:kindness ≈ fr:cannes noces ~ fr:cannes lis ≈ en:kindly = fr:gentiment
+renter	reines	2	en:landlord ~ en:renter ≈ fr:reines ~ fr:reine ≈ en:rent
+lead	liquide	2	en:leading ~ en:lead ≈ fr:liquide ~ fr:liquides ≈ en:leader ~ fr:leder
+leader	liquides	2	en:leading ~ en:lead ≈ fr:liquide ~ fr:liquides ≈ en:leader ~ fr:leder
+league	ligues	2	en:league ≈ fr:ligues = en:leagues ≈ fr:ligue
+leagues	ligue	2	en:league ≈ fr:ligues = en:leagues ≈ fr:ligue
+leg	legs	2	en:leg ≈ fr:legs ~ fr:kaki ≈ en:kaki ~ en:noga
+kaki	kaki	2	en:leg ≈ fr:legs ~ fr:kaki ≈ en:kaki ~ en:noga
+letters	laid aise	2	en:letters ≈ fr:laid aise ~ fr:laid in ≈ en:letting ~ en:let ≈ fr:lettres
+let	lettres	2	en:letters ≈ fr:laid aise ~ fr:laid in ≈ en:letting ~ en:let ≈ fr:lettres
+lift	lift	2	en:lifted ~ en:lift ≈ fr:lift ~ en:lifting ≈ fr:lifting
+lifting	lifting	2	en:lifted ~ en:lift ≈ fr:lift ~ en:lifting ≈ fr:lifting
+mark	marques	2	en:marks = fr:marques ≈ en:mark = fr:marque ≈ en:marked ~ en:marking
+marked	marque	2	en:marks = fr:marques ≈ en:mark = fr:marque ≈ en:marked ~ en:marking
+mask	masque	2	en:masks ~ en:mask ≈ fr:masque ~ en:masque ≈ fr:masques
+masque	masques	2	en:masks ~ en:mask ≈ fr:masque ~ en:masque ≈ fr:masques
+max	max	2	en:maxed ~ fr:max ≈ en:max = fr:maximum ≈ en:maximum
+maximum	maximum	2	en:maxed ~ fr:max ≈ en:max = fr:maximum ≈ en:maximum
+meme	mimes	2	en:meme ≈ fr:mimes ~ fr:mime ≈ en:memes
+memes	mime	2	en:meme ≈ fr:mimes ~ fr:mime ≈ en:memes
+knives	naïve	2	en:naive ~ fr:naïve ≈ en:knives ~ en:knife ≈ fr:naïfs
+pour	pauvre	2	en:needy ~ fr:pauvre ≈ en:pour ~ fr:pour ≈ en:poor ~ en:pauvres
+net	nets	2	en:net ≈ fr:nets ~ en:nets ≈ fr:net
+nets	net	2	en:net ≈ fr:nets ~ en:nets ≈ fr:net
+norm	norme	2	en:norm ≈ fr:norme ~ fr:règle ≈ en:regular = fr:ordinaire ≈ en:ordinary ~ fr:normaux
+regular	règle	2	en:norm ≈ fr:norme ~ fr:règle ≈ en:regular = fr:ordinaire ≈ en:ordinary ~ fr:normaux
+ordinary	ordinaire	2	en:norm ≈ fr:norme ~ fr:règle ≈ en:regular = fr:ordinaire ≈ en:ordinary ~ fr:normaux
+oldest	elles est	2	en:oldest ≈ fr:elles est ~ fr:elles aise ≈ en:elders ~ en:elder
+elders	elles aise	2	en:oldest ≈ fr:elles est ~ fr:elles aise ≈ en:elders ~ en:elder
+pair	perds	2	en:paired ≈ fr:perde ~ fr:perds ≈ en:pair = fr:paires
+pair	perd	2	en:paired ≈ fr:perde ~ fr:perd ≈ en:pair = fr:paires
+caller	coller	2	en:paste = fr:coller ≈ en:caller ~ en:call ≈ fr:colle
+pens	peines	2	en:penalties = fr:peines ≈ en:pens ~ en:pen ≈ fr:peine = en:penalty
+pen	peine	2	en:penalties = fr:peines ≈ en:pens ~ en:pen ≈ fr:peine = en:penalty
+pens	peine	2	en:penalty = fr:peine ≈ en:pens ~ en:pen ≈ fr:peines
+pen	peines	2	en:penalty = fr:peine ≈ en:pens ~ en:pen ≈ fr:peines
+pentagon	peinent gaine	2	en:pentagon ≈ fr:peinent gaine ~ fr:gaine ≈ en:again = fr:encore ≈ en:corps ~ fr:corps
+again	gaine	2	en:pentagon ≈ fr:peinent gaine ~ fr:gaine ≈ en:again = fr:encore ≈ en:corps ~ fr:corps
+corps	encore	2	en:pentagon ≈ fr:peinent gaine ~ fr:gaine ≈ en:again = fr:encore ≈ en:corps ~ fr:corps
+picky	piquer	2	en:picked ~ en:pick ≈ fr:pique ~ fr:piquer ≈ en:picky ~ en:pickled
+piece	pissent	2	en:pieced ≈ fr:pistent ~ fr:pissent ≈ en:piece
+pieces	pis aise	2	en:pieces ≈ fr:pis aise ~ fr:pi ≈ en:pee = fr:pisse ≈ en:piece
+pile	pâle	2	en:pile ≈ fr:pâle = en:pale ≈ fr:pl ~ en:pl ≈ fr:piles
+pale	pl	2	en:pile ≈ fr:pâle = en:pale ≈ fr:pl ~ en:pl ≈ fr:piles
+peek	piquent	2	en:piqued ~ fr:piquent ≈ en:peek ~ en:peeked ≈ fr:pique ~ en:piquet
+peeked	pique	2	en:piqued ~ fr:piquent ≈ en:peek ~ en:peeked ≈ fr:pique ~ en:piquet
+pease	pisse	2	en:piss ~ fr:pisse ≈ en:pease ~ en:peas ≈ fr:pisses
+peas	pisses	2	en:piss ~ fr:pisse ≈ en:pease ~ en:peas ≈ fr:pisses
+peas	pisse	2	en:piss ~ fr:pisse ≈ en:peas ~ en:pease ≈ fr:pisses
+pease	pisses	2	en:piss ~ fr:pisse ≈ en:peas ~ en:pease ≈ fr:pisses
+pissed	piste	2	en:piste ~ fr:piste ≈ en:pissed ~ fr:pisse ≈ en:piece ~ en:pieced ≈ fr:pistent
+plea	plis	2	en:plea ≈ fr:plis ~ fr:plisse ≈ en:pleas
+pleaded	plie	2	en:plead ~ en:pleaded ≈ fr:plie ~ fr:plisse ≈ en:pleat
+pool	poules	2	en:pooch ~ fr:poules ≈ en:pool ~ en:pools ≈ fr:poule
+pools	poules	2	en:pooch ~ fr:poules ≈ en:pools ~ en:pool ≈ fr:poule
+pool	poule	2	en:pooch ~ fr:poules ≈ en:pools ~ en:pool ≈ fr:poule
+pope	pop	2	en:pops = fr:pop ≈ en:pope = fr:pape ≈ en:pop
+porters	pot aise	2	en:porters ≈ fr:pot aise ~ fr:potes ≈ en:porter
+porter	potes	2	en:porters ≈ fr:pot aise ~ fr:potes ≈ en:porter
+possess	paix ace	2	en:possess ≈ fr:paix ace ~ fr:paix est ≈ en:possessed ~ en:possesses
+possession	paix échine	2	en:possession ≈ fr:paix échine ~ fr:paix est ≈ en:possessed ~ en:possesses
+post	postes	2	en:posts = fr:postes ≈ en:post = fr:poste ≈ en:posted
+posted	poste	2	en:posts = fr:postes ≈ en:post = fr:poste ≈ en:posted
+pour	pauvres	2	en:poverty ~ fr:pauvres ≈ en:pour ~ fr:pour ≈ en:poor
+pp	pipi	2	en:pp ≈ fr:pipi = en:pee ≈ fr:pis
+pee	pis	2	en:pp ≈ fr:pipi = en:pee ≈ fr:pis
+prayers	prêts	2	en:prayer ~ en:prayers ≈ fr:prêts ~ fr:prêt ≈ en:prep ~ fr:pré ≈ en:pray
+pray	pré	2	en:prayer ~ en:prayers ≈ fr:prêts ~ fr:prêt ≈ en:prep ~ fr:pré ≈ en:pray
+prey	pré	2	en:predator ≈ fr:prêt tes ~ fr:prêt ≈ en:prep ~ fr:pré ≈ en:prey
+prey	prés	2	en:predator ≈ fr:prêt tes ~ fr:prêt ≈ en:prep ~ fr:prés ≈ en:prey
+premium	primes rimes	2	en:premium ≈ fr:primes rimes ~ en:prime ≈ fr:primes
+premium	prime	2	en:premiums ~ en:premium ≈ fr:prime ~ en:prime ≈ fr:primes
+pressing	pressing	2	en:pressed ~ fr:pressing ≈ en:pressing ~ en:presses ≈ fr:presse
+pressies	presse	2	en:presses ≈ fr:précise ~ fr:précis ≈ en:pressie ~ en:pressies ≈ fr:presse
+pressmen	près mène	2	en:pressmen ≈ fr:près mène ~ fr:près ≈ en:press
+press	près	2	en:pressmen ≈ fr:près mène ~ fr:près ≈ en:press
+professor	professe	2	en:professors ~ en:professor ≈ fr:professe ~ fr:prof ≈ en:prof ~ fr:profs
+prof	prof	2	en:professors ~ en:professor ≈ fr:professe ~ fr:prof ≈ en:prof ~ fr:profs
+prove	prouver	2	en:proof ~ fr:prouve ≈ en:proves ~ en:prove ≈ fr:prouver
+proposals	proposent	2	en:proposal ~ en:proposals ≈ fr:proposent ~ en:propose ≈ fr:proposes
+proposal	proposent	2	en:proposals ~ fr:proposes ≈ en:propose ~ fr:proposent ≈ en:proposal
+prospects	prospects	2	en:prospect ~ fr:prospects ≈ en:prospects = fr:perspectives ≈ en:perspective ~ fr:perspective
+perspective	perspectives	2	en:prospect ~ fr:prospects ≈ en:prospects = fr:perspectives ≈ en:perspective ~ fr:perspective
+protects	prétexte	2	en:protected ~ en:protect ≈ fr:prétextes ~ fr:prétexte ≈ en:protects
+protects	protectrice	2	en:protective = fr:protectrice ≈ en:protects ~ en:protecting ≈ fr:protection
+protecting	protection	2	en:protective = fr:protectrice ≈ en:protects ~ en:protecting ≈ fr:protection
+protector	prêt excès	2	en:protector ≈ fr:prêt excès ~ fr:prêt excède ≈ en:protection ~ en:schutz
+protection	prêt excède	2	en:protector ≈ fr:prêt excès ~ fr:prêt excède ≈ en:protection ~ en:schutz
+prove	prouvent	2	en:prove ≈ fr:prouvent ~ fr:prouve ≈ en:proves
+prove	prouve	2	en:prove ≈ fr:prouve ~ fr:prouvent ≈ en:proves
+proved	prouve	2	en:proven = fr:prouvé ≈ en:prove = fr:prouve ≈ en:proved
+quid	quid	2	en:quid ≈ fr:quid ~ fr:quiche ≈ en:quiche
+quiche	quiche	2	en:quid ≈ fr:quid ~ fr:quiche ≈ en:quiche
+court	quote	2	en:quotes = fr:cotes ≈ en:courts ~ en:court ≈ fr:quote
+rale	réel	2	en:rails ~ en:rale ≈ fr:réel ~ fr:réelle ≈ en:rail
+rail	réelle	2	en:rails ~ en:rale ≈ fr:réel ~ fr:réelle ≈ en:rail
+writers	rare	2	en:rare ~ fr:rare ≈ en:writers ~ en:writer ≈ fr:rares
+writer	rares	2	en:rare ~ fr:rare ≈ en:writers ~ en:writer ≈ fr:rares
+red	raid	2	en:red ≈ fr:raid ~ fr:raids ≈ en:reds = fr:rouges
+reds	raids	2	en:red ≈ fr:raid ~ fr:raids ≈ en:reds = fr:rouges
+redden	reines	2	en:rendered ≈ fr:reines aide ~ fr:reines ≈ en:redden ~ fr:rendus
+rented	reines	2	en:rental ~ en:rented ≈ fr:reines ~ fr:reine ≈ en:rent
+rest	restez	2	en:rested ~ en:resting ≈ fr:reste ~ fr:restez ≈ en:rest
+rest	rester	2	en:rested ~ en:resting ≈ fr:reste ~ fr:rester ≈ en:rest
+rested	reste	2	en:resting ~ en:rested ≈ fr:reste ~ fr:restez ≈ en:rest
+retailer	rient ailé	2	en:retail ~ en:retailer ≈ fr:rient ailé ~ fr:rient hélas ≈ en:retailers
+retailers	rient hélas	2	en:retail ~ en:retailer ≈ fr:rient ailé ~ fr:rient hélas ≈ en:retailers
+read	rides	2	en:ride ~ fr:rides ≈ en:read ~ en:reads ≈ fr:ride
+reads	ride	2	en:ride ~ fr:rides ≈ en:read ~ en:reads ≈ fr:ride
+rolled	rôles	2	en:roll ~ fr:roll ≈ en:role ~ fr:rôles ≈ en:rolled ~ en:rolle
+rule	roule	2	en:rule ≈ fr:roule ~ fr:roulé ≈ en:ruler = fr:règle
+ruler	roulé	2	en:rule ≈ fr:roule ~ fr:roulé ≈ en:ruler = fr:règle
+ruler	roule	2	en:ruler ≈ fr:roule ~ fr:roulé ≈ en:rule ~ fr:règle
+rule	roulé	2	en:ruler ≈ fr:roule ~ fr:roulé ≈ en:rule ~ fr:règle
+salt	soldes	2	en:sale = fr:soldes ≈ en:salt = fr:sel ≈ en:sell ~ en:sells
+sell	sel	2	en:sale = fr:soldes ≈ en:salt = fr:sel ≈ en:sell ~ en:sells
+scene	seines	2	en:scene ≈ fr:seines ~ fr:seine ≈ en:scenes
+scenes	seine	2	en:scene ≈ fr:seines ~ fr:seine ≈ en:scenes
+create	crier	2	en:scream = fr:crier ≈ en:create = fr:crée ≈ en:cry ~ fr:crie
+cry	crée	2	en:scream = fr:crier ≈ en:create = fr:crée ≈ en:cry ~ fr:crie
+secondary	déconnent ri	2	en:secondary ≈ fr:déconnent ri ~ fr:déconnent lis ≈ en:secondly ~ en:secondment
+secondly	déconnent lis	2	en:secondary ≈ fr:déconnent ri ~ fr:déconnent lis ≈ en:secondly ~ en:secondment
+seller	celle	2	en:seller ≈ fr:celle ~ fr:cellule ≈ en:sell = fr:vendre
+sale	celle	2	en:selling ~ en:sale ≈ fr:celle ~ fr:cellule ≈ en:sell
+sen	scène	2	en:sen ≈ fr:scène = en:scene ≈ fr:si ~ en:se
+scene	si	2	en:sen ≈ fr:scène = en:scene ≈ fr:si ~ en:se
+setter	synthé	2	en:setter ≈ fr:synthé ~ fr:synthèse ≈ en:setters
+setters	synthèse	2	en:setter ≈ fr:synthé ~ fr:synthèse ≈ en:setters
+sexual	sexuelle	2	en:sex ≈ fr:sex ~ en:sexual ≈ fr:sexuelle ~ fr:sexuellement
+sexually	sexuelle	2	en:sexual ~ fr:sexuelle ≈ en:sexually ~ en:sex ≈ fr:sexe ~ fr:sexuel
+sex	sexe	2	en:sexual ~ fr:sexuelle ≈ en:sexually ~ en:sex ≈ fr:sexe ~ fr:sexuel
+sharply	chie pli	2	en:sheered ~ en:sharply ≈ fr:chie pli ~ fr:chie ≈ en:sheer
+sheer	chie	2	en:sheered ~ en:sharply ≈ fr:chie pli ~ fr:chie ≈ en:sheer
+shekel	chèque	2	en:sheik = fr:cheik ≈ en:check = fr:chèque ≈ en:shekel ~ fr:sheol
+chute	shootes	2	en:shooting ~ fr:shootes ≈ en:chute ~ fr:chute ≈ en:shoot = fr:tirer
+shown	chaude	2	en:showed ~ en:shown ≈ fr:chaude ~ fr:chauds ≈ en:show = fr:montrer
+sketch	sketchs	2	en:sketch ≈ fr:sketchs ~ en:sketches ≈ fr:sketch
+sketches	sketch	2	en:sketch ≈ fr:sketchs ~ en:sketches ≈ fr:sketch
+sketch	scotch	2	en:sketches ~ en:sketch ≈ fr:scotch ~ en:scotch ≈ fr:sketch
+scotch	sketch	2	en:sketches ~ en:sketch ≈ fr:scotch ~ en:scotch ≈ fr:sketch
+ski	skies	2	en:skies ~ fr:skies ≈ en:ski ~ en:skiing ≈ fr:ski ~ fr:skien
+slave	slaves	2	en:slavery ~ fr:slaves ≈ en:slave ~ fr:slave ≈ en:slaves
+slaves	slave	2	en:slavery ~ fr:slaves ≈ en:slave ~ fr:slave ≈ en:slaves
+stalky	stocker	2	en:stalky ≈ fr:stocker ~ fr:stockent ≈ en:stalk
+rest	resté	2	en:stayed = fr:resté ≈ en:rest ~ en:resting ≈ fr:reste = en:stay
+sticker	steak	2	en:steak ~ fr:steak ≈ en:sticker ~ en:stickers ≈ fr:stick ~ en:stick ≈ fr:steaks
+stickers	stick	2	en:steak ~ fr:steak ≈ en:sticker ~ en:stickers ≈ fr:stick ~ en:stick ≈ fr:steaks
+stick	steaks	2	en:steak ~ fr:steak ≈ en:sticker ~ en:stickers ≈ fr:stick ~ en:stick ≈ fr:steaks
+sticker	steaks	2	en:steak ~ fr:steaks ≈ en:sticker ~ en:stickers ≈ fr:stick ~ en:stick ≈ fr:steak
+stealer	style	2	en:stealer ≈ fr:style ~ fr:styles ≈ en:steal ~ en:gehlen
+stealing	style	2	en:steals ~ en:stealing ≈ fr:style ~ fr:styles ≈ en:steal
+stems	stem	2	en:stem ≈ fr:stems ~ en:stems ≈ fr:stem
+steppe	stop	2	en:step ≈ fr:steppe ~ en:steppe ≈ fr:stop ~ en:stop ≈ fr:step
+stand	stands	2	en:stood ~ fr:stands ≈ en:stand ~ fr:standing ≈ en:standing
+standing	standing	2	en:stood ~ fr:stands ≈ en:stand ~ fr:standing ≈ en:standing
+step	stop	2	en:stop ~ fr:stop ≈ en:step ~ en:steps ≈ fr:steppes = en:steppe ≈ fr:stoppe
+steppe	stoppe	2	en:stop ~ fr:stop ≈ en:step ~ en:steps ≈ fr:steppes = en:steppe ≈ fr:stoppe
+streams	strip	2	en:stream ~ fr:stream ≈ en:strip ~ fr:strip ≈ en:streams
+exclusively	exclusive	2	en:strictly ~ en:exclusively ≈ fr:exclusive ~ en:exclusive ≈ fr:exclusives ~ fr:exclusivement
+exclusive	exclusives	2	en:strictly ~ en:exclusively ≈ fr:exclusive ~ en:exclusive ≈ fr:exclusives ~ fr:exclusivement
+strings	stream	2	en:string ~ fr:string ≈ en:stream ~ fr:stream ≈ en:strings
+string	stream	2	en:strings ~ fr:string ≈ en:stream ~ fr:stream ≈ en:string
+stripped	stream	2	en:strip ~ fr:strip ≈ en:stream ~ fr:stream ≈ en:stripped ~ en:stripping
+successes	secs incise	2	en:successes ≈ fr:secs incise ~ fr:secs ides ≈ en:succeed ~ en:successful
+suggests	on geste	2	en:suggest ≈ fr:sait geste ~ fr:on geste ≈ en:suggests = fr:suggère
+suggesting	et geste	2	en:suggests ~ en:suggesting ≈ fr:et geste ~ fr:on geste ≈ en:suggested
+sweating	souhait in	2	en:sweating ≈ fr:souhait in ~ fr:souhait ≈ en:sweat
+sweat	souhait	2	en:sweating ≈ fr:souhait in ~ fr:souhait ≈ en:sweat
+talks	toc	2	en:talked ~ en:talks ≈ fr:toc ~ fr:tocs ≈ en:talk
+talkie	toquer	2	en:talkie ≈ fr:toquer ~ fr:toquent ≈ en:talk
+talk	toquent	2	en:talkie ≈ fr:toquer ~ fr:toquent ≈ en:talk
+talk	toques	2	en:talkie ≈ fr:toquer ~ fr:toques ≈ en:talk
+talked	toc	2	en:talks ~ en:talked ≈ fr:toc ~ fr:tocs ≈ en:talk
+talky	toquer	2	en:talky ≈ fr:toquer ~ fr:toquent ≈ en:talk
+type	tapes	2	en:tape ~ fr:tape ≈ en:types ~ en:type ≈ fr:tapes
+tech	tech	2	en:tech ≈ fr:tech ~ en:technology ≈ fr:technologie
+technology	technologie	2	en:tech ≈ fr:tech ~ en:technology ≈ fr:technologie
+technically	techniques lies	2	en:technically ≈ fr:techniques lies ~ en:technique ≈ fr:techniquement
+technique	techniquement	2	en:technically ≈ fr:techniques lies ~ en:technique ≈ fr:techniquement
+technical	technique	2	en:techniques ~ en:technique ≈ fr:techniques = en:technical ≈ fr:technique
+teeter	titi	2	en:teeter ≈ fr:titi ~ en:titi ≈ fr:tirer
+titi	tirer	2	en:teeter ≈ fr:titi ~ en:titi ≈ fr:tirer
+tests	teste	2	en:test ≈ fr:tests ~ en:tests ≈ fr:teste
+testa	tester	2	en:testa ≈ fr:tester ~ en:testers ≈ fr:test ~ en:test ≈ fr:testent ~ en:prueba
+test	testent	2	en:testa ≈ fr:tester ~ en:testers ≈ fr:test ~ en:test ≈ fr:testent ~ en:prueba
+test	testé	2	en:tested ~ fr:testé ≈ en:test ~ fr:test ≈ en:testa ~ fr:testés
+testa	test	2	en:tested ~ fr:testé ≈ en:test ~ fr:test ≈ en:testa ~ fr:testés
+texts	textes	2	en:text ≈ fr:texte ~ fr:textes ≈ en:texts
+textbooks	taxent box	2	en:textbooks ≈ fr:taxent box ~ fr:boxe ≈ en:books
+books	boxe	2	en:textbooks ≈ fr:taxent box ~ fr:boxe ≈ en:books
+sets	cette	2	en:this = fr:cet ≈ en:set ~ en:sets ≈ fr:cette
+tossed	test	2	en:threw ~ en:tossed ≈ fr:test ~ fr:teste ≈ en:chest = fr:torse ≈ en:toss
+chest	teste	2	en:threw ~ en:tossed ≈ fr:test ~ fr:teste ≈ en:chest = fr:torse ≈ en:toss
+toss	torse	2	en:threw ~ en:tossed ≈ fr:test ~ fr:teste ≈ en:chest = fr:torse ≈ en:toss
+treat esse	tristesse	2	en:treat esse ≈ fr:tristesse ~ fr:triste ≈ en:treat = fr:traitez
+treat	triste	2	en:treat esse ≈ fr:tristesse ~ fr:triste ≈ en:treat = fr:traitez
+treater	traité	2	en:treaty = fr:traité ≈ en:treater ~ en:pact ≈ fr:pacte ~ fr:pact
+pact	pacte	2	en:treaty = fr:traité ≈ en:treater ~ en:pact ≈ fr:pacte ~ fr:pact
+troops	troupe	2	en:troop ≈ fr:troupes ~ fr:troupe ≈ en:troops
+troops	troupes	2	en:troop ≈ fr:troupe ~ fr:troupes ≈ en:troops
+type	tape	2	en:types ~ en:type ≈ fr:tape ~ en:tape ≈ fr:type
+seats	site	2	en:website ~ fr:site ≈ en:seats ~ en:seat ≈ fr:sites ~ en:websites
+seat	sites	2	en:website ~ fr:site ≈ en:seats ~ en:seat ≈ fr:sites ~ en:websites
+western	ouais tonnes	2	en:western ≈ fr:ouais tonnes ~ fr:notais tonnes ≈ en:northwestern ~ en:southwest ≈ fr:cent ouest ~ fr:ouest
+northwestern	notais tonnes	2	en:western ≈ fr:ouais tonnes ~ fr:notais tonnes ≈ en:northwestern ~ en:southwest ≈ fr:cent ouest ~ fr:ouest
+feel	fils	2	en:wire = fr:fils ≈ en:feel ~ en:feels ≈ fr:fil
+feels	fil	2	en:wire = fr:fils ≈ en:feel ~ en:feels ≈ fr:fil
+zippy	zipper	2	en:zippy ≈ fr:zipper ~ en:zip ≈ fr:zip
+zip	zip	2	en:zippy ≈ fr:zipper ~ en:zip ≈ fr:zip
+accept	acceptent	1	en:accepted ~ fr:acceptent ≈ en:accept ~ en:accepting ≈ fr:accepte
+accepted	excepte	1	en:accepts ~ fr:acceptes ≈ en:except ~ fr:excepte ≈ en:accepted
+affect	affectent	1	en:affects = fr:affectent ≈ en:affect ~ fr:affect ≈ en:affected
+amended	amènent aide	1	en:amended ≈ fr:amènent aide ~ fr:aidait aide ≈ en:edited = fr:modifié
+edited	aidait aide	1	en:amended ≈ fr:amènent aide ~ fr:aidait aide ≈ en:edited = fr:modifié
+quarter	corps	1	en:barracks ~ fr:corps ≈ en:quarter ~ en:quarters ≈ fr:corse ~ fr:corses ≈ en:corps
+quarters	corse	1	en:barracks ~ fr:corps ≈ en:quarter ~ en:quarters ≈ fr:corse ~ fr:corses ≈ en:corps
+corps	corses	1	en:barracks ~ fr:corps ≈ en:quarter ~ en:quarters ≈ fr:corse ~ fr:corses ≈ en:corps
+previous	privilège	1	en:before ~ en:previously ≈ fr:privilégie ~ fr:privilège ≈ en:previous
+belongs	bloc	1	en:blocks = fr:blocs ≈ en:belong ~ en:belongs ≈ fr:bloc = en:block
+belonging	bloc	1	en:blocks = fr:blocs ≈ en:belong ~ en:belonging ≈ fr:bloc = en:block
+body	bondit	1	en:bonds ~ fr:bondit ≈ en:body ~ fr:body ≈ en:boarder ~ en:boarders ≈ fr:bond aise
+boarder	body	1	en:bonds ~ fr:bondit ≈ en:body ~ fr:body ≈ en:boarder ~ en:boarders ≈ fr:bond aise
+boarders	bond aise	1	en:bonds ~ fr:bondit ≈ en:body ~ fr:body ≈ en:boarder ~ en:boarders ≈ fr:bond aise
+bootie	coutils	1	en:boot ~ en:bootie ≈ fr:coutils ~ fr:coutil ≈ en:booty
+booty	coutil	1	en:boot ~ en:bootie ≈ fr:coutils ~ fr:coutil ≈ en:booty
+bootie	coutil	1	en:boot ~ en:bootie ≈ fr:coutil ~ fr:coutils ≈ en:booty
+booty	coutils	1	en:boot ~ en:bootie ≈ fr:coutil ~ fr:coutils ≈ en:booty
+brake	briques	1	en:break ~ fr:break ≈ en:brick = fr:briques ≈ en:brake ~ en:brakes ≈ fr:breaks
+brakes	breaks	1	en:break ~ fr:break ≈ en:brick = fr:briques ≈ en:brake ~ en:brakes ≈ fr:breaks
+cardboard	cas botte	1	en:cardboard ≈ fr:cas botte ~ en:case ≈ fr:caisse = en:crate
+case	caisse	1	en:cardboard ≈ fr:cas botte ~ en:case ≈ fr:caisse = en:crate
+codes	causes	1	en:causes ~ fr:causes ≈ en:codes ~ fr:codes ≈ en:caused
+checking	tchèque	1	en:checks ~ en:checking ≈ fr:tchèque ~ fr:tchèques ≈ en:check
+checks	tchèques	1	en:cheque ≈ fr:tchèque ~ fr:tchèques ≈ en:checks = fr:chèques
+series	cerise	1	en:cherry = fr:cerise ≈ en:series ~ fr:séries ≈ en:city ~ en:cities ≈ fr:cerises
+cities	cerises	1	en:cherry = fr:cerise ≈ en:series ~ fr:séries ≈ en:city ~ en:cities ≈ fr:cerises
+series	cerises	1	en:cherry = fr:cerises ≈ en:series ~ fr:séries ≈ en:city ~ en:cities ≈ fr:cerise
+cities	cerise	1	en:cherry = fr:cerises ≈ en:series ~ fr:séries ≈ en:city ~ en:cities ≈ fr:cerise
+pool	poulet	1	en:chicken = fr:poulet ≈ en:pool ~ en:pools ≈ fr:poule
+pool	poulets	1	en:chicken = fr:poule ≈ en:pools ~ en:pool ≈ fr:poulets
+clicks	clic	1	en:clique ~ fr:clique ≈ en:click ~ en:clicks ≈ fr:clic
+closes	clauses	1	en:close ~ fr:close ≈ en:clause ~ fr:clauses ≈ en:closes
+close	clos	1	en:closed ~ en:closes ≈ fr:close ~ en:close ≈ fr:clos
+clause	closes	1	en:closing ~ en:closes ≈ fr:clause ~ en:clause ≈ fr:closes
+call	col	1	en:col ~ fr:col ≈ en:call ~ en:calls ≈ fr:cols
+committing	commit in	1	en:committing ≈ fr:commit in ~ en:commit ≈ fr:commettent ~ fr:commettant
+commit	commettent	1	en:committing ≈ fr:commit in ~ en:commit ≈ fr:commettent ~ fr:commettant
+exact	exact	1	en:correct ~ en:correctly ≈ fr:corrects lies ~ fr:exacts lies ≈ en:exactly ~ en:exact ≈ fr:exact
+court	cote	1	en:court arse ~ en:court ≈ fr:cote ~ fr:cotes ≈ en:courts ~ fr:court
+schools	coule	1	en:couture ~ fr:coule ≈ en:schools ~ en:school ≈ fr:coulent
+school	coulent	1	en:couture ~ fr:coule ≈ en:schools ~ en:school ≈ fr:coulent
+cooling	coule	1	en:couture ~ fr:coule ≈ en:cooling ~ en:cooler ≈ fr:coulent
+cooler	coulent	1	en:couture ~ fr:coule ≈ en:cooling ~ en:cooler ≈ fr:coulent
+beasts	bit	1	en:creatures ~ en:beasts ≈ fr:bit ~ fr:bits ≈ en:beast ~ en:creature
+beast	bits	1	en:creatures ~ en:beasts ≈ fr:bit ~ fr:bits ≈ en:beast ~ en:creature
+der	der	1	en:der ≈ fr:der ~ en:se ≈ fr:si ~ fr:se
+se	si	1	en:der ≈ fr:der ~ en:se ≈ fr:si ~ fr:se
+debtor	der	1	en:der ~ fr:der ≈ en:debtor ~ en:debt ≈ fr:dettes ~ en:detlev
+debt	dettes	1	en:der ~ fr:der ≈ en:debtor ~ en:debt ≈ fr:dettes ~ en:detlev
+desires	des as	1	en:des ~ fr:des as ≈ en:desires ~ en:desire ≈ fr:des a ~ fr:des
+desire	des a	1	en:des ~ fr:des as ≈ en:desires ~ en:desire ≈ fr:des a ~ fr:des
+despite	dis pâte	1	en:despite ≈ fr:dis pâte ~ fr:pâte ≈ en:spite = fr:malgré
+spite	pâte	1	en:despite ≈ fr:dis pâte ~ fr:pâte ≈ en:spite = fr:malgré
+nevertheless	s laisse	1	en:despite ~ en:nevertheless ≈ fr:s laisse ~ fr:on laisse ≈ en:nonetheless ~ en:however
+nonetheless	on laisse	1	en:despite ~ en:nevertheless ≈ fr:s laisse ~ fr:on laisse ≈ en:nonetheless ~ en:however
+director	direct	1	en:directed ~ fr:directs ≈ en:direct ~ fr:direct ≈ en:director = fr:réalisateur
+director	directe	1	en:directed ~ fr:directs ≈ en:direct = fr:directe ≈ en:director = fr:réalisateur
+jean	djinn	1	en:dj ~ fr:djinn ≈ en:jean ~ fr:jean ≈ en:genes ~ en:gene ≈ fr:djinns
+gene	djinns	1	en:dj ~ fr:djinn ≈ en:jean ~ fr:jean ≈ en:genes ~ en:gene ≈ fr:djinns
+gene	djinn	1	en:dj ~ fr:djinn ≈ en:gene ~ en:genes ≈ fr:jean ~ en:jean ≈ fr:djinns
+pierre	pair	1	en:dual ~ fr:pair ≈ en:pierre ~ fr:pierre ≈ en:pair
+pair	pierre	1	en:dual ~ fr:pair ≈ en:pierre ~ fr:pierre ≈ en:pair
+ed	aides	1	en:ed ≈ fr:aides = en:aid ≈ fr:éd
+ed	aide	1	en:ed ≈ fr:aide = en:aid ≈ fr:éd
+el	el	1	en:el ≈ fr:el ~ en:il ≈ fr:il
+il	il	1	en:el ≈ fr:el ~ en:il ≈ fr:il
+enforce	un fausse	1	en:enforced ~ en:enforce ≈ fr:un fausse ~ fr:fausse ≈ en:forced = fr:forcée
+eve	ives	1	en:eve ≈ fr:ives ~ fr:ive ≈ en:eva = fr:ève
+eva	ive	1	en:eve ≈ fr:ives ~ fr:ive ≈ en:eva = fr:ève
+exception	excepté	1	en:exceptions = fr:exception ≈ en:except ~ fr:excepté ≈ en:exception
+exclusion	excluant	1	en:excluding ~ fr:excluant ≈ en:exclusion ~ fr:exclus ≈ en:exclude
+exclude	exclut	1	en:excluding ~ fr:exclut ≈ en:exclude ~ fr:exclu ≈ en:excluded ~ en:excludes
+exist	existait	1	en:exit ~ en:exit arse ≈ fr:existence ~ en:exist ≈ fr:existait = en:existed ≈ fr:exit aide
+explorer	explore	1	en:explore ≈ fr:explorent ~ en:explorer ≈ fr:explore
+explorer	exploré	1	en:explored = fr:exploré ≈ en:explorer ~ fr:explorer ≈ en:exploring
+explore	exploré	1	en:explored ~ en:exploring ≈ fr:explore ~ en:explore ≈ fr:exploré
+express	expresse	1	en:express ≈ fr:expresse ~ fr:express ≈ en:expressions ~ en:expresses
+expressed	exprès	1	en:expressing ≈ fr:exprès in ~ fr:exprès ≈ en:expressed
+express	exprès	1	en:expressing ≈ fr:exprès in ~ fr:exprès ≈ en:express = fr:exprimer
+express	expression	1	en:expression ~ fr:expression ≈ en:express ~ fr:express ≈ en:expressions
+fall	folles	1	en:fall ≈ fr:folles ~ fr:folle ≈ en:falls
+destiny	destin	1	en:fate = fr:destin ≈ en:destiny ~ fr:destins ≈ en:destined ~ fr:destine
+destined	destins	1	en:fate = fr:destin ≈ en:destiny ~ fr:destins ≈ en:destined ~ fr:destine
+pleas	plie	1	en:fold = fr:pli ≈ en:plea ~ en:pleas ≈ fr:plie ~ fr:plier
+foolish	foule	1	en:fool ≈ fr:foules ~ fr:foule ≈ en:foolish
+full	folles	1	en:fools ~ en:fool ≈ fr:full ~ en:full ≈ fr:folles ~ fr:imbéciles
+force	fausses	1	en:forces ≈ fr:faux aise ~ fr:fausses ≈ en:force
+groups	groupe	1	en:group ≈ fr:groupes ~ en:groups ≈ fr:groupe
+groups	group	1	en:group ≈ fr:groupes ~ en:groups ≈ fr:group
+self	elfes	1	en:herself ~ en:myself ≈ fr:mas elfes ~ fr:elfes ≈ en:self
+jean	gin	1	en:jean ≈ fr:gin ~ en:gin ≈ fr:jean
+jean	gins	1	en:jean ≈ fr:gins ~ en:gin ≈ fr:jean
+low	lots	1	en:lowest ~ en:low ≈ fr:lots ~ fr:lot ≈ en:lower
+lower	lot	1	en:lowest ~ en:low ≈ fr:lots ~ fr:lot ≈ en:lower
+low	lot	1	en:lowest ~ en:low ≈ fr:lot ~ fr:lots ≈ en:lower
+lower	lots	1	en:lowest ~ en:low ≈ fr:lot ~ fr:lots ≈ en:lower
+masque	masque	1	en:masque ≈ fr:masque = en:mask ≈ fr:masques
+mask	masques	1	en:masque ≈ fr:masque = en:mask ≈ fr:masques
+mouse	masses	1	en:masses ~ fr:masses ≈ en:mouse ~ en:mice ≈ fr:masse
+mice	masse	1	en:masses ~ fr:masses ≈ en:mouse ~ en:mice ≈ fr:masse
+mouse	masse	1	en:masses ~ fr:masse ≈ en:mouse ~ en:mice ≈ fr:masses
+mice	masses	1	en:masses ~ fr:masse ≈ en:mouse ~ en:mice ≈ fr:masses
+meets	mythe	1	en:meet eek ~ en:meets ≈ fr:mythe ~ fr:mythes ≈ en:meet
+meet	mythes	1	en:meet eek ~ en:meets ≈ fr:mythe ~ fr:mythes ≈ en:meet
+herself	et elfes	1	en:myself ≈ fr:mas elfes ~ fr:et elfes ≈ en:herself
+yourself	et elfes	1	en:myself ≈ fr:mas elfes ~ fr:et elfes ≈ en:yourself
+clue	clous	1	en:nail = fr:clous ≈ en:clue ~ en:clued ≈ fr:clou
+clued	clou	1	en:nail = fr:clous ≈ en:clue ~ en:clued ≈ fr:clou
+clue	clou	1	en:nail = fr:clou ≈ en:clue ~ en:clues ≈ fr:clous
+clues	clous	1	en:nail = fr:clou ≈ en:clue ~ en:clues ≈ fr:clous
+knife	naïfs	1	en:naive ~ fr:naïve ≈ en:knives ~ en:knife ≈ fr:naïfs
+knife	naïf	1	en:naive ~ fr:naïve ≈ en:knives ~ en:knife ≈ fr:naïf
+netflix	netflix	1	en:netflix ≈ fr:netflix ~ en:youtube ≈ fr:youtube
+youtube	youtube	1	en:netflix ≈ fr:netflix ~ en:youtube ≈ fr:youtube
+offset	offset	1	en:offset ≈ fr:offset ~ en:strips ≈ fr:strip
+strips	strip	1	en:offset ≈ fr:offset ~ en:strips ≈ fr:strip
+orders	horde	1	en:ordering ~ en:order ≈ fr:hordes ~ fr:horde ≈ en:orders
+pecks	boxe	1	en:pecking ~ en:pecks ≈ fr:boxe ~ fr:box ≈ en:becks
+becks	box	1	en:pecking ~ en:pecks ≈ fr:boxe ~ fr:box ≈ en:becks
+pees	pise	1	en:pi ~ fr:pif ≈ en:peeve ~ fr:pise ≈ en:pees ~ en:pee ≈ fr:pi
+pick	pique	1	en:picked ~ en:pick ≈ fr:pique ~ fr:piquer ≈ en:picky ~ en:pickled
+pick	piques	1	en:picked ~ en:pick ≈ fr:piques ~ fr:piquer ≈ en:picky ~ en:pickled
+pl	piles	1	en:pile ≈ fr:pâle = en:pale ≈ fr:pl ~ en:pl ≈ fr:piles
+pl	pile	1	en:pile ≈ fr:pâle = en:pale ≈ fr:pl ~ en:pl ≈ fr:pile
+plate	plates	1	en:plates ~ fr:plates ≈ en:plate = fr:plaque ≈ en:plaque ~ fr:plaques
+plaque	plaque	1	en:plates ~ fr:plates ≈ en:plate = fr:plaque ≈ en:plaque ~ fr:plaques
+platforms	plateforme	1	en:platforms ≈ fr:plateforme ~ en:platform ≈ fr:plateformes
+platform	plateformes	1	en:platforms ≈ fr:plateforme ~ en:platform ≈ fr:plateformes
+platforms	plateformes	1	en:platforms ≈ fr:plateformes = en:platform ≈ fr:plateforme
+platform	plateforme	1	en:platforms ≈ fr:plateformes = en:platform ≈ fr:plateforme
+pleader	plie	1	en:plead ~ en:pleader ≈ fr:plie ~ fr:plisse ≈ en:pleat
+poop	poupes	1	en:poop ≈ fr:poupes ~ fr:pouffe ≈ en:poof
+poof	pouffe	1	en:poop ≈ fr:poupes ~ fr:pouffe ≈ en:poof
+pop	pape	1	en:pops = fr:pop ≈ en:pope = fr:pape ≈ en:pop
+pop	papes	1	en:pops = fr:pop ≈ en:pope = fr:papes ≈ en:pop
+pre	prie	1	en:pray ~ en:prayed ≈ fr:pré = en:pre ≈ fr:prie
+preceding	précise	1	en:precede ~ en:preceding ≈ fr:précise ~ fr:précis ≈ en:preceded ~ en:precedes
+preceded	précis	1	en:precede ~ en:preceding ≈ fr:précise ~ fr:précis ≈ en:preceded ~ en:precedes
+praying	prenne	1	en:preppy ~ fr:prés ≈ en:pray ~ en:praying ≈ fr:prenne ~ en:precept
+press	pressé	1	en:pressed = fr:pressé ≈ en:press = fr:presse ≈ en:presses
+quad	quad	1	en:proportions ~ en:quantities ≈ fr:quad dix ~ en:quad ≈ fr:quad ~ fr:quad tee ≈ en:quantity
+prospect	prospects	1	en:prospects ~ fr:prospects ≈ en:prospect = fr:perspective ≈ en:perspective ~ fr:perspectives
+perspective	perspective	1	en:prospects ~ fr:prospects ≈ en:prospect = fr:perspective ≈ en:perspective ~ fr:perspectives
+proves	prouvent	1	en:prove ≈ fr:prouve ~ fr:prouvent ≈ en:proves
+proven	prouvant	1	en:proved ~ en:proves ≈ fr:prouve ~ fr:prouvant ≈ en:proven
+proved	prouvent	1	en:proves ~ en:prove ≈ fr:prouve ~ fr:prouvent ≈ en:proved
+strictly	strictes lies	1	en:purely ~ en:strictly ≈ fr:strictes lies ~ fr:exacts lies ≈ en:exactly ~ en:precisely
+strictly	strict	1	en:purely ~ en:strictly ≈ fr:strict ~ fr:strictes ≈ en:straight ~ fr:strictement
+straight	strictes	1	en:purely ~ en:strictly ≈ fr:strict ~ fr:strictes ≈ en:straight ~ fr:strictement
+courts	quote	1	en:quote ~ fr:quote ≈ en:courts ~ en:court ≈ fr:cotes = en:quotes
+reader	ride	1	en:reader ≈ fr:ride ~ fr:rides ≈ en:reads ~ fr:reading
+rouge	rouges	1	en:red ≈ fr:raid ~ fr:raids ≈ en:reds = fr:rouges ≈ en:rouge ~ fr:rouge
+rendered	reines aide	1	en:rendered ≈ fr:reines aide ~ fr:reines ≈ en:redden ~ fr:rendus
+retention	ricin chaîne	1	en:retention ≈ fr:ricin chaîne ~ fr:d un chaîne ≈ en:detention = fr:rétention
+detention	d un chaîne	1	en:retention ≈ fr:ricin chaîne ~ fr:d un chaîne ≈ en:detention = fr:rétention
+roots	routes	1	en:road = fr:route ≈ en:rooted ~ en:roots ≈ fr:routes = en:roads
+reed	ride	1	en:rode ~ fr:ride ≈ en:reed ~ en:reedy ≈ fr:rider ~ en:riding
+reedy	rider	1	en:rode ~ fr:ride ≈ en:reed ~ en:reedy ≈ fr:rider ~ en:riding
+score	scores	1	en:scored ~ en:score ≈ fr:scores ~ en:scores ≈ fr:score
+scores	scores	1	en:scored ~ fr:scores ≈ en:scores ~ en:score ≈ fr:score
+seizes	scies aise	1	en:seas ~ en:seizes ≈ fr:scies aise ~ fr:scies ≈ en:si ~ fr:sse
+si	scies	1	en:seas ~ en:seizes ≈ fr:scies aise ~ fr:scies ≈ en:si ~ fr:sse
+seas	sise	1	en:seas ≈ fr:sise ~ fr:sises ≈ en:sees ~ en:seen ≈ fr:si ~ fr:sse
+sees	sises	1	en:seas ≈ fr:sise ~ fr:sises ≈ en:sees ~ en:seen ≈ fr:si ~ fr:sse
+seen	si	1	en:seas ≈ fr:sise ~ fr:sises ≈ en:sees ~ en:seen ≈ fr:si ~ fr:sse
+sec	secs	1	en:sec ≈ fr:secs ~ fr:secs ides ≈ en:succeed ~ en:success ≈ fr:secs ace ~ en:secs
+sees	assise	1	en:seen ~ en:sees ≈ fr:assise = en:seated ≈ fr:scient aide ~ fr:scient ≈ en:see
+seated	scient aide	1	en:seen ~ en:sees ≈ fr:assise = en:seated ≈ fr:scient aide ~ fr:scient ≈ en:see
+see	scient	1	en:seen ~ en:sees ≈ fr:assise = en:seated ≈ fr:scient aide ~ fr:scient ≈ en:see
+sect	sexe	1	en:sex ≈ fr:sex ~ en:sext ≈ fr:secte ~ en:sect ≈ fr:sexe
+share	chères	1	en:share ≈ fr:chères ~ fr:chère ≈ en:shared
+shared	chère	1	en:share ≈ fr:chères ~ fr:chère ≈ en:shared
+share	chère	1	en:share ≈ fr:chère ~ fr:chères ≈ en:shared
+shared	chères	1	en:share ≈ fr:chère ~ fr:chères ≈ en:shared
+cheque	cheik	1	en:sheikh = fr:cheik ≈ en:cheque = fr:chèque ≈ en:sheik = fr:cheikh
+chute	shoote	1	en:shoot esse ~ fr:shoote ≈ en:chute ~ fr:chute ≈ en:shoot
+chute	shoots	1	en:shoots ~ fr:shoots ≈ en:chute ~ fr:chute ≈ en:shoot
+receive	rive	1	en:shore = fr:rive ≈ en:receive ~ en:receives ≈ fr:rives = en:shores
+receives	rives	1	en:shore = fr:rive ≈ en:receive ~ en:receives ≈ fr:rives = en:shores
+show	chauds	1	en:showed ~ en:shown ≈ fr:chaude ~ fr:chauds ≈ en:show = fr:montrer
+show	chaud	1	en:showed ~ en:shown ≈ fr:chaude ~ fr:chaud ≈ en:show = fr:montrer
+ski	skis	1	en:ski ≈ fr:skis ~ en:skiing ≈ fr:ski
+sort	sortie	1	en:sorted ~ fr:sort ≈ en:sortie ~ fr:sortie ≈ en:sort
+sort	sorties	1	en:sorted ~ fr:sort ≈ en:sortie ~ fr:sorties ≈ en:sort
+sped	speed	1	en:speed ~ fr:speed ≈ en:sped ~ fr:faste ≈ en:faster ~ fr:speeder
+faster	faste	1	en:speed ~ fr:speed ≈ en:sped ~ fr:faste ≈ en:faster ~ fr:speeder
+stalk	stockent	1	en:stalky ≈ fr:stocker ~ fr:stockent ≈ en:stalk
+stole	styles	1	en:steals ~ en:stealing ≈ fr:style ~ fr:styles ≈ en:stole ~ en:steal
+stem	stems	1	en:stem ≈ fr:stems ~ en:stems ≈ fr:stem
+stem	stemm	1	en:stem ≈ fr:stemm ~ fr:stem ≈ en:stems
+stalk	stocks	1	en:stocks ~ fr:stocks ≈ en:stalk ~ en:stalky ≈ fr:stock
+step	stoppes	1	en:stopped ~ fr:stoppes ≈ en:step ~ fr:step ≈ en:stop ~ en:stoppers
+tell	telle	1	en:such = fr:telle ≈ en:tell ~ en:tells ≈ fr:tels
+suggested	on geste	1	en:suggests ~ en:suggesting ≈ fr:et geste ~ fr:on geste ≈ en:suggested
+testy	tester	1	en:teston ~ en:testy ≈ fr:tester ~ fr:teste ≈ en:test ~ fr:test ≈ en:testers
+test	tester	1	en:testy ~ fr:tester ≈ en:test ~ fr:test ≈ en:testers
+transformed	transforment	1	en:transform = fr:transformer ≈ en:transformation ~ en:transformed ≈ fr:transforment
+troop	troupes	1	en:troop ≈ fr:troupes ~ fr:troupe ≈ en:troops

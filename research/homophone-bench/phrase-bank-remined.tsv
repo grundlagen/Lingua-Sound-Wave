@@ -1,0 +1,3007 @@
+en	fr	old_combo	prosody	meaning	tier
+Humpty Dumpty	un petit un petit	0.549	0.745	0.486	GOLD
+Humpty Dumpty sat on a wall	un petit un petit et on éole	0.521	0.788	0.365	A
+Hickory dickory dock	écris critiques	0.608	0.758	0.099	A
+Jack and Jill	chacun des il	0.453	0.813	0.386	A
+Jack and Jill went up the hill	chacun des loin types elle	0.483	0.815	0.227	A
+little Jack Horner	lord licorne	0.580	0.728	0.416	A
+twinkle twinkle little star	soin collent un gauloises tard	0.479	0.779	0.336	A
+hey diddle diddle	et est elles est elle	0.498	0.802	0.215	A
+the cat and the fiddle	débat n devaient elle	0.515	0.854	0.197	A
+rain rain go away	rien rien corée	0.520	0.673	0.131	A
+Jack be nimble	déclin un bel	0.495	0.795	0.377	A
+old mother Hubbard	osent mais apte	0.468	0.815	0.200	A
+little Miss Muffet	déroulement met êtes	0.478	0.795	0.364	A
+Mary had a little lamb	médias linoléum	0.450	0.818	-0.063	A
+rock a bye baby	rentabilité	0.463	0.720	0.235	A
+pat a cake pat a cake	peut équipement équipe	0.466	0.806	0.133	A
+of the	aux de	0.460	0.771	0.737	GOLD
+in the	un de	0.552	0.726	0.619	GOLD
+to the	taux a	0.512	0.887	0.525	GOLD
+to be	tenu	0.608	0.787	0.553	GOLD
+it was	est rose	0.468	0.754	0.496	GOLD
+and the	n de	0.597	0.775	0.631	GOLD
+it is	grise	0.498	0.750	0.459	GOLD
+of his	aux aise	0.525	0.822	0.609	GOLD
+on the	on ne	0.552	0.731	0.404	A
+from the	frein de	0.674	0.665	0.730	A
+at the	et de	0.524	0.771	0.684	GOLD
+by the	bas est	0.637	0.877	0.617	GOLD
+with the	ouais se	0.570	0.778	0.522	GOLD
+for the	front	0.486	0.798	0.447	A
+had been	est bonne	0.502	0.845	0.455	GOLD
+that the	et de	0.466	0.744	0.746	GOLD
+he was	louise	0.478	0.831	0.411	A
+that he	d qui	0.490	0.848	0.613	GOLD
+of my	aux ma	0.479	0.745	0.806	GOLD
+in his	on use	0.496	0.770	0.399	A
+he had	liquide	0.458	0.819	0.278	A
+upon the	pan de	0.530	0.737	0.618	GOLD
+have been	aux fine	0.464	0.821	0.479	GOLD
+all the	hors a	0.482	0.820	0.530	GOLD
+the whale	cellules	0.474	0.768	0.077	A
+to me	tenu	0.638	0.842	0.587	GOLD
+as the	aux de	0.482	0.726	0.667	GOLD
+one of	on ève	0.507	0.804	0.478	GOLD
+the same	ces aimes	0.572	0.825	0.582	GOLD
+could not	con as	0.517	0.848	0.338	A
+to his	taxe	0.494	0.757	0.244	A
+did not	d notes	0.578	0.919	0.211	A
+out of	arrive	0.637	0.715	0.584	GOLD
+she was	chili	0.594	0.799	0.221	A
+and then	un jeune	0.483	0.805	0.440	A
+she had	viande	0.476	0.750	0.444	A
+in my	on ma	0.555	0.683	0.666	A
+but the	bout de	0.588	0.764	0.602	GOLD
+do not	don a	0.503	0.881	0.747	GOLD
+there was	service	0.495	0.813	0.330	A
+there is	terrain	0.496	0.652	0.357	A
+was the	ouais se	0.590	0.774	0.520	GOLD
+mr darcy	mais stars et	0.561	0.841	0.420	A
+is the	aux de	0.467	0.704	0.570	GOLD
+of this	as s	0.461	0.890	0.535	GOLD
+as to	aux tout	0.623	0.900	0.695	GOLD
+to her	tenait	0.621	0.751	0.397	A
+you have	grave	0.454	0.798	0.247	A
+that it	d hôte	0.474	0.831	0.417	A
+and that	en dites	0.500	0.815	0.665	GOLD
+was not	les notes	0.489	0.870	0.298	A
+of it	aux êtes	0.533	0.897	0.735	GOLD
+the first	déteste	0.572	0.875	0.393	A
+the most	chimiste	0.544	0.801	0.262	A
+the ship	rechute	0.458	0.823	0.344	A
+in this	ils s	0.478	0.854	0.514	GOLD
+you are	voire	0.478	0.694	0.599	A
+the sea	ceci	0.755	0.932	0.458	GOLD
+to my	tenant	0.622	0.786	0.302	A
+as he	aux qui	0.467	0.812	0.694	GOLD
+you will	nouvel	0.474	0.861	0.405	A
+would be	vous dit	0.494	0.846	0.489	GOLD
+that she	et j	0.478	0.762	0.526	GOLD
+that you	d où	0.497	0.844	0.468	GOLD
+with his	les use	0.481	0.776	0.460	GOLD
+of all	aux elle	0.518	0.868	0.600	GOLD
+he is	crise	0.476	0.808	0.294	A
+that is	d use	0.486	0.870	0.417	A
+to have	trêve	0.569	0.802	0.503	GOLD
+is not	n êtes	0.494	0.896	0.774	GOLD
+to see	t et	0.525	0.851	0.443	A
+and in	en donne	0.540	0.840	0.474	GOLD
+if you	et roue	0.459	0.763	0.379	A
+me to	but où	0.645	0.918	0.563	GOLD
+of that	as hâte	0.461	0.890	0.520	GOLD
+to him	terme	0.604	0.783	0.539	GOLD
+at last	et liste	0.596	0.890	0.408	A
+over the	aux me	0.561	0.708	0.548	GOLD
+the whole	local	0.458	0.755	0.395	A
+said he	saint qui	0.622	0.886	0.366	A
+would have	on caves	0.486	0.741	0.191	A
+as if	aux if	0.543	0.906	0.729	GOLD
+him to	en tout	0.605	0.706	0.578	GOLD
+must be	met but	0.480	0.857	0.391	A
+my dear	major	0.647	0.638	0.410	A
+of their	as air	0.564	0.791	0.357	A
+when the	un de	0.531	0.654	0.563	A
+his own	les aune	0.565	0.827	0.430	A
+will be	libye	0.562	0.910	0.243	A
+has been	les mine	0.533	0.788	0.505	GOLD
+at all	europe	0.474	0.685	0.149	A
+and his	en dise	0.552	0.829	0.654	GOLD
+and he	en dit	0.573	0.810	0.619	GOLD
+do you	durée	0.474	0.778	0.284	A
+it and	errante	0.461	0.692	0.630	A
+me and	merde	0.527	0.769	0.619	GOLD
+but it	but if	0.501	0.899	0.587	GOLD
+should be	chauds but	0.487	0.865	0.454	GOLD
+through the	trous a	0.513	0.796	0.395	A
+and as	en dise	0.552	0.865	0.736	GOLD
+so that	sceaux as	0.594	0.871	0.490	GOLD
+which he	laid j	0.520	0.913	0.623	GOLD
+more than	maures n	0.744	0.895	0.497	GOLD
+the room	groupe	0.450	0.696	0.377	A
+part of	parent if	0.455	0.725	0.258	A
+may be	midi	0.630	0.830	0.502	GOLD
+and so	in saut	0.462	0.846	0.653	GOLD
+as it	aux êtes	0.540	0.902	0.752	GOLD
+in that	on jette	0.508	0.821	0.468	GOLD
+of them	as aimes	0.564	0.910	0.616	GOLD
+in which	on ouest	0.462	0.860	0.548	GOLD
+it would	est laide	0.510	0.864	0.485	GOLD
+not to	dit tout	0.582	0.874	0.381	A
+the door	d or	0.496	0.761	0.312	A
+not be	nid but	0.475	0.845	0.514	GOLD
+of your	effort	0.522	0.709	0.354	A
+sort of	sort as	0.658	0.841	0.609	GOLD
+would not	laid notes	0.589	0.933	0.117	A
+chapter the	tchad de	0.621	0.778	0.388	A
+the pequod	repêchage	0.485	0.778	0.462	GOLD
+had not	et notes	0.507	0.855	0.292	A
+from his	promise	0.525	0.822	0.356	A
+mr collins	but calmes	0.460	0.886	0.328	A
+he has	crise	0.466	0.783	0.338	A
+to make	typique	0.571	0.789	0.569	GOLD
+mrs bennet	mais ben êtes	0.647	0.858	0.583	GOLD
+to you	tenu	0.588	0.751	0.602	GOLD
+seemed to	sommes tous	0.558	0.878	0.284	A
+my own	marianne	0.631	0.766	0.332	A
+so much	son aphtes	0.452	0.783	0.296	A
+when he	un qui	0.519	0.714	0.694	GOLD
+to do	tout où	0.648	0.898	0.537	GOLD
+and to	en tout	0.647	0.878	0.658	GOLD
+she could	liquide	0.560	0.858	0.232	A
+be the	bitter	0.626	0.820	0.337	A
+of him	aux aimes	0.525	0.822	0.641	GOLD
+will not	un hôte	0.481	0.830	0.261	A
+the white	relate	0.497	0.829	0.283	A
+the time	d âme	0.502	0.814	0.360	A
+the house	vacances	0.459	0.762	0.360	A
+to say	t et	0.528	0.829	0.514	GOLD
+might be	mat but	0.669	0.874	0.361	A
+and she	en j	0.535	0.851	0.615	GOLD
+they are	dehors	0.479	0.686	0.365	A
+with him	les hommes	0.481	0.776	0.554	GOLD
+was to	vais tout	0.603	0.939	0.616	GOLD
+the very	reverrai	0.655	0.768	0.543	GOLD
+and with	en douai	0.497	0.804	0.594	GOLD
+and when	en donne	0.523	0.805	0.479	GOLD
+he would	guilde	0.497	0.767	0.213	A
+my father	mat as	0.587	0.858	0.306	A
+if he	et qui	0.477	0.821	0.600	GOLD
+at least	et liste	0.770	0.930	0.507	GOLD
+and all	en donne	0.540	0.851	0.544	GOLD
+the great	regrette	0.642	0.724	0.322	A
+among the	main de	0.500	0.661	0.633	A
+it to	et tout	0.650	0.909	0.612	GOLD
+this is	d aise	0.498	0.899	0.469	GOLD
+the last	relate	0.566	0.856	0.337	A
+on his	on use	0.531	0.801	0.569	GOLD
+the matter	son are	0.482	0.725	0.366	A
+was in	vous n	0.480	0.862	0.456	GOLD
+you must	on oust	0.532	0.806	0.521	GOLD
+and was	en dise	0.523	0.805	0.705	GOLD
+with her	ouais est	0.531	0.866	0.390	A
+must have	mais savent	0.591	0.889	0.564	GOLD
+the boat	remonte	0.470	0.779	0.429	A
+which the	laid je	0.477	0.776	0.403	A
+and her	un de	0.452	0.645	0.525	A
+you may	fumer	0.472	0.827	0.227	A
+all this	ils s	0.467	0.815	0.593	GOLD
+the sperm	des femmes	0.470	0.833	0.472	GOLD
+all that	ils êtes	0.488	0.844	0.546	GOLD
+for it	forte	0.837	0.751	0.602	GOLD
+towards the	dehors de	0.604	0.711	0.618	GOLD
+in their	on chairs	0.610	0.713	0.317	A
+him in	on n	0.511	0.789	0.597	GOLD
+what is	et onze	0.474	0.708	0.494	GOLD
+who had	quid	0.499	0.780	0.390	A
+and my	in ma	0.462	0.836	0.460	GOLD
+old man	ils man	0.500	0.829	0.244	A
+lady catherine	les écot in	0.497	0.707	0.428	A
+about the	about de	0.648	0.759	0.676	GOLD
+that in	d une	0.486	0.870	0.573	GOLD
+as she	aux j	0.497	0.871	0.612	GOLD
+and it	en dites	0.566	0.893	0.690	GOLD
+the two	sont où	0.626	0.928	0.479	GOLD
+there are	erreur	0.564	0.585	0.294	B
+but he	but et	0.519	0.888	0.657	GOLD
+me that	mis à	0.590	0.847	0.708	GOLD
+his head	les aides	0.569	0.830	0.316	A
+of those	as oses	0.465	0.845	0.534	GOLD
+not the	tant de	0.496	0.740	0.304	A
+in some	ils aiment	0.511	0.886	0.420	A
+of an	aux n	0.460	0.819	0.724	GOLD
+mr bingley	met bain glass	0.520	0.855	0.379	A
+they had	décide	0.499	0.735	0.450	GOLD
+she is	chiites	0.518	0.819	0.292	A
+in all	on elle	0.511	0.864	0.572	GOLD
+you would	ovide	0.478	0.820	0.362	A
+and yet	en tête	0.617	0.833	0.545	GOLD
+of these	as use	0.453	0.877	0.500	GOLD
+we have	élèves	0.457	0.768	0.399	A
+to it	poète	0.533	0.926	0.401	A
+you know	ion au	0.555	0.635	0.323	A
+which was	laid chose	0.495	0.914	0.592	GOLD
+and there	en chair	0.593	0.711	0.400	A
+we are	voire	0.493	0.714	0.536	GOLD
+before the	bords est	0.492	0.793	0.411	A
+up and	aborde	0.464	0.767	0.598	GOLD
+as well	aux elle	0.613	0.850	0.605	GOLD
+to go	second	0.531	0.822	0.386	A
+against the	écoles de	0.453	0.708	0.309	A
+of its	office	0.511	0.840	0.350	A
+think that	son quitte	0.455	0.769	0.452	GOLD
+to think	t hic	0.506	0.837	0.599	GOLD
+down the	don de	0.607	0.673	0.479	A
+and if	en if	0.542	0.884	0.903	GOLD
+by his	balise	0.655	0.770	0.363	A
+let me	laid mi	0.821	0.986	0.815	GOLD
+that we	d oui	0.612	0.885	0.614	GOLD
+of what	avoir	0.488	0.816	0.749	GOLD
+white whale	virtuelle	0.456	0.793	0.212	A
+for her	forfait	0.679	0.771	0.499	GOLD
+was now	les na	0.508	0.845	0.427	A
+for his	venise	0.499	0.807	0.402	A
+no more	non or	0.617	0.697	0.501	A
+as you	aux yeux	0.511	0.850	0.494	GOLD
+up to	aident où	0.629	0.892	0.570	GOLD
+his eyes	les as	0.482	0.811	0.425	A
+the case	secret	0.475	0.744	0.392	A
+after the	et de	0.475	0.697	0.585	A
+but as	but as	0.512	0.908	1.000	GOLD
+he could	étude	0.478	0.765	0.332	A
+enough to	un et tout	0.568	0.853	0.434	A
+and what	en dites	0.523	0.805	0.769	GOLD
+the deck	laid êtes	0.482	0.887	0.343	A
+in one	on n	0.516	0.788	0.568	GOLD
+than the	don de	0.508	0.710	0.471	GOLD
+the man	domaine	0.512	0.891	0.330	A
+is to	aux tout	0.608	0.891	0.588	GOLD
+to this	taux s	0.581	0.886	0.464	GOLD
+is it	aux êtes	0.526	0.893	0.606	GOLD
+like the	lacs a	0.607	0.903	0.643	GOLD
+you to	but où	0.596	0.899	0.552	GOLD
+which had	laid chaude	0.501	0.891	0.367	A
+it had	est aides	0.543	0.816	0.475	GOLD
+the day	d a	0.465	0.846	0.440	A
+the next	son x	0.497	0.790	0.517	GOLD
+it may	et mes	0.528	0.724	0.401	A
+it in	graines	0.496	0.746	0.275	A
+of course	aux course	0.553	0.771	0.573	GOLD
+to know	tenu	0.728	0.812	0.732	GOLD
+have no	avenir	0.491	0.737	0.345	A
+soon as	son aise	0.595	0.867	0.382	A
+all his	office	0.480	0.781	0.225	A
+the captain	occupent il	0.453	0.853	0.594	GOLD
+and at	en dites	0.552	0.865	0.660	GOLD
+with me	les mi	0.573	0.901	0.692	GOLD
+at his	et onze	0.495	0.730	0.564	GOLD
+come to	con tout	0.719	0.885	0.592	GOLD
+man who	main a	0.517	0.754	0.454	GOLD
+in it	un in	0.496	0.763	0.670	GOLD
+that his	d use	0.486	0.821	0.391	A
+able to	effort où	0.535	0.763	0.588	GOLD
+and now	n na	0.522	0.891	0.517	GOLD
+could be	goût dit	0.502	0.902	0.414	A
+of our	envahi	0.518	0.891	0.425	A
+of some	aux dames	0.480	0.841	0.545	GOLD
+that there	des air	0.576	0.753	0.471	GOLD
+and though	n de	0.474	0.681	0.568	A
+the morning	demain in	0.481	0.665	0.555	A
+for ever	force	0.646	0.746	0.243	A
+and by	in bah	0.462	0.846	0.435	A
+you can	organes	0.470	0.853	0.174	A
+her sister	consiste	0.585	0.912	0.217	A
+does not	des notes	0.583	0.880	0.283	A
+if it	est êtes	0.550	0.901	0.619	GOLD
+mr bennet	mais ben êtes	0.672	0.902	0.534	GOLD
+my friend	met restent	0.509	0.774	0.511	GOLD
+me the	mis à	0.612	0.941	0.778	GOLD
+at once	et lace	0.483	0.817	0.313	A
+the rest	modeste	0.612	0.860	0.379	A
+is that	s êtes	0.479	0.870	0.670	GOLD
+the sun	d n	0.495	0.855	0.302	A
+that of	d ève	0.506	0.867	0.684	GOLD
+think of	son gave	0.495	0.809	0.254	A
+began to	bien tout	0.644	0.775	0.443	A
+that this	des s	0.462	0.807	0.585	GOLD
+not have	d gave	0.458	0.821	0.310	A
+her to	fait où	0.611	0.914	0.500	GOLD
+with an	les n	0.459	0.843	0.588	GOLD
+as much	aux matchs	0.578	0.898	0.436	A
+from my	frein me	0.586	0.612	0.717	A
+me in	viennent	0.501	0.838	0.650	GOLD
+the more	son or	0.484	0.727	0.373	A
+say that	ces as	0.594	0.825	0.546	GOLD
+and of	en love	0.516	0.817	0.562	GOLD
+her own	baronne	0.472	0.723	0.520	GOLD
+know that	nos as	0.594	0.825	0.558	GOLD
+down to	don t	0.500	0.792	0.410	A
+he said	et aides	0.643	0.832	0.377	A
+the water	dehors	0.625	0.789	0.478	GOLD
+them and	demandent	0.535	0.865	0.556	GOLD
+when she	un si	0.531	0.730	0.591	GOLD
+such an	saint chaîne	0.592	0.879	0.405	A
+miss bingley	mais bain glass	0.535	0.817	0.262	A
+his face	les fesses	0.452	0.810	0.500	GOLD
+in an	on n	0.537	0.825	0.692	GOLD
+round the	rendent de	0.618	0.601	0.585	A
+that was	d rose	0.464	0.828	0.362	A
+and we	en dit	0.552	0.810	0.606	GOLD
+as we	aux oui	0.623	0.900	0.609	GOLD
+you and	yourte	0.538	0.709	0.732	GOLD
+we shall	michel	0.560	0.872	0.459	GOLD
+me with	merde	0.465	0.769	0.560	GOLD
+the present	après est	0.572	0.787	0.526	GOLD
+it will	est il	0.536	0.844	0.523	GOLD
+the only	lyon lie	0.585	0.806	0.277	A
+there were	servant	0.486	0.755	0.316	A
+the air	dehors	0.522	0.771	0.564	GOLD
+came to	con tout	0.685	0.839	0.559	GOLD
+in him	un homme	0.507	0.777	0.671	GOLD
+moby dick	moment hic	0.617	0.802	0.430	A
+for my	format	0.885	0.843	0.366	A
+not know	man au	0.514	0.728	0.552	GOLD
+of mr	aux liste	0.510	0.804	0.511	GOLD
+any other	on yen	0.484	0.714	0.266	A
+with all	les elle	0.492	0.861	0.628	GOLD
+was no	les nos	0.508	0.738	0.490	GOLD
+am sure	un jour	0.504	0.738	0.400	A
+the night	son out	0.554	0.881	0.246	A
+no doubt	nos out	0.657	0.889	0.257	A
+some of	son s	0.481	0.769	0.580	GOLD
+be in	viennent	0.530	0.865	0.640	GOLD
+to give	secondes	0.458	0.782	0.320	A
+shall be	chimie	0.544	0.851	0.188	A
+and not	n date	0.583	0.918	0.284	A
+not so	nantes a	0.529	0.881	0.296	A
+them to	son tout	0.593	0.794	0.539	GOLD
+side of	cent as	0.500	0.833	0.355	A
+but she	but chie	0.786	0.931	0.443	A
+but that	but dette	0.563	0.900	0.776	GOLD
+should have	choux as	0.494	0.894	0.377	A
+that my	dit ma	0.502	0.717	0.692	GOLD
+for me	former	0.821	0.880	0.420	A
+is no	n au	0.530	0.755	0.585	GOLD
+it were	est ouah	0.555	0.894	0.596	GOLD
+she would	chili	0.588	0.776	0.194	A
+but in	but n	0.607	0.927	0.638	GOLD
+is very	aux verra	0.548	0.714	0.536	GOLD
+said she	et j	0.507	0.765	0.470	GOLD
+you see	yeux au	0.496	0.753	0.698	GOLD
+and you	en tout	0.540	0.792	0.600	GOLD
+the best	déteste	0.640	0.867	0.282	A
+as soon	et une	0.499	0.807	0.530	GOLD
+was very	les verrez	0.571	0.766	0.375	A
+to that	taux a	0.498	0.860	0.525	GOLD
+at first	est faite	0.497	0.845	0.480	GOLD
+or the	hors a	0.641	0.819	0.554	GOLD
+to get	second	0.508	0.801	0.464	GOLD
+between the	bien de	0.560	0.683	0.466	A
+not only	d un lie	0.554	0.781	0.485	GOLD
+up in	automne	0.503	0.832	0.387	A
+what he	et qui	0.490	0.730	0.726	GOLD
+are not	en hâte	0.551	0.820	0.256	A
+young man	on mine	0.504	0.788	0.229	A
+he did	et aides	0.527	0.807	0.295	A
+at length	et legs	0.466	0.872	0.439	A
+for some	fort home	0.760	0.878	0.523	GOLD
+under the	n de	0.605	0.809	0.490	GOLD
+to speak	tous pique	0.817	0.934	0.421	A
+my heart	pancarte	0.554	0.699	0.278	A
+some time	son dame	0.588	0.821	0.474	GOLD
+was so	les saut	0.508	0.845	0.485	GOLD
+did you	des yeux	0.500	0.858	0.198	A
+upon his	hypothèse	0.477	0.804	0.428	A
+were the	oiseaux	0.511	0.831	0.322	A
+if the	et de	0.482	0.748	0.632	GOLD
+but to	but tout	0.786	0.931	0.611	GOLD
+it as	heureuse	0.526	0.767	0.454	GOLD
+it has	est as	0.452	0.819	0.575	GOLD
+of such	as h	0.473	0.891	0.584	GOLD
+this was	des vases	0.483	0.859	0.401	A
+which she	laid j	0.463	0.913	0.580	GOLD
+the head	tiède	0.586	0.804	0.482	GOLD
+we had	viande	0.509	0.768	0.498	GOLD
+who was	croise	0.470	0.789	0.474	GOLD
+to their	taux air	0.702	0.840	0.215	A
+tell me	tellement	0.780	0.883	0.651	GOLD
+but you	but où	0.601	0.901	0.501	GOLD
+on my	on ma	0.600	0.729	0.657	GOLD
+and they	n de	0.474	0.681	0.528	A
+when you	un goût	0.507	0.698	0.430	A
+it but	est faite	0.494	0.835	0.654	GOLD
+the subject	les hommes secte	0.547	0.849	0.416	A
+on her	on se	0.455	0.699	0.463	A
+had the	et de	0.515	0.715	0.706	GOLD
+in your	un air	0.507	0.674	0.384	A
+for him	volume	0.479	0.765	0.207	A
+in its	un s	0.530	0.790	0.616	GOLD
+no one	nouvel	0.482	0.787	0.381	A
+to find	t hard	0.537	0.775	0.450	A
+which is	et chaise	0.498	0.781	0.407	A
+when they	vain d	0.456	0.837	0.483	GOLD
+during the	terrain de	0.487	0.639	0.620	A
+in such	on patch	0.570	0.803	0.260	A
+him but	un but	0.489	0.785	0.439	A
+of being	aux bic	0.451	0.824	0.542	GOLD
+him as	chemise	0.491	0.852	0.402	A
+are you	aria	0.533	0.785	0.344	A
+and this	en dix	0.511	0.839	0.568	GOLD
+that had	d aides	0.495	0.835	0.456	GOLD
+where the	verres a	0.516	0.825	0.477	GOLD
+mr holmes	mais table	0.471	0.739	0.246	A
+out the	et de	0.498	0.667	0.633	A
+to all	noël	0.511	0.896	0.610	GOLD
+to take	t s	0.531	0.828	0.451	GOLD
+and more	en meurent	0.520	0.732	0.582	GOLD
+be so	but a	0.506	0.833	0.585	GOLD
+with you	les où	0.490	0.801	0.510	GOLD
+for you	sérieux	0.487	0.793	0.513	GOLD
+much as	met chose	0.573	0.886	0.539	GOLD
+to your	dehors	0.534	0.781	0.502	GOLD
+the three	d dit	0.464	0.865	0.512	GOLD
+while the	watts est	0.571	0.870	0.093	A
+said the	sais de	0.802	0.848	0.672	GOLD
+well as	venise	0.492	0.836	0.466	GOLD
+to them	des hommes	0.500	0.860	0.567	GOLD
+is in	aux n	0.482	0.856	0.504	GOLD
+at that	et cette	0.495	0.741	0.703	GOLD
+let us	laid as	0.726	0.973	0.431	A
+that if	d if	0.511	0.872	0.832	GOLD
+he might	limite	0.553	0.794	0.328	A
+look at	locaux	0.498	0.855	0.511	GOLD
+too much	tunis	0.474	0.833	0.304	A
+elizabeth was	les avaient as	0.466	0.863	0.365	A
+with their	s air	0.546	0.779	0.327	A
+mr wickham	mais liquide	0.452	0.815	0.334	A
+it seemed	s hymne	0.596	0.957	0.397	A
+the right	pirates	0.565	0.704	0.257	A
+end of	n osent	0.603	0.930	0.498	GOLD
+him the	un de	0.511	0.586	0.638	B
+as for	aux for	0.693	0.785	0.686	GOLD
+with such	les sèches	0.459	0.835	0.444	A
+miss bennet	mais ben s	0.626	0.899	0.671	GOLD
+can be	con but	0.499	0.834	0.511	GOLD
+sight of	cent as	0.488	0.833	0.250	A
+but there	but terre	0.645	0.830	0.629	GOLD
+again and	rien n	0.454	0.778	0.440	A
+not been	d mine	0.476	0.875	0.379	A
+but when	but n	0.664	0.896	0.526	GOLD
+full of	slave	0.528	0.813	0.309	A
+once more	lignes maures	0.619	0.860	0.385	A
+and for	en for	0.706	0.773	0.820	GOLD
+should not	son nantes	0.496	0.875	0.147	A
+he must	limite	0.552	0.830	0.388	A
+have you	avion	0.519	0.797	0.175	A
+they have	dérive	0.491	0.785	0.381	A
+he should	étude	0.484	0.776	0.271	A
+from her	frappée	0.584	0.725	0.495	GOLD
+to come	lequel	0.455	0.809	0.565	GOLD
+the long	bloc	0.474	0.833	0.469	GOLD
+upon my	otan ma	0.527	0.714	0.702	GOLD
+wish to	vivent où	0.583	0.881	0.459	GOLD
+all these	ils use	0.492	0.850	0.535	GOLD
+on this	on six	0.545	0.835	0.521	GOLD
+at this	as s	0.498	0.890	0.568	GOLD
+the wind	david	0.467	0.829	0.308	A
+with it	vous êtes	0.480	0.871	0.532	GOLD
+by no	bien au	0.573	0.686	0.516	A
+for all	parole	0.690	0.817	0.534	GOLD
+could have	con as	0.499	0.836	0.375	A
+see that	ces a	0.509	0.831	0.649	GOLD
+was that	les jette	0.474	0.841	0.400	A
+now and	narines	0.567	0.769	0.275	A
+he will	civils	0.520	0.871	0.225	A
+head and	et hard	0.484	0.685	0.505	A
+the little	générale	0.474	0.730	0.366	A
+but if	but if	0.609	0.920	1.000	GOLD
+or two	eurent où	0.740	0.852	0.466	GOLD
+am not	en notes	0.516	0.864	0.224	A
+idea of	hardiesse	0.453	0.723	0.539	GOLD
+with my	les ma	0.475	0.722	0.681	GOLD
+of us	aux as	0.533	0.897	0.516	GOLD
+going to	craignent où	0.527	0.758	0.461	GOLD
+it must	et must	0.545	0.875	0.856	GOLD
+him that	un date	0.499	0.804	0.422	A
+which you	et sioux	0.571	0.799	0.313	A
+away from	avait rome	0.473	0.795	0.458	GOLD
+saw the	ces a	0.497	0.836	0.563	GOLD
+point of	pain savent	0.593	0.839	0.236	A
+the fire	sofa	0.517	0.850	0.179	A
+him he	commit	0.507	0.840	0.307	A
+the end	viennent	0.488	0.851	0.536	GOLD
+have not	aux notes	0.458	0.849	0.322	A
+see the	ces a	0.526	0.877	0.701	GOLD
+for that	forte	0.709	0.752	0.593	GOLD
+of life	aux light	0.498	0.790	0.467	GOLD
+instead of	on sait ève	0.565	0.859	0.480	GOLD
+and on	en donne	0.758	0.913	0.541	GOLD
+was at	vous êtes	0.504	0.869	0.499	GOLD
+it not	et notes	0.503	0.867	0.287	A
+time to	tapent où	0.772	0.906	0.413	A
+my eyes	malaise	0.644	0.739	0.416	A
+an old	un autre	0.460	0.790	0.452	GOLD
+captain ahab	coupent idéal	0.500	0.814	0.313	A
+seem to	son tout	0.695	0.809	0.520	GOLD
+very much	terrain h	0.523	0.727	0.334	A
+his wife	les watts	0.538	0.828	0.088	A
+of any	afin et	0.464	0.812	0.570	GOLD
+the line	relate	0.559	0.828	0.433	A
+as in	aux une	0.511	0.843	0.620	GOLD
+were to	veut où	0.630	0.933	0.579	GOLD
+it all	idole	0.645	0.892	0.436	A
+an hour	un are	0.501	0.755	0.443	A
+were not	en hâte	0.531	0.800	0.283	A
+by her	baron	0.603	0.760	0.353	A
+the country	second ri	0.559	0.755	0.321	A
+is this	ils s	0.490	0.854	0.477	GOLD
+heard of	on ève	0.516	0.792	0.566	GOLD
+me as	noise	0.474	0.753	0.230	A
+on board	on merde	0.604	0.717	0.603	GOLD
+of one	avoir	0.512	0.806	0.636	GOLD
+the greatest	secouristes	0.518	0.718	0.446	A
+thought of	tout ève	0.509	0.863	0.614	GOLD
+the window	david au	0.468	0.705	0.292	A
+the name	son âme	0.494	0.807	0.465	GOLD
+the cabin	cinquantaine	0.460	0.825	0.234	A
+no means	termine	0.520	0.807	0.524	GOLD
+but this	but six	0.565	0.902	0.447	A
+know what	nouvel	0.470	0.772	0.465	GOLD
+to hear	dehors	0.531	0.742	0.538	GOLD
+you were	yoyo	0.481	0.795	0.358	A
+was only	les on lie	0.595	0.826	0.355	A
+what do	et nous	0.497	0.806	0.401	A
+me but	minutes	0.649	0.795	0.298	A
+the side	des hard	0.473	0.707	0.501	GOLD
+whale and	lézarde	0.471	0.743	0.342	A
+man and	main un	0.519	0.773	0.608	GOLD
+who is	louise	0.481	0.789	0.444	A
+said that	saint cette	0.661	0.753	0.594	GOLD
+an instant	in store	0.555	0.829	0.250	A
+but his	but s	0.507	0.868	0.571	GOLD
+the family	d en lie	0.524	0.741	0.371	A
+of you	avion	0.526	0.839	0.239	A
+the table	d appel	0.470	0.847	0.335	A
+along the	don de	0.483	0.638	0.526	A
+and had	en lad	0.521	0.785	0.553	GOLD
+the one	divine	0.480	0.850	0.476	GOLD
+it for	est fort	0.727	0.798	0.607	GOLD
+you had	quid	0.476	0.758	0.369	A
+room and	roumain et	0.646	0.714	0.328	A
+is an	aux n	0.467	0.825	0.579	GOLD
+you think	ionique	0.503	0.770	0.235	A
+nothing but	d un bit	0.456	0.828	0.465	GOLD
+no longer	neuronaux	0.480	0.738	0.131	A
+mrs gardiner	mais gares in	0.468	0.680	0.423	A
+account of	écart as	0.466	0.799	0.416	A
+man of	madame	0.488	0.844	0.422	A
+for an	frère	0.625	0.677	0.489	A
+way to	veut où	0.642	0.881	0.622	GOLD
+in any	on aînés	0.607	0.905	0.481	GOLD
+with which	les lèche	0.464	0.808	0.567	GOLD
+and after	en dites	0.504	0.804	0.560	GOLD
+it the	et de	0.509	0.748	0.715	GOLD
+about it	about s	0.593	0.834	0.659	GOLD
+to tell	t elle	0.715	0.906	0.557	GOLD
+it that	et cette	0.474	0.723	0.784	GOLD
+to us	traces	0.618	0.792	0.239	A
+may have	massive	0.586	0.775	0.239	A
+tell you	télé	0.500	0.873	0.378	A
+by some	pas homme	0.529	0.829	0.468	GOLD
+back to	but où	0.640	0.863	0.528	GOLD
+and mrs	en mais aise	0.511	0.859	0.541	GOLD
+what was	et vases	0.499	0.774	0.552	GOLD
+to look	bloc	0.498	0.866	0.513	GOLD
+that when	d n	0.581	0.877	0.448	A
+it it	arrêtent	0.526	0.785	0.530	GOLD
+the stranger	des train d	0.462	0.714	0.459	GOLD
+had never	et rêve	0.576	0.782	0.312	A
+go to	but où	0.578	0.789	0.619	GOLD
+but what	but watts	0.681	0.942	0.327	A
+the ground	dégradé	0.519	0.729	0.516	GOLD
+it seems	s hymne	0.576	0.946	0.365	A
+but not	but nantes	0.665	0.942	0.374	A
+with them	ils aiment	0.568	0.880	0.653	GOLD
+to mr	tennis	0.496	0.858	0.212	A
+so many	son un et	0.492	0.814	0.451	GOLD
+found that	fan set	0.618	0.871	0.222	A
+spite of	sportive	0.614	0.816	0.369	A
+kind of	cannes as	0.569	0.887	0.562	GOLD
+all my	allemagne	0.571	0.826	0.552	GOLD
+have seen	s il	0.461	0.886	0.503	GOLD
+the body	sympathie	0.497	0.881	0.333	A
+any of	on if	0.458	0.821	0.433	A
+to any	tenu	0.533	0.844	0.606	GOLD
+we must	limite	0.589	0.853	0.471	GOLD
+the latter	dollars	0.536	0.794	0.311	A
+the place	replace	0.631	0.830	0.192	A
+is all	aux elle	0.511	0.864	0.465	GOLD
+so far	saut are	0.700	0.832	0.479	GOLD
+far as	phrases	0.585	0.758	0.437	A
+upon me	afin mis	0.580	0.804	0.721	GOLD
+knew that	nous et	0.612	0.845	0.389	A
+seems to	sommes tous	0.554	0.878	0.351	A
+she has	chemise	0.536	0.773	0.253	A
+the letter	salaire	0.691	0.803	0.231	A
+her husband	hais benêt	0.496	0.721	0.091	A
+to one	tienne	0.592	0.818	0.621	GOLD
+from that	flammes et	0.474	0.856	0.452	GOLD
+you that	vous êtes	0.464	0.839	0.784	GOLD
+to which	twist	0.476	0.838	0.257	A
+in our	un are	0.501	0.755	0.571	GOLD
+hand and	en tarde	0.513	0.700	0.375	A
+and every	un des ri	0.549	0.799	0.404	A
+the light	relate	0.671	0.865	0.379	A
+after all	et sol	0.572	0.867	0.670	GOLD
+she did	chez elle	0.500	0.838	0.518	GOLD
+ought to	ont tout	0.678	0.946	0.388	A
+that all	d elle	0.498	0.892	0.568	GOLD
+by this	bas s	0.673	0.855	0.544	GOLD
+see him	ciel	0.482	0.760	0.542	GOLD
+were in	lorraine	0.528	0.803	0.392	A
+were all	viol	0.571	0.840	0.509	GOLD
+of me	aux mi	0.601	0.917	0.794	GOLD
+from him	fredonne	0.531	0.701	0.620	GOLD
+down in	don in	0.566	0.721	0.569	GOLD
+whale is	venise	0.487	0.789	0.195	A
+if she	et j	0.497	0.879	0.493	GOLD
+is so	s au	0.530	0.755	0.555	GOLD
+not in	d une	0.468	0.838	0.313	A
+just as	d thèse	0.554	0.860	0.451	GOLD
+your own	héroïne	0.487	0.768	0.320	A
+upon it	pan êtes	0.540	0.853	0.597	GOLD
+few minutes	poumon s	0.541	0.786	0.182	A
+and from	in femme	0.539	0.769	0.464	GOLD
+them in	domaine	0.512	0.891	0.505	GOLD
+out to	et tout	0.628	0.808	0.488	GOLD
+at my	et ma	0.543	0.745	0.715	GOLD
+there and	terrasse	0.462	0.721	0.409	A
+it so	s au	0.543	0.755	0.674	GOLD
+mast head	mais cette	0.513	0.758	0.311	A
+was an	vous n	0.468	0.834	0.510	GOLD
+to elizabeth	tels appel	0.480	0.796	0.275	A
+entered the	n de	0.671	0.818	0.504	GOLD
+you do	yeux au	0.496	0.746	0.338	A
+only to	on dit où	0.676	0.840	0.416	A
+my life	malaxe	0.627	0.778	0.451	GOLD
+then the	un de	0.500	0.654	0.602	A
+as possible	aux pas quel	0.457	0.842	0.621	GOLD
+at home	et tome	0.549	0.788	0.383	A
+what you	est yeux	0.507	0.808	0.475	GOLD
+and down	n dan	0.663	0.900	0.500	GOLD
+over his	aux caisse	0.464	0.779	0.407	A
+into his	un treize	0.499	0.771	0.351	A
+side and	saint halte	0.472	0.800	0.289	A
+and even	on divine	0.640	0.862	0.399	A
+not at	d hôte	0.468	0.815	0.423	A
+be sure	major	0.500	0.760	0.385	A
+on that	on jette	0.543	0.831	0.447	A
+that mr	d liste	0.530	0.862	0.388	A
+as his	aux aise	0.531	0.825	0.539	GOLD
+saw him	formes	0.500	0.800	0.344	A
+across the	écrits de	0.546	0.592	0.575	B
+me for	met or	0.703	0.866	0.522	GOLD
+but at	but as	0.500	0.898	0.702	GOLD
+such as	saint chose	0.582	0.868	0.256	A
+the lady	gelées a	0.564	0.851	0.304	A
+we may	lima	0.536	0.824	0.475	GOLD
+it might	et mate	0.624	0.856	0.493	GOLD
+for he	forte	0.661	0.735	0.516	GOLD
+to our	trahi	0.488	0.781	0.468	GOLD
+with some	les femmes	0.458	0.853	0.453	GOLD
+in order	on or	0.597	0.755	0.479	GOLD
+in these	en dise	0.604	0.855	0.587	GOLD
+be of	brave	0.618	0.792	0.500	GOLD
+off the	et de	0.467	0.640	0.637	A
+but one	but n	0.574	0.877	0.616	GOLD
+the crew	secret	0.571	0.638	0.226	A
+his friend	des freine	0.601	0.767	0.288	A
+what she	et j	0.509	0.762	0.487	GOLD
+but with	but vise	0.487	0.897	0.706	GOLD
+him for	on for	0.685	0.684	0.641	A
+is as	aux aise	0.511	0.864	0.512	GOLD
+the least	police	0.561	0.897	0.224	A
+to whom	terme	0.592	0.783	0.516	GOLD
+sir william	silicium	0.533	0.859	0.327	A
+said elizabeth	sait les baisse	0.522	0.815	0.372	A
+think it	son quitte	0.506	0.809	0.474	GOLD
+you not	en hâte	0.507	0.785	0.284	A
+shall not	changement	0.455	0.772	0.278	A
+as this	as s	0.491	0.890	0.626	GOLD
+time and	termine	0.466	0.791	0.543	GOLD
+in every	on ouvrit	0.625	0.744	0.339	A
+it he	et qui	0.499	0.821	0.640	GOLD
+been the	bon de	0.622	0.726	0.613	GOLD
+on to	on tout	0.722	0.847	0.639	GOLD
+then he	jeudi	0.507	0.827	0.363	A
+in front	un frère	0.485	0.633	0.371	A
+at times	et table	0.484	0.825	0.331	A
+of man	aux man	0.482	0.906	0.875	GOLD
+at any	arrêter	0.524	0.801	0.483	GOLD
+that one	d n	0.485	0.845	0.527	GOLD
+and mr	in must	0.465	0.826	0.405	A
+can you	gain où	0.531	0.822	0.456	GOLD
+now the	nous est	0.487	0.771	0.616	GOLD
+obliged to	obligent tout	0.590	0.843	0.656	GOLD
+cannot be	khan et but	0.484	0.773	0.463	GOLD
+far from	fort rome	0.547	0.788	0.332	A
+way of	élèves	0.466	0.782	0.404	A
+was still	ouest il	0.651	0.957	0.436	A
+not yet	d êtes	0.566	0.864	0.382	A
+the scene	d une	0.490	0.847	0.533	GOLD
+which it	et cette	0.486	0.670	0.659	A
+so as	suisse	0.502	0.834	0.385	A
+was it	vous êtes	0.516	0.894	0.472	GOLD
+course of	corps as	0.496	0.846	0.377	A
+beneath the	but le	0.542	0.853	0.315	A
+no no	non or	0.537	0.672	0.811	A
+like to	lad où	0.653	0.905	0.554	GOLD
+but now	but ne	0.583	0.727	0.553	GOLD
+but my	but ma	0.683	0.751	0.535	GOLD
+where he	lundi	0.501	0.813	0.346	A
+to what	télé	0.501	0.809	0.371	A
+and said	en cette	0.530	0.764	0.712	GOLD
+very well	terrible	0.579	0.643	0.262	A
+in vain	on fine	0.531	0.797	0.362	A
+be seen	but une	0.603	0.919	0.570	GOLD
+as that	as êtes	0.479	0.870	0.722	GOLD
+within the	les un de	0.484	0.807	0.528	GOLD
+to an	tourne	0.591	0.754	0.496	GOLD
+what it	ouest	0.617	0.846	0.498	GOLD
+front of	freinent as	0.639	0.832	0.560	GOLD
+now that	nous as	0.466	0.735	0.648	GOLD
+heard the	et de	0.503	0.687	0.665	A
+the devil	d échelle	0.452	0.826	0.364	A
+for this	forte	0.670	0.728	0.584	GOLD
+has not	aux notes	0.492	0.849	0.281	A
+been so	bain ça	0.548	0.845	0.564	GOLD
+himself to	un cet tout	0.583	0.834	0.516	GOLD
+to morrow	demanda	0.499	0.803	0.330	A
+he seemed	et hymne	0.516	0.831	0.291	A
+order to	hors du	0.727	0.687	0.472	A
+used to	us tout	0.588	0.879	0.414	A
+it be	est dit	0.517	0.844	0.651	GOLD
+this time	des femmes	0.483	0.806	0.456	GOLD
+all their	ils air	0.595	0.768	0.534	GOLD
+could see	tout si	0.581	0.888	0.524	GOLD
+went to	ouest où	0.742	0.925	0.534	GOLD
+the bottom	gendarmes	0.466	0.718	0.226	A
+in those	on chose	0.502	0.756	0.506	GOLD
+the main	son n	0.496	0.742	0.532	GOLD
+the mast	limite	0.470	0.827	0.366	A
+the others	dièse	0.464	0.790	0.207	A
+more of	madame	0.466	0.814	0.374	A
+for one	froide	0.553	0.823	0.326	A
+been in	bon in	0.584	0.682	0.673	A
+what the	et de	0.497	0.699	0.739	A
+told me	tout mi	0.605	0.822	0.705	GOLD
+with one	les veines	0.466	0.856	0.283	A
+in general	in vain rôles	0.492	0.706	0.363	A
+are all	orale	0.518	0.744	0.271	A
+the business	jamais ne	0.463	0.711	0.268	A
+at present	et prêts êtes	0.660	0.822	0.474	GOLD
+with your	les airs	0.481	0.682	0.365	A
+the sight	des hautes	0.478	0.720	0.567	GOLD
+before he	est aurait	0.468	0.704	0.482	GOLD
+appeared to	était tout	0.555	0.836	0.594	GOLD
+still more	serveur	0.516	0.682	0.252	A
+and your	en dire	0.532	0.689	0.622	A
+by my	batailles	0.570	0.725	0.290	A
+the truth	d routes	0.489	0.800	0.183	A
+when we	on oui	0.643	0.757	0.720	GOLD
+less than	les veines	0.573	0.848	0.194	A
+was of	les ève	0.536	0.903	0.643	GOLD
+have done	as n	0.485	0.870	0.401	A
+the point	rapporte	0.525	0.779	0.542	GOLD
+the town	d n	0.470	0.840	0.348	A
+one side	on sarde	0.571	0.716	0.442	A
+down and	don halte	0.492	0.800	0.481	GOLD
+the men	on n	0.594	0.825	0.404	A
+sea and	sciences	0.520	0.790	0.403	A
+much more	met maures	0.690	0.851	0.423	A
+those who	lors où	0.493	0.751	0.577	GOLD
+and no	n deux	0.493	0.830	0.626	GOLD
+as an	aux une	0.496	0.814	0.628	GOLD
+de bourgh	devons	0.569	0.792	0.755	GOLD
+years ago	lors ego	0.545	0.758	0.400	A
+in love	on love	0.531	0.865	0.867	GOLD
+rest of	restée	0.727	0.822	0.691	GOLD
+all of	élèves	0.537	0.886	0.396	A
+will you	ailier	0.498	0.797	0.332	A
+to leave	olive	0.715	0.921	0.194	A
+unable to	on étalent où	0.648	0.849	0.302	A
+be very	métairie	0.630	0.718	0.531	GOLD
+at it	hésite	0.513	0.840	0.598	GOLD
+she saw	chez un	0.540	0.863	0.407	A
+but no	but nos	0.683	0.751	0.756	GOLD
+to keep	équipe	0.715	0.921	0.366	A
+on one	on n	0.552	0.792	0.629	GOLD
+so long	salope	0.547	0.772	0.433	A
+and have	en gave	0.506	0.794	0.460	GOLD
+you could	bouquet	0.467	0.814	0.244	A
+life and	land hard	0.514	0.785	0.266	A
+out in	et n	0.513	0.804	0.474	GOLD
+is but	aux but	0.452	0.821	0.413	A
+from it	profite	0.484	0.808	0.655	GOLD
+name of	népal	0.541	0.770	0.456	GOLD
+down into	tanin tout	0.476	0.846	0.390	A
+out and	et hard	0.466	0.687	0.534	A
+which in	et chaîne	0.498	0.838	0.462	GOLD
+take the	tiques a	0.518	0.884	0.491	GOLD
+miss darcy	mais dards a	0.497	0.805	0.300	A
+eyes and	aux hard	0.456	0.737	0.367	A
+their own	baronne	0.490	0.714	0.407	A
+he came	chicane	0.470	0.791	0.314	A
+assure you	sérieux	0.455	0.681	0.552	A
+me on	merde	0.461	0.745	0.627	GOLD
+acquainted with	quid louise	0.457	0.812	0.432	A
+young lady	ion les a	0.555	0.795	0.205	A
+return to	est un tout	0.579	0.761	0.348	A
+who have	grave	0.454	0.776	0.280	A
+and who	en tout	0.561	0.792	0.548	GOLD
+not that	nantes a	0.509	0.900	0.296	A
+only one	on divine	0.499	0.792	0.281	A
+elizabeth had	les avaient a	0.466	0.831	0.335	A
+near the	nerfs et	0.524	0.837	0.499	GOLD
+my sister	mais est	0.478	0.747	0.415	A
+more and	madame	0.463	0.816	0.338	A
+power to	but où	0.593	0.823	0.263	A
+be it	poète	0.511	0.904	0.382	A
+all over	élèves	0.502	0.787	0.306	A
+the middle	jamais il	0.478	0.871	0.320	A
+from which	frein ouest	0.538	0.833	0.298	A
+head of	élèves	0.518	0.791	0.267	A
+st simon	son domaine	0.559	0.792	0.496	GOLD
+man in	main un	0.552	0.777	0.489	GOLD
+sense of	son savent	0.624	0.846	0.620	GOLD
+who has	noise	0.498	0.759	0.264	A
+at one	et n	0.506	0.800	0.563	GOLD
+which are	est chair	0.483	0.677	0.576	A
+at such	as h	0.507	0.891	0.546	GOLD
+day and	débattre	0.505	0.755	0.401	A
+the ladies	gelées as	0.550	0.853	0.266	A
+much to	mot j	0.477	0.859	0.523	GOLD
+for your	arrière	0.565	0.732	0.454	GOLD
+till the	tels a	0.525	0.893	0.326	A
+him at	un hâte	0.523	0.724	0.559	GOLD
+so it	suite	0.625	0.863	0.468	GOLD
+she will	charles	0.566	0.695	0.278	A
+take it	défaite	0.482	0.782	0.460	GOLD
+him from	on primes	0.482	0.763	0.199	A
+though he	série	0.476	0.754	0.438	A
+the king	recueil	0.452	0.817	0.465	GOLD
+it out	gratte	0.593	0.702	0.451	GOLD
+on which	on ouest	0.492	0.879	0.543	GOLD
+as far	et are	0.482	0.667	0.533	A
+for their	fonds air	0.671	0.838	0.352	A
+of men	aux mène	0.676	0.928	0.559	GOLD
+night and	d hard	0.454	0.758	0.288	A
+endeavoured to	n est où	0.667	0.838	0.363	A
+had ever	élèves	0.622	0.877	0.316	A
+thought that	sont cette	0.478	0.724	0.610	GOLD
+round and	rien dan	0.504	0.766	0.338	A
+that for	d for	0.673	0.833	0.657	GOLD
+the police	reprise	0.453	0.752	0.374	A
+ship and	chapitre	0.454	0.831	0.304	A
+not very	d verrez	0.562	0.771	0.362	A
+be found	but out	0.480	0.919	0.404	A
+likely to	semblait où	0.528	0.823	0.309	A
+must not	mes notes	0.565	0.848	0.250	A
+that no	d nos	0.514	0.733	0.449	A
+want to	ouest où	0.645	0.889	0.481	GOLD
+are to	eurent où	0.718	0.847	0.587	GOLD
+and therefore	in serveur	0.492	0.695	0.389	A
+if we	et oui	0.623	0.909	0.558	GOLD
+looked at	laid êtes	0.541	0.896	0.511	GOLD
+up with	appoint	0.519	0.877	0.328	A
+was as	oies as	0.548	0.952	0.722	GOLD
+in spite	on sparte	0.644	0.793	0.485	GOLD
+and which	in kitsch	0.484	0.737	0.431	A
+which would	et chouette	0.487	0.838	0.440	A
+from their	femmes air	0.644	0.858	0.333	A
+which we	et jouit	0.581	0.774	0.425	A
+they will	civils	0.499	0.823	0.266	A
+it from	est rome	0.479	0.761	0.572	GOLD
+the carriage	requérir	0.452	0.748	0.463	GOLD
+them but	vain but	0.478	0.857	0.549	GOLD
+with this	ils s	0.454	0.834	0.521	GOLD
+his sister	s oust	0.560	0.880	0.204	A
+thank you	son cou	0.484	0.763	0.325	A
+sat down	saint dan	0.665	0.862	0.242	A
+from me	frein me	0.587	0.650	0.773	A
+resolved to	aux alpes tout	0.527	0.862	0.301	A
+returned to	et n tout	0.537	0.802	0.399	A
+from this	frappes s	0.611	0.819	0.609	GOLD
+into my	on thomas	0.522	0.813	0.471	GOLD
+the deep	laid if	0.512	0.925	0.261	A
+george allen	lord jalonnent	0.653	0.828	0.758	GOLD
+though it	poète	0.497	0.811	0.335	A
+the word	secondes	0.464	0.793	0.329	A
+you the	yeux au	0.496	0.746	0.520	GOLD
+this morning	des morne	0.578	0.741	0.473	GOLD
+every day	offrit à	0.490	0.718	0.379	A
+nothing to	d un tout	0.539	0.823	0.487	GOLD
+had seen	et fine	0.595	0.863	0.470	GOLD
+and were	en de	0.452	0.676	0.686	A
+when it	ouest	0.687	0.818	0.451	GOLD
+this way	déçoit	0.505	0.817	0.593	GOLD
+had taken	et déconne	0.515	0.835	0.509	GOLD
+is of	élèves	0.507	0.860	0.386	A
+you said	yeux s	0.486	0.843	0.296	A
+felt that	veulent tête	0.553	0.908	0.486	GOLD
+since the	son de	0.589	0.709	0.513	GOLD
+is my	aux ma	0.486	0.683	0.688	A
+appearance of	éperon savent	0.528	0.748	0.566	GOLD
+according to	écart on tout	0.549	0.810	0.466	GOLD
+before him	intérim	0.457	0.725	0.497	GOLD
+means of	mines as	0.741	0.957	0.346	A
+my uncle	marin quel	0.623	0.761	0.480	GOLD
+the living	gelées n	0.461	0.842	0.358	A
+believe that	plus vite	0.481	0.857	0.360	A
+of old	aborde	0.484	0.743	0.506	GOLD
+which were	et choix	0.488	0.752	0.530	GOLD
+and let	in let	0.528	0.841	0.967	GOLD
+have to	pas tout	0.525	0.794	0.406	A
+the top	étape	0.496	0.910	0.536	GOLD
+he cried	dégrade	0.581	0.710	0.372	A
+mast heads	mais test	0.537	0.798	0.204	A
+on deck	on mec	0.628	0.839	0.324	A
+by george	but georges	0.667	0.829	0.636	GOLD
+dare say	nerfs et	0.541	0.811	0.441	A
+want of	on savent	0.526	0.768	0.660	GOLD
+many of	mon s	0.497	0.721	0.456	GOLD
+no other	noise	0.487	0.748	0.255	A
+the moment	demain n	0.474	0.796	0.625	GOLD
+to and	table	0.463	0.769	0.296	A
+much the	matchs a	0.594	0.950	0.350	A
+who would	ovide	0.499	0.804	0.362	A
+in what	on watts	0.607	0.911	0.215	A
+he never	on ève	0.701	0.895	0.236	A
+wished to	ouest où	0.673	0.932	0.371	A
+all and	hollande	0.758	0.892	0.334	A
+was all	vous elle	0.504	0.869	0.502	GOLD
+he asked	kiosque	0.463	0.778	0.307	A
+not help	d alpes	0.546	0.811	0.258	A
+but they	but d	0.505	0.854	0.547	GOLD
+do it	suite	0.528	0.899	0.319	A
+by an	baronne	0.659	0.720	0.479	GOLD
+more to	met où	0.694	0.883	0.581	GOLD
+by all	bal	0.694	0.783	0.615	GOLD
+known to	non tout	0.740	0.833	0.402	A
+was too	vais tout	0.603	0.939	0.508	GOLD
+before you	et orient	0.493	0.627	0.355	A
+will have	relève	0.490	0.804	0.455	GOLD
+her that	aux êtes	0.507	0.837	0.588	GOLD
+in london	on land n	0.522	0.841	0.343	A
+from all	frein or	0.577	0.740	0.446	A
+they would	david	0.474	0.779	0.269	A
+her in	lorraine	0.482	0.791	0.368	A
+is now	n a	0.530	0.891	0.409	A
+said to	sept ou	0.826	0.832	0.391	A
+tried to	très tout	0.725	0.724	0.358	A
+be done	but n	0.620	0.943	0.537	GOLD
+state of	tsf	0.498	0.906	0.425	A
+found in	femmes ils	0.551	0.865	0.317	A
+capable of	québécoise	0.503	0.784	0.226	A
+now in	noël	0.487	0.824	0.558	GOLD
+this matter	d maire	0.490	0.807	0.388	A
+cause of	cons as	0.518	0.936	0.242	A
+one and	on hard	0.486	0.690	0.290	A
+before me	permit	0.645	0.785	0.280	A
+me from	but rome	0.494	0.827	0.379	A
+with that	les date	0.457	0.854	0.437	A
+the dead	laid aides	0.725	0.954	0.283	A
+to some	des hommes	0.512	0.875	0.558	GOLD
+by any	baron et	0.588	0.694	0.478	A
+and one	en donne	0.523	0.805	0.466	GOLD
+them the	don de	0.490	0.670	0.495	A
+knowledge of	nazis savent	0.532	0.857	0.310	A
+bennet was	bain est as	0.520	0.852	0.681	GOLD
+to such	d h	0.488	0.822	0.564	GOLD
+you in	ruines	0.521	0.893	0.210	A
+in town	on dan	0.536	0.820	0.486	GOLD
+copyright by	cabaret pas	0.518	0.787	0.226	A
+them all	symbole	0.595	0.889	0.272	A
+was then	as n	0.565	0.894	0.394	A
+you should	bouchon	0.484	0.796	0.297	A
+very good	terrible	0.508	0.667	0.274	A
+elizabeth and	les avait un	0.460	0.820	0.397	A
+be able	visible	0.482	0.732	0.403	A
+object of	objectif	0.594	0.861	0.532	GOLD
+we can	liquide	0.516	0.870	0.286	A
+air and	erreur	0.561	0.649	0.309	A
+you cannot	bouquin a	0.475	0.764	0.374	A
+ready to	dit et où	0.550	0.784	0.439	A
+her ladyship	allées échappe	0.534	0.843	0.278	A
+to meet	limite	0.667	0.913	0.340	A
+but we	but oui	0.786	0.931	0.561	GOLD
+the poor	report	0.595	0.784	0.336	A
+what had	laid aides	0.514	0.868	0.276	A
+he took	québec	0.479	0.834	0.188	A
+my hand	marianne	0.553	0.771	0.306	A
+door and	moral	0.461	0.701	0.257	A
+the cause	repose	0.560	0.846	0.299	A
+was on	les hommes	0.522	0.881	0.410	A
+the bed	label	0.489	0.873	0.216	A
+the ocean	diogène	0.507	0.813	0.235	A
+the mate	son êtes	0.478	0.796	0.592	GOLD
+ye see	yeux au	0.511	0.769	0.577	GOLD
+case of	quais as	0.501	0.867	0.566	GOLD
+the course	vacances	0.458	0.796	0.368	A
+in and	un in	0.456	0.773	0.647	GOLD
+even in	in in	0.516	0.821	0.737	GOLD
+so well	cellules	0.627	0.769	0.254	A
+not but	d bit	0.484	0.888	0.231	A
+the neighbourhood	son épouse	0.482	0.804	0.144	A
+had heard	et code	0.492	0.824	0.257	A
+air of	élèves	0.509	0.828	0.288	A
+bingley and	bain glisse	0.564	0.843	0.581	GOLD
+and their	en chair	0.593	0.711	0.253	A
+the contrary	décan terrain	0.474	0.780	0.297	A
+but still	but style	0.709	0.947	0.367	A
+matter of	madame	0.453	0.800	0.389	A
+forced to	furent tous	0.548	0.767	0.342	A
+here is	crise	0.519	0.739	0.409	A
+my mother	madame	0.523	0.694	0.508	A
+all but	honnête	0.546	0.831	0.480	GOLD
+give me	gars mi	0.651	0.876	0.701	GOLD
+myself to	mais est où	0.561	0.801	0.347	A
+her she	gâchis	0.611	0.907	0.233	A
+what to	et tout	0.621	0.827	0.536	GOLD
+that moment	dit mon halte	0.453	0.780	0.609	GOLD
+that your	d or	0.488	0.779	0.384	A
+and would	en suède	0.492	0.781	0.440	A
+sound of	son savent	0.645	0.786	0.476	GOLD
+mr gardiner	mais gares n	0.538	0.825	0.465	GOLD
+top of	tendance	0.458	0.801	0.512	GOLD
+at me	est mis	0.650	0.909	0.641	GOLD
+whale in	latine	0.475	0.792	0.120	A
+time of	tennis	0.458	0.760	0.249	A
+the good	second	0.519	0.818	0.345	A
+was one	les veines	0.492	0.862	0.273	A
+on their	on chairs	0.646	0.723	0.376	A
+nothing of	d gave	0.450	0.809	0.366	A
+or three	est ri	0.562	0.716	0.450	A
+how can	organes	0.481	0.778	0.248	A
+you but	répète	0.467	0.854	0.496	GOLD
+us to	et tout	0.666	0.850	0.468	GOLD
+them with	témoins	0.489	0.853	0.295	A
+you my	coma	0.487	0.835	0.514	GOLD
+was quite	les boîte	0.544	0.843	0.422	A
+was soon	les unes	0.513	0.880	0.382	A
+with great	les gratte	0.531	0.703	0.555	GOLD
+he looked	pilote	0.523	0.848	0.298	A
+to miss	son s	0.514	0.818	0.444	A
+her but	invite	0.507	0.834	0.320	A
+her brother	abrite	0.497	0.694	0.123	A
+than that	des êtes	0.472	0.848	0.583	GOLD
+whom he	soumis	0.634	0.848	0.563	GOLD
+man with	main il	0.498	0.825	0.389	A
+of every	avais du	0.470	0.760	0.459	GOLD
+she might	limite	0.547	0.791	0.302	A
+to himself	son self	0.546	0.910	0.664	GOLD
+next morning	net mon in	0.548	0.699	0.185	A
+hope to	out où	0.575	0.855	0.481	GOLD
+could hardly	connard dit	0.596	0.786	0.342	A
+is quite	aux boîte	0.535	0.829	0.440	A
+by that	bas as	0.594	0.865	0.572	GOLD
+she felt	dit elle	0.459	0.853	0.676	GOLD
+some other	son s	0.487	0.792	0.543	GOLD
+the street	les traitent	0.551	0.747	0.407	A
+the sound	d hard	0.464	0.751	0.316	A
+me he	midi	0.750	0.841	0.625	GOLD
+attached to	et est tout	0.514	0.786	0.336	A
+but how	but hais	0.488	0.764	0.570	GOLD
+to its	test	0.505	0.828	0.285	A
+know not	non as	0.544	0.765	0.712	GOLD
+to put	défaite	0.509	0.871	0.361	A
+be happy	brebis	0.636	0.792	0.415	A
+was there	as air	0.565	0.779	0.361	A
+the open	sorbonne	0.467	0.761	0.375	A
+did he	dit à	0.505	0.848	0.508	GOLD
+my first	met est	0.460	0.803	0.478	GOLD
+upon him	otan aimes	0.516	0.807	0.543	GOLD
+my soul	mailles hausse	0.549	0.793	0.336	A
+the surface	des et s	0.459	0.806	0.473	GOLD
+something of	son pain if	0.464	0.803	0.188	A
+number of	on brave	0.557	0.736	0.265	A
+and thus	n dix	0.563	0.893	0.545	GOLD
+young ladies	on les use	0.545	0.746	0.303	A
+have given	aviez âne	0.466	0.806	0.401	A
+one day	vain d	0.548	0.824	0.480	GOLD
+is his	aux aise	0.528	0.818	0.419	A
+he spoke	et parcs	0.483	0.743	0.196	A
+be at	boîte	0.611	0.825	0.310	A
+so soon	saut une	0.695	0.898	0.473	GOLD
+had given	et quinzaine	0.476	0.820	0.361	A
+it into	n tout	0.507	0.884	0.563	GOLD
+those of	des ève	0.514	0.809	0.592	GOLD
+your sister	artiste	0.552	0.825	0.218	A
+find it	fan in	0.555	0.737	0.282	A
+it you	est nous	0.510	0.788	0.590	GOLD
+face and	fait hard	0.557	0.817	0.459	GOLD
+to ask	risque	0.571	0.757	0.399	A
+they could	secondes	0.482	0.811	0.324	A
+am afraid	en et réel	0.457	0.790	0.310	A
+one who	on coup	0.507	0.728	0.396	A
+at longbourn	et son bornes	0.545	0.750	0.336	A
+upon this	pannes s	0.484	0.871	0.696	GOLD
+then that	chaînes a	0.489	0.880	0.431	A
+have it	invite	0.533	0.827	0.376	A
+us and	et hard	0.486	0.737	0.440	A
+the fish	refuse	0.452	0.814	0.251	A
+made me	mes mi	0.796	0.870	0.537	GOLD
+it said	s aides	0.727	0.966	0.444	A
+about to	about tout	0.709	0.865	0.564	GOLD
+there in	terrain	0.543	0.677	0.377	A
+was heard	les aides	0.530	0.840	0.352	A
+bottom of	baron s	0.492	0.759	0.323	A
+one to	en tout	0.649	0.754	0.573	GOLD
+so the	ses a	0.503	0.791	0.623	GOLD
+to night	son as	0.505	0.835	0.428	A
+out his	art s	0.481	0.842	0.311	A
+my companion	matin pain in	0.470	0.678	0.308	A
+the vessel	devaient il	0.628	0.899	0.394	A
+quarter deck	cordes f	0.658	0.802	0.271	A
+boat and	but hard	0.554	0.813	0.292	A
+all hands	hollandaise	0.630	0.733	0.286	A
+aye aye	arabes	0.451	0.677	0.371	A
+cried ahab	créait éole	0.500	0.771	0.402	A
+every one	ouvriers	0.529	0.734	0.261	A
+one or	on or	0.704	0.726	0.555	GOLD
+is one	usine	0.498	0.818	0.477	GOLD
+on him	un homme	0.519	0.819	0.646	GOLD
+her family	est en élie	0.535	0.832	0.325	A
+has no	des nos	0.505	0.677	0.371	A
+two or	dehors	0.626	0.799	0.457	GOLD
+determined to	dit on n tout	0.590	0.836	0.372	A
+glad to	glass tout	0.746	0.943	0.283	A
+so very	ses édit	0.552	0.797	0.649	GOLD
+close to	clos tout	0.829	0.921	0.416	A
+she said	chez elle	0.524	0.876	0.581	GOLD
+the words	devises	0.479	0.797	0.564	GOLD
+the dark	d arc	0.578	0.780	0.293	A
+much of	met savent	0.583	0.920	0.573	GOLD
+together and	seconds rendent	0.550	0.803	0.182	A
+well and	valide	0.465	0.850	0.629	GOLD
+her eyes	courage	0.470	0.715	0.190	A
+all was	louise	0.573	0.816	0.474	GOLD
+and made	in mail	0.507	0.746	0.226	A
+from what	fromage	0.550	0.752	0.429	A
+all in	hollande	0.609	0.807	0.350	A
+an end	on n	0.527	0.860	0.570	GOLD
+on your	on or	0.534	0.781	0.767	GOLD
+me if	bref	0.488	0.741	0.567	GOLD
+and while	un voile	0.568	0.821	0.550	GOLD
+next day	textes a	0.617	0.860	0.244	A
+to those	taux as	0.494	0.837	0.452	GOLD
+sign of	son s	0.491	0.730	0.513	GOLD
+reason to	raison tout	0.676	0.833	0.673	GOLD
+who could	coucou	0.517	0.845	0.429	A
+herself and	et helvètes	0.463	0.801	0.385	A
+had gone	est bonne	0.566	0.818	0.381	A
+time that	thèmes as	0.487	0.850	0.290	A
+man to	pan tout	0.631	0.837	0.751	GOLD
+what are	et are	0.515	0.662	0.655	A
+you you	coucou	0.476	0.778	0.468	GOLD
+from its	fromage	0.541	0.733	0.413	A
+up his	oppose	0.519	0.808	0.352	A
+the road	cerise	0.482	0.634	0.501	A
+that way	tatoué	0.606	0.864	0.314	A
+it up	europe	0.526	0.767	0.226	A
+his chair	hit chair	0.660	0.824	0.757	GOLD
+out from	out rome	0.569	0.907	0.648	GOLD
+heart of	art ève	0.528	0.778	0.469	GOLD
+the chase	d six	0.474	0.828	0.314	A
+the forecastle	d orques elle	0.544	0.792	0.303	A
+the entire	viennent a	0.645	0.872	0.470	GOLD
+captain peleg	copain collègues	0.612	0.858	0.513	GOLD
+like that	lacs as	0.584	0.891	0.609	GOLD
+it did	est laide	0.498	0.841	0.496	GOLD
+than to	son tout	0.610	0.875	0.458	GOLD
+other side	as as	0.479	0.841	0.268	A
+that to	dit tout	0.600	0.903	0.612	GOLD
+is there	s air	0.593	0.791	0.332	A
+now as	noise	0.578	0.767	0.237	A
+whether he	ouais et	0.634	0.933	0.581	GOLD
+and most	in must	0.463	0.850	0.356	A
+had come	et comme	0.512	0.865	0.513	GOLD
+doubt that	d date	0.636	0.861	0.168	A
+heading to	est un tout	0.598	0.827	0.398	A
+love and	les unes	0.471	0.831	0.510	GOLD
+or other	honnête	0.477	0.793	0.501	GOLD
+made no	pays nos	0.486	0.747	0.426	A
+for us	force	0.779	0.796	0.290	A
+business of	bis nos if	0.497	0.901	0.269	A
+is your	hiver	0.503	0.683	0.259	A
+very little	territoire	0.475	0.638	0.348	A
+act of	active	0.631	0.912	0.543	GOLD
+why did	les aides	0.504	0.816	0.347	A
+make him	maxime	0.577	0.785	0.452	GOLD
+only the	on lies a	0.524	0.817	0.257	A
+that time	but âme	0.540	0.838	0.458	GOLD
+though in	lorraine	0.493	0.772	0.371	A
+but though	but deux	0.494	0.843	0.576	GOLD
+of whom	aux hommes	0.502	0.773	0.546	GOLD
+last night	les trente	0.546	0.735	0.353	A
+degree of	drive	0.514	0.702	0.202	A
+well known	yen aune	0.538	0.861	0.307	A
+of seeing	as hic	0.459	0.867	0.375	A
+he can	icône	0.634	0.869	0.497	GOLD
+father and	pas rendent	0.493	0.775	0.435	A
+to day	tout et	0.517	0.830	0.452	GOLD
+endeavour to	un des tout	0.566	0.844	0.425	A
+to return	certaines	0.603	0.882	0.383	A
+did the	dit le	0.598	0.910	0.608	GOLD
+oh yes	horace	0.585	0.740	0.583	GOLD
+you shall	michel	0.452	0.861	0.504	GOLD
+that will	dit il	0.480	0.849	0.535	GOLD
+not one	d n	0.470	0.827	0.420	A
+thought it	tout êtes	0.512	0.867	0.514	GOLD
+how could	arcades	0.491	0.766	0.276	A
+the fact	d actes	0.558	0.871	0.621	GOLD
+to understand	tout stade	0.566	0.778	0.575	GOLD
+colonel fitzwilliam	con out septième	0.500	0.819	0.220	A
+my wife	mariages	0.533	0.718	0.655	GOLD
+the strange	des train d	0.462	0.714	0.522	GOLD
+that at	d hôte	0.495	0.844	0.472	GOLD
+the fishery	d écrits	0.496	0.754	0.340	A
+his boat	ces pote	0.475	0.789	0.321	A
+his crew	inscrit	0.507	0.676	0.426	A
+yet the	et de	0.499	0.703	0.752	GOLD
+of time	aux dames	0.484	0.840	0.468	GOLD
+to live	relève	0.583	0.896	0.486	GOLD
+her for	et or	0.608	0.672	0.384	A
+know how	noria	0.580	0.754	0.459	GOLD
+in fact	on actes	0.558	0.831	0.600	GOLD
+of good	aux guide	0.458	0.863	0.468	GOLD
+the general	d génial	0.464	0.859	0.375	A
+these are	des are	0.542	0.811	0.510	GOLD
+is more	n or	0.495	0.783	0.505	GOLD
+and lydia	in lady	0.503	0.716	0.560	GOLD
+connected with	connectent s	0.635	0.901	0.734	GOLD
+any one	un moine	0.488	0.842	0.320	A
+and some	n aime	0.492	0.863	0.483	GOLD
+see you	signé	0.579	0.862	0.411	A
+me my	main a	0.535	0.806	0.564	GOLD
+be no	bon au	0.607	0.731	0.527	GOLD
+come back	québec	0.553	0.869	0.228	A
+it on	arène	0.511	0.759	0.502	GOLD
+be more	bitter	0.549	0.709	0.331	A
+gone to	gain tout	0.749	0.885	0.342	A
+you mean	on n	0.479	0.762	0.564	GOLD
+great deal	griffes il	0.692	0.816	0.396	A
+had to	et tout	0.638	0.804	0.451	GOLD
+then you	son ion	0.464	0.811	0.348	A
+and an	en donne	0.537	0.816	0.558	GOLD
+being the	bien de	0.595	0.724	0.607	GOLD
+listened to	les on tout	0.634	0.864	0.404	A
+you as	noise	0.463	0.830	0.172	A
+back and	bancaire	0.461	0.815	0.322	A
+the chief	d sauf	0.459	0.856	0.511	GOLD
+not for	et for	0.651	0.704	0.554	GOLD
+and do	in do	0.533	0.792	0.910	GOLD
+had done	en donne	0.521	0.856	0.403	A
+without any	les et henni	0.588	0.825	0.408	A
+uncle and	on calendes	0.514	0.796	0.410	A
+for what	froide	0.563	0.840	0.323	A
+away to	avait où	0.609	0.860	0.571	GOLD
+feel the	fils et	0.702	0.964	0.490	GOLD
+whole of	relève	0.499	0.807	0.590	GOLD
+and be	n dit	0.591	0.898	0.628	GOLD
+time the	thèmes a	0.494	0.845	0.290	A
+was my	les ma	0.508	0.738	0.592	GOLD
+do so	tous à	0.546	0.827	0.589	GOLD
+had passed	et poste	0.565	0.835	0.480	GOLD
+took the	toutes à	0.473	0.831	0.600	GOLD
+now to	met où	0.600	0.821	0.623	GOLD
+the true	d roue	0.600	0.786	0.498	GOLD
+and still	en style	0.598	0.886	0.353	A
+mrs collins	mais escale	0.474	0.894	0.366	A
+was about	les évite	0.494	0.797	0.512	GOLD
+scene of	son s	0.487	0.739	0.509	GOLD
+him when	on veine	0.585	0.820	0.295	A
+baker street	banques frites	0.660	0.807	0.376	A
+cried the	bras de	0.560	0.625	0.377	A
+down upon	don open	0.481	0.709	0.277	A
+the carpenter	décapante	0.485	0.821	0.384	A
+mr starbuck	must avec	0.455	0.801	0.506	GOLD
+me it	merde	0.491	0.780	0.751	GOLD
+be an	viennent	0.515	0.839	0.487	GOLD
+the english	bien glace	0.456	0.798	0.256	A
+and is	en dise	0.566	0.893	0.667	GOLD
+the former	réforme	0.716	0.806	0.435	A
+as with	aux ouais	0.479	0.841	0.613	GOLD
+to chapter	t chatte	0.548	0.898	0.280	A
+by their	bas air	0.784	0.809	0.348	A
+speak of	stockage	0.462	0.826	0.262	A
+some one	son vannes	0.583	0.824	0.501	GOLD
+none of	non as	0.523	0.773	0.719	GOLD
+for she	forte	0.635	0.724	0.435	A
+that but	d but	0.479	0.860	0.625	GOLD
+have gone	aux bonne	0.536	0.816	0.492	GOLD
+at netherfield	et deux files	0.509	0.840	0.322	A
+bingley was	bon clients	0.528	0.849	0.215	A
+looking at	lien as	0.465	0.760	0.654	GOLD
+are very	algérie	0.555	0.725	0.225	A
+power of	pareil	0.567	0.735	0.503	GOLD
+because he	billets et	0.489	0.827	0.408	A
+how he	haïti	0.513	0.743	0.217	A
+opportunity of	afin rives	0.502	0.679	0.543	A
+make the	mecs a	0.520	0.887	0.486	GOLD
+to each	torches	0.582	0.698	0.243	A
+himself and	un certaines	0.453	0.784	0.559	GOLD
+afraid of	et des ève	0.471	0.810	0.246	A
+was more	les bords	0.486	0.745	0.502	GOLD
+know the	nos a	0.623	0.830	0.663	GOLD
+manner of	mon rêve	0.602	0.726	0.341	A
+standing in	stand in	0.573	0.740	0.903	GOLD
+it at	arrêtent	0.511	0.759	0.523	GOLD
+how to	aillent où	0.637	0.822	0.513	GOLD
+at him	et homme	0.507	0.756	0.712	GOLD
+even the	enfin je	0.474	0.705	0.424	A
+that some	d hommes	0.478	0.835	0.514	GOLD
+the hall	viol	0.581	0.801	0.479	GOLD
+which has	laid chose	0.493	0.860	0.497	GOLD
+but on	but n	0.595	0.910	0.624	GOLD
+had just	as geste	0.555	0.912	0.434	A
+was he	les qui	0.480	0.831	0.511	GOLD
+time for	tapent or	0.716	0.834	0.357	A
+to every	devrait	0.517	0.730	0.542	GOLD
+that by	d bah	0.514	0.879	0.413	A
+was but	les bit	0.494	0.880	0.448	A
+him by	on bail	0.499	0.780	0.279	A
+why should	vachette	0.453	0.845	0.333	A
+see it	suite	0.663	0.951	0.363	A
+and here	en dire	0.552	0.705	0.653	GOLD
+or in	honnête	0.481	0.800	0.479	GOLD
+of sight	as as	0.480	0.879	0.393	A
+but all	but il	0.571	0.875	0.699	GOLD
+by its	baguette	0.557	0.786	0.344	A
+never mind	nos malte	0.505	0.796	0.375	A
+the lower	cela	0.517	0.814	0.430	A
+the floor	d lors	0.482	0.826	0.418	A
+out upon	et havane	0.469	0.784	0.570	GOLD
+the black	technique	0.450	0.820	0.262	A
+lord st	lord set	0.811	0.898	0.771	GOLD
+of nantucket	n en tact	0.476	0.858	0.447	A
+the sailors	ces elfes	0.464	0.811	0.255	A
+whale was	réalise	0.454	0.804	0.259	A
+the bows	repose	0.495	0.826	0.387	A
+and its	en dix	0.534	0.832	0.577	GOLD
+however that	arrives êtes	0.481	0.780	0.590	GOLD
+to show	touchée	0.502	0.806	0.561	GOLD
+for there	fonds air	0.671	0.838	0.381	A
+the better	refaire	0.571	0.744	0.470	GOLD
+not go	t go	0.484	0.831	0.675	GOLD
+the full	d elle	0.472	0.855	0.513	GOLD
+his mind	ces malte	0.462	0.796	0.380	A
+had he	et qui	0.503	0.730	0.579	GOLD
+the slightest	d ladite	0.517	0.812	0.485	GOLD
+the reason	séries n	0.551	0.755	0.383	A
+will do	ils où	0.524	0.879	0.474	GOLD
+opinion of	opinion ève	0.508	0.856	0.921	GOLD
+said mr	saint piste	0.650	0.900	0.388	A
+find that	fan set	0.618	0.871	0.222	A
+left the	laid de	0.654	0.790	0.511	GOLD
+they should	décide	0.494	0.785	0.445	A
+the honour	diane	0.533	0.872	0.441	A
+soon after	son s	0.485	0.757	0.502	GOLD
+to join	son jeune	0.502	0.808	0.302	A
+what could	et code	0.508	0.857	0.358	A
+into it	en tête	0.507	0.726	0.533	GOLD
+how it	carte	0.479	0.709	0.662	GOLD
+to believe	sublime	0.534	0.849	0.396	A
+make her	marquis	0.481	0.767	0.202	A
+he made	limite	0.488	0.825	0.299	A
+colonel forster	con alors se	0.586	0.694	0.364	A
+be to	but où	0.775	0.976	0.518	GOLD
+the face	d s	0.474	0.828	0.346	A
+had left	et lest	0.581	0.877	0.557	GOLD
+her daughter	on or	0.622	0.741	0.285	A
+having been	afin mine	0.502	0.828	0.489	GOLD
+view of	brave	0.457	0.702	0.332	A
+you say	yeux au	0.502	0.709	0.497	GOLD
+or rather	horloge	0.548	0.712	0.212	A
+have already	effondrait a	0.480	0.793	0.429	A
+the appearance	différences	0.478	0.681	0.468	A
+he then	les n	0.540	0.833	0.528	GOLD
+for them	fonds aimes	0.671	0.940	0.617	GOLD
+from your	frontière	0.623	0.747	0.361	A
+forward and	fort en est	0.579	0.738	0.570	GOLD
+the garden	regard n	0.546	0.837	0.383	A
+what they	watts et	0.541	0.912	0.256	A
+the utmost	d poste	0.529	0.803	0.516	GOLD
+the soul	des îles	0.482	0.775	0.257	A
+may not	minutes	0.576	0.797	0.273	A
+loss of	les if	0.500	0.856	0.294	A
+the passage	repas êtes	0.457	0.885	0.382	A
+to turn	tout n	0.588	0.856	0.456	GOLD
+in so	on saut	0.555	0.826	0.651	GOLD
+in me	on mi	0.678	0.891	0.691	GOLD
+its own	et zone	0.514	0.832	0.389	A
+the third	d aides	0.460	0.861	0.483	GOLD
+me of	brave	0.488	0.713	0.503	GOLD
+again to	gain tout	0.628	0.867	0.467	GOLD
+his mouth	ces masse	0.474	0.804	0.332	A
+called the	collent de	0.833	0.852	0.637	GOLD
+with its	les s	0.455	0.803	0.661	GOLD
+do with	duel	0.498	0.906	0.281	A
+of death	aux dette	0.470	0.891	0.354	A
+this the	dit le	0.488	0.878	0.705	GOLD
+st clair	son clair	0.784	0.803	0.656	GOLD
+the land	relate	0.462	0.839	0.322	A
+whale as	venise	0.474	0.773	0.244	A
+look ye	locaux	0.498	0.807	0.532	GOLD
+to marry	on henri	0.563	0.646	0.401	A
+one in	on n	0.531	0.759	0.579	GOLD
+even now	hymen a	0.547	0.830	0.258	A
+as good	aux guide	0.476	0.850	0.390	A
+two of	trouve	0.574	0.819	0.563	GOLD
+read it	rider	0.715	0.793	0.293	A
+not you	d où	0.480	0.810	0.382	A
+him of	on ève	0.487	0.754	0.579	GOLD
+friend and	freinent in	0.632	0.637	0.454	A
+me so	mis à	0.628	0.815	0.702	GOLD
+was over	les aube	0.521	0.835	0.239	A
+were at	relate	0.470	0.832	0.445	A
+oh my	homard	0.628	0.783	0.506	GOLD
+give you	gays où	0.607	0.918	0.335	A
+this man	d man	0.499	0.923	0.569	GOLD
+sister and	set rade	0.617	0.862	0.328	A
+were of	arrive	0.510	0.761	0.535	GOLD
+that their	des air	0.576	0.764	0.419	A
+was by	les bah	0.508	0.845	0.484	GOLD
+with what	les êtes	0.481	0.814	0.550	GOLD
+his life	les light	0.459	0.779	0.317	A
+to mrs	tenait s	0.563	0.829	0.582	GOLD
+convinced that	con vain stade	0.544	0.873	0.468	GOLD
+was his	les use	0.511	0.796	0.399	A
+to receive	taux if	0.501	0.930	0.387	A
+face of	fait as	0.490	0.857	0.575	GOLD
+of two	aux tout	0.601	0.917	0.528	GOLD
+for such	fort as	0.641	0.853	0.692	GOLD
+and such	in patch	0.492	0.769	0.284	A
+her uncle	terrain quel	0.503	0.764	0.260	A
+eyes were	aux ouah	0.531	0.808	0.427	A
+were it	ouest	0.572	0.791	0.432	A
+attempt to	et aimait tout	0.593	0.783	0.212	A
+on it	honnête	0.785	0.940	0.497	GOLD
+should like	son lac	0.593	0.831	0.351	A
+that could	d guide	0.479	0.884	0.386	A
+us the	et de	0.525	0.739	0.544	GOLD
+give him	gars aimes	0.545	0.832	0.660	GOLD
+himself in	on certaines	0.521	0.815	0.407	A
+quite so	toit zoo	0.484	0.850	0.278	A
+before and	porridge	0.450	0.726	0.238	A
+it could	et code	0.521	0.899	0.345	A
+other and	aux rendent	0.507	0.760	0.597	GOLD
+there she	merci	0.577	0.756	0.466	GOLD
+but by	but bah	0.683	0.891	0.590	GOLD
+time in	domaine	0.529	0.844	0.314	A
+well then	ils n	0.567	0.812	0.615	GOLD
+we should	ouest	0.507	0.778	0.283	A
+he went	ouverte	0.481	0.770	0.255	A
+saw that	ces a	0.486	0.804	0.582	GOLD
+open and	afin hard	0.477	0.725	0.432	A
+by one	baronne	0.653	0.737	0.409	A
+over me	aux mi	0.694	0.858	0.722	GOLD
+owing to	ornent où	0.575	0.782	0.440	A
+and finally	in vain allie	0.534	0.796	0.438	A
+the red	serait	0.608	0.698	0.451	A
+his feet	les vite	0.533	0.871	0.452	GOLD
+death and	d un	0.462	0.819	0.453	GOLD
+body of	but ive	0.519	0.836	0.402	A
+we saw	ouais au	0.545	0.806	0.567	GOLD
+miss austen	mais est n	0.546	0.831	0.206	A
+the story	des série	0.558	0.720	0.626	GOLD
+wickham and	recommande	0.477	0.807	0.465	GOLD
+of miss	aux baisse	0.458	0.863	0.465	GOLD
+are so	art au	0.451	0.646	0.331	A
+nature of	d slave	0.462	0.833	0.435	A
+certain that	son set	0.523	0.800	0.428	A
+is at	aux êtes	0.511	0.864	0.631	GOLD
+are in	antenne	0.507	0.824	0.146	A
+bennet and	bon et n	0.528	0.860	0.819	GOLD
+being in	bien n	0.605	0.874	0.508	GOLD
+mr and	mais trente	0.580	0.775	0.266	A
+the gentlemen	laid gênent n n	0.597	0.929	0.493	GOLD
+went away	vain télé	0.471	0.843	0.227	A
+happened to	open tout	0.593	0.743	0.274	A
+long and	lin in	0.451	0.663	0.269	A
+he may	chimie	0.509	0.828	0.209	A
+for in	forte	0.711	0.709	0.508	GOLD
+him it	un êtes	0.502	0.774	0.651	GOLD
+fond of	fan as	0.496	0.929	0.657	GOLD
+and very	in série	0.525	0.716	0.659	GOLD
+shall have	genève	0.478	0.786	0.567	GOLD
+the gentleman	laid gênent n n	0.597	0.929	0.427	A
+in no	un au	0.570	0.718	0.519	GOLD
+towards him	dehors comme	0.506	0.827	0.464	GOLD
+to longbourn	saison bornes	0.552	0.794	0.477	GOLD
+miss lucas	mais luxe	0.495	0.833	0.328	A
+he thought	et honte	0.493	0.807	0.353	A
+man that	main set	0.584	0.851	0.294	A
+much in	met chaîne	0.603	0.924	0.377	A
+for many	fortin a	0.628	0.717	0.402	A
+to pass	défense	0.494	0.845	0.320	A
+has the	yeux de	0.487	0.727	0.433	A
+that would	d lord	0.468	0.861	0.483	GOLD
+of mine	aux man	0.570	0.863	0.548	GOLD
+found the	femmes de	0.638	0.760	0.384	A
+the work	avec	0.471	0.863	0.575	GOLD
+table and	témoigner	0.491	0.732	0.239	A
+be as	brave	0.481	0.738	0.421	A
+first time	test âme	0.637	0.891	0.247	A
+is always	isoloir	0.497	0.826	0.364	A
+have never	n ève	0.649	0.934	0.344	A
+engaged in	un gueux jeune	0.472	0.820	0.392	A
+of both	aux beauf	0.461	0.835	0.492	GOLD
+parts of	partent if	0.578	0.863	0.435	A
+until the	un tels est	0.455	0.860	0.497	GOLD
+little of	lyonnaise	0.453	0.749	0.247	A
+to enter	tiennent	0.600	0.845	0.511	GOLD
+us all	et il	0.495	0.782	0.508	GOLD
+understand that	n stand cette	0.585	0.770	0.516	GOLD
+each of	et savent	0.498	0.840	0.352	A
+the son	d n	0.495	0.855	0.401	A
+son of	son s	0.510	0.769	0.758	GOLD
+in time	on dame	0.536	0.820	0.406	A
+hope that	complètes	0.467	0.772	0.447	A
+see how	signé	0.563	0.756	0.363	A
+that as	d use	0.474	0.832	0.432	A
+death of	d if	0.474	0.888	0.264	A
+as ever	élèves	0.640	0.900	0.382	A
+so in	sienne	0.593	0.774	0.682	GOLD
+all right	oriente	0.460	0.730	0.529	GOLD
+now for	d or	0.563	0.776	0.437	A
+two days	tout âge	0.594	0.822	0.377	A
+seen the	son de	0.610	0.703	0.633	GOLD
+that man	d man	0.509	0.933	0.611	GOLD
+the blue	tableau	0.501	0.871	0.472	GOLD
+the corner	records	0.635	0.790	0.168	A
+me at	merde	0.461	0.780	0.671	GOLD
+it then	s n	0.600	0.910	0.568	GOLD
+the lord	pilote	0.457	0.841	0.281	A
+my hands	mayonnaise	0.495	0.767	0.133	A
+the lake	reliques	0.582	0.844	0.273	A
+of water	aux or	0.607	0.702	0.350	A
+the life	relate	0.569	0.839	0.424	A
+the rope	salope	0.460	0.758	0.504	GOLD
+the pacific	spécifique	0.500	0.874	0.430	A
+of whaling	ivoirienne	0.459	0.805	0.225	A
+this whale	d huile	0.464	0.851	0.127	A
+of ye	avion	0.511	0.811	0.313	A
+deck and	liquide	0.463	0.847	0.181	A
+good deal	goût il	0.679	0.890	0.417	A
+sure that	chairs a	0.506	0.818	0.178	A
+possible that	pas belles et	0.488	0.849	0.435	A
+the hope	découpe	0.470	0.761	0.247	A
+was impossible	les on pas belle	0.478	0.847	0.420	A
+if not	et notes	0.481	0.867	0.356	A
+be said	but aides	0.706	0.948	0.444	A
+though she	souci	0.487	0.771	0.398	A
+us in	et n	0.540	0.866	0.458	GOLD
+and miss	in mince	0.456	0.807	0.422	A
+this and	d hard	0.460	0.804	0.404	A
+speak to	piquent a	0.663	0.934	0.505	GOLD
+now it	naïf	0.638	0.900	0.305	A
+place and	plus hard	0.596	0.734	0.370	A
+better than	maires n	0.570	0.861	0.420	A
+day before	déclare	0.584	0.656	0.478	A
+he continued	écart un coude	0.499	0.736	0.361	A
+and never	un ève	0.689	0.880	0.379	A
+few days	fut haïssent	0.480	0.836	0.221	A
+from one	fromage	0.542	0.736	0.335	A
+to bring	technique	0.452	0.792	0.291	A
+illustration chapter	les trahison chips	0.454	0.764	0.160	A
+never heard	les aides	0.494	0.814	0.227	A
+attention to	et un ton tout	0.559	0.782	0.557	GOLD
+half an	et n	0.496	0.741	0.461	GOLD
+him there	un chair	0.582	0.693	0.580	A
+her as	cerise	0.526	0.768	0.548	GOLD
+right to	rat tout	0.799	0.778	0.410	A
+wish of	lessive	0.504	0.856	0.445	A
+the object	land secte	0.583	0.831	0.259	A
+to discover	t et gave	0.536	0.875	0.449	A
+he does	et onze	0.503	0.756	0.310	A
+chance of	tchad as	0.546	0.899	0.276	A
+open the	enfin je	0.468	0.648	0.400	A
+suppose that	impôts dette	0.525	0.838	0.177	A
+the question	secret chaîne	0.516	0.812	0.369	A
+in life	on light	0.573	0.820	0.361	A
+line of	lien as	0.475	0.765	0.482	GOLD
+to remain	termine	0.680	0.803	0.505	GOLD
+fear of	france	0.493	0.638	0.181	A
+in many	on mini	0.606	0.878	0.306	A
+something in	son pain in	0.464	0.672	0.207	A
+day of	dérive	0.683	0.801	0.447	A
+at night	et notes	0.514	0.818	0.329	A
+appear to	était où	0.583	0.848	0.467	GOLD
+and aunt	en dites	0.513	0.800	0.482	GOLD
+made the	mais je	0.595	0.745	0.412	A
+to follow	t aller	0.480	0.811	0.666	GOLD
+you for	but or	0.558	0.781	0.491	GOLD
+them at	limite	0.502	0.865	0.389	A
+had already	et offrait a	0.452	0.746	0.522	GOLD
+there he	série	0.533	0.781	0.507	GOLD
+door of	arrive	0.506	0.683	0.600	A
+end to	est tout	0.707	0.842	0.472	GOLD
+the windows	soin doses	0.563	0.818	0.153	A
+to myself	on hais elfes	0.599	0.852	0.224	A
+his son	ils n	0.495	0.813	0.404	A
+even to	in tout	0.498	0.818	0.684	GOLD
+will find	veulent hard	0.457	0.781	0.428	A
+they may	germer	0.506	0.796	0.318	A
+have thought	aux pote	0.538	0.822	0.558	GOLD
+then it	son êtes	0.500	0.852	0.691	GOLD
+the death	laid s	0.512	0.925	0.414	A
+of so	as au	0.491	0.755	0.524	GOLD
+long time	son dame	0.509	0.784	0.364	A
+we all	viol	0.650	0.893	0.437	A
+the trees	d rose	0.469	0.766	0.293	A
+the front	retraite	0.456	0.723	0.252	A
+seen him	son aimes	0.584	0.836	0.619	GOLD
+that sort	d short	0.633	0.829	0.423	A
+the various	des iris	0.531	0.719	0.349	A
+was this	as s	0.472	0.875	0.379	A
+even as	venise	0.636	0.813	0.380	A
+the streets	ces tristes	0.589	0.754	0.395	A
+up by	abbaye	0.470	0.843	0.404	A
+the spot	d pâte	0.504	0.931	0.376	A
+tell him	totem	0.641	0.804	0.403	A
+but only	but on lie	0.646	0.833	0.495	GOLD
+out for	art for	0.736	0.784	0.330	A
+and half	un if	0.504	0.778	0.247	A
+the city	des ri	0.577	0.672	0.407	A
+hundred and	un très hard	0.482	0.664	0.389	A
+the upper	drape	0.488	0.779	0.415	A
+the murderer	son être	0.477	0.808	0.509	GOLD
+like an	label	0.556	0.784	0.311	A
+the tail	t il	0.571	0.906	0.449	A
+boat was	but vases	0.577	0.870	0.226	A
+the moon	on une	0.461	0.853	0.346	A
+the quarter	déclare	0.462	0.721	0.517	GOLD
+the stern	d n	0.478	0.846	0.445	A
+at sea	et si	0.665	0.917	0.434	A
+the leviathan	délais et n	0.483	0.797	0.256	A
+sea the	ces a	0.526	0.877	0.499	GOLD
+the fiend	décide	0.471	0.837	0.594	GOLD
+men and	main un	0.530	0.816	0.559	GOLD
+world and	golden	0.472	0.842	0.283	A
+though not	son hôte	0.488	0.800	0.417	A
+much for	met for	0.690	0.850	0.429	A
+need not	nous nantes	0.583	0.864	0.444	A
+which might	et smart	0.535	0.765	0.455	GOLD
+darcy and	partiel	0.456	0.716	0.387	A
+the common	décan n	0.503	0.860	0.540	GOLD
+any rate	on arrête	0.499	0.718	0.272	A
+me by	moment	0.494	0.779	0.533	GOLD
+it should	est sud	0.486	0.819	0.322	A
+to jane	t jeune	0.582	0.884	0.367	A
+the north	son or	0.545	0.789	0.313	A
+with mr	les piste	0.523	0.847	0.409	A
+as any	aux aînés	0.619	0.912	0.403	A
+my poor	major	0.641	0.628	0.255	A
+depend upon	pain domaine	0.534	0.834	0.275	A
+his character	les correct	0.505	0.748	0.473	GOLD
+at their	as air	0.600	0.791	0.335	A
+what can	et cane	0.508	0.857	0.351	A
+them as	venise	0.476	0.822	0.406	A
+and make	as mec	0.478	0.867	0.533	GOLD
+well to	veulent où	0.718	0.950	0.586	GOLD
+for though	forte	0.629	0.662	0.601	A
+that were	tatoué	0.512	0.869	0.275	A
+would never	un ève	0.683	0.887	0.302	A
+came from	kit rome	0.521	0.807	0.353	A
+had better	et par	0.492	0.701	0.610	GOLD
+with no	les nos	0.475	0.722	0.536	GOLD
+she added	viande	0.479	0.788	0.450	GOLD
+make it	méthode	0.553	0.777	0.503	GOLD
+the power	sympa	0.517	0.850	0.394	A
+might not	man as	0.590	0.894	0.272	A
+two years	tir	0.475	0.703	0.388	A
+darcy was	dans élèves	0.474	0.821	0.242	A
+the smallest	d modeste	0.528	0.859	0.671	GOLD
+had made	et merde	0.490	0.767	0.382	A
+by him	baptême	0.683	0.767	0.317	A
+he sat	et êtes	0.519	0.781	0.204	A
+have ever	élèves	0.592	0.837	0.318	A
+without being	les et bine	0.460	0.793	0.411	A
+him on	on n	0.499	0.764	0.660	GOLD
+heart and	artiste	0.486	0.730	0.299	A
+know it	noël	0.504	0.857	0.574	GOLD
+her face	et haïssent	0.479	0.792	0.353	A
+than he	jeudi	0.519	0.808	0.301	A
+expression of	s prison f	0.554	0.809	0.264	A
+see what	silence	0.593	0.856	0.293	A
+at pemberley	et pain plie	0.570	0.883	0.493	GOLD
+go on	baronne	0.552	0.765	0.343	A
+long as	son aise	0.485	0.835	0.359	A
+the distance	d stade	0.452	0.849	0.384	A
+in short	on short	0.778	0.793	0.940	GOLD
+cried elizabeth	créait les baisse	0.502	0.758	0.353	A
+place in	plus n	0.647	0.820	0.436	A
+the wild	bavarde	0.456	0.757	0.573	GOLD
+in them	ils aiment	0.597	0.900	0.559	GOLD
+them for	vain for	0.671	0.808	0.514	GOLD
+behaviour to	pays et où	0.473	0.803	0.367	A
+how many	gamin et	0.450	0.800	0.366	A
+not do	d tout	0.500	0.881	0.418	A
+piece of	pas as	0.482	0.837	0.557	GOLD
+me what	milan	0.608	0.803	0.509	GOLD
+could only	but on lie	0.556	0.798	0.394	A
+made up	madame	0.505	0.806	0.294	A
+let the	laid de	0.714	0.843	0.672	GOLD
+again in	rien n	0.558	0.815	0.417	A
+where she	merci	0.560	0.734	0.358	A
+turning to	on un tout	0.556	0.814	0.361	A
+my feelings	met héloïse	0.493	0.856	0.342	A
+few moments	sinon hertz	0.484	0.738	0.324	A
+did she	d j	0.608	0.892	0.357	A
+listen to	les en tout	0.653	0.872	0.492	GOLD
+but of	but if	0.500	0.897	0.581	GOLD
+this world	d lord	0.452	0.816	0.449	A
+have some	as home	0.481	0.842	0.308	A
+them that	thèmes a	0.489	0.874	0.402	A
+and found	in tarde	0.459	0.767	0.345	A
+or to	eurent où	0.740	0.852	0.533	GOLD
+it by	et bah	0.528	0.842	0.493	GOLD
+can hardly	canards dit	0.609	0.805	0.374	A
+many years	main erreur	0.480	0.755	0.297	A
+on either	on il	0.540	0.878	0.650	GOLD
+occurred to	était tout	0.548	0.822	0.672	GOLD
+was left	les laisse	0.475	0.867	0.655	GOLD
+the company	chacun petit	0.528	0.809	0.277	A
+it over	grave	0.472	0.649	0.380	A
+the loss	police	0.458	0.834	0.182	A
+she cried	secrète	0.477	0.675	0.196	A
+and without	un des out	0.485	0.856	0.544	GOLD
+when my	vain ma	0.563	0.725	0.639	GOLD
+his daughter	s or	0.605	0.780	0.223	A
+confess that	con fesses as	0.618	0.933	0.390	A
+concerning the	con son un de	0.536	0.765	0.547	GOLD
+on and	on hard	0.531	0.727	0.610	GOLD
+for any	forain a	0.539	0.728	0.532	GOLD
+what has	et case	0.481	0.802	0.499	GOLD
+came in	copine	0.584	0.824	0.380	A
+he now	un are	0.488	0.749	0.417	A
+life of	land if	0.458	0.830	0.316	A
+off to	ont tout	0.637	0.895	0.429	A
+you did	but aides	0.476	0.887	0.231	A
+among them	mon thème	0.557	0.772	0.421	A
+ever since	s s	0.563	0.885	0.434	A
+and also	en donnent au	0.509	0.722	0.672	GOLD
+that such	d patch	0.554	0.874	0.252	A
+off from	est femme	0.471	0.863	0.341	A
+back in	bancaire	0.494	0.806	0.347	A
+that that	dit cet	0.473	0.725	0.717	GOLD
+what did	et z	0.488	0.820	0.473	GOLD
+these were	disait	0.522	0.886	0.640	GOLD
+stand by	stand bah	0.739	0.877	0.753	GOLD
+the facts	d actes	0.465	0.857	0.615	GOLD
+his back	les bac	0.456	0.871	0.462	GOLD
+the wall	viol	0.565	0.823	0.501	GOLD
+my friends	mat rhin d	0.547	0.783	0.462	GOLD
+stubb and	stupide	0.601	0.849	0.391	A
+the seas	d use	0.490	0.847	0.204	A
+thou art	yaourt	0.535	0.710	0.558	GOLD
+to leeward	police	0.475	0.836	0.316	A
+cried stubb	grand stop	0.507	0.790	0.118	A
+chapter chapter	tchad chatte	0.616	0.893	0.187	A
+who are	voire	0.478	0.686	0.507	A
+all things	holdings	0.474	0.665	0.317	A
+three years	prière	0.478	0.737	0.266	A
+the picture	débecte	0.457	0.879	0.554	GOLD
+of no	n au	0.475	0.750	0.684	GOLD
+and nothing	in dancing	0.476	0.675	0.227	A
+had at	en hâte	0.537	0.748	0.532	GOLD
+the party	reparti	0.527	0.787	0.352	A
+you come	yoga	0.458	0.825	0.086	A
+heard that	et cette	0.473	0.652	0.608	A
+to visit	devez if	0.512	0.905	0.309	A
+over it	aux dette	0.558	0.800	0.341	A
+intended to	on n tout	0.670	0.837	0.478	GOLD
+morning and	man un in	0.479	0.661	0.431	A
+and once	on douanes	0.505	0.869	0.615	GOLD
+jane was	viennoise	0.534	0.803	0.734	GOLD
+her at	honnête	0.495	0.813	0.444	A
+never saw	neiges on	0.601	0.927	0.339	A
+that which	d lèche	0.475	0.861	0.601	GOLD
+but was	but as	0.490	0.894	0.697	GOLD
+nor was	normal	0.605	0.753	0.147	A
+said in	saint n	0.646	0.916	0.382	A
+pleasure of	plus rêve	0.616	0.833	0.458	GOLD
+she should	chiffres	0.580	0.718	0.175	A
+than she	on chie	0.600	0.866	0.303	A
+but these	but disent	0.655	0.928	0.529	GOLD
+had she	et j	0.527	0.762	0.497	GOLD
+of happiness	assassin s	0.473	0.762	0.235	A
+eyes of	arrive	0.592	0.793	0.389	A
+turned to	n tout	0.597	0.895	0.483	GOLD
+before she	et archi	0.605	0.675	0.393	A
+pair of	preuve	0.573	0.726	0.429	A
+how long	colonne	0.502	0.837	0.159	A
+were now	on are	0.491	0.765	0.498	GOLD
+it came	et comme	0.490	0.788	0.575	GOLD
+care of	courage	0.470	0.699	0.387	A
+to avoid	tours ode	0.574	0.824	0.368	A
+her head	caïd	0.497	0.831	0.381	A
+the pleasure	rappeler	0.454	0.833	0.524	GOLD
+drawing room	drain rome	0.697	0.698	0.260	A
+elizabeth could	les avaient code	0.512	0.893	0.251	A
+yes it	yeux s	0.589	0.890	0.375	A
+length of	lin love	0.582	0.869	0.234	A
+you might	commente	0.464	0.810	0.445	A
+made her	mais que	0.500	0.803	0.461	GOLD
+desire to	deux et où	0.565	0.837	0.389	A
+room in	on n	0.479	0.746	0.358	A
+all its	office	0.561	0.772	0.302	A
+beyond the	bien de	0.653	0.744	0.562	GOLD
+the church	d sèches	0.469	0.845	0.151	A
+come in	con n	0.616	0.883	0.414	A
+think you	son cou	0.494	0.778	0.485	GOLD
+the largest	dollars liste	0.524	0.832	0.312	A
+rather than	riches n	0.540	0.775	0.290	A
+up for	est or	0.581	0.754	0.342	A
+before my	et arma	0.517	0.773	0.306	A
+father was	pas vases	0.480	0.831	0.307	A
+either side	ils as	0.498	0.816	0.384	A
+there the	chairs a	0.501	0.800	0.355	A
+he turned	et hard	0.476	0.678	0.398	A
+my head	malades	0.630	0.727	0.478	GOLD
+trying to	doyen tout	0.545	0.824	0.445	A
+my power	médaille	0.478	0.730	0.471	GOLD
+hard to	hard on	0.500	0.729	0.777	GOLD
+almost as	allemand as	0.460	0.790	0.407	A
+led to	laid tout	1.000	1.000	0.549	GOLD
+between them	bien thème	0.608	0.834	0.349	A
+coming to	copain tout	0.647	0.868	0.477	GOLD
+as before	aux est or	0.453	0.676	0.426	A
+over and	aux rendre	0.469	0.738	0.596	GOLD
+but so	but saut	0.683	0.891	0.628	GOLD
+more the	maures a	0.703	0.857	0.520	GOLD
+the green	regret	0.540	0.683	0.168	A
+the weather	chouette	0.480	0.836	0.277	A
+this one	les veines	0.470	0.804	0.324	A
+then to	son tout	0.622	0.794	0.559	GOLD
+is true	aux trou	0.681	0.720	0.320	A
+upon which	épanouissent	0.498	0.882	0.518	GOLD
+myself in	mas aident n	0.658	0.906	0.407	A
+the centre	d n	0.488	0.865	0.386	A
+is still	s il	0.500	0.895	0.367	A
+sir said	saint aides	0.715	0.907	0.424	A
+upon them	bandes aimes	0.563	0.878	0.469	GOLD
+if to	et tout	0.623	0.909	0.372	A
+the sky	deux cas	0.490	0.854	0.279	A
+this old	dit hard	0.456	0.761	0.516	GOLD
+the creature	décrite	0.608	0.786	0.455	GOLD
+and round	in rendre	0.457	0.730	0.588	GOLD
+fish and	façade	0.539	0.835	0.407	A
+the indian	son tiennent	0.474	0.715	0.394	A
+the vast	défaite	0.480	0.819	0.244	A
+the greenland	chagrin le	0.518	0.732	0.442	A
+almost every	n osent offrit	0.495	0.794	0.344	A
+of mrs	aux mais use	0.455	0.860	0.505	GOLD
+and jane	in gin	0.563	0.850	0.328	A
+subject of	objectif	0.585	0.831	0.531	GOLD
+over her	aux que	0.481	0.788	0.580	GOLD
+history of	et drive	0.460	0.633	0.380	A
+or any	arrêter	0.500	0.786	0.447	A
+not much	but matchs	0.594	0.882	0.270	A
+this same	dit somme	0.486	0.841	0.717	GOLD
+impossible to	on pas veulent où	0.574	0.840	0.380	A
+miss de	mains de	0.715	0.760	0.412	A
+feelings of	filon savent	0.689	0.894	0.381	A
+was always	les osseuse	0.533	0.792	0.251	A
+but her	but a	0.507	0.876	0.610	GOLD
+reason of	raison as	0.504	0.787	0.724	GOLD
+and see	un si	0.627	0.866	0.684	GOLD
+conversation with	cannes saison s	0.450	0.803	0.366	A
+it again	urbaine	0.546	0.763	0.308	A
+the feelings	syphilis	0.492	0.868	0.127	A
+all about	élégante	0.482	0.779	0.707	GOLD
+must go	mat go	0.676	0.893	0.564	GOLD
+impossible for	on pas veulent or	0.510	0.792	0.268	A
+me you	midi	0.594	0.801	0.601	GOLD
+had always	et héloïse	0.461	0.822	0.386	A
+said her	sait a	0.634	0.937	0.507	GOLD
+mother and	mais rendent	0.575	0.791	0.400	A
+but for	but for	0.817	0.878	1.000	GOLD
+fear that	filles as	0.479	0.896	0.283	A
+to another	tournée	0.479	0.787	0.365	A
+had brought	est prête	0.493	0.738	0.378	A
+mrs hurst	mais lest	0.603	0.763	0.449	A
+where they	verres a	0.509	0.772	0.440	A
+in silence	on salaire	0.482	0.783	0.221	A
+wonder that	n dette	0.548	0.869	0.576	GOLD
+illustration the	les trahison le	0.543	0.737	0.228	A
+most of	mots top	0.575	0.883	0.552	GOLD
+can have	con as	0.489	0.778	0.551	GOLD
+and indeed	in in in	0.461	0.789	0.346	A
+to learn	domaine	0.470	0.804	0.422	A
+by your	major	0.476	0.636	0.291	A
+time but	tablette	0.613	0.799	0.237	A
+hear of	grave	0.505	0.690	0.314	A
+we will	réel	0.481	0.822	0.405	A
+to bed	tombé	0.519	0.852	0.379	A
+affection for	et excellent or	0.529	0.722	0.251	A
+the drawing	laid rome	0.559	0.762	0.455	GOLD
+you so	yeux au	0.531	0.740	0.463	GOLD
+was nothing	oies nautique	0.473	0.870	0.249	A
+of each	invite	0.565	0.910	0.252	A
+all to	aident où	0.626	0.884	0.572	GOLD
+which must	laid must	0.512	0.729	0.647	GOLD
+to call	lequel	0.595	0.891	0.471	GOLD
+good bye	goût pas	0.524	0.868	0.394	A
+her feelings	est héloïse	0.454	0.797	0.301	A
+the bell	label	0.691	0.926	0.295	A
+you all	duel	0.494	0.844	0.247	A
+to let	télé	0.523	0.852	0.371	A
+it if	bref	0.481	0.745	0.498	GOLD
+he knew	gain où	0.524	0.794	0.227	A
+the effect	détecte	0.629	0.837	0.465	GOLD
+at intervals	arrêtent vol	0.481	0.814	0.331	A
+that ever	but ève	0.661	0.907	0.653	GOLD
+thought he	sont qui	0.496	0.848	0.491	GOLD
+the sort	d or	0.488	0.758	0.447	A
+as of	élèves	0.522	0.867	0.457	GOLD
+she thought	château	0.488	0.798	0.231	A
+does the	dans le	0.581	0.828	0.605	GOLD
+to prevent	après n	0.513	0.803	0.524	GOLD
+was gone	les conne	0.581	0.900	0.429	A
+for several	fort aux rôles	0.636	0.801	0.461	GOLD
+and again	on dégaine	0.666	0.904	0.659	GOLD
+mind and	man en est	0.532	0.859	0.564	GOLD
+there for	d or	0.556	0.794	0.385	A
+went on	on tonnes	0.703	0.887	0.290	A
+yet in	est une	0.613	0.826	0.541	GOLD
+then with	génoise	0.484	0.850	0.243	A
+nothing more	d un maures	0.596	0.787	0.411	A
+only that	on les êtes	0.513	0.798	0.398	A
+this he	dit qui	0.488	0.878	0.690	GOLD
+years of	heures as	0.485	0.738	0.599	GOLD
+the law	cela	0.511	0.850	0.436	A
+was indeed	les on dite	0.509	0.866	0.471	GOLD
+some little	son lord	0.460	0.705	0.321	A
+was seen	les fine	0.570	0.878	0.564	GOLD
+the year	dehors	0.498	0.729	0.333	A
+fact that	fixes a	0.483	0.892	0.248	A
+we could	liquide	0.611	0.884	0.271	A
+the storm	des ormes	0.559	0.735	0.238	A
+up from	hot ram	0.487	0.738	0.285	A
+king of	con as	0.487	0.811	0.436	A
+cry of	drive	0.541	0.714	0.208	A
+then and	son n	0.483	0.814	0.616	GOLD
+at every	arrêts dit	0.563	0.777	0.415	A
+light of	land as	0.494	0.855	0.233	A
+and only	un ton lie	0.592	0.780	0.453	GOLD
+sun and	son in	0.460	0.824	0.244	A
+touching the	t sain de	0.550	0.772	0.501	GOLD
+whale fishery	veulent cries	0.498	0.732	0.139	A
+that same	d terme	0.479	0.797	0.485	GOLD
+the seamen	d humaines	0.628	0.856	0.396	A
+the parsee	repas et	0.472	0.863	0.463	GOLD
+pride and	prends hard	0.624	0.694	0.457	A
+than in	dizaines	0.488	0.853	0.426	A
+it does	et douze	0.498	0.856	0.297	A
+the peculiar	spéculaire	0.472	0.749	0.668	GOLD
+letter from	laid rome	0.619	0.884	0.334	A
+if this	s s	0.487	0.890	0.405	A
+and has	en dise	0.541	0.805	0.613	GOLD
+time when	termine	0.538	0.770	0.459	GOLD
+all those	elles use	0.494	0.785	0.543	GOLD
+our own	arrière	0.461	0.605	0.379	A
+collins was	calmes as	0.501	0.948	0.326	A
+nothing could	d un code	0.464	0.849	0.239	A
+the new	son où	0.626	0.909	0.461	GOLD
+both of	but if	0.482	0.832	0.337	A
+where it	ouest	0.675	0.800	0.522	GOLD
+the stairs	d terre	0.554	0.861	0.418	A
+to lose	pelouse	0.804	0.941	0.401	A
+possession of	pas engin as	0.454	0.819	0.448	A
+go and	gaillarde	0.546	0.740	0.528	GOLD
+employed in	un plat in	0.493	0.731	0.188	A
+an excellent	on excellentes	0.630	0.871	0.834	GOLD
+spent in	spot in	0.505	0.773	0.406	A
+meant to	mettent tous	0.723	0.909	0.574	GOLD
+said mrs	sait mais il	0.551	0.882	0.399	A
+honour of	on rêve	0.534	0.683	0.447	A
+an air	un air	0.755	0.756	0.962	GOLD
+the principal	reprises pale	0.552	0.754	0.289	A
+met with	met il	0.665	0.944	0.485	GOLD
+catherine and	quatrain en est	0.467	0.738	0.271	A
+to seek	tous hic	0.786	0.929	0.524	GOLD
+than his	venise	0.511	0.842	0.302	A
+every other	ouvriers	0.540	0.752	0.255	A
+human being	roumain mine	0.487	0.812	0.466	GOLD
+to talk	tout oc	0.786	0.929	0.541	GOLD
+and could	in code	0.463	0.824	0.237	A
+her friend	et restent	0.455	0.722	0.262	A
+as yet	aux êtes	0.613	0.850	0.632	GOLD
+no sooner	d une	0.490	0.808	0.429	A
+shall soon	chaînes une	0.573	0.921	0.396	A
+and two	en tout	0.647	0.878	0.536	GOLD
+house in	fascine	0.507	0.824	0.343	A
+her hand	écharde	0.453	0.712	0.374	A
+father had	pas aides	0.502	0.830	0.359	A
+or four	et or	0.555	0.643	0.354	A
+mrs philips	mais est ellipse	0.573	0.889	0.296	A
+talk of	occupe	0.474	0.787	0.687	GOLD
+from you	frein yeux	0.587	0.799	0.199	A
+to send	tout n	0.568	0.829	0.395	A
+see her	signé	0.579	0.828	0.309	A
+and where	en leur	0.513	0.632	0.599	A
+they must	déteste	0.546	0.763	0.333	A
+so and	sorel	0.537	0.741	0.720	GOLD
+of many	aux mini	0.555	0.897	0.432	A
+in england	in glace	0.528	0.830	0.264	A
+and soon	en donne	0.513	0.784	0.402	A
+they all	viol	0.585	0.817	0.425	A
+been at	bain a	0.542	0.851	0.545	GOLD
+to wait	faillite	0.481	0.782	0.349	A
+to write	pirates	0.588	0.717	0.212	A
+believe it	bleus if	0.569	0.903	0.385	A
+us that	as êtes	0.491	0.882	0.605	GOLD
+presence of	prêts on savent	0.750	0.845	0.575	GOLD
+of mind	aux malte	0.451	0.826	0.412	A
+again but	gain but	0.504	0.839	0.504	GOLD
+bit of	but if	0.512	0.915	0.322	A
+my cousin	marquis n	0.600	0.809	0.369	A
+do the	deux à	0.497	0.880	0.504	GOLD
+at rosings	et rots n	0.462	0.719	0.567	GOLD
+only by	on libère	0.562	0.720	0.458	GOLD
+but without	but ouais out	0.598	0.934	0.599	GOLD
+on with	honnête	0.601	0.874	0.499	GOLD
+the prospect	prospects	0.727	0.779	0.864	GOLD
+prospect of	prends piquent as	0.582	0.826	0.351	A
+the small	d mole	0.663	0.939	0.445	A
+on its	on s	0.554	0.801	0.726	GOLD
+had an	et n	0.515	0.741	0.644	GOLD
+dared not	d nantes	0.570	0.922	0.199	A
+never be	nains but	0.474	0.872	0.498	GOLD
+to bear	hiver	0.588	0.741	0.338	A
+call it	collègues	0.673	0.878	0.436	A
+and many	n mini	0.640	0.907	0.444	A
+the money	demain en	0.480	0.774	0.343	A
+friends and	frênes in	0.609	0.628	0.490	A
+it now	n a	0.543	0.891	0.450	GOLD
+turn to	on tout	0.654	0.762	0.437	A
+to pursue	s ou	0.569	0.795	0.481	GOLD
+family and	familiale	0.482	0.837	0.973	GOLD
+without the	les et de	0.456	0.790	0.547	GOLD
+this day	des deux	0.490	0.811	0.481	GOLD
+my room	madame	0.649	0.760	0.387	A
+is on	aux hommes	0.503	0.860	0.338	A
+told you	tout yeux	0.451	0.790	0.427	A
+as when	aux n	0.588	0.837	0.500	GOLD
+at some	et tome	0.522	0.841	0.656	GOLD
+three days	tries s	0.502	0.744	0.451	GOLD
+one that	en cette	0.491	0.642	0.666	A
+whether it	les dette	0.486	0.854	0.352	A
+something like	son pain lac	0.590	0.826	0.370	A
+perceived that	pistes as	0.467	0.865	0.492	GOLD
+that part	d carte	0.545	0.790	0.347	A
+middle of	mais love	0.572	0.797	0.314	A
+the mere	son air	0.482	0.724	0.439	A
+and looking	on jogging	0.457	0.779	0.251	A
+have come	des came	0.464	0.871	0.500	GOLD
+seemed the	cimes de	0.833	0.852	0.560	GOLD
+taken place	pékin place	0.564	0.818	0.369	A
+us but	aux but	0.498	0.831	0.443	A
+ever and	hybride	0.473	0.771	0.248	A
+every way	ouvriers	0.566	0.724	0.229	A
+the wood	secondes	0.464	0.793	0.237	A
+when all	on elle	0.498	0.827	0.533	GOLD
+his voice	aux force	0.458	0.745	0.459	GOLD
+reference to	refrain tout	0.746	0.768	0.413	A
+come from	con femme	0.576	0.876	0.440	A
+chair and	terrible	0.494	0.701	0.102	A
+red headed	remettre	0.483	0.731	0.490	GOLD
+name is	remise	0.495	0.756	0.454	GOLD
+over with	aux ville	0.505	0.806	0.520	GOLD
+the back	typique	0.476	0.858	0.438	A
+what then	as n	0.571	0.870	0.458	GOLD
+and fro	in front	0.456	0.727	0.513	GOLD
+he ll	diesel	0.570	0.809	0.217	A
+hat and	et hard	0.486	0.703	0.405	A
+his forehead	aident horaires	0.484	0.781	0.296	A
+the landlord	dollars lord	0.624	0.816	0.216	A
+he not	en hâte	0.540	0.793	0.212	A
+the inspector	bien pacte	0.530	0.836	0.307	A
+here in	prenne	0.493	0.723	0.464	GOLD
+ship the	chefs a	0.501	0.914	0.370	A
+feet and	fut n	0.487	0.868	0.400	A
+the human	cérumen	0.473	0.832	0.457	GOLD
+the snow	dans nos	0.484	0.693	0.346	A
+the grand	regrette	0.526	0.710	0.294	A
+feet in	fait une	0.609	0.926	0.371	A
+the harpooneer	charbon in	0.459	0.649	-0.035	A
+the waters	devises	0.465	0.773	0.438	A
+aye and	arabes	0.451	0.711	0.413	A
+it there	s air	0.600	0.791	0.459	GOLD
+above all	pas elle	0.479	0.809	0.356	A
+from any	fripon a	0.548	0.712	0.502	GOLD
+first place	fait plus	0.532	0.820	0.396	A
+before her	et aurait	0.457	0.659	0.382	A
+enough for	on est fort	0.615	0.820	0.481	GOLD
+whether the	ouais se	0.672	0.807	0.687	GOLD
+the thought	d hôte	0.462	0.864	0.393	A
+species of	décisive	0.607	0.862	0.363	A
+days of	des as	0.600	0.828	0.510	GOLD
+live in	les unes	0.577	0.849	0.359	A
+years and	leurs âne	0.468	0.743	0.348	A
+remember that	rien plate	0.510	0.745	0.339	A
+not make	d mec	0.490	0.846	0.263	A
+that even	d éden	0.462	0.820	0.532	GOLD
+but perhaps	but pacs	0.530	0.838	0.588	GOLD
+is just	s geste	0.588	0.944	0.402	A
+nothing in	d un n	0.459	0.824	0.268	A
+his being	mais bine	0.451	0.815	0.525	GOLD
+form of	former	0.727	0.833	0.412	A
+who can	automne	0.454	0.728	0.323	A
+they might	démarches	0.471	0.755	0.415	A
+me no	main a	0.543	0.762	0.304	A
+love with	les villes	0.501	0.878	0.297	A
+that any	d uni	0.556	0.837	0.607	GOLD
+where you	verra	0.490	0.722	0.564	GOLD
+come and	commande	0.622	0.878	0.400	A
+the affair	d air	0.578	0.737	0.358	A
+them by	son bah	0.494	0.797	0.442	A
+now when	navire	0.564	0.741	0.262	A
+and twenty	n soin du	0.490	0.780	0.434	A
+is by	aux bah	0.486	0.826	0.482	GOLD
+was just	as geste	0.557	0.930	0.419	A
+would do	vous nous	0.499	0.858	0.479	GOLD
+his sisters	s astres	0.461	0.871	0.331	A
+ten thousand	son temps n	0.459	0.757	0.281	A
+against him	gain stem	0.579	0.853	0.238	A
+bennet had	bain et n	0.560	0.795	0.611	GOLD
+deal of	silence	0.476	0.841	0.242	A
+had any	et uni	0.576	0.800	0.536	GOLD
+replied elizabeth	plat les oppose	0.507	0.818	0.370	A
+like this	lacs as	0.640	0.873	0.600	GOLD
+and sometimes	n savent âme	0.465	0.867	0.288	A
+leave the	les de	0.561	0.764	0.507	GOLD
+and took	n donc	0.586	0.909	0.574	GOLD
+felt the	fort de	0.546	0.698	0.563	A
+by such	bas est	0.532	0.828	0.682	GOLD
+with pleasure	les plage	0.530	0.862	0.326	A
+made him	pays aimes	0.493	0.879	0.361	A
+well that	elles as	0.498	0.791	0.623	GOLD
+that so	d saut	0.514	0.879	0.414	A
+few of	suivent	0.497	0.848	0.428	A
+the less	jeunesse	0.571	0.864	0.377	A
+was never	les neuve	0.494	0.880	0.321	A
+three or	dehors	0.567	0.768	0.411	A
+does he	des a	0.531	0.859	0.310	A
+tell us	silence	0.508	0.870	0.314	A
+before it	maurice	0.482	0.707	0.364	A
+my dearest	mais irrite	0.541	0.730	0.481	GOLD
+given to	gays on tout	0.662	0.890	0.169	A
+and having	en living	0.473	0.771	0.562	GOLD
+whom she	un si	0.487	0.682	0.522	A
+with any	les henni	0.640	0.900	0.555	GOLD
+say to	sont où	0.713	0.853	0.508	GOLD
+could she	tout j	0.478	0.789	0.360	A
+he replied	surplace	0.613	0.754	0.270	A
+to town	t n	0.573	0.860	0.425	A
+passed the	pas de	0.581	0.764	0.506	GOLD
+night in	d une	0.466	0.803	0.410	A
+therefore to	servirent a	0.529	0.734	0.710	GOLD
+his countenance	quais gagnent on s	0.459	0.836	0.488	GOLD
+is what	boîte	0.499	0.860	0.367	A
+would make	vous manque	0.480	0.786	0.340	A
+before we	est aurez	0.459	0.674	0.484	A
+and good	n guide	0.496	0.909	0.357	A
+you please	reprise	0.529	0.782	0.548	GOLD
+told her	tels que	0.481	0.783	0.446	A
+fixed on	fixent or	0.709	0.908	0.680	GOLD
+only in	on tienne	0.497	0.768	0.463	GOLD
+could do	con tout	0.634	0.930	0.479	GOLD
+day or	dehors	0.743	0.809	0.434	A
+could he	con et	0.540	0.851	0.413	A
+to feel	t il	0.693	0.906	0.446	A
+to work	avec	0.502	0.863	0.554	GOLD
+be married	numérique	0.455	0.730	0.145	A
+his cousin	quelques n	0.464	0.834	0.446	A
+opened the	open de	0.585	0.731	0.817	GOLD
+was most	les poste	0.538	0.789	0.446	A
+happy to	était où	0.591	0.826	0.389	A
+appears to	efforts tout	0.560	0.810	0.459	GOLD
+and gave	in gave	0.453	0.825	0.853	GOLD
+yet it	est il	0.500	0.803	0.725	GOLD
+did it	d if	0.504	0.868	0.358	A
+was such	les taches	0.468	0.807	0.478	GOLD
+and looked	in look	0.539	0.851	0.848	GOLD
+which have	laid savent	0.501	0.883	0.567	GOLD
+will never	un ève	0.673	0.887	0.309	A
+be too	but où	0.775	0.976	0.448	A
+which will	et chouette	0.470	0.798	0.379	A
+myself and	mas aident in	0.525	0.743	0.475	GOLD
+them on	domaine	0.500	0.870	0.471	GOLD
+use of	yeux s	0.465	0.831	0.364	A
+was also	oies elles a	0.508	0.859	0.578	GOLD
+over to	aux tout	0.694	0.850	0.630	GOLD
+his long	échelonnent	0.505	0.885	0.533	GOLD
+forward to	fort tout	0.807	0.884	0.555	GOLD
+to help	teckel	0.543	0.870	0.586	GOLD
+what will	laid il	0.502	0.886	0.471	GOLD
+which led	est plaide	0.611	0.877	0.372	A
+round his	rien dix	0.510	0.758	0.333	A
+put on	tout homme	0.514	0.875	0.543	GOLD
+never had	des aides	0.494	0.820	0.199	A
+round to	rendent tout	0.781	0.777	0.422	A
+this that	d date	0.480	0.889	0.290	A
+and these	en dise	0.603	0.856	0.621	GOLD
+had before	et est or	0.451	0.644	0.235	A
+which at	et chatte	0.498	0.781	0.328	A
+place of	plus if	0.564	0.804	0.200	A
+all day	os et	0.493	0.821	0.261	A
+yes sir	est ce	0.534	0.830	0.652	GOLD
+behind him	man comme	0.468	0.789	0.488	GOLD
+on all	on or	0.526	0.799	0.689	GOLD
+the south	ressasse	0.571	0.840	0.488	GOLD
+would give	laid gave	0.574	0.911	0.566	GOLD
+you ll	rebelles	0.520	0.755	0.240	A
+our visitor	avez or	0.584	0.801	0.381	A
+which to	ouest où	0.673	0.932	0.455	GOLD
+some sort	son short	0.711	0.772	0.300	A
+corner of	con rêve	0.601	0.832	0.346	A
+the blood	semblait	0.469	0.824	0.346	A
+that night	d light	0.463	0.817	0.419	A
+story of	studio	0.500	0.789	0.355	A
+the stone	des faunes	0.483	0.806	0.555	GOLD
+in hand	on hard	0.494	0.681	0.274	A
+that while	d huile	0.454	0.828	0.309	A
+my god	madame	0.541	0.721	0.433	A
+the ice	traces	0.479	0.737	0.201	A
+his body	les bandits	0.530	0.874	0.272	A
+the coronet	reconnaissent	0.630	0.814	0.571	GOLD
+miss hunter	mais est	0.477	0.775	0.261	A
+mr rucastle	mais truquées il	0.577	0.840	0.556	GOLD
+whales and	réels hard	0.453	0.819	0.291	A
+try works	triangle	0.504	0.692	0.168	A
+in length	on let	0.459	0.760	0.293	A
+of oil	aux elle	0.509	0.791	0.315	A
+she blows	chinoise	0.619	0.797	0.154	A
+his ivory	les abris	0.596	0.763	0.174	A
+that now	d na	0.514	0.879	0.441	A
+queequeg and	critiquable	0.462	0.762	0.296	A
+chief mate	t miettes	0.505	0.814	0.397	A
+pequod was	piquant as	0.483	0.867	0.464	GOLD
+the windlass	don lace	0.482	0.756	0.258	A
+of lydia	aux lady	0.461	0.720	0.619	GOLD
+not like	d lac	0.570	0.859	0.301	A
+visit to	vies et tout	0.652	0.927	0.378	A
+not quite	d boîte	0.535	0.856	0.398	A
+who in	fouine	0.488	0.831	0.498	GOLD
+her heart	offerte	0.550	0.674	0.336	A
+nature and	nid freine	0.466	0.831	0.431	A
+at work	avec	0.513	0.870	0.517	GOLD
+connection with	con excessive	0.508	0.798	0.191	A
+if there	s air	0.580	0.791	0.359	A
+way in	viennent	0.506	0.780	0.699	GOLD
+of lady	aux lady	0.592	0.747	0.905	GOLD
+inclined to	un clin tout	0.604	0.796	0.485	GOLD
+the kind	regardes	0.467	0.770	0.550	GOLD
+the result	serais out	0.511	0.759	0.367	A
+for its	police	0.472	0.802	0.277	A
+her being	cabine	0.493	0.846	0.289	A
+no man	non n	0.603	0.769	0.683	GOLD
+given me	gays on mi	0.662	0.894	0.305	A
+the river	serve	0.517	0.705	0.261	A
+to read	bride	0.691	0.764	0.217	A
+no answer	maurice	0.451	0.715	0.361	A
+you be	rubis	0.633	0.907	0.387	A
+so but	suppose	0.470	0.774	0.674	GOLD
+the girls	secondes	0.488	0.828	0.255	A
+lady lucas	les illégal	0.571	0.821	0.232	A
+since you	son tout	0.590	0.788	0.519	GOLD
+promised to	promis tout	0.663	0.835	0.784	GOLD
+not come	d came	0.494	0.903	0.508	GOLD
+the office	d s	0.460	0.777	0.301	A
+am sorry	en série	0.592	0.730	0.374	A
+sorry to	saurait et	0.489	0.752	0.389	A
+and being	in bing	0.457	0.846	0.408	A
+him she	un si	0.511	0.714	0.607	GOLD
+in good	on guide	0.519	0.843	0.343	A
+wish you	rejoue	0.477	0.799	0.445	A
+high and	gaillarde	0.462	0.740	0.431	A
+very great	vérifié	0.506	0.733	0.383	A
+you never	on ève	0.692	0.902	0.327	A
+brother and	bras rendent	0.630	0.760	0.387	A
+his family	aux faiblit	0.519	0.797	0.430	A
+my word	malades	0.687	0.823	0.477	GOLD
+feeling of	filon if	0.638	0.874	0.209	A
+were as	venise	0.492	0.839	0.422	A
+but elizabeth	bat les baisse	0.465	0.808	0.354	A
+be but	bitter	0.594	0.793	0.377	A
+the person	jamais n	0.467	0.808	0.340	A
+let him	laid home	0.681	0.917	0.523	GOLD
+of london	aux land n	0.483	0.855	0.488	GOLD
+it when	et n	0.609	0.825	0.518	GOLD
+not say	dit ces	0.484	0.676	0.578	A
+my aunt	malades	0.531	0.741	0.420	A
+so often	second n	0.508	0.770	0.333	A
+they did	d inde	0.519	0.812	0.268	A
+very often	verront n	0.644	0.754	0.413	A
+can never	man ève	0.606	0.894	0.363	A
+my brother	nombreuses	0.462	0.665	0.396	A
+not hear	d or	0.471	0.696	0.236	A
+not wish	notice	0.496	0.829	0.366	A
+room for	on for	0.660	0.684	0.408	A
+she must	limite	0.547	0.827	0.349	A
+into an	un trône	0.483	0.691	0.505	A
+he that	hésite	0.519	0.841	0.510	GOLD
+work of	épave	0.475	0.758	0.489	GOLD
+answer to	en tout	0.652	0.796	0.682	GOLD
+from mr	frein piste	0.679	0.834	0.424	A
+with us	les as	0.504	0.887	0.641	GOLD
+going on	gorgone	0.619	0.785	0.587	GOLD
+of love	aux love	0.479	0.884	0.869	GOLD
+longed to	legs tout	0.660	0.921	0.393	A
+hours of	arrive	0.592	0.793	0.408	A
+you ever	arrive	0.454	0.773	0.498	GOLD
+waiting for	héron for	0.624	0.677	0.326	A
+may say	merci	0.518	0.801	0.556	GOLD
+up my	émail	0.470	0.843	0.445	A
+she then	chez n	0.696	0.864	0.504	GOLD
+of pleasure	aux plage	0.543	0.870	0.403	A
+then in	on n	0.600	0.759	0.605	GOLD
+however was	arrêts vise	0.555	0.787	0.501	GOLD
+and almost	en don ouest	0.528	0.804	0.511	GOLD
+done and	don in	0.460	0.674	0.496	A
+gave me	gars mi	0.641	0.885	0.678	GOLD
+on you	on nous	0.555	0.906	0.552	GOLD
+however and	arrêts rendent	0.473	0.731	0.514	GOLD
+but here	but or	0.574	0.757	0.622	GOLD
+there can	certaines	0.549	0.776	0.676	GOLD
+anxious to	en ces tout	0.564	0.793	0.363	A
+his side	s out	0.481	0.896	0.360	A
+window and	in arides	0.453	0.732	0.157	A
+have known	des nonne	0.460	0.810	0.496	GOLD
+london and	land on n	0.512	0.828	0.336	A
+not what	d hôte	0.473	0.831	0.338	A
+than any	décennies	0.645	0.904	0.415	A
+me now	mon a	0.607	0.829	0.556	GOLD
+for those	sors as	0.496	0.786	0.594	GOLD
+happiness and	afin et hard	0.464	0.736	0.443	A
+allowed to	attendent où	0.633	0.812	0.390	A
+endeavouring to	un des rhin tout	0.538	0.835	0.354	A
+never have	les ève	0.561	0.797	0.334	A
+when at	on êtes	0.498	0.793	0.494	GOLD
+that very	d série	0.547	0.756	0.540	GOLD
+of light	aux light	0.545	0.817	0.900	GOLD
+the marriage	son érige	0.466	0.743	0.471	GOLD
+to secure	t cœur	0.561	0.772	0.344	A
+as my	aux ma	0.501	0.704	0.782	GOLD
+adventure of	et vain savent	0.480	0.837	0.305	A
+these two	des tout	0.602	0.906	0.499	GOLD
+her aunt	quarante	0.515	0.702	0.263	A
+do what	durée	0.480	0.753	0.437	A
+picture of	piquent trouve	0.597	0.915	0.567	GOLD
+about this	abat six	0.557	0.847	0.452	GOLD
+men who	main un	0.504	0.772	0.474	GOLD
+you how	yoga	0.502	0.770	0.222	A
+glimpse of	grain peuvent	0.533	0.792	0.292	A
+before his	marquise	0.460	0.782	0.367	A
+the afternoon	savent lune	0.458	0.833	0.440	A
+and will	un tel	0.506	0.803	0.308	A
+even if	in if	0.492	0.804	0.715	GOLD
+for which	sandwich	0.538	0.892	0.255	A
+men in	mon n	0.737	0.838	0.451	GOLD
+mind that	man dette	0.689	0.884	0.747	GOLD
+made of	mes as	0.576	0.813	0.449	A
+where is	erreur	0.486	0.668	0.300	A
+purpose of	pompes as	0.475	0.867	0.326	A
+me when	viennent	0.581	0.801	0.614	GOLD
+thing that	son date	0.485	0.802	0.210	A
+rose and	roux halte	0.466	0.702	0.167	A
+my journey	ment génie	0.649	0.868	0.492	GOLD
+the paper	pépites	0.458	0.800	0.492	GOLD
+beside the	pays je	0.463	0.687	0.347	A
+my face	matrice	0.633	0.732	0.384	A
+on earth	on s	0.455	0.819	0.610	GOLD
+about that	abat set	0.548	0.831	0.456	GOLD
+and left	in let	0.469	0.821	0.567	GOLD
+down from	don fraude	0.553	0.741	0.331	A
+amid the	aimait le	0.496	0.874	0.336	A
+of human	avion n	0.499	0.813	0.396	A
+filled with	files ville	0.490	0.923	0.623	GOLD
+they say	lycéens	0.502	0.863	0.364	A
+within me	les ennemis	0.631	0.897	0.389	A
+whales in	réels une	0.553	0.872	0.208	A
+the try	d ras	0.502	0.734	0.439	A
+the shore	major	0.473	0.748	0.298	A
+the fishermen	d n n	0.489	0.844	0.309	A
+his tail	les tels	0.475	0.810	0.418	A
+sea as	suisse	0.530	0.921	0.243	A
+new bedford	nouveauté	0.496	0.754	0.401	A
+thus far	les faire	0.475	0.721	0.639	GOLD
+do ye	durée	0.518	0.813	0.476	GOLD
+said stubb	saint stop	0.591	0.915	0.302	A
+his hammock	islamique	0.467	0.820	0.261	A
+the lakeman	téléphone	0.476	0.790	0.204	A
+of ice	aux as	0.539	0.852	0.390	A
+the coffin	second n	0.476	0.849	0.255	A
+is much	aux matchs	0.568	0.892	0.381	A
+because it	bébés êtes	0.572	0.882	0.434	A
+perhaps the	femmes de	0.471	0.681	0.508	A
+not of	native	0.637	0.923	0.393	A
+necessary to	s rient où	0.690	0.867	0.382	A
+of jane	as jeune	0.486	0.864	0.357	A
+ever been	estime	0.460	0.811	0.528	GOLD
+off his	office	0.648	0.862	0.263	A
+to express	express	0.675	0.884	0.830	GOLD
+when mr	on must	0.509	0.871	0.405	A
+be called	vicomte	0.517	0.854	0.385	A
+give way	gueux les	0.454	0.824	0.532	GOLD
+or more	on or	0.594	0.719	0.598	GOLD
+affection and	et excellence	0.461	0.783	0.291	A
+and like	un lac	0.593	0.823	0.309	A
+with whom	les hommes	0.481	0.776	0.537	GOLD
+pleasure to	plus tout	0.722	0.837	0.522	GOLD
+she spoke	chez banque	0.560	0.775	0.318	A
+never to	des tout	0.563	0.843	0.367	A
+not an	d une	0.456	0.802	0.487	GOLD
+perhaps you	pipes go	0.471	0.834	0.131	A
+down on	don n	0.607	0.837	0.365	A
+thing for	son for	0.669	0.740	0.491	GOLD
+best of	baissent as	0.741	0.957	0.553	GOLD
+be for	but or	0.705	0.842	0.486	GOLD
+mind was	man rose	0.623	0.855	0.368	A
+knew not	non a	0.524	0.744	0.669	GOLD
+not tell	d tels	0.658	0.918	0.370	A
+he left	pilote	0.538	0.831	0.307	A
+door was	dérange	0.485	0.739	0.458	GOLD
+not all	d elle	0.480	0.857	0.439	A
+to accept	turcs êtes	0.529	0.826	0.282	A
+ten minutes	tain main s	0.586	0.873	0.402	A
+to london	selon de	0.561	0.737	0.402	A
+man the	main de	0.634	0.750	0.612	GOLD
+talked of	tombent as	0.485	0.896	0.678	GOLD
+to sit	t s	0.498	0.853	0.381	A
+with so	ouais se	0.483	0.733	0.711	GOLD
+own and	on hard	0.514	0.682	0.323	A
+off and	office	0.567	0.858	0.309	A
+the village	devinette	0.466	0.843	0.542	GOLD
+so he	série	0.603	0.805	0.520	GOLD
+say the	ces a	0.623	0.830	0.687	GOLD
+and me	ils mis	0.585	0.890	0.461	GOLD
+ill of	élèves	0.551	0.903	0.363	A
+sure of	preuve	0.475	0.682	0.643	A
+whom the	on ne	0.475	0.589	0.439	B
+thought the	dont je	0.496	0.693	0.494	A
+put it	poste	0.620	0.852	0.706	GOLD
+him his	chemise	0.508	0.833	0.466	GOLD
+many hours	main rose	0.568	0.754	0.164	A
+imagine that	met chaînes êtes	0.470	0.862	0.479	GOLD
+make me	marquis	0.527	0.799	0.248	A
+light and	land hard	0.559	0.828	0.188	A
+does it	des hautes	0.579	0.809	0.411	A
+intention of	est un genève	0.547	0.845	0.457	GOLD
+allow me	élan et	0.452	0.827	0.534	GOLD
+nor did	nord s	0.660	0.840	0.229	A
+you he	youpi	0.726	0.820	0.666	GOLD
+their eyes	terrasse	0.606	0.746	0.315	A
+morning to	man un tout	0.614	0.846	0.418	A
+seeing him	sien if	0.480	0.787	0.344	A
+with many	les mini	0.540	0.885	0.471	GOLD
+than once	chinoise	0.476	0.851	0.287	A
+of making	aux viking	0.503	0.705	0.327	A
+if your	est or	0.509	0.680	0.295	A
+bed and	but hard	0.544	0.844	0.324	A
+she found	chient halte	0.557	0.837	0.295	A
+pleasure in	plaies in	0.598	0.700	0.556	GOLD
+that can	d cane	0.509	0.933	0.277	A
+by what	balade	0.610	0.826	0.524	GOLD
+am very	en série	0.573	0.705	0.527	GOLD
+to quit	secret	0.474	0.729	0.229	A
+on in	on n	0.596	0.866	0.664	GOLD
+the sake	d hic	0.494	0.845	0.593	GOLD
+sake of	séquence	0.582	0.816	0.283	A
+that might	d man	0.484	0.861	0.491	GOLD
+can do	con tout	0.622	0.890	0.539	GOLD
+but then	but gêne	0.655	0.928	0.547	GOLD
+the circumstance	d aucun stand	0.456	0.819	0.410	A
+expected to	s box tout	0.532	0.817	0.285	A
+your mother	normal	0.457	0.806	0.200	A
+your uncle	iran quel	0.506	0.767	0.480	GOLD
+never seen	nées fine	0.685	0.928	0.315	A
+him not	n êtes	0.458	0.858	0.647	GOLD
+not even	d hiver	0.462	0.813	0.352	A
+to stay	tout et	0.586	0.824	0.363	A
+to persuade	types laide	0.554	0.840	0.249	A
+an idea	on adieu	0.481	0.775	0.438	A
+this letter	les leurs	0.480	0.748	0.486	GOLD
+the means	remise	0.635	0.871	0.568	GOLD
+not seem	d cime	0.658	0.918	0.392	A
+is well	aux elle	0.601	0.842	0.582	GOLD
+on each	on if	0.503	0.875	0.541	GOLD
+do in	duel	0.526	0.916	0.281	A
+not take	d sec	0.470	0.815	0.392	A
+her of	arrive	0.531	0.784	0.476	GOLD
+reached the	restent de	0.559	0.648	0.418	A
+because the	bébés de	0.542	0.728	0.481	GOLD
+street and	trait hard	0.532	0.713	0.190	A
+made to	mes tout	0.796	0.865	0.483	GOLD
+oh no	on ores	0.516	0.740	0.449	A
+reason for	rien for	0.778	0.742	0.427	A
+were so	vaisseau	0.551	0.869	0.319	A
+hands of	in savent	0.457	0.759	0.525	GOLD
+left to	laid tout	0.751	0.941	0.644	GOLD
+if that	et cette	0.454	0.723	0.565	GOLD
+of yours	affreuse	0.477	0.766	0.446	A
+them from	don femme	0.477	0.844	0.547	GOLD
+before us	et horace	0.538	0.671	0.499	A
+and whose	en dise	0.531	0.784	0.581	GOLD
+nothing else	dauphin elle	0.487	0.861	0.400	A
+the match	demandent	0.465	0.858	0.440	A
+period of	pierrot as	0.459	0.722	0.321	A
+quitted the	corps de	0.621	0.620	0.279	A
+to set	tous êtes	0.786	0.929	0.217	A
+have just	as geste	0.551	0.912	0.458	GOLD
+be made	limite	0.488	0.825	0.384	A
+brought to	brut où	0.740	0.781	0.491	GOLD
+back again	bagatelle	0.463	0.813	0.262	A
+it cannot	et quarante	0.474	0.767	0.271	A
+to throw	t deux	0.469	0.816	0.397	A
+you tell	est elle	0.680	0.910	0.557	GOLD
+through it	suite	0.502	0.865	0.373	A
+day after	direct	0.518	0.703	0.193	A
+passed in	pas donne	0.576	0.834	0.474	GOLD
+fear and	farine	0.486	0.748	0.213	A
+try to	travaux	0.641	0.671	0.471	A
+can only	canon le	0.521	0.819	0.379	A
+or at	honnête	0.611	0.839	0.484	GOLD
+here are	erreur	0.513	0.657	0.340	A
+anything of	on est neuve	0.525	0.788	0.310	A
+that these	d vise	0.561	0.892	0.509	GOLD
+so little	solidaire	0.544	0.774	0.321	A
+my fellow	mat aileron	0.611	0.798	0.642	GOLD
+the wedding	jouait n	0.480	0.848	0.235	A
+there to	gèrent où	0.810	0.850	0.618	GOLD
+out that	as as	0.486	0.827	0.492	GOLD
+know where	navire	0.588	0.719	0.293	A
+lost in	lord in	0.523	0.690	0.357	A
+the park	remarque	0.559	0.750	0.460	GOLD
+which my	laid mailles	0.460	0.888	0.431	A
+the steps	des têtes	0.468	0.853	0.422	A
+was some	les femmes	0.483	0.858	0.428	A
+down with	don ville	0.487	0.802	0.469	GOLD
+voice of	vous if	0.494	0.792	0.260	A
+with these	les vise	0.529	0.845	0.595	GOLD
+of air	hiver	0.770	0.789	0.389	A
+hand to	un tout	0.611	0.716	0.460	GOLD
+we went	ouverte	0.463	0.778	0.305	A
+then said	son cède	0.681	0.849	0.630	GOLD
+last and	les femmes	0.465	0.827	0.348	A
+that on	d une	0.474	0.848	0.568	GOLD
+of great	aux grotte	0.532	0.678	0.397	A
+aspect of	et piquent as	0.483	0.846	0.435	A
+turned out	son date	0.613	0.803	0.273	A
+sitting room	terrain rome	0.497	0.725	0.178	A
+the original	dirais sain elle	0.479	0.773	0.234	A
+the woods	pelouse	0.476	0.825	0.566	GOLD
+you look	unique	0.475	0.798	0.394	A
+you go	logo	0.479	0.831	0.670	GOLD
+he called	accorde	0.574	0.808	0.347	A
+and went	n ouest	0.614	0.896	0.495	GOLD
+that what	d hôte	0.488	0.858	0.419	A
+your majesty	hermès dit	0.517	0.825	0.593	GOLD
+over my	ores ma	0.555	0.714	0.643	GOLD
+towards me	dehors mi	0.606	0.868	0.678	GOLD
+found myself	fan pas elfes	0.675	0.863	0.221	A
+out into	afin de	0.518	0.694	0.603	A
+some few	son vous	0.585	0.799	0.446	A
+the key	requis	0.726	0.920	0.491	GOLD
+the left	relève	0.566	0.892	0.496	GOLD
+man was	main as	0.516	0.844	0.341	A
+him who	un coup	0.499	0.760	0.536	GOLD
+hosmer angel	aux brides gel	0.505	0.762	0.428	A
+up into	afin tout	0.452	0.850	0.533	GOLD
+one which	on ouest	0.458	0.820	0.446	A
+of god	aux guide	0.452	0.852	0.400	A
+the american	américaine	0.481	0.798	0.929	GOLD
+the act	pacte	0.590	0.813	0.391	A
+days and	des est	0.557	0.799	0.532	GOLD
+night the	tant de	0.482	0.663	0.438	A
+the iron	vienne	0.464	0.729	0.414	A
+of heaven	avez une	0.479	0.807	0.421	A
+fast fish	set fiche	0.567	0.906	0.293	A
+and death	n dette	0.583	0.931	0.483	GOLD
+boats and	but sarde	0.608	0.832	0.281	A
+to windward	terrain tout	0.471	0.701	0.421	A
+will ye	allié	0.498	0.872	0.558	GOLD
+spirit of	sport as	0.532	0.750	0.254	A
+and stubb	in stop	0.454	0.801	0.503	GOLD
+cried starbuck	grand statique	0.516	0.742	0.243	A
+boats were	but soin	0.650	0.872	0.271	A
+right and	rat en est	0.530	0.704	0.490	GOLD
+sense and	set in	0.496	0.677	0.361	A
+the book	debout	0.472	0.852	0.486	GOLD
+than one	son watts	0.462	0.849	0.222	A
+with those	les choses	0.451	0.789	0.636	GOLD
+while she	litchi	0.551	0.793	0.366	A
+in two	en tout	0.655	0.878	0.517	GOLD
+one was	on vases	0.517	0.774	0.463	GOLD
+the late	relate	0.571	0.822	0.408	A
+the half	joseph	0.477	0.756	0.391	A
+man is	main il	0.521	0.838	0.519	GOLD
+for mr	formule	0.683	0.782	0.447	A
+difficult to	d collent tout	0.635	0.872	0.385	A
+said of	saint as	0.514	0.870	0.417	A
+even more	afin pour	0.482	0.735	0.635	GOLD
+young men	on mène	0.690	0.820	0.281	A
+which his	laid chose	0.501	0.873	0.544	GOLD
+came down	crimes are	0.468	0.770	0.284	A
+see me	soumis	0.755	0.909	0.586	GOLD
+you want	ouverte	0.473	0.748	0.514	GOLD
+for as	force	0.676	0.737	0.292	A
+pretend to	prêt n tout	0.731	0.870	0.427	A
+advantage of	et vain d chauve	0.476	0.848	0.420	A
+their father	servant	0.498	0.785	0.277	A
+is such	s h	0.499	0.891	0.484	GOLD
+have nothing	avenant n	0.482	0.826	0.436	A
+for they	former	0.665	0.716	0.464	GOLD
+soon afterwards	son épouse	0.514	0.791	0.223	A
+in law	un le	0.455	0.871	0.445	A
+darcy had	dans équipe	0.451	0.786	0.267	A
+to stand	t dan	0.487	0.913	0.517	GOLD
+and turning	in on n	0.468	0.776	0.513	GOLD
+am in	on n	0.500	0.846	0.522	GOLD
+she looked	pilote	0.519	0.845	0.177	A
+equal to	égalent a	0.476	0.847	0.572	GOLD
+herself she	insert j	0.530	0.851	0.236	A
+were very	les édit	0.474	0.827	0.668	GOLD
+for half	tarifs	0.496	0.806	0.358	A
+spoke of	sportive	0.594	0.787	0.436	A
+in meryton	n aurait n	0.460	0.776	0.261	A
+said miss	saint baisse	0.604	0.905	0.418	A
+what we	et oui	0.621	0.779	0.421	A
+continued to	con deniers tout	0.671	0.883	0.382	A
+her from	et rome	0.487	0.754	0.451	GOLD
+this to	dit tout	0.615	0.940	0.621	GOLD
+is impossible	son pas pale	0.466	0.813	0.422	A
+that every	d ouvrit	0.608	0.799	0.345	A
+one morning	in holding	0.470	0.605	0.278	A
+an object	on abject	0.660	0.906	0.479	GOLD
+interest in	un très n	0.630	0.781	0.390	A
+his friends	des freine	0.577	0.755	0.302	A
+any more	un homère	0.507	0.714	0.568	GOLD
+is about	aux abattent	0.581	0.870	0.534	GOLD
+just now	jet na	0.486	0.851	0.432	A
+as one	aux n	0.473	0.804	0.546	GOLD
+something to	son pain tout	0.611	0.836	0.476	GOLD
+the rain	lorraine	0.507	0.698	0.369	A
+read the	dit de	0.586	0.781	0.649	GOLD
+pursuit of	tout if	0.494	0.866	0.473	GOLD
+by reason	bandits n	0.548	0.801	0.249	A
+was almost	les n ouest	0.460	0.779	0.442	A
+by them	pas homme	0.517	0.815	0.498	GOLD
+had in	et n	0.527	0.857	0.553	GOLD
+whole party	hostellerie	0.493	0.666	0.237	A
+been very	bain verra	0.666	0.781	0.531	GOLD
+you it	couette	0.486	0.842	0.475	GOLD
+prevailed on	prêts ils n	0.586	0.781	0.771	GOLD
+words of	on savent	0.506	0.768	0.637	GOLD
+is too	aux tout	0.608	0.891	0.505	GOLD
+this moment	dit mon halte	0.461	0.792	0.675	GOLD
+any man	on hymen	0.736	0.891	0.403	A
+had received	cadres if	0.491	0.893	0.113	A
+much like	met plaque	0.606	0.897	0.290	A
+and did	n dit	0.492	0.884	0.519	GOLD
+never been	nos peines	0.533	0.840	0.322	A
+couple of	catalans	0.452	0.844	0.421	A
+him before	aimait or	0.474	0.700	0.352	A
+no less	notice	0.661	0.802	0.389	A
+with every	les offrit	0.551	0.786	0.487	GOLD
+opened and	open in	0.526	0.800	0.808	GOLD
+herself to	et est où	0.514	0.739	0.320	A
+himself he	on servi	0.535	0.791	0.538	GOLD
+no sign	nos arme	0.563	0.774	0.116	A
+her on	baronne	0.655	0.814	0.500	GOLD
+took place	lectrice	0.450	0.732	0.460	GOLD
+had lost	et poste	0.615	0.821	0.388	A
+dear sir	dit à	0.490	0.847	0.699	GOLD
+be my	bain a	0.535	0.802	0.491	GOLD
+myself with	mas aident vise	0.586	0.891	0.465	GOLD
+the society	des est henri	0.521	0.703	0.473	GOLD
+find out	femmes out	0.620	0.922	0.444	A
+around him	rien dîme	0.580	0.749	0.299	A
+very long	vérité	0.502	0.719	0.345	A
+memory of	mon rives	0.615	0.716	0.478	GOLD
+been my	bain me	0.548	0.709	0.662	GOLD
+had it	et êtes	0.527	0.751	0.483	GOLD
+feelings and	physiques in	0.472	0.674	0.326	A
+of wickham	aux item	0.451	0.754	0.451	GOLD
+take place	lectrice	0.454	0.689	0.494	A
+for not	forte	0.717	0.714	0.411	A
+on such	on patch	0.599	0.813	0.391	A
+signs of	son savent	0.665	0.793	0.468	GOLD
+him again	on éden	0.531	0.794	0.545	GOLD
+collins and	calmes en est	0.467	0.831	0.498	GOLD
+for so	fort à	0.693	0.792	0.679	GOLD
+that day	d d	0.521	0.879	0.383	A
+three of	drive	0.464	0.669	0.211	A
+would take	vous sec	0.487	0.799	0.435	A
+fail to	veulent où	0.695	0.881	0.246	A
+the adventure	d verge	0.458	0.808	0.470	GOLD
+had now	et narre	0.496	0.772	0.546	GOLD
+during my	terrain ma	0.498	0.645	0.379	A
+many months	mon immense	0.645	0.838	0.349	A
+again the	rien de	0.471	0.672	0.473	A
+the gentle	d gênent il	0.643	0.931	0.558	GOLD
+or whether	horloge	0.599	0.802	0.152	A
+no wonder	novembre	0.554	0.751	0.352	A
+ashamed of	échappent ève	0.497	0.844	0.385	A
+the gloom	diplôme	0.452	0.862	0.228	A
+us we	et oui	0.666	0.847	0.433	A
+was for	lots for	0.668	0.854	0.509	GOLD
+would seem	vous aime	0.492	0.862	0.524	GOLD
+returning to	et n tout	0.519	0.829	0.405	A
+his very	les verrez	0.530	0.738	0.438	A
+where we	lundi	0.480	0.813	0.323	A
+still in	staline	0.666	0.901	0.321	A
+which could	laid code	0.469	0.934	0.215	A
+up at	attente	0.511	0.840	0.482	GOLD
+out at	attente	0.645	0.845	0.515	GOLD
+of new	n où	0.597	0.951	0.520	GOLD
+calm and	candide	0.549	0.815	0.463	GOLD
+the people	capital	0.515	0.842	0.393	A
+love of	les hommes	0.478	0.826	0.470	GOLD
+be with	billets	0.570	0.792	0.366	A
+on me	on mi	0.722	0.859	0.671	GOLD
+hands in	in zone	0.501	0.739	0.265	A
+are they	ares et	0.463	0.801	0.537	GOLD
+came back	con mec	0.549	0.820	0.433	A
+eye of	arrive	0.616	0.772	0.392	A
+was standing	ouest in in	0.501	0.843	0.504	GOLD
+ceased to	sept ou	0.675	0.755	0.248	A
+the direction	d recteur	0.492	0.752	0.374	A
+are now	n a	0.494	0.851	0.466	GOLD
+upon their	pan chair	0.589	0.782	0.131	A
+by night	bien as	0.556	0.820	0.442	A
+set down	set out	0.640	0.926	0.703	GOLD
+you then	vous n	0.546	0.828	0.750	GOLD
+his pocket	des pacte	0.479	0.827	0.219	A
+be some	but home	0.599	0.913	0.297	A
+they seemed	d hymne	0.504	0.847	0.302	A
+the past	déteste	0.559	0.848	0.393	A
+he stood	et cède	0.523	0.839	0.400	A
+how did	candide	0.513	0.845	0.531	GOLD
+he held	nickel	0.477	0.838	0.135	A
+away at	alerte	0.455	0.719	0.410	A
+the presence	après s	0.566	0.757	0.625	GOLD
+for example	forêts en pale	0.562	0.815	0.319	A
+until he	on délit	0.520	0.848	0.429	A
+of fire	aux far	0.468	0.790	0.513	GOLD
+instant the	un stand de	0.562	0.698	0.472	A
+centre of	set rêve	0.717	0.877	0.243	A
+far more	former	0.563	0.771	0.373	A
+his pipe	des pape	0.559	0.821	0.552	GOLD
+series of	séries as	0.632	0.800	0.858	GOLD
+what seemed	as hymne	0.570	0.914	0.363	A
+day the	des a	0.623	0.830	0.380	A
+to death	t elle	0.482	0.839	0.444	A
+neville st	mais ils êtes	0.470	0.857	0.214	A
+my beloved	matelas et	0.503	0.817	0.461	GOLD
+heads of	aides as	0.599	0.886	0.512	GOLD
+arrived at	ras rate	0.622	0.736	0.198	A
+loose fish	tous fiche	0.666	0.905	0.190	A
+of sperm	as pomme	0.571	0.954	0.280	A
+cape horn	cloportes	0.517	0.715	0.469	GOLD
+still further	stellaire	0.534	0.825	0.272	A
+sea but	suppose	0.492	0.847	0.340	A
+lower jaw	laid je	0.606	0.749	0.343	A
+ahab was	établir	0.466	0.774	0.443	A
+and ahab	on dérive	0.469	0.755	0.558	GOLD
+dough boy	débris	0.472	0.721	0.279	A
+greenland whale	grain let il	0.580	0.738	0.043	A
+to love	relève	0.580	0.890	0.456	GOLD
+book and	baguette	0.452	0.829	0.400	A
+go for	d or	0.534	0.726	0.385	A
+here to	eurent où	0.725	0.702	0.695	GOLD
+made it	mes s	0.593	0.818	0.508	GOLD
+superior to	soupirait et	0.655	0.817	0.509	GOLD
+the days	d elle	0.459	0.869	0.436	A
+jane to	viennent où	0.613	0.835	0.665	GOLD
+there but	servant	0.483	0.738	0.317	A
+catherine de	patron de	0.543	0.636	0.529	A
+of view	aux vous	0.470	0.823	0.411	A
+the mouth	chômage	0.482	0.825	0.102	A
+talking to	aucun tout	0.584	0.847	0.235	A
+not give	d gave	0.464	0.857	0.568	GOLD
+which mr	et sieste	0.501	0.766	0.439	A
+by far	but are	0.563	0.766	0.368	A
+best and	baissent en est	0.673	0.845	0.404	A
+the girl	secondes	0.488	0.844	0.285	A
+regard to	gardent et	0.564	0.834	0.571	GOLD
+like it	label	0.556	0.786	0.301	A
+to assure	toujours	0.594	0.735	0.606	GOLD
+the breakfast	devrait êtes	0.504	0.774	0.290	A
+mrs long	mais aux longue	0.464	0.865	0.657	GOLD
+it mr	et piste	0.568	0.848	0.587	GOLD
+must know	mat nos	0.676	0.756	0.689	GOLD
+he comes	chicane	0.461	0.847	0.307	A
+see no	sinon	0.743	0.854	0.550	GOLD
+are as	assises	0.474	0.803	0.578	GOLD
+her daughters	on horde	0.524	0.698	0.233	A
+am glad	on glass	0.473	0.836	0.197	A
+hear that	ils êtes	0.479	0.793	0.552	GOLD
+can tell	con tels	0.768	0.928	0.612	GOLD
+my love	madame	0.559	0.749	0.463	GOLD
+description of	krypton as	0.459	0.762	0.236	A
+after his	et douze	0.467	0.750	0.383	A
+his two	les tout	0.549	0.871	0.485	GOLD
+five minutes	failles main s	0.586	0.869	0.391	A
+sit down	set out	0.499	0.913	0.335	A
+was and	les aides	0.485	0.820	0.467	GOLD
+he walked	collecte	0.537	0.847	0.206	A
+is also	idoles au	0.454	0.762	0.344	A
+seeing that	cygnes as	0.541	0.869	0.227	A
+leave to	les tout	0.676	0.871	0.413	A
+dear lizzy	droits et	0.491	0.773	0.300	A
+of others	aux aise	0.470	0.818	0.632	GOLD
+them they	thèmes a	0.494	0.852	0.362	A
+pleased with	plus vite	0.521	0.819	0.454	GOLD
+young woman	on romaine	0.462	0.757	0.312	A
+head to	et tout	0.640	0.806	0.433	A
+as mr	aux piste	0.550	0.842	0.495	GOLD
+mother was	mais as	0.497	0.863	0.401	A
+first and	fait hard	0.544	0.830	0.362	A
+then be	vain vie	0.525	0.847	0.599	GOLD
+do but	double	0.661	0.856	0.225	A
+to conceal	secondes il	0.557	0.903	0.353	A
+there will	service	0.477	0.787	0.291	A
+not as	notice	0.518	0.884	0.306	A
+the eyes	dièse	0.487	0.741	0.193	A
+was perfectly	les fait inclus	0.454	0.841	0.346	A
+what does	et douze	0.488	0.820	0.357	A
+sir and	salade	0.539	0.824	0.167	A
+to pay	taper	0.653	0.874	0.368	A
+not long	nid legs	0.474	0.874	0.444	A
+that our	détails	0.515	0.833	0.478	GOLD
+and tell	un tel	0.689	0.888	0.375	A
+danger of	d grave	0.570	0.855	0.489	GOLD
+have got	des gâte	0.468	0.881	0.390	A
+matter with	marquise	0.474	0.761	0.305	A
+of little	australe	0.459	0.644	0.485	A
+be taken	but étonne	0.615	0.854	0.451	GOLD
+thing in	son n	0.504	0.799	0.601	GOLD
+day in	divine	0.561	0.803	0.370	A
+nothing at	d un hâte	0.459	0.809	0.293	A
+the occasion	secrets n	0.510	0.769	0.323	A
+get the	dit je	0.458	0.638	0.614	A
+that miss	d baisse	0.489	0.900	0.476	GOLD
+retired to	et hais tout	0.546	0.808	0.016	A
+by mr	baptiste	0.704	0.781	0.445	A
+yes and	et hard	0.470	0.706	0.583	GOLD
+came into	commun de	0.501	0.692	0.517	A
+to walk	avec	0.490	0.842	0.495	GOLD
+have an	usine	0.478	0.746	0.642	GOLD
+entering the	en train de	0.567	0.598	0.530	B
+upon your	opinion	0.477	0.847	0.426	A
+possibility of	pas building	0.509	0.854	0.284	A
+very ill	venise	0.475	0.766	0.236	A
+off in	est une	0.494	0.829	0.434	A
+his manner	des man	0.485	0.865	0.685	GOLD
+quite as	toit as	0.479	0.872	0.581	GOLD
+be true	but roue	0.813	0.850	0.364	A
+his affection	aux et excède	0.462	0.812	0.333	A
+not appear	d être	0.460	0.711	0.241	A
+of either	invite	0.511	0.869	0.363	A
+together in	seconds in	0.464	0.683	0.353	A
+taking the	pékin de	0.505	0.723	0.621	GOLD
+was already	les offrait et	0.526	0.799	0.474	GOLD
+powers of	pas as	0.600	0.828	0.426	A
+was full	les full	0.475	0.821	0.743	GOLD
+to sleep	taux type	0.643	0.898	0.199	A
+to spend	tous peine	0.706	0.916	0.445	A
+house of	massive	0.482	0.782	0.350	A
+one time	veulent âme	0.574	0.870	0.294	A
+good enough	goût un if	0.557	0.873	0.496	GOLD
+to explain	mecs plaine	0.583	0.829	0.567	GOLD
+not and	nature	0.461	0.815	0.316	A
+and since	in six	0.498	0.781	0.382	A
+for having	forêts un	0.491	0.780	0.539	GOLD
+on these	en dise	0.616	0.840	0.544	GOLD
+he says	et onze	0.507	0.756	0.414	A
+mean to	mon tout	0.725	0.809	0.500	GOLD
+here he	chérie	0.502	0.740	0.524	GOLD
+not more	d maures	0.658	0.827	0.450	A
+on every	on ouvrit	0.655	0.775	0.336	A
+however the	arrêts de	0.454	0.608	0.576	A
+but little	but lord	0.518	0.789	0.386	A
+belonged to	blocs tout	0.781	0.941	0.283	A
+him up	on hep	0.508	0.782	0.580	GOLD
+very soon	ferez une	0.520	0.829	0.484	GOLD
+effect of	et active	0.534	0.815	0.531	GOLD
+unknown to	n en tout	0.562	0.824	0.621	GOLD
+its being	s bine	0.581	0.899	0.567	GOLD
+he but	écoute	0.493	0.793	0.470	GOLD
+there seemed	terrible	0.475	0.791	0.309	A
+he added	gardes	0.462	0.722	0.428	A
+my spirits	pas fritz	0.533	0.683	0.371	A
+have now	avenir	0.491	0.737	0.563	GOLD
+than ever	genève	0.711	0.934	0.553	GOLD
+fellow creatures	célébrité	0.476	0.769	0.321	A
+you if	juif	0.491	0.885	0.476	GOLD
+man he	main qui	0.622	0.848	0.701	GOLD
+between his	et ligneuses	0.503	0.747	0.517	GOLD
+be all	viol	0.645	0.890	0.510	GOLD
+aware that	envers a	0.473	0.774	0.416	A
+doubt of	d if	0.490	0.839	0.442	A
+but let	but let	0.534	0.697	1.000	A
+or not	en hâte	0.509	0.793	0.437	A
+voice and	vous hard	0.536	0.716	0.445	A
+the circumstances	d aucun stand	0.453	0.811	0.362	A
+could never	con ève	0.709	0.889	0.344	A
+was she	les j	0.503	0.883	0.417	A
+voice was	vous vases	0.559	0.798	0.442	A
+it of	grave	0.496	0.746	0.386	A
+distance of	dit on savent	0.561	0.867	0.189	A
+feelings which	physiques ouest	0.554	0.872	0.292	A
+him now	un are	0.493	0.711	0.423	A
+ere long	hermine	0.539	0.701	0.392	A
+my family	met aboli	0.568	0.843	0.504	GOLD
+and may	in mes	0.462	0.836	0.477	GOLD
+you what	relate	0.462	0.846	0.502	GOLD
+not by	d bah	0.496	0.845	0.311	A
+sheet of	chient as	0.594	0.889	0.372	A
+to these	taux use	0.599	0.915	0.332	A
+the winter	sellette	0.465	0.820	0.457	GOLD
+to hope	découpe	0.482	0.767	0.253	A
+health and	kelvin	0.464	0.773	0.288	A
+back the	banques a	0.507	0.918	0.258	A
+the woman	deviennent	0.457	0.740	0.399	A
+sir but	sympa	0.509	0.830	0.617	GOLD
+he knows	héloïse	0.489	0.827	0.367	A
+wanted to	est tout	0.536	0.733	0.502	GOLD
+to encounter	son carte	0.532	0.737	0.500	GOLD
+were always	corollaire	0.495	0.758	0.288	A
+not see	d si	0.594	0.900	0.399	A
+have told	savent autre	0.531	0.835	0.572	GOLD
+then we	un oui	0.623	0.762	0.575	GOLD
+so we	série	0.585	0.754	0.559	GOLD
+had long	et lobe	0.473	0.801	0.457	GOLD
+there you	sérieux	0.502	0.766	0.522	GOLD
+as was	aux vases	0.481	0.857	0.475	GOLD
+quantity of	con trouve	0.591	0.748	0.457	GOLD
+to become	symptômes	0.459	0.769	0.187	A
+the beginning	toboggan in	0.454	0.682	0.319	A
+this place	les places	0.617	0.811	0.828	GOLD
+man had	madame	0.483	0.806	0.337	A
+he put	écoute	0.509	0.823	0.364	A
+himself with	on solfège	0.468	0.832	0.403	A
+came on	carbone	0.639	0.835	0.169	A
+be that	bitter	0.600	0.792	0.338	A
+yes he	et qui	0.488	0.733	0.581	GOLD
+to carry	secret	0.468	0.692	0.316	A
+belonging to	plan on tout	0.550	0.807	0.407	A
+while in	latine	0.499	0.811	0.335	A
+place where	plus verre	0.686	0.740	0.188	A
+even so	hivers au	0.574	0.732	0.358	A
+especially as	et bacheliers	0.510	0.813	0.571	GOLD
+circumstance that	secondes en stade	0.500	0.832	0.340	A
+ask you	et coup	0.522	0.824	0.463	GOLD
+you don	yeux are	0.470	0.819	0.189	A
+and why	en loua	0.533	0.824	0.537	GOLD
+me how	milan	0.578	0.728	0.508	GOLD
+man but	main but	0.594	0.860	0.490	GOLD
+if any	et henni	0.693	0.907	0.413	A
+moment the	moment de	0.622	0.725	0.865	GOLD
+the noble	son hôtel	0.537	0.822	0.355	A
+some small	sommes vol	0.625	0.910	0.324	A
+we found	vit hard	0.468	0.779	0.500	GOLD
+ll be	interdits	0.472	0.797	0.494	GOLD
+that and	d inde	0.505	0.831	0.540	GOLD
+body and	but yen	0.453	0.817	0.182	A
+said my	sait pas	0.593	0.850	0.599	GOLD
+any way	on hiver	0.481	0.773	0.496	GOLD
+do to	tout est	0.611	0.833	0.599	GOLD
+him then	ils n	0.548	0.830	0.532	GOLD
+or if	honnête	0.494	0.819	0.448	A
+the heavy	poésies	0.479	0.778	0.346	A
+the coroner	reconnais	0.576	0.814	0.328	A

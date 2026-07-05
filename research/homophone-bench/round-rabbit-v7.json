@@ -1,0 +1,2156 @@
+{
+  "parameters": {
+    "seed": "",
+    "missing_seed_words": [],
+    "max_hops": 4,
+    "components": 16,
+    "per_component": 5,
+    "min_component_weight": 0.5,
+    "selected_components": 16,
+    "rows": 46
+  },
+  "rows": [
+    {
+      "component_id": "en:air",
+      "semantic_strings": [
+        "en:air",
+        "fr:air",
+        "fr:airs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:air",
+      "path": [
+        "fr:air"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 13,
+      "attachments": [
+        {
+          "en": "air",
+          "fr": "air",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "error",
+          "fr": "air",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "heir",
+          "fr": "air",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "hair",
+          "fr": "air",
+          "score": 0.766,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "hare",
+          "fr": "air",
+          "score": 0.766,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "wear",
+          "fr": "air",
+          "score": 0.761,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "where",
+          "fr": "air",
+          "score": 0.761,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "aired",
+          "fr": "air",
+          "score": 0.757,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "rare",
+          "fr": "air",
+          "score": 0.753,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "their",
+          "fr": "air",
+          "score": 0.737,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "there",
+          "fr": "air",
+          "score": 0.737,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "elsewhere",
+          "fr": "s air",
+          "score": 0.703,
+          "tier": "B",
+          "kind": "multi",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9675
+    },
+    {
+      "component_id": "en:acoustic",
+      "semantic_strings": [
+        "en:acoustic",
+        "fr:acoustique"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:acoustic",
+      "path": [
+        "en:acoustic"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "acoustic",
+          "fr": "égouts tic",
+          "score": 0.952,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "acoustic",
+          "fr": "acoustique",
+          "score": 0.724,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.952,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9603
+    },
+    {
+      "component_id": "en:addresses",
+      "semantic_strings": [
+        "en:address",
+        "en:addresses",
+        "fr:adresse",
+        "fr:adresses"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:addresses",
+      "path": [
+        "en:addresses"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "addresses",
+          "fr": "adrets aise",
+          "score": 0.945,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.945,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9592
+    },
+    {
+      "component_id": "en:act",
+      "semantic_strings": [
+        "en:act",
+        "fr:actes"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:actes",
+      "path": [
+        "fr:actes"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 19,
+      "attachments": [
+        {
+          "en": "activist",
+          "fr": "actes est",
+          "score": 0.918,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "oct",
+          "fr": "actes",
+          "score": 0.74,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "act",
+          "fr": "actes",
+          "score": 0.73,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "doctor",
+          "fr": "actes",
+          "score": 0.693,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "dr",
+          "fr": "actes",
+          "score": 0.693,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "racked",
+          "fr": "actes",
+          "score": 0.683,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "rucked",
+          "fr": "actes",
+          "score": 0.683,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "wracked",
+          "fr": "actes",
+          "score": 0.683,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "fucked",
+          "fr": "actes",
+          "score": 0.676,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "worked",
+          "fr": "actes",
+          "score": 0.674,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "shocked",
+          "fr": "actes",
+          "score": 0.662,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "addict",
+          "fr": "actes",
+          "score": 0.659,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.918,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9552
+    },
+    {
+      "component_id": "en:activist",
+      "semantic_strings": [
+        "en:activist",
+        "fr:activistes"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:activist",
+      "path": [
+        "en:activist"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "activist",
+          "fr": "actes est",
+          "score": 0.918,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.918,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9552
+    },
+    {
+      "component_id": "en:antique",
+      "semantic_strings": [
+        "en:antique",
+        "fr:antiques",
+        "fr:en tic"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:antique",
+      "path": [
+        "en:antique"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "antique",
+          "fr": "en tic",
+          "score": 0.758,
+          "tier": "B",
+          "kind": "multi",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "antique",
+          "fr": "antiques",
+          "score": 0.755,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.758,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9312
+    },
+    {
+      "component_id": "en:antique",
+      "semantic_strings": [
+        "en:antique",
+        "fr:antiques",
+        "fr:en tic"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:en tic",
+      "path": [
+        "fr:en tic"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "antique",
+          "fr": "en tic",
+          "score": 0.758,
+          "tier": "B",
+          "kind": "multi",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.758,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.9312
+    },
+    {
+      "component_id": "en:air",
+      "semantic_strings": [
+        "en:air",
+        "fr:air",
+        "fr:airs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:air",
+      "path": [
+        "en:air"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 4,
+      "attachments": [
+        {
+          "en": "air",
+          "fr": "air",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "air",
+          "fr": "aires",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "air",
+          "fr": "airs",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "air",
+          "fr": "ère",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9275
+    },
+    {
+      "component_id": "en:air",
+      "semantic_strings": [
+        "en:air",
+        "fr:air",
+        "fr:airs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:airs",
+      "path": [
+        "fr:airs"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "air",
+          "fr": "airs",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "error",
+          "fr": "airs",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "heir",
+          "fr": "airs",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9275
+    },
+    {
+      "component_id": "en:active",
+      "semantic_strings": [
+        "en:active",
+        "fr:actives"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:active",
+      "path": [
+        "en:active"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "active",
+          "fr": "active",
+          "score": 0.956,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "æk+tɪv"
+        }
+      ],
+      "best_attachment_score": 0.956,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9209
+    },
+    {
+      "component_id": "en:adorable",
+      "semantic_strings": [
+        "en:adorable",
+        "fr:adorables",
+        "fr:et rebelles"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:adorable",
+      "path": [
+        "en:adorable"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "adorable",
+          "fr": "et rebelles",
+          "score": 0.643,
+          "tier": "B",
+          "kind": "multi",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.643,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.914
+    },
+    {
+      "component_id": "en:adorable",
+      "semantic_strings": [
+        "en:adorable",
+        "fr:adorables",
+        "fr:et rebelles"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:et rebelles",
+      "path": [
+        "fr:et rebelles"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "adorable",
+          "fr": "et rebelles",
+          "score": 0.643,
+          "tier": "B",
+          "kind": "multi",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.643,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.914
+    },
+    {
+      "component_id": "en:addresses",
+      "semantic_strings": [
+        "en:address",
+        "en:addresses",
+        "fr:adresse",
+        "fr:adresses"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:adresse",
+      "path": [
+        "fr:adresse"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "dress",
+          "fr": "adresse",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "address",
+          "fr": "adresse",
+          "score": 0.81,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.822,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9008
+    },
+    {
+      "component_id": "en:addresses",
+      "semantic_strings": [
+        "en:address",
+        "en:addresses",
+        "fr:adresse",
+        "fr:adresses"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:adresses",
+      "path": [
+        "fr:adresses"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 4,
+      "attachments": [
+        {
+          "en": "dress",
+          "fr": "adresses",
+          "score": 0.822,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "address",
+          "fr": "adresses",
+          "score": 0.81,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "irs",
+          "fr": "adresses",
+          "score": 0.723,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "rs",
+          "fr": "adresses",
+          "score": 0.71,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.822,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9008
+    },
+    {
+      "component_id": "en:affects",
+      "semantic_strings": [
+        "en:affect",
+        "en:affects",
+        "fr:affect",
+        "fr:affectent"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:affect",
+      "path": [
+        "en:affect"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "affect",
+          "fr": "affect",
+          "score": 0.818,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "affect",
+          "fr": "affecte",
+          "score": 0.81,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "affect",
+          "fr": "affectent",
+          "score": 0.81,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.818,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9002
+    },
+    {
+      "component_id": "en:affects",
+      "semantic_strings": [
+        "en:affect",
+        "en:affects",
+        "fr:affect",
+        "fr:affectent"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:affect",
+      "path": [
+        "fr:affect"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 8,
+      "attachments": [
+        {
+          "en": "affect",
+          "fr": "affect",
+          "score": 0.818,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "defect",
+          "fr": "affect",
+          "score": 0.764,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "perfect",
+          "fr": "affect",
+          "score": 0.753,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "affects",
+          "fr": "affect",
+          "score": 0.706,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "affected",
+          "fr": "affect",
+          "score": 0.704,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "aspect",
+          "fr": "affect",
+          "score": 0.688,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "defects",
+          "fr": "affect",
+          "score": 0.666,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "affecting",
+          "fr": "affect",
+          "score": 0.665,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.818,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.9002
+    },
+    {
+      "component_id": "en:addresses",
+      "semantic_strings": [
+        "en:address",
+        "en:addresses",
+        "fr:adresse",
+        "fr:adresses"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:address",
+      "path": [
+        "en:address"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "address",
+          "fr": "adresse",
+          "score": 0.81,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "address",
+          "fr": "adressent",
+          "score": 0.81,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "address",
+          "fr": "adresses",
+          "score": 0.81,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.81,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.899
+    },
+    {
+      "component_id": "en:affects",
+      "semantic_strings": [
+        "en:affect",
+        "en:affects",
+        "fr:affect",
+        "fr:affectent"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:affectent",
+      "path": [
+        "fr:affectent"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 3,
+      "attachments": [
+        {
+          "en": "affect",
+          "fr": "affectent",
+          "score": 0.81,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "effect",
+          "fr": "affectent",
+          "score": 0.786,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "perfect",
+          "fr": "affectent",
+          "score": 0.753,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.81,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.899
+    },
+    {
+      "component_id": "en:antique",
+      "semantic_strings": [
+        "en:antique",
+        "fr:antiques",
+        "fr:en tic"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:antiques",
+      "path": [
+        "fr:antiques"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "antique",
+          "fr": "antiques",
+          "score": 0.755,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.755,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8907
+    },
+    {
+      "component_id": "en:arc",
+      "semantic_strings": [
+        "en:arc",
+        "fr:arc",
+        "fr:arcs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:arc",
+      "path": [
+        "en:arc"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "arc",
+          "fr": "arc",
+          "score": 0.74,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.74,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8885
+    },
+    {
+      "component_id": "en:arc",
+      "semantic_strings": [
+        "en:arc",
+        "fr:arc",
+        "fr:arcs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:arc",
+      "path": [
+        "fr:arc"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 6,
+      "attachments": [
+        {
+          "en": "arc",
+          "fr": "arc",
+          "score": 0.74,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "ark",
+          "fr": "arc",
+          "score": 0.74,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "dark",
+          "fr": "arc",
+          "score": 0.693,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "darker",
+          "fr": "arc",
+          "score": 0.693,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "idk",
+          "fr": "arc",
+          "score": 0.666,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "stark",
+          "fr": "arc",
+          "score": 0.663,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.74,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8885
+    },
+    {
+      "component_id": "en:air",
+      "semantic_strings": [
+        "en:air",
+        "fr:air",
+        "fr:airs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:aires",
+      "path": [
+        "en:air",
+        "fr:aires"
+      ],
+      "path_edge_scores": [
+        1.0
+      ],
+      "attached_count": 4,
+      "attachments": [
+        {
+          "en": "air",
+          "fr": "aires",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "error",
+          "fr": "aires",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "heir",
+          "fr": "aires",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "errors",
+          "fr": "aires aise",
+          "score": 0.785,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.8875
+    },
+    {
+      "component_id": "en:act",
+      "semantic_strings": [
+        "en:act",
+        "fr:actes"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:act",
+      "path": [
+        "en:act"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "act",
+          "fr": "actes",
+          "score": 0.73,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.73,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.887
+    },
+    {
+      "component_id": "en:acoustic",
+      "semantic_strings": [
+        "en:acoustic",
+        "fr:acoustique"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:acoustique",
+      "path": [
+        "fr:acoustique"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "acoustic",
+          "fr": "acoustique",
+          "score": 0.724,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.724,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8861
+    },
+    {
+      "component_id": "en:aggressive",
+      "semantic_strings": [
+        "en:aggressive",
+        "fr:agressive"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:aggressive",
+      "path": [
+        "en:aggressive"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "aggressive",
+          "fr": "agressive",
+          "score": 0.724,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.724,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8861
+    },
+    {
+      "component_id": "en:aggressive",
+      "semantic_strings": [
+        "en:aggressive",
+        "fr:agressive"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:agressive",
+      "path": [
+        "fr:agressive"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "aggressive",
+          "fr": "agressive",
+          "score": 0.724,
+          "tier": "B_safe",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.724,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8861
+    },
+    {
+      "component_id": "en:affects",
+      "semantic_strings": [
+        "en:affect",
+        "en:affects",
+        "fr:affect",
+        "fr:affectent"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:affects",
+      "path": [
+        "en:affects"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "affects",
+          "fr": "affect",
+          "score": 0.706,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.706,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8834
+    },
+    {
+      "component_id": "en:arbitrary",
+      "semantic_strings": [
+        "en:arbitrary",
+        "fr:arbitraire",
+        "fr:arbitraires"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:arbitrary",
+      "path": [
+        "en:arbitrary"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "arbitrary",
+          "fr": "arbitraire",
+          "score": 0.678,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.678,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8792
+    },
+    {
+      "component_id": "en:arbitrary",
+      "semantic_strings": [
+        "en:arbitrary",
+        "fr:arbitraire",
+        "fr:arbitraires"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:arbitraire",
+      "path": [
+        "fr:arbitraire"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "arbitrary",
+          "fr": "arbitraire",
+          "score": 0.678,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.678,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8792
+    },
+    {
+      "component_id": "en:actress",
+      "semantic_strings": [
+        "en:actress",
+        "fr:actrice",
+        "fr:actrices"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:actress",
+      "path": [
+        "en:actress"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "actress",
+          "fr": "actrice",
+          "score": 0.675,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.675,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8787
+    },
+    {
+      "component_id": "en:actress",
+      "semantic_strings": [
+        "en:actress",
+        "fr:actrice",
+        "fr:actrices"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:actrice",
+      "path": [
+        "fr:actrice"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "actress",
+          "fr": "actrice",
+          "score": 0.675,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.675,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8787
+    },
+    {
+      "component_id": "en:album",
+      "semantic_strings": [
+        "en:album",
+        "fr:album",
+        "fr:albums"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "en:album",
+      "path": [
+        "en:album"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "album",
+          "fr": "album",
+          "score": 0.643,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.643,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.874
+    },
+    {
+      "component_id": "en:album",
+      "semantic_strings": [
+        "en:album",
+        "fr:album",
+        "fr:albums"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 0,
+      "node": "fr:album",
+      "path": [
+        "fr:album"
+      ],
+      "path_edge_scores": [],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "album",
+          "fr": "album",
+          "score": 0.643,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.643,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.874
+    },
+    {
+      "component_id": "en:active",
+      "semantic_strings": [
+        "en:active",
+        "fr:actives"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:active",
+      "path": [
+        "en:active",
+        "fr:active"
+      ],
+      "path_edge_scores": [
+        0.956
+      ],
+      "attached_count": 5,
+      "attachments": [
+        {
+          "en": "active",
+          "fr": "active",
+          "score": 0.956,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "æk+tɪv"
+        },
+        {
+          "en": "octave",
+          "fr": "active",
+          "score": 0.956,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɒk+tɪv"
+        },
+        {
+          "en": "productive",
+          "fr": "prêt active",
+          "score": 0.949,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "protective",
+          "fr": "prêt active",
+          "score": 0.936,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "detective",
+          "fr": "dit active",
+          "score": 0.93,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.956,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.8655
+    },
+    {
+      "component_id": "en:acoustic",
+      "semantic_strings": [
+        "en:acoustic",
+        "fr:acoustique"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:égouts tic",
+      "path": [
+        "en:acoustic",
+        "fr:égouts tic"
+      ],
+      "path_edge_scores": [
+        0.952
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "acoustic",
+          "fr": "égouts tic",
+          "score": 0.952,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.952,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.8635
+    },
+    {
+      "component_id": "en:addresses",
+      "semantic_strings": [
+        "en:address",
+        "en:addresses",
+        "fr:adresse",
+        "fr:adresses"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:adrets aise",
+      "path": [
+        "en:addresses",
+        "fr:adrets aise"
+      ],
+      "path_edge_scores": [
+        0.945
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "addresses",
+          "fr": "adrets aise",
+          "score": 0.945,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.945,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.86
+    },
+    {
+      "component_id": "en:air",
+      "semantic_strings": [
+        "en:air",
+        "fr:air",
+        "fr:airs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:error",
+      "path": [
+        "fr:air",
+        "en:error"
+      ],
+      "path_edge_scores": [
+        1.0
+      ],
+      "attached_count": 4,
+      "attachments": [
+        {
+          "en": "error",
+          "fr": "air",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "error",
+          "fr": "aires",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "error",
+          "fr": "airs",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "error",
+          "fr": "ère",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.8475
+    },
+    {
+      "component_id": "en:activist",
+      "semantic_strings": [
+        "en:activist",
+        "fr:activistes"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "fr:actes est",
+      "path": [
+        "en:activist",
+        "fr:actes est"
+      ],
+      "path_edge_scores": [
+        0.918
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "activist",
+          "fr": "actes est",
+          "score": 0.918,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.918,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.8465
+    },
+    {
+      "component_id": "en:affects",
+      "semantic_strings": [
+        "en:affect",
+        "en:affects",
+        "fr:affect",
+        "fr:affectent"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:affected",
+      "path": [
+        "fr:affect",
+        "en:affected"
+      ],
+      "path_edge_scores": [
+        0.704
+      ],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "affected",
+          "fr": "évoquent aide",
+          "score": 0.932,
+          "tier": "S",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "affected",
+          "fr": "affect",
+          "score": 0.704,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.932,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.7737
+    },
+    {
+      "component_id": "en:active",
+      "semantic_strings": [
+        "en:active",
+        "fr:actives"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 2,
+      "node": "en:octave",
+      "path": [
+        "en:active",
+        "fr:active",
+        "en:octave"
+      ],
+      "path_edge_scores": [
+        0.956,
+        0.956
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "octave",
+          "fr": "active",
+          "score": 0.956,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɒk+tɪv"
+        }
+      ],
+      "best_attachment_score": 0.956,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7455
+    },
+    {
+      "component_id": "en:act",
+      "semantic_strings": [
+        "en:act",
+        "fr:actes"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 2,
+      "node": "fr:rixe",
+      "path": [
+        "fr:actes",
+        "en:racked",
+        "fr:rixe"
+      ],
+      "path_edge_scores": [
+        0.683,
+        0.881
+      ],
+      "attached_count": 20,
+      "attachments": [
+        {
+          "en": "reeks",
+          "fr": "rixe",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɹi+ks"
+        },
+        {
+          "en": "wreaks",
+          "fr": "rixe",
+          "score": 1.0,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɹi+ks"
+        },
+        {
+          "en": "ricks",
+          "fr": "rixe",
+          "score": 0.975,
+          "tier": "S",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɹɪ+ks"
+        },
+        {
+          "en": "matrix",
+          "fr": "met rixe",
+          "score": 0.96,
+          "tier": "A",
+          "kind": "multi",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": ""
+        },
+        {
+          "en": "racks",
+          "fr": "rixe",
+          "score": 0.94,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɹæ+ks"
+        },
+        {
+          "en": "reeked",
+          "fr": "rixe",
+          "score": 0.94,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɹi+kt"
+        },
+        {
+          "en": "rucks",
+          "fr": "rixe",
+          "score": 0.94,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɹʌ+ks"
+        },
+        {
+          "en": "wracks",
+          "fr": "rixe",
+          "score": 0.94,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɹæ+ks"
+        },
+        {
+          "en": "wreaked",
+          "fr": "rixe",
+          "score": 0.94,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɹi+kt"
+        },
+        {
+          "en": "wrecks",
+          "fr": "rixe",
+          "score": 0.94,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɹɛ+ks"
+        },
+        {
+          "en": "ricked",
+          "fr": "rixe",
+          "score": 0.915,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɹɪ+kt"
+        },
+        {
+          "en": "rigs",
+          "fr": "rixe",
+          "score": 0.915,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɹɪ+ɡz"
+        }
+      ],
+      "best_attachment_score": 1.0,
+      "has_multi": true,
+      "has_generated": false,
+      "rank_score": 0.7312
+    },
+    {
+      "component_id": "en:act",
+      "semantic_strings": [
+        "en:act",
+        "fr:actes"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:racked",
+      "path": [
+        "fr:actes",
+        "en:racked"
+      ],
+      "path_edge_scores": [
+        0.683
+      ],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "racked",
+          "fr": "rixe",
+          "score": 0.881,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɹæ+kt"
+        },
+        {
+          "en": "racked",
+          "fr": "actes",
+          "score": 0.683,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.881,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7187
+    },
+    {
+      "component_id": "en:act",
+      "semantic_strings": [
+        "en:act",
+        "fr:actes"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:rucked",
+      "path": [
+        "fr:actes",
+        "en:rucked"
+      ],
+      "path_edge_scores": [
+        0.683
+      ],
+      "attached_count": 2,
+      "attachments": [
+        {
+          "en": "rucked",
+          "fr": "rixe",
+          "score": 0.881,
+          "tier": "A",
+          "kind": "whole",
+          "source_stage": "v5.1_reviewed",
+          "chunk_recipe": "ɹʌ+kt"
+        },
+        {
+          "en": "rucked",
+          "fr": "actes",
+          "score": 0.683,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.881,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7187
+    },
+    {
+      "component_id": "en:arc",
+      "semantic_strings": [
+        "en:arc",
+        "fr:arc",
+        "fr:arcs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:ark",
+      "path": [
+        "fr:arc",
+        "en:ark"
+      ],
+      "path_edge_scores": [
+        0.74
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "ark",
+          "fr": "arc",
+          "score": 0.74,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.74,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.7175
+    },
+    {
+      "component_id": "en:arc",
+      "semantic_strings": [
+        "en:arc",
+        "fr:arc",
+        "fr:arcs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:dark",
+      "path": [
+        "fr:arc",
+        "en:dark"
+      ],
+      "path_edge_scores": [
+        0.693
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "dark",
+          "fr": "arc",
+          "score": 0.693,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.693,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.694
+    },
+    {
+      "component_id": "en:arc",
+      "semantic_strings": [
+        "en:arc",
+        "fr:arc",
+        "fr:arcs"
+      ],
+      "component_weight": 0.95,
+      "homophonic_hops": 1,
+      "node": "en:darker",
+      "path": [
+        "fr:arc",
+        "en:darker"
+      ],
+      "path_edge_scores": [
+        0.693
+      ],
+      "attached_count": 1,
+      "attachments": [
+        {
+          "en": "darker",
+          "fr": "arc",
+          "score": 0.693,
+          "tier": "B",
+          "kind": "whole",
+          "source_stage": "v7_decode_addition",
+          "chunk_recipe": ""
+        }
+      ],
+      "best_attachment_score": 0.693,
+      "has_multi": false,
+      "has_generated": false,
+      "rank_score": 0.694
+    }
+  ]
+}
