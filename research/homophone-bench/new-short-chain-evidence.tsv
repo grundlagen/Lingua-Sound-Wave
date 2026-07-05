@@ -1,0 +1,1237 @@
+src	dst	quality	sound_edge_score	is_multiword_src	is_multiword_dst	chain
+air	epoque	0.98	1.0	False	False	en:air ≈ fr:ère ~ fr:epoque
+air	amas	0.976	1.0	False	False	en:air ≈ fr:aires ~ fr:amas
+air	étui	0.976	1.0	False	False	en:air ≈ fr:aires ~ fr:étui
+any	haie	0.927	1.0	False	False	en:any ≈ fr:haie nient ~ fr:haie
+any	hainaut chie	0.907	1.0	False	True	en:any ≈ fr:haie nient ~ fr:hainaut chie
+any	haies	0.896	1.0	False	False	en:any ≈ fr:haie nient ~ fr:haies
+around	round}	0.976	1.0	False	False	en:around ≈ fr:round ~ fr:round}
+around	rondes	0.954	1.0	False	False	en:around ≈ fr:round ~ fr:rondes
+baulks	boxe	0.991	1.0	False	False	en:baulks ≈ fr:box ~ fr:boxe
+baulks	boîte	0.988	1.0	False	False	en:baulks ≈ fr:box ~ fr:boîte
+bawdry	body	0.987	1.0	False	False	en:bawdry ~ en:bawdy ≈ fr:body
+beading	bide	0.929	1.0	False	False	en:beading ~ en:bead ≈ fr:bide
+beak	biche	0.977	1.0	False	False	en:beak ≈ fr:bique ~ fr:biche
+beak	bistro	0.967	1.0	False	False	en:beak ≈ fr:biques ~ fr:bistro
+bean	gueux	0.99	1.0	False	False	en:bean ≈ fr:bines ~ fr:gueux
+bean	bondir	0.987	1.0	False	False	en:bean ≈ fr:binent ~ fr:bondir
+beefy	bis	0.95	1.0	False	False	en:beefy ~ en:bee ≈ fr:bis
+belly	mensonge	0.937	1.0	False	False	en:belly ≈ fr:bey lies ~ fr:mensonge
+belly	lies	0.935	1.0	False	False	en:belly ≈ fr:bey lies ~ fr:lies
+ben	saisis	0.982	1.0	False	False	en:ben ≈ fr:bennes ~ fr:saisis
+ben	lien	0.955	1.0	False	False	en:ben ≈ fr:benne ~ fr:lien
+bless	blesser	0.992	1.0	False	False	en:bless ≈ fr:blesse ~ fr:blesser
+bless	blessant	0.976	1.0	False	False	en:bless ≈ fr:blesse ~ fr:blessant
+blues	chemises	0.926	1.0	False	False	en:blues ≈ fr:blouse ~ fr:chemises
+booed	bouché	0.989	1.0	False	False	en:booed ≈ fr:boudent ~ fr:bouché
+boom	boucle	0.97	1.0	False	False	en:boom ≈ fr:boument ~ fr:boucle
+boom	bouclé	0.969	1.0	False	False	en:boom ≈ fr:boument ~ fr:bouclé
+boom	boulet	0.965	1.0	False	False	en:boom ≈ fr:boument ~ fr:boulet
+born	borné	0.993	1.0	False	False	en:born ≈ fr:borne ~ fr:borné
+boss	boss	0.992	1.0	False	False	en:boss ≈ fr:bosse ~ fr:boss
+boss	bosse	0.98	1.0	False	False	en:boss ≈ fr:bosses ~ fr:bosse
+boutique	boutique	0.98	1.0	False	False	en:boutique ≈ fr:boutiques ~ fr:boutique
+bream	bresse	0.984	1.0	False	False	en:bream ≈ fr:brime ~ fr:bresse
+breeder	bride	0.967	1.0	False	False	en:breeder ~ en:breed ≈ fr:bride
+cc	raies lis	0.98	1.0	False	True	en:cc ≈ fr:sis scie ~ fr:raies lis
+cedi	cid	0.983	1.0	False	False	en:cedi ~ en:cede ≈ fr:cid
+cell	verte	0.987	1.0	False	False	en:cell ≈ fr:selles ~ fr:verte
+cell	tome	0.985	1.0	False	False	en:cell ≈ fr:selle ~ fr:tome
+cerise	prieur	0.988	1.0	False	False	en:cerise ≈ fr:cerise ~ fr:prieur
+cerise	prieuré	0.986	1.0	False	False	en:cerise ≈ fr:cerise ~ fr:prieuré
+check	tchèque	0.996	1.0	False	False	en:check ≈ fr:tchèques ~ fr:tchèque
+check	tchèques	0.996	1.0	False	False	en:check ≈ fr:tchèque ~ fr:tchèques
+chef	directeurs	0.975	1.0	False	False	en:chef ≈ fr:chefs ~ fr:directeurs
+chemise	chemise	0.955	1.0	False	False	en:chemise ≈ fr:chemises ~ fr:chemise
+chemise	chevreuil	0.923	1.0	False	False	en:chemise ≈ fr:chemisent ~ fr:chevreuil
+chemise	chevron	0.906	1.0	False	False	en:chemise ≈ fr:chemisent ~ fr:chevron
+chic	mali	0.983	1.0	False	False	en:chic ≈ fr:chique ~ fr:mali
+chic	chic	0.973	1.0	False	False	en:chic ≈ fr:chics ~ fr:chic
+cleat	clive	0.973	1.0	False	False	en:cleat ~ en:cleave ≈ fr:clive
+cleave	bourdon	0.864	1.0	False	False	en:cleave ≈ fr:clive ~ fr:bourdon
+cleek	clics	0.98	1.0	False	False	en:cleek ≈ fr:clic ~ fr:clics
+cleek	cliquer	0.969	1.0	False	False	en:cleek ≈ fr:clic ~ fr:cliquer
+clique	clics	0.98	1.0	False	False	en:clique ≈ fr:clic ~ fr:clics
+clique	cliquer	0.969	1.0	False	False	en:clique ≈ fr:clic ~ fr:cliquer
+clued	clous	0.984	1.0	False	False	en:clued ~ en:clue ≈ fr:clous
+clued	clou	0.984	1.0	False	False	en:clued ~ en:clue ≈ fr:clou
+cool	couvrant	0.974	1.0	False	False	en:cool ≈ fr:coulent ~ fr:couvrant
+cooler	couvrant	0.974	1.0	False	False	en:cooler ≈ fr:coulent ~ fr:couvrant
+coolie	coulait	0.975	1.0	False	False	en:coolie ≈ fr:coulis ~ fr:coulait
+coolly	coulait	0.975	1.0	False	False	en:coolly ≈ fr:coulis ~ fr:coulait
+cork	coque	0.981	1.0	False	False	en:cork ≈ fr:coques ~ fr:coque
+cork	coques	0.981	1.0	False	False	en:cork ≈ fr:coque ~ fr:coques
+cork	coqs	0.973	1.0	False	False	en:cork ≈ fr:coq ~ fr:coqs
+corps	colorée	0.98	1.0	False	False	en:corps ≈ fr:cor ~ fr:colorée
+corps	colorés	0.98	1.0	False	False	en:corps ≈ fr:cor ~ fr:colorés
+corps	coloré	0.978	1.0	False	False	en:corps ≈ fr:cor ~ fr:coloré
+creak	crète	0.98	1.0	False	False	en:creak ≈ fr:crique ~ fr:crète
+cream	crime	0.983	1.0	False	False	en:cream ≈ fr:crimes ~ fr:crime
+creature	crié	0.935	1.0	False	False	en:creature ≈ fr:crient chez ~ fr:crié
+creek	crète	0.98	1.0	False	False	en:creek ≈ fr:crique ~ fr:crète
+crees	crises	0.979	1.0	False	False	en:crees ≈ fr:crise ~ fr:crises
+cruck	croûte	0.979	1.0	False	False	en:cruck ~ en:cruet ≈ fr:croûte
+cruse	créneaux	0.959	1.0	False	False	en:cruse ≈ fr:crous ~ fr:créneaux
+daughter	voyelles	0.943	1.0	False	False	en:daughter ≈ fr:dors ~ fr:voyelles
+dawn	féminin	0.995	1.0	False	False	en:dawn ≈ fr:donne ~ fr:féminin
+dawn	féminine	0.99	1.0	False	False	en:dawn ≈ fr:donne ~ fr:féminine
+dawn	dotée	0.976	1.0	False	False	en:dawn ≈ fr:donnent ~ fr:dotée
+dealer	dealers	0.982	1.0	False	False	en:dealer ≈ fr:dealer ~ fr:dealers
+deeply	pliée	0.964	1.0	False	False	en:deeply ≈ fr:dits pli ~ fr:pliée
+deeply	plié	0.961	1.0	False	False	en:deeply ≈ fr:dits pli ~ fr:plié
+doormen	domaines	0.96	1.0	False	False	en:doormen ≈ fr:domaine ~ fr:domaines
+douche	douche	0.938	1.0	False	False	en:douche ≈ fr:douches ~ fr:douche
+douche	douches	0.935	1.0	False	False	en:douche ≈ fr:douchent ~ fr:douches
+douche	lavage	0.853	1.0	False	False	en:douche ≈ fr:douches ~ fr:lavage
+due	doués	0.982	1.0	False	False	en:due ≈ fr:doux ~ fr:doués
+ea	hai	0.986	1.0	False	False	en:ea ≈ fr:hi ~ fr:hai
+eat	hits	0.965	1.0	False	False	en:eat ≈ fr:hit ~ fr:hits
+eating	hit	0.982	1.0	False	False	en:eating ~ en:eat ≈ fr:hit
+eave	ive	0.951	1.0	False	False	en:eave ≈ fr:ives ~ fr:ive
+em	aimez	0.995	1.0	False	False	en:em ≈ fr:aimes ~ fr:aimez
+em	aimé	0.991	1.0	False	False	en:em ≈ fr:aime ~ fr:aimé
+en	matières	0.968	1.0	False	False	en:en ≈ fr:aine ~ fr:matières
+enemy	ennemis	0.984	1.0	False	False	en:enemy ≈ fr:ennemies ~ fr:ennemis
+enemy	ennemi	0.982	1.0	False	False	en:enemy ≈ fr:ennemies ~ fr:ennemi
+enemy	ennemie	0.975	1.0	False	False	en:enemy ≈ fr:ennemies ~ fr:ennemie
+error	epoque	0.98	1.0	False	False	en:error ≈ fr:ère ~ fr:epoque
+error	amas	0.976	1.0	False	False	en:error ≈ fr:aires ~ fr:amas
+error	étui	0.976	1.0	False	False	en:error ≈ fr:aires ~ fr:étui
+escort	escort	0.945	1.0	False	False	en:escort ≈ fr:escorte ~ fr:escort
+escort	escorté	0.94	1.0	False	False	en:escort ≈ fr:escorte ~ fr:escorté
+esteem	émettant	0.983	1.0	False	False	en:esteem ≈ fr:estiment ~ fr:émettant
+esteem	énervant	0.982	1.0	False	False	en:esteem ≈ fr:estiment ~ fr:énervant
+esteem	agréé	0.981	1.0	False	False	en:esteem ≈ fr:estiment ~ fr:agréé
+eve	ive	0.951	1.0	False	False	en:eve ≈ fr:ives ~ fr:ive
+excel	exp	0.913	1.0	False	False	en:excel ≈ fr:ex aile ~ fr:exp
+express	express	0.971	1.0	False	False	en:express ≈ fr:expresse ~ fr:express
+fair	fais	0.993	1.0	False	False	en:fair ≈ fr:faire ~ fr:fais
+fair	faites	0.993	1.0	False	False	en:fair ≈ fr:faire ~ fr:faites
+fair	saisis	0.983	1.0	False	False	en:fair ≈ fr:fers ~ fr:saisis
+fare	fais	0.993	1.0	False	False	en:fare ≈ fr:faire ~ fr:fais
+fare	faites	0.993	1.0	False	False	en:fare ≈ fr:faire ~ fr:faites
+fare	saisis	0.983	1.0	False	False	en:fare ≈ fr:fers ~ fr:saisis
+fawn	téléphones	0.987	1.0	False	False	en:fawn ≈ fr:phones ~ fr:téléphones
+fawn	téléphone	0.981	1.0	False	False	en:fawn ≈ fr:phone ~ fr:téléphone
+fawn	cellulaires	0.965	1.0	False	False	en:fawn ≈ fr:phones ~ fr:cellulaires
+fee	fief	0.985	1.0	False	False	en:fee ≈ fr:fies ~ fr:fief
+fee	pla	0.982	1.0	False	False	en:fee ≈ fr:fie ~ fr:pla
+fee	fiefs	0.974	1.0	False	False	en:fee ≈ fr:fies ~ fr:fiefs
+feel	fichier	0.991	1.0	False	False	en:feel ≈ fr:file ~ fr:fichier
+feel	fichiers	0.99	1.0	False	False	en:feel ≈ fr:files ~ fr:fichiers
+fetter	célébré	0.988	1.0	False	False	en:fetter ≈ fr:fêter ~ fr:célébré
+fetter	célébrer	0.983	1.0	False	False	en:fetter ≈ fr:fêter ~ fr:célébrer
+fetter	célébrée	0.982	1.0	False	False	en:fetter ≈ fr:fêter ~ fr:célébrée
+flesh	flèche	0.985	1.0	False	False	en:flesh ≈ fr:flèches ~ fr:flèche
+flesh	flèches	0.985	1.0	False	False	en:flesh ≈ fr:flèche ~ fr:flèches
+flew	pigé	0.984	1.0	False	False	en:flew ≈ fr:flou ~ fr:pigé
+flew	flous	0.894	1.0	False	False	en:flew ≈ fr:floue ~ fr:flous
+flew	floues	0.891	1.0	False	False	en:flew ≈ fr:floue ~ fr:floues
+flu	pigé	0.984	1.0	False	False	en:flu ≈ fr:flou ~ fr:pigé
+flu	flous	0.894	1.0	False	False	en:flu ≈ fr:floue ~ fr:flous
+flu	floues	0.891	1.0	False	False	en:flu ≈ fr:floue ~ fr:floues
+fool	foule	0.962	1.0	False	False	en:fool ≈ fr:foules ~ fr:foule
+fool	foules	0.962	1.0	False	False	en:fool ≈ fr:foule ~ fr:foules
+fool	rempli	0.961	1.0	False	False	en:fool ≈ fr:full ~ fr:rempli
+fork	phoque	0.977	1.0	False	False	en:fork ≈ fr:phoques ~ fr:phoque
+fraught	fronde	0.989	1.0	False	False	en:fraught ≈ fr:frotte ~ fr:fronde
+freaky	fric	0.986	1.0	False	False	en:freaky ~ en:freak ≈ fr:fric
+freest	frise	0.969	1.0	False	False	en:freest ~ en:frees ≈ fr:frise
+freezer	frise	0.899	1.0	False	False	en:freezer ~ en:freeze ≈ fr:frise
+fresh	fraîche	0.99	1.0	False	False	en:fresh ≈ fr:fraîches ~ fr:fraîche
+fresh	fraîches	0.99	1.0	False	False	en:fresh ≈ fr:fraîche ~ fr:fraîches
+fresh	fraîchement	0.987	1.0	False	False	en:fresh ≈ fr:fraîches ~ fr:fraîchement
+frizz	frise	0.97	1.0	False	False	en:frizz ~ en:frieze ≈ fr:frise
+grief	griffe	0.988	1.0	False	False	en:grief ≈ fr:griffes ~ fr:griffe
+groom	marier	0.869	1.0	False	False	en:groom ≈ fr:groom ~ fr:marier
+group	groupés	0.982	1.0	False	False	en:group ≈ fr:groupes ~ fr:groupés
+groupie	groupés	0.951	1.0	False	False	en:groupie ≈ fr:groupies ~ fr:groupés
+heir	epoque	0.98	1.0	False	False	en:heir ≈ fr:ère ~ fr:epoque
+heir	amas	0.976	1.0	False	False	en:heir ≈ fr:aires ~ fr:amas
+heir	étui	0.976	1.0	False	False	en:heir ≈ fr:aires ~ fr:étui
+kami	ouïe	0.986	1.0	False	False	en:kami ~ en:we ≈ fr:ouïe
+kami	oui	0.986	1.0	False	False	en:kami ~ en:we ≈ fr:oui
+kea	onde	0.973	1.0	False	False	en:kea ≈ fr:qui ~ fr:onde
+kea	loc	0.971	1.0	False	False	en:kea ≈ fr:qui ~ fr:loc
+keck	gâteau	0.991	1.0	False	False	en:keck ≈ fr:cake ~ fr:gâteau
+keck	gâteaux	0.989	1.0	False	False	en:keck ≈ fr:cakes ~ fr:gâteaux
+key	onde	0.973	1.0	False	False	en:key ≈ fr:qui ~ fr:onde
+key	loc	0.971	1.0	False	False	en:key ≈ fr:qui ~ fr:loc
+kiwi	kivu	0.981	1.0	False	False	en:kiwi ≈ fr:kiwis ~ fr:kivu
+knew	nas	0.988	1.0	False	False	en:knew ≈ fr:nous ~ fr:nas
+knew	notre	0.986	1.0	False	False	en:knew ≈ fr:nous ~ fr:notre
+kookie	cookies	0.963	1.0	False	False	en:kookie ≈ fr:cookie ~ fr:cookies
+kookie	sucreries	0.888	1.0	False	False	en:kookie ≈ fr:cookie ~ fr:sucreries
+kooky	cookies	0.963	1.0	False	False	en:kooky ≈ fr:cookie ~ fr:cookies
+kooky	sucreries	0.888	1.0	False	False	en:kooky ≈ fr:cookie ~ fr:sucreries
+lb	ailes	0.972	1.0	False	False	en:lb ≈ fr:aile bis ~ fr:ailes
+lb	aile	0.972	1.0	False	False	en:lb ≈ fr:aile bis ~ fr:aile
+league	bundesliga	0.936	1.0	False	False	en:league ≈ fr:ligue ~ fr:bundesliga
+lease	luce	0.997	1.0	False	False	en:lease ≈ fr:lys ~ fr:luce
+lease	lumière	0.992	1.0	False	False	en:lease ≈ fr:lys ~ fr:lumière
+least	list	0.975	1.0	False	False	en:least ≈ fr:listes ~ fr:list
+least	listes	0.975	1.0	False	False	en:least ≈ fr:list ~ fr:listes
+least	liste	0.967	1.0	False	False	en:least ≈ fr:listes ~ fr:liste
+led	ted	0.973	1.0	False	False	en:led ≈ fr:laide ~ fr:ted
+lee	lucie	0.964	1.0	False	False	en:lee ≈ fr:lits ~ fr:lucie
+lee	lit	0.955	1.0	False	False	en:lee ≈ fr:lits ~ fr:lit
+lee	lits	0.955	1.0	False	False	en:lee ≈ fr:lit ~ fr:lits
+lest	lester	0.962	1.0	False	False	en:lest ≈ fr:lest ~ fr:lester
+levy	ondes	0.983	1.0	False	False	en:levy ≈ fr:lez vies ~ fr:ondes
+levy	havane	0.981	1.0	False	False	en:levy ≈ fr:lez vies ~ fr:havane
+loop	loués	0.98	1.0	False	False	en:loop ≈ fr:loupe ~ fr:loués
+loopy	loupe	0.971	1.0	False	False	en:loopy ~ en:loop ≈ fr:loupe
+ls	émise	0.972	1.0	False	False	en:ls ≈ fr:aile ès ~ fr:émise
+lulu	loués	0.98	1.0	False	False	en:lulu ≈ fr:loulou ~ fr:loués
+mall	moussa	0.982	1.0	False	False	en:mall ≈ fr:molle ~ fr:moussa
+many	néant	0.943	1.0	False	False	en:many ≈ fr:mets nient ~ fr:néant
+me	mi	0.975	1.0	False	False	en:me ≈ fr:mie ~ fr:mi
+me	mie	0.975	1.0	False	False	en:me ≈ fr:mi ~ fr:mie
+me	ist	0.974	1.0	False	False	en:me ≈ fr:mi ~ fr:ist
+meal	fixé	0.978	1.0	False	False	en:meal ≈ fr:milles ~ fr:fixé
+meany	mini	0.982	1.0	False	False	en:meany ≈ fr:minis ~ fr:mini
+meet	mythique	0.984	1.0	False	False	en:meet ≈ fr:mythe ~ fr:mythique
+meet	mythes	0.965	1.0	False	False	en:meet ≈ fr:mythe ~ fr:mythes
+meme	mime	0.961	1.0	False	False	en:meme ≈ fr:mimes ~ fr:mime
+met	mette	0.984	1.0	False	False	en:met ≈ fr:mettes ~ fr:mette
+met	parmis	0.982	1.0	False	False	en:met ≈ fr:mettes ~ fr:parmis
+met	croît	0.982	1.0	False	False	en:met ≈ fr:mettes ~ fr:croît
+ml	aile	0.964	1.0	False	False	en:ml ≈ fr:aiment aile ~ fr:aile
+ml	familiers	0.963	1.0	False	False	en:ml ≈ fr:aiment aile ~ fr:familiers
+ml	aile bis	0.963	1.0	False	True	en:ml ≈ fr:aiment aile ~ fr:aile bis
+moo	moue	0.983	1.0	False	False	en:moo ≈ fr:moues ~ fr:moue
+moo	fourrés	0.982	1.0	False	False	en:moo ≈ fr:moues ~ fr:fourrés
+moo	mou	0.971	1.0	False	False	en:moo ≈ fr:moue ~ fr:mou
+moody	pie dits	0.978	1.0	False	True	en:moody ≈ fr:mous dits ~ fr:pie dits
+moolah	chanvre	0.984	1.0	False	False	en:moolah ≈ fr:moulé ~ fr:chanvre
+moolah	brulé	0.983	1.0	False	False	en:moolah ≈ fr:moulé ~ fr:brulé
+moolah	piégé	0.978	1.0	False	False	en:moolah ≈ fr:moulé ~ fr:piégé
+moose	mousse	0.98	1.0	False	False	en:moose ≈ fr:mousses ~ fr:mousse
+mousse	mousse	0.98	1.0	False	False	en:mousse ≈ fr:mousses ~ fr:mousse
+movie	bethléem	0.977	1.0	False	False	en:movie ≈ fr:mous vies ~ fr:bethléem
+mu	moue	0.983	1.0	False	False	en:mu ≈ fr:moues ~ fr:moue
+mu	fourrés	0.982	1.0	False	False	en:mu ≈ fr:moues ~ fr:fourrés
+mu	mou	0.971	1.0	False	False	en:mu ≈ fr:moue ~ fr:mou
+naught	nota	0.988	1.0	False	False	en:naught ≈ fr:note ~ fr:nota
+naught	notée	0.975	1.0	False	False	en:naught ≈ fr:notent ~ fr:notée
+naught	note}}	0.967	1.0	False	False	en:naught ≈ fr:note ~ fr:note}}
+net	gueux	0.977	1.0	False	False	en:net ≈ fr:nette ~ fr:gueux
+new	nas	0.988	1.0	False	False	en:new ≈ fr:nous ~ fr:nas
+new	notre	0.986	1.0	False	False	en:new ≈ fr:nous ~ fr:notre
+newer	nas	0.988	1.0	False	False	en:newer ≈ fr:nous ~ fr:nas
+newer	notre	0.986	1.0	False	False	en:newer ≈ fr:nous ~ fr:notre
+niche	niche	0.983	1.0	False	False	en:niche ≈ fr:niches ~ fr:niche
+norm	nommé	0.991	1.0	False	False	en:norm ≈ fr:nomment ~ fr:nommé
+norm	règles	0.99	1.0	False	False	en:norm ≈ fr:norme ~ fr:règles
+norm	nommés	0.988	1.0	False	False	en:norm ≈ fr:nomment ~ fr:nommés
+nu	nas	0.988	1.0	False	False	en:nu ≈ fr:nous ~ fr:nas
+nu	notre	0.986	1.0	False	False	en:nu ≈ fr:nous ~ fr:notre
+nu	nou	0.982	1.0	False	False	en:nu ≈ fr:noue ~ fr:nou
+or	orée	0.961	1.0	False	False	en:or ≈ fr:ores ~ fr:orée
+ought arena	hot	0.841	1.0	True	False	en:ought arena ~ en:ought ≈ fr:hot
+pair	isa	0.997	1.0	False	False	en:pair ≈ fr:père ~ fr:isa
+pair	père	0.993	1.0	False	False	en:pair ≈ fr:pères ~ fr:père
+pair	padre	0.991	1.0	False	False	en:pair ≈ fr:pères ~ fr:padre
+paired	perdue	0.985	1.0	False	False	en:paired ≈ fr:perdent ~ fr:perdue
+paired	perdu	0.98	1.0	False	False	en:paired ≈ fr:perdent ~ fr:perdu
+paired	perd	0.974	1.0	False	False	en:paired ≈ fr:perde ~ fr:perd
+pd	mous dits	0.978	1.0	False	True	en:pd ≈ fr:pie dits ~ fr:mous dits
+pea	psi	0.974	1.0	False	False	en:pea ≈ fr:pies ~ fr:psi
+pea	pif	0.967	1.0	False	False	en:pea ≈ fr:pi ~ fr:pif
+pea	pib	0.951	1.0	False	False	en:pea ≈ fr:pi ~ fr:pib
+peas	pise	0.966	1.0	False	False	en:peas ~ en:pease ≈ fr:pise
+pease	pise	0.966	1.0	False	False	en:pease ~ en:peas ≈ fr:pise
+pee	pise	0.979	1.0	False	False	en:pee ~ en:pees ≈ fr:pise
+pee	psi	0.974	1.0	False	False	en:pee ≈ fr:pies ~ fr:psi
+pee	pif	0.967	1.0	False	False	en:pee ≈ fr:pi ~ fr:pif
+peel	pile	0.973	1.0	False	False	en:peel ≈ fr:piles ~ fr:pile
+peel	piles	0.973	1.0	False	False	en:peel ≈ fr:pile ~ fr:piles
+peeler	piégé	0.986	1.0	False	False	en:peeler ≈ fr:pilé ~ fr:piégé
+peeler	pigé	0.983	1.0	False	False	en:peeler ≈ fr:pilé ~ fr:pigé
+peep	pipes	0.971	1.0	False	False	en:peep ≈ fr:pipe ~ fr:pipes
+peep	pipe	0.971	1.0	False	False	en:peep ≈ fr:pipes ~ fr:pipe
+penny	inégale	0.963	1.0	False	False	en:penny ≈ fr:paies nient ~ fr:inégale
+pest	pendus	0.98	1.0	False	False	en:pest ≈ fr:peste ~ fr:pendus
+pest	pourpre	0.98	1.0	False	False	en:pest ≈ fr:peste ~ fr:pourpre
+peters	pires	0.987	1.0	False	False	en:peters ~ en:peter ≈ fr:pires
+peters	pire	0.987	1.0	False	False	en:peters ~ en:peter ≈ fr:pire
+pled	plaies	0.981	1.0	False	False	en:pled ≈ fr:plaide ~ fr:plaies
+pled	poilu	0.981	1.0	False	False	en:pled ≈ fr:plaide ~ fr:poilu
+pooch	putsch	0.972	1.0	False	False	en:pooch ≈ fr:putschs ~ fr:putsch
+pool	poneys	0.975	1.0	False	False	en:pool ≈ fr:poules ~ fr:poneys
+pool	poule	0.97	1.0	False	False	en:pool ≈ fr:poules ~ fr:poule
+pool	poules	0.97	1.0	False	False	en:pool ≈ fr:poule ~ fr:poules
+poorly	polémique	0.928	1.0	False	False	en:poorly ≈ fr:polie ~ fr:polémique
+port earl	potes	0.893	1.0	True	False	en:port earl ~ en:port ≈ fr:potes
+port earl	pote	0.893	1.0	True	False	en:port earl ~ en:port ≈ fr:pote
+portly	potes	0.925	1.0	False	False	en:portly ~ en:port ≈ fr:potes
+portly	pote	0.925	1.0	False	False	en:portly ~ en:port ≈ fr:pote
+pressure	prêcher	0.978	1.0	False	False	en:pressure ≈ fr:prêche ~ fr:prêcher
+prove	prouvée	0.994	1.0	False	False	en:prove ≈ fr:prouve ~ fr:prouvée
+prove	prouvé	0.992	1.0	False	False	en:prove ≈ fr:prouve ~ fr:prouvé
+prove	prouvant	0.992	1.0	False	False	en:prove ≈ fr:prouve ~ fr:prouvant
+queen	couilles	0.959	1.0	False	False	en:queen ≈ fr:couinent ~ fr:couilles
+queen	coudes	0.948	1.0	False	False	en:queen ≈ fr:couinent ~ fr:coudes
+red aura	rouges	0.888	1.0	True	False	en:red aura ~ en:rouge ≈ fr:rouges
+rev	rêver	0.995	1.0	False	False	en:rev ≈ fr:rêvent ~ fr:rêver
+rev	rêvé	0.993	1.0	False	False	en:rev ≈ fr:rêvent ~ fr:rêvé
+rev	rêvant	0.992	1.0	False	False	en:rev ≈ fr:rêve ~ fr:rêvant
+roost	rousse	0.992	1.0	False	False	en:roost ≈ fr:rouste ~ fr:rousse
+root	route	0.978	1.0	False	False	en:root ≈ fr:routes ~ fr:route
+roulette	roulettes	0.97	1.0	False	False	en:roulette ≈ fr:roulette ~ fr:roulettes
+ruby	roux	0.947	1.0	False	False	en:ruby ≈ fr:roux bis ~ fr:roux
+rule	roulé	0.992	1.0	False	False	en:rule ≈ fr:roule ~ fr:roulé
+rule	rouvert	0.981	1.0	False	False	en:rule ≈ fr:roulent ~ fr:rouvert
+ruler	roulé	0.992	1.0	False	False	en:ruler ≈ fr:roule ~ fr:roulé
+ruler	rouvert	0.981	1.0	False	False	en:ruler ≈ fr:roulent ~ fr:rouvert
+rumen	romaine	0.939	1.0	False	False	en:rumen ≈ fr:roumaine ~ fr:romaine
+rummy	roumaine	0.958	1.0	False	False	en:rummy ~ en:rumen ≈ fr:roumaine
+rupee	rouages	0.981	1.0	False	False	en:rupee ≈ fr:roupies ~ fr:rouages
+rupee	roues	0.973	1.0	False	False	en:rupee ≈ fr:roupies ~ fr:roues
+said	délivré	0.977	1.0	False	False	en:said ≈ fr:cède ~ fr:délivré
+said	escouade	0.977	1.0	False	False	en:said ≈ fr:cède ~ fr:escouade
+scoot	scouts	0.985	1.0	False	False	en:scoot ≈ fr:scout ~ fr:scouts
+scoot	scout	0.985	1.0	False	False	en:scoot ≈ fr:scouts ~ fr:scout
+seam	cinétique	0.968	1.0	False	False	en:seam ≈ fr:cimes ~ fr:cinétique
+seat	cites	0.958	1.0	False	False	en:seat ≈ fr:cite ~ fr:cites
+seat	cite	0.958	1.0	False	False	en:seat ≈ fr:cites ~ fr:cite
+sell	verte	0.987	1.0	False	False	en:sell ≈ fr:selles ~ fr:verte
+sell	tome	0.985	1.0	False	False	en:sell ≈ fr:selle ~ fr:tome
+seller	verte	0.987	1.0	False	False	en:seller ≈ fr:selles ~ fr:verte
+sexed	sexe	0.937	1.0	False	False	en:sexed ~ en:sex ≈ fr:sexe
+share	chère	0.996	1.0	False	False	en:share ≈ fr:chères ~ fr:chère
+share	chères	0.996	1.0	False	False	en:share ≈ fr:chère ~ fr:chères
+share	caro	0.994	1.0	False	False	en:share ≈ fr:chères ~ fr:caro
+she	chienne	0.996	1.0	False	False	en:she ≈ fr:chient ~ fr:chienne
+she	chien	0.985	1.0	False	False	en:she ≈ fr:chient ~ fr:chien
+she	chie	0.973	1.0	False	False	en:she ≈ fr:chies ~ fr:chie
+sheaf	chiffré	0.955	1.0	False	False	en:sheaf ≈ fr:chiffe ~ fr:chiffré
+sheen	chinoise	0.986	1.0	False	False	en:sheen ≈ fr:chines ~ fr:chinoise
+sheen	chenal	0.965	1.0	False	False	en:sheen ≈ fr:chinent ~ fr:chenal
+shoe	piégé	0.984	1.0	False	False	en:shoe ≈ fr:choux ~ fr:piégé
+shoo	piégé	0.984	1.0	False	False	en:shoo ≈ fr:choux ~ fr:piégé
+ski	ski	0.986	1.0	False	False	en:ski ≈ fr:skis ~ fr:ski
+ski	skier	0.984	1.0	False	False	en:ski ≈ fr:skis ~ fr:skier
+skid	skis	0.973	1.0	False	False	en:skid ~ en:ski ≈ fr:skis
+smell	semence	0.948	1.0	False	False	en:smell ≈ fr:semelle ~ fr:semence
+speech	discours	0.938	1.0	False	False	en:speech ≈ fr:speechs ~ fr:discours
+sport	spot	0.975	1.0	False	False	en:sport ≈ fr:spots ~ fr:spot
+stalk	stocks	0.997	1.0	False	False	en:stalk ≈ fr:stockes ~ fr:stocks
+stalk	stock	0.989	1.0	False	False	en:stalk ≈ fr:stocke ~ fr:stock
+steal	style	0.988	1.0	False	False	en:steal ≈ fr:styles ~ fr:style
+stress	stress	0.997	1.0	False	False	en:stress ≈ fr:stresse ~ fr:stress
+sued	soudés	0.988	1.0	False	False	en:sued ≈ fr:soudent ~ fr:soudés
+sued	soudée	0.985	1.0	False	False	en:sued ≈ fr:soudent ~ fr:soudée
+sued	jugés	0.973	1.0	False	False	en:sued ≈ fr:soudes ~ fr:jugés
+sushi	hainaut chie	0.949	1.0	False	True	en:sushi ≈ fr:saoul chie ~ fr:hainaut chie
+talk	tendues	0.986	1.0	False	False	en:talk ≈ fr:tocs ~ fr:tendues
+talk	pendre	0.983	1.0	False	False	en:talk ≈ fr:tocs ~ fr:pendre
+talk	touchés	0.975	1.0	False	False	en:talk ≈ fr:toquent ~ fr:touchés
+tea	thés	0.983	1.0	False	False	en:tea ≈ fr:tee ~ fr:thés
+teat	tito	0.967	1.0	False	False	en:teat ≈ fr:tite ~ fr:tito
+technique	technique	0.985	1.0	False	False	en:technique ≈ fr:techniques ~ fr:technique
+terror	terra	0.992	1.0	False	False	en:terror ≈ fr:terre ~ fr:terra
+terror	terrestre	0.988	1.0	False	False	en:terror ≈ fr:terre ~ fr:terrestre
+toot	allen	0.994	1.0	False	False	en:toot ≈ fr:toutes ~ fr:allen
+toot	toutou	0.987	1.0	False	False	en:toot ≈ fr:toute ~ fr:toutou
+tree	tres	0.998	1.0	False	False	en:tree ≈ fr:tri ~ fr:tres
+troupe	troupeaux	0.904	1.0	False	False	en:troupe ≈ fr:troupes ~ fr:troupeaux
+troupe	bataillon	0.899	1.0	False	False	en:troupe ≈ fr:troupes ~ fr:bataillon
+truce	fourrés	0.987	1.0	False	False	en:truce ≈ fr:trousse ~ fr:fourrés
+truly	trous	0.974	1.0	False	False	en:truly ≈ fr:trous lies ~ fr:trous
+tutor	tourner	0.984	1.0	False	False	en:tutor ≈ fr:tours ~ fr:tourner
+tutor	tournée	0.982	1.0	False	False	en:tutor ≈ fr:tour ~ fr:tournée
+tutor	tourne	0.98	1.0	False	False	en:tutor ≈ fr:tour ~ fr:tourne
+vest	sait	0.991	1.0	False	False	en:vest ≈ fr:veste ~ fr:sait
+vest	sais	0.989	1.0	False	False	en:vest ≈ fr:veste ~ fr:sais
+vest	vêtue	0.969	1.0	False	False	en:vest ≈ fr:vestes ~ fr:vêtue
+vex	vends	0.969	1.0	False	False	en:vex ≈ fr:vexent ~ fr:vends
+vex	mûrs	0.968	1.0	False	False	en:vex ≈ fr:vexent ~ fr:mûrs
+vex	veaux	0.961	1.0	False	False	en:vex ≈ fr:vexes ~ fr:veaux
+we	sim	0.998	1.0	False	False	en:we ≈ fr:oui ~ fr:sim
+wee	sim	0.998	1.0	False	False	en:wee ≈ fr:oui ~ fr:sim
+wrest	rester	0.972	1.0	False	False	en:wrest ≈ fr:reste ~ fr:rester
+zest	zèle	0.984	1.0	False	False	en:zest ≈ fr:zeste ~ fr:zèle
+zest	jurassic	0.977	1.0	False	False	en:zest ≈ fr:zestes ~ fr:jurassic
+zest	sylvestre	0.976	1.0	False	False	en:zest ≈ fr:zestes ~ fr:sylvestre
+zoom	zoom	0.988	1.0	False	False	en:zoom ≈ fr:zoome ~ fr:zoom
+zoom	zoo	0.977	1.0	False	False	en:zoom ≈ fr:zooment ~ fr:zoo
+zoom	zoologique	0.974	1.0	False	False	en:zoom ≈ fr:zooment ~ fr:zoologique
+carport	capot	0.988	0.988	False	False	en:carport ≈ fr:capote ~ fr:capot
+cask	casques	0.974	0.985	False	False	en:cask ≈ fr:casque ~ fr:casques
+larvae	lavande	0.955	0.985	False	False	en:larvae ≈ fr:lavis ~ fr:lavande
+marks	maximum	0.964	0.985	False	False	en:marks ≈ fr:max ~ fr:maximum
+marks	maximale	0.958	0.985	False	False	en:marks ≈ fr:max ~ fr:maximale
+marly	malone	0.973	0.985	False	False	en:marly ≈ fr:mali ~ fr:malone
+marques	maximum	0.964	0.985	False	False	en:marques ≈ fr:max ~ fr:maximum
+marques	maximale	0.958	0.985	False	False	en:marques ≈ fr:max ~ fr:maximale
+martyr	maternelle	0.96	0.985	False	False	en:martyr ≈ fr:mater ~ fr:maternelle
+parks	pac	0.942	0.985	False	False	en:parks ≈ fr:pacs ~ fr:pac
+parky	pacs	0.971	0.985	False	False	en:parky ~ en:parks ≈ fr:pacs
+parley	pâle	0.977	0.985	False	False	en:parley ≈ fr:pâli ~ fr:pâle
+parley	pédale	0.956	0.985	False	False	en:parley ≈ fr:pâli ~ fr:pédale
+tarty	baba	0.988	0.985	False	False	en:tarty ≈ fr:tati ~ fr:baba
+tarty	tata	0.987	0.985	False	False	en:tarty ≈ fr:tati ~ fr:tata
+creature	crient chaise	0.947	0.983	False	True	en:creature ~ en:creatures ≈ fr:crient chaise
+creatures	criant	0.916	0.983	False	False	en:creatures ≈ fr:crient chaise ~ fr:criant
+detest	dis est	0.978	0.983	False	True	en:detest ≈ fr:dit est ~ fr:dis est
+detest	tas	0.972	0.983	False	False	en:detest ≈ fr:dit est ~ fr:tas
+friendly	plaisante	0.96	0.983	False	False	en:friendly ≈ fr:freinent lis ~ fr:plaisante
+meantime	âmes	0.916	0.983	False	False	en:meantime ≈ fr:minent âme ~ fr:âmes
+meantime	âme	0.91	0.983	False	False	en:meantime ≈ fr:minent âme ~ fr:âme
+meantime	soule	0.906	0.983	False	False	en:meantime ≈ fr:minent âme ~ fr:soule
+surrender	serein	0.973	0.983	False	False	en:surrender ≈ fr:serein des ~ fr:serein
+exes	excision	0.916	0.98	False	False	en:exes ≈ fr:excise ~ fr:excision
+exes	excréments	0.891	0.98	False	False	en:exes ≈ fr:excise ~ fr:excréments
+meting	réunion	0.985	0.98	False	False	en:meting ≈ fr:meeting ~ fr:réunion
+meting	réunions	0.973	0.98	False	False	en:meting ≈ fr:meeting ~ fr:réunions
+possessed	paix	0.976	0.98	False	False	en:possessed ≈ fr:paix est ~ fr:paix
+sentry	vais tri	0.957	0.98	False	True	en:sentry ≈ fr:sain tri ~ fr:vais tri
+sentry	mais tri	0.95	0.98	False	True	en:sentry ≈ fr:sain tri ~ fr:mais tri
+sentry	trie	0.95	0.98	False	False	en:sentry ≈ fr:sain tri ~ fr:trie
+tryst	tristan	0.983	0.98	False	False	en:tryst ≈ fr:triste ~ fr:tristan
+footballer	brisant	0.962	0.979	False	False	en:footballer ≈ fr:fait bolée ~ fr:brisant
+footballer	fait bol	0.957	0.979	False	True	en:footballer ≈ fr:fait bolée ~ fr:fait bol
+about	émettent	0.974	0.976	False	False	en:about ≈ fr:ébattent ~ fr:émettent
+about	étranglé	0.972	0.976	False	False	en:about ≈ fr:ébattent ~ fr:étranglé
+butler	bat quel	0.96	0.976	False	True	en:butler ≈ fr:bat les ~ fr:bat quel
+coot of	cassette	0.942	0.976	True	False	en:coot of ~ en:cosset ≈ fr:cassette
+cosset	cassettes	0.968	0.976	False	False	en:cosset ≈ fr:cassette ~ fr:cassettes
+creamy	criminel	0.973	0.976	False	False	en:creamy ≈ fr:crimée ~ fr:criminel
+creamy	criminalité	0.973	0.976	False	False	en:creamy ≈ fr:crimée ~ fr:criminalité
+creepy	mœurs	0.974	0.976	False	False	en:creepy ≈ fr:crépi ~ fr:mœurs
+forepeak	phobie	0.895	0.976	False	False	en:forepeak ≈ fr:phobique ~ fr:phobie
+landlord	rhin tes	0.915	0.976	False	True	en:landlord ~ en:renter ≈ fr:rhin tes
+pesty	vautour	0.928	0.976	False	False	en:pesty ≈ fr:pester ~ fr:vautour
+possess	paix	0.966	0.976	False	False	en:possess ≈ fr:paix ace ~ fr:paix
+renter	raies lis	0.968	0.976	False	True	en:renter ≈ fr:rhin tes ~ fr:raies lis
+rusher	recettes	0.96	0.976	False	False	en:rusher ~ en:russet ≈ fr:recettes
+sensor	reçois	0.973	0.976	False	False	en:sensor ≈ fr:sain ses ~ fr:reçois
+sensors	sain ses	0.975	0.976	False	True	en:sensors ~ en:sensor ≈ fr:sain ses
+setup	haché	0.941	0.976	False	False	en:setup ≈ fr:sait happe ~ fr:haché
+setup	hache	0.941	0.976	False	False	en:setup ≈ fr:sait happe ~ fr:hache
+tender	tain paul	0.966	0.976	False	True	en:tender ≈ fr:tain des ~ fr:tain paul
+tender	tain	0.96	0.976	False	False	en:tender ≈ fr:tain des ~ fr:tain
+treader	traités	0.981	0.976	False	False	en:treader ≈ fr:traité ~ fr:traités
+treader	traitées	0.966	0.976	False	False	en:treader ≈ fr:traité ~ fr:traitées
+treader	traitée	0.961	0.976	False	False	en:treader ≈ fr:traité ~ fr:traitée
+vender	vin	0.967	0.976	False	False	en:vender ≈ fr:vin des ~ fr:vin
+vendor	vin	0.967	0.976	False	False	en:vendor ≈ fr:vin des ~ fr:vin
+vendors	vin des	0.97	0.976	False	True	en:vendors ~ en:vendor ≈ fr:vin des
+benny	bénir	0.979	0.975	False	False	en:benny ≈ fr:béni ~ fr:bénir
+benny	bénis	0.977	0.975	False	False	en:benny ≈ fr:béni ~ fr:bénis
+benny	bénin	0.975	0.975	False	False	en:benny ≈ fr:béni ~ fr:bénin
+bloc	blocus	0.968	0.975	False	False	en:bloc ≈ fr:bloc ~ fr:blocus
+clawed	claudel	0.964	0.975	False	False	en:clawed ≈ fr:claude ~ fr:claudel
+clawed	claudia	0.963	0.975	False	False	en:clawed ≈ fr:claude ~ fr:claudia
+crick	crète	0.968	0.975	False	False	en:crick ≈ fr:crique ~ fr:crète
+crick	croque	0.954	0.975	False	False	en:crick ~ en:crock ≈ fr:croque
+deli	délits	0.98	0.975	False	False	en:deli ≈ fr:délit ~ fr:délits
+ecru	écrase	0.964	0.975	False	False	en:ecru ≈ fr:écrou ~ fr:écrase
+ecru	écarlate	0.959	0.975	False	False	en:ecru ≈ fr:écrou ~ fr:écarlate
+ecru	écume	0.956	0.975	False	False	en:ecru ≈ fr:écrou ~ fr:écume
+fella	piégée	0.966	0.975	False	False	en:fella ≈ fr:fêlé ~ fr:piégée
+fellah	piégée	0.966	0.975	False	False	en:fellah ≈ fr:fêlé ~ fr:piégée
+feller	piégée	0.966	0.975	False	False	en:feller ≈ fr:fêlé ~ fr:piégée
+frock	frotte	0.969	0.975	False	False	en:frock ≈ fr:froc ~ fr:frotte
+grille	griller	0.953	0.975	False	False	en:grille ≈ fr:grill ~ fr:griller
+grille	barbecue	0.945	0.975	False	False	en:grille ≈ fr:grill ~ fr:barbecue
+kopje	copies	0.963	0.975	False	False	en:kopje ≈ fr:copie ~ fr:copies
+peppy	pépé	0.966	0.975	False	False	en:peppy ≈ fr:pépie ~ fr:pépé
+pillar	piégé	0.973	0.975	False	False	en:pillar ≈ fr:pilé ~ fr:piégé
+pillar	pigé	0.971	0.975	False	False	en:pillar ≈ fr:pilé ~ fr:pigé
+sherry	chéri	0.985	0.975	False	False	en:sherry ≈ fr:chérie ~ fr:chéri
+sorta	sauts	0.97	0.975	False	False	en:sorta ≈ fr:sauter ~ fr:sauts
+sorta	saute	0.966	0.975	False	False	en:sorta ≈ fr:sauter ~ fr:saute
+sorta	sautant	0.965	0.975	False	False	en:sorta ≈ fr:sauter ~ fr:sautant
+sorter	sauts	0.97	0.975	False	False	en:sorter ≈ fr:sauter ~ fr:sauts
+sorter	saute	0.966	0.975	False	False	en:sorter ≈ fr:sauter ~ fr:saute
+sorter	sautant	0.965	0.975	False	False	en:sorter ≈ fr:sauter ~ fr:sautant
+teller	télévisions	0.98	0.975	False	False	en:teller ≈ fr:télé ~ fr:télévisions
+teller	télévision	0.979	0.975	False	False	en:teller ≈ fr:télé ~ fr:télévision
+teller	télévisé	0.977	0.975	False	False	en:teller ≈ fr:télé ~ fr:télévisé
+trot	trot	0.975	0.975	False	False	en:trot ≈ fr:trotte ~ fr:trot
+destroyed	préjugés	0.894	0.973	False	False	en:destroyed ≈ fr:dissent rhodes ~ fr:préjugés
+destroyed	dénoncés	0.888	0.973	False	False	en:destroyed ≈ fr:dissent rhodes ~ fr:dénoncés
+destroyed	ressent	0.883	0.973	False	False	en:destroyed ≈ fr:dissent rhodes ~ fr:ressent
+beanie	bénir	0.976	0.97	False	False	en:beanie ≈ fr:béni ~ fr:bénir
+boarders	body	0.958	0.97	False	False	en:boarders ~ en:boarder ≈ fr:body
+breve	prévient	0.957	0.97	False	False	en:breve ≈ fr:prive ~ fr:prévient
+breve	prévenu	0.953	0.97	False	False	en:breve ≈ fr:prive ~ fr:prévenu
+brewed	brousse	0.941	0.97	False	False	en:brewed ~ en:brews ≈ fr:brousse
+broch	braque	0.951	0.97	False	False	en:broch ~ en:brock ≈ fr:braque
+brock	braque	0.951	0.97	False	False	en:brock ~ en:broch ≈ fr:braque
+broom	bruyante	0.968	0.97	False	False	en:broom ≈ fr:brume ~ fr:bruyante
+budge	badges	0.965	0.97	False	False	en:budge ≈ fr:badge ~ fr:badges
+busk	basques	0.98	0.97	False	False	en:busk ≈ fr:basque ~ fr:basques
+butter	beautés	0.974	0.97	False	False	en:butter ≈ fr:beauté ~ fr:beautés
+butty	bâtit	0.966	0.97	False	False	en:butty ≈ fr:bâti ~ fr:bâtit
+butty	bâtard	0.963	0.97	False	False	en:butty ≈ fr:bâti ~ fr:bâtard
+butty	bâtons	0.962	0.97	False	False	en:butty ≈ fr:bâti ~ fr:bâtons
+chat	chats	0.965	0.97	False	False	en:chat ≈ fr:chat ~ fr:chats
+chat	chatte	0.958	0.97	False	False	en:chat ≈ fr:chat ~ fr:chatte
+cocky	pieds	0.968	0.97	False	False	en:cocky ≈ fr:kaki ~ fr:pieds
+combe	commettre	0.976	0.97	False	False	en:combe ≈ fr:commet ~ fr:commettre
+cotta	côtés	0.97	0.97	False	False	en:cotta ≈ fr:côté ~ fr:côtés
+cottar	côtés	0.97	0.97	False	False	en:cottar ≈ fr:côté ~ fr:côtés
+cotter	côtés	0.97	0.97	False	False	en:cotter ≈ fr:côté ~ fr:côtés
+crass	grèce	0.955	0.97	False	False	en:crass ~ en:cress ≈ fr:grèce
+creel	griller	0.95	0.97	False	False	en:creel ≈ fr:grill ~ fr:griller
+creel	barbecue	0.942	0.97	False	False	en:creel ≈ fr:grill ~ fr:barbecue
+cress	grès	0.979	0.97	False	False	en:cress ≈ fr:grèce ~ fr:grès
+cruet	crack	0.964	0.97	False	False	en:cruet ~ en:cruck ≈ fr:crack
+crus	créneaux	0.944	0.97	False	False	en:crus ≈ fr:crous ~ fr:créneaux
+cupped	capter	0.935	0.97	False	False	en:cupped ≈ fr:capte ~ fr:capter
+cutter	côtés	0.97	0.97	False	False	en:cutter ≈ fr:côté ~ fr:côtés
+demy	kay	0.967	0.97	False	False	en:demy ≈ fr:demi ~ fr:kay
+dory	dorée	0.958	0.97	False	False	en:dory ≈ fr:doré ~ fr:dorée
+dram	drames	0.98	0.97	False	False	en:dram ≈ fr:drame ~ fr:drames
+drupe	troupe	0.964	0.97	False	False	en:drupe ≈ fr:troupes ~ fr:troupe
+drupe	troupeaux	0.889	0.97	False	False	en:drupe ≈ fr:troupes ~ fr:troupeaux
+drupe	bataillon	0.884	0.97	False	False	en:drupe ≈ fr:troupes ~ fr:bataillon
+easel	insulaires	0.964	0.97	False	False	en:easel ≈ fr:isole ~ fr:insulaires
+faller	désirer	0.969	0.97	False	False	en:faller ≈ fr:voler ~ fr:désirer
+faller	voulu	0.965	0.97	False	False	en:faller ≈ fr:voler ~ fr:voulu
+feeder	vidé	0.969	0.97	False	False	en:feeder ≈ fr:vider ~ fr:vidé
+fessed	sait	0.976	0.97	False	False	en:fessed ≈ fr:veste ~ fr:sait
+fessed	sais	0.974	0.97	False	False	en:fessed ≈ fr:veste ~ fr:sais
+flak	bouteille	0.934	0.97	False	False	en:flak ≈ fr:flaque ~ fr:bouteille
+flam	flamme	0.979	0.97	False	False	en:flam ≈ fr:flammes ~ fr:flamme
+flan	fléau	0.951	0.97	False	False	en:flan ≈ fr:flâne ~ fr:fléau
+floored	melissa	0.97	0.97	False	False	en:floored ≈ fr:flotte ~ fr:melissa
+flute	flandre	0.928	0.97	False	False	en:flute ≈ fr:flûte ~ fr:flandre
+frill	frêne	0.961	0.97	False	False	en:frill ≈ fr:frêle ~ fr:frêne
+kauri	corey	0.959	0.97	False	False	en:kauri ≈ fr:corée ~ fr:corey
+laddie	liée	0.966	0.97	False	False	en:laddie ≈ fr:lesdits ~ fr:liée
+lassie	lisieux	0.959	0.97	False	False	en:lassie ≈ fr:lacis ~ fr:lisieux
+latter	pareillement	0.952	0.97	False	False	en:latter ≈ fr:latter ~ fr:pareillement
+looby	aimez	0.968	0.97	False	False	en:looby ≈ fr:lubie ~ fr:aimez
+macks	maximum	0.957	0.97	False	False	en:macks ≈ fr:max ~ fr:maximum
+macks	maximale	0.95	0.97	False	False	en:macks ≈ fr:max ~ fr:maximale
+macs	maximum	0.957	0.97	False	False	en:macs ≈ fr:max ~ fr:maximum
+macs	maximale	0.95	0.97	False	False	en:macs ≈ fr:max ~ fr:maximale
+madder	médoc	0.911	0.97	False	False	en:madder ≈ fr:médée ~ fr:médoc
+mallee	malone	0.966	0.97	False	False	en:mallee ≈ fr:mali ~ fr:malone
+masher	mâchoires	0.968	0.97	False	False	en:masher ≈ fr:mâcher ~ fr:mâchoires
+masque	masqué	0.975	0.97	False	False	en:masque ≈ fr:masque ~ fr:masqué
+masque	masqués	0.962	0.97	False	False	en:masque ≈ fr:masque ~ fr:masqués
+mealy	midi	0.944	0.97	False	False	en:mealy ~ en:meaty ≈ fr:midi
+moony	munir	0.964	0.97	False	False	en:moony ≈ fr:muni ~ fr:munir
+noil	tania	0.965	0.97	False	False	en:noil ≈ fr:noël ~ fr:tania
+noil	nrj	0.965	0.97	False	False	en:noil ≈ fr:noël ~ fr:nrj
+packs	pac	0.935	0.97	False	False	en:packs ≈ fr:pacs ~ fr:pac
+packs	paca	0.923	0.97	False	False	en:packs ≈ fr:pacs ~ fr:paca
+paddy	papy	0.897	0.97	False	False	en:paddy ~ en:pappy ≈ fr:papy
+pally	pâle	0.969	0.97	False	False	en:pally ≈ fr:pâli ~ fr:pâle
+pally	pédale	0.949	0.97	False	False	en:pally ≈ fr:pâli ~ fr:pédale
+pappy	papes	0.94	0.97	False	False	en:pappy ≈ fr:papy ~ fr:papes
+pappy	paie	0.931	0.97	False	False	en:pappy ≈ fr:papy ~ fr:paie
+pappy	péter	0.911	0.97	False	False	en:pappy ~ en:patter ≈ fr:péter
+pasha	péchés	0.971	0.97	False	False	en:pasha ≈ fr:péché ~ fr:péchés
+pasha	pécheurs	0.967	0.97	False	False	en:pasha ≈ fr:péché ~ fr:pécheurs
+passport	nestlé	0.947	0.97	False	False	en:passport ≈ fr:pas pote ~ fr:nestlé
+pattie	chanvre	0.947	0.97	False	False	en:pattie ≈ fr:pâtit ~ fr:chanvre
+patty	chanvre	0.947	0.97	False	False	en:patty ≈ fr:pâtit ~ fr:chanvre
+pax	pac	0.935	0.97	False	False	en:pax ≈ fr:pacs ~ fr:pac
+pax	paca	0.923	0.97	False	False	en:pax ≈ fr:pacs ~ fr:paca
+pluck	plaques	0.962	0.97	False	False	en:pluck ≈ fr:plaque ~ fr:plaques
+pluck	plaquer	0.946	0.97	False	False	en:pluck ≈ fr:plaque ~ fr:plaquer
+prev	prouvant	0.971	0.97	False	False	en:prev ≈ fr:preuve ~ fr:prouvant
+prev	preuves	0.97	0.97	False	False	en:prev ≈ fr:preuve ~ fr:preuves
+rale	véritable	0.974	0.97	False	False	en:rale ≈ fr:réel ~ fr:véritable
+rale	réelle	0.972	0.97	False	False	en:rale ≈ fr:réel ~ fr:réelle
+rapped	rappeur	0.93	0.97	False	False	en:rapped ≈ fr:rapt ~ fr:rappeur
+reckon	crête	0.912	0.97	False	False	en:reckon ~ en:cred ≈ fr:crête
+recoup	reculer	0.966	0.97	False	False	en:recoup ≈ fr:recoupe ~ fr:reculer
+recoup	reprenez	0.964	0.97	False	False	en:recoup ≈ fr:recoupe ~ fr:reprenez
+ruddy	redoute	0.94	0.97	False	False	en:ruddy ≈ fr:redis ~ fr:redoute
+ruder	doté	0.938	0.97	False	False	en:ruder ~ en:tauter ≈ fr:doté
+runny	renan	0.94	0.97	False	False	en:runny ≈ fr:renie ~ fr:renan
+sealer	scellés	0.98	0.97	False	False	en:sealer ≈ fr:scellé ~ fr:scellés
+sealer	saigné	0.975	0.97	False	False	en:sealer ≈ fr:scellé ~ fr:saigné
+sealer	crevé	0.972	0.97	False	False	en:sealer ≈ fr:scellé ~ fr:crevé
+sheila	chilien	0.854	0.97	False	False	en:sheila ≈ fr:chili ~ fr:chilien
+silt	celtique	0.968	0.97	False	False	en:silt ≈ fr:celtes ~ fr:celtique
+silt	celtic	0.963	0.97	False	False	en:silt ≈ fr:celtes ~ fr:celtic
+suitor	soudain	0.971	0.97	False	False	en:suitor ≈ fr:soudé ~ fr:soudain
+tardy	daté	0.967	0.97	False	False	en:tardy ≈ fr:tandis ~ fr:daté
+tawny	tonnerre	0.94	0.97	False	False	en:tawny ≈ fr:tonner ~ fr:tonnerre
+teepee	titi	0.938	0.97	False	False	en:teepee ~ en:teeter ≈ fr:titi
+teeter	tit	0.963	0.97	False	False	en:teeter ≈ fr:titi ~ fr:tit
+tooter	doyen	0.937	0.97	False	False	en:tooter ≈ fr:douter ~ fr:doyen
+tooter	douillet	0.934	0.97	False	False	en:tooter ≈ fr:douter ~ fr:douillet
+tourney	tonnerre	0.94	0.97	False	False	en:tourney ≈ fr:tonner ~ fr:tonnerre
+trews	fourrés	0.972	0.97	False	False	en:trews ≈ fr:trousse ~ fr:fourrés
+truss	trace	0.937	0.97	False	False	en:truss ≈ fr:traces ~ fr:trace
+verey	vertu	0.967	0.97	False	False	en:verey ≈ fr:verrez ~ fr:vertu
+verey	verrou	0.965	0.97	False	False	en:verey ≈ fr:verrez ~ fr:verrou
+vita	vidé	0.969	0.97	False	False	en:vita ≈ fr:vider ~ fr:vidé
+wrapped	rappeur	0.93	0.97	False	False	en:wrapped ≈ fr:rapt ~ fr:rappeur
+designers	dis année	0.964	0.969	False	True	en:designers ~ en:designer ≈ fr:dis année
+disagree	appât	0.964	0.969	False	False	en:disagree ≈ fr:dis aigri ~ fr:appât
+disagree	têtu	0.963	0.969	False	False	en:disagree ≈ fr:dis aigri ~ fr:têtu
+disprove	prouvée	0.961	0.969	False	False	en:disprove ≈ fr:dis prouve ~ fr:prouvée
+dynasty	dîners	0.96	0.969	False	False	en:dynasty ≈ fr:dîners tee ~ fr:dîners
+exotic	exactement	0.954	0.969	False	False	en:exotic ≈ fr:exact hic ~ fr:exactement
+exotic	précisément	0.948	0.969	False	False	en:exotic ≈ fr:exact hic ~ fr:précisément
+could	coudes	0.961	0.967	False	False	en:could ≈ fr:coude ~ fr:coudes
+could	courge	0.959	0.967	False	False	en:could ≈ fr:coude ~ fr:courge
+could	courbe	0.956	0.967	False	False	en:could ≈ fr:coude ~ fr:courbe
+central	con troll	0.959	0.966	False	True	en:central ≈ fr:sain troll ~ fr:con troll
+customer	aiment aimes	0.969	0.966	False	True	en:customer ≈ fr:cassent aimé ~ fr:aiment aimes
+customer	aimés	0.965	0.966	False	False	en:customer ≈ fr:cassent aimé ~ fr:aimés
+customer	adorée	0.96	0.966	False	False	en:customer ≈ fr:cassent aimé ~ fr:adorée
+reservoir	voir	0.968	0.966	False	False	en:reservoir ≈ fr:raies vois ~ fr:voir
+reservoir	vois	0.964	0.966	False	False	en:reservoir ≈ fr:raies vois ~ fr:vois
+reservoir	velo	0.964	0.966	False	False	en:reservoir ≈ fr:raies vois ~ fr:velo
+semester	pris ci	0.962	0.966	False	True	en:semester ≈ fr:sommets tes ~ fr:pris ci
+suggest	connaissant	0.928	0.966	False	False	en:suggest ≈ fr:sait geste ~ fr:connaissant
+suggest	geste	0.924	0.966	False	False	en:suggest ≈ fr:sait geste ~ fr:geste
+faster	graisses	0.955	0.964	False	False	en:faster ≈ fr:fats tes ~ fr:graisses
+master	ste	0.93	0.964	False	False	en:master ≈ fr:mas tes ~ fr:ste
+partly	batte	0.959	0.964	False	False	en:partly ≈ fr:bat lis ~ fr:batte
+partly	bat	0.949	0.964	False	False	en:partly ≈ fr:bat lis ~ fr:bat
+divvy	devenez	0.968	0.963	False	False	en:divvy ≈ fr:devis ~ fr:devenez
+fortress	punaise	0.927	0.963	False	False	en:fortress ≈ fr:faut rosse ~ fr:punaise
+pentagon	gagne	0.919	0.963	False	False	en:pentagon ≈ fr:peinent gaine ~ fr:gagne
+pentagon	gaine	0.91	0.963	False	False	en:pentagon ≈ fr:peinent gaine ~ fr:gaine
+result	halte	0.968	0.963	False	False	en:result ≈ fr:ries halte ~ fr:halte
+result	stoppé	0.961	0.963	False	False	en:result ≈ fr:ries halte ~ fr:stoppé
+result	arrêts	0.96	0.963	False	False	en:result ≈ fr:ries halte ~ fr:arrêts
+triply	triple	0.959	0.963	False	False	en:triply ≈ fr:triplé ~ fr:triple
+wheeler	piégé	0.966	0.963	False	False	en:wheeler ≈ fr:huilé ~ fr:piégé
+can	canet	0.894	0.96	False	False	en:can ≈ fr:cane ~ fr:canet
+confess	fesses	0.944	0.96	False	False	en:confess ≈ fr:con fesses ~ fr:fesses
+confess	fesse	0.935	0.96	False	False	en:confess ≈ fr:con fesses ~ fr:fesse
+custom	cessent homme	0.948	0.96	False	True	en:custom ≈ fr:cassent homme ~ fr:cessent homme
+decorative	décret	0.948	0.96	False	False	en:decorative ≈ fr:décret ive ~ fr:décret
+decorative	décrets	0.934	0.96	False	False	en:decorative ≈ fr:décret ive ~ fr:décrets
+feedback	bacs	0.947	0.96	False	False	en:feedback ≈ fr:fient bac ~ fr:bacs
+feedback	bac	0.942	0.96	False	False	en:feedback ≈ fr:fient bac ~ fr:bac
+firstly	lignée	0.903	0.96	False	False	en:firstly ≈ fr:foncent lis ~ fr:lignée
+firstly	liqueur	0.884	0.96	False	False	en:firstly ≈ fr:foncent lis ~ fr:liqueur
+instructor	tracteurs	0.896	0.96	False	False	en:instructor ≈ fr:haines tracter ~ fr:tracteurs
+legion	rient gêne	0.958	0.96	False	True	en:legion ≈ fr:lient gêne ~ fr:rient gêne
+legion	gêné	0.957	0.96	False	False	en:legion ≈ fr:lient gêne ~ fr:gêné
+lyric	lyre	0.946	0.96	False	False	en:lyric ≈ fr:lyrique ~ fr:lyre
+mattress	punaise	0.955	0.96	False	False	en:mattress ≈ fr:mat rosse ~ fr:punaise
+medicine	scène	0.933	0.96	False	False	en:medicine ≈ fr:met scène ~ fr:scène
+medicine	scènes	0.908	0.96	False	False	en:medicine ≈ fr:met scène ~ fr:scènes
+mention	chaîne	0.929	0.96	False	False	en:mention ≈ fr:main chaîne ~ fr:chaîne
+mention	chaînes	0.899	0.96	False	False	en:mention ≈ fr:main chaîne ~ fr:chaînes
+metric	apparaît	0.959	0.96	False	False	en:metric ≈ fr:met reg ~ fr:apparaît
+metric	sauf	0.957	0.96	False	False	en:metric ≈ fr:met reg ~ fr:sauf
+not	nat	0.965	0.96	False	False	en:not ≈ fr:natte ~ fr:nat
+obsessed	este	0.945	0.96	False	False	en:obsessed ≈ fr:aubes est ~ fr:este
+out	hâte	0.975	0.96	False	False	en:out ≈ fr:hâtes ~ fr:hâte
+out	doigt	0.967	0.96	False	False	en:out ≈ fr:hâtent ~ fr:doigt
+out	pourpre	0.966	0.96	False	False	en:out ≈ fr:hâtent ~ fr:pourpre
+precess	princess	0.972	0.96	False	False	en:precess ≈ fr:princesse ~ fr:princess
+reason	ouah	0.965	0.96	False	False	en:reason ~ en:why ≈ fr:ouah
+registry	fouilles	0.912	0.96	False	False	en:registry ≈ fr:raids stries ~ fr:fouilles
+registry	raides	0.912	0.96	False	False	en:registry ≈ fr:raids stries ~ fr:raides
+restored	rives	0.931	0.96	False	False	en:restored ≈ fr:rincent ode ~ fr:rives
+sensor	sain seize	0.967	0.96	False	True	en:sensor ~ en:sensors ≈ fr:sain seize
+sensors	gagnée	0.893	0.96	False	False	en:sensors ≈ fr:sain seize ~ fr:gagnée
+streaked	strict	0.936	0.96	False	False	en:streaked ~ en:streaks ≈ fr:strict
+teachers	sain dit chaise	0.959	0.96	False	True	en:teachers ≈ fr:dit chaise ~ fr:sain dit chaise
+what	watts	0.969	0.96	False	False	en:what ≈ fr:watt ~ fr:watts
+preferably	répondant	0.935	0.959	False	False	en:preferably ≈ fr:prêt repli ~ fr:répondant
+preferably	répondez	0.932	0.959	False	False	en:preferably ≈ fr:prêt repli ~ fr:répondez
+sweating	souhait	0.958	0.958	False	False	en:sweating ≈ fr:souhait in ~ fr:souhait
+sweating	souhaite	0.955	0.958	False	False	en:sweating ≈ fr:souhait in ~ fr:souhaite
+volatile	volet	0.948	0.958	False	False	en:volatile ≈ fr:volet al ~ fr:volet
+active	actives	0.967	0.956	False	False	en:active ≈ fr:active ~ fr:actives
+active	actif	0.945	0.956	False	False	en:active ≈ fr:active ~ fr:actif
+cecal	estimées	0.954	0.956	False	False	en:cecal ≈ fr:séquelles ~ fr:estimées
+centaur	taux	0.938	0.956	False	False	en:centaur ≈ fr:sain taux ~ fr:taux
+centaur	main taux	0.929	0.956	False	True	en:centaur ≈ fr:sain taux ~ fr:main taux
+mature	chaud	0.962	0.956	False	False	en:mature ≈ fr:met chaud ~ fr:chaud
+mature	chaudement	0.957	0.956	False	False	en:mature ≈ fr:met chaud ~ fr:chaudement
+mentor	taux	0.95	0.956	False	False	en:mentor ≈ fr:main taux ~ fr:taux
+mentor	sain taux	0.929	0.956	False	True	en:mentor ≈ fr:main taux ~ fr:sain taux
+mentor	pris	0.929	0.956	False	False	en:mentor ≈ fr:main taux ~ fr:pris
+octave	actives	0.967	0.956	False	False	en:octave ≈ fr:active ~ fr:actives
+octave	actif	0.945	0.956	False	False	en:octave ≈ fr:active ~ fr:actif
+octave	activement	0.934	0.956	False	False	en:octave ≈ fr:active ~ fr:activement
+pennies	pénis	0.92	0.956	False	False	en:pennies ~ en:pennis ≈ fr:pénis
+rennet	pluie	0.911	0.956	False	False	en:rennet ≈ fr:rainette ~ fr:pluie
+rennet	pluvieux	0.91	0.956	False	False	en:rennet ≈ fr:rainette ~ fr:pluvieux
+rennet	rain	0.906	0.956	False	False	en:rennet ≈ fr:rainette ~ fr:rain
+tesla	déchiffrer	0.927	0.956	False	False	en:tesla ≈ fr:déceler ~ fr:déchiffrer
+tesla	détriment	0.917	0.956	False	False	en:tesla ≈ fr:déceler ~ fr:détriment
+carter	gâchette	0.929	0.955	False	False	en:carter ≈ fr:gâté ~ fr:gâchette
+carter	gâché	0.914	0.955	False	False	en:carter ≈ fr:gâté ~ fr:gâché
+catarrh	quota	0.951	0.955	False	False	en:catarrh ≈ fr:quotas ~ fr:quota
+larder	pareillement	0.945	0.955	False	False	en:larder ≈ fr:latter ~ fr:pareillement
+lardy	lisieux	0.913	0.955	False	False	en:lardy ≈ fr:lattis ~ fr:lisieux
+marshy	magique	0.966	0.955	False	False	en:marshy ≈ fr:magie ~ fr:magique
+marshy	magiques	0.961	0.955	False	False	en:marshy ≈ fr:magie ~ fr:magiques
+parlor	croît	0.961	0.955	False	False	en:parlor ≈ fr:palais ~ fr:croît
+parlor	situés	0.96	0.955	False	False	en:parlor ≈ fr:palais ~ fr:situés
+parlour	croît	0.961	0.955	False	False	en:parlour ≈ fr:palais ~ fr:croît
+parlour	situés	0.96	0.955	False	False	en:parlour ≈ fr:palais ~ fr:situés
+policeman	policier	0.933	0.955	False	False	en:policeman ≈ fr:polis mène ~ fr:policier
+policeman	policière	0.922	0.955	False	False	en:policeman ≈ fr:polis mène ~ fr:policière
+policeman	policiers	0.916	0.955	False	False	en:policeman ≈ fr:polis mène ~ fr:policiers
+recruit	recruter	0.955	0.955	False	False	en:recruit ≈ fr:recrute ~ fr:recruter
+recruit	recruteur	0.946	0.955	False	False	en:recruit ≈ fr:recrute ~ fr:recruteur
+basket	enlevés	0.924	0.954	False	False	en:basket ≈ fr:bas quitte ~ fr:enlevés
+basket	partir	0.92	0.954	False	False	en:basket ≈ fr:bas quitte ~ fr:partir
+basketball	fougueux	0.915	0.954	False	False	en:basketball ≈ fr:masquent bol ~ fr:fougueux
+basketball	stupéfait	0.912	0.954	False	False	en:basketball ≈ fr:masquent bol ~ fr:stupéfait
+portrayed	raid	0.873	0.954	False	False	en:portrayed ≈ fr:pot raid ~ fr:raid
+portrayed	raides	0.855	0.954	False	False	en:portrayed ≈ fr:pot raid ~ fr:raides
+portrayed	raids	0.852	0.954	False	False	en:portrayed ≈ fr:pot raid ~ fr:raids
+transcript	ronge	0.88	0.954	False	False	en:transcript ≈ fr:train script ~ fr:ronge
+distributor	contredire	0.909	0.953	False	False	en:distributor ≈ fr:dissent rebuter ~ fr:contredire
+distributor	contredit	0.906	0.953	False	False	en:distributor ≈ fr:dissent rebuter ~ fr:contredit
+sweetheart	hâte	0.895	0.953	False	False	en:sweetheart ≈ fr:suit hâte ~ fr:hâte
+sweetheart	pressée	0.893	0.953	False	False	en:sweetheart ≈ fr:suit hâte ~ fr:pressée
+about	épi	0.957	0.952	False	False	en:about ≈ fr:épate ~ fr:épi
+bawdy	poterie	0.963	0.952	False	False	en:bawdy ~ en:bawdry ≈ fr:poterie
+breech	ponte	0.972	0.952	False	False	en:breech ≈ fr:bridge ~ fr:ponte
+busty	ondes	0.933	0.952	False	False	en:busty ≈ fr:bas tee ~ fr:ondes
+canal	ndiaye	0.916	0.952	False	False	en:canal ≈ fr:quenelle ~ fr:ndiaye
+canal	teresa	0.912	0.952	False	False	en:canal ≈ fr:quenelle ~ fr:teresa
+caressed	caresse	0.944	0.952	False	False	en:caressed ~ en:caress ≈ fr:caresse
+corset	dej	0.96	0.952	False	False	en:corset ≈ fr:concède ~ fr:dej
+corset	rendre	0.959	0.952	False	False	en:corset ≈ fr:concède ~ fr:rendre
+dancer	vais	0.932	0.952	False	False	en:dancer ≈ fr:tan ses ~ fr:vais
+dancer	savais	0.931	0.952	False	False	en:dancer ≈ fr:tan ses ~ fr:savais
+deacon	devenant	0.908	0.952	False	False	en:deacon ≈ fr:déconne ~ fr:devenant
+deport	dédie	0.963	0.952	False	False	en:deport ≈ fr:dépote ~ fr:dédie
+dislike	lacs	0.928	0.952	False	False	en:dislike ≈ fr:dis lac ~ fr:lacs
+dusty	los	0.929	0.952	False	False	en:dusty ≈ fr:des tee ~ fr:los
+eat auric	historiques	0.972	0.952	True	False	en:eat auric ≈ fr:historique ~ fr:historiques
+eat auric	historique	0.972	0.952	True	False	en:eat auric ≈ fr:historiques ~ fr:historique
+fastest	répit lis	0.916	0.952	False	True	en:fastest ~ en:rapidly ≈ fr:répit lis
+fender	vin	0.955	0.952	False	False	en:fender ≈ fr:vin des ~ fr:vin
+freebie	frégate	0.955	0.952	False	False	en:freebie ≈ fr:fripé ~ fr:frégate
+freebie	friche	0.95	0.952	False	False	en:freebie ≈ fr:fripé ~ fr:friche
+freebie	frere	0.949	0.952	False	False	en:freebie ≈ fr:fripé ~ fr:frere
+freely	fribourg	0.95	0.952	False	False	en:freely ≈ fr:frileux ~ fr:fribourg
+leaders	redouté	0.95	0.952	False	False	en:leaders ≈ fr:lient aise ~ fr:redouté
+meted	met lis	0.872	0.952	False	True	en:meted ~ en:meetly ≈ fr:met lis
+misty	teen	0.912	0.952	False	False	en:misty ≈ fr:mais tee ~ fr:teen
+needed	nids	0.921	0.952	False	False	en:needed ≈ fr:nid aide ~ fr:nids
+needed	nid	0.917	0.952	False	False	en:needed ≈ fr:nid aide ~ fr:nid
+needing	nid aide	0.944	0.952	False	True	en:needing ~ en:needed ≈ fr:nid aide
+needle	nid	0.936	0.952	False	False	en:needle ≈ fr:nid elle ~ fr:nid
+needle	madère	0.935	0.952	False	False	en:needle ≈ fr:nid elle ~ fr:madère
+ought eel	hostiles	0.965	0.952	True	False	en:ought eel ≈ fr:hostile ~ fr:hostiles
+ought eel	hostile	0.965	0.952	True	False	en:ought eel ≈ fr:hostiles ~ fr:hostile
+pizza	peut	0.956	0.952	False	False	en:pizza ≈ fr:peut ses ~ fr:peut
+pizza	pouvez	0.954	0.952	False	False	en:pizza ≈ fr:peut ses ~ fr:pouvez
+pizza	peux	0.953	0.952	False	False	en:pizza ≈ fr:peut ses ~ fr:peux
+pursuit	pau	0.909	0.952	False	False	en:pursuit ≈ fr:paix août ~ fr:pau
+pursuit	paix	0.908	0.952	False	False	en:pursuit ≈ fr:paix août ~ fr:paix
+rapidly	répit	0.957	0.952	False	False	en:rapidly ≈ fr:répit lis ~ fr:répit
+rotten	rat	0.917	0.952	False	False	en:rotten ≈ fr:rat haine ~ fr:rat
+rotten	rats	0.909	0.952	False	False	en:rotten ≈ fr:rat haine ~ fr:rats
+rotter	rat haine	0.946	0.952	False	True	en:rotter ~ en:rotten ≈ fr:rat haine
+screwed	sceptre	0.94	0.952	False	False	en:screwed ≈ fr:scrute ~ fr:sceptre
+seaport	gamin	0.955	0.952	False	False	en:seaport ≈ fr:chipote ~ fr:gamin
+stree	strip	0.931	0.952	False	False	en:stree ~ en:strep ≈ fr:strip
+subtle	sauté	0.901	0.952	False	False	en:subtle ≈ fr:saut elle ~ fr:sauté
+tinder	tain paul	0.954	0.952	False	True	en:tinder ≈ fr:tain des ~ fr:tain paul
+tinder	tain	0.948	0.952	False	False	en:tinder ≈ fr:tain des ~ fr:tain
+toddler	tôt	0.955	0.952	False	False	en:toddler ≈ fr:tôt les ~ fr:tôt
+trashy	traînée	0.954	0.952	False	False	en:trashy ≈ fr:trachée ~ fr:traînée
+trashy	trahis	0.954	0.952	False	False	en:trashy ≈ fr:trachée ~ fr:trahis
+why	résonne	0.961	0.952	False	False	en:why ~ en:reason ≈ fr:résonne
+respectful	respecté	0.903	0.951	False	False	en:respectful ≈ fr:respectent elle ~ fr:respecté
+respectful	respecter	0.903	0.951	False	False	en:respectful ≈ fr:respectent elle ~ fr:respecter
+respectful	respectés	0.898	0.951	False	False	en:respectful ≈ fr:respectent elle ~ fr:respectés
+respectively	respecte	0.928	0.951	False	False	en:respectively ≈ fr:respectes lis ~ fr:respecte
+respectively	respectés	0.924	0.951	False	False	en:respectively ≈ fr:respectes lis ~ fr:respectés
+respectively	loyauté	0.92	0.951	False	False	en:respectively ≈ fr:respectes lis ~ fr:loyauté
+fifteen	fixent in	0.957	0.95	False	True	en:fifteen ~ en:sixteen ≈ fr:fixent in
+freest	tristan	0.968	0.95	False	False	en:freest ≈ fr:triste ~ fr:tristan
+if	if	0.935	0.95	False	False	en:if ≈ fr:ifs ~ fr:if
+setting	sais	0.956	0.95	False	False	en:setting ≈ fr:sait in ~ fr:sais
+setting	sait	0.955	0.95	False	False	en:setting ≈ fr:sait in ~ fr:sait
+setting	connait	0.955	0.95	False	False	en:setting ≈ fr:sait in ~ fr:connait
+seventeen	fixent in	0.944	0.95	False	True	en:seventeen ~ en:sixteen ≈ fr:fixent in
+some	sono	0.958	0.95	False	False	en:some ≈ fr:sem ~ fr:sono
+would	oued	0.943	0.95	False	False	en:would ≈ fr:oueds ~ fr:oued
+anatomy	otan omis	0.945	0.949	False	True	en:anatomy ≈ fr:hennit omis ~ fr:otan omis
+anatomy	omis	0.943	0.949	False	False	en:anatomy ≈ fr:hennit omis ~ fr:omis
+benefit	ben des	0.961	0.949	False	True	en:benefit ≈ fr:ben faites ~ fr:ben des
+benefit	bene	0.955	0.949	False	False	en:benefit ≈ fr:ben faites ~ fr:bene
+classroom	clans	0.909	0.949	False	False	en:classroom ≈ fr:clans rhume ~ fr:clans
+largest	lenteur	0.91	0.949	False	False	en:largest ≈ fr:lent geste ~ fr:lenteur
+largest	lentement	0.886	0.949	False	False	en:largest ≈ fr:lent geste ~ fr:lentement
+patron	fait reine	0.955	0.949	False	True	en:patron ≈ fr:peut reine ~ fr:fait reine
+petition	facturation	0.873	0.949	False	False	en:petition ≈ fr:paient chaîne ~ fr:facturation
+plot eek	plastiques	0.959	0.949	True	False	en:plot eek ≈ fr:plastique ~ fr:plastiques
+plot eek	plastique	0.959	0.949	True	False	en:plot eek ≈ fr:plastiques ~ fr:plastique
+prizes	bras	0.955	0.949	False	False	en:prizes ≈ fr:bras aise ~ fr:bras
+prizes	arm	0.939	0.949	False	False	en:prizes ≈ fr:bras aise ~ fr:arm
+red aura	restaurateurs	0.923	0.949	True	False	en:red aura ≈ fr:restaurer ~ fr:restaurateurs
+red aura	magasin	0.916	0.949	True	False	en:red aura ≈ fr:restaurer ~ fr:magasin
+ticked eel	textiles	0.968	0.949	True	False	en:ticked eel ≈ fr:textile ~ fr:textiles
+trinity	ferroviaire	0.916	0.949	False	False	en:trinity ≈ fr:train tee ~ fr:ferroviaire
+dominion	demain	0.959	0.948	False	False	en:dominion ≈ fr:demain in ~ fr:demain
+monetary	mineure	0.925	0.948	False	False	en:monetary ≈ fr:menait ri ~ fr:mineure
+monetary	éveil	0.923	0.948	False	False	en:monetary ≈ fr:menait ri ~ fr:éveil
+ceremonies	sermon	0.957	0.947	False	False	en:ceremonies ≈ fr:sermon aise ~ fr:sermon
+previous	privées lis	0.944	0.947	False	True	en:previous ~ en:previously ≈ fr:privées lis
+previously	particuliers	0.876	0.947	False	False	en:previously ≈ fr:privées lis ~ fr:particuliers
+centuries	sanglant	0.933	0.946	False	False	en:centuries ≈ fr:saignent cerise ~ fr:sanglant
+lauding	aimant	0.96	0.946	False	False	en:lauding ≈ fr:loden ~ fr:aimant
+lauding	amar	0.96	0.946	False	False	en:lauding ≈ fr:loden ~ fr:amar
+lording	aimant	0.96	0.946	False	False	en:lording ≈ fr:loden ~ fr:aimant
+lording	amar	0.96	0.946	False	False	en:lording ≈ fr:loden ~ fr:amar
+rusty	demeurer	0.967	0.946	False	False	en:rusty ≈ fr:rester ~ fr:demeurer
+attic	éthiques	0.966	0.945	False	False	en:attic ≈ fr:éthique ~ fr:éthiques
+cede	céder	0.956	0.945	False	False	en:cede ~ en:cedi ≈ fr:céder
+costume	séoul	0.905	0.945	False	False	en:costume ≈ fr:cassent hume ~ fr:séoul
+dilly	dealers	0.955	0.945	False	False	en:dilly ≈ fr:dealer ~ fr:dealers
+disgrace	grecs	0.929	0.945	False	False	en:disgrace ≈ fr:dis grèce ~ fr:grecs
+disgrace	grèce	0.928	0.945	False	False	en:disgrace ≈ fr:dis grèce ~ fr:grèce
+ditty	tit	0.951	0.945	False	False	en:ditty ≈ fr:titi ~ fr:tit
+emmet	émettant	0.96	0.945	False	False	en:emmet ≈ fr:émettent ~ fr:émettant
+emmet	énervant	0.954	0.945	False	False	en:emmet ≈ fr:émettent ~ fr:énervant
+krill	griller	0.938	0.945	False	False	en:krill ≈ fr:grill ~ fr:griller
+krill	barbecue	0.93	0.945	False	False	en:krill ≈ fr:grill ~ fr:barbecue
+lippy	libyen	0.967	0.945	False	False	en:lippy ≈ fr:libye ~ fr:libyen
+lippy	libyens	0.967	0.945	False	False	en:lippy ≈ fr:libye ~ fr:libyens
+lippy	libyenne	0.962	0.945	False	False	en:lippy ≈ fr:libye ~ fr:libyenne
+lopped	lobby	0.892	0.945	False	False	en:lopped ~ en:loppy ≈ fr:lobby
+mortality	termes	0.92	0.945	False	False	en:mortality ≈ fr:mot alité ~ fr:termes
+mortality	dénote	0.918	0.945	False	False	en:mortality ≈ fr:mot alité ~ fr:dénote
+neutral	rôle	0.956	0.945	False	False	en:neutral ≈ fr:nouent rôle ~ fr:rôle
+neutral	rôles	0.949	0.945	False	False	en:neutral ≈ fr:nouent rôle ~ fr:rôles
+otic	antérieur	0.93	0.945	False	False	en:otic ≈ fr:attique ~ fr:antérieur
+prick	brique	0.96	0.945	False	False	en:prick ≈ fr:briques ~ fr:brique
+prick	brice	0.931	0.945	False	False	en:prick ≈ fr:briques ~ fr:brice
+releases	relie	0.906	0.945	False	False	en:releases ≈ fr:relis aise ~ fr:relie
+releases	relire	0.898	0.945	False	False	en:releases ≈ fr:relis aise ~ fr:relire
+seesaw	croisements	0.899	0.945	False	False	en:seesaw ≈ fr:ciseaux ~ fr:croisements
+tedder	terne	0.959	0.945	False	False	en:tedder ≈ fr:téter ~ fr:terne
+tedder	tirer	0.958	0.945	False	False	en:tedder ≈ fr:téter ~ fr:tirer
+tedder	teint	0.954	0.945	False	False	en:tedder ≈ fr:téter ~ fr:teint
+titre	tit	0.951	0.945	False	False	en:titre ≈ fr:titi ~ fr:tit
+titter	tit	0.951	0.945	False	False	en:titter ≈ fr:titi ~ fr:tit
+titty	titi	0.915	0.945	False	False	en:titty ~ en:titter ≈ fr:titi
+approaches	chaux	0.889	0.944	False	False	en:approaches ≈ fr:apprêt chaise ~ fr:chaux
+classic	clés	0.965	0.944	False	False	en:classic ≈ fr:clés hic ~ fr:clés
+classic	clé	0.946	0.944	False	False	en:classic ≈ fr:clés hic ~ fr:clé
+contested	périgueux	0.936	0.944	False	False	en:contested ≈ fr:cognent esthète ~ fr:périgueux
+controller	correspondante	0.928	0.944	False	False	en:controller ≈ fr:cognent relais ~ fr:correspondante
+controller	enchaînement	0.928	0.944	False	False	en:controller ≈ fr:cognent relais ~ fr:enchaînement
+controller	réunis	0.927	0.944	False	False	en:controller ≈ fr:cognent relais ~ fr:réunis
+disorder	boiteux	0.937	0.944	False	False	en:disorder ≈ fr:dis ondées ~ fr:boiteux
+honesty	raies lis	0.957	0.944	False	True	en:honesty ≈ fr:anis tee ~ fr:raies lis
+pending	pain	0.956	0.944	False	False	en:pending ≈ fr:pain digne ~ fr:pain
+pending	douleur	0.954	0.944	False	False	en:pending ≈ fr:pain digne ~ fr:douleur
+preserve	sauve	0.954	0.944	False	False	en:preserve ≈ fr:pris ève ~ fr:sauve
+sensing	manquant	0.883	0.944	False	False	en:sensing ≈ fr:sain signe ~ fr:manquant
+sensing	manque	0.883	0.944	False	False	en:sensing ≈ fr:sain signe ~ fr:manque
+tended	tain digne	0.928	0.944	False	True	en:tended ~ en:tending ≈ fr:tain digne
+tended	toitures	0.926	0.944	False	False	en:tended ≈ fr:tain dites ~ fr:toitures
+tended	viandes	0.923	0.944	False	False	en:tended ≈ fr:tain dites ~ fr:viandes
+tending	tain dites	0.928	0.944	False	True	en:tending ~ en:tended ≈ fr:tain dites
+wrestler	raies ligne	0.944	0.944	False	True	en:wrestler ~ en:wrestling ≈ fr:raies ligne
+commentary	commis tri	0.945	0.943	False	True	en:commentary ≈ fr:commun tri ~ fr:commis tri
+commentary	tres	0.928	0.943	False	False	en:commentary ≈ fr:commun tri ~ fr:tres
+detected	exprimé	0.932	0.943	False	False	en:detected ≈ fr:dit excède ~ fr:exprimé
+detected	exprimée	0.932	0.943	False	False	en:detected ≈ fr:dit excède ~ fr:exprimée
+detected	exprimées	0.93	0.943	False	False	en:detected ≈ fr:dit excède ~ fr:exprimées
+exit art	existant	0.942	0.943	True	False	en:exit art ≈ fr:existantes ~ fr:existant
+posters	pousse	0.928	0.943	False	False	en:posters ≈ fr:poussent aise ~ fr:pousse
+posters	poussez	0.925	0.943	False	False	en:posters ≈ fr:poussent aise ~ fr:poussez
+posters	pousses	0.918	0.943	False	False	en:posters ≈ fr:poussent aise ~ fr:pousses
+processor	essaie	0.931	0.943	False	False	en:processor ≈ fr:près essaie ~ fr:essaie
+processor	essais	0.927	0.943	False	False	en:processor ≈ fr:près essaie ~ fr:essais
+processor	tente	0.926	0.943	False	False	en:processor ≈ fr:près essaie ~ fr:tente
+realities	rallié	0.873	0.943	False	False	en:realities ≈ fr:rallient hisse ~ fr:rallié
+realities	ralliement	0.865	0.943	False	False	en:realities ≈ fr:rallient hisse ~ fr:ralliement
+started eek	statistique	0.97	0.943	True	False	en:started eek ≈ fr:statistiques ~ fr:statistique
+started eek	statistiques	0.97	0.943	True	False	en:started eek ≈ fr:statistique ~ fr:statistiques
+started eek	statistiquement	0.968	0.943	True	False	en:started eek ≈ fr:statistique ~ fr:statistiquement
+township	tan	0.88	0.943	False	False	en:township ≈ fr:tan chipe ~ fr:tan
+exercises	excès	0.934	0.942	False	False	en:exercises ≈ fr:excès assise ~ fr:excès
+exercises	abcès	0.909	0.942	False	False	en:exercises ≈ fr:excès assise ~ fr:abcès
+exercises	excessifs	0.888	0.942	False	False	en:exercises ≈ fr:excès assise ~ fr:excessifs
+prestigious	jazz	0.944	0.942	False	False	en:prestigious ≈ fr:pressent jazz ~ fr:jazz
+acme	actu	0.948	0.94	False	False	en:acme ≈ fr:acmé ~ fr:actu
+at	hâte	0.965	0.94	False	False	en:at ≈ fr:hâtes ~ fr:hâte
+at	doigt	0.957	0.94	False	False	en:at ≈ fr:hâtent ~ fr:doigt
+at	pourpre	0.956	0.94	False	False	en:at ≈ fr:hâtent ~ fr:pourpre
+aural	orale	0.961	0.94	False	False	en:aural ≈ fr:oral ~ fr:orale
+baulked	boxe	0.961	0.94	False	False	en:baulked ≈ fr:box ~ fr:boxe
+baulked	boîte	0.958	0.94	False	False	en:baulked ≈ fr:box ~ fr:boîte
+beady	mimi	0.915	0.94	False	False	en:beady ~ en:beamy ≈ fr:mimi
+beamy	midi	0.915	0.94	False	False	en:beamy ~ en:beady ≈ fr:midi
+becks	boxe	0.961	0.94	False	False	en:becks ≈ fr:box ~ fr:boxe
+becks	boîte	0.958	0.94	False	False	en:becks ≈ fr:box ~ fr:boîte
+bleat	baule	0.95	0.94	False	False	en:bleat ≈ fr:blettes ~ fr:baule
+bracelet	prés	0.933	0.94	False	False	en:bracelet ≈ fr:prés let ~ fr:prés
+bracelet	anticipe	0.919	0.94	False	False	en:bracelet ≈ fr:prés let ~ fr:anticipe
+bracelet	anticiper	0.919	0.94	False	False	en:bracelet ≈ fr:prés let ~ fr:anticiper
+broadly	prisée	0.886	0.94	False	False	en:broadly ≈ fr:prompt lis ~ fr:prisée
+caress	choristes	0.938	0.94	False	False	en:caress ~ en:caressed ≈ fr:choristes
+cist	zèle	0.954	0.94	False	False	en:cist ≈ fr:zeste ~ fr:zèle
+classes	clans	0.942	0.94	False	False	en:classes ≈ fr:clans aise ~ fr:clans
+classes	clan	0.903	0.94	False	False	en:classes ≈ fr:clans aise ~ fr:clan
+clot	claudel	0.946	0.94	False	False	en:clot ≈ fr:claude ~ fr:claudel
+clot	claudia	0.945	0.94	False	False	en:clot ≈ fr:claude ~ fr:claudia
+condemn	thème	0.952	0.94	False	False	en:condemn ≈ fr:con thème ~ fr:thème
+condemn	thèmes	0.941	0.94	False	False	en:condemn ≈ fr:con thème ~ fr:thèmes
+control	troll	0.951	0.94	False	False	en:control ≈ fr:con troll ~ fr:troll
+cutty	côtés	0.955	0.94	False	False	en:cutty ≈ fr:côté ~ fr:côtés
+cyst	zèle	0.954	0.94	False	False	en:cyst ≈ fr:zeste ~ fr:zèle
+decked	digue	0.963	0.94	False	False	en:decked ≈ fr:dicte ~ fr:digue
+decked	dicté	0.959	0.94	False	False	en:decked ≈ fr:dicte ~ fr:dicté
+dippy	autrement	0.941	0.94	False	False	en:dippy ≈ fr:dépit ~ fr:autrement
+dippy	supposés	0.938	0.94	False	False	en:dippy ≈ fr:dépit ~ fr:supposés
+doormat eek	domestiques	0.946	0.94	True	False	en:doormat eek ≈ fr:domestique ~ fr:domestiques
+doormat eek	domestique	0.946	0.94	True	False	en:doormat eek ≈ fr:domestiques ~ fr:domestique
+doormat eek	maisonneuve	0.946	0.94	True	False	en:doormat eek ≈ fr:domestique ~ fr:maisonneuve
+dorks	doc	0.947	0.94	False	False	en:dorks ≈ fr:docte ~ fr:doc
+dorky	toc	0.914	0.94	False	False	en:dorky ≈ fr:toquer ~ fr:toc
+dross	trace	0.922	0.94	False	False	en:dross ≈ fr:traces ~ fr:trace
+duchess	sain dit chaise	0.949	0.94	False	True	en:duchess ≈ fr:dit chaise ~ fr:sain dit chaise
+engine	détestable	0.924	0.94	False	False	en:engine ≈ fr:haines gêne ~ fr:détestable
+engine	odieux	0.922	0.94	False	False	en:engine ≈ fr:haines gêne ~ fr:odieux
+engine	dégoûté	0.916	0.94	False	False	en:engine ≈ fr:haines gêne ~ fr:dégoûté
+fenny	finis	0.966	0.94	False	False	en:fenny ≈ fr:fini ~ fr:finis
+fenny	termine	0.959	0.94	False	False	en:fenny ≈ fr:fini ~ fr:termine
+fenny	finie	0.957	0.94	False	False	en:fenny ≈ fr:fini ~ fr:finie
+fertility	dame	0.926	0.94	False	False	en:fertility ≈ fr:fait lady ~ fr:dame
+flack	flics	0.936	0.94	False	False	en:flack ~ en:fleck ≈ fr:flics
+fleas	flemme	0.866	0.94	False	False	en:fleas ~ en:fleam ≈ fr:flemme
+fleck	flic	0.957	0.94	False	False	en:fleck ≈ fr:flics ~ fr:flic
+fleece	plié	0.954	0.94	False	False	en:fleece ≈ fr:plisse ~ fr:plié
+foresaw	foncés	0.958	0.94	False	False	en:foresaw ≈ fr:fonçons ~ fr:foncés
+foresees	foncé	0.955	0.94	False	False	en:foresees ~ en:foresee ≈ fr:foncé
+forty	votants	0.964	0.94	False	False	en:forty ≈ fr:voter ~ fr:votants
+forty	électeurs	0.956	0.94	False	False	en:forty ≈ fr:voter ~ fr:électeurs
+gorgeous	dieu	0.947	0.94	False	False	en:gorgeous ≈ fr:godes os ~ fr:dieu
+gorgeous	godin	0.941	0.94	False	False	en:gorgeous ≈ fr:godes os ~ fr:godin
+grit	turpin	0.956	0.94	False	False	en:grit ≈ fr:crête ~ fr:turpin
+lackey	ondes	0.95	0.94	False	False	en:lackey ≈ fr:laqué ~ fr:ondes
+ladder	liée	0.951	0.94	False	False	en:ladder ≈ fr:lesdits ~ fr:liée
+lauder	soulève	0.95	0.94	False	False	en:lauder ≈ fr:ledit ~ fr:soulève
+lauder	délivré	0.949	0.94	False	False	en:lauder ≈ fr:ledit ~ fr:délivré
+leaky	savait	0.954	0.94	False	False	en:leaky ≈ fr:ligués ~ fr:savait
+leaky	liée	0.954	0.94	False	False	en:leaky ≈ fr:ligués ~ fr:liée
+litter	laitiers	0.963	0.94	False	False	en:litter ≈ fr:laiteux ~ fr:laitiers
+litter	lattes	0.954	0.94	False	False	en:litter ≈ fr:laiteux ~ fr:lattes
+litter	lait	0.953	0.94	False	False	en:litter ≈ fr:laiteux ~ fr:lait
+mealie	mêlée	0.953	0.94	False	False	en:mealie ≈ fr:mêler ~ fr:mêlée
+mealie	bauer	0.937	0.94	False	False	en:mealie ≈ fr:mêler ~ fr:bauer
+mealy	mêlée	0.953	0.94	False	False	en:mealy ≈ fr:mêler ~ fr:mêlée
+mealy	bauer	0.937	0.94	False	False	en:mealy ≈ fr:mêler ~ fr:bauer
+miffy	melle	0.942	0.94	False	False	en:miffy ≈ fr:méfie ~ fr:melle
+miller	mêlée	0.953	0.94	False	False	en:miller ≈ fr:mêler ~ fr:mêlée
+miller	bauer	0.937	0.94	False	False	en:miller ≈ fr:mêler ~ fr:bauer
+moot ash	moustaches	0.948	0.94	True	False	en:moot ash ≈ fr:moustache ~ fr:moustaches
+mysteries	mais tri	0.942	0.94	False	True	en:mysteries ~ en:mystery ≈ fr:mais tri
+offender	comme	0.939	0.94	False	False	en:offender ≈ fr:afin des ~ fr:comme
+on	anse	0.95	0.94	False	False	en:on ≈ fr:ânes ~ fr:anse
+on	annie	0.931	0.94	False	False	en:on ≈ fr:âne ~ fr:annie
+orcas	occitan	0.946	0.94	False	False	en:orcas ≈ fr:occase ~ fr:occitan
+pallor	croît	0.953	0.94	False	False	en:pallor ≈ fr:palais ~ fr:croît
+pallor	situés	0.953	0.94	False	False	en:pallor ≈ fr:palais ~ fr:situés
+prawn add	promenades	0.955	0.94	True	False	en:prawn add ≈ fr:promenade ~ fr:promenades
+precede	présidente	0.967	0.94	False	False	en:precede ≈ fr:président ~ fr:présidente
+preen	prend	0.96	0.94	False	False	en:preen ≈ fr:prennent ~ fr:prend
+preen	prendre	0.957	0.94	False	False	en:preen ≈ fr:prennent ~ fr:prendre
+preen	prenant	0.948	0.94	False	False	en:preen ≈ fr:prennent ~ fr:prenant
+professors	brevets	0.948	0.94	False	False	en:professors ≈ fr:brevets aise ~ fr:brevets
+professors	breveté	0.944	0.94	False	False	en:professors ≈ fr:brevets aise ~ fr:breveté
+rapport	répondre	0.966	0.94	False	False	en:rapport ≈ fr:répond ~ fr:répondre
+rapport	répondez	0.966	0.94	False	False	en:rapport ≈ fr:répond ~ fr:répondez
+rapport	répondant	0.963	0.94	False	False	en:rapport ≈ fr:répond ~ fr:répondant
+rishi	régis	0.964	0.94	False	False	en:rishi ≈ fr:régie ~ fr:régis
+rishi	régit	0.964	0.94	False	False	en:rishi ≈ fr:régie ~ fr:régit
+rusher	rochers	0.944	0.94	False	False	en:rusher ≈ fr:rocher ~ fr:rochers
+rushy	régis	0.964	0.94	False	False	en:rushy ≈ fr:régie ~ fr:régis
+rushy	régit	0.964	0.94	False	False	en:rushy ≈ fr:régie ~ fr:régit
+shelly	chilien	0.839	0.94	False	False	en:shelly ≈ fr:chili ~ fr:chilien
+sidewalk	cent	0.893	0.94	False	False	en:sidewalk ≈ fr:cent wok ~ fr:cent
+sidewalk	cents	0.867	0.94	False	False	en:sidewalk ≈ fr:cent wok ~ fr:cents
+swede	souhaiter	0.966	0.94	False	False	en:swede ≈ fr:souhaite ~ fr:souhaiter
+swede	envie	0.964	0.94	False	False	en:swede ≈ fr:souhaite ~ fr:envie
+swede	souhaitant	0.962	0.94	False	False	en:swede ≈ fr:souhaite ~ fr:souhaitant
+tiller	télévisions	0.962	0.94	False	False	en:tiller ≈ fr:télé ~ fr:télévisions
+tiller	télévision	0.962	0.94	False	False	en:tiller ≈ fr:télé ~ fr:télévision
+tiller	télévisé	0.96	0.94	False	False	en:tiller ≈ fr:télé ~ fr:télévisé
+treasury	pagaille	0.945	0.94	False	False	en:treasury ≈ fr:trais ri ~ fr:pagaille
+treasury	ondes	0.945	0.94	False	False	en:treasury ≈ fr:trais ri ~ fr:ondes
+up	hache	0.952	0.94	False	False	en:up ≈ fr:happe ~ fr:hache
+vendor	vin dos	0.952	0.94	False	True	en:vendor ~ en:vendors ≈ fr:vin dos
+vendors	deux	0.935	0.94	False	False	en:vendors ≈ fr:vin dos ~ fr:deux
+vengeance	jeans	0.952	0.94	False	False	en:vengeance ≈ fr:vin jeans ~ fr:jeans
+wreaks	rixe	0.93	0.94	False	False	en:wreaks ~ en:wreaked ≈ fr:rixe
+cling	propreté	0.944	0.938	False	False	en:cling ≈ fr:clean ~ fr:propreté
+disgusting	casting	0.945	0.938	False	False	en:disgusting ≈ fr:dis casting ~ fr:casting
+exclusively	flux	0.829	0.938	False	False	en:exclusively ≈ fr:exclus flux ~ fr:flux
+phoebe	cbs	0.936	0.938	False	False	en:phoebe ≈ fr:cb ~ fr:cbs
+teeny	finis	0.965	0.938	False	False	en:teeny ≈ fr:fini ~ fr:finis
+teeny	termine	0.958	0.938	False	False	en:teeny ≈ fr:fini ~ fr:termine
+teeny	finie	0.956	0.938	False	False	en:teeny ≈ fr:fini ~ fr:finie
+tested	destine	0.953	0.938	False	False	en:tested ~ en:testing ≈ fr:destine
+accursed em	écosystèmes	0.965	0.936	True	False	en:accursed em ≈ fr:écosystème ~ fr:écosystèmes
+majority	modes	0.859	0.936	False	False	en:majority ≈ fr:modes orties ~ fr:modes
+perspective	paix ace	0.875	0.936	False	True	en:perspective ≈ fr:paix piquent ive ~ fr:paix ace
+screed	sceptre	0.932	0.936	False	False	en:screed ≈ fr:scrute ~ fr:sceptre
+abilities	émettent	0.891	0.935	False	False	en:abilities ≈ fr:épilent hisse ~ fr:émettent
+abilities	enroulé	0.891	0.935	False	False	en:abilities ≈ fr:épilent hisse ~ fr:enroulé
+abilities	versant	0.889	0.935	False	False	en:abilities ≈ fr:épilent hisse ~ fr:versant
+commonly	melun	0.9	0.935	False	False	en:commonly ≈ fr:commun lis ~ fr:melun
+commonly	lise	0.9	0.935	False	False	en:commonly ≈ fr:commun lis ~ fr:lise
+dismissed	nécessaires	0.859	0.935	False	False	en:dismissed ≈ fr:dis must ~ fr:nécessaires
+monthly	mènent	0.96	0.935	False	False	en:monthly ≈ fr:mènent lis ~ fr:mènent
+monthly	médicaux	0.947	0.935	False	False	en:monthly ≈ fr:mènent lis ~ fr:médicaux
+ought rally	australien	0.964	0.935	True	False	en:ought rally ≈ fr:australie ~ fr:australien
+ought rally	australienne	0.963	0.935	True	False	en:ought rally ≈ fr:australie ~ fr:australienne
+ought rally	australie,	0.962	0.935	True	False	en:ought rally ≈ fr:australie ~ fr:australie,
+receptor	décider	0.905	0.935	False	False	en:receptor ≈ fr:ries opté ~ fr:décider
+receptor	sommets tes	0.904	0.935	False	True	en:receptor ≈ fr:ries opté ~ fr:sommets tes
+render	reines ring	0.945	0.935	False	True	en:render ~ en:rendering ≈ fr:reines ring
+rendered	reines ring	0.924	0.935	False	True	en:rendered ~ en:rendering ≈ fr:reines ring
+dimension	demain	0.929	0.934	False	False	en:dimension ≈ fr:demain chaîne ~ fr:demain
+registered	raids	0.946	0.934	False	False	en:registered ≈ fr:raids stade ~ fr:raids
+boundaries	ban doré	0.933	0.933	False	True	en:boundaries ~ en:boundary ≈ fr:ban doré
+bussed	pendus	0.947	0.933	False	False	en:bussed ≈ fr:peste ~ fr:pendus
+bussed	pourpre	0.947	0.933	False	False	en:bussed ≈ fr:peste ~ fr:pourpre
+tinny	contiennent	0.952	0.933	False	False	en:tinny ≈ fr:tenez ~ fr:contiennent
+bellied	boris	0.949	0.932	False	False	en:bellied ≈ fr:bolide ~ fr:boris
+bellies	bolide	0.936	0.932	False	False	en:bellies ~ en:bellied ≈ fr:bolide
+belling	mail	0.943	0.932	False	False	en:belling ≈ fr:mailing ~ fr:mail
+belling	courrier	0.933	0.932	False	False	en:belling ≈ fr:mailing ~ fr:courrier
+concept	opte	0.885	0.932	False	False	en:concept ≈ fr:cannes opte ~ fr:opte
+conclusion	con claude	0.948	0.932	False	True	en:conclusion ~ en:conclude ≈ fr:con claude
+endive	haines	0.925	0.932	False	False	en:endive ≈ fr:haines ive ~ fr:haines
+exodus	sommets tes	0.897	0.932	False	True	en:exodus ≈ fr:excès os ~ fr:sommets tes
+irked rim	extrêmes	0.958	0.932	True	False	en:irked rim ≈ fr:extrême ~ fr:extrêmes
+irked rim	extrême	0.958	0.932	True	False	en:irked rim ≈ fr:extrêmes ~ fr:extrême
+promoting	promets	0.927	0.932	False	False	en:promoting ≈ fr:promet in ~ fr:promets
+promoting	promettre	0.91	0.932	False	False	en:promoting ≈ fr:promet in ~ fr:promettre
+promoting	prometteurs	0.9	0.932	False	False	en:promoting ≈ fr:promet in ~ fr:prometteurs
+remedies	retombée	0.932	0.932	False	False	en:remedies ≈ fr:remet hisse ~ fr:retombée
+remedies	refaire	0.931	0.932	False	False	en:remedies ≈ fr:remet hisse ~ fr:refaire
+remedies	retombées	0.927	0.932	False	False	en:remedies ≈ fr:remet hisse ~ fr:retombées
+southwest	nœud ouest	0.943	0.932	False	True	en:southwest ~ en:northwest ≈ fr:nœud ouest
+sunrise	éveil	0.926	0.932	False	False	en:sunrise ≈ fr:son rase ~ fr:éveil
+accessories	russ	0.899	0.931	False	False	en:accessories ≈ fr:excès ruse ~ fr:russ
+accessories	ruse	0.898	0.931	False	False	en:accessories ≈ fr:excès ruse ~ fr:ruse
+arsing	assigner	0.953	0.93	False	False	en:arsing ≈ fr:assigne ~ fr:assigner
+arsing	assignation	0.945	0.93	False	False	en:arsing ≈ fr:assigne ~ fr:assignation
+defeat	qua	0.945	0.93	False	False	en:defeat ≈ fr:dit hit ~ fr:qua
+defeat	hier	0.945	0.93	False	False	en:defeat ≈ fr:dit hit ~ fr:hier
+defeat	ici	0.944	0.93	False	False	en:defeat ≈ fr:dit hit ~ fr:ici
+defending	divin dites	0.95	0.93	False	True	en:defending ~ en:defended ≈ fr:divin dites
+marketing	manque	0.936	0.93	False	False	en:marketing ≈ fr:manquent in ~ fr:manque
+preceded	arriere	0.946	0.93	False	False	en:preceded ≈ fr:pris édite ~ fr:arriere
+spreading	spray	0.933	0.93	False	False	en:spreading ≈ fr:sprays in ~ fr:spray
+access	axes	0.863	0.929	False	False	en:access ≈ fr:axis ~ fr:axes
+boarder	bond aise	0.937	0.929	False	True	en:boarder ~ en:boarders ≈ fr:bond aise
+boarders	bond	0.906	0.929	False	False	en:boarders ≈ fr:bond aise ~ fr:bond
+boarding	bond aise	0.835	0.929	False	True	en:boarding ~ en:boarders ≈ fr:bond aise
+boredom	gentilhomme	0.94	0.929	False	False	en:boredom ≈ fr:bonhomme ~ fr:gentilhomme
+canoed	con use	0.937	0.929	False	True	en:canoed ~ en:canoes ≈ fr:con use
+cartoon	réfléchis	0.937	0.929	False	False	en:cartoon ≈ fr:gand un ~ fr:réfléchis
+cartoon	réfléchissant	0.937	0.929	False	False	en:cartoon ≈ fr:gand un ~ fr:réfléchissant
+cartoon	réfléchie	0.934	0.929	False	False	en:cartoon ≈ fr:gand un ~ fr:réfléchie
+endure	ion	0.93	0.929	False	False	en:endure ≈ fr:haines ion ~ fr:ion
+gases	gars	0.938	0.929	False	False	en:gases ≈ fr:gars aise ~ fr:gars
+kidney	quelle	0.929	0.929	False	False	en:kidney ≈ fr:quais ni ~ fr:quelle
+kidney	quais	0.925	0.929	False	False	en:kidney ≈ fr:quais ni ~ fr:quais
+kidney	lesquels	0.925	0.929	False	False	en:kidney ≈ fr:quais ni ~ fr:lesquels
+measures	mas	0.912	0.929	False	False	en:measures ≈ fr:mais aise ~ fr:mas
+nonetheless	maternelle	0.901	0.929	False	False	en:nonetheless ≈ fr:naines laisse ~ fr:maternelle
+nonetheless	maternelles	0.896	0.929	False	False	en:nonetheless ≈ fr:naines laisse ~ fr:maternelles
+peter	peut aise	0.951	0.929	False	True	en:peter ~ en:peters ≈ fr:peut aise
+specks	sphinx	0.903	0.929	False	False	en:specks ~ en:specs ≈ fr:sphinx
+specs	sphinx	0.903	0.929	False	False	en:specs ~ en:specks ≈ fr:sphinx
+creativity	éviter	0.934	0.928	False	False	en:creativity ≈ fr:créait éviter ~ fr:éviter
+creativity	eviter	0.928	0.928	False	False	en:creativity ≈ fr:créait éviter ~ fr:eviter
+creativity	évitez	0.924	0.928	False	False	en:creativity ≈ fr:créait éviter ~ fr:évitez
+debris your	dépressions	0.96	0.928	True	False	en:debris your ≈ fr:dépression ~ fr:dépressions
+pallet in	palestinien	0.963	0.928	True	False	en:pallet in ≈ fr:palestine ~ fr:palestinien
+priorities	braqueur	0.891	0.928	False	False	en:priorities ≈ fr:braillard hisse ~ fr:braqueur
+boundaries	facture	0.89	0.927	False	False	en:boundaries ≈ fr:ban cerise ~ fr:facture
+boundary	ban cerise	0.93	0.927	False	True	en:boundary ~ en:boundaries ≈ fr:ban cerise
+strategy	démarche	0.888	0.927	False	False	en:strategy ≈ fr:strates chie ~ fr:démarche
+authorities	effort	0.87	0.926	False	False	en:authorities ≈ fr:effort hisse ~ fr:effort
+consumers	soumise	0.946	0.926	False	False	en:consumers ≈ fr:con soumise ~ fr:soumise
+consumers	soumises	0.943	0.926	False	False	en:consumers ≈ fr:con soumise ~ fr:soumises
+consumers	soumis	0.939	0.926	False	False	en:consumers ≈ fr:con soumise ~ fr:soumis
+madding	médoc	0.912	0.926	False	False	en:madding ≈ fr:médine ~ fr:médoc
+parks	paquet	0.942	0.926	False	False	en:parks ~ en:parky ≈ fr:paquet
+provision	breveté	0.912	0.926	False	False	en:provision ≈ fr:brevets haine ~ fr:breveté
+software	connait	0.946	0.926	False	False	en:software ≈ fr:savent ouais ~ fr:connait
+software	connaissant	0.945	0.926	False	False	en:software ≈ fr:savent ouais ~ fr:connaissant
+software	connaitre	0.944	0.926	False	False	en:software ≈ fr:savent ouais ~ fr:connaitre
+grounded	crânes	0.901	0.925	False	False	en:grounded ≈ fr:crânes aide ~ fr:crânes
+inly	inhérent	0.943	0.925	False	False	en:inly ≈ fr:inouï ~ fr:inhérent
+inly	égout	0.94	0.925	False	False	en:inly ≈ fr:inouï ~ fr:égout
+quip	clips	0.916	0.925	False	False	en:quip ≈ fr:clip ~ fr:clips
+mad in	médication	0.952	0.924	True	False	en:mad in ≈ fr:médecine ~ fr:médication
+mad in	médicaux	0.95	0.924	True	False	en:mad in ≈ fr:médecine ~ fr:médicaux
+facilities	contentieux	0.924	0.923	False	False	en:facilities ≈ fr:fais litige ~ fr:contentieux
+frontier	tee	0.884	0.923	False	False	en:frontier ≈ fr:frein tee ~ fr:tee
+grandmother	green ma	0.944	0.923	False	True	en:grandmother ~ en:grandma ≈ fr:green ma
+possibly	blé	0.936	0.923	False	False	en:possibly ≈ fr:pas blé ~ fr:blé
+possibly	céréales	0.907	0.923	False	False	en:possibly ≈ fr:pas blé ~ fr:céréales
+potentially	pas blé	0.918	0.923	False	True	en:potentially ~ en:possibly ≈ fr:pas blé
+previously	pris os	0.932	0.923	False	True	en:previously ~ en:previous ≈ fr:pris os
+sidewalk	boules andes	0.888	0.923	False	True	en:sidewalk ~ en:boulevard ≈ fr:boules andes
+autumn eater	rémunération	0.933	0.922	True	False	en:autumn eater ≈ fr:indemnités ~ fr:rémunération
+autumn eater	indemnités	0.93	0.922	True	False	en:autumn eater ≈ fr:indemnité ~ fr:indemnités
+autumn eater	indemnité	0.93	0.922	True	False	en:autumn eater ≈ fr:indemnités ~ fr:indemnité
+bedding	bénisse	0.942	0.922	False	False	en:bedding ≈ fr:bedaine ~ fr:bénisse
+bedding	bénévolat	0.941	0.922	False	False	en:bedding ≈ fr:bedaine ~ fr:bénévolat
+ought yen	obtenir	0.948	0.922	True	False	en:ought yen ≈ fr:obtiennent ~ fr:obtenir
+ought yen	obtenez	0.944	0.922	True	False	en:ought yen ≈ fr:obtiennent ~ fr:obtenez
+producer	utilisateur	0.82	0.922	False	False	en:producer ≈ fr:prêt user ~ fr:utilisateur
+producer	utilisateurs	0.818	0.922	False	False	en:producer ≈ fr:prêt user ~ fr:utilisateurs
+producer	usagers	0.801	0.922	False	False	en:producer ≈ fr:prêt user ~ fr:usagers
+done	féminin	0.955	0.921	False	False	en:done ≈ fr:donne ~ fr:féminin
+done	féminine	0.951	0.921	False	False	en:done ≈ fr:donne ~ fr:féminine
+it aura	attila	0.858	0.921	True	False	en:it aura ≈ fr:instaurer ~ fr:attila
+port earl	postal	0.95	0.921	True	False	en:port earl ≈ fr:postale ~ fr:postal
+vet ease	vestige	0.928	0.921	True	False	en:vet ease ≈ fr:vestiges ~ fr:vestige
+networks	nids	0.897	0.92	False	False	en:networks ≈ fr:nid vexe ~ fr:nids
+rebuilding	rebelle	0.881	0.92	False	False	en:rebuilding ≈ fr:rebellent in ~ fr:rebelle
+supportive	sabot	0.91	0.92	False	False	en:supportive ≈ fr:sabot ive ~ fr:sabot
+tiered	tizi	0.926	0.92	False	False	en:tiered ≈ fr:tiède ~ fr:tizi
+crossing	crocs	0.941	0.919	False	False	en:crossing ≈ fr:crocs in ~ fr:crocs
+gasoline	gars aise	0.926	0.919	False	True	en:gasoline ≈ fr:gars ligne ~ fr:gars aise
+performer	otan omis	0.918	0.919	False	True	en:performer ≈ fr:paient omis ~ fr:otan omis
+performer	omis	0.908	0.919	False	False	en:performer ≈ fr:paient omis ~ fr:omis
+prefers	prêts	0.913	0.919	False	False	en:prefers ≈ fr:prêt aise ~ fr:prêts
+prefers	prêtes	0.908	0.919	False	False	en:prefers ≈ fr:prêt aise ~ fr:prêtes
+prefers	prêt	0.906	0.919	False	False	en:prefers ≈ fr:prêt aise ~ fr:prêt
+protect	pratiquent in	0.945	0.919	False	True	en:protect ~ en:protecting ≈ fr:pratiquent in
+protection	pratiquent in	0.94	0.919	False	True	en:protection ~ en:protecting ≈ fr:pratiquent in
+toot were	cependant	0.959	0.919	True	False	en:toot were ≈ fr:toutefois ~ fr:cependant
+composer	pesé	0.927	0.918	False	False	en:composer ≈ fr:con peser ~ fr:pesé
+ranger	fait reine	0.905	0.918	False	True	en:ranger ≈ fr:reines chez ~ fr:fait reine
+discreet your	descriptions	0.945	0.917	True	False	en:discreet your ≈ fr:description ~ fr:descriptions
+discreet your	description	0.945	0.917	True	False	en:discreet your ≈ fr:descriptions ~ fr:description
+manners meant	gestion	0.942	0.917	True	False	en:manners meant ≈ fr:management ~ fr:gestion
+manners meant	gestionnaire	0.914	0.917	True	False	en:manners meant ≈ fr:management ~ fr:gestionnaire
+nasty	nos	0.897	0.917	False	False	en:nasty ≈ fr:nos tee ~ fr:nos
+privacy	saisi	0.941	0.917	False	False	en:privacy ≈ fr:pris ci ~ fr:saisi
+privacy	sommets tes	0.937	0.917	False	True	en:privacy ≈ fr:pris ci ~ fr:sommets tes
+quitting	cuit	0.878	0.917	False	False	en:quitting ≈ fr:cuit in ~ fr:cuit
+quitting	entrés	0.85	0.917	False	False	en:quitting ≈ fr:cuit in ~ fr:entrés
+quitting	entrez	0.847	0.917	False	False	en:quitting ≈ fr:cuit in ~ fr:entrez
+will	dei	0.939	0.917	False	False	en:will ≈ fr:il ~ fr:dei
+fantastic	tord hic	0.94	0.916	False	True	en:fantastic ~ en:terrific ≈ fr:tord hic
+automatic	hautement	0.936	0.915	False	False	en:automatic ≈ fr:hautement hic ~ fr:hautement
+automatic	élevés	0.92	0.915	False	False	en:automatic ≈ fr:hautement hic ~ fr:élevés
+dicky	terne	0.933	0.915	False	False	en:dicky ≈ fr:tiquer ~ fr:terne
+lopped	plafonds	0.881	0.915	False	False	en:lopped ≈ fr:loft ~ fr:plafonds
+lopped	plafond	0.88	0.915	False	False	en:lopped ≈ fr:loft ~ fr:plafond
+macaw	méga	0.935	0.915	False	False	en:macaw ≈ fr:mégots ~ fr:méga
+macaw	catégoriquement	0.922	0.915	False	False	en:macaw ≈ fr:mégots ~ fr:catégoriquement
+mothers	matin elle	0.93	0.915	False	True	en:mothers ~ en:maternal ≈ fr:matin elle
+ockers	occitan	0.933	0.915	False	False	en:ockers ≈ fr:occase ~ fr:occitan
+opportunity	unité	0.935	0.915	False	False	en:opportunity ≈ fr:appât unité ~ fr:unité
+papaw	gueule	0.936	0.915	False	False	en:papaw ≈ fr:pipeau ~ fr:gueule
+petit eve	positif	0.955	0.915	True	False	en:petit eve ≈ fr:positive ~ fr:positif
+petit your	pétitions	0.945	0.915	True	False	en:petit your ≈ fr:pétition ~ fr:pétitions
+reinforce	rien poste	0.902	0.915	False	True	en:reinforce ~ en:reinforced ≈ fr:rien poste
+reinforced	rien	0.91	0.915	False	False	en:reinforced ≈ fr:rien poste ~ fr:rien
+reinforced	nada	0.907	0.915	False	False	en:reinforced ≈ fr:rien poste ~ fr:nada
+ticked	dicte	0.888	0.915	False	False	en:ticked ~ en:nicked ≈ fr:dicte
+commodities	commente	0.87	0.914	False	False	en:commodities ≈ fr:comment dix ~ fr:commente
+commodities	commentaire	0.868	0.914	False	False	en:commodities ≈ fr:comment dix ~ fr:commentaire
+commodities	comment	0.866	0.914	False	False	en:commodities ≈ fr:comment dix ~ fr:comment
+debating	tibet	0.949	0.914	False	False	en:debating ≈ fr:tibet in ~ fr:tibet
+debating	tibétain	0.931	0.914	False	False	en:debating ≈ fr:tibet in ~ fr:tibétain
+larding	latina	0.946	0.914	False	False	en:larding ≈ fr:latine ~ fr:latina
+stranger	cordes	0.9	0.914	False	False	en:stranger ≈ fr:strings je ~ fr:cordes
+supervisor	suffisants	0.935	0.914	False	False	en:supervisor ≈ fr:soupers assez ~ fr:suffisants
+supervisor	assez	0.934	0.914	False	False	en:supervisor ≈ fr:soupers assez ~ fr:assez
+supervisor	suffisant	0.934	0.914	False	False	en:supervisor ≈ fr:soupers assez ~ fr:suffisant
+deciding	disent	0.906	0.913	False	False	en:deciding ≈ fr:dis atteignent ~ fr:disent
+deciding	dis	0.901	0.913	False	False	en:deciding ≈ fr:dis atteignent ~ fr:dis
+decisive	finis	0.925	0.913	False	False	en:decisive ≈ fr:dis achève ~ fr:finis
+ought arena	austin	0.896	0.913	True	False	en:ought arena ≈ fr:austérité ~ fr:austin
+annal	anale	0.92	0.911	False	False	en:annal ≈ fr:anal ~ fr:anale
+auras	zeitung	0.938	0.911	False	False	en:auras ≈ fr:horace ~ fr:zeitung
+bloop	plèbe	0.912	0.911	False	False	en:bloop ~ en:blip ≈ fr:plèbe
+choc	jack	0.939	0.911	False	False	en:choc ~ en:chock ≈ fr:jack
+chock	jack	0.939	0.911	False	False	en:chock ~ en:choc ≈ fr:jack
+chon	chad	0.924	0.911	False	False	en:chon ≈ fr:tchad ~ fr:chad
+detour	îlot	0.93	0.911	False	False	en:detour ≈ fr:tétons ~ fr:îlot
+drawl	treize	0.87	0.911	False	False	en:drawl ~ en:draws ≈ fr:treize
+dreg	traite	0.905	0.911	False	False	en:dreg ~ en:drat ≈ fr:traite
+fleas	plié	0.94	0.911	False	False	en:fleas ≈ fr:plisse ~ fr:plié
+flees	plié	0.94	0.911	False	False	en:flees ≈ fr:plisse ~ fr:plié
+it aura	horace	0.889	0.911	True	False	en:it aura ~ en:auras ≈ fr:horace
+lapped	infantile	0.906	0.911	False	False	en:lapped ≈ fr:laps ~ fr:infantile
+lapped	enfantine	0.904	0.911	False	False	en:lapped ≈ fr:laps ~ fr:enfantine
+naught agee	nostalgique	0.916	0.911	True	False	en:naught agee ≈ fr:nostalgie ~ fr:nostalgique
+netty	nota	0.935	0.911	False	False	en:netty ≈ fr:noter ~ fr:nota
+otters	hôtesses	0.954	0.911	False	False	en:otters ≈ fr:hôtesse ~ fr:hôtesses
+otters	hôtes	0.932	0.911	False	False	en:otters ≈ fr:hôtesse ~ fr:hôtes
+receipt arse	résistances	0.952	0.911	True	False	en:receipt arse ≈ fr:résistance ~ fr:résistances
+receipt arse	resistance	0.949	0.911	True	False	en:receipt arse ≈ fr:résistance ~ fr:resistance
+sheared	géo	0.925	0.911	False	False	en:sheared ≈ fr:géode ~ fr:géo
+sheared	rustique	0.913	0.911	False	False	en:sheared ≈ fr:géode ~ fr:rustique
+sheered	géo	0.925	0.911	False	False	en:sheered ≈ fr:géode ~ fr:géo
+sheered	rustique	0.913	0.911	False	False	en:sheered ≈ fr:géode ~ fr:rustique
+treen	traite	0.939	0.911	False	False	en:treen ~ en:treed ≈ fr:traite
+over	ayant	0.947	0.91	False	False	en:over ≈ fr:avez ~ fr:ayant
+over	avoir	0.945	0.91	False	False	en:over ≈ fr:avez ~ fr:avoir
+over	êtes	0.939	0.91	False	False	en:over ≈ fr:avez ~ fr:êtes
+beading	réunion	0.949	0.909	False	False	en:beading ≈ fr:meeting ~ fr:réunion
+beading	réunions	0.937	0.909	False	False	en:beading ≈ fr:meeting ~ fr:réunions
+peckers	pérou	0.916	0.909	False	False	en:peckers ≈ fr:pégase ~ fr:pérou
+shekel	estimées	0.931	0.909	False	False	en:shekel ≈ fr:séquelles ~ fr:estimées
+from	traquer	0.931	0.908	False	False	en:from ≈ fr:trame ~ fr:traquer
+leafy	laitier	0.924	0.908	False	False	en:leafy ≈ fr:lisser ~ fr:laitier
+edit riyal	industriels	0.952	0.907	True	False	en:edit riyal ≈ fr:industrielles ~ fr:industriels
+edit riyal	industrielles	0.952	0.907	True	False	en:edit riyal ≈ fr:industriels ~ fr:industrielles
+edit riyal	industrielle	0.952	0.907	True	False	en:edit riyal ≈ fr:industriel ~ fr:industrielle
+believers	bols	0.855	0.906	False	False	en:believers ≈ fr:blés aise ~ fr:bols
+forcing	fausse	0.937	0.906	False	False	en:forcing ≈ fr:faux in ~ fr:fausse
+forcing	faux	0.936	0.906	False	False	en:forcing ≈ fr:faux in ~ fr:faux
+forcing	fausses	0.933	0.906	False	False	en:forcing ≈ fr:faux in ~ fr:fausses
+ripply	rient in	0.874	0.906	False	True	en:ripply ~ en:ridding ≈ fr:rient in
+acted	gel	0.935	0.905	False	False	en:acted ≈ fr:accède ~ fr:gel
+exam	apparut	0.93	0.905	False	False	en:exam ≈ fr:exhibe ~ fr:apparut
+exam	apparu	0.929	0.905	False	False	en:exam ≈ fr:exhibe ~ fr:apparu
+exam	assistée	0.929	0.905	False	False	en:exam ≈ fr:exhibe ~ fr:assistée
+jeered	djihad	0.887	0.905	False	False	en:jeered ~ en:jeers ≈ fr:djihad
+seaboard	gamin	0.931	0.905	False	False	en:seaboard ≈ fr:chipote ~ fr:gamin
+landed	empreintes	0.897	0.904	False	False	en:landed ≈ fr:lin dites ~ fr:empreintes
+landed	collés	0.895	0.904	False	False	en:landed ≈ fr:lin dites ~ fr:collés
+pallet inner	palestine	0.951	0.904	True	False	en:pallet inner ≈ fr:palestinien ~ fr:palestine
+pallet inner	palestinienne	0.946	0.904	True	False	en:pallet inner ≈ fr:palestiniens ~ fr:palestinienne
+wardrobe	habillée	0.918	0.903	False	False	en:wardrobe ≈ fr:vont robe ~ fr:habillée
+cording	complice	0.906	0.902	False	False	en:cording ≈ fr:comptine ~ fr:complice
+cording	compote	0.904	0.902	False	False	en:cording ≈ fr:comptine ~ fr:compote
+cording	comptoir	0.902	0.902	False	False	en:cording ≈ fr:comptine ~ fr:comptoir
+sliding	apportez	0.921	0.902	False	False	en:sliding ≈ fr:soient in ~ fr:apportez
+sliding	arrivés	0.92	0.902	False	False	en:sliding ≈ fr:soient in ~ fr:arrivés
+suffered	saut aise	0.917	0.902	False	True	en:suffered ~ en:suffers ≈ fr:saut aise
+suffers	saut aide	0.917	0.902	False	True	en:suffers ~ en:suffered ≈ fr:saut aide
+acid art	assistant	0.946	0.901	True	False	en:acid art ≈ fr:assistante ~ fr:assistant
+acid art	assistants	0.937	0.901	True	False	en:acid art ≈ fr:assistante ~ fr:assistants
+acid art	assistantes	0.936	0.901	True	False	en:acid art ≈ fr:assistante ~ fr:assistantes
+alumni	intello	0.923	0.901	False	False	en:alumni ≈ fr:élan ni ~ fr:intello
+alumni	annie	0.921	0.901	False	False	en:alumni ≈ fr:élan ni ~ fr:annie
+compression	prochaine	0.935	0.901	False	False	en:compression ≈ fr:con prochaine ~ fr:prochaine
+compression	bientôt	0.926	0.901	False	False	en:compression ≈ fr:con prochaine ~ fr:bientôt
+coot of	adorait	0.922	0.901	True	False	en:coot of ≈ fr:gustave ~ fr:adorait
+dodgers	tôt les	0.889	0.901	False	True	en:dodgers ≈ fr:tôt chaise ~ fr:tôt les
+irked raw	extraits	0.938	0.901	True	False	en:irked raw ≈ fr:extrait ~ fr:extraits
+irked raw	extrait	0.938	0.901	True	False	en:irked raw ≈ fr:extraits ~ fr:extrait
+irked raw	extraite	0.9	0.901	True	False	en:irked raw ≈ fr:extrait ~ fr:extraite
+men arse	conservés	0.847	0.901	True	False	en:men arse ≈ fr:maintenance ~ fr:conservés
+men arse	réparer	0.817	0.901	True	False	en:men arse ≈ fr:maintenance ~ fr:réparer
+men arse	réparations	0.815	0.901	True	False	en:men arse ≈ fr:maintenance ~ fr:réparations
+shit your	management	0.934	0.901	True	False	en:shit your ≈ fr:gestion ~ fr:management
+shit your	gestionnaire	0.909	0.901	True	False	en:shit your ≈ fr:gestion ~ fr:gestionnaire
+expose	exposer	0.91	0.9	False	False	en:expose ≈ fr:exposent ~ fr:exposer
+expose	exposant	0.828	0.9	False	False	en:expose ≈ fr:exposent ~ fr:exposant

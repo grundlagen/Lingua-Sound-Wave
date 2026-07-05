@@ -1,0 +1,4 @@
+en	en_ipa	fr	fr_ipa	n_chunks	chunk_recipe	min_fragment_count	avg_fragment_count	en_zipf	fr_zipf
+flexibility	flɛksɪbɪlɪti	flexibilité	flɛksibilite	5	flɛ+ks+ɪb+ɪl+ɪti	3	44.0	4.02	3.65
+diplomat	dɪpləmæt	diplomates	diplɔmat	4	dɪ+pl+əm+æt	20	50.8	3.69	3.44
+static	stætɪk	statique	statik	3	st+æt+ɪk	20	149.7	4.05	3.52

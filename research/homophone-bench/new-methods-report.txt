@@ -1,0 +1,233 @@
+CHAIN METHODS REPORT
+
+========================================================================
+METHOD 1: GRADUATED TIER RE-SCORING
+========================================================================
+
+Re-scored 539 loops with per-edge quality:
+  Tier distribution:
+    S+ :  102 loops (18.9%)
+    S  :   76 loops (14.1%)
+    A+ :   21 loops (3.9%)
+    A  :   82 loops (15.2%)
+    B  :  258 loops (47.9%)
+
+--- NEW: A+ tier loops (min sound edge 0.85-0.90) ---
+  min_snd=0.892 mean=0.933 hops=4  en:order ≈ fr:hordes ~ fr:horde ≈ en:ordered ~ fr:ordre
+  min_snd=0.892 mean=0.933 hops=4  en:order ≈ fr:horde ~ fr:hordes ≈ en:ordered ~ fr:ordre
+  min_snd=0.882 mean=0.930 hops=4  en:stress ≈ fr:stresse ~ fr:stress ≈ en:stressed ~ fr:stressé
+  min_snd=0.882 mean=0.930 hops=4  en:stress ≈ fr:stresse ~ fr:stress ≈ en:stressed ~ en:stresa
+  min_snd=0.882 mean=0.928 hops=5  en:stressful ~ fr:stresse ≈ en:stress ~ fr:stress ≈ en:stressed ~ fr:stressé
+  min_snd=0.882 mean=0.928 hops=5  en:stressful ~ fr:stresse ≈ en:stress ~ fr:stress ≈ en:stressed ~ fr:stressant
+  min_snd=0.881 mean=0.904 hops=5  en:correct ~ en:correctly ≈ fr:corrects lies ~ fr:exacts lies ≈ en:exactly ~ fr:exact
+  min_snd=0.881 mean=0.904 hops=5  en:purely ~ en:strictly ≈ fr:strictes lies ~ fr:exacts lies ≈ en:exactly ~ en:precise
+  min_snd=0.870 mean=0.930 hops=3  en:technique ≈ fr:techniques ~ en:techniques ≈ fr:technique
+  min_snd=0.870 mean=0.930 hops=3  en:technique ≈ fr:techniques ~ fr:technique ≈ en:techniques
+  min_snd=0.870 mean=0.925 hops=4  en:expressing ≈ fr:exprès in ~ fr:exprès ≈ en:express = fr:exprimer
+  min_snd=0.850 mean=0.923 hops=3  en:sketch ≈ fr:sketchs ~ en:sketches ≈ fr:sketch
+  min_snd=0.850 mean=0.923 hops=3  en:sketch ≈ fr:sketchs ~ fr:sketch ≈ en:sketches
+  min_snd=0.850 mean=0.923 hops=3  en:streak ≈ fr:stricte ~ fr:strict ≈ en:streaked
+  min_snd=0.850 mean=0.923 hops=3  en:streaked ≈ fr:strict ~ fr:stricte ≈ en:streak
+  min_snd=0.850 mean=0.923 hops=3  en:streaked ≈ fr:strict ~ fr:strictes ≈ en:streak
+  min_snd=0.850 mean=0.912 hops=4  en:strict ~ fr:strict ≈ en:streaks ~ en:streak ≈ fr:strictes
+  min_snd=0.850 mean=0.912 hops=4  en:strict ~ fr:strict ≈ en:streaks ~ en:streak ≈ fr:stricte
+  min_snd=0.850 mean=0.910 hops=3  en:streak ≈ fr:stricte ~ fr:strict ≈ en:streaks
+  min_snd=0.850 mean=0.910 hops=3  en:streaks ≈ fr:strict ~ fr:stricte ≈ en:streak
+
+--- S+ tier (all sound edges >= 0.95) ---
+  min_snd=1.000 mean=0.983 hops=3  en:pp ≈ fr:pipi = en:pee ≈ fr:pis
+  min_snd=1.000 mean=0.973 hops=3  en:feeler ≈ fr:filer ~ fr:files ≈ en:feel
+  min_snd=1.000 mean=0.973 hops=3  en:meanie ≈ fr:mini ~ fr:minis ≈ en:meany
+  min_snd=1.000 mean=0.973 hops=3  en:meany ≈ fr:minis ~ fr:mini ≈ en:meanie
+  min_snd=1.000 mean=0.973 hops=3  en:pieced ≈ fr:pistent ~ fr:pissent ≈ en:piece
+  min_snd=1.000 mean=0.973 hops=3  en:poop ≈ fr:poupe ~ fr:pouf ≈ en:poof
+  min_snd=1.000 mean=0.973 hops=3  en:poop ≈ fr:poupes ~ fr:pouffe ≈ en:poof
+  min_snd=1.000 mean=0.968 hops=4  en:less ≈ fr:laisses ~ fr:laissent ≈ en:lesser = fr:moindre
+  min_snd=1.000 mean=0.968 hops=4  en:paste = fr:coller ≈ en:caller ~ en:call ≈ fr:colle
+  min_snd=1.000 mean=0.968 hops=4  en:paste = fr:colle ≈ en:call ~ en:caller ≈ fr:coller
+  min_snd=1.000 mean=0.968 hops=4  en:pp ≈ fr:pipi = en:pee ≈ fr:pis ~ en:pis
+  min_snd=1.000 mean=0.968 hops=4  en:troop ≈ fr:troupe ~ en:troupe ≈ fr:troupes = en:troops
+  min_snd=1.000 mean=0.960 hops=4  en:feel ≈ fr:files ~ fr:filer ≈ en:feeler ~ en:feels
+  min_snd=1.000 mean=0.960 hops=4  en:meanie ≈ fr:mini ~ fr:minis ≈ en:meany ~ fr:meher
+  min_snd=1.000 mean=0.960 hops=4  en:meany ≈ fr:minis ~ fr:mini ≈ en:meanie ~ en:mey
+
+  A+ tier adds 12 NEW seeds not in S/S+ tier
+  Total loop seeds: S+=57 S=39 A+=12 A=43 B=139
+
+  A+ tier produces 19 certified pairs, 19 NEW (not in S-tier)
+
+--- Top NEW A+ certified pairs ---
+  certs= 5  streak               <-> stricte               en:streak ≈ fr:stricte ~ fr:strict ≈ en:streaked
+  certs= 5  streaks              <-> strict                en:strict ~ fr:strict ≈ en:streaks ~ en:streak ≈ fr:strictes
+  certs= 4  stress               <-> stresse               en:stress ≈ fr:stresse ~ fr:stress ≈ en:stressed ~ fr:stressé
+  certs= 4  stressed             <-> stress                en:stress ≈ fr:stresse ~ fr:stress ≈ en:stressed ~ fr:stressé
+  certs= 3  streaked             <-> strict                en:streak ≈ fr:stricte ~ fr:strict ≈ en:streaked
+  certs= 3  streak               <-> strictes              en:streaked ≈ fr:strict ~ fr:strictes ≈ en:streak
+  certs= 2  exactly              <-> exacts lies           en:correct ~ en:correctly ≈ fr:corrects lies ~ fr:exacts lies ≈ e
+  certs= 2  technique            <-> techniques            en:technique ≈ fr:techniques ~ en:techniques ≈ fr:technique
+  certs= 2  techniques           <-> technique             en:technique ≈ fr:techniques ~ en:techniques ≈ fr:technique
+  certs= 2  sketch               <-> sketchs               en:sketch ≈ fr:sketchs ~ en:sketches ≈ fr:sketch
+  certs= 2  sketches             <-> sketch                en:sketch ≈ fr:sketchs ~ en:sketches ≈ fr:sketch
+  certs= 1  order                <-> hordes                en:order ≈ fr:hordes ~ fr:horde ≈ en:ordered ~ fr:ordre
+  certs= 1  ordered              <-> horde                 en:order ≈ fr:hordes ~ fr:horde ≈ en:ordered ~ fr:ordre
+  certs= 1  order                <-> horde                 en:order ≈ fr:horde ~ fr:hordes ≈ en:ordered ~ fr:ordre
+  certs= 1  ordered              <-> hordes                en:order ≈ fr:horde ~ fr:hordes ≈ en:ordered ~ fr:ordre
+  certs= 1  correctly            <-> corrects lies         en:correct ~ en:correctly ≈ fr:corrects lies ~ fr:exacts lies ≈ e
+  certs= 1  strictly             <-> strictes lies         en:purely ~ en:strictly ≈ fr:strictes lies ~ fr:exacts lies ≈ en:
+  certs= 1  expressing           <-> exprès in             en:expressing ≈ fr:exprès in ~ fr:exprès ≈ en:express = fr:exprim
+  certs= 1  express              <-> exprès                en:expressing ≈ fr:exprès in ~ fr:exprès ≈ en:express = fr:exprim
+
+========================================================================
+METHOD 2: DENSITY-BASED CERTIFICATION
+========================================================================
+
+Density-certified pairs (>= 2 subchain passages): 1910
+  Also loop-certified: 114
+  Density-only (NEW):  1796
+
+--- Top 20 density-certified pairs (overall) ---
+  [ ] density=  89.2  passages= 97  q=0.942  rooters              <-> ruent aise
+  [ ] density=  85.9  passages= 93  q=0.956  method               <-> met aide
+  [ ] density=  80.5  passages= 86  q=0.953  pleaded              <-> plient aide
+  [ ] density=  78.5  passages= 81  q=0.990  tech                 <-> teck
+  [ ] density=  77.6  passages= 81  q=0.970  si                   <-> scient
+  [ ] density=  76.7  passages= 83  q=0.956  metered              <-> méthode
+  [ ] density=  74.6  passages= 80  q=0.951  distracted           <-> dis traquent aide
+  [+] density=  71.5  passages= 74  q=0.978  retailer             <-> rient ailé
+  [ ] density=  68.8  passages= 75  q=0.978  root                 <-> routes
+  [+] density=  66.5  passages= 69  q=0.988  piece                <-> pisse
+  [ ] density=  66.3  passages= 70  q=1.000  root                 <-> route
+  [ ] density=  63.1  passages= 68  q=0.935  branding             <-> brin digne
+  [+] density=  61.0  passages= 63  q=0.977  retailers            <-> rient hélas
+  [ ] density=  60.6  passages= 64  q=0.962  resell               <-> ries elle
+  [ ] density=  59.8  passages= 64  q=0.966  lecture              <-> liguent chez
+  [ ] density=  58.4  passages= 63  q=0.935  branded              <-> prennent aide
+  [ ] density=  58.2  passages= 61  q=0.983  should               <-> shoot
+  [ ] density=  57.6  passages= 60  q=0.982  sex                  <-> sexes
+  [ ] density=  56.1  passages= 61  q=0.947  enters               <-> aident aise
+  [ ] density=  55.7  passages= 60  q=0.949  lectures             <-> liguent chaise
+
+--- Top 20 density-ONLY pairs (not loop-certified) ---
+  density=  89.2  passages= 97  score=0.952  rooters              <-> ruent aise            hops>=2
+  density=  85.9  passages= 93  score=0.929  method               <-> met aide              hops>=3
+  density=  80.5  passages= 86  score=0.96  pleaded              <-> plient aide           hops>=2
+  density=  78.5  passages= 81  score=1.0  tech                 <-> teck                  hops>=2
+  density=  77.6  passages= 81  score=1.0  si                   <-> scient                hops>=3
+  density=  76.7  passages= 83  score=0.952  metered              <-> méthode               hops>=2
+  density=  74.6  passages= 80  score=0.954  distracted           <-> dis traquent aide     hops>=2
+  density=  68.8  passages= 75  score=1.0  root                 <-> routes                hops>=2
+  density=  66.3  passages= 70  score=1.0  root                 <-> route                 hops>=2
+  density=  63.1  passages= 68  score=0.918  branding             <-> brin digne            hops>=2
+  density=  60.6  passages= 64  score=0.976  resell               <-> ries elle             hops>=2
+  density=  59.8  passages= 64  score=0.94  lecture              <-> liguent chez          hops>=2
+  density=  58.4  passages= 63  score=0.915  branded              <-> prennent aide         hops>=2
+  density=  58.2  passages= 61  score=0.927  should               <-> shoot                 hops>=2
+  density=  57.6  passages= 60  score=1.0  sex                  <-> sexes                 hops>=2
+  density=  56.1  passages= 61  score=0.929  enters               <-> aident aise           hops>=2
+  density=  55.7  passages= 60  score=0.932  lectures             <-> liguent chaise        hops>=2
+  density=  54.5  passages= 59  score=0.911  gravel               <-> gras elle             hops>=2
+  density=  54.0  passages= 57  score=0.956  reseal               <-> ries il               hops>=2
+  density=  53.9  passages= 57  score=0.952  lesson               <-> laids haine           hops>=2
+
+========================================================================
+METHOD 3: SHORT CHAIN (2-HOP) EVIDENCE
+========================================================================
+
+2-hop S-tier chains: 1236
+  Multiword source: 70
+  Multiword dest:   77
+
+--- Top 20 by sound-edge score ---
+  [ ] snd=1.000  air                    -> epoque                  en:air ≈ fr:ère ~ fr:epoque
+  [ ] snd=1.000  air                    -> amas                    en:air ≈ fr:aires ~ fr:amas
+  [ ] snd=1.000  air                    -> étui                    en:air ≈ fr:aires ~ fr:étui
+  [ ] snd=1.000  any                    -> haie                    en:any ≈ fr:haie nient ~ fr:haie
+  [*] snd=1.000  any                    -> hainaut chie            en:any ≈ fr:haie nient ~ fr:hainaut chie
+  [ ] snd=1.000  any                    -> haies                   en:any ≈ fr:haie nient ~ fr:haies
+  [ ] snd=1.000  around                 -> round}                  en:around ≈ fr:round ~ fr:round}
+  [ ] snd=1.000  around                 -> rondes                  en:around ≈ fr:round ~ fr:rondes
+  [ ] snd=1.000  baulks                 -> boxe                    en:baulks ≈ fr:box ~ fr:boxe
+  [ ] snd=1.000  baulks                 -> boîte                   en:baulks ≈ fr:box ~ fr:boîte
+  [ ] snd=1.000  bawdry                 -> body                    en:bawdry ~ en:bawdy ≈ fr:body
+  [ ] snd=1.000  beading                -> bide                    en:beading ~ en:bead ≈ fr:bide
+  [ ] snd=1.000  beak                   -> biche                   en:beak ≈ fr:bique ~ fr:biche
+  [ ] snd=1.000  beak                   -> bistro                  en:beak ≈ fr:biques ~ fr:bistro
+  [ ] snd=1.000  bean                   -> gueux                   en:bean ≈ fr:bines ~ fr:gueux
+  [ ] snd=1.000  bean                   -> bondir                  en:bean ≈ fr:binent ~ fr:bondir
+  [ ] snd=1.000  beefy                  -> bis                     en:beefy ~ en:bee ≈ fr:bis
+  [ ] snd=1.000  belly                  -> mensonge                en:belly ≈ fr:bey lies ~ fr:mensonge
+  [ ] snd=1.000  belly                  -> lies                    en:belly ≈ fr:bey lies ~ fr:lies
+  [ ] snd=1.000  ben                    -> saisis                  en:ben ≈ fr:bennes ~ fr:saisis
+
+Unique src->dst transfer pairs: 1236
+EN words with at least one 2-hop chain: 763
+
+========================================================================
+METHOD 4: DEEP FRAGMENT COMPOSITION (3-6 CHUNKS, EXACT ONLY)
+========================================================================
+
+Fragment inventory: 2640 chunks, 1882 unique EN chunks
+Common EN words (zipf >= 3.0): 6671
+Already in dictionary (usable): 3099
+Target words (common but not usable): 3572
+
+Tested 3001 target words for 3-6 chunk decomposition
+Found 3 EXACT novel compositions:
+  3 chunks: 1
+  4 chunks: 1
+  5 chunks: 1
+
+--- Compositions by chunk count (deepest first) ---
+  5ch  flexibility          (flɛksɪbɪlɪti   ) -> flexibilité          (flɛksibilite   )  recipe=flɛ+ks+ɪb+ɪl+ɪti  min_frag=3
+  4ch  diplomat             (dɪpləmæt       ) -> diplomates           (diplɔmat       )  recipe=dɪ+pl+əm+æt  min_frag=20
+  3ch  static               (stætɪk         ) -> statique             (statik         )  recipe=st+æt+ɪk  min_frag=20
+
+--- Fragment composition depth analysis ---
+Current state: all 942 fragment entries use exactly 2 chunks
+This method found 1 3-chunk, 1 4-chunk, 1 5-chunk, 0 6-chunk compositions
+Average EN zipf: 3.92, FR zipf: 3.54
+
+--- Multiword-to-multiword fragment bridging ---
+Can we chain EN multiwords to FR multiwords via fragments?
+
+Existing 2-word EN entries re-decomposed into 3+ chunks: 15 / 104
+  4ch  edit riyal                (ɛdɪtɹɪjəl) -> industriel            recipe=ɛdɪ+tɹ+ɪj+əl
+  4ch  edit riyal                (ɛdɪtɹɪjəl) -> industrielle          recipe=ɛdɪ+tɹ+ɪj+əl
+  4ch  edit riyal                (ɛdɪtɹɪjəl) -> industriels           recipe=ɛdɪ+tɹ+ɪj+əl
+  4ch  manners meant             (mænəzmɛnt) -> management            recipe=mæn+əz+mɛ+nt
+  4ch  edit riyal                (ɛdɪtɹɪjəl) -> industrielles         recipe=ɛdɪ+tɹ+ɪj+əl
+  4ch  pallet inner              (pælɪtɪnɐ) -> palestiniens          recipe=pæ+lɪ+tɪ+nɐ
+  4ch  pallet inner              (pælɪtɪnɐ) -> palestinien           recipe=pæ+lɪ+tɪ+nɐ
+  3ch  debt inner                (dɛtɪnɐ) -> destiné               recipe=dɛ+tɪ+nɐ
+  3ch  red error                 (ɹɛdɛɹɐ) -> restera               recipe=ɹɛ+dɛ+ɹɐ
+  3ch  debt inner                (dɛtɪnɐ) -> destinée              recipe=dɛ+tɪ+nɐ
+  3ch  debt inner                (dɛtɪnɐ) -> destinés              recipe=dɛ+tɪ+nɐ
+  3ch  it attack                 (ɪtɐtæk) -> esthétique            recipe=ɪt+ɐt+æk
+  3ch  debt inner                (dɛtɪnɐ) -> destinées             recipe=dɛ+tɪ+nɐ
+  3ch  pallet in                 (pælɪtɪn) -> palestine             recipe=pæl+ɪt+ɪn
+  3ch  pet acid                  (pɛtæsɪd) -> pesticides            recipe=pɛt+æs+ɪd
+
+>> FINDING (multi-to-multi, 5-6 words?): fragments are frozen at
+   2 chunks and EXACT concatenation past that is sparse — most 3-6
+   chunk recipes produce an IPA string no FR word exactly pronounces.
+   This is NOT solved by relaxing the match (fuzzy/edit-distance is
+   off the table). The 11-12 June schema already has the principled
+   generalization: phonetic_decoder.py replaces pairwise/2-chunk
+   blocking with a Lexique pronunciation TRIE + beam search, where
+   substitution costs are floored by the matcher's LEARNED phoneme
+   equivalences (learn_costs.py -> learned-costs.json) and word
+   boundaries are free acoustically (MAX_WORDS controls depth).
+   That is true multi-to-multi: 'remember' -> whole FR phrases, not
+   chunk-pair lookups.
+
+>> RE-MINING is the growth step (commit b5a985a's honest negative):
+   promoting/relabelling certified pairs CANNOT compound — loops are
+   built from edges that were already usable, so certification only
+   re-labels existing topology. New edges come only from re-mining:
+     1. learn costs from certified alignments   (learn_costs.py, done)
+     2. re-run decode/augment with learned-cost matcher + 2.1x CMUdict
+        trie:  phonetic_decoder.py --augment && --reverse   <- GROWTH
+     3. new entries -> denser graph -> re-weave (weave.py)
+     4. new loops certify new pairs -> goto 1
+   These deep-fragment recipes are useful as EN-side SEGMENTATION
+   seeds for that decoder pass, not as a standalone matcher.

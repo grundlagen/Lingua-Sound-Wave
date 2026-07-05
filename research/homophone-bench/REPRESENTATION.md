@@ -49,8 +49,10 @@ The salvageable version, for later: a **round-trip filter** on finished
 compositions — synthesize the French side with several FR voices, run
 English Whisper, and check it transcribes back to (near) the English side.
 Use as a soft re-ranking signal on candidates the symbolic system already
-produced, with multiple voices and a fuzzy match on the transcript. Cheap
-to add in the production app (it already has TTS infra); never load-bearing.
+produced, comparing transcripts with the **same featural `combo` matcher**
+(not raw string/edit-distance — fuzzy matching is out of the schema). Cheap
+to add in the production app (it already has TTS infra); never load-bearing,
+and never on the default path.
 
 ## 3. The structure afterwards: dictionary as transducer, three search regimes
 

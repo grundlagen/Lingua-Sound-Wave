@@ -1,0 +1,332 @@
+CHAIN ANALYSIS REPORT
+Data: 7285 chains, 4497 S-chains, 539 loops, 169 S-loops, 410 pairs, 121 S-pairs, 16719 subchains
+
+========================================================================
+SECTION: MULTIWORD / FRAGMENT ANALYSIS
+========================================================================
+
+Multiword entries in certified pairs (S-tier): 62 / 121 (51.2%)
+Multiword entries in certified pairs (full):   82 / 410 (20.0%)
+
+Multiword-SEEDED loops (full):   12 / 539
+Multiword-SEEDED loops (S-tier): 4 / 169
+
+--- Top multiword S-tier certified pairs ---
+  [FR-multi] certs=10  succeed              <-> secs ides
+  [FR-multi] certs= 8  success              <-> secs ace
+  [FR-multi] certs= 5  myself               <-> mas elfes
+  [FR-multi] certs= 5  yourself             <-> ions elfes
+  [FR-multi] certs= 5  lender               <-> lin des
+  [FR-multi] certs= 5  lenders              <-> lin dos
+  [FR-multi] certs= 5  southwest            <-> cent ouest
+  [FR-multi] certs= 5  northwest            <-> nœud ouest
+  [FR-multi] certs= 4  existed              <-> exit aide
+  [EN-multi] certs= 4  exit art             <-> existantes
+  [FR-multi] certs= 4  fortunate            <-> faut chaînette
+  [FR-multi] certs= 4  fortunately          <-> faut chenet lis
+  [FR-multi] certs= 4  founders             <-> fanent aise
+  [FR-multi] certs= 4  founding             <-> fanent in
+  [FR-multi] certs= 4  possessed            <-> paix est
+
+Breakdown: 1 have multiword EN, 61 have multiword FR
+
+Fragment-seeded loops with quality >= 0.90: 8
+  q=0.941 hops=4  en:souped arse ~ en:soupy ≈ fr:souper ~ en:soup ≈ fr:soupe
+  q=0.941 hops=4  en:souped arse ~ en:soupy ≈ fr:souper ~ fr:soupe ≈ en:soup
+  q=0.927 hops=4  en:treat esse ≈ fr:tristesse ~ fr:triste ≈ en:treat = fr:traitez
+  q=0.914 hops=4  en:treat esse ≈ fr:tristesse ~ fr:triste ≈ en:treat ~ en:treating
+  q=0.913 hops=5  en:court arse ~ en:court ≈ fr:cotes ~ fr:cote ≈ en:courts ~ fr:court
+  q=0.913 hops=5  en:court arse ~ en:court ≈ fr:cote ~ fr:cotes ≈ en:courts ~ fr:court
+  q=0.905 hops=4  en:exit art ≈ fr:existantes ~ en:existed ≈ fr:exit aide ~ en:exit
+  q=0.903 hops=6  en:exit arse ≈ fr:existence ~ en:exist ≈ fr:existe ~ fr:existent ≈ en:exit ~ en:exiting
+
+>> FINDING: Multiwords ARE in S-tier. The FR side is almost always multi-
+   word (phonetic decomposition), while EN-side multiwords are rarer and
+   tend to be fragment compositions (exit arse, court arse, souped arse).
+   Fragment-composed entries DO participate in loops and CAN achieve
+   high quality, but they're a small fraction of the total.
+
+========================================================================
+SECTION: MIN-EDGE (WEAKEST LINK) SCORING
+========================================================================
+
+Current method: quality = mean(edge scores along path).
+Alternative: quality = min(edge scores) — one weak link tanks the chain.
+This rewards chains where EVERY hop is strong.
+
+--- Top 15 loops by MEAN quality (current method) ---
+  mean=0.993  s=2 m=2 hops=4  petit
+  mean=0.992  s=2 m=1 hops=3  cross
+  mean=0.992  s=2 m=1 hops=3  crosse
+  mean=0.991  s=2 m=2 hops=4  pieced
+  mean=0.988  s=2 m=1 hops=3  meanie
+  mean=0.988  s=2 m=1 hops=3  meany
+  mean=0.988  s=2 m=1 hops=3  pieced
+  mean=0.988  s=2 m=2 hops=4  troop
+  mean=0.987  s=2 m=1 hops=3  cross
+  mean=0.987  s=2 m=1 hops=3  crosse
+  mean=0.987  s=2 m=2 hops=4  pp
+  mean=0.984  s=2 m=1 hops=3  poop
+  mean=0.983  s=2 m=2 hops=4  mini
+  mean=0.983  s=2 m=1 hops=3  pp
+  mean=0.982  s=2 m=1 hops=3  feeler
+
+--- Loops where mean quality is HIGH but sound-hop ratio is LOW ---
+   (meaning edges inflate the mean; sound edges may be weak)
+  (none found — all high-quality loops have balanced sound/meaning)
+
+--- 3-hop loops (shortest, tightest) ranked by mean ---
+  mean=0.992  en:cross ≈ fr:crosse ~ en:crosse ≈ fr:cross
+  mean=0.992  en:crosse ≈ fr:cross ~ en:cross ≈ fr:crosse
+  mean=0.988  en:meanie ≈ fr:mini ~ fr:minis ≈ en:meany
+  mean=0.988  en:meany ≈ fr:minis ~ fr:mini ≈ en:meanie
+  mean=0.988  en:pieced ≈ fr:pistent ~ fr:pissent ≈ en:piece
+  mean=0.987  en:cross ≈ fr:crosse ~ fr:cross ≈ en:crosse
+  mean=0.987  en:crosse ≈ fr:cross ~ fr:crosse ≈ en:cross
+  mean=0.984  en:poop ≈ fr:poupe ~ fr:pouf ≈ en:poof
+  mean=0.983  en:pp ≈ fr:pipi = en:pee ≈ fr:pis
+  mean=0.982  en:feeler ≈ fr:filer ~ fr:files ≈ en:feel
+  mean=0.979  en:poop ≈ fr:poupes ~ fr:pouffe ≈ en:poof
+  mean=0.978  en:plea ≈ fr:pli ~ fr:plisse ≈ en:pleas
+  mean=0.973  en:plea ≈ fr:plis ~ fr:plisse ≈ en:pleas
+  mean=0.973  en:pressie ≈ fr:précis ~ fr:précise ≈ en:pressies
+  mean=0.973  en:pressies ≈ fr:précise ~ fr:précis ≈ en:pressie
+
+  Total 3-hop loops: 122 (of 539 total)
+  Mean quality of 3-hop: 0.927
+  Mean quality of all loops: 0.918
+
+>> FINDING: 3-hop loops have the highest average quality because there
+   are fewer edges to drag down the mean. Mean-scoring naturally favors
+   shorter chains. A min-edge approach would change rankings less for
+   short chains but significantly for longer ones.
+
+========================================================================
+SECTION: SHORT CHAIN ANALYSIS
+========================================================================
+
+Hop distribution — full chain web:
+  2 hops:   791 chains (10.9%)
+  3 hops:   792 chains (10.9%)
+  4 hops:   744 chains (10.2%)
+  5 hops:  1290 chains (17.7%)
+  6 hops:  3668 chains (50.4%)
+
+Hop distribution — S-tier chain web:
+  2 hops:  1236 chains (27.5%)
+  3 hops:   460 chains (10.2%)
+  4 hops:   978 chains (21.7%)
+  5 hops:   641 chains (14.3%)
+  6 hops:  1182 chains (26.3%)
+
+--- 2-hop S-tier chains (shortest possible: 1 sound + 1 meaning) ---
+    Count: 1236 (27.5% of S-tier)
+    Quality range: 0.801 - 0.998
+    Top examples:
+      q=0.998  tree                 -> tres                  en:tree ≈ fr:tri ~ fr:tres
+      q=0.998  we                   -> sim                   en:we ≈ fr:oui ~ fr:sim
+      q=0.998  wee                  -> sim                   en:wee ≈ fr:oui ~ fr:sim
+      q=0.997  lease                -> luce                  en:lease ≈ fr:lys ~ fr:luce
+      q=0.997  pair                 -> isa                   en:pair ≈ fr:père ~ fr:isa
+      q=0.997  stalk                -> stocks                en:stalk ≈ fr:stockes ~ fr:stocks
+      q=0.997  stress               -> stress                en:stress ≈ fr:stresse ~ fr:stress
+      q=0.996  check                -> tchèque               en:check ≈ fr:tchèques ~ fr:tchèque
+      q=0.996  check                -> tchèques              en:check ≈ fr:tchèque ~ fr:tchèques
+      q=0.996  share                -> chère                 en:share ≈ fr:chères ~ fr:chère
+
+--- 2-hop chains with multiword src or dst ---
+    Count: 147
+      q=0.980  cc                   -> raies lis             en:cc ≈ fr:sis scie ~ fr:raies lis
+      q=0.978  detest               -> dis est               en:detest ≈ fr:dit est ~ fr:dis est
+      q=0.978  moody                -> pie dits              en:moody ≈ fr:mous dits ~ fr:pie dits
+      q=0.978  pd                   -> mous dits             en:pd ≈ fr:pie dits ~ fr:mous dits
+      q=0.975  sensors              -> sain ses              en:sensors ~ en:sensor ≈ fr:sain ses
+      q=0.972  eat auric            -> historiques           en:eat auric ≈ fr:historique ~ fr:historiques
+      q=0.972  eat auric            -> historique            en:eat auric ≈ fr:historiques ~ fr:historique
+      q=0.970  started eek          -> statistique           en:started eek ≈ fr:statistiques ~ fr:statistique
+      q=0.970  started eek          -> statistiques          en:started eek ≈ fr:statistique ~ fr:statistiques
+      q=0.970  vendors              -> vin des               en:vendors ~ en:vendor ≈ fr:vin des
+
+>> FINDING: 2-hop chains are abundant — they require only one sound hop
+   and one meaning hop. They're the densest evidence of EN-FR transfer.
+   Multiword sources in 2-hop chains are fragment compositions that
+   reach real FR endpoints in just two steps — very efficient.
+
+========================================================================
+SECTION: EVIDENCE DENSITY
+========================================================================
+
+Evidence = number of subchains that pass through a pair's nodes.
+
+Certified pair nodes appearing in subchains: 439 / 632
+
+--- Top 20 pairs by subchain density (most connected) ---
+  density= 298  certs= 8  root                 <-> routes
+  density= 230  certs= 4  piece                <-> pisse
+  density= 189  certs= 4  retailer             <-> rient ailé
+  density= 188  certs=10  sicks                <-> sexe
+  density= 188  certs= 1  pen                  <-> peine
+  density= 184  certs= 4  retailers            <-> rient hélas
+  density= 178  certs= 6  route                <-> routes
+  density= 158  certs= 4  sexy                 <-> sexe
+  density= 153  certs= 6  test                 <-> testes
+  density= 152  certs= 1  presses              <-> précise
+  density= 146  certs= 3  piece                <-> pisses
+  density= 141  certs= 1  jean                 <-> gin
+  density= 140  certs= 2  pee                  <-> pi
+  density= 138  certs= 1  reader               <-> ride
+  density= 136  certs= 1  jean                 <-> gins
+  density= 135  certs= 7  read                 <-> ride
+  density= 132  certs= 3  reader               <-> rides
+  density= 129  certs= 5  read                 <-> rides
+  density= 127  certs= 2  piece                <-> pissent
+  density= 119  certs=10  sex                  <-> sectes
+
+--- Under-certified but highly connected (certs<=2, density>=20) ---
+  density= 188  certs= 1  pen                  <-> peine
+  density= 152  certs= 1  presses              <-> précise
+  density= 141  certs= 1  jean                 <-> gin
+  density= 140  certs= 2  pee                  <-> pi
+  density= 138  certs= 1  reader               <-> ride
+  density= 136  certs= 1  jean                 <-> gins
+  density= 127  certs= 2  piece                <-> pissent
+  density= 118  certs= 1  si                   <-> scies
+  density= 117  certs= 2  pee                  <-> pis
+  density= 112  certs= 2  gene                 <-> gin
+  density= 110  certs= 2  pease                <-> pisse
+  density= 110  certs= 2  peas                 <-> pisse
+  density= 108  certs= 2  piss                 <-> pisse
+  density= 107  certs= 1  sec                  <-> secs
+  density= 106  certs= 2  test                 <-> peste
+
+>> FINDING: Subchain density reveals which pairs are structurally central
+   to the web vs. peripheral. Pairs with low certifications but high
+   density are candidates for promotion — they're well-connected but
+   just happened to not close a loop.
+
+========================================================================
+SECTION: PROMOTION ANALYSIS
+========================================================================
+
+Pairs in full but NOT in S-tier: 293 (of 410 total)
+S-tier pairs: 121
+
+--- Top non-S pairs by certification (would gain from promotion) ---
+  certs=10  sicked               <-> secte                 en:sect ~ fr:secte ≈ en:sicked ~ en:sicks ≈ fr:sexe ~ en:sex ≈ fr:sect
+  certs=10  sicks                <-> sexe                  en:sect ~ fr:secte ≈ en:sicked ~ en:sicks ≈ fr:sexe ~ en:sex ≈ fr:sect
+  certs=10  sex                  <-> sectes                en:sect ~ fr:secte ≈ en:sicked ~ en:sicks ≈ fr:sexe ~ en:sex ≈ fr:sect
+  certs= 8  root                 <-> routes                en:root ≈ fr:routes ~ fr:route ≈ en:roots = fr:racines
+  certs= 8  roots                <-> route                 en:root ≈ fr:routes ~ fr:route ≈ en:roots = fr:racines
+  certs= 8  strip                <-> stream                en:stream ~ fr:stream ≈ en:strip ~ fr:strip ≈ en:streams
+  certs= 8  stream               <-> strip                 en:streams ~ fr:stream ≈ en:strip ~ fr:strip ≈ en:stream
+  certs= 8  tests                <-> test                  en:test ≈ fr:tests ~ en:tests ≈ fr:test
+  certs= 7  call                 <-> colle                 en:call ≈ fr:colle ~ fr:collent ≈ en:calls
+  certs= 7  read                 <-> ride                  en:read ≈ fr:ride ~ fr:rides ≈ en:reads
+  certs= 6  beats                <-> bite                  en:beat ≈ fr:bites ~ fr:bite ≈ en:beats
+  certs= 6  cruck                <-> crack                 en:crass ≈ fr:crasse ~ en:cruck ≈ fr:crack ~ en:crack ≈ fr:craque ~ en
+  certs= 6  crack                <-> craque                en:crass ≈ fr:crasse ~ en:cruck ≈ fr:crack ~ en:crack ≈ fr:craque ~ en
+  certs= 6  exit arse            <-> existence             en:exist ~ fr:existence ≈ en:exit arse ~ en:exit ≈ fr:existent
+  certs= 6  exit                 <-> existent              en:exist ~ fr:existence ≈ en:exit arse ~ en:exit ≈ fr:existent
+  certs= 6  exploring            <-> explorer              en:exploration ~ en:exploring ≈ fr:explorer ~ en:explorer ≈ fr:exploré
+  certs= 6  reads                <-> ride                  en:read ≈ fr:rides ~ fr:ride ≈ en:reads
+  certs= 6  reads                <-> rides                 en:read ≈ fr:ride ~ fr:rides ≈ en:reads
+  certs= 6  routes               <-> route                 en:road = fr:route ≈ en:routes ~ en:route ≈ fr:routes = en:roads
+  certs= 6  route                <-> routes                en:road = fr:route ≈ en:routes ~ en:route ≈ fr:routes = en:roads
+
+Seeds with loops in full web but NOT S-tier: 196
+Of those, loops with quality >= 0.85: 348
+
+--- Top missed loops (quality >= 0.85, not in S-tier) ---
+  q=0.983 hops=4  en:mini ~ fr:mini ≈ en:meanie ~ en:meany ≈ fr:minis
+  q=0.981 hops=5  en:troops = fr:troupes ≈ en:troupe ~ fr:troupe ≈ en:troop ~ en:truppe
+  q=0.981 hops=5  en:troops = fr:troupes ≈ en:troupe ~ fr:troupe ≈ en:troop ~ fr:truppe
+  q=0.980 hops=4  en:paste = fr:coller ≈ en:caller ~ en:call ≈ fr:colle
+  q=0.980 hops=4  en:paste = fr:colle ≈ en:call ~ en:caller ≈ fr:coller
+  q=0.974 hops=4  en:mini ~ fr:minis ≈ en:meany ~ en:meanie ≈ fr:mini
+  q=0.971 hops=4  en:crossed ~ fr:crosse ≈ en:cross ~ fr:cross ≈ en:crosse
+  q=0.970 hops=5  en:feels ~ en:feel ≈ fr:files ~ fr:filer ≈ en:feeler ~ en:feltre
+  q=0.968 hops=4  en:crossed ~ fr:crosse ≈ en:cross ~ en:crosse ≈ fr:cross
+  q=0.967 hops=4  en:retail ~ en:retailers ≈ fr:rient hélas ~ fr:rient ailé ≈ en:retailer
+  q=0.966 hops=4  en:stress ≈ fr:stresse ~ fr:stress ≈ en:stressed ~ fr:stressé
+  q=0.966 hops=5  en:stressful ~ fr:stresse ≈ en:stress ~ fr:stress ≈ en:stressed ~ fr:stressé
+  q=0.965 hops=4  en:retail ~ en:retailer ≈ fr:rient ailé ~ fr:rient hélas ≈ en:retailers
+  q=0.962 hops=5  en:stressful ~ fr:stresse ≈ en:stress ~ fr:stress ≈ en:stressed ~ fr:stressant
+  q=0.961 hops=5  en:stock ~ fr:stock ≈ en:stalk ~ en:stalky ≈ fr:stocker ~ fr:stocke
+
+>> FINDING: The S-tier filter (sound edges >= 0.90) excludes ~195 seeds
+   that DO form loops in the full web. Many of these loops have quality
+   >= 0.85, with just one A-tier sound edge pulling them below the S
+   threshold. A graduated tier (e.g., S >= 0.90, A+ >= 0.85) would
+   capture these without the full web's noise.
+
+========================================================================
+SECTION: NEAR-MISS ANALYSIS
+========================================================================
+
+Looking for patterns in loop structure that suggest improvement paths.
+
+Quality by hop count:
+  3 hops: n=122  quality 0.780 / 0.927 / 0.992
+  4 hops: n=246  quality 0.815 / 0.915 / 0.993
+  5 hops: n=142  quality 0.808 / 0.913 / 0.981
+  6 hops: n= 29  quality 0.874 / 0.925 / 0.956
+
+Sound hops per loop:
+  2 sound hops: 488
+  3 sound hops: 51
+Meaning hops per loop:
+  1 meaning hops: 122
+  2 meaning hops: 268
+  3 meaning hops: 149
+
+Loop edge-type patterns (most common):
+  S≈~≈             x117
+  S~≈~≈            x114
+  S≈~≈~            x90
+  S~≈~≈~           x77
+  S≈~≈=            x19
+  S~≈~≈=           x18
+  S=≈~≈            x15
+  S≈~≈~≈           x15
+  S~≈~≈~≈          x10
+  S=≈~≈=           x9
+  S=≈~≈~           x9
+  S≈~≈~≈~          x8
+  S~≈=≈            x7
+  S~≈=≈~           x6
+  S≈=≈             x5
+
+--- Suggestions for alternative chain methods ---
+
+1. GRADUATED S-TIER: Instead of hard 0.90 cutoff, use:
+     S+  >= 0.95  (near-perfect sound matches)
+     S   >= 0.90  (current)
+     A+  >= 0.85  (high-confidence, currently excluded from S-web)
+   This would add ~195 loop seeds and their certified pairs.
+
+2. MIN-EDGE SCORING: Replace mean(edges) with min(edges).
+   Current mean-scoring lets one 0.95 translation edge inflate a
+   chain that has a 0.82 sound edge. Min-edge exposes the weakest
+   link. Use for RE-RANKING, not filtering.
+
+3. FRAGMENT-BRIDGED SHORT CHAINS: The 2-hop chains (1 sound + 1
+   meaning) are the strongest evidence. Fragment compositions like
+   'exit arse' ≈ 'existence' create novel 2-hop entries that reach
+   endpoints whole-word entries can't. Priority: generate more
+   fragment-composed entries, then re-weave — the bootstrap the
+   commit history identified.
+
+4. BIDIRECTIONAL CERTIFICATION: Currently, a pair is certified by
+   appearing inside a loop. Alternative: count how many SUBCHAINS
+   pass through both nodes of the pair. High subchain density = the
+   pair is structurally central, even if no loop formally closes.
+
+5. SOUND-ONLY MINI-LOOPS: Allow 2-hop loops that are pure sound:
+   en:A ≈ fr:B ~ fr:C ≈ en:A (if C ≈ A). Currently forbidden by
+   strict alternation. These would certify pairs at the cost of
+   weaker semantic grounding.
+
+6. RE-MINING (the identified growth step): The bootstrap cycle showed
+   promotion alone can't compound. The path forward is:
+     learned costs (done, AUC 0.994) -> re-run decoder with bigger
+     EN trie (2.1x) -> new entries -> denser graph -> re-weave

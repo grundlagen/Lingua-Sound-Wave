@@ -1,5 +1,20 @@
 # Workspace
 
+> **⚠️ Methodology lives in the 11–12 June Python schema, not here.**
+> This file documents the TypeScript pnpm workspace (the `artifacts/`
+> explorer + API server). That stack still builds, but the **authoritative**
+> homophone methodology is the offline, deterministic Python pipeline in
+> `research/homophone-bench/` (`README.md` → "The 11–12 June schema").
+> The `phoneme-chain` / `hybrid-phoneme-audio` judges and the LLM-G2P + audio
+> machinery described below are the **earlier** approach; the bench
+> superseded them with the `combo` featural+n-gram matcher + **learned**
+> equivalence-floored costs, the `phonetic_decoder` trie/beam, and re-mining.
+>
+> **Deliberately NOT used** (do not reintroduce): fuzzy / edit-distance
+> matching (Levenshtein, difflib, rapidfuzz); plotting libraries (matplotlib /
+> pyplot) — results are TSV + plain text; **epitran** for G2P (use espeak-ng +
+> CMUdict + Lexique).
+
 ## Overview
 
 pnpm workspace monorepo using TypeScript. Each package manages its own dependencies.
