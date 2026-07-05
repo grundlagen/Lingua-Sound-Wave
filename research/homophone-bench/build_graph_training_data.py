@@ -144,8 +144,8 @@ if os.path.exists("generative-matches.tsv"):
                         gen_count += 1
 print(f"  Added {gen_count} generative-match rows")
 
-# ── 4. Add chain-web transitive hops ─────────────────────────────────
-print("[5/7] Adding chain-web hops...")
+# ── 4. Add chain-web transitive hops (EVERY NODE in the subchain) ─────
+print("[5/7] Adding chain-web nodes (every step is a node)...")
 chain_count = 0
 chain_file = "chain-web/archive/chain-web-full-v7u.tsv"
 if not os.path.exists(chain_file):
@@ -154,10 +154,49 @@ if os.path.exists(chain_file):
     with open(chain_file) as f:
         f.readline()
         for line_num, line in enumerate(f):
-            if chain_count >= 2000: break  # cap at 2000 to avoid bloat
+            if chain_count >= 8000: break
             parts = line.rstrip("\n").split("\t")
             if len(parts) >= 5:
                 a, b, hops, quality, subchain = parts[0], parts[1], int(parts[2]), float(parts[3]), parts[4]
+
+                # Parse the subchain: "~ fr:lit en:lee ~ fr:lee"
+                # Each "en:X ~ fr:Y" is a valid homophone node at some hop position
+                tokens = subchain.split()
+                hop_pos = 0
+                prev_en = None
+                for i, tok in enumerate(tokens):
+                    if tok == "~":  # sound edge follows
+                        continue
+                    if tok.startswith("en:"):
+                        prev_en = tok[3:].lower()
+                    elif tok.startswith("fr:") and prev_en:
+                        fr_word = tok[3:].lower()
+                        en_word = prev_en
+                        hop_pos += 1
+                        if en_word and fr_word and en_word != fr_word and 2 <= len(en_word) <= 15 and 2 <= len(fr_word) <= 15:
+                            if not any(r["en"] == en_word and r["fr"] == fr_word for r in rows):
+                                rows.append({
+                                    "en": en_word, "fr": fr_word,
+                                    "en_ipa": "", "fr_ipa": "",
+                                    "tier": "B",
+                                    "score": quality * (0.95 ** (hop_pos - 1)),
+                                    "alignment": "", "pivot": "",
+                                    "en_syll": 0, "fr_syll": 0, "syllable_delta": 0,
+                                    "gap_ratio": 0.0, "usable": 1,
+                                    "chunk_recipe": "", "en_onset": "", "en_coda": "",
+                                    "fr_onset": "", "fr_coda": "",
+                                    "loop_certified": False,
+                                    "chain_certified": True,
+                                    "graph_hops": hop_pos,
+                                    "graph_depth": hops,
+                                    "meaning_proximity": 0.9 ** hop_pos,
+                                    "source": "chain_web",
+                                    "graph_source": f"chain_step_{hop_pos}"
+                                })
+                                chain_count += 1
+                        prev_en = None  # reset after making the pair
+
+                # Also add the endpoint pair (a→b)
                 if ":" in a and ":" in b:
                     sl, sw = a.split(":", 1)
                     tl, tw = b.split(":", 1)
@@ -176,12 +215,12 @@ if os.path.exists(chain_file):
                                     "chunk_recipe": "", "en_onset": "", "en_coda": "",
                                     "fr_onset": "", "fr_coda": "",
                                     "loop_certified": False, "chain_certified": True,
-                                    "graph_hops": hops,
+                                    "graph_hops": hops, "graph_depth": hops,
                                     "meaning_proximity": 0.9 ** hops,
-                                    "source": "chain_web", "graph_source": f"chain_h{hops}"
+                                    "source": "chain_web", "graph_source": f"chain_endpoint_h{hops}"
                                 })
                                 chain_count += 1
-print(f"  Added {chain_count} chain-web rows")
+print(f"  Added {chain_count} chain-web nodes (every step is a training pair)")
 
 # ── 5. Add round-rabbit attachments ──────────────────────────────────
 print("[6/7] Adding round-rabbit attachments...")
