@@ -144,59 +144,104 @@ if os.path.exists("generative-matches.tsv"):
                         gen_count += 1
 print(f"  Added {gen_count} generative-match rows")
 
-# ── 4. Add chain-web transitive hops (EVERY NODE in the subchain) ─────
-print("[5/7] Adding chain-web nodes (every step is a node)...")
+# ── 4. Add chain-web PATH WALKS (sound edges + meaning edges + synonyms) ─
+# The subchain alternates: sound ~, meaning ≈, synonym ≡
+# Every step is a node. Edge types are training signals.
+print("[5/7] Adding chain-web path walks (sound/meaning/synonym edges)...")
 chain_count = 0
 chain_file = "chain-web/archive/chain-web-full-v7u.tsv"
 if not os.path.exists(chain_file):
     chain_file = "chain-web-full-v7u.tsv"
+
+EDGE_SYMBOLS = {"~": "sound", "≈": "meaning", "≡": "synonym"}
+
 if os.path.exists(chain_file):
     with open(chain_file) as f:
         f.readline()
         for line_num, line in enumerate(f):
-            if chain_count >= 8000: break
+            if chain_count >= 10000: break
             parts = line.rstrip("\n").split("\t")
             if len(parts) >= 5:
-                a, b, hops, quality, subchain = parts[0], parts[1], int(parts[2]), float(parts[3]), parts[4]
+                a, b, total_hops, quality, subchain = parts[0], parts[1], int(parts[2]), float(parts[3]), parts[4]
 
-                # Parse the subchain: "~ fr:lit en:lee ~ fr:lee"
-                # Each "en:X ~ fr:Y" is a valid homophone node at some hop position
+                # Parse the subchain as alternating edge walks:
+                # "en:borne ~ fr:borne ≈ en:born ~ fr:born"
+                #  sound edge ^    meaning ^     sound edge ^
                 tokens = subchain.split()
-                hop_pos = 0
-                prev_en = None
-                for i, tok in enumerate(tokens):
-                    if tok == "~":  # sound edge follows
-                        continue
-                    if tok.startswith("en:"):
-                        prev_en = tok[3:].lower()
-                    elif tok.startswith("fr:") and prev_en:
-                        fr_word = tok[3:].lower()
-                        en_word = prev_en
-                        hop_pos += 1
-                        if en_word and fr_word and en_word != fr_word and 2 <= len(en_word) <= 15 and 2 <= len(fr_word) <= 15:
-                            if not any(r["en"] == en_word and r["fr"] == fr_word for r in rows):
-                                rows.append({
-                                    "en": en_word, "fr": fr_word,
-                                    "en_ipa": "", "fr_ipa": "",
-                                    "tier": "B",
-                                    "score": quality * (0.95 ** (hop_pos - 1)),
-                                    "alignment": "", "pivot": "",
-                                    "en_syll": 0, "fr_syll": 0, "syllable_delta": 0,
-                                    "gap_ratio": 0.0, "usable": 1,
-                                    "chunk_recipe": "", "en_onset": "", "en_coda": "",
-                                    "fr_onset": "", "fr_coda": "",
-                                    "loop_certified": False,
-                                    "chain_certified": True,
-                                    "graph_hops": hop_pos,
-                                    "graph_depth": hops,
-                                    "meaning_proximity": 0.9 ** hop_pos,
-                                    "source": "chain_web",
-                                    "graph_source": f"chain_step_{hop_pos}"
-                                })
-                                chain_count += 1
-                        prev_en = None  # reset after making the pair
+                current_edge_type = None
+                prev_node = None
+                walk_step = 0  # position in the alternating walk
 
-                # Also add the endpoint pair (a→b)
+                for tok in tokens:
+                    if tok in EDGE_SYMBOLS:
+                        current_edge_type = EDGE_SYMBOLS[tok]
+                        continue
+                    # Parse node: "en:word" or "fr:word"
+                    if ":" in tok:
+                        lang, word = tok.split(":", 1)
+                        word = word.lower()
+                        if prev_node is not None and current_edge_type:
+                            # We have an edge: prev_node → current_node of type current_edge_type
+                            if prev_node[0] == "en" and lang == "fr" and current_edge_type == "sound":
+                                # This is a sound (homophone) edge pair — primary training signal
+                                en_word, fr_word = prev_node[1], word
+                                if en_word and fr_word and en_word != fr_word and 2 <= len(en_word) <= 15 and 2 <= len(fr_word) <= 15:
+                                    walk_step += 1
+                                    if not any(r["en"] == en_word and r["fr"] == fr_word for r in rows):
+                                        rows.append({
+                                            "en": en_word, "fr": fr_word,
+                                            "en_ipa": "", "fr_ipa": "",
+                                            "tier": "B",
+                                            "score": quality * (0.93 ** (walk_step - 1)),
+                                            "alignment": "", "pivot": "",
+                                            "en_syll": 0, "fr_syll": 0, "syllable_delta": 0,
+                                            "gap_ratio": 0.0, "usable": 1,
+                                            "chunk_recipe": "", "en_onset": "", "en_coda": "",
+                                            "fr_onset": "", "fr_coda": "",
+                                            "loop_certified": False,
+                                            "chain_certified": True,
+                                            "graph_hops": walk_step,
+                                            "graph_depth": total_hops,
+                                            "edge_type": "sound",
+                                            "meaning_proximity": 0.9 ** walk_step,
+                                            "source": "chain_web",
+                                            "graph_source": f"walk_sound_step{walk_step}"
+                                        })
+                                        chain_count += 1
+
+                            elif prev_node[0] == "en" and lang == "en" and current_edge_type in ("meaning", "synonym"):
+                                # EN→EN synonym edge — not a training pair, but valuable for graph structure
+                                # Record as a meaning-path signal
+                                pass
+
+                            elif prev_node[0] == "fr" and lang == "en" and current_edge_type == "meaning":
+                                # FR→EN meaning edge — reverse direction, useful for bilingual training
+                                fr_word, en_word = prev_node[1], word
+                                if en_word and fr_word and en_word != fr_word and 2 <= len(en_word) <= 15 and 2 <= len(fr_word) <= 15:
+                                    if not any(r["en"] == en_word and r["fr"] == fr_word for r in rows):
+                                        rows.append({
+                                            "en": en_word, "fr": fr_word,
+                                            "en_ipa": "", "fr_ipa": "",
+                                            "tier": "B",
+                                            "score": quality * (0.88 ** (walk_step - 1)),
+                                            "alignment": "", "pivot": "",
+                                            "en_syll": 0, "fr_syll": 0, "syllable_delta": 0,
+                                            "gap_ratio": 0.0, "usable": 1,
+                                            "chunk_recipe": "", "en_onset": "", "en_coda": "",
+                                            "fr_onset": "", "fr_coda": "",
+                                            "loop_certified": False, "chain_certified": True,
+                                            "graph_hops": walk_step,
+                                            "graph_depth": total_hops,
+                                            "edge_type": "meaning_reverse",
+                                            "meaning_proximity": 0.85 ** walk_step,
+                                            "source": "chain_web",
+                                            "graph_source": f"walk_meaning_step{walk_step}"
+                                        })
+                                        chain_count += 1
+
+                        prev_node = (lang, word)
+
+                # Also add the final endpoint (a→b) as a verified walk result
                 if ":" in a and ":" in b:
                     sl, sw = a.split(":", 1)
                     tl, tw = b.split(":", 1)
@@ -215,25 +260,42 @@ if os.path.exists(chain_file):
                                     "chunk_recipe": "", "en_onset": "", "en_coda": "",
                                     "fr_onset": "", "fr_coda": "",
                                     "loop_certified": False, "chain_certified": True,
-                                    "graph_hops": hops, "graph_depth": hops,
-                                    "meaning_proximity": 0.9 ** hops,
-                                    "source": "chain_web", "graph_source": f"chain_endpoint_h{hops}"
+                                    "graph_hops": total_hops, "graph_depth": total_hops,
+                                    "edge_type": "walk_endpoint",
+                                    "meaning_proximity": 0.9 ** total_hops,
+                                    "source": "chain_web", "graph_source": f"walk_endpoint_h{total_hops}"
                                 })
                                 chain_count += 1
-print(f"  Added {chain_count} chain-web nodes (every step is a training pair)")
+print(f"  Added {chain_count} path-walk nodes (sound/meaning/synonym edges)")
 
-# ── 5. Add round-rabbit attachments ──────────────────────────────────
-print("[6/7] Adding round-rabbit attachments...")
+# ── 5. Add round-rabbit LATTICE (semantic components + homophonic paths) ─
+# Every row in the lattice is a path: semantic_component → sound walk → reachable node
+# Attachments at each node are ranked dictionary pairs. All of this is training signal.
+print("[6/7] Adding round-rabbit lattice (semantic→homophonic walks)...")
 rr_count = 0
 if os.path.exists("round-rabbit.json"):
     rr = json.load(open("round-rabbit.json"))
     for row_data in rr["rows"]:
-        hops = row_data.get("homophonic_hops", 0)
+        component_id = row_data.get("component_id", "unknown")
+        component_weight = float(row_data.get("component_weight", 0.7))
+        homophonic_hops = int(row_data.get("homophonic_hops", 0))
+        path = row_data.get("path", [])
+        path_edge_scores = row_data.get("path_edge_scores", [])
+        rank_score = float(row_data.get("rank_score", 0.5))
+        attached_count = int(row_data.get("attached_count", 0))
+        has_multi = bool(row_data.get("has_multi", False))
+        has_generated = bool(row_data.get("has_generated", False))
+
+        # For each attachment (EN→FR pair at this lattice node), add with full context
         for att in row_data.get("attachments", []):
             en = att["en"].strip().lower()
             fr = att["fr"].strip().lower()
             score = float(att.get("score", 0))
             tier = att.get("tier", "B")
+            kind = att.get("kind", "whole")
+            chunk_recipe = att.get("chunk_recipe", "")
+            source_stage = att.get("source_stage", "")
+
             if en and fr and en != fr and 2 <= len(en) <= 15 and 2 <= len(fr) <= 15:
                 if not any(r["en"] == en and r["fr"] == fr for r in rows):
                     rows.append({
@@ -243,15 +305,26 @@ if os.path.exists("round-rabbit.json"):
                         "alignment": "", "pivot": "",
                         "en_syll": 0, "fr_syll": 0, "syllable_delta": 0,
                         "gap_ratio": 0.0, "usable": 1,
-                        "chunk_recipe": "", "en_onset": "", "en_coda": "",
+                        "chunk_recipe": chunk_recipe,
+                        "en_onset": "", "en_coda": "",
                         "fr_onset": "", "fr_coda": "",
                         "loop_certified": False, "chain_certified": False,
-                        "graph_hops": hops,
-                        "meaning_proximity": 0.95 ** hops,
-                        "source": "round_rabbit", "graph_source": f"rabbit_h{hops}"
+                        "graph_hops": homophonic_hops,
+                        "graph_depth": len(path),
+                        "edge_type": "rabbit_lattice",
+                        "meaning_proximity": component_weight * (0.95 ** homophonic_hops),
+                        "component_id": component_id,
+                        "component_weight": component_weight,
+                        "rank_score": rank_score,
+                        "attached_count": attached_count,
+                        "has_multi": has_multi,
+                        "has_generated": has_generated,
+                        "kind": kind,
+                        "source": "round_rabbit",
+                        "graph_source": f"rabbit_h{homophonic_hops}_{kind}"
                     })
                     rr_count += 1
-print(f"  Added {rr_count} round-rabbit rows")
+print(f"  Added {rr_count} round-rabbit lattice rows (full context)")
 
 # ── 6. Add loop-certified pairs ──────────────────────────────────────
 print("[7/7] Adding loop-certified pairs...")
