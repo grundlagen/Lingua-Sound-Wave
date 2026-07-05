@@ -1,0 +1,2082 @@
+{
+  "n_words": 200,
+  "persistence": 1.0,
+  "coverage": 1.0,
+  "rooten": 200,
+  "unique_fr": 180,
+  "pairs": [
+    {
+      "en": "shared",
+      "fr": "chers",
+      "sound": 1.0,
+      "meaning": [
+        "shared"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "shattered",
+      "fr": "hard",
+      "sound": 1.0,
+      "meaning": [
+        "shattered"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sheaf",
+      "fr": "chiffe",
+      "sound": 1.0,
+      "meaning": [
+        "sheaf"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "shed",
+      "fr": "aides",
+      "sound": 1.0,
+      "meaning": [
+        "shed",
+        "ted",
+        "tedder"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "sheen",
+      "fr": "chics",
+      "sound": 1.0,
+      "meaning": [
+        "sheen"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sheet",
+      "fr": "schiste",
+      "sound": 1.0,
+      "meaning": [
+        "sheet"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "shekel",
+      "fr": "séquelles",
+      "sound": 1.0,
+      "meaning": [
+        "shekel"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "shells",
+      "fr": "chaise",
+      "sound": 1.0,
+      "meaning": [
+        "shells"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "shelly",
+      "fr": "chili",
+      "sound": 1.0,
+      "meaning": [
+        "shelly",
+        "surely"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "shoo",
+      "fr": "choux",
+      "sound": 1.0,
+      "meaning": [
+        "shoo"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "shoot",
+      "fr": "shootes",
+      "sound": 1.0,
+      "meaning": [
+        "shoot"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "shout",
+      "fr": "chatte",
+      "sound": 1.0,
+      "meaning": [
+        "shout"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "shove",
+      "fr": "chauve",
+      "sound": 1.0,
+      "meaning": [
+        "shove"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "showed",
+      "fr": "chaudes",
+      "sound": 1.0,
+      "meaning": [
+        "showed"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "shown",
+      "fr": "chaude",
+      "sound": 1.0,
+      "meaning": [
+        "showed",
+        "shown"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "shows",
+      "fr": "choses",
+      "sound": 1.0,
+      "meaning": [
+        "shows"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sierra",
+      "fr": "citerne",
+      "sound": 1.0,
+      "meaning": [
+        "sierra"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sigh",
+      "fr": "sa",
+      "sound": 1.0,
+      "meaning": [
+        "sigh"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "silt",
+      "fr": "celtes",
+      "sound": 1.0,
+      "meaning": [
+        "silt"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "similarly",
+      "fr": "simili",
+      "sound": 1.0,
+      "meaning": [
+        "similarly"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sip",
+      "fr": "sep",
+      "sound": 1.0,
+      "meaning": [
+        "sip",
+        "step"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "sister",
+      "fr": "sieste",
+      "sound": 1.0,
+      "meaning": [
+        "sister"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sits",
+      "fr": "cessent",
+      "sound": 1.0,
+      "meaning": [
+        "sits"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sketches",
+      "fr": "sketch",
+      "sound": 1.0,
+      "meaning": [
+        "sketches"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "ski",
+      "fr": "skient",
+      "sound": 1.0,
+      "meaning": [
+        "ski"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "skiing",
+      "fr": "ski",
+      "sound": 1.0,
+      "meaning": [
+        "skiing"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "slap",
+      "fr": "slip",
+      "sound": 1.0,
+      "meaning": [
+        "slap",
+        "sleep"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "slave",
+      "fr": "slaves",
+      "sound": 1.0,
+      "meaning": [
+        "slave"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sleep",
+      "fr": "slip",
+      "sound": 1.0,
+      "meaning": [
+        "slap",
+        "sleep"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "slick",
+      "fr": "sic",
+      "sound": 1.0,
+      "meaning": [
+        "slick",
+        "speak"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "smile",
+      "fr": "semelle",
+      "sound": 1.0,
+      "meaning": [
+        "smile"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sneak",
+      "fr": "nique",
+      "sound": 1.0,
+      "meaning": [
+        "sneak"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "song",
+      "fr": "soc",
+      "sound": 1.0,
+      "meaning": [
+        "song"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "soon",
+      "fr": "sou",
+      "sound": 1.0,
+      "meaning": [
+        "soon"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sore",
+      "fr": "saurons",
+      "sound": 1.0,
+      "meaning": [
+        "sore"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sorely",
+      "fr": "folie",
+      "sound": 1.0,
+      "meaning": [
+        "sorely"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sorrow",
+      "fr": "sirop",
+      "sound": 1.0,
+      "meaning": [
+        "sorrow"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sort",
+      "fr": "sortes",
+      "sound": 1.0,
+      "meaning": [
+        "sort",
+        "sought"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "sorta",
+      "fr": "sauter",
+      "sound": 1.0,
+      "meaning": [
+        "sorta"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sorts",
+      "fr": "sortent",
+      "sound": 1.0,
+      "meaning": [
+        "sort",
+        "sorts"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "sought",
+      "fr": "sortes",
+      "sound": 1.0,
+      "meaning": [
+        "sort",
+        "sought"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "soup",
+      "fr": "soupes",
+      "sound": 1.0,
+      "meaning": [
+        "soup"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "soviet",
+      "fr": "sautent",
+      "sound": 1.0,
+      "meaning": [
+        "soviet"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "speak",
+      "fr": "pique",
+      "sound": 1.0,
+      "meaning": [
+        "speak"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "specific",
+      "fr": "spécifique",
+      "sound": 1.0,
+      "meaning": [
+        "specific"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "speeches",
+      "fr": "speech",
+      "sound": 1.0,
+      "meaning": [
+        "speeches"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "spell",
+      "fr": "pelle",
+      "sound": 1.0,
+      "meaning": [
+        "spell",
+        "speller"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "speller",
+      "fr": "pelle",
+      "sound": 1.0,
+      "meaning": [
+        "spell",
+        "speller"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "spoiled",
+      "fr": "solde",
+      "sound": 1.0,
+      "meaning": [
+        "spoiled"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sports",
+      "fr": "sport",
+      "sound": 1.0,
+      "meaning": [
+        "sports"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "spot",
+      "fr": "spots",
+      "sound": 1.0,
+      "meaning": [
+        "spot"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "squares",
+      "fr": "square",
+      "sound": 1.0,
+      "meaning": [
+        "squares"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "stall",
+      "fr": "sols",
+      "sound": 1.0,
+      "meaning": [
+        "stall"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "star",
+      "fr": "stars",
+      "sound": 1.0,
+      "meaning": [
+        "star"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "stat",
+      "fr": "cette",
+      "sound": 1.0,
+      "meaning": [
+        "stat",
+        "swift"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "steady",
+      "fr": "série",
+      "sound": 1.0,
+      "meaning": [
+        "steady"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "stems",
+      "fr": "stem",
+      "sound": 1.0,
+      "meaning": [
+        "stems"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "step",
+      "fr": "stoppes",
+      "sound": 1.0,
+      "meaning": [
+        "step"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "steppe",
+      "fr": "stoppe",
+      "sound": 1.0,
+      "meaning": [
+        "steppe"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "steps",
+      "fr": "step",
+      "sound": 1.0,
+      "meaning": [
+        "steps"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "store",
+      "fr": "stores",
+      "sound": 1.0,
+      "meaning": [
+        "store"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "stored",
+      "fr": "stade",
+      "sound": 1.0,
+      "meaning": [
+        "stored",
+        "stud",
+        "stunned"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "strap",
+      "fr": "strip",
+      "sound": 1.0,
+      "meaning": [
+        "strap",
+        "strep"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "strategy",
+      "fr": "strates chie",
+      "sound": 1.0,
+      "meaning": [
+        "strategy"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "streak",
+      "fr": "trique",
+      "sound": 1.0,
+      "meaning": [
+        "streak",
+        "trick"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "streaked",
+      "fr": "strict",
+      "sound": 1.0,
+      "meaning": [
+        "streaked",
+        "strictly"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "strength",
+      "fr": "stresse",
+      "sound": 1.0,
+      "meaning": [
+        "strength",
+        "stressful"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "strep",
+      "fr": "strip",
+      "sound": 1.0,
+      "meaning": [
+        "strap",
+        "strep"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "stressful",
+      "fr": "stressent elle",
+      "sound": 1.0,
+      "meaning": [
+        "stressful"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "strict",
+      "fr": "stricte",
+      "sound": 1.0,
+      "meaning": [
+        "streak",
+        "strict"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "strictly",
+      "fr": "strict",
+      "sound": 1.0,
+      "meaning": [
+        "streaked",
+        "strictly"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "stud",
+      "fr": "stade",
+      "sound": 1.0,
+      "meaning": [
+        "stored",
+        "stud",
+        "stunned"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "stunned",
+      "fr": "stade",
+      "sound": 1.0,
+      "meaning": [
+        "stored",
+        "stud",
+        "stunned"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "subtle",
+      "fr": "salles",
+      "sound": 1.0,
+      "meaning": [
+        "subtle"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "suck",
+      "fr": "sacs",
+      "sound": 1.0,
+      "meaning": [
+        "suck"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "suffer",
+      "fr": "sauf",
+      "sound": 1.0,
+      "meaning": [
+        "suffer"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "suggested",
+      "fr": "semestre",
+      "sound": 1.0,
+      "meaning": [
+        "suggested"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "suite",
+      "fr": "souhaite",
+      "sound": 1.0,
+      "meaning": [
+        "suite"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "super",
+      "fr": "soupe",
+      "sound": 1.0,
+      "meaning": [
+        "super"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "superior",
+      "fr": "soupir",
+      "sound": 1.0,
+      "meaning": [
+        "superior"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "surely",
+      "fr": "joli",
+      "sound": 1.0,
+      "meaning": [
+        "surely"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "surround",
+      "fr": "round",
+      "sound": 1.0,
+      "meaning": [
+        "surround"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "surveyed",
+      "fr": "cède",
+      "sound": 1.0,
+      "meaning": [
+        "surveyed"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "surveys",
+      "fr": "savez",
+      "sound": 1.0,
+      "meaning": [
+        "surveys"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "survive",
+      "fr": "savent",
+      "sound": 1.0,
+      "meaning": [
+        "survive"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sushi",
+      "fr": "sushis",
+      "sound": 1.0,
+      "meaning": [
+        "sushi"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "suspects",
+      "fr": "suspecte",
+      "sound": 1.0,
+      "meaning": [
+        "suspects"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "sustain",
+      "fr": "ceci",
+      "sound": 1.0,
+      "meaning": [
+        "sustain"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "swift",
+      "fr": "cette",
+      "sound": 1.0,
+      "meaning": [
+        "stat",
+        "swift"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "symphony",
+      "fr": "symphonie",
+      "sound": 1.0,
+      "meaning": [
+        "symphony"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "system",
+      "fr": "système",
+      "sound": 1.0,
+      "meaning": [
+        "system"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "take",
+      "fr": "té hic",
+      "sound": 1.0,
+      "meaning": [
+        "take"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tala",
+      "fr": "daller",
+      "sound": 1.0,
+      "meaning": [
+        "tala"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "talk",
+      "fr": "toque",
+      "sound": 1.0,
+      "meaning": [
+        "talk"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "talks",
+      "fr": "toc",
+      "sound": 1.0,
+      "meaning": [
+        "talk",
+        "talks"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "taut",
+      "fr": "tontes",
+      "sound": 1.0,
+      "meaning": [
+        "taut"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "team",
+      "fr": "tim",
+      "sound": 1.0,
+      "meaning": [
+        "team"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tech",
+      "fr": "toquent",
+      "sound": 1.0,
+      "meaning": [
+        "talk",
+        "tech"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "techie",
+      "fr": "acquis",
+      "sound": 1.0,
+      "meaning": [
+        "techie"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "technologies",
+      "fr": "technologie",
+      "sound": 1.0,
+      "meaning": [
+        "technologies"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "ted",
+      "fr": "aides",
+      "sound": 1.0,
+      "meaning": [
+        "shed",
+        "ted",
+        "tedder"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "tedder",
+      "fr": "aides",
+      "sound": 1.0,
+      "meaning": [
+        "shed",
+        "ted",
+        "tedder"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "tee",
+      "fr": "dis",
+      "sound": 1.0,
+      "meaning": [
+        "tee"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "teepee",
+      "fr": "tipi",
+      "sound": 1.0,
+      "meaning": [
+        "teepee"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "telephone",
+      "fr": "tels",
+      "sound": 1.0,
+      "meaning": [
+        "telephone",
+        "tell",
+        "tesla"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "telescope",
+      "fr": "télescope",
+      "sound": 1.0,
+      "meaning": [
+        "telescope"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tell",
+      "fr": "telle",
+      "sound": 1.0,
+      "meaning": [
+        "tell"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tend",
+      "fr": "tête",
+      "sound": 1.0,
+      "meaning": [
+        "taut",
+        "tend"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "term",
+      "fr": "tome",
+      "sound": 1.0,
+      "meaning": [
+        "term"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "terrace",
+      "fr": "terre",
+      "sound": 1.0,
+      "meaning": [
+        "terrace",
+        "terror",
+        "terry"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "territories",
+      "fr": "terreau cerises",
+      "sound": 1.0,
+      "meaning": [
+        "territories"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "terror",
+      "fr": "ter",
+      "sound": 1.0,
+      "meaning": [
+        "terror"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "terry",
+      "fr": "terres",
+      "sound": 1.0,
+      "meaning": [
+        "terror",
+        "terry"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "tesla",
+      "fr": "déceler",
+      "sound": 1.0,
+      "meaning": [
+        "tesla"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "test",
+      "fr": "tests",
+      "sound": 1.0,
+      "meaning": [
+        "test",
+        "tested",
+        "testing"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "tested",
+      "fr": "tests",
+      "sound": 1.0,
+      "meaning": [
+        "test",
+        "tested",
+        "testing"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "testers",
+      "fr": "taies thèse",
+      "sound": 1.0,
+      "meaning": [
+        "testers"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "testing",
+      "fr": "tests",
+      "sound": 1.0,
+      "meaning": [
+        "test",
+        "tested",
+        "testing"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "testis",
+      "fr": "tester",
+      "sound": 1.0,
+      "meaning": [
+        "testis"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "text",
+      "fr": "textes",
+      "sound": 1.0,
+      "meaning": [
+        "text"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "textile",
+      "fr": "textiles",
+      "sound": 1.0,
+      "meaning": [
+        "textile"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "therapy",
+      "fr": "reprit",
+      "sound": 1.0,
+      "meaning": [
+        "therapy"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "thrive",
+      "fr": "live",
+      "sound": 1.0,
+      "meaning": [
+        "thrive"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "through",
+      "fr": "roue",
+      "sound": 1.0,
+      "meaning": [
+        "through"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "thrown",
+      "fr": "rhône",
+      "sound": 1.0,
+      "meaning": [
+        "thrown"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tier",
+      "fr": "tirs",
+      "sound": 1.0,
+      "meaning": [
+        "tier"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "titian",
+      "fr": "déchaîne",
+      "sound": 1.0,
+      "meaning": [
+        "titian"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "titter",
+      "fr": "tir",
+      "sound": 1.0,
+      "meaning": [
+        "titter",
+        "twitter"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "titty",
+      "fr": "titi",
+      "sound": 1.0,
+      "meaning": [
+        "titty"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tod",
+      "fr": "tendes",
+      "sound": 1.0,
+      "meaning": [
+        "tod"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tommy",
+      "fr": "tamis",
+      "sound": 1.0,
+      "meaning": [
+        "tommy"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tons",
+      "fr": "thèse",
+      "sound": 1.0,
+      "meaning": [
+        "tons"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tony",
+      "fr": "tenir",
+      "sound": 1.0,
+      "meaning": [
+        "tony"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tool",
+      "fr": "houle",
+      "sound": 1.0,
+      "meaning": [
+        "tool"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "toot",
+      "fr": "toutes",
+      "sound": 1.0,
+      "meaning": [
+        "toot"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "toot were",
+      "fr": "toutefois",
+      "sound": 1.0,
+      "meaning": [
+        "toot were"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "toss",
+      "fr": "os",
+      "sound": 1.0,
+      "meaning": [
+        "toss"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tot",
+      "fr": "tonte",
+      "sound": 1.0,
+      "meaning": [
+        "tot"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tour",
+      "fr": "torts",
+      "sound": 1.0,
+      "meaning": [
+        "tour"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "trainer",
+      "fr": "traîne",
+      "sound": 1.0,
+      "meaning": [
+        "trainer",
+        "treading",
+        "trench"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "transcript",
+      "fr": "script",
+      "sound": 1.0,
+      "meaning": [
+        "transcript"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "transfers",
+      "fr": "transfert",
+      "sound": 1.0,
+      "meaning": [
+        "transfers"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "transform",
+      "fr": "transforment",
+      "sound": 1.0,
+      "meaning": [
+        "transform"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "transformed",
+      "fr": "transforme",
+      "sound": 1.0,
+      "meaning": [
+        "transform",
+        "transformed"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "transmitted",
+      "fr": "transmettent",
+      "sound": 1.0,
+      "meaning": [
+        "transmitted"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "transported",
+      "fr": "transport",
+      "sound": 1.0,
+      "meaning": [
+        "transported"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "trapped",
+      "fr": "trappe",
+      "sound": 1.0,
+      "meaning": [
+        "trapped"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "treading",
+      "fr": "traîne",
+      "sound": 1.0,
+      "meaning": [
+        "trainer",
+        "treading",
+        "trench"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "treatments",
+      "fr": "tristesse",
+      "sound": 1.0,
+      "meaning": [
+        "treatments"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "trek",
+      "fr": "très",
+      "sound": 1.0,
+      "meaning": [
+        "trek"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "trench",
+      "fr": "traîne",
+      "sound": 1.0,
+      "meaning": [
+        "trainer",
+        "treading",
+        "trench"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "tresses",
+      "fr": "treize",
+      "sound": 1.0,
+      "meaning": [
+        "tresses"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "trick",
+      "fr": "trique",
+      "sound": 1.0,
+      "meaning": [
+        "streak",
+        "trick"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "tricky",
+      "fr": "tri",
+      "sound": 1.0,
+      "meaning": [
+        "tricky"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tried",
+      "fr": "trahi",
+      "sound": 1.0,
+      "meaning": [
+        "tried"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "troop",
+      "fr": "troupes",
+      "sound": 1.0,
+      "meaning": [
+        "troop",
+        "troops",
+        "troupe"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "troops",
+      "fr": "troupes",
+      "sound": 1.0,
+      "meaning": [
+        "troop",
+        "troops",
+        "troupe"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "troupe",
+      "fr": "troupes",
+      "sound": 1.0,
+      "meaning": [
+        "troop",
+        "troops",
+        "troupe"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "true",
+      "fr": "trous",
+      "sound": 1.0,
+      "meaning": [
+        "true"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "tune",
+      "fr": "tournent",
+      "sound": 1.0,
+      "meaning": [
+        "tune"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "twitter",
+      "fr": "tir",
+      "sound": 1.0,
+      "meaning": [
+        "titter",
+        "twitter"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "two",
+      "fr": "tout",
+      "sound": 1.0,
+      "meaning": [
+        "tune",
+        "two"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "ugh",
+      "fr": "hague",
+      "sound": 1.0,
+      "meaning": [
+        "ugh"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "unacceptable",
+      "fr": "inacceptables",
+      "sound": 1.0,
+      "meaning": [
+        "unacceptable"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "unless",
+      "fr": "laisses",
+      "sound": 1.0,
+      "meaning": [
+        "unless"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "vaccines",
+      "fr": "vacciner",
+      "sound": 1.0,
+      "meaning": [
+        "vaccines"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "van",
+      "fr": "vannes",
+      "sound": 1.0,
+      "meaning": [
+        "van"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "various",
+      "fr": "verrez",
+      "sound": 1.0,
+      "meaning": [
+        "various",
+        "varying"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "varying",
+      "fr": "verrez",
+      "sound": 1.0,
+      "meaning": [
+        "various",
+        "varying"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "vault",
+      "fr": "volante",
+      "sound": 1.0,
+      "meaning": [
+        "vault"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "vein",
+      "fr": "veines",
+      "sound": 1.0,
+      "meaning": [
+        "vein"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "velour",
+      "fr": "voler",
+      "sound": 1.0,
+      "meaning": [
+        "velour"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "verb",
+      "fr": "verbes",
+      "sound": 1.0,
+      "meaning": [
+        "verb"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "vestry",
+      "fr": "vais tri",
+      "sound": 1.0,
+      "meaning": [
+        "vestry"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "vet",
+      "fr": "vestes",
+      "sound": 1.0,
+      "meaning": [
+        "vet",
+        "west",
+        "zest"
+      ],
+      "meaning_size": 3
+    },
+    {
+      "en": "vex",
+      "fr": "vexes",
+      "sound": 1.0,
+      "meaning": [
+        "vex"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "victoria",
+      "fr": "victorieux",
+      "sound": 1.0,
+      "meaning": [
+        "victoria"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "vita",
+      "fr": "vider",
+      "sound": 1.0,
+      "meaning": [
+        "vita"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "vital",
+      "fr": "valent",
+      "sound": 1.0,
+      "meaning": [
+        "vital",
+        "vol"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "vol",
+      "fr": "val",
+      "sound": 1.0,
+      "meaning": [
+        "vol"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "wall",
+      "fr": "vol",
+      "sound": 1.0,
+      "meaning": [
+        "wall"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "ward",
+      "fr": "horde",
+      "sound": 1.0,
+      "meaning": [
+        "ward"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "wee",
+      "fr": "oui",
+      "sound": 1.0,
+      "meaning": [
+        "wee"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "well",
+      "fr": "ouais",
+      "sound": 1.0,
+      "meaning": [
+        "well",
+        "welsh"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "welsh",
+      "fr": "ouais",
+      "sound": 1.0,
+      "meaning": [
+        "well",
+        "welsh"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "west",
+      "fr": "est",
+      "sound": 1.0,
+      "meaning": [
+        "west"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "what",
+      "fr": "ouate",
+      "sound": 1.0,
+      "meaning": [
+        "what"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "when",
+      "fr": "n",
+      "sound": 1.0,
+      "meaning": [
+        "when"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "whipped",
+      "fr": "opte",
+      "sound": 1.0,
+      "meaning": [
+        "whipped"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "why",
+      "fr": "ouah",
+      "sound": 1.0,
+      "meaning": [
+        "why"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "wished",
+      "fr": "ouest",
+      "sound": 1.0,
+      "meaning": [
+        "west",
+        "wished"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "wow",
+      "fr": "oies",
+      "sound": 1.0,
+      "meaning": [
+        "why",
+        "wow"
+      ],
+      "meaning_size": 2
+    },
+    {
+      "en": "wreaked",
+      "fr": "rixe",
+      "sound": 1.0,
+      "meaning": [
+        "wreaked"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "yell",
+      "fr": "vielle",
+      "sound": 1.0,
+      "meaning": [
+        "yell"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "yet",
+      "fr": "miettes",
+      "sound": 1.0,
+      "meaning": [
+        "yet"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "younger",
+      "fr": "yang",
+      "sound": 1.0,
+      "meaning": [
+        "younger"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "yourselves",
+      "fr": "diocèses",
+      "sound": 1.0,
+      "meaning": [
+        "yourselves"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "zen",
+      "fr": "saine",
+      "sound": 1.0,
+      "meaning": [
+        "zen"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "zest",
+      "fr": "zeste",
+      "sound": 1.0,
+      "meaning": [
+        "zest"
+      ],
+      "meaning_size": 1
+    },
+    {
+      "en": "zoom",
+      "fr": "zooms",
+      "sound": 1.0,
+      "meaning": [
+        "zoom"
+      ],
+      "meaning_size": 1
+    }
+  ],
+  "stanzas": [
+    [
+      "ouah",
+      "val",
+      "sketch",
+      "ceci",
+      "chics",
+      "strict",
+      "chaude",
+      "stem",
+      "sep",
+      "sauter",
+      "aides",
+      "savez",
+      "chiffe",
+      "trahi",
+      "sic",
+      "folie",
+      "tim",
+      "slip",
+      "soupir",
+      "sushis"
+    ],
+    [
+      "speech",
+      "sacs",
+      "solde",
+      "step",
+      "daller",
+      "séquelles",
+      "verrez",
+      "té hic",
+      "série",
+      "strip",
+      "tir",
+      "acquis",
+      "reprit",
+      "ski",
+      "semelle",
+      "chili",
+      "sols",
+      "système",
+      "zooms",
+      "round"
+    ],
+    [
+      "stade",
+      "ter",
+      "shootes",
+      "strates chie",
+      "tenir",
+      "dis",
+      "pelle",
+      "simili",
+      "tels",
+      "tome",
+      "citerne",
+      "yang",
+      "saurons",
+      "cessent",
+      "soc",
+      "vol",
+      "sirop",
+      "sou",
+      "stoppe",
+      "tipi"
+    ],
+    [
+      "cède",
+      "déceler",
+      "chaudes",
+      "symphonie",
+      "tamis",
+      "stressent elle",
+      "joli",
+      "transforme",
+      "rhône",
+      "skient",
+      "toc",
+      "soupe",
+      "script",
+      "hard",
+      "square",
+      "tri",
+      "chers",
+      "sport",
+      "chaise",
+      "est"
+    ],
+    [
+      "horde",
+      "tester",
+      "choses",
+      "technologie",
+      "toutefois",
+      "telle",
+      "déchaîne",
+      "sortent",
+      "télescope",
+      "semestre",
+      "vais tri",
+      "stars",
+      "transfert",
+      "stresse",
+      "ouest",
+      "schiste",
+      "titi",
+      "spots",
+      "nique",
+      "sauf"
+    ],
+    [
+      "vacciner",
+      "celtes",
+      "ouais",
+      "houle",
+      "traîne",
+      "sautent",
+      "trappe",
+      "terre",
+      "tirs",
+      "transport",
+      "taies thèse",
+      "chatte",
+      "tests",
+      "pique",
+      "oui",
+      "trous",
+      "tout",
+      "choux",
+      "chauve",
+      "rixe"
+    ],
+    [
+      "voler",
+      "slaves",
+      "vielle",
+      "saine",
+      "savent",
+      "thèse",
+      "sieste",
+      "torts",
+      "spécifique",
+      "victorieux",
+      "live",
+      "treize",
+      "très",
+      "sa",
+      "sortes",
+      "soupes",
+      "cette",
+      "stoppes",
+      "stores",
+      "trique"
+    ],
+    [
+      "vider",
+      "salles",
+      "toquent",
+      "tristesse",
+      "stricte",
+      "toque",
+      "souhaite",
+      "suspecte",
+      "tontes",
+      "tête",
+      "terreau cerises",
+      "terres",
+      "textes",
+      "textiles",
+      "roue",
+      "tendes",
+      "toutes",
+      "os",
+      "tonte",
+      "transforment"
+    ],
+    [
+      "troupes",
+      "transmettent",
+      "volante",
+      "hague",
+      "tournent",
+      "inacceptables",
+      "laisses",
+      "vannes",
+      "veines",
+      "verbes",
+      "vestes",
+      "vexes",
+      "valent",
+      "ouate",
+      "n",
+      "opte",
+      "oies",
+      "miettes",
+      "diocèses",
+      "zeste"
+    ],
+    []
+  ]
+}

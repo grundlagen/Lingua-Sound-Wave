@@ -1,0 +1,2878 @@
+{
+  "n_words": 200,
+  "universe_size": 200,
+  "coverage": 1.0,
+  "persistence": 0.952,
+  "loop_certified": 30,
+  "rooten_band": 193,
+  "pairs": [
+    {
+      "en": "west",
+      "fr": "ouest",
+      "sound": 1.0,
+      "meaning": [
+        "quest",
+        "west",
+        "worst"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "test",
+      "fr": "test",
+      "sound": 1.0,
+      "meaning": [
+        "dissed",
+        "pest",
+        "test",
+        "testers",
+        "tests",
+        "tossed"
+      ],
+      "meaning_size": 6,
+      "loop": false
+    },
+    {
+      "en": "teller",
+      "fr": "tels",
+      "sound": 1.0,
+      "meaning": [
+        "teller",
+        "tells",
+        "til",
+        "till",
+        "tiller"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "steel",
+      "fr": "style",
+      "sound": 1.0,
+      "meaning": [
+        "steal",
+        "stealer",
+        "steals",
+        "steel",
+        "stiller"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "stealer",
+      "fr": "style",
+      "sound": 1.0,
+      "meaning": [
+        "steal",
+        "stealer",
+        "steals",
+        "steel",
+        "stiller"
+      ],
+      "meaning_size": 5,
+      "loop": true
+    },
+    {
+      "en": "steal",
+      "fr": "style",
+      "sound": 1.0,
+      "meaning": [
+        "steal",
+        "stealer",
+        "steals",
+        "steel",
+        "stiller"
+      ],
+      "meaning_size": 5,
+      "loop": true
+    },
+    {
+      "en": "stalk",
+      "fr": "stock",
+      "sound": 1.0,
+      "meaning": [
+        "stalk",
+        "stuck"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "sleep",
+      "fr": "slip",
+      "sound": 1.0,
+      "meaning": [
+        "slap",
+        "sleep",
+        "sleeps",
+        "slip",
+        "slipped"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "ski",
+      "fr": "ski",
+      "sound": 1.0,
+      "meaning": [
+        "ski"
+      ],
+      "meaning_size": 1,
+      "loop": false
+    },
+    {
+      "en": "sex",
+      "fr": "sexe",
+      "sound": 1.0,
+      "meaning": [
+        "secs",
+        "sect",
+        "sex",
+        "sicks",
+        "sics",
+        "six"
+      ],
+      "meaning_size": 6,
+      "loop": true
+    },
+    {
+      "en": "sen",
+      "fr": "saine",
+      "sound": 1.0,
+      "meaning": [
+        "cent",
+        "center",
+        "centre",
+        "scent",
+        "sen",
+        "sender",
+        "senors",
+        "sense"
+      ],
+      "meaning_size": 12,
+      "loop": false
+    },
+    {
+      "en": "sector",
+      "fr": "secte",
+      "sound": 1.0,
+      "meaning": [
+        "sacked",
+        "sect",
+        "sector",
+        "sex",
+        "sexed",
+        "sext",
+        "sicked",
+        "sucked"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "sect",
+      "fr": "secte",
+      "sound": 1.0,
+      "meaning": [
+        "sacked",
+        "sect",
+        "sector",
+        "sex",
+        "sexed",
+        "sext",
+        "sicked",
+        "sucked"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "secs",
+      "fr": "sexe",
+      "sound": 1.0,
+      "meaning": [
+        "secs",
+        "sect",
+        "sex",
+        "sicks",
+        "sics",
+        "six"
+      ],
+      "meaning_size": 6,
+      "loop": false
+    },
+    {
+      "en": "pieced",
+      "fr": "piste",
+      "sound": 1.0,
+      "meaning": [
+        "feast",
+        "passed",
+        "pieced",
+        "pissed",
+        "piste"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "pest",
+      "fr": "peste",
+      "sound": 1.0,
+      "meaning": [
+        "best",
+        "pest",
+        "pissed",
+        "test"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "penn",
+      "fr": "peine",
+      "sound": 1.0,
+      "meaning": [
+        "depend",
+        "pen",
+        "pence",
+        "penn",
+        "pens",
+        "pin",
+        "spend",
+        "spent"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "pen",
+      "fr": "peine",
+      "sound": 1.0,
+      "meaning": [
+        "depend",
+        "pen",
+        "pence",
+        "penn",
+        "pens",
+        "pin",
+        "spend",
+        "spent"
+      ],
+      "meaning_size": 8,
+      "loop": true
+    },
+    {
+      "en": "pees",
+      "fr": "pise",
+      "sound": 1.0,
+      "meaning": [
+        "bees",
+        "peas",
+        "pease",
+        "pees",
+        "pieces"
+      ],
+      "meaning_size": 5,
+      "loop": true
+    },
+    {
+      "en": "pease",
+      "fr": "pise",
+      "sound": 1.0,
+      "meaning": [
+        "bees",
+        "peas",
+        "pease",
+        "pees",
+        "pieces"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "peas",
+      "fr": "pise",
+      "sound": 1.0,
+      "meaning": [
+        "bees",
+        "peas",
+        "pease",
+        "pees",
+        "pieces"
+      ],
+      "meaning_size": 5,
+      "loop": true
+    },
+    {
+      "en": "mien",
+      "fr": "mine",
+      "sound": 1.0,
+      "meaning": [
+        "mean",
+        "means",
+        "mien",
+        "min"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "mean",
+      "fr": "mine",
+      "sound": 1.0,
+      "meaning": [
+        "mean",
+        "means",
+        "mien",
+        "min"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "feeler",
+      "fr": "file",
+      "sound": 1.0,
+      "meaning": [
+        "feeler",
+        "fill",
+        "phil"
+      ],
+      "meaning_size": 3,
+      "loop": true
+    },
+    {
+      "en": "debt",
+      "fr": "dette",
+      "sound": 1.0,
+      "meaning": [
+        "dead",
+        "debt",
+        "debts",
+        "dirt"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "czech",
+      "fr": "tchèque",
+      "sound": 1.0,
+      "meaning": [
+        "check",
+        "checked",
+        "checks",
+        "cheque",
+        "chick",
+        "chicks",
+        "chuck",
+        "czech"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "cheque",
+      "fr": "tchèque",
+      "sound": 1.0,
+      "meaning": [
+        "check",
+        "checked",
+        "checks",
+        "cheque",
+        "chick",
+        "chicks",
+        "chuck",
+        "czech"
+      ],
+      "meaning_size": 8,
+      "loop": true
+    },
+    {
+      "en": "check",
+      "fr": "tchèque",
+      "sound": 1.0,
+      "meaning": [
+        "check",
+        "checked",
+        "checks",
+        "cheque",
+        "chick",
+        "chicks",
+        "chuck",
+        "czech"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "cellar",
+      "fr": "celle",
+      "sound": 1.0,
+      "meaning": [
+        "cellar",
+        "cells",
+        "sellers",
+        "sells"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "cease",
+      "fr": "six",
+      "sound": 1.0,
+      "meaning": [
+        "cease",
+        "seized",
+        "seizes"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "caller",
+      "fr": "col",
+      "sound": 1.0,
+      "meaning": [
+        "called",
+        "caller",
+        "callers",
+        "recalled"
+      ],
+      "meaning_size": 4,
+      "loop": true
+    },
+    {
+      "en": "belle",
+      "fr": "belle",
+      "sound": 1.0,
+      "meaning": [
+        "belle",
+        "belt"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "beet",
+      "fr": "bit",
+      "sound": 1.0,
+      "meaning": [
+        "beat",
+        "beats",
+        "beet",
+        "bit"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "bees",
+      "fr": "bise",
+      "sound": 1.0,
+      "meaning": [
+        "bees",
+        "peas",
+        "pease",
+        "pees"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "beat",
+      "fr": "bit",
+      "sound": 1.0,
+      "meaning": [
+        "beat",
+        "beats",
+        "beet",
+        "bit"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "baulks",
+      "fr": "boxe",
+      "sound": 1.0,
+      "meaning": [
+        "balks",
+        "baulks",
+        "books"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "ball",
+      "fr": "bol",
+      "sound": 1.0,
+      "meaning": [
+        "bald",
+        "balder",
+        "ball",
+        "balls"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "balks",
+      "fr": "boxe",
+      "sound": 1.0,
+      "meaning": [
+        "balks",
+        "baulks",
+        "books"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "mon",
+      "fr": "man",
+      "sound": 0.987,
+      "meaning": [
+        "man",
+        "manner",
+        "manor",
+        "mon"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "locker",
+      "fr": "lac",
+      "sound": 0.987,
+      "meaning": [
+        "lack",
+        "lock",
+        "locker",
+        "luck"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "lock",
+      "fr": "lac",
+      "sound": 0.987,
+      "meaning": [
+        "lack",
+        "lock",
+        "locker",
+        "luck"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "khan",
+      "fr": "cane",
+      "sound": 0.987,
+      "meaning": [
+        "con",
+        "khan"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "coss",
+      "fr": "casse",
+      "sound": 0.987,
+      "meaning": [
+        "cos",
+        "coss"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "cos",
+      "fr": "casse",
+      "sound": 0.987,
+      "meaning": [
+        "cos",
+        "coss"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "con",
+      "fr": "cane",
+      "sound": 0.987,
+      "meaning": [
+        "con",
+        "khan"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "col",
+      "fr": "cale",
+      "sound": 0.987,
+      "meaning": [
+        "cal",
+        "col",
+        "color",
+        "colour"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "oct",
+      "fr": "actes",
+      "sound": 0.983,
+      "meaning": [
+        "act",
+        "oct"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "stiller",
+      "fr": "style",
+      "sound": 0.981,
+      "meaning": [
+        "steal",
+        "stealer",
+        "steals",
+        "steel",
+        "stiller"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "slip",
+      "fr": "slip",
+      "sound": 0.981,
+      "meaning": [
+        "slap",
+        "sleep",
+        "sleeps",
+        "slip",
+        "slipped"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "piste",
+      "fr": "piste",
+      "sound": 0.981,
+      "meaning": [
+        "feast",
+        "passed",
+        "pieced",
+        "pissed",
+        "piste"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "pissed",
+      "fr": "piste",
+      "sound": 0.981,
+      "meaning": [
+        "feast",
+        "passed",
+        "pieced",
+        "pissed",
+        "piste"
+      ],
+      "meaning_size": 5,
+      "loop": true
+    },
+    {
+      "en": "jinn",
+      "fr": "gin",
+      "sound": 0.981,
+      "meaning": [
+        "geed",
+        "genes",
+        "gin",
+        "jan",
+        "jeans",
+        "jin",
+        "jinn"
+      ],
+      "meaning_size": 7,
+      "loop": true
+    },
+    {
+      "en": "jin",
+      "fr": "gin",
+      "sound": 0.981,
+      "meaning": [
+        "geed",
+        "genes",
+        "gin",
+        "jan",
+        "jeans",
+        "jin",
+        "jinn"
+      ],
+      "meaning_size": 7,
+      "loop": false
+    },
+    {
+      "en": "gin",
+      "fr": "gin",
+      "sound": 0.981,
+      "meaning": [
+        "geed",
+        "genes",
+        "gin",
+        "jan",
+        "jeans",
+        "jin",
+        "jinn"
+      ],
+      "meaning_size": 7,
+      "loop": false
+    },
+    {
+      "en": "sit",
+      "fr": "site",
+      "sound": 0.979,
+      "meaning": [
+        "ceded",
+        "receipts",
+        "seats",
+        "seeded",
+        "siege",
+        "sit"
+      ],
+      "meaning_size": 6,
+      "loop": false
+    },
+    {
+      "en": "pick",
+      "fr": "pique",
+      "sound": 0.979,
+      "meaning": [
+        "peeks",
+        "pic",
+        "pick",
+        "speak"
+      ],
+      "meaning_size": 4,
+      "loop": true
+    },
+    {
+      "en": "pic",
+      "fr": "pique",
+      "sound": 0.979,
+      "meaning": [
+        "peeks",
+        "pic",
+        "pick",
+        "speak"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "phil",
+      "fr": "file",
+      "sound": 0.979,
+      "meaning": [
+        "feeler",
+        "fill",
+        "phil"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "min",
+      "fr": "mine",
+      "sound": 0.979,
+      "meaning": [
+        "mean",
+        "means",
+        "mien",
+        "min"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "miller",
+      "fr": "mille",
+      "sound": 0.979,
+      "meaning": [
+        "meals",
+        "mil",
+        "mill",
+        "miller"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "mill",
+      "fr": "mille",
+      "sound": 0.979,
+      "meaning": [
+        "meals",
+        "mil",
+        "mill",
+        "miller"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "mil",
+      "fr": "mille",
+      "sound": 0.979,
+      "meaning": [
+        "meals",
+        "mil",
+        "mill",
+        "miller"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "fill",
+      "fr": "file",
+      "sound": 0.979,
+      "meaning": [
+        "feeler",
+        "fill",
+        "phil"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "dead",
+      "fr": "dette",
+      "sound": 0.979,
+      "meaning": [
+        "dead",
+        "debt",
+        "debts",
+        "dirt"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "bit",
+      "fr": "bit",
+      "sound": 0.979,
+      "meaning": [
+        "beat",
+        "beats",
+        "beet",
+        "bit"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "worst",
+      "fr": "ouest",
+      "sound": 0.977,
+      "meaning": [
+        "quest",
+        "west",
+        "worst"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "tests",
+      "fr": "test",
+      "sound": 0.977,
+      "meaning": [
+        "dissed",
+        "pest",
+        "test",
+        "testers",
+        "tests",
+        "tossed"
+      ],
+      "meaning_size": 6,
+      "loop": true
+    },
+    {
+      "en": "testers",
+      "fr": "test",
+      "sound": 0.977,
+      "meaning": [
+        "dissed",
+        "pest",
+        "test",
+        "testers",
+        "tests",
+        "tossed"
+      ],
+      "meaning_size": 6,
+      "loop": true
+    },
+    {
+      "en": "stud",
+      "fr": "stade",
+      "sound": 0.977,
+      "meaning": [
+        "stud"
+      ],
+      "meaning_size": 1,
+      "loop": false
+    },
+    {
+      "en": "steals",
+      "fr": "style",
+      "sound": 0.977,
+      "meaning": [
+        "steal",
+        "stealer",
+        "steals",
+        "steel",
+        "stiller"
+      ],
+      "meaning_size": 5,
+      "loop": true
+    },
+    {
+      "en": "sleeps",
+      "fr": "slip",
+      "sound": 0.977,
+      "meaning": [
+        "slap",
+        "sleep",
+        "sleeps",
+        "slip",
+        "slipped"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "skat",
+      "fr": "skate",
+      "sound": 0.977,
+      "meaning": [
+        "scat",
+        "skat",
+        "skirt"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "six",
+      "fr": "sexe",
+      "sound": 0.977,
+      "meaning": [
+        "secs",
+        "sect",
+        "sex",
+        "sicks",
+        "sics",
+        "six"
+      ],
+      "meaning_size": 6,
+      "loop": false
+    },
+    {
+      "en": "sics",
+      "fr": "sexe",
+      "sound": 0.977,
+      "meaning": [
+        "secs",
+        "sect",
+        "sex",
+        "sicks",
+        "sics",
+        "six"
+      ],
+      "meaning_size": 6,
+      "loop": false
+    },
+    {
+      "en": "sicks",
+      "fr": "sexe",
+      "sound": 0.977,
+      "meaning": [
+        "secs",
+        "sect",
+        "sex",
+        "sicks",
+        "sics",
+        "six"
+      ],
+      "meaning_size": 6,
+      "loop": true
+    },
+    {
+      "en": "sicked",
+      "fr": "secte",
+      "sound": 0.977,
+      "meaning": [
+        "sacked",
+        "sect",
+        "sector",
+        "sex",
+        "sexed",
+        "sext",
+        "sicked",
+        "sucked"
+      ],
+      "meaning_size": 8,
+      "loop": true
+    },
+    {
+      "en": "sext",
+      "fr": "secte",
+      "sound": 0.977,
+      "meaning": [
+        "sacked",
+        "sect",
+        "sector",
+        "sex",
+        "sexed",
+        "sext",
+        "sicked",
+        "sucked"
+      ],
+      "meaning_size": 8,
+      "loop": true
+    },
+    {
+      "en": "sexed",
+      "fr": "secte",
+      "sound": 0.977,
+      "meaning": [
+        "sacked",
+        "sect",
+        "sector",
+        "sex",
+        "sexed",
+        "sext",
+        "sicked",
+        "sucked"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "scat",
+      "fr": "skate",
+      "sound": 0.977,
+      "meaning": [
+        "scat",
+        "skat",
+        "skirt"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "quest",
+      "fr": "ouest",
+      "sound": 0.977,
+      "meaning": [
+        "quest",
+        "west",
+        "worst"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "plus",
+      "fr": "place",
+      "sound": 0.977,
+      "meaning": [
+        "plus"
+      ],
+      "meaning_size": 1,
+      "loop": false
+    },
+    {
+      "en": "max",
+      "fr": "max",
+      "sound": 0.977,
+      "meaning": [
+        "macks",
+        "macs",
+        "max"
+      ],
+      "meaning_size": 3,
+      "loop": true
+    },
+    {
+      "en": "macs",
+      "fr": "max",
+      "sound": 0.977,
+      "meaning": [
+        "macks",
+        "macs",
+        "max"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "macks",
+      "fr": "max",
+      "sound": 0.977,
+      "meaning": [
+        "macks",
+        "macs",
+        "max"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "jeans",
+      "fr": "gin",
+      "sound": 0.977,
+      "meaning": [
+        "geed",
+        "genes",
+        "gin",
+        "jan",
+        "jeans",
+        "jin",
+        "jinn"
+      ],
+      "meaning_size": 7,
+      "loop": false
+    },
+    {
+      "en": "genes",
+      "fr": "gin",
+      "sound": 0.977,
+      "meaning": [
+        "geed",
+        "genes",
+        "gin",
+        "jan",
+        "jeans",
+        "jin",
+        "jinn"
+      ],
+      "meaning_size": 7,
+      "loop": true
+    },
+    {
+      "en": "chick",
+      "fr": "tchèque",
+      "sound": 0.977,
+      "meaning": [
+        "check",
+        "checked",
+        "checks",
+        "cheque",
+        "chick",
+        "chicks",
+        "chuck",
+        "czech"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "checks",
+      "fr": "tchèque",
+      "sound": 0.977,
+      "meaning": [
+        "check",
+        "checked",
+        "checks",
+        "cheque",
+        "chick",
+        "chicks",
+        "chuck",
+        "czech"
+      ],
+      "meaning_size": 8,
+      "loop": true
+    },
+    {
+      "en": "checked",
+      "fr": "tchèque",
+      "sound": 0.977,
+      "meaning": [
+        "check",
+        "checked",
+        "checks",
+        "cheque",
+        "chick",
+        "chicks",
+        "chuck",
+        "czech"
+      ],
+      "meaning_size": 8,
+      "loop": true
+    },
+    {
+      "en": "books",
+      "fr": "boxe",
+      "sound": 0.977,
+      "meaning": [
+        "balks",
+        "baulks",
+        "books"
+      ],
+      "meaning_size": 3,
+      "loop": true
+    },
+    {
+      "en": "best",
+      "fr": "peste",
+      "sound": 0.977,
+      "meaning": [
+        "best",
+        "pest",
+        "pissed",
+        "test"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "vender",
+      "fr": "veine",
+      "sound": 0.975,
+      "meaning": [
+        "events",
+        "vender",
+        "vendors",
+        "venture"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "tiller",
+      "fr": "tels",
+      "sound": 0.975,
+      "meaning": [
+        "teller",
+        "tells",
+        "til",
+        "till",
+        "tiller"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "till",
+      "fr": "tels",
+      "sound": 0.975,
+      "meaning": [
+        "teller",
+        "tells",
+        "til",
+        "till",
+        "tiller"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "til",
+      "fr": "tels",
+      "sound": 0.975,
+      "meaning": [
+        "teller",
+        "tells",
+        "til",
+        "till",
+        "tiller"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "tells",
+      "fr": "tels",
+      "sound": 0.975,
+      "meaning": [
+        "teller",
+        "tells",
+        "til",
+        "till",
+        "tiller"
+      ],
+      "meaning_size": 5,
+      "loop": true
+    },
+    {
+      "en": "speak",
+      "fr": "pique",
+      "sound": 0.975,
+      "meaning": [
+        "peeks",
+        "pic",
+        "pick",
+        "speak"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "sets",
+      "fr": "cette",
+      "sound": 0.975,
+      "meaning": [
+        "reset",
+        "seth",
+        "sets"
+      ],
+      "meaning_size": 3,
+      "loop": true
+    },
+    {
+      "en": "sent",
+      "fr": "saine",
+      "sound": 0.975,
+      "meaning": [
+        "cent",
+        "center",
+        "centre",
+        "scent",
+        "sen",
+        "sender",
+        "senors",
+        "sense"
+      ],
+      "meaning_size": 12,
+      "loop": false
+    },
+    {
+      "en": "sensor",
+      "fr": "saine",
+      "sound": 0.975,
+      "meaning": [
+        "cent",
+        "center",
+        "centre",
+        "scent",
+        "sen",
+        "sender",
+        "senors",
+        "sense"
+      ],
+      "meaning_size": 12,
+      "loop": false
+    },
+    {
+      "en": "sense",
+      "fr": "saine",
+      "sound": 0.975,
+      "meaning": [
+        "cent",
+        "center",
+        "centre",
+        "scent",
+        "sen",
+        "sender",
+        "senors",
+        "sense"
+      ],
+      "meaning_size": 12,
+      "loop": false
+    },
+    {
+      "en": "senors",
+      "fr": "saine",
+      "sound": 0.975,
+      "meaning": [
+        "cent",
+        "center",
+        "centre",
+        "scent",
+        "sen",
+        "sender",
+        "senors",
+        "sense"
+      ],
+      "meaning_size": 12,
+      "loop": false
+    },
+    {
+      "en": "sender",
+      "fr": "saine",
+      "sound": 0.975,
+      "meaning": [
+        "cent",
+        "center",
+        "centre",
+        "scent",
+        "sen",
+        "sender",
+        "senors",
+        "sense"
+      ],
+      "meaning_size": 12,
+      "loop": false
+    },
+    {
+      "en": "sells",
+      "fr": "celle",
+      "sound": 0.975,
+      "meaning": [
+        "cellar",
+        "cells",
+        "sellers",
+        "sells"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "sellers",
+      "fr": "celle",
+      "sound": 0.975,
+      "meaning": [
+        "cellar",
+        "cells",
+        "sellers",
+        "sells"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "seats",
+      "fr": "site",
+      "sound": 0.975,
+      "meaning": [
+        "ceded",
+        "receipts",
+        "seats",
+        "seeded",
+        "siege",
+        "sit"
+      ],
+      "meaning_size": 6,
+      "loop": true
+    },
+    {
+      "en": "scent",
+      "fr": "saine",
+      "sound": 0.975,
+      "meaning": [
+        "cent",
+        "center",
+        "centre",
+        "scent",
+        "sen",
+        "sender",
+        "senors",
+        "sense"
+      ],
+      "meaning_size": 12,
+      "loop": false
+    },
+    {
+      "en": "reset",
+      "fr": "cette",
+      "sound": 0.975,
+      "meaning": [
+        "reset",
+        "seth",
+        "sets"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "pin",
+      "fr": "peine",
+      "sound": 0.975,
+      "meaning": [
+        "depend",
+        "pen",
+        "pence",
+        "penn",
+        "pens",
+        "pin",
+        "spend",
+        "spent"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "pens",
+      "fr": "peine",
+      "sound": 0.975,
+      "meaning": [
+        "depend",
+        "pen",
+        "pence",
+        "penn",
+        "pens",
+        "pin",
+        "spend",
+        "spent"
+      ],
+      "meaning_size": 8,
+      "loop": true
+    },
+    {
+      "en": "pence",
+      "fr": "peine",
+      "sound": 0.975,
+      "meaning": [
+        "depend",
+        "pen",
+        "pence",
+        "penn",
+        "pens",
+        "pin",
+        "spend",
+        "spent"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "peeks",
+      "fr": "pique",
+      "sound": 0.975,
+      "meaning": [
+        "peeks",
+        "pic",
+        "pick",
+        "speak"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "pass",
+      "fr": "passent",
+      "sound": 0.975,
+      "meaning": [
+        "pass"
+      ],
+      "meaning_size": 1,
+      "loop": false
+    },
+    {
+      "en": "mender",
+      "fr": "mène",
+      "sound": 0.975,
+      "meaning": [
+        "meant",
+        "mender"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "meant",
+      "fr": "mène",
+      "sound": 0.975,
+      "meaning": [
+        "meant",
+        "mender"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "means",
+      "fr": "mine",
+      "sound": 0.975,
+      "meaning": [
+        "mean",
+        "means",
+        "mien",
+        "min"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "meals",
+      "fr": "mille",
+      "sound": 0.975,
+      "meaning": [
+        "meals",
+        "mil",
+        "mill",
+        "miller"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "manor",
+      "fr": "man",
+      "sound": 0.975,
+      "meaning": [
+        "man",
+        "manner",
+        "manor",
+        "mon"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "manner",
+      "fr": "man",
+      "sound": 0.975,
+      "meaning": [
+        "man",
+        "manner",
+        "manor",
+        "mon"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "man",
+      "fr": "man",
+      "sound": 0.975,
+      "meaning": [
+        "man",
+        "manner",
+        "manor",
+        "mon"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "lynn",
+      "fr": "laine",
+      "sound": 0.975,
+      "meaning": [
+        "glen",
+        "learn",
+        "lend",
+        "lender",
+        "lens",
+        "lent",
+        "leonard",
+        "lynn"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "luck",
+      "fr": "lac",
+      "sound": 0.975,
+      "meaning": [
+        "lack",
+        "lock",
+        "locker",
+        "luck"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "leonard",
+      "fr": "laine",
+      "sound": 0.975,
+      "meaning": [
+        "glen",
+        "learn",
+        "lend",
+        "lender",
+        "lens",
+        "lent",
+        "leonard",
+        "lynn"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "lent",
+      "fr": "laine",
+      "sound": 0.975,
+      "meaning": [
+        "glen",
+        "learn",
+        "lend",
+        "lender",
+        "lens",
+        "lent",
+        "leonard",
+        "lynn"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "lens",
+      "fr": "laine",
+      "sound": 0.975,
+      "meaning": [
+        "glen",
+        "learn",
+        "lend",
+        "lender",
+        "lens",
+        "lent",
+        "leonard",
+        "lynn"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "lender",
+      "fr": "laine",
+      "sound": 0.975,
+      "meaning": [
+        "glen",
+        "learn",
+        "lend",
+        "lender",
+        "lens",
+        "lent",
+        "leonard",
+        "lynn"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "lend",
+      "fr": "laine",
+      "sound": 0.975,
+      "meaning": [
+        "glen",
+        "learn",
+        "lend",
+        "lender",
+        "lens",
+        "lent",
+        "leonard",
+        "lynn"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "learn",
+      "fr": "laine",
+      "sound": 0.975,
+      "meaning": [
+        "glen",
+        "learn",
+        "lend",
+        "lender",
+        "lens",
+        "lent",
+        "leonard",
+        "lynn"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "ladder",
+      "fr": "lad",
+      "sound": 0.975,
+      "meaning": [
+        "lad",
+        "ladder"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "lad",
+      "fr": "lad",
+      "sound": 0.975,
+      "meaning": [
+        "lad",
+        "ladder"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "lack",
+      "fr": "lac",
+      "sound": 0.975,
+      "meaning": [
+        "lack",
+        "lock",
+        "locker",
+        "luck"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "kiss",
+      "fr": "caisse",
+      "sound": 0.975,
+      "meaning": [
+        "curse",
+        "kiss"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "glen",
+      "fr": "laine",
+      "sound": 0.975,
+      "meaning": [
+        "glen",
+        "learn",
+        "lend",
+        "lender",
+        "lens",
+        "lent",
+        "leonard",
+        "lynn"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "flees",
+      "fr": "lise",
+      "sound": 0.975,
+      "meaning": [
+        "fleas",
+        "flees",
+        "leases"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "fleas",
+      "fr": "lise",
+      "sound": 0.975,
+      "meaning": [
+        "fleas",
+        "flees",
+        "leases"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "fit",
+      "fr": "faites",
+      "sound": 0.975,
+      "meaning": [
+        "fit",
+        "foot"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "dirt",
+      "fr": "dette",
+      "sound": 0.975,
+      "meaning": [
+        "dead",
+        "debt",
+        "debts",
+        "dirt"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "debts",
+      "fr": "dette",
+      "sound": 0.975,
+      "meaning": [
+        "dead",
+        "debt",
+        "debts",
+        "dirt"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "cuz",
+      "fr": "cause",
+      "sound": 0.975,
+      "meaning": [
+        "causes",
+        "cuz"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "curse",
+      "fr": "caisse",
+      "sound": 0.975,
+      "meaning": [
+        "curse",
+        "kiss"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "colour",
+      "fr": "cale",
+      "sound": 0.975,
+      "meaning": [
+        "cal",
+        "col",
+        "color",
+        "colour"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "color",
+      "fr": "cale",
+      "sound": 0.975,
+      "meaning": [
+        "cal",
+        "col",
+        "color",
+        "colour"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "centre",
+      "fr": "saine",
+      "sound": 0.975,
+      "meaning": [
+        "cent",
+        "center",
+        "centre",
+        "scent",
+        "sen",
+        "sender",
+        "senors",
+        "sense"
+      ],
+      "meaning_size": 12,
+      "loop": false
+    },
+    {
+      "en": "center",
+      "fr": "saine",
+      "sound": 0.975,
+      "meaning": [
+        "cent",
+        "center",
+        "centre",
+        "scent",
+        "sen",
+        "sender",
+        "senors",
+        "sense"
+      ],
+      "meaning_size": 12,
+      "loop": false
+    },
+    {
+      "en": "cent",
+      "fr": "saine",
+      "sound": 0.975,
+      "meaning": [
+        "cent",
+        "center",
+        "centre",
+        "scent",
+        "sen",
+        "sender",
+        "senors",
+        "sense"
+      ],
+      "meaning_size": 12,
+      "loop": false
+    },
+    {
+      "en": "cells",
+      "fr": "celle",
+      "sound": 0.975,
+      "meaning": [
+        "cellar",
+        "cells",
+        "sellers",
+        "sells"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "callers",
+      "fr": "col",
+      "sound": 0.975,
+      "meaning": [
+        "called",
+        "caller",
+        "callers",
+        "recalled"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "called",
+      "fr": "col",
+      "sound": 0.975,
+      "meaning": [
+        "called",
+        "caller",
+        "callers",
+        "recalled"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "cal",
+      "fr": "cale",
+      "sound": 0.975,
+      "meaning": [
+        "cal",
+        "col",
+        "color",
+        "colour"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "buzz",
+      "fr": "base",
+      "sound": 0.975,
+      "meaning": [
+        "buzz"
+      ],
+      "meaning_size": 1,
+      "loop": false
+    },
+    {
+      "en": "belt",
+      "fr": "belle",
+      "sound": 0.975,
+      "meaning": [
+        "belle",
+        "belt"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "beats",
+      "fr": "bit",
+      "sound": 0.975,
+      "meaning": [
+        "beat",
+        "beats",
+        "beet",
+        "bit"
+      ],
+      "meaning_size": 4,
+      "loop": true
+    },
+    {
+      "en": "balls",
+      "fr": "bol",
+      "sound": 0.975,
+      "meaning": [
+        "bald",
+        "balder",
+        "ball",
+        "balls"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "balder",
+      "fr": "bol",
+      "sound": 0.975,
+      "meaning": [
+        "bald",
+        "balder",
+        "ball",
+        "balls"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "bald",
+      "fr": "bol",
+      "sound": 0.975,
+      "meaning": [
+        "bald",
+        "balder",
+        "ball",
+        "balls"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "sucked",
+      "fr": "secte",
+      "sound": 0.971,
+      "meaning": [
+        "sacked",
+        "sect",
+        "sector",
+        "sex",
+        "sexed",
+        "sext",
+        "sicked",
+        "sucked"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "chuck",
+      "fr": "tchèque",
+      "sound": 0.971,
+      "meaning": [
+        "check",
+        "checked",
+        "checks",
+        "cheque",
+        "chick",
+        "chicks",
+        "chuck",
+        "czech"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "sun",
+      "fr": "saine",
+      "sound": 0.968,
+      "meaning": [
+        "cent",
+        "center",
+        "centre",
+        "scent",
+        "sen",
+        "sender",
+        "senors",
+        "sense"
+      ],
+      "meaning_size": 12,
+      "loop": false
+    },
+    {
+      "en": "son",
+      "fr": "saine",
+      "sound": 0.968,
+      "meaning": [
+        "cent",
+        "center",
+        "centre",
+        "scent",
+        "sen",
+        "sender",
+        "senors",
+        "sense"
+      ],
+      "meaning_size": 12,
+      "loop": false
+    },
+    {
+      "en": "ill",
+      "fr": "il",
+      "sound": 0.968,
+      "meaning": [
+        "ill"
+      ],
+      "meaning_size": 1,
+      "loop": false
+    },
+    {
+      "en": "foot",
+      "fr": "faites",
+      "sound": 0.968,
+      "meaning": [
+        "fit",
+        "foot"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "axe",
+      "fr": "axe",
+      "sound": 0.967,
+      "meaning": [
+        "axe"
+      ],
+      "meaning_size": 1,
+      "loop": false
+    },
+    {
+      "en": "act",
+      "fr": "actes",
+      "sound": 0.967,
+      "meaning": [
+        "act",
+        "oct"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "enter",
+      "fr": "n",
+      "sound": 0.962,
+      "meaning": [
+        "earn",
+        "end",
+        "enter",
+        "inn",
+        "inner"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "end",
+      "fr": "n",
+      "sound": 0.962,
+      "meaning": [
+        "earn",
+        "end",
+        "enter",
+        "inn",
+        "inner"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "else",
+      "fr": "elle",
+      "sound": 0.962,
+      "meaning": [
+        "earl",
+        "elder",
+        "else"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "elder",
+      "fr": "elle",
+      "sound": 0.962,
+      "meaning": [
+        "earl",
+        "elder",
+        "else"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "inner",
+      "fr": "n",
+      "sound": 0.961,
+      "meaning": [
+        "earn",
+        "end",
+        "enter",
+        "inn",
+        "inner"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "inn",
+      "fr": "n",
+      "sound": 0.961,
+      "meaning": [
+        "earn",
+        "end",
+        "enter",
+        "inn",
+        "inner"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "geed",
+      "fr": "gin",
+      "sound": 0.961,
+      "meaning": [
+        "geed",
+        "genes",
+        "gin",
+        "jan",
+        "jeans",
+        "jin",
+        "jinn"
+      ],
+      "meaning_size": 7,
+      "loop": false
+    },
+    {
+      "en": "earn",
+      "fr": "n",
+      "sound": 0.961,
+      "meaning": [
+        "earn",
+        "end",
+        "enter",
+        "inn",
+        "inner"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "earl",
+      "fr": "elle",
+      "sound": 0.961,
+      "meaning": [
+        "earl",
+        "elder",
+        "else"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "slipped",
+      "fr": "slip",
+      "sound": 0.959,
+      "meaning": [
+        "slap",
+        "sleep",
+        "sleeps",
+        "slip",
+        "slipped"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "seth",
+      "fr": "cette",
+      "sound": 0.957,
+      "meaning": [
+        "reset",
+        "seth",
+        "sets"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "tossed",
+      "fr": "test",
+      "sound": 0.955,
+      "meaning": [
+        "dissed",
+        "pest",
+        "test",
+        "testers",
+        "tests",
+        "tossed"
+      ],
+      "meaning_size": 6,
+      "loop": true
+    },
+    {
+      "en": "stuck",
+      "fr": "stock",
+      "sound": 0.955,
+      "meaning": [
+        "stalk",
+        "stuck"
+      ],
+      "meaning_size": 2,
+      "loop": false
+    },
+    {
+      "en": "slap",
+      "fr": "slip",
+      "sound": 0.955,
+      "meaning": [
+        "slap",
+        "sleep",
+        "sleeps",
+        "slip",
+        "slipped"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "skirt",
+      "fr": "skate",
+      "sound": 0.955,
+      "meaning": [
+        "scat",
+        "skat",
+        "skirt"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "siege",
+      "fr": "site",
+      "sound": 0.955,
+      "meaning": [
+        "ceded",
+        "receipts",
+        "seats",
+        "seeded",
+        "siege",
+        "sit"
+      ],
+      "meaning_size": 6,
+      "loop": false
+    },
+    {
+      "en": "seizes",
+      "fr": "six",
+      "sound": 0.955,
+      "meaning": [
+        "cease",
+        "seized",
+        "seizes"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "seized",
+      "fr": "six",
+      "sound": 0.955,
+      "meaning": [
+        "cease",
+        "seized",
+        "seizes"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "seeded",
+      "fr": "site",
+      "sound": 0.955,
+      "meaning": [
+        "ceded",
+        "receipts",
+        "seats",
+        "seeded",
+        "siege",
+        "sit"
+      ],
+      "meaning_size": 6,
+      "loop": false
+    },
+    {
+      "en": "sacked",
+      "fr": "secte",
+      "sound": 0.955,
+      "meaning": [
+        "sacked",
+        "sect",
+        "sector",
+        "sex",
+        "sexed",
+        "sext",
+        "sicked",
+        "sucked"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "pieces",
+      "fr": "pise",
+      "sound": 0.955,
+      "meaning": [
+        "bees",
+        "peas",
+        "pease",
+        "pees",
+        "pieces"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "passed",
+      "fr": "piste",
+      "sound": 0.955,
+      "meaning": [
+        "feast",
+        "passed",
+        "pieced",
+        "pissed",
+        "piste"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "leases",
+      "fr": "lise",
+      "sound": 0.955,
+      "meaning": [
+        "fleas",
+        "flees",
+        "leases"
+      ],
+      "meaning_size": 3,
+      "loop": false
+    },
+    {
+      "en": "jan",
+      "fr": "gin",
+      "sound": 0.955,
+      "meaning": [
+        "geed",
+        "genes",
+        "gin",
+        "jan",
+        "jeans",
+        "jin",
+        "jinn"
+      ],
+      "meaning_size": 7,
+      "loop": false
+    },
+    {
+      "en": "feast",
+      "fr": "piste",
+      "sound": 0.955,
+      "meaning": [
+        "feast",
+        "passed",
+        "pieced",
+        "pissed",
+        "piste"
+      ],
+      "meaning_size": 5,
+      "loop": false
+    },
+    {
+      "en": "dissed",
+      "fr": "test",
+      "sound": 0.955,
+      "meaning": [
+        "dissed",
+        "pest",
+        "test",
+        "testers",
+        "tests",
+        "tossed"
+      ],
+      "meaning_size": 6,
+      "loop": false
+    },
+    {
+      "en": "chicks",
+      "fr": "tchèque",
+      "sound": 0.955,
+      "meaning": [
+        "check",
+        "checked",
+        "checks",
+        "cheque",
+        "chick",
+        "chicks",
+        "chuck",
+        "czech"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "ceded",
+      "fr": "site",
+      "sound": 0.955,
+      "meaning": [
+        "ceded",
+        "receipts",
+        "seats",
+        "seeded",
+        "siege",
+        "sit"
+      ],
+      "meaning_size": 6,
+      "loop": false
+    },
+    {
+      "en": "causes",
+      "fr": "cause",
+      "sound": 0.955,
+      "meaning": [
+        "causes",
+        "cuz"
+      ],
+      "meaning_size": 2,
+      "loop": true
+    },
+    {
+      "en": "receipts",
+      "fr": "site",
+      "sound": 0.953,
+      "meaning": [
+        "ceded",
+        "receipts",
+        "seats",
+        "seeded",
+        "siege",
+        "sit"
+      ],
+      "meaning_size": 6,
+      "loop": false
+    },
+    {
+      "en": "recalled",
+      "fr": "col",
+      "sound": 0.953,
+      "meaning": [
+        "called",
+        "caller",
+        "callers",
+        "recalled"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "events",
+      "fr": "veine",
+      "sound": 0.953,
+      "meaning": [
+        "events",
+        "vender",
+        "vendors",
+        "venture"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "depend",
+      "fr": "peine",
+      "sound": 0.953,
+      "meaning": [
+        "depend",
+        "pen",
+        "pence",
+        "penn",
+        "pens",
+        "pin",
+        "spend",
+        "spent"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "venture",
+      "fr": "veine",
+      "sound": 0.952,
+      "meaning": [
+        "events",
+        "vender",
+        "vendors",
+        "venture"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "vendors",
+      "fr": "veine",
+      "sound": 0.952,
+      "meaning": [
+        "events",
+        "vender",
+        "vendors",
+        "venture"
+      ],
+      "meaning_size": 4,
+      "loop": false
+    },
+    {
+      "en": "spent",
+      "fr": "peine",
+      "sound": 0.952,
+      "meaning": [
+        "depend",
+        "pen",
+        "pence",
+        "penn",
+        "pens",
+        "pin",
+        "spend",
+        "spent"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    },
+    {
+      "en": "spend",
+      "fr": "peine",
+      "sound": 0.952,
+      "meaning": [
+        "depend",
+        "pen",
+        "pence",
+        "penn",
+        "pens",
+        "pin",
+        "spend",
+        "spent"
+      ],
+      "meaning_size": 8,
+      "loop": false
+    }
+  ],
+  "lines": [
+    {
+      "fr": "ouest test tels style style style stock slip",
+      "flu": 0.5
+    },
+    {
+      "fr": "ski sexe saine secte secte sexe piste peste",
+      "flu": 0.5
+    },
+    {
+      "fr": "peine peine pise pise pise mine mine file",
+      "flu": 0.5
+    },
+    {
+      "fr": "dette tchèque tchèque tchèque celle six col belle",
+      "flu": 0.5
+    },
+    {
+      "fr": "bit bise bit boxe bol boxe man lac",
+      "flu": 0.5
+    },
+    {
+      "fr": "lac cane casse casse cane cale actes style",
+      "flu": 0.5
+    },
+    {
+      "fr": "slip piste piste gin gin gin site pique",
+      "flu": 0.5
+    },
+    {
+      "fr": "pique file mine mille mille mille file dette",
+      "flu": 0.5
+    },
+    {
+      "fr": "bit ouest test test stade style slip skate",
+      "flu": 0.5
+    },
+    {
+      "fr": "sexe sexe sexe secte secte secte skate ouest",
+      "flu": 0.5
+    },
+    {
+      "fr": "place max max max gin gin tchèque tchèque",
+      "flu": 0.5
+    },
+    {
+      "fr": "tchèque boxe peste veine tels tels tels tels",
+      "flu": 0.5
+    },
+    {
+      "fr": "pique cette saine saine saine saine saine celle",
+      "flu": 0.5
+    },
+    {
+      "fr": "celle site saine cette peine peine peine pique",
+      "flu": 0.5
+    },
+    {
+      "fr": "passent mène mène mine mille man man man",
+      "flu": 0.5
+    },
+    {
+      "fr": "laine lac laine laine laine laine laine laine",
+      "flu": 0.5
+    },
+    {
+      "fr": "lad lad lac caisse laine lise lise faites",
+      "flu": 0.5
+    },
+    {
+      "fr": "dette dette cause caisse cale cale saine saine",
+      "flu": 0.5
+    },
+    {
+      "fr": "saine celle col col cale base belle bit",
+      "flu": 0.5
+    },
+    {
+      "fr": "bol bol bol secte tchèque saine saine il",
+      "flu": 0.5
+    },
+    {
+      "fr": "faites axe actes n n elle elle n",
+      "flu": 0.5
+    },
+    {
+      "fr": "n gin n elle slip cette test stock",
+      "flu": 0.5
+    },
+    {
+      "fr": "slip skate site six six site secte pise",
+      "flu": 0.5
+    },
+    {
+      "fr": "piste lise gin piste test tchèque site cause",
+      "flu": 0.5
+    },
+    {
+      "fr": "site col veine peine veine veine peine peine",
+      "flu": 0.5
+    }
+  ]
+}
