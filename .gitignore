@@ -57,4 +57,15 @@ research/homophone-bench/selflearn/*.pt
 research/homophone-bench/selflearn/neural_run.log
 research/homophone-bench/trigram-lm-*.pkl
 research/homophone-bench/train-dual-v1.jsonl
-.venv/
+
+# Vendored engine + downloaded weights/artifacts (never commit these)
+vendor/
+*.npy
+*.safetensors
+
+# Python
+.pytest_cache/
+*.egg-info/
+
+# env / secrets
+.env
