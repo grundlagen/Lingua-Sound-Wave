@@ -1,0 +1,29 @@
+
+EN: the sea is cold
+FR: · cid · [cold]
+    sea -> cid  [7 hops, q 0.96, anchor 0.50]
+        en:sea ≈ fr:si ~ en:si ≈ fr:scient ~ fr:scient in ≈ en:seeding ~ en:seed ≈ fr:cid
+    cold -> (no chain, no direct match)
+
+EN: two men under the moon
+FR: telles quota costard · [moon]
+    two -> telles  [7 hops, q 0.95, anchor 0.62]
+        en:two ≈ fr:touts ~ fr:tout ≈ en:to ~ en:till ≈ fr:tels ~ en:tel ≈ fr:telles
+    men -> quota  [6 hops, q 0.91, anchor 0.41]
+        en:men ≈ fr:mènent ~ fr:mènent lis ≈ en:monthly ~ en:quarterly ≈ fr:quota lies ~ fr:quota
+    under -> costard  [7 hops, q 0.92, anchor 0.51]
+        en:under = fr:sous ≈ en:sue ~ en:sued ≈ fr:soutes ~ fr:soute ≈ en:suit = fr:costard
+    moon -> (no chain, no direct match)
+
+EN: she said tell me more
+FR: rustique délivré cède doté avec
+    she -> rustique  [6 hops, q 0.91, anchor 0.60]
+        en:she ≈ fr:chies ~ fr:chie ≈ en:sheer ~ en:sheered ≈ fr:géode ~ fr:rustique
+    said -> délivré  [2 hops, q 0.98, anchor 0.78]
+        en:said ≈ fr:cède ~ fr:délivré
+    tell -> cède  [7 hops, q 0.94, anchor 0.66]
+        en:tell ≈ fr:telles ~ fr:telle ≈ en:tel ~ fr:tels ≈ en:tells ~ en:said ≈ fr:cède
+    me -> doté  [5 hops, q 0.94, anchor 0.75]
+        en:me ≈ fr:mi ~ en:mi ≈ fr:mât ~ en:tauter ≈ fr:doté
+    more -> avec  [6 hops, q 0.90, anchor 0.71]
+        en:more ≈ fr:mot = en:word ≈ fr:oued ~ fr:oueds ≈ en:with = fr:avec

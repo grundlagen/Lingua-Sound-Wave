@@ -1,0 +1,17 @@
+ORIGINAL    the sea is cold and the moon is bright
+CHAIN-WEB   Sièges [cold] [moon] [bright]
+      sea → sièges  [chain/6hop, q0.97]
+          chain: en:sea ≈ fr:si ~ en:si ≈ fr:scient ~ fr:scient in ≈ en:seating = fr:sièges
+      cold: no chain transfer
+      moon: no chain transfer
+      bright: no chain transfer
+
+ORIGINAL    a small bird sings of love
+CHAIN-WEB   Thaï [bird] [sings] aine
+      small → thaï  [chain/3hop, q0.91]
+          chain: en:small ~ en:tiny ≈ fr:thaï nient ~ fr:thaï
+      bird: no chain transfer
+      sings: no chain transfer
+      love → aine  [live-chain, q0.98]
+          chain: en:love = fr:aime ≈ en:em ~ en:en ≈ fr:aine
+

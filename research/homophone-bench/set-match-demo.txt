@@ -1,0 +1,12 @@
+EN set: ['key', 'bear', 'tie', 'frog']
+FR pool: open (web), 400 reachable
+
+  key        -> kea            cost -0.00
+      chain: en:key ≈snd fr:qui ≈snd en:kea ~sem fr:kea
+  bear       -> bear           cost -0.00
+      chain: en:bear ~sem fr:bear
+  tie        -> cravate        cost 0.10
+      chain: en:tie =trans fr:cravate
+  frog       -> grenouille     cost 0.10
+      chain: en:frog =trans fr:grenouille
+

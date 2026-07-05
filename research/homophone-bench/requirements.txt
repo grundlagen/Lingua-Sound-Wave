@@ -1,0 +1,5 @@
+numpy
+panphon
+# system: espeak-ng and ffmpeg on PATH
+# optional, for the allosaurus-nw baseline: allosaurus + torch (CPU)
+wordfreq

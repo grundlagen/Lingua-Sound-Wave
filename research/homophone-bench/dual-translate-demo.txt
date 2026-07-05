@@ -1,0 +1,18 @@
+
+EN:         the sea is cold   [ðəsiːɪzkoʊld]
+literal:    la mer [is] froid
+homophonic: dessus colt   (snd 0.92, sem 0.41)
+blend:      laissées colt   (snd 0.90, sem 0.49)
+no-cognate: laissées colt   (snd 0.90, sem 0.49)
+
+EN:         two men under the moon   [tuːmɛnʌndɚðəmuːn]
+literal:    deux homme sous la lunaire
+homophonic: demain ânes domine   (snd 0.86, sem 0.22)
+blend:      taupin ânes domine   (snd 0.86, sem 0.35)
+no-cognate: taupin ânes domine   (snd 0.86, sem 0.35)
+
+EN:         she said tell me more   [ʃiːsɛdtɛlmiːmoːɹ]
+literal:    elle disait [tell] [me] davantage
+homophonic: chies aident herbivores   (snd 0.89, sem 0.17)
+blend:      chies aident in émir   (snd 0.89, sem 0.31)
+no-cognate: chies aident in émir   (snd 0.89, sem 0.31)

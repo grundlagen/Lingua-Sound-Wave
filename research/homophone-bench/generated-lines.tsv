@@ -1,0 +1,41 @@
+mean_score	kinds	en	fr	en_ipa	fr_ipa
+1.0	word+multi	buy creature	bye crient chez	baɪ kɹiːtʃɐ	baɪ kʁi ʃe
+1.0	word+func+gen	too been teepee	toux bines tipi	tuː biːn tiːpiː	tu bin tipi
+0.99	multi+word+func+word	terry least what call	tait rient list ouate colle	tɛɹi liːst wɒt kɔːl	tɛʁi list wat kɔl
+0.99	word+word+gen+func	to group fila what	tout groupes filer watt	tuː ɡɹuːp fiːlɐ wɒt	tu ɡʁup file wat
+0.99	word+word+gen+func	less see coolie what	laisses sis coulis watt	lɛs siː kuːli wɒt	lɛs si kuli wat
+0.988	multi+word+func+word	entry says if too	haines tri seize ifs tous	ɛntɹi sɛz ɪf tuː	ɛntʁi sɛz if tu
+0.988	multi+word+func+word	berry seen more group	bey rient seine mots groupe	bɛɹi siːn mɔː ɡɹuːp	bɛʁi sɛn mo ɡʁup
+0.987	word+func+gen	mean but beater	mines batte bitter	miːn bʌt biːtɐ	min bat bitɛʁ
+0.987	word+func+gen	set but peeler	cette batte pilé	sɛt bʌt piːlɐ	sɛt bat pile
+0.987	word+func+gen	me done peaty	mis damne pythie	miː dʌn piːti	mi dan piti
+0.986	word+word+gen+func	we feel tarty but	oui fil tati batte	wiː fiːl tɑːti bʌt	wi fil tati bat
+0.983	multi+word+func+word	picture set more men	piquent chez sets mot mène	pɪktʃɐ sɛt mɔː mɛn	pik ʃe sɛt mo mɛn
+0.983	func+word+multi	but group lb	bête groupe aile bis	bʌt ɡɹuːp ɛlbiː	bɛt ɡʁup ɛlbi
+0.982	word+func+gen	we can marquee	oui canne maquis	wiː kæn mɑːkiː	wi kan maki
+0.981	word+word+gen+func	we call detest at	ouïe colle dit est hâtent	wiː kɔːl dɪtɛst æt	uj kɔl di ɛst at
+0.98	word+func+gen	least up stealer	liste happe stylé	liːst ʌp stiːlɐ	list ap stile
+0.98	word+func+gen	read is tepee	ride aise tipi	ɹiːd ɪz tiːpiː	ʁid ɛz tipi
+0.98	multi+word+func+word	ls least then me	aile ès liste gêne mis	ɛlɛs liːst ðɛn miː	ɛlɛs list ʒɛn mi
+0.98	word+func+gen	group an rumen	groupes haine roumaine	ɡɹuːp ɐn ɹuːmɛn	ɡʁup ɛn ʁumɛn
+0.98	word+word+gen+func	we red coolie then	oui raide coulis gène	wiː ɹɛd kuːli ðɛn	wi ʁɛd kuli ʒɛn
+0.98	multi+word+func+word	feature tell then least	fient chez telles gêne liste	fiːtʃɐ tɛl ðɛn liːst	fi ʃe tɛl ʒɛn list
+0.98	gen+func+word	doormen up too	domaine happe toux	dɔːmɛn ʌp tuː	dɔmɛn ap tu
+0.976	gen+func+word	metre should to	mité shoot toux	miːtɐ ʃʊd tuː	mite ʃut tu
+0.974	gen+func+word	pressmen is court	près mène aise quote	pɹɛsmɛn ɪz kɔːt	pʁɛ mɛn ɛz kɔt
+0.973	func+word+multi	in court possessed	haine cote paix est	ɪn kɔːt pəzɛst	ɛn kɔt pɛ ɛst
+0.972	word+func+gen	mean did carport	mine dites capote	miːn dɪd kɑːpɔːt	min dit kapɔt
+0.97	multi+word+func+word	pl we with or	pie aile oui oueds hors	piːɛl wiː wɪð ɔː	piɛl wi wɛd ɔʁ
+0.97	word+word+gen+func	two less fila than	tous laisses filer gène	tuː lɛs fiːlɐ ðɐn	tu lɛs file ʒɛn
+0.97	func+word+multi	was group penny	osent groupe paies nient	wɒz ɡɹuːp pɛni	oz ɡʁup pɛni
+0.969	word+func+gen	do from rumen	doux tram roumaine	duː fɹɒm ɹuːmɛn	du tʁam ʁumɛn
+0.967	func+word+multi	these for costly	disent fort cassent lis	ðiːz fɔː kɒstli	diz fɔʁ kas lis
+0.967	word+func+gen	for will rata	forts ils raté	fɔː wɪl ɹɑːtɐ	fɔʁ il ʁate
+0.965	word+word+gen+func	mean for pressie were	mine forts précis ouah	miːn fɔː pɹɛsi wɜː	min fɔʁ pʁesi wa
+0.962	word+func+gen	or this coolie	hors dix coulis	ɔː ðɪs kuːli	ɔʁ dis kuli
+0.962	word+func+gen	call this metre	colle dix mité	kɔːl ðɪs miːtɐ	kɔl dis mite
+0.96	word+func+gen	she than tepee	chie gêne tipi	ʃiː ðɐn tiːpiː	ʃi ʒɛn tipi
+0.96	word+func+gen	two than tepee	tous gène tipi	tuː ðɐn tiːpiː	tu ʒɛn tipi
+0.96	word+func+gen	to that rupee	toux dates roupies	tuː ðæt ɹuːpiː	tu dat ʁupi
+0.957	word+func+gen	see this rata	si dix raté	siː ðɪs ɹɑːtɐ	si dis ʁate
+0.955	gen+func+word	rata with true	raté oueds trous	ɹɑːtɐ wɪð tɹuː	ʁate wɛd tʁu

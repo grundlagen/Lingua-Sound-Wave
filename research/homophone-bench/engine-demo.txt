@@ -1,0 +1,5 @@
+ORIGINAL    the sea is cold
+HOMOPHONIC  Si intenso     [es, drift=0.55]
+      sea → si  (sound 1.00 · sense 0.53)
+      cold → intenso  (sound 0.91 · sense 0.46)  «synonym: insensate»
+
