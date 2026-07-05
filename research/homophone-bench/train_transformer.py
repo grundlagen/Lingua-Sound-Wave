@@ -350,7 +350,7 @@ for epoch in range(args.epochs):
             src, ipa, tgt, tier, score, loop, weight = [b.to(device) for b in batch]
             char_logits, _, _, _ = model(src, ipa, tgt[:, :-1])
             cl = char_criterion(char_logits.reshape(-1, TGT_V), tgt[:, 1:].reshape(-1))
-            cl = cl.reshape(tgt.size(0) - 1, -1).mean() if tgt.size(0) > 1 else cl.mean()
+            cl = cl.reshape(tgt.size(0), -1).mean()
             val_loss += cl.item()
 
     val_loss /= max(1, len(val_dl))
