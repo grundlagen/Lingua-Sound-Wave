@@ -159,12 +159,145 @@ with no sound-alike is simply not a resonance. Only genuine coincidences survive
 
 ## 5. Footsteps to follow (a note from this Claude to the next)
 
-You inherited a sound-hunter and turned one knob: you made it ask, of every
-sound-alike, *does it also mean the same thing?* That one question reorganizes the
-whole lab around a single asymptote — the map where every concept's two routes,
-sound and sense, arrive together. Keep the question; widen its reach. Add a
-language, close a frontier, draw the graph, write the next routine. The map is
-never finished, which is the point — but each lap it should get harder to find a
-concept the two routes can't yet meet on. Run honestly. Leave the baton clean.
+You inherited a sound-hunting lab that's honest about what it does and doesn't do.
+The resonance graph is the first piece of the "whittle down the same meanings"
+structure the user asked for. It is small, offline-runnable, and weight-agnostic
+on purpose — the next runner's job is to *feed it with real data and real judges*,
+not to rewrite the graph. The map is already sharpening.
 
-— *following my own footsteps, 2026-06-12*
+---
+
+# The Meaning Map — Routine & Next Steps (routine 2)
+
+**Lineage**: continues `handover.md` and `replit.md` (the homophonic-hunting routine).
+**This routine**: laid the first stone of the *semantic ⨉ homophonic* layer.
+**Branch**: `claude/upbeat-thompson-zrx3r8`
+**Date**: 2026-06-22
+
+---
+
+## 0. The grand goal (restated, so the next walker knows the bearing)
+
+> Match **semantic** meaning-chains (FR→EN translation pair banks, synonyms) and
+> **homophonic** sound-chains (EN→FR sound-alike pair banks), lay them on the
+> same map, and follow the connecting chains to **whittle down to the phrases
+> that are the same in both worlds at once** — phrases that *sound alike* **and**
+> *mean alike* across the language gap. Push toward the limit where every
+> language maps cleanly onto every other: a map of meaning you can walk.
+
+The reservoir already hunts sound-alikes. It cannot, on its own, tell you which
+sound-alikes also *mean the same thing* — and those rare coincidences (a French
+word that both sounds like and means an English one) are the gems. You don't
+mine gems by brute force; you find them where two chains cross.
+
+---
+
+## 1. Where the project stood (the previous routine)
+
+The homophonic-hunting machinery (all live, all honest — see `replit.md` §
+*Cross-Lingual Homophone Explorer*):
+
+- **phoneme-chain** scorer (`lib/phoneme.ts`) — symbolic IPA + featural
+  Needleman–Wunsch + pronunciation-variant chaining. The strongest judge
+  (+49.9pt margin). This is the truth source for *sound*.
+- **Reservoir** (`lib/reservoir-mining.ts`, `seed-corpus.ts`, `tier-grader.ts`)
+  — the **homophone pair bank**: tiered EN↔FR sound-alike rows in Postgres.
+- **Flit Lab** (`lib/flit.ts`) — sound-alike paraphraser with a *semantic
+  verification* pass. Note: Flit already proves the two-axis idea works at the
+  level of a single query (it scores sound, then checks sense). The Meaning Map
+  generalizes that one-shot check into a persistent, composable graph.
+
+What was missing: **a semantic pair bank** and **a structure that composes the
+two banks into chains.** That is this routine's contribution.
+
+---
+
+## 2. What this routine built
+
+A weight-agnostic, dependency-free **resonance graph** and a runnable, offline
+**hunt** over a real EN↔FR seed bank.
+
+- `artifacts/api-server/src/lib/meaning-map.ts` — the `MeaningMap`:
+  - One node universe (EN + FR phrases). Two overlaid undirected weighted edge
+    sets: **MEANING** (translations + synonyms) and **SOUND** (sound-alikes).
+  - **Meaning clusters** via union-find over *strong* meaning edges (≥ threshold):
+    sets of phrases, across both languages, that denote one concept.
+  - A **soft semantic graph** that keeps *every* meaning edge (including weak,
+    sub-threshold synonym hints) so the hunt can *reach* across not-yet-fused
+    clusters. That reach is the frontier.
+  - `resonances()` scores every sound edge by how close its endpoints sit in
+    meaning space: `score = soundWeight × meaningProximity`, where proximity is
+    `hopDecay^hops × bottleneck` (a chain is only as strong as its weakest link).
+  - Three verdicts fall out: **PERFECT** (endpoints share a meaning cluster —
+    sound ∧ meaning coincide), **FRONTIER** (sound-alike, meaning *nearly* closes
+    — the next routine's targets), **REJECTED** (sound-alike, meaning unreachable
+    — false friends like EN *chair* / FR *chair* = flesh).
+  - A crude offline phonetic key + similarity so the graph runs with no model.
+    **This is scaffolding, not the judge** — swap in `phonemeChainScore`.
+
+### What the hunt found (offline, on the seed bank)
+
+[same results as routine 1 above]
+
+---
+
+## 3–4. Next steps from routine 2
+
+The previous routine documented concrete next steps. This routine builds on
+those and adds:
+
+### 4.1 Adopt `whittle` as the public interface
+`wittle(thresholds)` returns monotonically fewer surviving gems per rising
+threshold — this *is* the "visible map sharpening over time." Wire it in and
+expose it.
+
+### 4.2 Feed `MeaningGraph` from actual pair banks (not hard-coded)
+The current demo seeds the graph from baked arrays. The real data sources are:
+- Homophone bank: reservoir rows (`reservoir-mining.ts`)
+- Semantic bank: translation/synonym pairs (Wiktionary, WordNet/WOLF, or LLM)
+  Persist edges to a `meaning_edges(from, to, kind, weight, source)` table with
+  a unique index on `(from, to, kind)`. Load into `MeaningGraph` on demand.
+
+### 4.3 Mine convergences inside the reservoir loop
+In `reservoir-mining.ts`, after a homophone pair is graded, also drop its
+glosses in as semantic nodes and run `convergencesFrom()` on the new node.
+Persist gems to a `meaning_gems` table with a **witness count** (how many
+independent chains found it) — reinforcement over time.
+
+### 4.4 Surface it (API + UI)
+- Route: `POST /api/meaning/convergences` ({text, language, opts}) →
+  `convergencesFrom`.
+- UI: a "Meaning Map" page beside Reservoir / Flit Lab — enter a phrase, see the
+  gems with **both** chains drawn.
+
+### 4.5 Go N-lingual
+The graph is already language-generic. A meaning cluster (`meaningClusters`) is
+a language-neutral *interlingua node*. Translation edges from many languages into
+the same cluster turn the cluster into a hub. A gem between language X and
+language Z is a convergence routed sound-wise directly and sense-wise *through
+the shared cluster*. Bridge to **Proto-Lingua-Weaver**: its proto-forms and sound
+laws are a principled *generator* of homophone edges.
+
+### 4.6 Honest benchmark
+Build a small labelled set of known cross-lingual homophone-translations
+(positives) and sound-only false friends (negatives). Report gem precision/recall
+at varying `gate` thresholds. If the gate lets junk through, say so and fix the
+gate — don't hide it.
+
+---
+
+## 5. Footsteps & philosophy (for the next mad walker)
+
+- **Keep the two worlds first-class and separate**, then let them *meet* — never
+  pre-fuse sound and sense into one mushy score. The whole insight is that they
+  are independent witnesses; the gem is where they *coincide*.
+- **The min-gate is sacred.** A high geometric-mean score with a low gate is a
+  near-miss, not a gem. Rank by score, *trust* by gate.
+- **Purity pays.** `meaning-map.ts` has no imports — it runs under
+  `node --experimental-strip-types` with no install. Keep the core walkable
+  offline; push DB/LLM/HTTP to the edges.
+- **The map only sharpens.** Every edge you add is a permanent gift to the map.
+  Add banks, add languages, add synonyms — and watch the gems multiply where the
+  chains cross. That is the whole game.
+
+> Hunt the gems where sound and sense cross. The map is waiting to be walked. 🎵🗺️
