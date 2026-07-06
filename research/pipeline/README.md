@@ -92,6 +92,36 @@ tier-ladder (two words sharing ≥2 translations are meaning-mates).
   paraphraser (`research/qwen-finetune/train_lora.py` runs it unchanged) to
   generalize the move to ANY word, per the plan's stage-3 learned half.
 
+## Sentence structure: the lattice composer + ByT5 transducer
+
+`compose_lattice.py` — **how words bridge into sentences.** Per EN token, a
+candidate column in trust order: INVENTORY (all verified cycles) → GLUE
+(zipf-glue function words) → INFLECT (lemma/inflection neighbors' cells) →
+BRIDGE (meaning-mate's sound cell — the word is *said another way* to gain a
+proven homophone) → GAP (honest hole). Beam-search the columns, then re-rank
+finalists on the **whole-line** combo — espeak phonemizes the French line
+connected, so liaison/elision at the seams is inside the objective. The top
+line is also rendered as the sandhi spoken stream. Live behavior:
+
+```
+she wandered through the deep forest at twilight
+→ chie [1.00] · roue [0.76 through] · de [GLUE] ·
+  foresterie [0.70 BRIDGE means 'forestry'] · hâtent [0.96 at] ...
+  whole-line combo 0.641; GAPs: wandered, deep (no cells yet — the GPU
+  paraphrasers' job)
+```
+
+`build_byt5_data.py` → `out-byt5/byt5_train.jsonl` — **45,188 transducer
+rows** (`src`: EN IPA + text, `tgt`: FR), curriculum-tagged: 38,706 words
+(stage 1), 6,482 phrases (stage 2); stage 3 lines come from the composer
+itself via `--compose-file` once GAP coverage improves. `train_byt5.py`
+trains byt5-small/base on it (`--curriculum` for staged training) — the
+byte-level model needs no tokenizer tricks to see sound structure.
+
+The full loop once trained: composer proposes from the lattice → ByT5 fills
+GAPs generatively → matcher verifies → survivors join the inventory and the
+next byt5_train.jsonl. Same flywheel, sentence-scale.
+
 ## Scripts
 
 | file | stage | run |
