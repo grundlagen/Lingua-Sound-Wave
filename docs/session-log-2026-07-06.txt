@@ -1,0 +1,211 @@
+================================================================================
+SESSION LOG — 2026-07-06
+Remote Claude Code session, repo grundlagen/Lingua-Sound-Wave
+Work branch: claude/three-agent-homophone-t51ats  (+ one commit to main)
+================================================================================
+
+WHAT THIS SESSION WAS
+A running collaboration on the EN<->FR homophonic-translation system. The user
+worked in parallel on a local machine (/home/mint, three-agent system, GPU
+LSTM training on vast.ai) and pasted transcripts in; this remote session
+designed the architecture, wrote the training kits, and ultimately EXECUTED
+the pipeline's no-GPU stages against the real corpus, growing the verified
+inventory from ~15k to ~85k pairs.
+
+--------------------------------------------------------------------------------
+CONVERSATION ARC (turn by turn)
+--------------------------------------------------------------------------------
+
+1) "best schema for making a better agent from Qwen"
+   User pasted a local-session transcript of the three-agent system
+   (A: EN->FR carver, B: FR->EN "English ear", C: judge) and asked for the
+   best schema to build a better agent from Qwen.
+   -> Wrote docs/qwen-three-agent-schema.md: A and B are small fine-tuned
+      Qwens (IPA in the prompt); C stays deterministic (the AUC-0.993 combo
+      matcher); the Agent C fix (score against ORIGINAL English, target
+      repairs against CURRENT drifted English); "honest, not helpful" mix for
+      B; rejection-sampling + DPO using the combo scorer as verifier.
+
+2) Local transcript: lookup Agent A can't repair (6,143-pair DB lacks
+   coverage); schema's generative-A path confirmed as the way.
+   -> Built research/qwen-finetune/: build_sft_data.py, build_repair_data.py
+      (synthetic REVISE turns), train_lora.py (LoRA SFT, assistant-only
+      loss), sample_and_dpo.py + train_dpo.py (verifier loop),
+      agent_a_generative.py (GenerativeCarver drop-in with carve()/revise()).
+
+3) Local transcript: GPU LSTM trained on vast.ai (13M params, RTX 4090,
+   220s, shadow->chaude), files pushed to claude/phrase-weave-multiword.
+   -> Verified the push; found the generate() bug still in the committed
+      gpu_char_model.py (line ~117: character variable `c` overwrites the
+      LSTM cell state `c`); gave the 2-line fix; advised HF Hub / GitHub
+      Release for the 52MB model file; flagged the unresolved local merge
+      conflict and the still-billing vast.ai instance.
+
+4) "best way to get to sentence generation + training method + a more
+   technical LLM + babel rules"
+   -> Wrote docs/sentence-generation-plan.md: carve the sandhi-applied
+      continuous phoneme stream, not concatenated words; ByT5-base
+      (token-free bytes) as transducer + Qwen3-8B as fluency composer;
+      curriculum SFT (words -> juncture bigrams -> phrases -> synthetic
+      sandhi-correct sentences) then verifier DPO.
+   -> Wrote research/qwen-finetune/sandhi_fr.py: deterministic French
+      sandhi engine — elision, obligatory/forbidden liaison, h-aspire,
+      enchainement, schwa drop. Self-testing, 15/15 pass.
+
+5) User's five-stage insight (the big reframe): generator NOT translator;
+   stages train separately; gold stays in place; dual ladder of monolingual
+   meaning; GPU carve training expands EN and FR independently; stage 4
+   filters cross-language; stage 5 paragraphs.
+   -> Wrote docs/staged-generator-architecture.md mapping every stage to
+      extant engines on the phrase-weave-multiword branch (tier_ladder,
+      ladder.py, routes.py, zipf_glue, paraphrase_search, fragment_weave,
+      matcher, strict_judge, prosody...). Key addition: morphology is a
+      LOOKUP (Lefff/UniMorph/Zipf), don't burn GPU on it; LLM only for
+      paraphrase/phrase/weave; monolingual rewards in stages 2-3.
+
+6) "do what's needed; homophones may exist already; where do fragments/
+   prosody institute; scribble the pipeline into github main, marked at top"
+   -> Found the homonym sets ALREADY EXIST: en-homophone-classes.tsv (707),
+      fr-homophone-classes.tsv (4,583), fr-homophone-classes-lexique.tsv
+      (33,660 classes, morphology folded in).
+   -> Answered placement: weave = stage-3 generator; prosody = stage-4
+      judge channel; sandhi sits between generation and judging.
+   -> Pushed PIPELINE.md to MAIN with a banner at the top of README.md
+      (resolved a rebase conflict with parallel work on main).
+   -> Judgement delivered: generator-not-translator is the correct rare
+      frame; stage separation = clean rewards; the trusted verifier makes
+      the flywheel sound (RLVR analogy); risks = semantic drift, Goodhart
+      on combo, fluency ceiling until a real FR LM composes.
+
+7) "run the stages as you see best" — EXECUTION, CYCLE 1
+   Installed espeak-ng + panphon (unicodecsv workaround) + wordfreq +
+   lemminflect in this environment; pulled matcher/gold/classes from the
+   phrase-weave branch; wrote and ran research/pipeline/:
+     stage2_ladder.py   24,211 word ladders (12,211 EN / 12,000 FR;
+                        518 EN + 3,258 FR with homonym buckets)
+     stage3_expand.py   8,092 EN inflections (LemmInflect) + 10,619 FR
+                        forms (suffix rules, Lexique-validated), Zipf-ranked
+     stage4_filter.py   50,494 candidates scored in 213s (g2p memoized,
+                        21k espeak calls)
+   RESULT: +27,086 STRICT (>=0.60) + 19,377 PASS (>=0.45) new pairs;
+   13,797 STRICT non-cognate (kept~quetes 0.78, freezer~frisez 0.82,
+   peak~piques 1.00, ceasing~six 0.75). 92% survival — inflections of
+   proven words ARE the highest-probability new homophones.
+
+8) "cycle 2, maybe stricter (0.70?) or keep and edit later"
+   Implemented both halves of the instinct: seed admission at >=0.70
+   (13,874 EXPANSION-1 pairs join the gold), output floors unchanged at
+   0.60/0.45 (nothing discarded). Added --exclude to stage4 so cycles
+   report only genuinely new pairs.
+   RESULT: seed 28,761 pairs; FR homonym coverage 3,258 -> 5,538;
+   +7,653 STRICT / +1,872 PASS genuinely new in 94s. THE FLYWHEEL
+   COMPOUNDS: 4,536 non-cognate new STRICT, nearly all descending from
+   EXPANSION-1 parents (very~vernie 0.82, lesser~laisses 0.78,
+   salted~solde 0.68, two~toue 1.00).
+
+9) "dual-word conjugations + paraphrase-to-any-word (GPU later)"
+   stage3_multiword.py: inflect one word at a time inside the 1,052
+   multi-word gold units; whole-phrase scoring (espeak renders FR liaison
+   natively). RESULT: +5,001 STRICT / +9,810 PASS phrase pairs (87s).
+   stage3_paraphrase.py: pivot synonymy over the corpus's own 102,772
+   DUAL translation edges -> 37,694 meaning-mate pairs (squad~brigade,
+   terrible~awful, plague~pest, defunct~deceased); 5,391 MEANING-BRIDGES
+   (word with no gold homophone -> mate that has one -> inherited sound
+   cell); paraphrase_sft_{en,fr}.jsonl emitted for the GPU paraphraser
+   (train_lora.py runs it unchanged).
+
+INVENTORY: 14,887 gold seed -> ~85k verified pairs + 5,391 bridges +
+two GPU-ready SFT sets. Zero GPU spent. ~6 minutes total matcher compute.
+
+--------------------------------------------------------------------------------
+FILES CREATED / EDITED THIS SESSION (all pushed)
+--------------------------------------------------------------------------------
+
+ON MAIN (commit 2dc12aa):
+  PIPELINE.md                          canonical five-stage map, starred banner
+  README.md                            banner line at top -> PIPELINE.md
+
+ON claude/three-agent-homophone-t51ats:
+  docs/qwen-three-agent-schema.md      Qwen A/B design, deterministic C, DPO loop
+  docs/sentence-generation-plan.md     ByT5+Qwen, curriculum SFT, sandhi stream
+  docs/staged-generator-architecture.md five stages mapped to extant engines
+  docs/session-log-2026-07-06.txt      this file
+
+  research/qwen-finetune/
+    common.py                          prompts, bench-dir imports, JSONL helpers
+    build_sft_data.py                  gold -> ChatML SFT for A and B (+honest mix)
+    build_repair_data.py               synthetic multi-turn REVISE examples
+    train_lora.py                      LoRA SFT (Qwen3-4B, 4-bit, assistant-only)
+    sample_and_dpo.py                  best-of-n + combo reward -> SFT/DPO pairs
+    train_dpo.py                       DPO (beta=0.1) on merged SFT checkpoint
+    agent_a_generative.py              GenerativeCarver: carve() / revise()
+    sandhi_fr.py                       FR sandhi engine (15/15 self-tests)
+    README.md, .gitignore
+
+  research/pipeline/
+    stage2_ladder.py                   ladders: homonyms + senses + zipf
+    stage3_expand.py                   deterministic morphological expansion
+    stage3_multiword.py                inflection inside multi-word units
+    stage3_paraphrase.py               pivot synonymy + bridges + SFT data
+    stage4_filter.py                   combo cross-filter (memoized g2p, --exclude)
+    README.md, .gitignore
+    out/                               cycle 1: expansion-{en,fr}.tsv,
+                                       expansion-verified.tsv (46,463 pairs),
+                                       ladders-{en,fr}.json
+    out-cycle2/                        cycle 2: same schema (+9,525 new pairs)
+    out-multiword/                     phrase pass (+14,811 new pairs)
+    out-paraphrase/                    paraphrase-{en,fr}.tsv, bridges,
+                                       paraphrase_sft_{en,fr}.jsonl
+
+COMMITS (work branch, oldest first):
+  2e14580  Qwen three-agent schema doc
+  ef3d53a  Qwen fine-tune kit (generative Agent A pipeline)
+  a192927  remove __pycache__, ignore bytecode (qwen-finetune)
+  a7f6a19  sentence-generation plan + sandhi_fr.py
+  9530dc4  five-stage generator architecture doc
+  6662d7c  EXECUTE cycle 1: +27,086 STRICT / +19,377 PASS
+  217c254  stage4 --exclude (cycle support)
+  84ccae9  cycle 2: +7,653 STRICT / +1,872 PASS genuinely new
+  daf8a56  multi-word pass + paraphrase bridges + GPU SFT data
+  2ea6c54  remove __pycache__, ignore bytecode (pipeline)
+MAIN:
+  2dc12aa  PIPELINE.md + README banner
+
+--------------------------------------------------------------------------------
+KEY DECISIONS & FINDINGS (the things to remember)
+--------------------------------------------------------------------------------
+- GENERATOR, NOT TRANSLATOR. Grow outward from verified gold; never
+  "type a sentence in".
+- Agent C: two comparisons (score vs ORIGINAL, repair vs CURRENT drift);
+  keep C deterministic — the combo matcher (AUC 0.993) is the single
+  source of sound truth everywhere.
+- Morphology is a lookup, not a skill: LemmInflect / suffix-rules +
+  Lexique validation before any GPU. This alone ~5x'd the inventory.
+- Stricter seed (0.70) + unchanged output floors (0.60/0.45): drift
+  control without discarding data.
+- Homonym classes already existed in the repo (707 EN / 4,583 FR /
+  33,660 Lexique) — wired in as the ladder's homonym bucket.
+- espeak-ng phonemizes whole French phrases WITH liaison ("les amis" ->
+  le-z ami), so phrase-level filtering judges junctures for free;
+  sandhi_fr.py provides the same phonology symbolically.
+- Placement: weave = stage-3 generator; prosody = stage-4 judge channel;
+  sandhi between generation and judging.
+- Flywheel measurably compounds (cycle-2 finds descend from cycle-1
+  parents), and diminishing candidate counts per cycle are the healthy
+  "vein mining out" signal to move to the learned expansion.
+- Known loose ends on the LOCAL machine: gpu_char_model.py generate()
+  bug (c/ch collision) on phrase-weave branch; unresolved merge conflict
+  in the local repo; vast.ai instance possibly still running; 52MB
+  homophone_model_gpu.pt not yet uploaded anywhere durable.
+
+NEXT STEPS (agreed direction):
+  1. GPU: SFT the paraphraser on paraphrase_sft_{en,fr}.jsonl (Qwen kit),
+     generate mates for the FULL dictionary, re-run the bridge filter.
+  2. Absorb all new STRICT tiers into tier_ladder.py as provenance columns.
+  3. Fragment/pause junctures between words (deferred by user).
+  4. ByT5 transducer + Qwen composer per sentence-generation-plan.md.
+  5. Stage 5 paragraphs only after the bank has grown past the 813-atom
+     fluency ceiling.
+================================================================================
+END OF LOG
+================================================================================
