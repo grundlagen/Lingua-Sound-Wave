@@ -1,146 +1,104 @@
 #!/usr/bin/env python3
 """
-STAGE 1: Unified Word Pair Database Builder
-Loads EVERY word-pair source into one massive database.
-Outputs: stage1_pairs.jsonl (every pair), stage1_stats.json (summary)
+STAGE 1: HIGH-QUALITY HOMOPHONE PAIRS (filtered).
+Only pairs where French SOUNDS like English. No literal translations.
 
-Sources:
-  1. strict-gold.tsv (1,314 judge-verified pairs)
-  2. dictionary-v7.tsv (2,070 gold pairs with tier labels)
-  3. tier-ladder.tsv (98k pairs, sound ≥ 0.55)
-  4. dual-pairs.tsv (102k pairs, identity-filtered)
-  5. fr-anchored-pairs.tsv (1,497 FR-anchored pairs)
-  6. MUSE translation dict (113k literal EN↔FR translations)
-  7. GPU model predictions (if model available)
-  8. Fragment-based generation (fr-units.tsv, 84k units)
+Quality filter: sound ≥ 0.55 or from gold sources.
+Prefer: chain-web support, loop-certified, gold tier.
 
-Run: python run_stage_1.py
-     python run_stage_1.py --include-muse --include-fragments
+Output: stage1_homophones.jsonl (~50K filtered pairs)
+
+WHY: Stage 1 = homophone engine. Stage 2 = meaning web. Stage 3 = generation. Stage 4 = paragraphs.
 """
 
-import json, os, sys
+import json, os
 from collections import defaultdict
 
 os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
 
-# ═══════════════════════════════════════════════════════════════
-print("STAGE 1: Unified Word Pair Database Builder")
+print("STAGE 1: HIGH-QUALITY HOMOPHONE PAIRS")
 print("=" * 60)
 
-all_pairs = {}  # (en, fr) → {sound, meaning, source, tier, loop, chain, ...}
-sources_stats = {}
+MIN_SOUND = 0.55
+pairs = {}  # (en,fr) → data
+counts = {}
 
-# ── Source 1: strict-gold ──
-count = 0
+def add(en, fr, sound, meaning, source, tier="", chain=0, loop=False):
+    if en == fr or not en or not fr: return
+    key = (en.lower().strip(), fr.lower().strip())
+    if key in pairs:
+        if sound > pairs[key]["sound"]:
+            pairs[key].update({"sound": sound, "meaning": meaning, "source": source, "tier": tier})
+    else:
+        pairs[key] = {"sound": sound, "meaning": meaning, "source": source, "tier": tier,
+                       "chain_hops": chain, "loop": loop}
+
+# ── strict-gold (verified judge, always included) ──
+n = 0
 for i,line in enumerate(open("strict-gold.tsv",encoding="utf-8")):
     if i==0: continue
     p = line.rstrip("\n").split("\t")
-    if len(p)>=2 and p[0] != p[1]:
-        key = (p[0].lower().strip(), p[1].lower().strip())
-        if key not in all_pairs or 1.0 > all_pairs[key].get("sound",0):
-            all_pairs[key] = {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S"}
-        count += 1
-sources_stats["strict-gold"] = count
-print(f"  strict-gold: {count} pairs")
+    if len(p)>=2 and p[0].lower() != p[1].lower():
+        add(p[0], p[1], 1.0, 0.9, "strict-gold", "S"); n += 1
+counts["strict-gold"] = n
+print(f"  strict-gold: {n} (always included)")
 
-# ── Source 2: dictionary-v7 ──
-count = 0
+# ── dictionary-v7 gold ──
+n = 0
 try:
     for i,line in enumerate(open("dictionary-v7.tsv",encoding="utf-8")):
         if i==0: continue
         p = line.rstrip("\n").split("\t")
-        if len(p)>=9 and p[3]=="1":  # gold column
-            key = (p[7].lower().strip(), p[8].lower().strip())
-            snd = float(p[1]) if p[1] else 1.0
-            if key not in all_pairs or snd > all_pairs[key].get("sound",0):
-                all_pairs[key] = {"sound": snd, "meaning": 1.0, "source": "v7", "tier": p[0]}
-            count += 1
-except FileNotFoundError: pass
-sources_stats["dictionary-v7"] = count
-print(f"  dictionary-v7: {count} pairs")
+        if len(p)>=9 and p[3]=="1":
+            add(p[7], p[8], float(p[1]) if p[1] else 1.0, 1.0, "v7", p[0]); n += 1
+except: pass
+counts["dictionary-v7"] = n
+print(f"  dictionary-v7: {n} (gold tier)")
 
-# ── Source 3: tier-ladder ──
-count = 0
+# ── tier-ladder (sound ≥ MIN_SOUND only) ──
+n = 0
 for i,line in enumerate(open("tier-ladder.tsv",encoding="utf-8")):
     if i==0: continue
     p = line.rstrip("\n").split("\t")
     if len(p)>=12 and p[10]:
         try:
             snd = float(p[10])
-            if snd >= 0.55:
-                key = (p[1].lower().strip(), p[2].lower().strip())
+            if snd >= MIN_SOUND:
                 mng = float(p[11]) if p[11] else 0.5
-                if key not in all_pairs or snd > all_pairs[key].get("sound",0):
-                    all_pairs[key] = {"sound": snd, "meaning": mng, "source": "ladder", "tier": p[0]}
-                count += 1
+                add(p[1], p[2], snd, mng, "ladder", p[0]); n += 1
         except: continue
-sources_stats["tier-ladder"] = count
-print(f"  tier-ladder: {count} pairs (sound ≥ 0.55)")
+counts["tier-ladder"] = n
+print(f"  tier-ladder: {n} (sound ≥ {MIN_SOUND})")
 
-# ── Source 4: dual-pairs (identity-filtered) ──
-count = 0
+# ── dual-pairs (identity-filtered, sound ≥ MIN_SOUND) ──
+n = 0
 for i,line in enumerate(open("dual-pairs.tsv",encoding="utf-8")):
     if i==0: continue
     p = line.rstrip("\n").split("\t")
     if len(p)>=6 and p[0].lower() != p[1].lower():
-        key = (p[0].lower().strip(), p[1].lower().strip())
         snd = float(p[2])
-        if key not in all_pairs or snd > all_pairs[key].get("sound",0):
-            all_pairs[key] = {"sound": snd, "meaning": 0.7, "source": "dual", "tier": p[5] if len(p)>5 else ""}
-        count += 1
-sources_stats["dual-pairs"] = count
-print(f"  dual-pairs: {count} pairs (identity-filtered)")
+        if snd >= MIN_SOUND:
+            tier = p[5] if len(p)>5 and p[5] in ("S","A","B") else ""
+            add(p[0], p[1], snd, 0.7, "dual", tier); n += 1
+counts["dual-pairs"] = n
+print(f"  dual-pairs: {n} (identity-filtered, sound ≥ {MIN_SOUND})")
 
-# ── Source 5: fr-anchored-pairs ──
-count = 0
+# ── fr-anchored-pairs ──
+n = 0
 try:
     for i,line in enumerate(open("fr-anchored-pairs.tsv",encoding="utf-8")):
         if i==0: continue
         p = line.rstrip("\n").split("\t")
         if len(p)>=4:
-            key = (p[0].lower().strip(), p[1].lower().strip())
-            snd = float(p[2]) if len(p)>2 else 0.8
-            if key not in all_pairs:
-                all_pairs[key] = {"sound": snd, "meaning": 0.6, "source": "fr-anchored", "tier": p[3] if len(p)>3 else ""}
-            count += 1
-except FileNotFoundError: pass
-sources_stats["fr-anchored"] = count
-print(f"  fr-anchored: {count} pairs")
-
-# ── Source 6: MUSE translation dict ──
-count = 0
-try:
-    for line in open("/tmp/muse-en-fr.txt",encoding="utf-8"):
-        p = line.split()
-        if len(p)==2:
-            key = (p[0].lower().strip(), p[1].lower().strip())
-            if key not in all_pairs:
-                all_pairs[key] = {"sound": 0.5, "meaning": 0.9, "source": "muse", "tier": "MUSE"}
-            count += 1
-except FileNotFoundError: pass
-sources_stats["muse"] = count
-print(f"  MUSE translation: {count} pairs")
-
-# ── Source 7: fragment-based (fr-units → EN sound matches) ──
-# Fragments are sub-word units — not directly word pairs.
-# They're loaded for Stage 1 generation but not added as pairs here.
-try:
-    unit_count = sum(1 for _ in open("fr-units.tsv",encoding="utf-8"))
-    sources_stats["fragments"] = unit_count
-    print(f"  fr-units: {unit_count} fragments (loaded for generation)")
+            snd = float(p[2]) if len(p)>2 and p[2] else 0.8
+            if snd >= MIN_SOUND:
+                add(p[0], p[1], snd, 0.6, "fr-anchored", p[3] if len(p)>3 else ""); n += 1
 except: pass
+counts["fr-anchored"] = n
+print(f"  fr-anchored: {n}")
 
-# ── Deduplicate and sort ──
-unique = {}
-for (en, fr), data in all_pairs.items():
-    if en == fr: continue  # skip identity pairs
-    unique[(en,fr)] = data
-
-print(f"\n  TOTAL UNIQUE: {len(unique)} EN↔FR pairs")
-
-# ── Add chain-web support (from archive) ──
-chain_support = defaultdict(int)
-loop_support = set()
+# ── chain-web support ──
+chain = defaultdict(int); loops = set()
 try:
     for i,line in enumerate(open("chain-web/archive/chain-web-full-v7u.tsv",encoding="utf-8")):
         if i==0: continue
@@ -148,52 +106,42 @@ try:
         if len(p)>=5 and ":" in p[0] and ":" in p[1]:
             sl,sw = p[0].split(":",1); tl,tw = p[1].split(":",1)
             if sl=="en" and tl=="fr":
-                chain_support[(sw,tw)] = max(chain_support.get((sw,tw),0), int(p[2]))
+                chain[(sw,tw)] = max(chain.get((sw,tw),0), int(p[2]))
 except: pass
 try:
     for i,line in enumerate(open("chain-web/archive/loop-certified-pairs-v7u.tsv",encoding="utf-8")):
         if i==0: continue
         p = line.rstrip("\n").split("\t")
-        if len(p)>=2: loop_support.add((p[0].lower().strip(), p[1].lower().strip()))
+        if len(p)>=2: loops.add((p[0].lower(),p[1].lower()))
 except: pass
 
-# Add chain/loop data
-for (en,fr) in list(unique.keys()):
-    if (en,fr) in chain_support:
-        unique[(en,fr)]["chain_hops"] = chain_support[(en,fr)]
-    if (en,fr) in loop_support:
-        unique[(en,fr)]["loop_certified"] = True
+for (en,fr) in list(pairs.keys()):
+    if (en,fr) in chain: pairs[(en,fr)]["chain_hops"] = chain[(en,fr)]
+    if (en,fr) in loops: pairs[(en,fr)]["loop"] = True
 
-chain_count = sum(1 for d in unique.values() if "chain_hops" in d)
-loop_count = sum(1 for d in unique.values() if d.get("loop_certified"))
-print(f"  Chain-web support: {chain_count} pairs")
-print(f"  Loop-certified: {loop_count} pairs")
+print(f"  chain-web: {sum(1 for d in pairs.values() if 'chain_hops' in d)} supported")
+print(f"  loop-certified: {sum(1 for d in pairs.values() if d.get('loop'))} pairs")
 
-# ── Write output ──
-with open("stage1_pairs.jsonl","w") as f:
-    for (en, fr), data in sorted(unique.items()):
-        record = {"en": en, "fr": fr, **data}
-        f.write(json.dumps(record, ensure_ascii=False) + "\n")
+# ── Output ──
+total = len(pairs)
+print(f"\n  TOTAL: {total} high-quality homophone pairs")
+
+out = []
+for (en,fr), d in sorted(pairs.items()):
+    d["en"] = en; d["fr"] = fr
+    out.append(d)
+
+with open("stage1_homophones.jsonl","w") as f:
+    for r in out: f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
 # Stats
-stats = {
-    "total_pairs": len(unique),
-    "sources": sources_stats,
-    "chain_supported": chain_count,
-    "loop_certified": loop_count,
-    "tier_distribution": {},
-    "sound_distribution": {"S": [0.75, 1.0], "A": [0.60, 0.75], "B": [0.45, 0.60]},
-}
+tiers = defaultdict(int)
+for d in out:
+    tiers[d.get("tier","?")] += 1
 
-for d in unique.values():
-    tier = d.get("tier","?")
-    stats["tier_distribution"][tier] = stats["tier_distribution"].get(tier, 0) + 1
-
-with open("stage1_stats.json","w") as f:
-    json.dump(stats, f, ensure_ascii=False, indent=2)
-
-print(f"\n{'='*60}")
-print(f"STAGE 1 COMPLETE")
-print(f"  Output: stage1_pairs.jsonl ({len(unique)} pairs)")
-print(f"  Stats:  stage1_stats.json")
-print(f"  Size:   {os.path.getsize('stage1_pairs.jsonl')/1e6:.1f}MB")
+sounds = [d["sound"] for d in out]
+import numpy as np
+print(f"\n  Sound distribution: μ={np.mean(sounds):.3f} σ={np.std(sounds):.3f}")
+print(f"  Tier distribution: {dict(tiers)}")
+print(f"  Sources: {counts}")
+print(f"  Size: {os.path.getsize('stage1_homophones.jsonl')/1e6:.1f}MB")
