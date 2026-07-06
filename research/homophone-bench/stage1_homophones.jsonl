@@ -1,3 +1,19 @@
+{"en": "1", "fr": "anne", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "1", "fr": "haine", "sound": 0.593, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "1", "fr": "n", "sound": 0.593, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "1", "fr": "ouais", "sound": 0.576, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "1", "fr": "van", "sound": 0.572, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "2", "fr": "to", "sound": 1.0, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "2", "fr": "tous", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "2", "fr": "tout", "sound": 1.0, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "2", "fr": "toute", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "2", "fr": "toutes", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "a", "fr": "ai", "sound": 0.7, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "a", "fr": "essai", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "a", "fr": "essaie", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "a", "fr": "essais", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "a", "fr": "et", "sound": 0.7, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "a", "fr": "un", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.563, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "aar", "fr": "acr"}
 {"sound": 0.602, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "abattoir", "fr": "abattoirs"}
 {"sound": 0.937, "meaning": 0.253, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "abbey", "fr": "habit"}
@@ -20,6 +36,11 @@
 {"sound": 0.551, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "abnormality", "fr": "anomalie"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "aboard", "fr": "aborde"}
 {"sound": 0.592, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "abort", "fr": "avorter"}
+{"en": "about", "fr": "bah", "sound": 0.566, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "about", "fr": "bas", "sound": 0.566, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "about", "fr": "bat", "sound": 0.566, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "about", "fr": "débat", "sound": 0.558, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "about", "fr": "débats", "sound": 0.558, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "about", "fr": "ébattent"}
 {"sound": 0.868, "meaning": 0.736, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "about", "fr": "épate"}
 {"sound": 0.743, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "abri", "fr": "ivory"}
@@ -285,6 +306,11 @@
 {"sound": 0.601, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "african", "fr": "africaines"}
 {"sound": 0.822, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "afrique", "fr": "freak"}
 {"sound": 0.967, "meaning": 0.335, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "after", "fr": "aphtes"}
+{"en": "after", "fr": "date", "sound": 0.557, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "after", "fr": "sept", "sound": 0.544, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "after", "fr": "site", "sound": 0.544, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "after", "fr": "sites", "sound": 0.544, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "after", "fr": "êtes", "sound": 0.561, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.961, "meaning": 0.517, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "ag", "fr": "hague"}
 {"sound": 0.908, "meaning": 0.421, "source": "ladder", "tier": "4", "chain_hops": 0, "loop": false, "en": "again", "fr": "gaine"}
 {"sound": 0.559, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "age", "fr": "âge"}
@@ -413,6 +439,11 @@
 {"sound": 0.574, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "alkaline", "fr": "alcalines"}
 {"sound": 0.726, "meaning": 0.572, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "all", "fr": "hall"}
 {"sound": 0.71, "meaning": 0.552, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "all", "fr": "halls"}
+{"en": "all", "fr": "hollande", "sound": 0.676, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "all", "fr": "lol", "sound": 0.716, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "all", "fr": "paul", "sound": 0.716, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "all", "fr": "sol", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "all", "fr": "vol", "sound": 0.716, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.816, "meaning": 0.694, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "allah", "fr": "le"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "alleged", "fr": "laide"}
 {"sound": 0.581, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "allergy", "fr": "allergie"}
@@ -430,6 +461,11 @@
 {"sound": 0.645, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "alpin", "fr": "alpine"}
 {"sound": 0.567, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "alpin", "fr": "alpins"}
 {"sound": 0.577, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "alps", "fr": "alpes"}
+{"en": "also", "fr": "dollars", "sound": 0.521, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "also", "fr": "hollande", "sound": 0.611, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "also", "fr": "sociaux", "sound": 0.516, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "also", "fr": "sol", "sound": 0.53, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "also", "fr": "soldats", "sound": 0.524, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.983, "meaning": 0.661, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "alt", "fr": "halte"}
 {"sound": 0.726, "meaning": 0.438, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "altar", "fr": "haleter"}
 {"sound": 0.9, "meaning": 0.251, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "altar", "fr": "halte"}
@@ -471,8 +507,13 @@
 {"sound": 0.881, "meaning": 0.849, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "amy", "fr": "émis"}
 {"sound": 0.878, "meaning": 0.732, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "amyl", "fr": "habile"}
 {"sound": 0.781, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "amène", "fr": "men"}
+{"en": "an", "fr": "anne", "sound": 0.637, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "an", "fr": "fan", "sound": 0.581, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "an", "fr": "fans", "sound": 0.581, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 3, "loop": false, "en": "an", "fr": "haine"}
 {"sound": 0.725, "meaning": 0.74, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "an", "fr": "in"}
+{"en": "an", "fr": "n", "sound": 0.607, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "an", "fr": "un", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.961, "meaning": 0.712, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "an", "fr": "âne"}
 {"sound": 0.55, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "anaemia", "fr": "anémie"}
 {"sound": 0.575, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "analogy", "fr": "analogie"}
@@ -490,6 +531,12 @@
 {"sound": 0.742, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ancestral", "fr": "ancestrales"}
 {"sound": 0.677, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ancestral", "fr": "ancestraux"}
 {"sound": 0.575, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "anchorage", "fr": "ancrage"}
+{"en": "and", "fr": "aide", "sound": 0.562, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "and", "fr": "bande", "sound": 0.554, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "and", "fr": "et", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "and", "fr": "inde", "sound": 0.603, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "and", "fr": "stade", "sound": 0.544, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "and", "fr": "z", "sound": 0.539, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.639, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "andean", "fr": "andine"}
 {"sound": 0.667, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "andre", "fr": "andré"}
 {"sound": 0.637, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "andres", "fr": "andrés"}
@@ -573,11 +620,15 @@
 {"sound": 0.57, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "antiretroviral", "fr": "antirétroviral"}
 {"sound": 0.693, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "antiseptic", "fr": "antiseptique"}
 {"sound": 0.663, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "antony", "fr": "anthony"}
+{"en": "any", "fr": "ennemi", "sound": 0.781, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.854, "meaning": 0.471, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "any", "fr": "ennemis"}
 {"sound": 0.778, "meaning": 0.608, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "any", "fr": "ethnie"}
 {"sound": 0.763, "meaning": 0.401, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "any", "fr": "ethnies"}
 {"sound": 1.0, "meaning": 0.526, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "any", "fr": "haie nient"}
+{"en": "any", "fr": "haine", "sound": 0.716, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.957, "meaning": 0.713, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "any", "fr": "henni"}
+{"en": "any", "fr": "n", "sound": 0.716, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "any", "fr": "ni", "sound": 0.716, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.725, "meaning": 0.466, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "anymore", "fr": "un maures"}
 {"sound": 0.728, "meaning": 0.61, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "anyone", "fr": "on n"}
 {"sound": 0.712, "meaning": 0.361, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": true, "en": "anywhere", "fr": "un air"}
@@ -674,7 +725,13 @@
 {"sound": 0.827, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ardenne", "fr": "ardennes"}
 {"sound": 0.709, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ardennes", "fr": "ardenne"}
 {"sound": 0.624, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ardent", "fr": "ardente"}
+{"en": "are", "fr": "art", "sound": 0.652, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "are", "fr": "arts", "sound": 0.652, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.786, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "are", "fr": "outer"}
+{"en": "are", "fr": "rare", "sound": 0.6, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "are", "fr": "rares", "sound": 0.6, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "are", "fr": "sont", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "are", "fr": "tard", "sound": 0.607, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.661, "meaning": 0.526, "source": "ladder", "tier": "9", "chain_hops": 2, "loop": false, "en": "area", "fr": "errer"}
 {"sound": 0.647, "meaning": 0.49, "source": "ladder", "tier": "9", "chain_hops": 2, "loop": false, "en": "areas", "fr": "errer"}
 {"sound": 0.576, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "argentina", "fr": "argentine"}
@@ -758,7 +815,12 @@
 {"sound": 0.786, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "arts", "fr": "outer"}
 {"sound": 0.604, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "artworks", "fr": "artwork"}
 {"sound": 0.604, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "aruban", "fr": "aruba"}
+{"en": "as", "fr": "aise", "sound": 0.607, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "as", "fr": "disent", "sound": 0.575, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "as", "fr": "gaz", "sound": 0.553, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.786, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "as", "fr": "ice"}
+{"en": "as", "fr": "phase", "sound": 0.581, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "as", "fr": "phrase", "sound": 0.554, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.598, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "asc", "fr": "acs"}
 {"sound": 0.558, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "asc", "fr": "auc"}
 {"sound": 0.645, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ascorbic", "fr": "ascorbique"}
@@ -825,8 +887,14 @@
 {"sound": 0.559, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "asymmetric", "fr": "asymétriques"}
 {"sound": 0.55, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "asymmetries", "fr": "asymétries"}
 {"sound": 0.614, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "asymmetry", "fr": "asymétrie"}
+{"en": "at", "fr": "date", "sound": 0.595, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.961, "meaning": 0.726, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "at", "fr": "hâtent"}
 {"sound": 0.961, "meaning": 0.678, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "at", "fr": "hâtes"}
+{"en": "at", "fr": "sept", "sound": 0.578, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "at", "fr": "site", "sound": 0.578, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "at", "fr": "sites", "sound": 0.578, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "at", "fr": "à", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "at", "fr": "êtes", "sound": 0.607, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.752, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "atelier", "fr": "ateliers"}
 {"sound": 0.885, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "athlète", "fr": "outlet"}
 {"sound": 0.593, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "atlantic", "fr": "atlantique"}
@@ -960,6 +1028,10 @@
 {"sound": 0.565, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "baccalauréat", "fr": "bachelor"}
 {"sound": 0.975, "meaning": 0.403, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "back", "fr": "bac"}
 {"sound": 0.975, "meaning": 0.39, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "back", "fr": "bacs"}
+{"en": "back", "fr": "banque", "sound": 0.7, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "back", "fr": "banques", "sound": 0.7, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "back", "fr": "black", "sound": 0.655, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "back", "fr": "bloc", "sound": 0.61, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.955, "meaning": 0.251, "source": "ladder", "tier": "9", "chain_hops": 6, "loop": false, "en": "backed", "fr": "pacte"}
 {"sound": 0.909, "meaning": 0.237, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "backs", "fr": "boxe"}
 {"sound": 0.932, "meaning": 0.213, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "backs", "fr": "max"}
@@ -1228,9 +1300,14 @@
 {"sound": 0.646, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "bazaar", "fr": "bazar"}
 {"sound": 0.802, "meaning": 0.449, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "bbc", "fr": "bibi"}
 {"sound": 0.902, "meaning": 0.49, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "bc", "fr": "ici"}
+{"en": "be", "fr": "big", "sound": 0.716, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "be", "fr": "billet", "sound": 0.679, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "be", "fr": "billets", "sound": 0.679, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.912, "meaning": 0.537, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "be", "fr": "bis"}
+{"en": "be", "fr": "bruit", "sound": 0.673, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 0, "loop": false, "en": "be", "fr": "by"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "be", "fr": "pies"}
+{"en": "be", "fr": "être", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.929, "meaning": 0.362, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "beach", "fr": "biche"}
 {"sound": 0.975, "meaning": 0.279, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "beach", "fr": "bite"}
 {"sound": 0.975, "meaning": 0.206, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "beach", "fr": "bites"}
@@ -1319,6 +1396,10 @@
 {"sound": 0.555, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "beavers", "fr": "beaver"}
 {"sound": 0.73, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "bec", "fr": "beg"}
 {"sound": 0.807, "meaning": 0.318, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "because", "fr": "base"}
+{"en": "because", "fr": "bases", "sound": 0.634, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "because", "fr": "beau", "sound": 0.525, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "because", "fr": "beaux", "sound": 0.525, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "because", "fr": "cause", "sound": 0.534, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "beck", "fr": "bec"}
 {"sound": 1.0, "meaning": 0.67, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "beck", "fr": "becs"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "beck", "fr": "benne"}
@@ -1345,8 +1426,13 @@
 {"sound": 0.975, "meaning": 0.281, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "beef", "fr": "pif"}
 {"sound": 0.941, "meaning": 0.621, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "beefy", "fr": "biffer"}
 {"sound": 0.91, "meaning": 0.607, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "beefy", "fr": "méfie"}
+{"en": "been", "fr": "bain", "sound": 0.623, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "been", "fr": "ben", "sound": 0.73, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "been", "fr": "biens", "sound": 0.591, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.979, "meaning": 0.695, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "been", "fr": "bine"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "been", "fr": "bines"}
+{"en": "been", "fr": "bonne", "sound": 0.69, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "been", "fr": "bonnes", "sound": 0.69, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "beep", "fr": "bip"}
 {"sound": 1.0, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "beep", "fr": "bips"}
 {"sound": 0.975, "meaning": 0.28, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "beep", "fr": "pipe"}
@@ -1392,7 +1478,12 @@
 {"sound": 0.784, "meaning": 0.491, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "begun", "fr": "bonne"}
 {"sound": 0.895, "meaning": 0.297, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "behalf", "fr": "baffe"}
 {"sound": 0.749, "meaning": 0.557, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "behave", "fr": "bave"}
+{"en": "being", "fr": "big", "sound": 0.677, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "being", "fr": "bilan", "sound": 0.59, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "being", "fr": "billet", "sound": 0.631, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "being", "fr": "billets", "sound": 0.631, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.887, "meaning": 0.611, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "being", "fr": "bine"}
+{"en": "being", "fr": "by", "sound": 0.683, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.881, "meaning": 0.538, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "beings", "fr": "bise"}
 {"sound": 0.575, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "beirut", "fr": "beyrouth"}
 {"sound": 0.551, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "beka", "fr": "béka"}
@@ -2416,8 +2507,13 @@
 {"sound": 0.873, "meaning": 0.696, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "busty", "fr": "bâti"}
 {"sound": 0.975, "meaning": 0.589, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "but", "fr": "batte"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "but", "fr": "battent"}
+{"en": "but", "fr": "beaux", "sound": 0.597, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.73, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "but", "fr": "boot"}
+{"en": "but", "fr": "boîte", "sound": 0.689, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "but", "fr": "but", "sound": 0.671, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "but", "fr": "buts", "sound": 0.671, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.968, "meaning": 0.777, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "but", "fr": "bête"}
+{"en": "but", "fr": "mais", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.909, "meaning": 0.413, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "butcher", "fr": "bouche"}
 {"sound": 0.786, "meaning": 0.357, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "butcher", "fr": "bout chez"}
 {"sound": 0.787, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "butchery", "fr": "boucherie"}
@@ -2446,6 +2542,9 @@
 {"sound": 0.975, "meaning": 0.251, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "buzz", "fr": "bases"}
 {"sound": 0.615, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "buzzards", "fr": "buses"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "by", "fr": "bah"}
+{"en": "by", "fr": "barre", "sound": 0.717, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "by", "fr": "bas", "sound": 0.786, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "by", "fr": "basse", "sound": 0.725, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.898, "meaning": 0.329, "source": "ladder", "tier": "9", "chain_hops": 3, "loop": false, "en": "by", "fr": "bat"}
 {"sound": 0.898, "meaning": 0.252, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "by", "fr": "bats"}
 {"sound": 1.0, "meaning": 0.6, "source": "fr-anchored", "tier": "S", "chain_hops": 0, "loop": false, "en": "by", "fr": "be"}
@@ -2566,10 +2665,16 @@
 {"sound": 0.662, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "cameroonian", "fr": "camerounaise"}
 {"sound": 0.905, "meaning": 0.339, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "camp", "fr": "cap"}
 {"sound": 0.569, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "campania", "fr": "campanie"}
+{"en": "can", "fr": "camp", "sound": 0.618, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.975, "meaning": 0.375, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "can", "fr": "cane"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "can", "fr": "canne"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "can", "fr": "cannes"}
 {"sound": 0.74, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "can", "fr": "con"}
+{"en": "can", "fr": "concerne", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "can", "fr": "copine", "sound": 0.592, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "can", "fr": "peut", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "can", "fr": "quand", "sound": 0.618, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "can", "fr": "quant", "sound": 0.618, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.561, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "canadian", "fr": "canadienne"}
 {"sound": 0.561, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "canadian", "fr": "canadiennes"}
 {"sound": 0.589, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "canal", "fr": "chenal"}
@@ -4591,9 +4696,13 @@
 {"sound": 0.975, "meaning": 0.311, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "cough", "fr": "coffre"}
 {"sound": 0.975, "meaning": 0.287, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "cough", "fr": "coffres"}
 {"sound": 0.955, "meaning": 0.294, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "cough", "fr": "cote"}
+{"en": "could", "fr": "claude", "sound": 0.64, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.975, "meaning": 0.333, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "could", "fr": "code"}
 {"sound": 0.95, "meaning": 0.251, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "could", "fr": "codes"}
+{"en": "could", "fr": "commande", "sound": 0.604, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.979, "meaning": 0.544, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "could", "fr": "coude"}
+{"en": "could", "fr": "coût", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "could", "fr": "qu", "sound": 0.618, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.6, "source": "fr-anchored", "tier": "S", "chain_hops": 0, "loop": false, "en": "coule", "fr": "cool"}
 {"sound": 0.781, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "couler", "fr": "cool"}
 {"sound": 0.56, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "coumarin", "fr": "coumarine"}
@@ -5333,7 +5442,10 @@
 {"sound": 1.0, "meaning": 0.395, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "dawn", "fr": "donnes"}
 {"sound": 0.898, "meaning": 0.552, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "day", "fr": "d"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "day", "fr": "des"}
+{"en": "day", "fr": "dr", "sound": 0.683, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.898, "meaning": 0.598, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "day", "fr": "dé"}
+{"en": "day", "fr": "décide", "sound": 0.658, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "day", "fr": "décès", "sound": 0.688, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.898, "meaning": 0.557, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "day", "fr": "dés"}
 {"sound": 0.833, "meaning": 0.416, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "daylight", "fr": "dilate"}
 {"sound": 0.872, "meaning": 0.279, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "daytime", "fr": "d âme"}
@@ -5974,8 +6086,13 @@
 {"sound": 0.599, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "dictionary", "fr": "dictionnaire"}
 {"sound": 0.599, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "dictionary", "fr": "dictionnaires"}
 {"sound": 0.677, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "dictionnaire", "fr": "dictionnaires"}
+{"en": "did", "fr": "david", "sound": 0.606, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "did", "fr": "demande", "sound": 0.601, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "did", "fr": "demandes", "sound": 0.601, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "did", "fr": "dit", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.958, "meaning": 0.642, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "did", "fr": "dite"}
 {"sound": 0.958, "meaning": 0.563, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "did", "fr": "dites"}
+{"en": "did", "fr": "décide", "sound": 0.639, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.647, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "didactic", "fr": "didactique"}
 {"sound": 0.647, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "didactic", "fr": "didactiques"}
 {"sound": 0.914, "meaning": 0.569, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "didnt", "fr": "dite"}
@@ -6402,8 +6519,13 @@
 {"sound": 0.849, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "dmitri", "fr": "dimitri"}
 {"sound": 0.823, "meaning": 0.405, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "dna", "fr": "dîner"}
 {"sound": 0.619, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "dnieper", "fr": "dniepr"}
+{"en": "do", "fr": "douce", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "do", "fr": "douche", "sound": 0.716, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.83, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "do", "fr": "doue"}
+{"en": "do", "fr": "doute", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 0, "loop": false, "en": "do", "fr": "doux"}
+{"en": "do", "fr": "douze", "sound": 0.753, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "do", "fr": "faire", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.73, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "doc", "fr": "talk"}
 {"sound": 0.891, "meaning": 0.366, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "doctor", "fr": "actes"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "doctor", "fr": "dicte"}
@@ -6417,6 +6539,7 @@
 {"sound": 0.552, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "doe", "fr": "daim"}
 {"sound": 0.7, "meaning": 0.612, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "doe", "fr": "do"}
 {"sound": 0.975, "meaning": 0.201, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "does", "fr": "doses"}
+{"en": "does", "fr": "fait", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.987, "meaning": 0.485, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "dog", "fr": "dague"}
 {"sound": 0.63, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "dogma", "fr": "dogme"}
 {"sound": 0.612, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "dogmatic", "fr": "dogmatique"}
@@ -6453,6 +6576,11 @@
 {"sound": 0.562, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "domínguez", "fr": "dominguez"}
 {"sound": 0.987, "meaning": 0.647, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "don", "fr": "dan"}
 {"sound": 0.573, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "don", "fr": "dons"}
+{"en": "don't", "fr": "date", "sound": 0.639, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "don't", "fr": "dette", "sound": 0.627, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "don't", "fr": "dite", "sound": 0.627, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "don't", "fr": "dites", "sound": 0.627, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "don't", "fr": "doute", "sound": 0.639, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.554, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "donate", "fr": "donation"}
 {"sound": 0.554, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "donate", "fr": "donations"}
 {"sound": 0.628, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "donate", "fr": "donner"}
@@ -7388,7 +7516,11 @@
 {"sound": 1.0, "meaning": 0.683, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": true, "en": "eve", "fr": "ives"}
 {"sound": 0.611, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 4, "loop": false, "en": "eve", "fr": "ève"}
 {"sound": 0.84, "meaning": 0.479, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "even", "fr": "hiver"}
+{"en": "even", "fr": "iv", "sound": 0.696, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "even", "fr": "ive haines"}
+{"en": "even", "fr": "venez", "sound": 0.622, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "even", "fr": "venue", "sound": 0.616, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "even", "fr": "venus", "sound": 0.616, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.57, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "event", "fr": "évènement"}
 {"sound": 0.56, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "events", "fr": "evenements"}
 {"sound": 0.953, "meaning": 0.434, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "events", "fr": "veine"}
@@ -8614,8 +8746,12 @@
 {"sound": 0.769, "meaning": 0.271, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "firing", "fr": "farine"}
 {"sound": 0.95, "meaning": 0.386, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "firm", "fr": "femme"}
 {"sound": 0.916, "meaning": 0.566, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "firmly", "fr": "faiblit"}
+{"en": "first", "fr": "faite", "sound": 0.688, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "first", "fr": "faites"}
 {"sound": 0.955, "meaning": 0.399, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "first", "fr": "faste"}
+{"en": "first", "fr": "faute", "sound": 0.673, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "first", "fr": "fête", "sound": 0.688, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "first", "fr": "fêtes", "sound": 0.688, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.968, "meaning": 0.34, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "firstly", "fr": "faste lies"}
 {"sound": 0.836, "meaning": 0.603, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "firstly", "fr": "folie"}
 {"sound": 0.949, "meaning": 0.434, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "firstly", "fr": "foncent lis"}
@@ -8941,8 +9077,13 @@
 {"sound": 0.566, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "footballers", "fr": "footballeurs"}
 {"sound": 0.661, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "footbridge", "fr": "bridge"}
 {"sound": 0.554, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "footprint", "fr": "empreinte"}
+{"en": "for", "fr": "for", "sound": 1.0, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "for", "fr": "force", "sound": 0.814, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "for", "fr": "forces", "sound": 0.814, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 0, "loop": false, "en": "for", "fr": "fort"}
+{"en": "for", "fr": "fortes", "sound": 0.814, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "for", "fr": "forts"}
+{"en": "for", "fr": "pour", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.57, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "forage", "fr": "fourrage"}
 {"sound": 0.57, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "forage", "fr": "fourrages"}
 {"sound": 0.873, "meaning": 0.315, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "forby", "fr": "phobie"}
@@ -9401,6 +9542,10 @@
 {"sound": 0.809, "meaning": 0.341, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "frog", "fr": "frac"}
 {"sound": 0.738, "meaning": 0.475, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "frog", "fr": "fringues"}
 {"sound": 0.892, "meaning": 0.563, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "from", "fr": "femme"}
+{"en": "from", "fr": "femmes", "sound": 0.683, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "from", "fr": "frais", "sound": 0.651, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "from", "fr": "franc", "sound": 0.663, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "from", "fr": "front", "sound": 0.655, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.814, "meaning": 0.271, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "from", "fr": "tram"}
 {"sound": 0.814, "meaning": 0.677, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "from", "fr": "trame"}
 {"sound": 0.633, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "fromage", "fr": "fromages"}
@@ -9671,8 +9816,13 @@
 {"sound": 0.956, "meaning": 0.766, "source": "ladder", "tier": "5", "chain_hops": 0, "loop": false, "en": "gesture", "fr": "geste"}
 {"sound": 0.776, "meaning": 0.295, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "gesture", "fr": "jet chez"}
 {"sound": 0.674, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "gestures", "fr": "gestes"}
+{"en": "get", "fr": "cette", "sound": 0.678, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "get", "fr": "gay", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.798, "meaning": 0.324, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "get", "fr": "ghetto"}
+{"en": "get", "fr": "guerre", "sound": 0.706, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 4, "loop": false, "en": "get", "fr": "guette"}
+{"en": "get", "fr": "sept", "sound": 0.678, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "get", "fr": "êtes", "sound": 0.716, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.805, "meaning": 0.613, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "gets", "fr": "guet anses"}
 {"sound": 0.768, "meaning": 0.389, "source": "ladder", "tier": "9", "chain_hops": 4, "loop": false, "en": "getting", "fr": "guerre"}
 {"sound": 0.623, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ghanaian", "fr": "ghanéen"}
@@ -9759,6 +9909,11 @@
 {"sound": 0.84, "meaning": 0.285, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "gm", "fr": "gym"}
 {"sound": 0.97, "meaning": 0.709, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "gnaw", "fr": "nos"}
 {"sound": 0.902, "meaning": 0.82, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "gnu", "fr": "gnou"}
+{"en": "go", "fr": "gars", "sound": 0.583, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "go", "fr": "gauche", "sound": 0.682, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "go", "fr": "go", "sound": 0.786, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "go", "fr": "goût", "sound": 0.583, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "go", "fr": "gros", "sound": 0.592, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 2, "loop": false, "en": "goal", "fr": "gaule"}
 {"sound": 0.881, "meaning": 0.453, "source": "ladder", "tier": "6", "chain_hops": 2, "loop": false, "en": "goals", "fr": "gaule"}
 {"sound": 0.853, "meaning": 0.328, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "goat", "fr": "goutte"}
@@ -9784,7 +9939,12 @@
 {"sound": 0.681, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "gomme", "fr": "gum"}
 {"sound": 0.975, "meaning": 0.352, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "gone", "fr": "conne"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "gonna", "fr": "ne"}
+{"en": "good", "fr": "garde", "sound": 0.638, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "good", "fr": "gode"}
+{"en": "good", "fr": "goût", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "good", "fr": "grande", "sound": 0.649, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "good", "fr": "grandes", "sound": 0.649, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "good", "fr": "guide", "sound": 0.69, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "goods", "fr": "guise"}
 {"sound": 0.979, "meaning": 0.278, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "google", "fr": "goûts gal"}
 {"sound": 1.0, "meaning": 0.454, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "goose", "fr": "gousses"}
@@ -10287,6 +10447,11 @@
 {"sound": 0.781, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "habite", "fr": "beat"}
 {"sound": 0.603, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hacker", "fr": "hack"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "had", "fr": "aide"}
+{"en": "had", "fr": "avait", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "had", "fr": "inde", "sound": 0.567, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "had", "fr": "stade", "sound": 0.557, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "had", "fr": "sud", "sound": 0.531, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "had", "fr": "z", "sound": 0.555, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.659, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hadji", "fr": "haji"}
 {"sound": 0.613, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "haemoglobin", "fr": "hémoglobine"}
 {"sound": 0.66, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "haiku", "fr": "haïku"}
@@ -10320,15 +10485,33 @@
 {"sound": 0.685, "meaning": 0.504, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "harry", "fr": "henri"}
 {"sound": 0.785, "meaning": 0.539, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "hart", "fr": "carte"}
 {"sound": 0.787, "meaning": 0.691, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "harvey", "fr": "avis"}
+{"en": "has", "fr": "a", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "has", "fr": "aise", "sound": 0.583, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "has", "fr": "base", "sound": 0.543, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "has", "fr": "bases", "sound": 0.543, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "has", "fr": "disent", "sound": 0.559, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "has", "fr": "phase", "sound": 0.563, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.557, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hashish", "fr": "haschich"}
 {"sound": 0.633, "meaning": 0.289, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "hated", "fr": "hard"}
 {"sound": 0.925, "meaning": 0.602, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "haul", "fr": "col"}
 {"sound": 0.558, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "haunt", "fr": "hante"}
 {"sound": 0.558, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "haunt", "fr": "hantent"}
 {"sound": 0.606, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "haute", "fr": "hautes"}
+{"en": "have", "fr": "avoir", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "have", "fr": "doivent", "sound": 0.555, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "have", "fr": "iv", "sound": 0.583, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "have", "fr": "rêve", "sound": 0.556, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "have", "fr": "rêves", "sound": 0.556, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "have", "fr": "savent", "sound": 0.576, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.589, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hawaiian", "fr": "hawaïenne"}
 {"sound": 0.824, "meaning": 0.381, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "hawks", "fr": "axe"}
 {"sound": 0.839, "meaning": 0.336, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "hd", "fr": "et dit"}
+{"en": "he", "fr": "ci", "sound": 0.621, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "he", "fr": "i", "sound": 0.67, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "he", "fr": "ii", "sound": 0.622, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "he", "fr": "il", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "he", "fr": "oui", "sound": 0.622, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "he", "fr": "si", "sound": 0.621, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.567, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "heads", "fr": "head"}
 {"sound": 0.576, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "headset", "fr": "oreillette"}
 {"sound": 0.893, "meaning": 0.42, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "heal", "fr": "il"}
@@ -10373,9 +10556,15 @@
 {"sound": 0.691, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "henri", "fr": "henry"}
 {"sound": 0.646, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "henry", "fr": "henri"}
 {"sound": 0.683, "meaning": 0.541, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "henry", "fr": "un ri"}
+{"en": "her", "fr": "sa", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.578, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "heraklion", "fr": "héraklion"}
 {"sound": 0.59, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "herb", "fr": "herbe"}
 {"sound": 0.59, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "herb", "fr": "herbes"}
+{"en": "here", "fr": "air", "sound": 0.603, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "here", "fr": "heure", "sound": 0.583, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "here", "fr": "heures", "sound": 0.583, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "here", "fr": "r", "sound": 0.603, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "here", "fr": "tres", "sound": 0.594, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.57, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hermetic", "fr": "hermétique"}
 {"sound": 0.57, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hermetic", "fr": "hermétiques"}
 {"sound": 0.595, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hero", "fr": "heroes"}
@@ -10386,6 +10575,11 @@
 {"sound": 0.73, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "hier", "fr": "year"}
 {"sound": 0.733, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "highland", "fr": "highlands"}
 {"sound": 0.73, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "highlands", "fr": "highland"}
+{"en": "him", "fr": "aime", "sound": 0.603, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "him", "fr": "aiment", "sound": 0.603, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "him", "fr": "aimes", "sound": 0.603, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "him", "fr": "m", "sound": 0.603, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "him", "fr": "thème", "sound": 0.576, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.96, "meaning": 0.24, "source": "ladder", "tier": "4", "chain_hops": 0, "loop": true, "en": "himself", "fr": "aimes elfes"}
 {"sound": 0.676, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hindu", "fr": "hindou"}
 {"sound": 0.676, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hindu", "fr": "hindoue"}
@@ -10396,6 +10590,12 @@
 {"sound": 0.695, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hippie", "fr": "hippies"}
 {"sound": 0.695, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hippy", "fr": "hippie"}
 {"sound": 0.695, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hippy", "fr": "hippies"}
+{"en": "his", "fr": "aise", "sound": 0.603, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "his", "fr": "disent", "sound": 0.576, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "his", "fr": "mise", "sound": 0.545, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "his", "fr": "mises", "sound": 0.545, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "his", "fr": "rose", "sound": 0.541, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "his", "fr": "son", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.59, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hispanic", "fr": "hispanique"}
 {"sound": 0.59, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "hispanic", "fr": "hispaniques"}
 {"sound": 0.632, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "histogram", "fr": "histogramme"}
@@ -10521,6 +10721,16 @@
 {"sound": 0.786, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "hâte", "fr": "out"}
 {"sound": 0.781, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "hôtel", "fr": "tell"}
 {"sound": 0.781, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "hôtels", "fr": "tell"}
+{"en": "i", "fr": "a", "sound": 0.7, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "i", "fr": "ah", "sound": 0.7, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "i", "fr": "as", "sound": 0.629, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "i", "fr": "ha", "sound": 0.7, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "i", "fr": "à", "sound": 0.7, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "i'm", "fr": "affirme", "sound": 0.645, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "i'm", "fr": "arme", "sound": 0.717, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "i'm", "fr": "armes", "sound": 0.717, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "i'm", "fr": "dame", "sound": 0.597, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "i'm", "fr": "âme", "sound": 0.786, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.588, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ibc", "fr": "ipc"}
 {"sound": 0.807, "meaning": 0.434, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "ibm", "fr": "abîme"}
 {"sound": 0.593, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ibuprofen", "fr": "ibuprofène"}
@@ -10539,7 +10749,12 @@
 {"sound": 0.661, "meaning": 0.403, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "identity", "fr": "et un tri"}
 {"sound": 0.784, "meaning": 0.713, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "idk", "fr": "arc"}
 {"sound": 0.608, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "idris", "fr": "idriss"}
+{"en": "if", "fr": "9", "sound": 0.562, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "if", "fr": "chef", "sound": 0.553, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "if", "fr": "chefs", "sound": 0.553, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "if", "fr": "f", "sound": 0.637, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.968, "meaning": 0.921, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "if", "fr": "ifs"}
+{"en": "if", "fr": "neuf", "sound": 0.562, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.584, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "iff", "fr": "fif"}
 {"sound": 1.0, "meaning": 0.6, "source": "fr-anchored", "tier": "S", "chain_hops": 0, "loop": false, "en": "ii", "fr": "ye"}
 {"sound": 0.859, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "iii", "fr": "ye"}
@@ -10605,8 +10820,12 @@
 {"sound": 0.717, "meaning": 0.401, "source": "ladder", "tier": "9", "chain_hops": 2, "loop": false, "en": "improving", "fr": "un prouvent"}
 {"sound": 0.565, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "imprudent", "fr": "imprudente"}
 {"sound": 0.555, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "impériale", "fr": "impérial"}
+{"en": "in", "fr": "en", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.961, "meaning": 0.527, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "in", "fr": "haine"}
 {"sound": 0.961, "meaning": 0.851, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "in", "fr": "n"}
+{"en": "in", "fr": "reine", "sound": 0.59, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "in", "fr": "scène", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "in", "fr": "seine", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.557, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "inaccessibility", "fr": "inaccessibilité"}
 {"sound": 0.64, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "inaccessible", "fr": "inaccessibles"}
 {"sound": 0.55, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "inactivated", "fr": "inactivé"}
@@ -10985,6 +11204,11 @@
 {"sound": 0.701, "meaning": 0.657, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "irs", "fr": "adresses"}
 {"sound": 0.961, "meaning": 0.588, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "is", "fr": "aise"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "is", "fr": "aises"}
+{"en": "is", "fr": "disent", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "is", "fr": "est", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "is", "fr": "mise", "sound": 0.556, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "is", "fr": "mises", "sound": 0.556, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "is", "fr": "rose", "sound": 0.551, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.82, "meaning": 0.563, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "isaac", "fr": "attaque"}
 {"sound": 0.58, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "isabel", "fr": "isabella"}
 {"sound": 0.687, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "isabel", "fr": "isabelle"}
@@ -11022,11 +11246,27 @@
 {"sound": 0.816, "meaning": 0.441, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "issue", "fr": "chou"}
 {"sound": 0.558, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ist", "fr": "sti"}
 {"sound": 0.721, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "istria", "fr": "istrie"}
+{"en": "it", "fr": "dite", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "it", "fr": "dites", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "it", "fr": "il", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "it", "fr": "site", "sound": 0.601, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "it", "fr": "sites", "sound": 0.601, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "it", "fr": "êtes"}
+{"en": "it's", "fr": "6", "sound": 0.574, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "it's", "fr": "cesse", "sound": 0.572, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "it's", "fr": "dix", "sound": 0.572, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "it's", "fr": "s", "sound": 0.597, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "it's", "fr": "six", "sound": 0.574, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.61, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "italy", "fr": "italie"}
 {"sound": 0.749, "meaning": 0.381, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "italy", "fr": "relie"}
 {"sound": 0.887, "meaning": 0.419, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "item", "fr": "aillent homme"}
 {"sound": 0.736, "meaning": 0.603, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "item", "fr": "arme"}
+{"en": "its", "fr": "6", "sound": 0.574, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "its", "fr": "cesse", "sound": 0.572, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "its", "fr": "dix", "sound": 0.572, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "its", "fr": "s", "sound": 0.597, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "its", "fr": "six", "sound": 0.574, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "its", "fr": "son", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.907, "meaning": 0.588, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "itself", "fr": "est celle"}
 {"sound": 0.977, "meaning": 0.265, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "itself", "fr": "êtes elfes"}
 {"sound": 1.0, "meaning": 0.6, "source": "fr-anchored", "tier": "S", "chain_hops": 0, "loop": false, "en": "iv", "fr": "eve"}
@@ -11135,6 +11375,10 @@
 {"sound": 0.64, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "juries", "fr": "jurys"}
 {"sound": 0.573, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "jurist", "fr": "juriste"}
 {"sound": 0.59, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "jury", "fr": "jurys"}
+{"en": "just", "fr": "date", "sound": 0.648, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "just", "fr": "dette", "sound": 0.645, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "just", "fr": "dites", "sound": 0.636, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "just", "fr": "déteste", "sound": 0.666, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.95, "meaning": 0.63, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "just", "fr": "geste"}
 {"sound": 0.617, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "just", "fr": "juste"}
 {"sound": 0.816, "meaning": 0.446, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "justified", "fr": "d fade"}
@@ -11322,6 +11566,9 @@
 {"sound": 0.832, "meaning": 0.541, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "knotty", "fr": "nantit"}
 {"sound": 0.898, "meaning": 0.581, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "know", "fr": "no"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "know", "fr": "nos"}
+{"en": "know", "fr": "noter", "sound": 0.658, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "know", "fr": "notes", "sound": 0.724, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "know", "fr": "notre", "sound": 0.678, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.626, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "koblenz", "fr": "coblence"}
 {"sound": 0.578, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "kolkata", "fr": "calcutta"}
 {"sound": 0.571, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "konstantin", "fr": "constantin"}
@@ -11850,8 +12097,12 @@
 {"sound": 0.781, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "lignes", "fr": "lean"}
 {"sound": 1.0, "meaning": 0.6, "source": "fr-anchored", "tier": "S", "chain_hops": 0, "loop": false, "en": "ligue", "fr": "league"}
 {"sound": 0.567, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "liguria", "fr": "ligurie"}
+{"en": "like", "fr": "black", "sound": 0.647, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "like", "fr": "la", "sound": 0.682, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.906, "meaning": 0.381, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "like", "fr": "lac"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "like", "fr": "laïques"}
+{"en": "like", "fr": "luc", "sound": 0.633, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "like", "fr": "là", "sound": 0.682, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.881, "meaning": 0.367, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "liked", "fr": "lac"}
 {"sound": 0.991, "meaning": 0.46, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "likely", "fr": "laïques lies"}
 {"sound": 0.881, "meaning": 0.35, "source": "ladder", "tier": "9", "chain_hops": 2, "loop": false, "en": "likes", "fr": "lac"}
@@ -12267,7 +12518,11 @@
 {"sound": 0.739, "meaning": 0.427, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "majority", "fr": "major"}
 {"sound": 0.551, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "majority", "fr": "majorité"}
 {"sound": 0.83, "meaning": 0.069, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "majority", "fr": "modes orties"}
+{"en": "make", "fr": "manque", "sound": 0.655, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "make", "fr": "marques", "sound": 0.646, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.884, "meaning": 0.389, "source": "ladder", "tier": "9", "chain_hops": 2, "loop": false, "en": "make", "fr": "mec"}
+{"en": "make", "fr": "mecs", "sound": 0.706, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "make", "fr": "mes", "sound": 0.682, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.941, "meaning": 0.478, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "make", "fr": "mes hic"}
 {"sound": 0.884, "meaning": 0.358, "source": "ladder", "tier": "9", "chain_hops": 2, "loop": false, "en": "maker", "fr": "mec"}
 {"sound": 0.861, "meaning": 0.436, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "makes", "fr": "max"}
@@ -12638,6 +12893,10 @@
 {"sound": 0.618, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "may", "fr": "mai"}
 {"sound": 0.56, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "may", "fr": "maï"}
 {"sound": 0.898, "meaning": 0.531, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "may", "fr": "mes"}
+{"en": "may", "fr": "messieurs", "sound": 0.634, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "may", "fr": "mérite", "sound": 0.655, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "may", "fr": "méthode", "sound": 0.632, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "may", "fr": "métier", "sound": 0.646, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.723, "meaning": 0.304, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "maybe", "fr": "baby"}
 {"sound": 0.839, "meaning": 0.602, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "maybe", "fr": "méfie"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "mayo", "fr": "mes"}
@@ -12659,8 +12918,10 @@
 {"sound": 0.567, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "mcr", "fr": "mrc"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "md", "fr": "aimer"}
 {"sound": 1.0, "meaning": 0.784, "source": "ladder", "tier": "2", "chain_hops": 2, "loop": false, "en": "me", "fr": "mi"}
+{"en": "me", "fr": "midi", "sound": 0.801, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "me", "fr": "mie"}
 {"sound": 1.0, "meaning": 0.723, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "me", "fr": "mies"}
+{"en": "me", "fr": "mini", "sound": 0.791, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.727, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "me", "fr": "mis"}
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 0, "loop": false, "en": "me", "fr": "mit"}
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 0, "loop": false, "en": "me", "fr": "my"}
@@ -13425,7 +13686,10 @@
 {"sound": 0.737, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "mordant", "fr": "mordre"}
 {"sound": 0.619, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "mordant", "fr": "morsure"}
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 0, "loop": false, "en": "more", "fr": "maures"}
+{"en": "more", "fr": "mort", "sound": 0.733, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "more", "fr": "morts", "sound": 0.733, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.912, "meaning": 0.736, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "more", "fr": "mot"}
+{"en": "more", "fr": "moteur", "sound": 0.743, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "more", "fr": "mots"}
 {"sound": 0.691, "meaning": 0.633, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "moreover", "fr": "moraux"}
 {"sound": 0.556, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "mores", "fr": "mœurs"}
@@ -13489,7 +13753,11 @@
 {"sound": 0.69, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 3, "loop": false, "en": "moss", "fr": "mousse"}
 {"sound": 0.69, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 3, "loop": false, "en": "moss", "fr": "mousses"}
 {"sound": 0.808, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "mosses", "fr": "moss"}
+{"en": "most", "fr": "mettent", "sound": 0.637, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "most", "fr": "monte"}
+{"en": "most", "fr": "morte", "sound": 0.637, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "most", "fr": "mot", "sound": 0.684, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "most", "fr": "mots", "sound": 0.684, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.833, "meaning": 0.549, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "most", "fr": "moufte"}
 {"sound": 0.873, "meaning": 0.424, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "most", "fr": "must"}
 {"sound": 0.838, "meaning": 0.257, "source": "ladder", "tier": "4", "chain_hops": 0, "loop": true, "en": "mostly", "fr": "but lie"}
@@ -13564,9 +13832,12 @@
 {"sound": 1.0, "meaning": 0.879, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "mu", "fr": "moue"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "mu", "fr": "mous"}
 {"sound": 0.65, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "mubarak", "fr": "moubarak"}
+{"en": "much", "fr": "marche", "sound": 0.653, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "much", "fr": "masse", "sound": 0.547, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.977, "meaning": 0.37, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "much", "fr": "match"}
 {"sound": 0.977, "meaning": 0.347, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "much", "fr": "matches"}
 {"sound": 0.977, "meaning": 0.359, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "much", "fr": "matchs"}
+{"en": "much", "fr": "mettent", "sound": 0.54, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.582, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "mucous", "fr": "mucus"}
 {"sound": 0.95, "meaning": 0.095, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "mud", "fr": "mode"}
 {"sound": 0.565, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "muhammad", "fr": "mohammad"}
@@ -13662,8 +13933,13 @@
 {"sound": 0.567, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "mutual", "fr": "mutuelles"}
 {"sound": 0.861, "meaning": 0.765, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "mvp", "fr": "on pipi"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "my", "fr": "ma"}
+{"en": "my", "fr": "man", "sound": 0.708, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "my", "fr": "mari", "sound": 0.685, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "my", "fr": "marie", "sound": 0.685, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.821, "meaning": 0.615, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "my", "fr": "mas"}
+{"en": "my", "fr": "masse", "sound": 0.725, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.6, "source": "fr-anchored", "tier": "S", "chain_hops": 0, "loop": false, "en": "my", "fr": "me"}
+{"en": "my", "fr": "mon", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "my", "fr": "mât"}
 {"sound": 0.581, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "myeloma", "fr": "myélome"}
 {"sound": 0.605, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "myriad", "fr": "myriade"}
@@ -13837,7 +14113,11 @@
 {"sound": 0.671, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "neck", "fr": "nuque"}
 {"sound": 0.581, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "necrosis", "fr": "nécrose"}
 {"sound": 0.62, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "necrotic", "fr": "nécrotiques"}
+{"en": "need", "fr": "décide", "sound": 0.625, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "need", "fr": "guide", "sound": 0.666, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.912, "meaning": 0.594, "source": "ladder", "tier": "6", "chain_hops": 6, "loop": false, "en": "need", "fr": "ni"}
+{"en": "need", "fr": "nice", "sound": 0.71, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "need", "fr": "vide", "sound": 0.666, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.84, "meaning": 0.637, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "needed", "fr": "nid aide"}
 {"sound": 0.829, "meaning": 0.471, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "needed", "fr": "nient bide"}
 {"sound": 0.7, "meaning": 0.519, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "needing", "fr": "nid in"}
@@ -13928,6 +14208,8 @@
 {"sound": 0.645, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "new", "fr": "nouveaux"}
 {"sound": 0.596, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "new", "fr": "nouvelle"}
 {"sound": 0.596, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "new", "fr": "nouvelles"}
+{"en": "new", "fr": "ou", "sound": 0.637, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "new", "fr": "où", "sound": 0.637, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.864, "meaning": 0.311, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "newborn", "fr": "nié bonnes"}
 {"sound": 1.0, "meaning": 0.598, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "newer", "fr": "nous"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "newest", "fr": "ouest"}
@@ -13996,7 +14278,12 @@
 {"sound": 0.854, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "nizhny", "fr": "nijni"}
 {"sound": 0.735, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "niño", "fr": "nino"}
 {"sound": 0.599, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "nms", "fr": "nem"}
+{"en": "no", "fr": "no", "sound": 0.786, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "no", "fr": "non", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "no", "fr": "nos"}
+{"en": "no", "fr": "noter", "sound": 0.658, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "no", "fr": "notes", "sound": 0.724, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "no", "fr": "notre", "sound": 0.678, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.575, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "noah", "fr": "noé"}
 {"sound": 0.88, "meaning": 0.631, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "noble", "fr": "nobel"}
 {"sound": 0.639, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "noble", "fr": "nobles"}
@@ -14111,8 +14398,14 @@
 {"sound": 0.554, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "nostalgic", "fr": "nostalgie"}
 {"sound": 0.617, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "nostalgic", "fr": "nostalgique"}
 {"sound": 0.594, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "nostalgie", "fr": "nostalgique"}
+{"en": "not", "fr": "date", "sound": 0.575, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "not", "fr": "nantes", "sound": 0.73, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "not", "fr": "natte"}
 {"sound": 0.987, "meaning": 0.613, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "not", "fr": "nattes"}
+{"en": "not", "fr": "net", "sound": 0.681, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "not", "fr": "note", "sound": 0.681, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "not", "fr": "notes", "sound": 0.7, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "not", "fr": "pas", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.815, "meaning": 0.657, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "notable", "fr": "nobel"}
 {"sound": 0.64, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "notable", "fr": "notables"}
 {"sound": 0.564, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "notables", "fr": "notable"}
@@ -14143,8 +14436,12 @@
 {"sound": 0.627, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "novice", "fr": "novices"}
 {"sound": 0.568, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "novosibirsk", "fr": "novossibirsk"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "now", "fr": "na"}
+{"en": "now", "fr": "nation", "sound": 0.646, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "now", "fr": "nations", "sound": 0.646, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "now", "fr": "nature", "sound": 0.629, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.834, "meaning": 0.528, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "now", "fr": "ne"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "now", "fr": "nos"}
+{"en": "now", "fr": "née", "sound": 0.583, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "nowadays", "fr": "naze"}
 {"sound": 0.763, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "noël", "fr": "noel"}
 {"sound": 0.695, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "npf", "fr": "fnp"}
@@ -14266,7 +14563,13 @@
 {"sound": 0.625, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "octet", "fr": "octets"}
 {"sound": 0.961, "meaning": 0.607, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "odd", "fr": "andes"}
 {"sound": 0.896, "meaning": 0.642, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "of", "fr": "aube"}
+{"en": "of", "fr": "de", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "of", "fr": "doivent", "sound": 0.57, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "of", "fr": "iv", "sound": 0.607, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.699, "meaning": 0.578, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "of", "fr": "off"}
+{"en": "of", "fr": "rêve", "sound": 0.585, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "of", "fr": "rêves", "sound": 0.585, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "of", "fr": "savent", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.951, "meaning": 0.817, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "of", "fr": "ève"}
 {"sound": 0.592, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "off", "fr": "hors"}
 {"sound": 0.961, "meaning": 0.39, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "off", "fr": "œuf"}
@@ -14317,8 +14620,24 @@
 {"sound": 0.568, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "omit", "fr": "omis"}
 {"sound": 0.577, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "omnipresent", "fr": "omniprésente"}
 {"sound": 0.968, "meaning": 0.584, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "on", "fr": "aune"}
+{"en": "on", "fr": "bonne", "sound": 0.716, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "on", "fr": "bonnes", "sound": 0.716, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "on", "fr": "donne", "sound": 0.757, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "on", "fr": "donnent", "sound": 0.757, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "on", "fr": "sur", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "on", "fr": "tonnes", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.884, "meaning": 0.73, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "on", "fr": "âne"}
 {"sound": 0.884, "meaning": 0.711, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "on", "fr": "ânes"}
+{"en": "one", "fr": "anne", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "one", "fr": "haine", "sound": 0.593, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "one", "fr": "n", "sound": 0.593, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "one", "fr": "ouais", "sound": 0.576, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "one", "fr": "van", "sound": 0.572, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "only", "fr": "aussi", "sound": 0.615, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "only", "fr": "conflit", "sound": 0.603, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "only", "fr": "joli", "sound": 0.632, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "only", "fr": "jolie", "sound": 0.632, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "only", "fr": "lit", "sound": 0.643, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.808, "meaning": 0.389, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "only", "fr": "on lie"}
 {"sound": 0.75, "meaning": 0.646, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "onset", "fr": "en cette"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "onset", "fr": "ânes êtes"}
@@ -14355,7 +14674,12 @@
 {"sound": 0.628, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "optimist", "fr": "optimistes"}
 {"sound": 0.556, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "optimize", "fr": "optimise"}
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 0, "loop": false, "en": "or", "fr": "hors"}
+{"en": "or", "fr": "or", "sound": 1.0, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "or", "fr": "ordre", "sound": 0.829, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "or", "fr": "ordres", "sound": 0.829, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.736, "meaning": 0.723, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "or", "fr": "ores"}
+{"en": "or", "fr": "ou", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "or", "fr": "sort", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.771, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 2, "loop": false, "en": "oral", "fr": "orale"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 2, "loop": false, "en": "oral", "fr": "orales"}
 {"sound": 0.64, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "oral", "fr": "oraux"}
@@ -14563,7 +14887,17 @@
 {"sound": 1.0, "meaning": 0.317, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "ought", "fr": "hotte"}
 {"sound": 1.0, "meaning": 0.6, "source": "fr-anchored", "tier": "S", "chain_hops": 0, "loop": false, "en": "oui", "fr": "we"}
 {"sound": 0.565, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ounce", "fr": "once"}
+{"en": "our", "fr": "a", "sound": 0.7, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "our", "fr": "ah", "sound": 0.7, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "our", "fr": "as", "sound": 0.629, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "our", "fr": "ha", "sound": 0.7, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "our", "fr": "à", "sound": 0.7, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.775, "meaning": 0.266, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "ours", "fr": "eyes"}
+{"en": "out", "fr": "acte", "sound": 0.682, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "out", "fr": "actes", "sound": 0.682, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "out", "fr": "ajoute", "sound": 0.678, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "out", "fr": "arrête", "sound": 0.679, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "out", "fr": "attente", "sound": 0.653, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 2, "loop": false, "en": "out", "fr": "hâte"}
 {"sound": 0.89, "meaning": 0.597, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "out", "fr": "hâtent"}
 {"sound": 0.89, "meaning": 0.585, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "out", "fr": "hâtes"}
@@ -14583,6 +14917,11 @@
 {"sound": 0.654, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ovarian", "fr": "ovaires"}
 {"sound": 0.569, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ovarian", "fr": "ovarienne"}
 {"sound": 0.741, "meaning": 0.679, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "over", "fr": "avez"}
+{"en": "over", "fr": "eau", "sound": 0.577, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "over", "fr": "eaux", "sound": 0.577, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "over", "fr": "haut", "sound": 0.577, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "over", "fr": "hauts", "sound": 0.577, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "over", "fr": "o", "sound": 0.577, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.611, "meaning": 0.736, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "over", "fr": "vêt"}
 {"sound": 0.803, "meaning": 0.59, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "overall", "fr": "obole"}
 {"sound": 0.565, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "overestimate", "fr": "surestimer"}
@@ -15245,8 +15584,13 @@
 {"sound": 0.62, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "pentagram", "fr": "pentagramme"}
 {"sound": 0.73, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "pente", "fr": "pot"}
 {"sound": 0.574, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "pentecost", "fr": "pentecôte"}
+{"en": "people", "fr": "paul", "sound": 0.604, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "people", "fr": "peuple", "sound": 0.64, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.886, "meaning": 0.315, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "people", "fr": "pipe"}
 {"sound": 0.888, "meaning": 0.615, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "people", "fr": "pipi"}
+{"en": "people", "fr": "principal", "sound": 0.638, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "people", "fr": "principale", "sound": 0.638, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "people", "fr": "principales", "sound": 0.638, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.713, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "pep", "fr": "pip"}
 {"sound": 1.0, "meaning": 0.368, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "pepper", "fr": "pep"}
 {"sound": 0.87, "meaning": 0.313, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "peppers", "fr": "paies pèsent"}
@@ -17820,8 +18164,13 @@
 {"sound": 0.574, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "realize", "fr": "réalise"}
 {"sound": 0.688, "meaning": 0.525, "source": "ladder", "tier": "9", "chain_hops": 2, "loop": false, "en": "realized", "fr": "relate"}
 {"sound": 0.561, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "realizes", "fr": "réalise"}
+{"en": "really", "fr": "lit", "sound": 0.643, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.72, "meaning": 0.511, "source": "ladder", "tier": "6", "chain_hops": 2, "loop": false, "en": "really", "fr": "relie"}
+{"en": "really", "fr": "religieuse", "sound": 0.62, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "really", "fr": "religieux", "sound": 0.637, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "really", "fr": "religion", "sound": 0.637, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.72, "meaning": 0.559, "source": "ladder", "tier": "6", "chain_hops": 2, "loop": false, "en": "really", "fr": "relis"}
+{"en": "really", "fr": "repris", "sound": 0.64, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "realm", "fr": "rem"}
 {"sound": 0.56, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "realm", "fr": "royaume"}
 {"sound": 0.73, "meaning": 0.508, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "reaming", "fr": "rime"}
@@ -18798,7 +19147,12 @@
 {"sound": 0.694, "meaning": 0.344, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "rifle", "fr": "rafle"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "rig", "fr": "reg"}
 {"sound": 0.559, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "right", "fr": "droite"}
+{"en": "right", "fr": "race", "sound": 0.683, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "right", "fr": "raconte", "sound": 0.689, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "right", "fr": "rare", "sound": 0.678, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "right", "fr": "rares", "sound": 0.678, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.721, "meaning": 0.373, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "right", "fr": "rate"}
+{"en": "right", "fr": "routes", "sound": 0.648, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.781, "meaning": 0.141, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "righteous", "fr": "rat chasse"}
 {"sound": 0.737, "meaning": 0.486, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "rightly", "fr": "et lie"}
 {"sound": 0.657, "meaning": 0.28, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "rightly", "fr": "rallye"}
@@ -19237,9 +19591,12 @@
 {"sound": 0.575, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "sahelian", "fr": "sahélienne"}
 {"sound": 0.704, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "sahrawi", "fr": "sahraoui"}
 {"sound": 0.704, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "sahrawi", "fr": "sahraouis"}
+{"en": "said", "fr": "aide", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.979, "meaning": 0.774, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "said", "fr": "cet"}
 {"sound": 0.979, "meaning": 0.754, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "said", "fr": "cette"}
 {"sound": 1.0, "meaning": 0.747, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "said", "fr": "cède"}
+{"en": "said", "fr": "sais", "sound": 0.757, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "said", "fr": "sait", "sound": 0.757, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.975, "meaning": 0.65, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "said", "fr": "scinde"}
 {"sound": 0.975, "meaning": 0.654, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "said", "fr": "scindent"}
 {"sound": 0.975, "meaning": 0.565, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "said", "fr": "scindes"}
@@ -19247,6 +19604,7 @@
 {"sound": 0.979, "meaning": 0.554, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "said", "fr": "set"}
 {"sound": 0.979, "meaning": 0.37, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "said", "fr": "sets"}
 {"sound": 0.858, "meaning": 0.653, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "said", "fr": "suède"}
+{"en": "said", "fr": "z", "sound": 0.73, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.884, "meaning": 0.222, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "sail", "fr": "celle"}
 {"sound": 0.986, "meaning": 0.289, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "sail", "fr": "cl"}
 {"sound": 0.838, "meaning": 0.394, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "sailed", "fr": "soldes"}
@@ -19752,12 +20110,15 @@
 {"sound": 0.56, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "sedimentology", "fr": "sédimentologie"}
 {"sound": 0.579, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "seduced", "fr": "séduite"}
 {"sound": 0.644, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "seductress", "fr": "séductrice"}
+{"en": "see", "fr": "ceci", "sound": 0.834, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 0, "loop": false, "en": "see", "fr": "ci"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "see", "fr": "scie"}
 {"sound": 1.0, "meaning": 0.574, "source": "ladder", "tier": "2", "chain_hops": 3, "loop": false, "en": "see", "fr": "scient"}
 {"sound": 1.0, "meaning": 0.561, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "see", "fr": "scies"}
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 0, "loop": false, "en": "see", "fr": "si"}
 {"sound": 1.0, "meaning": 0.672, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "see", "fr": "sis"}
+{"en": "see", "fr": "souci", "sound": 0.803, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "see", "fr": "soucis", "sound": 0.803, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.865, "meaning": 0.226, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "seed", "fr": "acides"}
 {"sound": 1.0, "meaning": 0.401, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "seed", "fr": "cid"}
 {"sound": 0.975, "meaning": 0.419, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "seed", "fr": "cidre"}
@@ -20189,6 +20550,12 @@
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 2, "loop": false, "en": "she", "fr": "chie"}
 {"sound": 1.0, "meaning": 0.513, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "she", "fr": "chient"}
 {"sound": 1.0, "meaning": 0.515, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "she", "fr": "chies"}
+{"en": "she", "fr": "chiffre", "sound": 0.694, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "she", "fr": "chiffres", "sound": 0.694, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "she", "fr": "chine", "sound": 0.744, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "she", "fr": "chinois", "sound": 0.64, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "she", "fr": "choisi", "sound": 0.645, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "she", "fr": "elle", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.912, "meaning": 0.599, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "sheaf", "fr": "chie"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "sheaf", "fr": "chiffe"}
 {"sound": 1.0, "meaning": 0.409, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "sheaf", "fr": "chiffes"}
@@ -20312,7 +20679,12 @@
 {"sound": 0.895, "meaning": 0.311, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "shotgun", "fr": "chaud gaine"}
 {"sound": 0.592, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "shotguns", "fr": "guns"}
 {"sound": 0.922, "meaning": 0.438, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "shots", "fr": "chasse"}
+{"en": "should", "fr": "chaud", "sound": 0.575, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.95, "meaning": 0.43, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "should", "fr": "chaude"}
+{"en": "should", "fr": "chaîne", "sound": 0.56, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "should", "fr": "chien", "sound": 0.558, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "should", "fr": "chiens", "sound": 0.558, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "should", "fr": "chose", "sound": 0.565, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.749, "meaning": 0.352, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "should", "fr": "shoot"}
 {"sound": 0.881, "meaning": 0.233, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "shoulder", "fr": "chaude"}
 {"sound": 0.845, "meaning": 0.212, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "shoulders", "fr": "gèlent aise"}
@@ -20633,11 +21005,16 @@
 {"sound": 0.608, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "snooping", "fr": "snoop"}
 {"sound": 0.639, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "snowflake", "fr": "flake"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "so", "fr": "ce"}
+{"en": "so", "fr": "ceux", "sound": 0.613, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "so", "fr": "sauf", "sound": 0.708, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.898, "meaning": 0.645, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "so", "fr": "saut"}
+{"en": "so", "fr": "sauver", "sound": 0.625, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.898, "meaning": 0.508, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "so", "fr": "sceau"}
 {"sound": 0.898, "meaning": 0.669, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "so", "fr": "sceaux"}
 {"sound": 0.832, "meaning": 0.809, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "so", "fr": "se"}
 {"sound": 0.898, "meaning": 0.82, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "so", "fr": "seau"}
+{"en": "so", "fr": "sociaux", "sound": 0.646, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "so", "fr": "soleil", "sound": 0.628, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.881, "meaning": 0.442, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "soaked", "fr": "saute"}
 {"sound": 0.875, "meaning": 0.306, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "soap", "fr": "sauf"}
 {"sound": 0.563, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "sober", "fr": "sobre"}
@@ -20732,6 +21109,11 @@
 {"sound": 0.575, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "somatic", "fr": "somatiques"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "some", "fr": "sam"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "some", "fr": "sem"}
+{"en": "some", "fr": "somme", "sound": 0.71, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "some", "fr": "sommes", "sound": 0.71, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "some", "fr": "système", "sound": 0.609, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "some", "fr": "systèmes", "sound": 0.609, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "some", "fr": "âme", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.868, "meaning": 0.451, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "someday", "fr": "samedi"}
 {"sound": 0.83, "meaning": 0.531, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "somewhere", "fr": "sommaire"}
 {"sound": 0.681, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "somme", "fr": "sum"}
@@ -22571,16 +22953,44 @@
 {"sound": 0.561, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "thais", "fr": "thaïlandais"}
 {"sound": 0.634, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "thais", "fr": "thaïlandaise"}
 {"sound": 0.604, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "thames", "fr": "tamise"}
+{"en": "than", "fr": "anne", "sound": 0.569, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.925, "meaning": 0.556, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "than", "fr": "gène"}
 {"sound": 0.925, "meaning": 0.606, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "than", "fr": "gêne"}
+{"en": "than", "fr": "haine", "sound": 0.574, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "than", "fr": "jeune", "sound": 0.565, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "than", "fr": "jeunes", "sound": 0.565, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "than", "fr": "n", "sound": 0.574, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "that", "fr": "ce", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.925, "meaning": 0.41, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "that", "fr": "date"}
 {"sound": 0.925, "meaning": 0.341, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "that", "fr": "dates"}
+{"en": "that", "fr": "dette", "sound": 0.546, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "that", "fr": "dite", "sound": 0.546, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "that", "fr": "dites", "sound": 0.546, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "that", "fr": "êtes", "sound": 0.554, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "the", "fr": "de", "sound": 0.607, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "the", "fr": "e", "sound": 0.627, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "the", "fr": "je", "sound": 0.607, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.577, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "the", "fr": "le"}
+{"en": "the", "fr": "re", "sound": 0.585, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "the", "fr": "te", "sound": 0.577, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.71, "meaning": 0.382, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "their", "fr": "air"}
+{"en": "their", "fr": "hier", "sound": 0.695, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "their", "fr": "r", "sound": 0.737, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "their", "fr": "terre", "sound": 0.69, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "their", "fr": "terres", "sound": 0.69, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "them", "fr": "aime", "sound": 0.737, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "them", "fr": "aiment", "sound": 0.737, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "them", "fr": "aimes", "sound": 0.737, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "them", "fr": "m", "sound": 0.737, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "them", "fr": "thème", "sound": 0.69, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.95, "meaning": 0.45, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "theme", "fr": "cime"}
+{"en": "then", "fr": "chaîne", "sound": 0.69, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.95, "meaning": 0.573, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "then", "fr": "gène"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "then", "fr": "gêne"}
+{"en": "then", "fr": "haine", "sound": 0.737, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.893, "meaning": 0.732, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "then", "fr": "n"}
+{"en": "then", "fr": "scène", "sound": 0.69, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "then", "fr": "seine", "sound": 0.69, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.755, "meaning": 0.404, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "theories", "fr": "cerises"}
 {"sound": 0.771, "meaning": 0.246, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "theory", "fr": "syrie"}
 {"sound": 0.607, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "theory", "fr": "théorie"}
@@ -22591,22 +23001,43 @@
 {"sound": 0.71, "meaning": 0.504, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "there", "fr": "air"}
 {"sound": 0.828, "meaning": 0.633, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "there", "fr": "des"}
 {"sound": 0.828, "meaning": 0.657, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "there", "fr": "dés"}
+{"en": "there", "fr": "hier", "sound": 0.695, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "there", "fr": "r", "sound": 0.737, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "there", "fr": "terre", "sound": 0.69, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "there", "fr": "terres", "sound": 0.69, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "there", "fr": "ère"}
 {"sound": 0.624, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "therese", "fr": "thérèse"}
 {"sound": 0.578, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "thermoplastic", "fr": "thermoplastique"}
+{"en": "these", "fr": "ces", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "these", "fr": "crise", "sound": 0.631, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.95, "meaning": 0.581, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "these", "fr": "disent"}
 {"sound": 0.929, "meaning": 0.46, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "these", "fr": "dix"}
+{"en": "these", "fr": "mise", "sound": 0.641, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "these", "fr": "mises", "sound": 0.641, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "these", "fr": "prises", "sound": 0.631, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.842, "meaning": 0.379, "source": "ladder", "tier": "9", "chain_hops": 6, "loop": false, "en": "thesis", "fr": "six"}
 {"sound": 0.591, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "thessaloniki", "fr": "thessalonique"}
 {"sound": 0.594, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "thessaly", "fr": "thessalie"}
+{"en": "they", "fr": "ils", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.822, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "thierry", "fr": "terry"}
+{"en": "think", "fr": "5", "sound": 0.548, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "think", "fr": "cinq", "sound": 0.548, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "think", "fr": "donc", "sound": 0.503, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "think", "fr": "qu", "sound": 0.535, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "think", "fr": "sec", "sound": 0.514, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.835, "meaning": 0.427, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "thirsty", "fr": "petit"}
 {"sound": 0.649, "meaning": 0.494, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "thirteen", "fr": "fait in"}
 {"sound": 0.724, "meaning": 0.442, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "thirty", "fr": "série"}
+{"en": "this", "fr": "6", "sound": 0.549, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "this", "fr": "ce", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.929, "meaning": 0.448, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "this", "fr": "dissent"}
 {"sound": 0.929, "meaning": 0.521, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "this", "fr": "dix"}
+{"en": "this", "fr": "laisse", "sound": 0.546, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "this", "fr": "s", "sound": 0.574, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "this", "fr": "six", "sound": 0.549, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.592, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "thoracic", "fr": "thoracique"}
 {"sound": 0.592, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "thoracic", "fr": "thoraciques"}
+{"en": "those", "fr": "ces", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.801, "meaning": 0.645, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "those", "fr": "douze"}
 {"sound": 0.568, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "thracian", "fr": "thrace"}
 {"sound": 0.831, "meaning": 0.334, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "thread", "fr": "raid"}
@@ -22676,8 +23107,13 @@
 {"sound": 1.0, "meaning": 0.6, "source": "fr-anchored", "tier": "S", "chain_hops": 0, "loop": false, "en": "tim", "fr": "team"}
 {"sound": 0.975, "meaning": 0.682, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "tim", "fr": "thème"}
 {"sound": 0.665, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "timbuktu", "fr": "tombouctou"}
+{"en": "time", "fr": "ta", "sound": 0.682, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.906, "meaning": 0.443, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "time", "fr": "tam"}
+{"en": "time", "fr": "tas", "sound": 0.682, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.565, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "time", "fr": "temps"}
+{"en": "time", "fr": "thème", "sound": 0.663, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "time", "fr": "tom", "sound": 0.663, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "time", "fr": "tome", "sound": 0.663, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.647, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "timid", "fr": "timide"}
 {"sound": 0.647, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "timid", "fr": "timides"}
 {"sound": 0.666, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "timorese", "fr": "timorais"}
@@ -22711,10 +23147,14 @@
 {"sound": 0.705, "meaning": 0.49, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "titty", "fr": "tri"}
 {"sound": 0.858, "meaning": 0.611, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "tl", "fr": "tels"}
 {"sound": 0.645, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "tms", "fr": "msd"}
+{"en": "to", "fr": "to", "sound": 1.0, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.912, "meaning": 0.735, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "to", "fr": "tous"}
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 2, "loop": false, "en": "to", "fr": "tout"}
+{"en": "to", "fr": "toute", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "to", "fr": "toutes", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.756, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "to", "fr": "touts"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "to", "fr": "toux"}
+{"en": "to", "fr": "à", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.838, "meaning": 0.182, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "toast", "fr": "tests"}
 {"sound": 0.551, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "toast", "fr": "toasts"}
 {"sound": 0.552, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "toasts", "fr": "toast"}
@@ -23557,6 +23997,8 @@
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 0, "loop": false, "en": "two", "fr": "to"}
 {"sound": 0.912, "meaning": 0.514, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "two", "fr": "tous"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 2, "loop": false, "en": "two", "fr": "tout"}
+{"en": "two", "fr": "toute", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "two", "fr": "toutes", "sound": 0.76, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.529, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "two", "fr": "touts"}
 {"sound": 1.0, "meaning": 0.509, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "two", "fr": "toux"}
 {"sound": 0.825, "meaning": 0.498, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "tx", "fr": "sexes"}
@@ -23658,8 +24100,13 @@
 {"sound": 0.587, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "unproductive", "fr": "improductives"}
 {"sound": 0.582, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "unstable", "fr": "instable"}
 {"sound": 0.582, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "unstable", "fr": "instables"}
+{"en": "up", "fr": "frappe", "sound": 0.554, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.961, "meaning": 0.516, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "up", "fr": "happe"}
 {"sound": 0.951, "meaning": 0.505, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "up", "fr": "hep"}
+{"en": "up", "fr": "op", "sound": 0.607, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "up", "fr": "top", "sound": 0.578, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "up", "fr": "type", "sound": 0.578, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "up", "fr": "types", "sound": 0.578, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.961, "meaning": 0.581, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "upper", "fr": "happe"}
 {"sound": 0.89, "meaning": 0.277, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "upstairs", "fr": "as terre"}
 {"sound": 0.644, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ural", "fr": "oural"}
@@ -23667,6 +24114,10 @@
 {"sound": 0.609, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "urinary", "fr": "urinaire"}
 {"sound": 0.609, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "urinary", "fr": "urinaires"}
 {"sound": 0.961, "meaning": 0.498, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "us", "fr": "as"}
+{"en": "us", "fr": "cesse", "sound": 0.593, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "us", "fr": "hausse", "sound": 0.637, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "us", "fr": "os", "sound": 0.607, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "us", "fr": "s", "sound": 0.629, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.69, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "ust", "fr": "oust"}
 {"sound": 0.653, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "uterine", "fr": "utérine"}
 {"sound": 0.611, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "utopia", "fr": "utopie"}
@@ -23862,9 +24313,13 @@
 {"sound": 0.58, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "vertical", "fr": "verticales"}
 {"sound": 0.781, "meaning": 0.6, "source": "fr-anchored", "tier": "A", "chain_hops": 0, "loop": false, "en": "verts", "fr": "very"}
 {"sound": 0.619, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "vervain", "fr": "verveine"}
+{"en": "very", "fr": "mairie", "sound": 0.74, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.862, "meaning": 0.466, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "very", "fr": "vais rient"}
 {"sound": 0.84, "meaning": 0.705, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "very", "fr": "vernis"}
+{"en": "very", "fr": "verra", "sound": 0.755, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "very", "fr": "verre", "sound": 0.781, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.77, "meaning": 0.718, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "very", "fr": "verrez"}
+{"en": "very", "fr": "vers", "sound": 0.781, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "very", "fr": "vert"}
 {"sound": 0.758, "meaning": 0.717, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "very", "fr": "verts"}
 {"sound": 0.707, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "vessel", "fr": "vaisseau"}
@@ -24146,6 +24601,11 @@
 {"sound": 0.962, "meaning": 0.659, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "walter", "fr": "volts"}
 {"sound": 0.552, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "wand", "fr": "rod"}
 {"sound": 0.682, "meaning": 0.624, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "wander", "fr": "van des"}
+{"en": "want", "fr": "donne", "sound": 0.564, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "want", "fr": "donnent", "sound": 0.564, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "want", "fr": "honte", "sound": 0.606, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "want", "fr": "ouest", "sound": 0.636, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "want", "fr": "tonnes", "sound": 0.565, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.71, "meaning": 0.479, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "war", "fr": "or"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "ward", "fr": "horde"}
 {"sound": 0.775, "meaning": 0.774, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "wardrobe", "fr": "vont robe"}
@@ -24161,8 +24621,14 @@
 {"sound": 0.557, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "warranty", "fr": "garanties"}
 {"sound": 0.557, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "warranty", "fr": "garantis"}
 {"sound": 0.687, "meaning": 0.564, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "warren", "fr": "orne"}
+{"en": "was", "fr": "aise", "sound": 0.593, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.832, "meaning": 0.817, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "was", "fr": "ose"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "was", "fr": "osent"}
+{"en": "was", "fr": "ouais", "sound": 0.585, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "was", "fr": "ouest", "sound": 0.558, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "was", "fr": "oui", "sound": 0.57, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "was", "fr": "phase", "sound": 0.56, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "was", "fr": "était", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.609, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "wasilla", "fr": "wassila"}
 {"sound": 0.889, "meaning": 0.307, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "waste", "fr": "ouest"}
 {"sound": 0.867, "meaning": 0.374, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "wasted", "fr": "ouest"}
@@ -24174,7 +24640,17 @@
 {"sound": 0.987, "meaning": 0.979, "source": "ladder", "tier": "5", "chain_hops": 0, "loop": false, "en": "watt", "fr": "watts"}
 {"sound": 0.585, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "watts", "fr": "watt"}
 {"sound": 0.878, "meaning": 0.146, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "wax", "fr": "axe"}
+{"en": "way", "fr": "jouer", "sound": 0.583, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "way", "fr": "joué", "sound": 0.583, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "way", "fr": "ouais", "sound": 0.618, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "way", "fr": "ouest", "sound": 0.56, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "way", "fr": "oui", "sound": 0.613, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "we", "fr": "i", "sound": 0.663, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "we", "fr": "louis", "sound": 0.727, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "we", "fr": "nous", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 0, "loop": false, "en": "we", "fr": "oui"}
+{"en": "we", "fr": "vis", "sound": 0.617, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "we", "fr": "vit", "sound": 0.617, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.893, "meaning": 0.439, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "weak", "fr": "hic"}
 {"sound": 0.855, "meaning": 0.478, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "weaken", "fr": "icône"}
 {"sound": 0.81, "meaning": 0.2, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "weaken", "fr": "lichens"}
@@ -24197,15 +24673,22 @@
 {"sound": 0.924, "meaning": 0.222, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "weeks", "fr": "luxe"}
 {"sound": 0.905, "meaning": 0.393, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "weeks", "fr": "x"}
 {"sound": 0.781, "meaning": 0.489, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "weird", "fr": "oui ode"}
+{"en": "well", "fr": "el", "sound": 0.761, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.893, "meaning": 0.739, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "well", "fr": "elle"}
+{"en": "well", "fr": "elles", "sound": 0.761, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "well", "fr": "l", "sound": 0.761, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "well", "fr": "ouais"}
 {"sound": 0.575, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "well", "fr": "wells"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "welsh", "fr": "ouais"}
 {"sound": 0.889, "meaning": 0.474, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "wending", "fr": "vin digne"}
 {"sound": 0.904, "meaning": 0.631, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "went", "fr": "ouest"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "were", "fr": "le"}
+{"en": "were", "fr": "oiseaux", "sound": 0.518, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.929, "meaning": 0.678, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "were", "fr": "ouah"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "were", "fr": "ouais"}
+{"en": "were", "fr": "ouest", "sound": 0.572, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "were", "fr": "oui", "sound": 0.577, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "were", "fr": "étaient", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "west", "fr": "est"}
 {"sound": 1.0, "meaning": 1.0, "source": "v7", "tier": "S", "chain_hops": 0, "loop": false, "en": "west", "fr": "ouest"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "west", "fr": "vestes"}
@@ -24219,9 +24702,14 @@
 {"sound": 0.975, "meaning": 0.336, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "wet", "fr": "couette"}
 {"sound": 0.934, "meaning": 0.416, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "wet", "fr": "ouest"}
 {"sound": 0.893, "meaning": 0.451, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "wet", "fr": "êtes"}
+{"en": "what", "fr": "haute", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "what", "fr": "ouais", "sound": 0.592, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "what", "fr": "ouate"}
+{"en": "what", "fr": "ouest", "sound": 0.684, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "what", "fr": "oui", "sound": 0.578, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.975, "meaning": 0.349, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "what", "fr": "watt"}
 {"sound": 0.975, "meaning": 0.302, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "what", "fr": "watts"}
+{"en": "what", "fr": "êtes", "sound": 0.593, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.832, "meaning": 0.537, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": true, "en": "whatever", "fr": "et ève"}
 {"sound": 0.893, "meaning": 0.325, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "wheel", "fr": "il"}
 {"sound": 0.713, "meaning": 0.228, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "wheelchair", "fr": "et chair"}
@@ -24231,15 +24719,32 @@
 {"sound": 0.893, "meaning": 0.38, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "when", "fr": "haine"}
 {"sound": 0.893, "meaning": 0.558, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "when", "fr": "haines"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "when", "fr": "n"}
+{"en": "when", "fr": "ouais", "sound": 0.744, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "when", "fr": "scène", "sound": 0.712, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "when", "fr": "seine", "sound": 0.712, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.917, "meaning": 0.522, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "whenever", "fr": "un ève"}
 {"sound": 0.71, "meaning": 0.421, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": true, "en": "where", "fr": "air"}
+{"en": "where", "fr": "ouais", "sound": 0.753, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "where", "fr": "r", "sound": 0.761, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "where", "fr": "vers", "sound": 0.717, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "where", "fr": "vert", "sound": 0.717, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.741, "meaning": 0.45, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "wherever", "fr": "rêve"}
+{"en": "which", "fr": "match", "sound": 0.595, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "which", "fr": "matchs", "sound": 0.595, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "which", "fr": "riche", "sound": 0.551, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "which", "fr": "riches", "sound": 0.551, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "which", "fr": "touche", "sound": 0.548, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.772, "meaning": 0.255, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "whichever", "fr": "huit cheveux"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "whipped", "fr": "opte"}
 {"sound": 0.758, "meaning": 0.162, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "whiskey", "fr": "ski"}
 {"sound": 0.88, "meaning": 0.973, "source": "ladder", "tier": "5", "chain_hops": 0, "loop": false, "en": "whiskey", "fr": "whisky"}
 {"sound": 0.691, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "whisky", "fr": "whiskey"}
 {"sound": 0.906, "meaning": 0.305, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "white", "fr": "watts"}
+{"en": "who", "fr": "ou", "sound": 0.67, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "who", "fr": "où", "sound": 0.67, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "who", "fr": "sous", "sound": 0.621, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "who", "fr": "tout", "sound": 0.621, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "who", "fr": "you", "sound": 0.622, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.794, "meaning": 0.5, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "whoever", "fr": "rêve"}
 {"sound": 0.587, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "whoops", "fr": "oups"}
 {"sound": 0.842, "meaning": 0.453, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "why", "fr": "la"}
@@ -24251,8 +24756,12 @@
 {"sound": 0.765, "meaning": 0.393, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "widespread", "fr": "as prêts"}
 {"sound": 0.931, "meaning": 0.266, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "wife", "fr": "oies if"}
 {"sound": 0.695, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "wikipedia", "fr": "wikipédia"}
+{"en": "will", "fr": "elles", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.867, "meaning": 0.593, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "will", "fr": "il"}
 {"sound": 0.867, "meaning": 0.562, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "will", "fr": "ils"}
+{"en": "will", "fr": "l", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "will", "fr": "va", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "will", "fr": "île", "sound": 0.601, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.595, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "window", "fr": "windows"}
 {"sound": 0.711, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "windsurfing", "fr": "windsurf"}
 {"sound": 0.986, "meaning": 0.26, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "wine", "fr": "oies haines"}
@@ -24265,13 +24774,21 @@
 {"sound": 0.911, "meaning": 0.364, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "wiped", "fr": "oies opte"}
 {"sound": 0.898, "meaning": 0.296, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "wire", "fr": "ouah"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "wished", "fr": "ouest"}
+{"en": "with", "fr": "ouais", "sound": 0.574, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.598, "meaning": 0.452, "source": "ladder", "tier": "9", "chain_hops": 2, "loop": false, "en": "with", "fr": "oued"}
 {"sound": 0.586, "meaning": 0.346, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "with", "fr": "oueds"}
+{"en": "with", "fr": "ouest", "sound": 0.533, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "with", "fr": "oui", "sound": 0.577, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.86, "meaning": 0.151, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "withdrawal", "fr": "ouais drôle"}
 {"sound": 0.851, "meaning": 0.462, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "wizard", "fr": "ouais aide"}
 {"sound": 0.55, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "wolves", "fr": "wolf"}
 {"sound": 0.725, "meaning": 0.619, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "wonder", "fr": "van des"}
 {"sound": 0.639, "meaning": 0.461, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "word", "fr": "oued"}
+{"en": "work", "fr": "5", "sound": 0.558, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "work", "fr": "cinq", "sound": 0.558, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "work", "fr": "qu", "sound": 0.572, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "work", "fr": "rock", "sound": 0.567, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "work", "fr": "sec", "sound": 0.572, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.768, "meaning": 0.454, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "work", "fr": "walk"}
 {"sound": 0.851, "meaning": 0.638, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "worked", "fr": "actes"}
 {"sound": 0.851, "meaning": 0.432, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "works", "fr": "axe"}
@@ -24281,7 +24798,11 @@
 {"sound": 0.842, "meaning": 0.274, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "worry", "fr": "oies rient"}
 {"sound": 0.977, "meaning": 0.36, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "worst", "fr": "ouest"}
 {"sound": 0.854, "meaning": 0.421, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "would", "fr": "aide"}
+{"en": "would", "fr": "inde", "sound": 0.574, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "would", "fr": "ouais", "sound": 0.589, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.653, "meaning": 0.29, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": false, "en": "would", "fr": "oueds"}
+{"en": "would", "fr": "ouest", "sound": 0.558, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "would", "fr": "z", "sound": 0.563, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.898, "meaning": 0.479, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "wow", "fr": "oie"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "wow", "fr": "oies"}
 {"sound": 0.898, "meaning": 0.82, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "wow", "fr": "ouah"}
@@ -24342,6 +24863,16 @@
 {"sound": 0.615, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "yasmin", "fr": "yasmine"}
 {"sound": 0.645, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "yassin", "fr": "yassine"}
 {"sound": 0.643, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "yavne", "fr": "yavné"}
+{"en": "year", "fr": "air", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "year", "fr": "hier", "sound": 0.73, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "year", "fr": "ii", "sound": 0.594, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "year", "fr": "r", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "year", "fr": "tres", "sound": 0.59, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "years", "fr": "aise", "sound": 0.567, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "years", "fr": "disent", "sound": 0.549, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "years", "fr": "hier", "sound": 0.571, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "years", "fr": "ii", "sound": 0.563, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "years", "fr": "iii", "sound": 0.547, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.975, "meaning": 0.545, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "yell", "fr": "ciel"}
 {"sound": 0.893, "meaning": 0.493, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "yell", "fr": "elle"}
 {"sound": 0.975, "meaning": 0.351, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "yell", "fr": "miel"}
@@ -24356,6 +24887,7 @@
 {"sound": 0.893, "meaning": 0.7, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "yep", "fr": "hep"}
 {"sound": 0.713, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "yep", "fr": "ouaip"}
 {"sound": 0.975, "meaning": 0.627, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "yes", "fr": "nièce"}
+{"en": "yes", "fr": "oui", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
 {"sound": 0.975, "meaning": 0.594, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "yes", "fr": "pièce"}
 {"sound": 0.975, "meaning": 0.617, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "yes", "fr": "pièces"}
 {"sound": 0.893, "meaning": 0.634, "source": "ladder", "tier": "6", "chain_hops": 0, "loop": false, "en": "yes", "fr": "s"}
@@ -24373,8 +24905,19 @@
 {"sound": 0.743, "meaning": 0.401, "source": "ladder", "tier": "9", "chain_hops": 0, "loop": false, "en": "york", "fr": "orques"}
 {"sound": 0.782, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "yorkers", "fr": "yorkais"}
 {"sound": 0.733, "meaning": 0.372, "source": "ladder", "tier": "9", "chain_hops": 2, "loop": false, "en": "yorkshire", "fr": "orques"}
+{"en": "you", "fr": "ou", "sound": 0.663, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "you", "fr": "où", "sound": 0.663, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "you", "fr": "sous", "sound": 0.616, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.572, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "you", "fr": "vous"}
+{"en": "you", "fr": "you", "sound": 1.0, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "you", "fr": "youtube", "sound": 0.623, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 1.0, "meaning": 0.9, "source": "strict-gold", "tier": "S", "chain_hops": 0, "loop": false, "en": "younger", "fr": "yang"}
+{"en": "your", "fr": "hier", "sound": 0.725, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "your", "fr": "hors", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "your", "fr": "or", "sound": 0.598, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "your", "fr": "r", "sound": 0.593, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
+{"en": "your", "fr": "votre", "sound": 0.7, "meaning": 0.8, "source": "van-rooten", "tier": "F"}
+{"en": "your", "fr": "you", "sound": 0.594, "meaning": 0.5, "source": "zipf-glue", "tier": "F"}
 {"sound": 0.755, "meaning": 0.7, "source": "dual", "tier": "", "chain_hops": 0, "loop": false, "en": "youri", "fr": "yuri"}
 {"sound": 0.82, "meaning": 0.337, "source": "ladder", "tier": "7", "chain_hops": 3, "loop": true, "en": "yourself", "fr": "et elfes"}
 {"sound": 0.948, "meaning": 0.177, "source": "ladder", "tier": "2", "chain_hops": 0, "loop": true, "en": "yourself", "fr": "ions elfes"}
