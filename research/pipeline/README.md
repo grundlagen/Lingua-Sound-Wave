@@ -46,6 +46,28 @@ cycle-2 discoveries (`very~vernie 0.82`, `lesser~laissés 0.78`,
 Running inventory after two cycles: 14,887 seed → **~50k verified pairs**
 (34,739 STRICT-tier discoveries), zero GPU.
 
+## Cycle-3 results (in `out-cycle3/`, run locally + vast.ai — see
+`docs/session-log-2026-07-06-local-cycle3.txt`)
+
+Seed: **43,185 pairs** (`tier-ladder-cycle3.tsv`, committed here) — original
+gold + 28,298 absorbed EXPANSION pairs from cycles 1–2. Threshold raised to
+an **AUC-justified 0.75** (gold median 0.753 vs shuffle median 0.374; zero
+shuffle false-positives at 0.75).
+
+| result | value |
+|---|---|
+| stage 4 | **+441 STRICT (≥0.75) / +9,043 PASS** new pairs, 205 s |
+| paraphrase bridges | 11,782 total (+118% vs cycle 1's 5,393) |
+| GPU (vast.ai RTX 5090) | Qwen3-4B LoRA paraphrasers trained: EN 91.1% acc / FR 92.1% acc; FR shows ~3% EN leakage → Mistral-7B retrain in progress |
+| coverage | gold + bridges reach 94,564 EN / 98,017 FR words |
+
+Diminishing STRICT count at the higher bar is the expected "vein mining
+out" signal — next growth comes from the GPU paraphrasers generalizing
+beyond the corpus pivot. Note for bridge growth: EXPANSION pairs are
+**sound** pairs and must NOT feed pivot synonymy directly; new DUAL edges
+require a translation check (a pair that is both EXPANSION and literal
+translation graduates to DUAL).
+
 ## Multi-word pass (in `out-multiword/`)
 
 `stage3_multiword.py` inflects one word at a time inside the 1,052
