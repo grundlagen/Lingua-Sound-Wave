@@ -131,6 +131,8 @@ class SentenceComposer:
             if p.exists():
                 with open(p, encoding="utf-8") as f:
                     for r in csv.DictReader(f, delimiter="\t"):
+                        if r["en"] == r["fr"]:      # identity rows are junk here too
+                            continue
                         s = float(r["score"])
                         inv[r["en"]][r["fr"]] = max(inv[r["en"]].get(r["fr"], 0), s)
         return inv
