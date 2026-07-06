@@ -1,0 +1,44 @@
+{
+  "total_pairs": 62284,
+  "sources": {
+    "strict-gold": 1234,
+    "dictionary-v7": 92,
+    "tier-ladder": 9897,
+    "dual-pairs": 33806,
+    "fr-anchored": 1496,
+    "muse": 113286,
+    "fragments": 84062
+  },
+  "chain_supported": 1370,
+  "loop_certified": 785,
+  "tier_distribution": {
+    "S": 1503,
+    "1": 115,
+    "DUAL-S": 909,
+    "2": 1522,
+    "4": 377,
+    "DUAL-A": 6490,
+    "5": 140,
+    "6": 2394,
+    "7": 57,
+    "9": 3847,
+    "10": 4,
+    "DUAL-B": 26012,
+    "A": 1146,
+    "MUSE": 17768
+  },
+  "sound_distribution": {
+    "S": [
+      0.75,
+      1.0
+    ],
+    "A": [
+      0.6,
+      0.75
+    ],
+    "B": [
+      0.45,
+      0.6
+    ]
+  }
+}
