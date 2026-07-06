@@ -93,6 +93,18 @@ class SentenceComposer:
         # INVENTORY
         self.inv = self._load_inventory()
 
+        # TRANSLATIONS (DUAL edges) for cognate rescue
+        self.translations: dict[str, list[str]] = defaultdict(list)
+        ladder = pipeline_dir / "tier-ladder-cycle3.tsv"
+        if not ladder.exists():
+            ladder = bench_dir / "tier-ladder.tsv"
+        with open(ladder, encoding="utf-8") as f:
+            for r in csv.DictReader(f, delimiter="\t"):
+                if r["ladder"] in {"DUAL-S", "DUAL-A", "DUAL-B"}:
+                    en, fr = r["en"].strip(), r["fr"].strip()
+                    if en and fr and en != fr:
+                        self.translations[en].append(fr)
+
         # GLUE
         self.glue: dict[str, list[tuple[str, float]]] = defaultdict(list)
         gp = bench_dir / "zipf-glue.tsv"
@@ -277,9 +289,69 @@ class SentenceComposer:
         return cands[:PER_COLUMN]
 
     # ---- compose -----------------------------------------------------------
+    # French clitics/monosyllables that must not stand in for stressed EN
+    # content words unless the sound is genuinely excellent — the matcher
+    # under-penalizes short-vs-long at word scale (joy~de 0.54 > joy~dieu
+    # 0.52 is a judge artifact, not a fact about sound).
+    CLITICS = frozenset("de je le la te se ne me ce et y à en du des un une".split())
+    CLITIC_FLOOR = 0.75
+
+    def _guard_column(self, word: str, cands: list[Cand]) -> list[Cand]:
+        if word in FUNC_WORDS:
+            return cands
+        kept = [c for c in cands
+                if c.fr not in self.CLITICS or c.sound >= self.CLITIC_FLOOR]
+        return kept or cands     # never empty a column entirely
+
+    def _cognate_rescue(self, word: str) -> list[Cand]:
+        """Score the word's DUAL translations live: a cognate like joie keeps
+        the MEANING on the French rail even at a mid sound score."""
+        out = []
+        for fr in self.translations.get(word, [])[:4]:
+            try:
+                s = self.matcher.homophone_score(word, "en", fr, "fr")["score"]
+            except Exception:
+                continue
+            if s >= 0.35:
+                # meaning bonus: a translation carries sense for free
+                out.append(Cand(fr, s + 0.10, self.zipf(fr, "fr"),
+                                "COGNATE", note="translation"))
+        return out
+
+    def _sandhi_fr(self, fr_line: str) -> str:
+        """Apply French elision/liaison orthography before judging — the
+        composer emits 'de aile'; spoken French says 'd'aile'."""
+        if not hasattr(self, "_sandhi_fn"):
+            try:
+                import sys
+                sys.path.insert(0, str(self.pipeline_dir.parent / "qwen-finetune"))
+                from sandhi_fr import spoken_stream
+                self._sandhi_fn = spoken_stream
+            except Exception:
+                self._sandhi_fn = lambda t: t
+        try:
+            return self._sandhi_fn(fr_line).replace("‿", "")
+        except Exception:
+            return fr_line
+
     def compose(self, sentence: str, n_out: int = 3):
         tokens = [t for t in sentence.lower().replace(",", " ").split() if t]
-        cols = [self.column(t) for t in tokens]
+        cols = []
+        for t in tokens:
+            col = self.column(t)
+            col = self._guard_column(t, col)
+            # top-up weak columns: cognate rescue + gap-filler even when
+            # a (weak) candidate exists
+            best = max((c.sound for c in col), default=0.0)
+            if best < 0.65:
+                col += self._cognate_rescue(t)
+                if best < 0.55 and all(c.source != "GAP_FILLER" for c in col):
+                    for fr, s in self._try_decoder(t):
+                        col.append(Cand(fr, s, self.zipf(fr, "fr"),
+                                        "GAP_FILLER", note="decoder top-up"))
+                col.sort(key=lambda c: (-c.sound, -c.zipf))
+                col = col[:PER_COLUMN]
+            cols.append(col)
 
         beams: list[tuple[float, list[Cand]]] = [(0.0, [])]
         for col in cols:
@@ -299,8 +371,9 @@ class SentenceComposer:
             if fr_line in seen:
                 continue
             seen.add(fr_line)
-            r = self.matcher.homophone_score(sentence, "en", fr_line, "fr")
-            finals.append((r["score"], fr_line, path, r))
+            spoken = self._sandhi_fr(fr_line)   # elision/liaison before judging
+            r = self.matcher.homophone_score(sentence, "en", spoken, "fr")
+            finals.append((r["score"], spoken, path, r))
         finals.sort(key=lambda x: -x[0])
         return tokens, finals[:n_out]
 
