@@ -46,6 +46,30 @@ cycle-2 discoveries (`very~vernie 0.82`, `lesser~laissés 0.78`,
 Running inventory after two cycles: 14,887 seed → **~50k verified pairs**
 (34,739 STRICT-tier discoveries), zero GPU.
 
+## Multi-word pass (in `out-multiword/`)
+
+`stage3_multiword.py` inflects one word at a time inside the 1,052
+multi-word gold units (espeak scores whole phrases, so FR liaison/elision at
+the seams is judged natively). 17,008 candidates → **+5,001 STRICT /
++9,810 PASS** new phrase pairs (87 s). The tier mix flips toward PASS as
+expected: perturbing one word shifts the whole stream.
+
+## Paraphrase pass (in `out-paraphrase/`)
+
+`stage3_paraphrase.py` — meaning-bridges from the corpus itself, no external
+resources: pivot synonymy over the 102,772 DUAL translation edges in
+tier-ladder (two words sharing ≥2 translations are meaning-mates).
+
+- `paraphrase-{en,fr}.tsv` — 16,372 EN + 21,322 FR mate pairs; 5,760 EN
+  mates are non-morphological (`squad~brigade`, `terrible~awful`,
+  `plague~pest`, `defunct~deceased`)
+- `paraphrase-bridges-{en,fr}.tsv` — **5,391 meaning-bridges**: a word with
+  NO gold homophone → a mate that HAS one → the mate's sound cell. This is
+  the "say it another way, gain the sound" move at corpus scale.
+- `paraphrase_sft_{en,fr}.jsonl` — ChatML SFT data to train the GPU
+  paraphraser (`research/qwen-finetune/train_lora.py` runs it unchanged) to
+  generalize the move to ANY word, per the plan's stage-3 learned half.
+
 ## Scripts
 
 | file | stage | run |
