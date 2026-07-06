@@ -1,5 +1,7 @@
 # Lingua-Sound-Wave
 
+> ## ⭐ **[PIPELINE.md](PIPELINE.md)** — the canonical map of the homophonic generator (stages 1–5, engines, training, build order). Read it first.
+
 **Transform Language into Sound Waves** — A TypeScript-powered project for converting textual and linguistic input into dynamic audio visualizations and soundscapes. Also home to the **homophonic-translation pipeline** (EN↔FR sound+meaning engine) and **fugu-swarm** (Fugu-style multi-agent orchestration).
 
 ## Overview
