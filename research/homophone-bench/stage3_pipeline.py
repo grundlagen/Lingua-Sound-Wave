@@ -78,12 +78,21 @@ for u, ipa, kind in fr_units:
 print(f"  Babel index: {len(fr_ipa_idx)} words, {len(fr_units)} units")
 
 # ── PERIPHRASTIC GENERATION ──
+# Load pre-built EN IPA (no espeak at runtime)
+EN_IPA = {}
+for i, line in enumerate(open("en-word-ipa.tsv", encoding="utf-8")):
+    if i == 0: continue
+    p = line.rstrip("\n").split("\t")
+    if len(p) >= 2 and p[1] and "(fr)" not in p[0]:
+        EN_IPA[p[0].lower()] = p[1].replace(" ", "").replace("ˈ", "").replace("ˌ", "")
+
 def en_ipa(text):
-    r = subprocess.run(["espeak-ng", "-q", "--ipa", "-v", "en-us", text],
-                       capture_output=True, text=True, check=True)
-    ipa = r.stdout.strip()
-    for c in "ˈˌ": ipa = ipa.replace(c, "")
-    return ipa
+    """Lookup IPA from pre-built dictionary (no espeak)."""
+    if text in EN_IPA:
+        return EN_IPA[text]
+    words = text.lower().split()
+    parts = [EN_IPA.get(w, "") for w in words]
+    return "".join(parts)
 
 def ndice(a, b, n=2):
     A = {a[i:i+n] for i in range(len(a)-n+1)} if len(a) >= n else {a}
