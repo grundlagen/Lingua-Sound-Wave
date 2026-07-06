@@ -26,6 +26,26 @@ inventory (14,887 → ~42k) without any GPU or model — confirming the
 build-order bet that inflections of proven words are the highest-probability
 new homophones.
 
+## Cycle-2 results (in `out-cycle2/`)
+
+Seed: cycle-1 gold **+ 13,874 EXPANSION-1 pairs** (cycle-1 STRICT rows at a
+stricter ≥ 0.70 admission bar — stricter seed, unchanged 0.60/0.45 output so
+nothing is discarded) → 28,761 pairs, 13,235 EN / 14,980 FR words.
+
+| stage | result |
+|---|---|
+| 2 | 28,216 ladders; FR homonym coverage 3,258 → **5,538** words |
+| 3 | 10,933 EN + 14,839 FR variants (new gold brought new neighborhoods) |
+| 4 | 13,702 candidates (cycle-1's 46,463 pairs excluded) → **+7,653 STRICT / +1,872 PASS genuinely new pairs**, 94 s |
+
+**The flywheel compounds**: 4,536 of the new STRICT pairs are non-cognate,
+and nearly all descend from EXPANSION-1 parents — cycle-1 discoveries seeded
+cycle-2 discoveries (`very~vernie 0.82`, `lesser~laissés 0.78`,
+`salted~soldé 0.68`, `distress~stressées 0.71`, `two~toue 1.00`).
+
+Running inventory after two cycles: 14,887 seed → **~50k verified pairs**
+(34,739 STRICT-tier discoveries), zero GPU.
+
 ## Scripts
 
 | file | stage | run |
