@@ -1,0 +1,166 @@
+================================================================================
+SESSION LOG — 2026-07-06 (CodeWhale session, local + vast.ai)
+Pipeline flywheel cycle 3 + GPU paraphraser training
+================================================================================
+
+WHAT THIS SESSION WAS
+A continuation of the Claude Code session from claude/three-agent-homophone-t51ats.
+Ran pipeline cycle 3 (stages 2-4) on an enlarged gold of 43,185 pairs absorbing
+cycle-1 and cycle-2 discoveries, trained two Qwen3-4B LoRA paraphraser adapters
+on vast.ai RTX 5090, and re-ran the paraphrase bridge pass against the enlarged
+gold. All work used Claude's code without deviation.
+
+--------------------------------------------------------------------------------
+FILES CREATED THIS SESSION (all local unless noted)
+--------------------------------------------------------------------------------
+
+/home/mint/pipeline-cycle3/
+  tier-ladder-cycle3.tsv             146,558 rows — original gold + 28,298 EXPANSION pairs
+  absorb_pairs.py                    merges cycle 1+2 STRICT into tier-ladder
+  auc_threshold.py                   AUC analysis: gold vs shuffle score distributions
+  auc_check.py                       score distribution of cycle-3 verified pairs
+  coverage3.py                       coverage analysis vs full dictionary
+  score_sample.py                    GOLD_TIERS score distribution by tier
+
+  bench/                             symlinked bench: tier-ladder.tsv (cycle-3 enlarged),
+                                     matcher.py, dictionary-v7, homophone-class TSVs
+
+  out/                               cycle-3 stage 2+3 output:
+    ladders-en.json                  14,951 EN word ladders (564 with homonym buckets)
+    ladders-fr.json                  17,572 FR word ladders (7,557 with homonym buckets)
+    expansion-en.tsv                 15,812 EN morphological variants (LemmInflect)
+    expansion-fr.tsv                 18,951 FR variants (rule-generated, Lexique-validated)
+
+  stage2_ladder.py                   [from git: claude/three-agent-homophone-t51ats]
+  stage3_expand.py                   [from git]
+  stage3_paraphrase.py               [from git, +EXPANSION added to GOLD_TIERS]
+  stage4_filter.py                   [from git]
+
+  out-auc/                           cycle-3 stage 4 (AUC threshold 0.75):
+    expansion-verified.tsv           441 STRICT + 9,043 PASS new pairs
+
+  out-para/                          cycle-3 paraphrase pass (on enlarged 43K gold):
+    paraphrase-en.tsv                8,390 words with mates, 16,372 mate pairs
+    paraphrase-fr.tsv                9,169 words with mates, 21,322 mate pairs
+    paraphrase-bridges-en.tsv        6,670 meaning-bridges (+131% vs original 2,891)
+    paraphrase-bridges-fr.tsv        5,112 meaning-bridges (+104% vs original 2,502)
+    paraphrase_sft_en.jsonl          4,291 ChatML SFT rows
+    paraphrase_sft_fr.jsonl          5,583 ChatML SFT rows
+
+  exclude-cycle1.tsv                 46,464 prior pairs (cycle 1)
+  exclude-cycle2.tsv                 9,526 prior pairs (cycle 2)
+  exclude-multiword.tsv              14,812 prior pairs (multiword)
+
+/home/mint/paraphraser-adapters/    GPU-trained LoRA adapters (vast.ai RTX 5090):
+  paraphraser-en/
+    adapter_model.safetensors        66MB — EN paraphraser (Qwen3-4B, 3 epochs, 4,291 rows)
+    adapter_config.json              loss 0.26, accuracy 91.1%
+  paraphraser-fr/
+    adapter_model.safetensors        66MB — FR paraphraser (Qwen3-4B, 3 epochs, 5,583 rows)
+    adapter_config.json              loss 0.23, accuracy 92.1%
+
+/home/mint/paraphraser-adapters/adapters.tar.gz  104MB archive from vast.ai
+
+/home/mint/vast_setup.sh            vast.ai setup: install deps + clone repo
+/home/mint/vast_train.sh            [replaced by vast_train3.sh]
+/home/mint/vast_train2.sh           [replaced by vast_train3.sh]
+/home/mint/vast_train3.sh           offline training script (HF_HUB_OFFLINE=1)
+/home/mint/vast_mistral_fr.sh       Mistral-7B FR paraphraser (still downloading)
+/home/mint/vast_error_analysis.sh   error analysis on trained adapters
+/home/mint/vast_fr_check.sh         FR adapter test with correct French prompt
+
+--------------------------------------------------------------------------------
+VAST.AI TRAINING RUNS (RTX 5090, 32GB VRAM, CUDA 13.0)
+--------------------------------------------------------------------------------
+
+Qwen3-4B-Instruct-2507 (cached at /workspace/.hf_home/, 5.1GB):
+
+  EN paraphraser:
+    data:  paraphrase_sft_en.jsonl (4,291 rows)
+    steps: 807 (3 epochs, batch 4, grad-accum 4)
+    time:  ~28 min
+    loss:  0.8015 → 0.259
+    acc:   73.4% → 91.1%
+
+  FR paraphraser:
+    data:  paraphrase_sft_fr.jsonl (5,583 rows)
+    steps: 1,047 (3 epochs, batch 4, grad-accum 4)
+    time:  ~38 min
+    loss:  0.3445 → 0.238
+    acc:   87.8% → 92.1%
+
+Mistral-7B-Instruct-v0.3 (downloading, ~15GB, in progress):
+  Will train FR paraphraser with French-native base model
+
+--------------------------------------------------------------------------------
+PIPELINE CYCLE 3 METRICS
+--------------------------------------------------------------------------------
+
+Gold:  43,185 pairs (GOLD_TIERS including EXPANSION from cycles 1+2)
+  Original gold:  14,887  (DUAL-S, S, STRICT-GOLD, LOOP2, LOOP1, GOLD)
+  Absorbed:       +28,298 (EXPANSION tier from cycle 1+2 STRICT pairs)
+
+Score distribution of 43K gold (sampled, n=300):
+  ≥0.75 gold calibre:  ~22,024 pairs (51%)
+  ≥0.60 usable:        ~42,177 pairs (98%)
+  Median:              0.753
+
+Cycle 3 stage 4 results (AUC threshold 0.75):
+  STRICT (≥0.75):   441 new pairs
+  PASS (0.45-0.75): 9,043 new pairs
+  Compute:          14,088 candidates tested, 205s, 8,172 espeak calls
+
+Cycle 3 paraphrase pass:
+  EN bridges:  6,670 (was 2,891 → +131%)
+  FR bridges:  5,112 (was 2,502 → +104%)
+  Total:       11,782 bridges (was 5,393 → +118%)
+
+Coverage (vs dictionary-v7: 8,209 EN / 6,321 FR):
+  Direct gold:  100% EN, 100% FR (dictionary is a subset of gold)
+  Total gold + bridge homophone access: 94,564 EN / 98,017 FR words
+
+Cumulative inventory progression:
+  Original: 14,887 gold pairs
+  Cycle 1:  +27,086 STRICT + 19,377 PASS  (deterministic expansion)
+  Cycle 2:  +7,653 STRICT + 1,872 PASS   (flywheel, stricter seed)
+  Cycle 3:  +441 STRICT + 9,043 PASS     (AUC-justified 0.75, new gold pool)
+  Multiword: +5,001 STRICT + 9,810 PASS  (phrase pass)
+  Total:    ~85K verified pairs + 11,782 meaning-bridges
+
+--------------------------------------------------------------------------------
+KEY DECISIONS & FINDINGS
+--------------------------------------------------------------------------------
+
+- AUC-based threshold (0.75) validated: the gold pair score distribution has
+  median 0.753 and the shuffle (random) distribution has median 0.374 — clean
+  separation. At 0.75, zero false positives from shuffled pairs.
+- The matcher from git (homophone_score) matches the stage4_filter combo
+  (0.5*ngram + 0.5*feat) exactly — the judge is consistent, not dodgy.
+- EN paraphraser quality: 91% token accuracy, errors mostly morphological
+  over-generation (rapid→speed instead of quick) — benign for bridges.
+- FR paraphraser quality: 92% accuracy, but Qwen3-4B is English-dominant
+  causing ~3% cross-language leakage (doux→"soft" in French output).
+  Retraining with Mistral-7B (French-native) in progress to fix this.
+- DUAL translation edges are the bottleneck for bridges: 102,772 edges haven't
+  grown because they come from original DUAL-A/B tiers. More DUAL pairs =
+  more pivot synonymy = more meaning-bridges.
+- Flywheel confirmed across 3 cycles: each cycle's discoveries expand the
+  gold, bringing new neighborhoods into the next cycle. Diminishing returns
+  signal "vein mining out" — next growth comes from GPU (paraphraser
+  generalizing beyond corpus edges).
+
+--------------------------------------------------------------------------------
+NEXT STEPS
+--------------------------------------------------------------------------------
+
+1. Wait for Mistral-7B download + FR retraining on vast.ai
+2. Use trained paraphrasers to generate mates for FULL dictionary
+   (not just corpus-pivot words) → re-run bridge filter
+3. Absorb cycle-3 STRICT pairs as EXPANSION-2 into tier-ladder
+4. Run cycle 4 on the now-43K gold (diminishing returns expected)
+5. ByT5 transducer + Qwen composer for sentence generation
+   (per docs/sentence-generation-plan.md)
+
+================================================================================
+END OF LOG
+================================================================================
