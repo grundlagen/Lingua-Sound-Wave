@@ -64,6 +64,8 @@ def main():
     ap.add_argument("--pass-floor", type=float, default=0.45)
     ap.add_argument("--strict-floor", type=float, default=0.60)
     ap.add_argument("--limit", type=int, default=0, help="gold pairs to process (0=all)")
+    ap.add_argument("--exclude", type=Path, action="append", default=[],
+                    help="TSV(s) with en/fr columns; pairs already known, skip")
     args = ap.parse_args()
 
     matcher = load_matcher(args.bench_dir)
@@ -91,6 +93,12 @@ def main():
     args.out_dir.mkdir(parents=True, exist_ok=True)
     out = args.out_dir / "expansion-verified.tsv"
     seen: set[tuple[str, str]] = set()
+    for ex in args.exclude:
+        with open(ex, encoding="utf-8") as f:
+            for r in csv.DictReader(f, delimiter="\t"):
+                seen.add((r["en"], r["fr"]))
+    if seen:
+        print(f"excluding {len(seen)} already-known pairs")
     n_strict = n_pass = n_tested = 0
     t0 = time.time()
     with open(out, "w", encoding="utf-8") as f:
