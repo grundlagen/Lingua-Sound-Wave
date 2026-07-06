@@ -30,6 +30,10 @@ def main():
     ap.add_argument("--max-tgt", type=int, default=96)
     ap.add_argument("--curriculum", action="store_true",
                     help="train stage 1 -> 2 -> 3 sequentially")
+    ap.add_argument("--save-steps", type=int, default=2000,
+                    help="save checkpoint every N steps (default: 2000)")
+    ap.add_argument("--fp16", action="store_true",
+                    help="use fp16 mixed precision (GPU only)")
     args = ap.parse_args()
 
     from datasets import load_dataset
@@ -54,15 +58,22 @@ def main():
         part = ds.filter(lambda r: r["stage"] == stage) if stage else ds
         part = part.shuffle(seed=13).map(prep, batched=True,
                                          remove_columns=part.column_names)
+        import torch as _torch
+        use_cpu = not _torch.cuda.is_available()
+        gpu_ok = not use_cpu
         cfg = Seq2SeqTrainingArguments(
             output_dir=str(args.out),
             num_train_epochs=args.epochs,
             learning_rate=args.lr,
             per_device_train_batch_size=args.batch,
             gradient_accumulation_steps=args.grad_accum,
-            bf16=True,
+            bf16=gpu_ok and not args.fp16,
+            fp16=gpu_ok and args.fp16,
+            use_cpu=use_cpu,
             logging_steps=50,
-            save_strategy="epoch",
+            save_strategy="steps" if args.save_steps else "epoch",
+            save_steps=args.save_steps or None,
+            save_total_limit=3,
             lr_scheduler_type="cosine",
             warmup_ratio=0.03,
             report_to="none",
