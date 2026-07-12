@@ -23,3 +23,17 @@ RESULTS.tsv row); adaptive keep_thresh (starts 0.42, anneals to 0.35 floor when 
 round keeps nothing, ratchets up to the target as the model improves) — unblocks
 the cold-start stall. Next Colab run on the dual corpus will warm-start into
 lingua-ckpt, self-measure, and actually learn past round 0.
+
+## session @ 2026-07-12 (web, branch claude/homophone-writer-upgrade-sj1cx0)
+- previous branch merged+deleted; branch restarted from main per workflow.
+- env: CPU-only box; judge smoke OK (combo=1.000); fixed 40 hardcoded
+  /home/mint paths; restored adversarial strict_judge.py (merge had clobbered
+  it with the gate script, now strict_gate.py).
+- queue #1 DONE: calibrate_channels.py reruns clean — logistic AUC 0.795 vs
+  geo 0.786, strict gold-rate 53.3% vs 52.7%; channel-calibration.json fresh.
+- stage 2 DONE: build_ladder_json.py -> ladder-words.jsonl (93k words).
+- stages 3+4 deterministic DONE: inflect_expand.py -> inflection-pairs.tsv,
+  +4,811 DUAL-S (3,792 non-cognate) / +20,211 DUAL-A; corpus now 179k rows.
+- NEW: fable_writer.py — judge-verified fable-scale writer (anthropic/ollama/
+  in-the-loop backends); demo bench 3/6 lines VERIFIED (ledger §H).
+- next for GPU box: retrain on enlarged corpus; regen node-vecs for senses[].
