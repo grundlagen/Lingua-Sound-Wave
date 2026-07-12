@@ -50,9 +50,10 @@ doesn't fit, sense clusters, routes to other words. No cross-language content.
 | routes / hubs / paths to other words | `routes.py`, `hoproute.py` |
 | synonym chains | `chain_game.py`, MUSE vectors in `weave.py` |
 
-Remaining work: emit one ladder JSON per word
-(`{word, lang, homonyms[], synonyms[], senses[], routes[]}`) so stages 3 and 5
-consume a single context object. A homonym is a free semantic pivot: if *sea*
+✅ Done (2026-07-12): `build_ladder_json.py` → `ladder-words.jsonl` (93k words,
+gitignored, regenerates in ~30s) — homonyms/synonyms/routes/pairs wired from
+the extant TSVs; `senses[]` stays empty (`senses_pending`) until the node-vec
+cache is regenerated on a GPU box. A homonym is a free semantic pivot: if *sea*
 doesn't fit the line, *see* occupies the same sound cell and reopens meaning.
 
 ## Stage 3 — carve training (the GPU stage; EN and FR expanded independently)
