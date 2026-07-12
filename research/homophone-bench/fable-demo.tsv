@@ -1,0 +1,32 @@
+idx	src	cand	combo	lexique	meaning	change	tier	kept
+0	A hungry fox saw fine grapes.	Âne on gris phoque sot faïne grappe.	0.6	0.857			PARTIAL	False
+0	A hungry fox saw fine grapes.	Ah, un gris fossé, fine grappe.	0.539	1.0			PARTIAL	False
+0	A hungry fox saw fine grapes.	Âne gris, faux, ce fut fine grappe.	0.537	1.0			PARTIAL	False
+0	A hungry fox saw fine grapes.	Âne heureux gris, fausse eau, fine grappe.	0.526	1.0			PARTIAL	False
+0	A hungry fox saw fine grapes.	Un ogre y fut, oh, ces fines grappes.	0.52	1.0			PARTIAL	False
+0	A hungry fox saw fine grapes.	Un hongrois phoque sa fine grappe.	0.509	1.0			PARTIAL	False
+1	They hung high on the vine.	Dès han, aïe, on devine.	0.514	1.0			PARTIAL	False
+1	They hung high on the vine.	Dès on gain, aïe, on devine.	0.484	1.0			PARTIAL	False
+1	They hung high on the vine.	Dès qu'on gagne, aïe, on devine.	0.48	1.0			PARTIAL	False
+1	They hung high on the vine.	Des hongres, aïe, ont la vigne.	0.422	1.0			FAIL	False
+1	They hung high on the vine.	Des anges y ont la vigne.	0.418	1.0			FAIL	False
+1	They hung high on the vine.	Dé, on gaie, on la vigne.	0.416	0.833			GATED	False
+2	He leapt for the fruit,	Il est apte, fort de fruits.	0.631	1.0			VERIFIED	True
+2	He leapt for the fruit,	Il happe, te fort, deux fruits.	0.563	1.0			PARTIAL	False
+2	He leapt for the fruit,	Il est prêt, fort du fruit.	0.56	1.0			PARTIAL	False
+2	He leapt for the fruit,	Hisse, l'apte forte, du fruit.	0.526	1.0			PARTIAL	False
+3	but he fell short.	Botte, y fêle, chaude.	0.676	1.0			VERIFIED	True
+3	but he fell short.	But, il fêle, se ôte.	0.592	1.0			PARTIAL	False
+3	but he fell short.	Botte, il fêla, chute.	0.587	1.0			PARTIAL	False
+3	but he fell short.	Bah, il ferra sa chute.	0.519	1.0			PARTIAL	False
+4	So he walked away and said:	Sceau, il vaque tout à ouais, en cède.	0.602	1.0			VERIFIED	True
+4	So he walked away and said:	Sceau, il vaqua, ouais, en cède.	0.592	1.0			PARTIAL	False
+4	So he walked away and said:	Sot, il ouata, ouais, en cède.	0.585	1.0			PARTIAL	False
+4	So he walked away and said:	Sot, il vogua tout ouest, en cède.	0.567	1.0			PARTIAL	False
+4	So he walked away and said:	Sot, il ouata, ouais, ainsi dit.	0.483	1.0			PARTIAL	False
+5	they are sour anyway.	Des arts saoulaient, ni ouais.	0.553	1.0			PARTIAL	False
+5	they are sour anyway.	Des arts saouleraient ni ouais.	0.545	1.0			PARTIAL	False
+5	they are sour anyway.	Des arts si sourds, et ni ouais.	0.484	1.0			PARTIAL	False
+5	they are sour anyway.	Des arts sourds, Annie, ouais.	0.478	0.8			PARTIAL	False
+5	they are sour anyway.	Des ars sourds, à Nice, ouais.	0.476	0.667			PARTIAL	False
+5	they are sour anyway.	Des eaux sourdes, Annie, ouais.	0.429	0.8			GATED	False

@@ -128,3 +128,22 @@ Windows demo (B17/A9 live): sat at≈s'hâte · at the door≈s'adorent · door 
 *Verified flagship line so far:*
 > the dog at the door made me cry → **le dogue hâtent le dors faite mi cris** (0.56/0.66)
 > one day we shall cross the sea → **une dé oui châle cross le si** (0.76/0.51)
+
+## H. fable_writer — judge-verified whole-fable proposer loop (2026-07-12)
+
+Rupert's one-shot idea (LLM rewrites a whole fable to sound like the source)
+made repo-lawful in `fable_writer.py`: split into breath-lines (≤8 words),
+LLM proposes K per line (backends: anthropic / ollama / `file` for a Claude
+session in the proposer role), combo judges, Lexique gates, only
+VERIFIED(≥0.60)+ lines are assembled — failures stay bracketed in the output.
+
+Bench (Fox & Grapes 6-line demo, Claude-in-the-loop proposer, 3 bend rounds):
+**3/6 VERIFIED** (0.631 / 0.676 / 0.602), best misses 0.600 / 0.553 / 0.514 —
+matches the ~50–66% sentence-scope law (DUAL_SCALE.md). Observations:
+- Lexique gate never the bottleneck for a careful proposer (24/26 passed);
+  sound at sentence length is, as always.
+- espeak EN is rhotic: *sour* = /saʊɚɹ/ — FR ‑r‑ words (saoulaient ≠ saoura)
+  score better than the eye expects; show the proposer the IPA (the script's
+  bend loop does).
+- /aɪ/-heavy lines (*hung high on the vine*) plateau ~0.51: French has no
+  /aɪ/ in open syllables — candidate for the diphthong-decomposition route (A2).
