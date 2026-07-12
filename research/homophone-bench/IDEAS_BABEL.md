@@ -147,3 +147,25 @@ matches the ~50–66% sentence-scope law (DUAL_SCALE.md). Observations:
   bend loop does).
 - /aɪ/-heavy lines (*hung high on the vine*) plateau ~0.51: French has no
   /aɪ/ in open syllables — candidate for the diphthong-decomposition route (A2).
+
+## I. Inflection expansion (stage 3 deterministic + stage 4 filter) — RUN (2026-07-12)
+
+`inflect_expand.py`: every non-identity gold pair at trusted tiers
+(DUAL-S/S/STRICT-GOLD/GOLD/A/LOOP*, 8,617 seeds), both sides expanded through
+full inflection tables — FR from Lexique383 `lemme`, EN from UniMorph eng —
+Zipf-top-6 variants per side, every new cross-product judged by the combo
+(batched espeak, spot-verified 8/8 identical to matcher.g2p path).
+
+**Result: 71,280 candidates → 25,022 verified new pairs**
+(**+4,811 DUAL-S**, 3,792 non-cognate; +20,211 DUAL-A), deduped against the
+118k-row ladder → `inflection-pairs.tsv`. DUAL-S bank grows 9,231 → ~14k
+(+52%) with zero LLM calls — the PIPELINE.md build-order #3 prediction
+("inflections of proven words are the highest-probability new homophones")
+confirmed. Non-cognate DUAL-S wired into `build_train_corpus.py`
+(source=inflect-expand; corpus 167,993 → 179,368 rows).
+
+Honest residue: gold rows whose EN side is itself French (MUSE noise, e.g.
+*cher*) are gated by requiring the EN word in UniMorph, but a few
+high-frequency leaks (Cher-the-name class) survive; the strict judge should
+re-screen before any DUAL-S claim is published. Cognates are flagged
+(`cognate=1`), never silently kept.

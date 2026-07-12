@@ -60,6 +60,21 @@ def main():
             n += 1
     print(f"dual_word: {n}")
 
+    # 1b. inflection-expansion survivors (inflect_expand.py, judge-verified)
+    n = 0
+    try:
+        for i, line in enumerate(open("inflection-pairs.tsv", encoding="utf-8")):
+            if i == 0:
+                continue
+            p = line.rstrip("\n").split("\t")
+            if len(p) >= 5 and p[3] == "DUAL-S" and p[4] == "0":
+                add("dual_word", P_DUAL.format(en=p[0]), p[1],
+                    sound=p[2], meaning="", tier=p[3], source="inflect-expand")
+                n += 1
+    except FileNotFoundError:
+        pass
+    print(f"dual_word (inflection survivors): {n}")
+
     # 2. reverse direction
     n = 0
     for i, line in enumerate(open("dual-pairs-fr2en.tsv", encoding="utf-8")):
