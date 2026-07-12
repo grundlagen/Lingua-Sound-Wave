@@ -14,7 +14,7 @@ import torch.nn as nn
 import torch.optim as optim
 import json, random, os
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ── Load training data ──
 with open("train-homophonic-full.jsonl") as f:

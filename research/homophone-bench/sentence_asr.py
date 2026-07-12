@@ -19,7 +19,7 @@ Run: python sentence_asr.py
 import subprocess, os, re, json
 import numpy as np
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 def tts(text, voice):
     r = subprocess.run(["espeak-ng","-q","--ipa","-v",voice,text],

@@ -12,7 +12,7 @@ Run: python bilingual_writer.py "the silent beauty of the endless sea remembers 
 import json, os, subprocess, sys
 from collections import defaultdict
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ── Load the 9,803-pair STRICT-GOLD model ──
 with open("strict-gold-training.jsonl") as f:

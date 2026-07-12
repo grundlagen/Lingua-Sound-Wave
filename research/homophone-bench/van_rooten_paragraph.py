@@ -31,7 +31,7 @@ RUN: python van_rooten_paragraph.py
 import subprocess, os, sys, pickle, math
 from collections import defaultdict
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ── Load the French bigram LM ──
 try:

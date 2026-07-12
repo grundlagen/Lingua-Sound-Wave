@@ -22,7 +22,7 @@ Run: python dual_agent_writer.py "the sea remembers every ship that ever sailed"
 import json, os, subprocess, sys
 from collections import defaultdict
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ═══════════════════════════════════════════════════════════════
 # MODEL A: Homophone Engine (6,143-pair lookup)

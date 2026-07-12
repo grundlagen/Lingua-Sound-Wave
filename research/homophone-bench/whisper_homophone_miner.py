@@ -12,7 +12,7 @@ RUN: python whisper_homophone_miner.py --n 100
 import subprocess, os, sys, tempfile, time, json, re
 from collections import defaultdict
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 def load_fr_sentences(n=200):
     """Load French sentences from corpus."""

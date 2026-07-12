@@ -2,7 +2,7 @@
 """Add function words from zipf-glue.tsv to Stage 1, rebuild with general word frequencies."""
 import json, os
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 print("STAGE 1+: ADDING FUNCTION WORDS + GENERAL FREQUENCIES")
 print("=" * 55)
 

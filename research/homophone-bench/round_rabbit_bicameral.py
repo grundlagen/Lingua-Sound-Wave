@@ -33,7 +33,7 @@ import argparse, os, random
 from collections import defaultdict, Counter
 import numpy as np
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 from topological_flow_v3 import build_polysemy_graph, STOP
 
 FUNC_GLUE = {

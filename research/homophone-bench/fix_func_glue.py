@@ -1,6 +1,6 @@
 # Fix: replace FUNC_GLUE literal translations with zipf-glue homophones
 import os, sys
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Build homophone lookup from zipf-glue
 FUNC_HOMOPHONE = {}

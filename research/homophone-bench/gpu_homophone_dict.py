@@ -36,7 +36,7 @@ except ImportError:
     HAS_GPU = False; SEM_MODEL = None
     print("No GPU/sentence-transformers. Running CPU-only.")
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ── TTS (multiprocessed) ──
 def tts_worker(args):

@@ -23,7 +23,7 @@ RUN: python strict_whisper.py --n 50 --model base
 import subprocess, os, sys, tempfile, time, json, re
 from collections import defaultdict
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ── English vocabulary fast-lookup ──
 EN_VOCAB = set()

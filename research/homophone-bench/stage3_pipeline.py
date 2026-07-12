@@ -18,7 +18,7 @@ import json, os, sys, subprocess, time, random
 from collections import defaultdict
 import numpy as np
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 print("STAGE 3: FULL PERIPHRASTIC PIPELINE")
 print("=" * 60)
 

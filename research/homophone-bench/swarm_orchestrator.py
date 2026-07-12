@@ -26,7 +26,7 @@ Run: python3 swarm_orchestrator.py
 import json, os, subprocess, sys
 from collections import defaultdict
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ═══════════════════════════════════════════════════════════════
 # SHARED DATA (all agents read, none write)

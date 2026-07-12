@@ -3,7 +3,7 @@
 import json, os, pickle
 from collections import defaultdict, Counter
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 print("STAGE 3+4: CROSS-LANGUAGE PHRASE MATCHING")
 print("=" * 55)
 

@@ -14,7 +14,7 @@ Run: python bidirectional_asr.py
 import subprocess, os, re, json
 from collections import defaultdict, Counter
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ── TTS functions ──
 def tts(text, voice):

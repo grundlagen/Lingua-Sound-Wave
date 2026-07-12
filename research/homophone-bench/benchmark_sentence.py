@@ -31,7 +31,7 @@ from collections import defaultdict
 from pathlib import Path
 
 # ── Config ──────────────────────────────────────────────────────────────
-BENCH_DIR = Path("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+BENCH_DIR = Path(__file__).resolve().parent
 os.chdir(BENCH_DIR)
 
 parser = argparse.ArgumentParser()

@@ -19,7 +19,7 @@ Run: python build_strictest_corpus.py
 import json, os, subprocess
 from collections import defaultdict
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ═══════════════════════════════════════════════════════════
 # LOAD ALL RESOURCES

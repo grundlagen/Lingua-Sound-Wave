@@ -18,7 +18,7 @@ import os, sys, json, subprocess, time
 from collections import defaultdict
 import numpy as np
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 print("STAGE 3: PERIPHRASTIC GENERATION ENGINE")
 print("=" * 55)
 

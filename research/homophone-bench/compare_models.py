@@ -2,7 +2,7 @@
 """Compare LSTM (13M) vs Transformer (45M) homophone models."""
 import torch, os, math
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ── Test words ──
 tests = ["beauty","ocean","silent","wandered","twilight","river","forest",

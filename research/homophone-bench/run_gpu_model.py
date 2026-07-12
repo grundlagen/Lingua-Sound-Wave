@@ -2,7 +2,7 @@
 """Run the GPU-trained 13M-param homophone model — correct key names."""
 import torch, torch.nn as nn, math, os
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 state = torch.load("homophone_model_gpu.pt", map_location="cpu", weights_only=False)
 SRC_C2I = state["src_c2i"]; TGT_C2I = state["tgt_c2i"]
 TGT_I2C = state["tgt_i2c"]; MAX_LEN = state["max_len"]

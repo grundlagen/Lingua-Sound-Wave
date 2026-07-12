@@ -3,7 +3,7 @@
 import torch, torch.nn as nn, math, json, subprocess, os, sys
 from collections import defaultdict
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ── Load GPU model ──
 state = torch.load("homophone_model_gpu.pt", map_location="cpu", weights_only=False)

@@ -14,7 +14,7 @@ RUN: python whisper_asr_demo.py
 
 import subprocess, os, sys, tempfile, time
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ── French test phrases ──
 FRENCH_TESTS = [

@@ -7,7 +7,7 @@ Used by Stage 3 for generation.
 import json, os, pickle
 from collections import defaultdict
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 print("STAGE 2: FULL MEANING WEB (rebuild)")
 
 # Load Stage 1

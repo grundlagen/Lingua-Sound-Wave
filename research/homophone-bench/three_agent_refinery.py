@@ -24,7 +24,7 @@ Run: python three_agent_refinery.py
 import json, os, random
 from collections import defaultdict
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ═══════════════════════════════════════════════════════════════
 # LOAD RESOURCES

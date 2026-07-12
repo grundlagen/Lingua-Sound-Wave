@@ -3,7 +3,7 @@
 import json, os
 from collections import Counter
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Load all pairs
 with open("train-homophonic-full.jsonl") as f:

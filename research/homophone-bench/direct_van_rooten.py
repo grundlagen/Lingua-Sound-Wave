@@ -10,7 +10,7 @@ This answers: "Can we make Van Rooten paragraphs from our database alone?"
 import subprocess, os, sys, json
 from collections import defaultdict
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ── Load gold database (word-level) ──
 gold = defaultdict(list)  # en_word → [(fr_word, sound_score), ...]

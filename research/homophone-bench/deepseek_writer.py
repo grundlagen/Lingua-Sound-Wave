@@ -17,7 +17,7 @@ Run: python3 deepseek_writer.py "the ocean remembers every vessel"
 import json, os, subprocess, sys
 from collections import defaultdict
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ── Load lookup DB (fast, verified) ──
 with open("strict-gold-training.jsonl") as f:

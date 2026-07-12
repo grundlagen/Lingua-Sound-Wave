@@ -2,7 +2,7 @@
 """Build full training corpus from ALL gold pairs, then train."""
 import json, os
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 all_pairs = []
 

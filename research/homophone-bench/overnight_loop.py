@@ -2,7 +2,7 @@
 """Overnight periphrastic generator — runs continuously, saves every 500 phrases."""
 import json, os, random, time
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Load Stage 1 lookup
 lookup = {}

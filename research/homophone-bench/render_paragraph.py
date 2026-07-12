@@ -3,7 +3,7 @@
 import os, sys
 from collections import defaultdict, Counter
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ".")
 
 # Reuse the graph builder from topological_flow_v3

@@ -22,7 +22,7 @@ import subprocess, os, re, json
 from collections import defaultdict, Counter
 import numpy as np
 
-os.chdir("/home/mint/Lingua-Sound-Wave/research/homophone-bench")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ── TTS ──
 def tts(text, voice):
