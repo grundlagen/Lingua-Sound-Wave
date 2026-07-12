@@ -42,6 +42,8 @@ def load_classes(path, lang, homo):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="ladder-words.jsonl")
+    ap.add_argument("--include-dual-b", action="store_true",
+                    help="include the noisy DUAL-B identity bucket in the vocabulary")
     args = ap.parse_args()
 
     # vocabulary + cross-language pairs from the tier ladder
@@ -54,10 +56,12 @@ def main():
         if len(p) < 4 or not p[1] or not p[2]:
             continue
         rank, en, fr, tier = p[0], p[1].lower(), p[2].lower(), p[3]
-        vocab.add(("en", en))
-        vocab.add(("fr", fr))
         pairs[("en", en)].append((fr, tier, rank))
         pairs[("fr", fr)].append((en, tier, rank))
+        if tier == "DUAL-B" and not args.include_dual_b:
+            continue      # MUSE identity noise: pairs recorded, vocab not grown
+        vocab.add(("en", en))
+        vocab.add(("fr", fr))
 
     # homonyms (same sound, same language)
     homo: dict[tuple[str, str], set] = defaultdict(set)

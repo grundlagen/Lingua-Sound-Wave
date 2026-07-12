@@ -69,3 +69,4 @@ vendor/
 
 # env / secrets
 .env
+ladder-words.jsonl
