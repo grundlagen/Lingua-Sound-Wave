@@ -3,3 +3,4 @@ panphon
 # system: espeak-ng and ffmpeg on PATH
 # optional, for the allosaurus-nw baseline: allosaurus + torch (CPU)
 wordfreq
+pylexique   # Lexique 3.83: POS/gender/number for sentence_former

@@ -21,6 +21,9 @@ on env; DEAD = measured worse, kept for the record._
 | Haiku bridge/kenning/metonym/antonym miner (judge-verified) | `llm_bridge.py` |
 
 ## READY (run on demand, current)
+sentence former — POS grammar + agreement/elision/fusion repairs + juncture
+rescore (`sentence_former.py`, Lexique 3.83 via pylexique; `SENTENCE_FORMER.md`) ·
+sentence self-improve loop over corpus-phrases DB (`sentence_selfimprove.py`) ·
 strict/hard judging (`strict_judge.py`, `hard_judge.py`) · self-improvement
 loop (`self_improve.py`) · tier ladder build (`tier_ladder.py`) · dual miners
 EN→FR/FR→EN/ES (`dual_mine.py`, `babel_es.py`) · training corpus
