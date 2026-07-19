@@ -34,6 +34,10 @@ Usage:
     python fable_writer.py --demo --backend file --proposals proposals.tsv
     python fable_writer.py fable.txt --backend anthropic --mode fr
     python fable_writer.py fable.txt --backend ollama --model llama3 --mode en
+    # batch (the fable-five loop): input/fable_1..N.txt -> output/homophonic_fable_N.txt
+    python fable_writer.py --batch --mode en --emit-prompts   # then fill
+    #   output/proposals-fable_N.tsv (idx<TAB>candidate) and re-run:
+    python fable_writer.py --batch --mode en
 """
 from __future__ import annotations
 
@@ -202,10 +206,13 @@ def call_ollama(prompt: str, model: str) -> str:
     return out["message"]["content"]
 
 
-def propose(lines: list[str], args) -> dict[int, list[str]]:
+def propose(lines: list[str], args, proposals_path: str) -> dict[int, list[str]]:
     props: dict[int, list[str]] = {i: [] for i in range(len(lines))}
     if args.backend == "file":
-        for raw in open(args.proposals, encoding="utf-8"):
+        if not os.path.exists(proposals_path):
+            print(f"  (no proposals file {proposals_path} — emit prompts, answer, re-run)")
+            return props
+        for raw in open(proposals_path, encoding="utf-8"):
             raw = raw.rstrip("\n")
             if not raw or raw.startswith("#"):
                 continue
@@ -229,32 +236,12 @@ def propose(lines: list[str], args) -> dict[int, list[str]]:
         print(f"  proposed {len(props[i])} for line {i}: {line}", file=sys.stderr)
     return props
 
-# ---------------------------------------------------------------- main
+# ---------------------------------------------------------------- run
 
-def main() -> None:
-    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("fable", nargs="?", help="path to fable .txt (or --demo)")
-    ap.add_argument("--demo", action="store_true", help="use the built-in PD Aesop demo fable")
-    ap.add_argument("--mode", choices=["fr", "en"], default="fr")
-    ap.add_argument("--backend", choices=["anthropic", "ollama", "file"], default="file")
-    ap.add_argument("--model", default="claude-sonnet-5", help="anthropic model id or ollama model name")
-    ap.add_argument("--k", type=int, default=5, help="candidates per line")
-    ap.add_argument("--proposals", default="proposals.tsv", help="file backend: idx<TAB>candidate")
-    ap.add_argument("--one-shot", action="store_true", help="whole-fable single call (benchmark vs per-line)")
-    ap.add_argument("--emit-prompts", action="store_true", help="print per-line prompts for an in-the-loop proposer, then exit")
-    ap.add_argument("--out", default="fable-out")
-    args = ap.parse_args()
-
-    text = DEMO_FABLE if args.demo else open(args.fable, encoding="utf-8").read()
+def run_one(text: str, args, proposals_path: str, out_txt: str, out_tsv: str):
+    """Judge one fable's proposals; write verified text + audit TSV."""
     lines = breath_lines(text)
-
-    if args.emit_prompts:
-        tmpl = PROMPT_FR if args.mode == "fr" else PROMPT_EN
-        for i, line in enumerate(lines):
-            print(f"### line {i}\n{tmpl.format(k=args.k, line=line)}\n")
-        return
-
-    props = propose(lines, args)
+    props = propose(lines, args, proposals_path)
 
     rows, assembled = [], []
     for i, line in enumerate(lines):
@@ -269,19 +256,82 @@ def main() -> None:
         print(f"[{i}] {tag:<8} {line!r} -> {top['cand'] if top else '(no proposals)'!r}"
               + (f"  combo={top['combo']}" if top else ""))
 
-    with open(f"{args.out}.tsv", "w", encoding="utf-8") as f:
+    with open(out_tsv, "w", encoding="utf-8") as f:
         cols = ["idx", "src", "cand", "combo", "lexique", "meaning", "change", "tier", "kept"]
         f.write("\t".join(cols) + "\n")
         for r in rows:
             f.write("\t".join(str(r.get(c, "")) for c in cols) + "\n")
-    with open(f"{args.out}.txt", "w", encoding="utf-8") as f:
+    with open(out_txt, "w", encoding="utf-8") as f:
         f.write("\n".join(assembled) + "\n")
 
     kept = sum(1 for a in assembled if not a.startswith("[unverified"))
     strong = sum(1 for r in rows if r["kept"] and r["tier"] == "STRONG")
-    print(f"\n{kept}/{len(lines)} lines verified ({strong} STRONG) "
+    return kept, len(lines), strong
+
+
+def emit_prompts(lines: list[str], mode: str, k: int, header: str = "") -> None:
+    tmpl = PROMPT_FR if mode == "fr" else PROMPT_EN
+    for i, line in enumerate(lines):
+        print(f"### {header}line {i}\n{tmpl.format(k=k, line=line)}\n")
+
+# ---------------------------------------------------------------- main
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("fable", nargs="?", help="path to fable .txt (or --demo)")
+    ap.add_argument("--demo", action="store_true", help="use the built-in PD Aesop demo fable")
+    ap.add_argument("--mode", choices=["fr", "en"], default="fr")
+    ap.add_argument("--backend", choices=["anthropic", "ollama", "file"], default="file")
+    ap.add_argument("--model", default="claude-sonnet-5", help="anthropic model id or ollama model name")
+    ap.add_argument("--k", type=int, default=5, help="candidates per line")
+    ap.add_argument("--proposals", default="proposals.tsv", help="file backend: idx<TAB>candidate")
+    ap.add_argument("--one-shot", action="store_true", help="whole-fable single call (benchmark vs per-line)")
+    ap.add_argument("--emit-prompts", action="store_true", help="print per-line prompts for an in-the-loop proposer, then exit")
+    ap.add_argument("--out", default="fable-out")
+    ap.add_argument("--batch", action="store_true",
+                    help="process input-dir/fable_*.txt -> output-dir/homophonic_<stem>.txt")
+    ap.add_argument("--input-dir", default="input")
+    ap.add_argument("--output-dir", default="output")
+    args = ap.parse_args()
+
+    if args.batch:
+        import glob
+        os.makedirs(args.output_dir, exist_ok=True)
+        fables = sorted(glob.glob(os.path.join(args.input_dir, "fable_*.txt")))
+        if not fables:
+            print(f"no fable_*.txt in {args.input_dir}/")
+            return
+        totals = []
+        for path in fables:
+            stem = os.path.splitext(os.path.basename(path))[0]
+            text = open(path, encoding="utf-8").read()
+            if args.emit_prompts:
+                emit_prompts(breath_lines(text), args.mode, args.k, header=f"{stem} ")
+                continue
+            print(f"-- {stem} --")
+            kept, total, strong = run_one(
+                text, args,
+                os.path.join(args.output_dir, f"proposals-{stem}.tsv"),
+                os.path.join(args.output_dir, f"homophonic_{stem}.txt"),
+                os.path.join(args.output_dir, f"homophonic_{stem}.tsv"))
+            totals.append((stem, kept, total, strong))
+            print(f"[✔] {kept}/{total} verified ({strong} STRONG) -> "
+                  f"{args.output_dir}/homophonic_{stem}.txt")
+        if totals:
+            k = sum(t[1] for t in totals)
+            n = sum(t[2] for t in totals)
+            print(f"\nbatch: {k}/{n} lines verified across {len(totals)} fables")
+        return
+
+    text = DEMO_FABLE if args.demo else open(args.fable, encoding="utf-8").read()
+    if args.emit_prompts:
+        emit_prompts(breath_lines(text), args.mode, args.k)
+        return
+    kept, total, strong = run_one(text, args, args.proposals,
+                                  f"{args.out}.txt", f"{args.out}.tsv")
+    print(f"\n{kept}/{total} lines verified ({strong} STRONG) "
           f"-> {args.out}.txt / {args.out}.tsv")
-    if kept < len(lines):
+    if kept < total:
         print("unverified lines stay bracketed — propose again for those indices only")
 
 

@@ -1,0 +1,15 @@
+idx	src	cand	combo	lexique	meaning	change	tier	kept
+0	A hungry fox saw fine grapes.	Uh, hung grief ox, saw fine crepes.	0.92			0.714	STRONG	True
+0	A hungry fox saw fine grapes.	A hung, grief ox, sore fine drapes.	0.899			0.714	STRONG	False
+0	A hungry fox saw fine grapes.	A hung reef ox sore fine drapes.	0.857			0.714	STRONG	False
+1	He leapt high,	Heal upped hi,	0.892			1.0	STRONG	True
+1	He leapt high,	Heal apt high,	0.887			0.667	STRONG	False
+1	He leapt high,	Heel apt eye,	0.796			1.0	STRONG	False
+2	but he fell short.	Butt he felled shored.	0.781			0.75	STRONG	True
+2	but he fell short.	Butt heave ell shored.	0.755			1.0	STRONG	False
+3	He walked away and said:	Hue walked a whey and zed:	0.853			0.667	STRONG	True
+3	He walked away and said:	He wok the way, an said:	0.769			0.667	STRONG	False
+3	He walked away and said:	Hue wok too weigh, ants head:	0.683			1.0	VERIFIED	False
+4	they are sour.	Day arse hour.	0.874			1.0	STRONG	True
+4	they are sour.	Day arse our.	0.874			1.0	STRONG	False
+4	they are sour.	Day are sore.	0.678			0.667	VERIFIED	False

@@ -1,0 +1,9 @@
+idx	src	cand	combo	lexique	meaning	change	tier	kept
+0	A boy cried wolf for fun.	A buoy cried wool, four fun.	0.927			0.5	PARTIAL	False
+0	A boy cried wolf for fun.	Uh buoy cried wool four fun.	0.872			0.667	STRONG	True
+1	The town ran to help him twice.	The down rant two whelp hymn twice.	0.867			0.714	STRONG	True
+1	The town ran to help him twice.	The down rant who whelped hymn twice.	0.848			0.714	STRONG	False
+2	Then a real wolf came.	Zen a reel wool of came.	0.795			0.667	STRONG	True
+2	Then a real wolf came.	Zen, uh, reel wool came.	0.757			0.8	STRONG	False
+3	No one came to help.	Know one came, too, whelp.	0.89			0.6	STRONG	True
+3	No one came to help.	Noah won came two whelp.	0.843			0.8	STRONG	False

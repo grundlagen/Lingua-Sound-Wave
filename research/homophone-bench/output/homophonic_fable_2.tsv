@@ -1,0 +1,10 @@
+idx	src	cand	combo	lexique	meaning	change	tier	kept
+0	The hare mocked the slow tortoise.	The heir mocked the sloe tortes.	0.882			0.6	STRONG	True
+0	The hare mocked the slow tortoise.	Duh air mocked this low tort is.	0.764			0.857	STRONG	False
+1	They ran a race.	Dray ran array's.	0.706			0.667	VERIFIED	True
+1	They ran a race.	Day rang array's.	0.658			1.0	VERIFIED	False
+1	They ran a race.	Day rang uh raise.	0.653			1.0	VERIFIED	False
+2	The hare slept by the road.	The heirs leapt bye the rode.	0.884			0.8	STRONG	True
+2	The hare slept by the road.	The heir slapped bye the rowed.	0.881			0.8	STRONG	False
+3	The tortoise won the race.	The tort is one, the raise.	0.813			0.8	STRONG	True
+3	The tortoise won the race.	Duh tortes one the rays.	0.766			0.8	STRONG	False

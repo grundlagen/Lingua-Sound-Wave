@@ -169,3 +169,17 @@ Honest residue: gold rows whose EN side is itself French (MUSE noise, e.g.
 high-frequency leaks (Cher-the-name class) survive; the strict judge should
 re-screen before any DUAL-S claim is published. Cognates are flagged
 (`cognate=1`), never silently kept.
+
+### §H addendum — batch mode + EN-mondegreen bench (same day)
+
+`--batch` added: `input/fable_1..N.txt → output/homophonic_fable_N.txt`
+(Rupert's fable-five loop, judge in the middle). Five short PD Aesop fables,
+`--mode en` (surreal English mondegreen; gates = combo + ≥60% surface change),
+Claude-in-the-loop proposer, ~2-3 candidates/line:
+
+**21/21 lines VERIFIED, 20 STRONG** (combo 0.71-0.96; e.g. *She dropped
+stones in one by one → She drops tones inn, won by won* 0.963). Monolingual
+scope is dramatically easier than cross-language (same phoneme inventory,
+espeak's own voice both sides) — a measured confirmation of the scope law's
+cross-language penalty, and a ceiling reference for what the FR channel
+"loses" to phonology mismatch (~0.25-0.35 combo at sentence length).

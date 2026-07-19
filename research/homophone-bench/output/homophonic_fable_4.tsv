@@ -1,0 +1,9 @@
+idx	src	cand	combo	lexique	meaning	change	tier	kept
+0	A mouse woke a sleeping lion.	A moss oak us leaping lion.	0.84			0.667	STRONG	True
+0	A mouse woke a sleeping lion.	Amos woke us leaping lie on.	0.787			0.833	STRONG	False
+1	The lion spared the small mouse.	The lie on spared this mall moss.	0.856			0.714	STRONG	True
+1	The lion spared the small mouse.	Duh lie on spared this mall moss.	0.778			0.857	STRONG	False
+2	Later the mouse gnawed the net.	Lay tore the moss, gnawed the gnat.	0.792			0.667	STRONG	True
+2	Later the mouse gnawed the net.	Later the moss nod the gnat.	0.783			0.6	STRONG	False
+3	The lion ran free.	The lie on ran fee.	0.858			0.6	STRONG	True
+3	The lion ran free.	Duh lie on ran fee.	0.733			0.8	VERIFIED	False

@@ -1,0 +1,10 @@
+idx	src	cand	combo	lexique	meaning	change	tier	kept
+0	A thirsty crow found a pitcher.	A thirst tea crow fount a picture.	0.893			0.667	STRONG	True
+0	A thirsty crow found a pitcher.	Uh, Thursday crow found uh picture.	0.753			0.6	STRONG	False
+1	The water lay too low.	The warder lei two lo.	0.942			0.8	STRONG	True
+1	The water lay too low.	The daughter lei two lows.	0.862			0.8	STRONG	False
+1	The water lay too low.	Duh warder lay two low.	0.826			0.6	STRONG	False
+2	She dropped stones in one by one.	She drops tones inn, won by won.	0.963			0.667	STRONG	True
+2	She dropped stones in one by one.	Shed rapt tones in: won bye won.	0.867			0.833	STRONG	False
+3	The water rose and she drank.	The warder rows, ant she'd rank.	0.918			0.833	STRONG	True
+3	The water rose and she drank.	The warder rose an shed rank.	0.871			0.667	STRONG	False
